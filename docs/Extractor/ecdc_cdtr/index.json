@@ -1,0 +1,402 @@
+[
+  {
+    "id": "surveillance-2026-01-30-cdtr-week-5-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-01-30-cdtr-week-5.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2026-01-23-cdtr-week-4-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-01-23-cdtr-week-4.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2026-01-16-cdtr-week-3-md",
+    "title": "Communicable disease threats report, 10-16 January 2026, week 3",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-01-16-cdtr-week-3.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2026-01-09-cdtr-week-2-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-01-09-cdtr-week-2.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2025-12-19-cdtr-week-51-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2025-12-19-cdtr-week-51.md",
+    "source": "",
+    "severity": "**嚴重程度**：中等",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2025-12-12-cdtr-week-50-md",
+    "title": "Communicable disease threats report, 6-12 December 2025, week 50",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2025-12-12-cdtr-week-50.md",
+    "source": "- **來源**: ECDC CDTR",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2025-12-05-cdtr-week-49-md",
+    "title": "Communicable disease threats report, 29 November - 5 December 2025, week 49",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2025-12-05-cdtr-week-49.md",
+    "source": "- **來源**: ECDC CDTR",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2025-11-28-cdtr-week-48-md",
+    "title": "Communicable disease threats report, 22 - 28 November 2025, week 48",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2025-11-28-cdtr-week-48.md",
+    "source": "- **來源**: ECDC CDTR",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2025-11-21-cdtr-week-47-md",
+    "title": "Communicable disease threats report, 15 -21 November 2025, week 47",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2025-11-21-cdtr-week-47.md",
+    "source": "- **來源**: ECDC CDTR",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2025-11-14-cdtr-week-46-md",
+    "title": "Communicable disease threats report, 8 - 14 November 2025, week 46",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2025-11-14-cdtr-week-46.md",
+    "source": "- **來源**: ECDC CDTR",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "situational_update-2026-01-19-mpox-worldwide-overview-md",
+    "title": "Mpox worldwide overview",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/2026-01-19-mpox-worldwide-overview.md",
+    "source": "",
+    "severity": "- **嚴重程度**: 持續監測",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "situational_update-2026-01-12-mers-cov-worldwide-overview-md",
+    "title": "MERS-CoV worldwide overview",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/2026-01-12-mers-cov-worldwide-overview.md",
+    "source": "",
+    "severity": "- **嚴重程度**: 高 (病死率超過三分之一)",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "situational_update-2025-12-22-dengue-worldwide-overview-md",
+    "title": "Dengue worldwide overview",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/2025-12-22-dengue-worldwide-overview.md",
+    "source": "",
+    "severity": "- **嚴重程度**: 持續監測",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "situational_update-2025-12-22-chikungunya-worldwide-overview-md",
+    "title": "Chikungunya virus disease worldwide overview",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/2025-12-22-chikungunya-worldwide-overview.md",
+    "source": "",
+    "severity": "- **嚴重程度**: 持續監測",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "situational_update-2025-12-19-influenza-vaccine-effectiveness-md",
+    "title": "Early estimates of seasonal influenza vaccine effectiveness (Europe, 2025/26 season)",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/2025-12-19-influenza-vaccine-effectiveness.md",
+    "source": "",
+    "severity": "- **嚴重程度**: 需關注 (流感季提早且出現新亞分支)",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "situational_update-2025-12-05-mers-france-travellers-md",
+    "title": "Two cases of Middle East respiratory syndrome (MERS) in travellers returning to France from the Arabian Peninsula",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/2025-12-05-mers-france-travellers.md",
+    "source": "- **來源**: ECDC Communicable Disease Threats Report",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "situational_update-2025-11-26-joint-mpox-surveillance-bulletin-md",
+    "title": "Joint ECDC-WHO/Europe mpox surveillance bulletin",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/2025-11-26-joint-mpox-surveillance-bulletin.md",
+    "source": "- **來源**: ECDC Communicable Disease Threats Report",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "situational_update-2025-06-13-sars-cov2-nb181-variant-md",
+    "title": "Epidemiological update: SARS-CoV-2 and NB.1.8.1 variant assessment",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/2025-06-13-sars-cov2-nb181-variant.md",
+    "source": "- **來源**: ECDC Communicable Disease Threats Report",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "situational_update-2025-01-14-mpox-clade-i-update-md",
+    "title": "Epidemiological update, 14 January 2025: Mpox due to monkeypox virus clade I",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/2025-01-14-mpox-clade-i-update.md",
+    "source": "- **來源**: ECDC Communicable Disease Threats Report",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "situational_update-2024-12-18-respiratory-infections-winter-2024-md",
+    "title": "Acute respiratory infections in the EU/EEA: epidemiological update and current public health recommendations – winter 2024/2025",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/2024-12-18-respiratory-infections-winter-2024.md",
+    "source": "- **來源**: ECDC Communicable Disease Threats Report",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "risk_assessment-2025-11-20-influenza-a-h3n2-threat-md",
+    "title": "Threat Assessment Brief: Assessing the risk of influenza for the EU/EEA in the context of increasing circulation of A(H3N2) subclade K",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/2025-11-20-influenza-a-h3n2-threat.md",
+    "source": "- **來源**: ECDC Risk Assessment",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "risk_assessment-2025-10-23-salmonella-tomatoes-outbreak-md",
+    "title": "Prolonged multi-country outbreak of Salmonella Strathcona ST2559 linked to consumption of tomatoes in the European Union/European Economic Area – first update",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/2025-10-23-salmonella-tomatoes-outbreak.md",
+    "source": "- **來源**: ECDC Risk Assessment",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "risk_assessment-2025-03-06-salmonella-sprouted-seeds-md",
+    "title": "Rapid outbreak assessment - Prolonged cross-border multi-serovar Salmonella outbreak linked to consumption of sprouted seeds",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/2025-03-06-salmonella-sprouted-seeds.md",
+    "source": "- **來源**: ECDC Risk Assessment",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "risk_assessment-2024-11-12-salmonella-tomatoes-initial-md",
+    "title": "Rapid outbreak assessment – Prolonged multi-country outbreak of Salmonella Strathcona ST2559 linked to consumption of tomatoes in the EU/EEA and the UK",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/2024-11-12-salmonella-tomatoes-initial.md",
+    "source": "- **來源**: ECDC Risk Assessment",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "risk_assessment-2024-10-10-marburg-rwanda-threat-md",
+    "title": "Threat assessment brief - Implications of the Marburg virus disease outbreak in Rwanda for the EU/EEA, 2024",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/2024-10-10-marburg-rwanda-threat.md",
+    "source": "- **來源**: ECDC Risk Assessment",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "risk_assessment-2024-08-16-mpox-clade-i-africa-md",
+    "title": "",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/2024-08-16-mpox-clade-i-africa.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "risk_assessment-2024-08-09-oropouche-imported-eu-md",
+    "title": "",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/2024-08-09-oropouche-imported-eu.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "risk_assessment-2024-06-19-listeria-fish-products-md",
+    "title": "",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/2024-06-19-listeria-fish-products.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "risk_assessment-2024-04-25-listeria-smoked-salmon-md",
+    "title": "",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/2024-04-25-listeria-smoked-salmon.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "risk_assessment-2024-03-21-salmonella-chicken-outbreak-md",
+    "title": "",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/2024-03-21-salmonella-chicken-outbreak.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-01-30-ecdc-africa-cdc-training-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-01-30-ecdc-africa-cdc-training.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-01-29-nipah-india-low-risk-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-01-29-nipah-india-low-risk.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-01-29-ecdc-who-mou-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-01-29-ecdc-who-mou.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-01-28-infant-formula-recall-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-01-28-infant-formula-recall.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-01-27-cervical-cancer-awareness-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-01-27-cervical-cancer-awareness.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-01-27-avian-flu-dutch-cow-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-01-27-avian-flu-dutch-cow.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-01-27-accession-support-action-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-01-27-accession-support-action.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-01-23-health-security-initiative-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-01-23-health-security-initiative.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-01-19-mpox-overview-news-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-01-19-mpox-overview-news.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-01-19-doxycycline-sti-guidance-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-01-19-doxycycline-sti-guidance.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "policy-2026-02-05-spring-festival-travel-health-advisory-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-02-05-spring-festival-travel-health-advisory.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2026-02-03-cny-travel-disease-prevention-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-02-03-cny-travel-disease-prevention.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2026-02-03-avian-influenza-winter-prevention-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-02-03-avian-influenza-winter-prevention.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2026-01-27-nipah-virus-surveillance-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-01-27-nipah-virus-surveillance.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2026-01-27-flu-covid-vaccine-reminder-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-01-27-flu-covid-vaccine-reminder.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2026-01-20-winter-travel-health-advisory-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-01-20-winter-travel-health-advisory.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2026-01-20-flu-covid-vaccine-cny-reminder-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-01-20-flu-covid-vaccine-cny-reminder.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2026-01-15-pneumococcal-vaccine-upgrade-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-01-15-pneumococcal-vaccine-upgrade.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2026-01-15-flu-antiviral-expansion-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-01-15-flu-antiviral-expansion.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2026-01-13-flu-covid-vaccine-winter-reminder-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-01-13-flu-covid-vaccine-winter-reminder.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2026-01-06-temperature-flu-covid-vaccine-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-01-06-temperature-flu-covid-vaccine.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "medical_advisory-2026-01-27-nipah-virus-medical-alert-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2026-01-27-nipah-virus-medical-alert.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "medical_advisory-2026-01-15-pneumococcal-vaccine-medical-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2026-01-15-pneumococcal-vaccine-medical.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "medical_advisory-2026-01-15-flu-antiviral-medical-alert-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2026-01-15-flu-antiviral-medical-alert.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "medical_advisory-2026-01-01-covid-vaccine-expansion-medical-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2026-01-01-covid-vaccine-expansion-medical.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "medical_advisory-2025-11-20-enterovirus-death-case-alert-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2025-11-20-enterovirus-death-case-alert.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "medical_advisory-2025-11-12-flu-covid-vaccine-parents-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2025-11-12-flu-covid-vaccine-parents.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "medical_advisory-2025-10-23-flu-antiviral-extension-medical-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2025-10-23-flu-antiviral-extension-medical.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "medical_advisory-2025-10-01-flu-vaccine-dosage-clarification-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2025-10-01-flu-vaccine-dosage-clarification.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "medical_advisory-2025-09-25-flu-antiviral-expansion-typhoon-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2025-09-25-flu-antiviral-expansion-typhoon.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "medical_advisory-2025-09-22-post-typhoon-disease-alert-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2025-09-22-post-typhoon-disease-alert.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-01-30-hantavirus-first-case-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-01-30-hantavirus-first-case.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-smallpox-disease-info-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/smallpox-disease-info.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-sars-disease-info-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/sars-disease-info.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-rabies-disease-info-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/rabies-disease-info.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-plague-disease-info-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/plague-disease-info.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-mpox-disease-info-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/mpox-disease-info.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-dengue-disease-info-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/dengue-disease-info.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-chikungunya-disease-info-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/chikungunya-disease-info.md",
+    "source": "- **來源**：發燒患者的血清",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-01-27-flu-vaccine-k-variant-protection-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-01-27-flu-vaccine-k-variant-protection.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  }
+]
