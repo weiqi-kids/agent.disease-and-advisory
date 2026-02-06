@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>傳染病情報分析系統 | Disease Intelligence System</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 2rem;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 3rem; }
+        h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+        .subtitle { color: var(--text-muted); font-size: 1.1rem; }
+        .disclaimer {
+            background: #fef3c7;
+            border: 1px solid #f59e0b;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+        .card h2 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .card p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem; }
+        .card ul { list-style: none; }
+        .card li { padding: 0.3rem 0; }
+        .card a { color: var(--primary); text-decoration: none; }
+        .card a:hover { text-decoration: underline; }
+        .badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            padding: 0.15rem 0.4rem;
+            border-radius: 4px;
+            background: #dbeafe;
+            color: var(--primary);
+            margin-left: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+        footer a { color: var(--primary); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>傳染病情報分析系統</h1>
+            <p class="subtitle">Disease Intelligence System</p>
+        </header>
+
+        <div class="disclaimer">
+            <strong>免責聲明：</strong>
+            本系統由自動化程式生成，僅供參考用途。內容基於公開資訊來源，不構成醫療建議、官方政策或專業診斷。
+            使用者應自行驗證資訊並諮詢專業人士。
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h2>📊 週報</h2>
+                <p>每週傳染病威脅摘要</p>
+                <ul>
+                    <li><a href="Narrator/weekly_digest/">週報列表</a></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>🌍 WHO</h2>
+                <p>世界衛生組織疾病爆發新聞</p>
+                <ul>
+                    <li><a href="Extractor/who_disease_outbreak_news/">Disease Outbreak News</a></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>🇺🇸 US CDC</h2>
+                <p>美國疾病管制與預防中心</p>
+                <ul>
+                    <li><a href="Extractor/us_cdc_han/">Health Alert Network</a></li>
+                    <li><a href="Extractor/us_cdc_mmwr/">MMWR 週報</a></li>
+                    <li><a href="Extractor/us_travel_health_notices/">旅遊健康通知</a></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>🇪🇺 ECDC</h2>
+                <p>歐洲疾病預防控制中心</p>
+                <ul>
+                    <li><a href="Extractor/ecdc_cdtr/">CDTR 週報</a></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>🇬🇧 UKHSA</h2>
+                <p>英國健康安全局</p>
+                <ul>
+                    <li><a href="Extractor/uk_ukhsa_updates/">健康更新</a></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>🇹🇼 台灣 CDC</h2>
+                <p>衛生福利部疾病管制署</p>
+                <ul>
+                    <li><a href="Extractor/tw_cdc_alerts/">疫情警報</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <p>
+                <a href="https://github.com/weiqi-kids/agent.disease-and-advisory">GitHub</a> ·
+                資料自動更新 ·
+                Powered by Claude Code
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
