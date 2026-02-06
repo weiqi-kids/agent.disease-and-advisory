@@ -1,4 +1,4 @@
-name: Check Links
+name: Check and Fix Links
 
 on:
   # 在 Pages 部署完成後觸發
@@ -13,46 +13,91 @@ on:
     - cron: '0 6 * * 1'
 
 jobs:
-  check-links:
+  check-and-fix:
     runs-on: ubuntu-latest
-    # 只在 Pages 部署成功後執行，或手動/排程觸發
     if: |
       github.event_name == 'workflow_dispatch' ||
       github.event_name == 'schedule' ||
       github.event.workflow_run.conclusion == 'success'
 
+    permissions:
+      contents: write
+      issues: write
+
     steps:
       - uses: actions/checkout@v4
 
-      - name: Wait for Pages deployment
+      - name: Wait for Pages CDN
         if: github.event_name == 'workflow_run'
-        run: sleep 30  # 等待 CDN 更新
+        run: sleep 30
 
       - name: Check links with lychee
+        id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          # 使用 .lychee.toml 設定檔
           args: >-
             --config .lychee.toml
             --base 'https://weiqi-kids.github.io/agent.disease-and-advisory'
+            --format markdown
             'docs/**/*.md'
           output: lychee-report.md
-          fail: true
+          fail: false  # 不立即失敗，先嘗試修復
+
+      - name: Auto-fix broken links
+        id: fix
+        if: steps.lychee.outputs.exit_code != 0
+        run: |
+          chmod +x scripts/fix-broken-links.sh
+          if bash scripts/fix-broken-links.sh; then
+            echo "all_fixed=true" >> $GITHUB_OUTPUT
+          else
+            echo "all_fixed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit fixes
+        if: steps.fix.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          if git diff --cached --quiet; then
+            echo "No fixes to commit"
+          else
+            git commit -m "fix: auto-fix broken links
+
+            Co-Authored-By: github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+            git push
+            echo "✅ Fixes committed and pushed"
+          fi
 
       - name: Upload report
-        if: failure()
+        if: steps.fix.outputs.all_fixed == 'false'
         uses: actions/upload-artifact@v4
         with:
-          name: lychee-report
-          path: lychee-report.md
+          name: link-reports
+          path: |
+            lychee-report.md
+            unfixable-links.md
           retention-days: 7
 
-      - name: Create issue on failure
-        if: failure()
+      - name: Create issue for unfixable links
+        if: steps.fix.outputs.all_fixed == 'false'
         uses: peter-evans/create-issue-from-file@v5
         with:
-          title: '🔗 Broken links detected'
-          content-filepath: lychee-report.md
+          title: '🔗 無法自動修復的連結'
+          content-filepath: unfixable-links.md
           labels: |
             bug
             automated
+            needs-manual-fix
+
+      - name: Final status
+        run: |
+          if [[ "${{ steps.lychee.outputs.exit_code }}" == "0" ]]; then
+            echo "✅ 所有連結正常"
+          elif [[ "${{ steps.fix.outputs.all_fixed }}" == "true" ]]; then
+            echo "✅ 所有問題已自動修復"
+          else
+            echo "⚠️ 有無法自動修復的連結，已建立 Issue"
+            exit 1
+          fi
