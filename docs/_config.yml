@@ -1,0 +1,33 @@
+title: 傳染病情報分析系統
+description: Disease Intelligence System - 自動化傳染病情報收集與分析
+remote_theme: just-the-docs/just-the-docs
+
+# 搜尋設定
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+
+# 導航設定
+nav_enabled: true
+nav_sort: case_insensitive
+
+# 排除原始資料
+exclude:
+  - "**/raw/"
+  - "**/*.jsonl"
+  - "**/*.xml"
+  - "**/.DS_Store"
+
+# 中文支援
+lang: zh-TW
+
+# URL 設定
+baseurl: "/agent.disease-and-advisory"
+url: "https://weiqi-kids.github.io"
+
+# 頁尾
+footer_content: "Disease Intelligence System &copy; 2024-2026. Powered by Claude Code."
+
+# 顏色主題
+color_scheme: light
