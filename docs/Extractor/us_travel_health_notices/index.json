@@ -1,5 +1,25 @@
 [
   {
+    "id": "level_3_avoid-index-md",
+    "title": "level_3_avoid",
+    "category": "level_3_avoid",
+    "date": "",
+    "file": "level_3_avoid/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "us_travel_health_notices"
+  },
+  {
+    "id": "level_2_practice-index-md",
+    "title": "level_2_practice",
+    "category": "level_2_practice",
+    "date": "",
+    "file": "level_2_practice/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "us_travel_health_notices"
+  },
+  {
     "id": "level_2_practice-2026-01-26-monkeypox-ghana-liberia-md",
     "title": "",
     "category": "level_2_practice",
@@ -65,6 +85,16 @@
     "category": "level_2_practice",
     "date": "",
     "file": "level_2_practice/2024-02-16-diphtheria-nigeria.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "us_travel_health_notices"
+  },
+  {
+    "id": "level_1_watch-index-md",
+    "title": "level_1_watch",
+    "category": "level_1_watch",
+    "date": "",
+    "file": "level_1_watch/index.md",
     "source": "",
     "severity": "",
     "source_layer": "us_travel_health_notices"
@@ -175,6 +205,26 @@
     "category": "level_1_watch",
     "date": "",
     "file": "level_1_watch/2023-05-30-typhoid-pakistan.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "us_travel_health_notices"
+  },
+  {
+    "id": "index-md",
+    "title": "US Travel Health Notices",
+    "category": "other",
+    "date": "",
+    "file": "index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "us_travel_health_notices"
+  },
+  {
+    "id": "archived-index-md",
+    "title": "archived",
+    "category": "archived",
+    "date": "",
+    "file": "archived/index.md",
     "source": "",
     "severity": "",
     "source_layer": "us_travel_health_notices"

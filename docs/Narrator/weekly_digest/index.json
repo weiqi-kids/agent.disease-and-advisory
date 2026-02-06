@@ -1,5 +1,13 @@
 [
   {
+    "id": "index-md",
+    "title": "週報摘要",
+    "date": "",
+    "period": "",
+    "file": "index.md",
+    "source_mode": "weekly_digest"
+  },
+  {
     "id": "2026-W06-weekly-digest-md",
     "title": "傳染病威脅週報 2026-W06",
     "date": "2026-W06",

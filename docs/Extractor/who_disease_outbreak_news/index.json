@@ -1,5 +1,15 @@
 [
   {
+    "id": "update-index-md",
+    "title": "update",
+    "category": "update",
+    "date": "",
+    "file": "update/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "who_disease_outbreak_news"
+  },
+  {
     "id": "update-2015-01-05-middle-east-respiratory-syndrome-coronav-md",
     "title": "",
     "category": "update",
@@ -445,6 +455,16 @@
     "category": "update",
     "date": "",
     "file": "update/1998-10-22-1998-yellow-fever-in-brazil-update.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "who_disease_outbreak_news"
+  },
+  {
+    "id": "outbreak-index-md",
+    "title": "outbreak",
+    "category": "outbreak",
+    "date": "",
+    "file": "outbreak/index.md",
     "source": "",
     "severity": "",
     "source_layer": "who_disease_outbreak_news"
@@ -940,6 +960,16 @@
     "source_layer": "who_disease_outbreak_news"
   },
   {
+    "id": "investigation-index-md",
+    "title": "investigation",
+    "category": "investigation",
+    "date": "",
+    "file": "investigation/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "who_disease_outbreak_news"
+  },
+  {
     "id": "investigation-2004-08-20-avian-influenza-h5n1-detected-in-pigs-in-md",
     "title": "",
     "category": "investigation",
@@ -955,6 +985,36 @@
     "category": "investigation",
     "date": "",
     "file": "investigation/2004-05-18-suspected-acute-haemorrhagic-fever-syndr.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "who_disease_outbreak_news"
+  },
+  {
+    "id": "index-md",
+    "title": "WHO Disease Outbreak News",
+    "category": "other",
+    "date": "",
+    "file": "index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "who_disease_outbreak_news"
+  },
+  {
+    "id": "emergency-index-md",
+    "title": "emergency",
+    "category": "emergency",
+    "date": "",
+    "file": "emergency/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "who_disease_outbreak_news"
+  },
+  {
+    "id": "emergence-index-md",
+    "title": "emergence",
+    "category": "emergence",
+    "date": "",
+    "file": "emergence/index.md",
     "source": "",
     "severity": "",
     "source_layer": "who_disease_outbreak_news"

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "update-index-md",
+    "title": "update",
+    "category": "update",
+    "date": "",
+    "file": "update/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "us_cdc_han"
+  },
+  {
+    "id": "information-index-md",
+    "title": "information",
+    "category": "information",
+    "date": "",
+    "file": "information/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "us_cdc_han"
+  },
+  {
+    "id": "index-md",
+    "title": "US CDC Health Alert Network",
+    "category": "other",
+    "date": "",
+    "file": "index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "us_cdc_han"
+  },
+  {
+    "id": "alert-index-md",
+    "title": "alert",
+    "category": "alert",
+    "date": "",
+    "file": "alert/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "us_cdc_han"
+  },
+  {
+    "id": "advisory-index-md",
+    "title": "advisory",
+    "category": "advisory",
+    "date": "",
+    "file": "advisory/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "us_cdc_han"
+  }
+]

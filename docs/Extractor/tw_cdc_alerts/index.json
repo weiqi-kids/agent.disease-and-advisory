@@ -1,5 +1,15 @@
 [
   {
+    "id": "policy-index-md",
+    "title": "policy",
+    "category": "policy",
+    "date": "",
+    "file": "policy/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "policy-2026-02-05-spring-festival-travel-health-advisory-md",
     "title": "",
     "category": "policy",
@@ -110,6 +120,16 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "medical_advisory-index-md",
+    "title": "medical_advisory",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "medical_advisory-2026-01-27-nipah-virus-medical-alert-md",
     "title": "",
     "category": "medical_advisory",
@@ -210,6 +230,36 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "index-md",
+    "title": "Taiwan CDC Alerts",
+    "category": "other",
+    "date": "",
+    "file": "index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "imported_case-index-md",
+    "title": "imported_case",
+    "category": "imported_case",
+    "date": "",
+    "file": "imported_case/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-index-md",
+    "title": "domestic_outbreak",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "domestic_outbreak-2026-01-30-hantavirus-first-case-md",
     "title": "",
     "category": "domestic_outbreak",
@@ -265,6 +315,16 @@
     "category": "disease_info",
     "date": "",
     "file": "disease_info/mpox-disease-info.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-index-md",
+    "title": "disease_info",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/index.md",
     "source": "",
     "severity": "",
     "source_layer": "tw_cdc_alerts"

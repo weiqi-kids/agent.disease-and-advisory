@@ -1,5 +1,15 @@
 [
   {
+    "id": "surveillance-index-md",
+    "title": "surveillance",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "surveillance-2026-01-30-cdtr-week-5-md",
     "title": "",
     "category": "surveillance",
@@ -96,6 +106,16 @@
     "date": "",
     "file": "surveillance/2025-11-14-cdtr-week-46.md",
     "source": "- **來源**: ECDC CDTR",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "situational_update-index-md",
+    "title": "situational_update",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/index.md",
+    "source": "",
     "severity": "",
     "source_layer": "ecdc_cdtr"
   },
@@ -200,6 +220,16 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "risk_assessment-index-md",
+    "title": "risk_assessment",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "risk_assessment-2025-11-20-influenza-a-h3n2-threat-md",
     "title": "Threat Assessment Brief: Assessing the risk of influenza for the EU/EEA in the context of increasing circulation of A(H3N2) subclade K",
     "category": "risk_assessment",
@@ -295,6 +325,36 @@
     "category": "risk_assessment",
     "date": "",
     "file": "risk_assessment/2024-03-21-salmonella-chicken-outbreak.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "outbreak_report-index-md",
+    "title": "outbreak_report",
+    "category": "outbreak_report",
+    "date": "",
+    "file": "outbreak_report/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "index-md",
+    "title": "ECDC CDTR",
+    "category": "other",
+    "date": "",
+    "file": "index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-index-md",
+    "title": "guidance",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/index.md",
     "source": "",
     "severity": "",
     "source_layer": "ecdc_cdtr"
