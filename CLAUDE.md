@@ -161,6 +161,37 @@ Layers updated:
 Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
 ```
 
+### 階段 7：GitHub Actions 自動化（推送後自動執行）
+
+> **此階段由 GitHub Actions 自動執行，不需要 Claude CLI 操作。**
+
+推送到 GitHub 後，以下流程自動觸發：
+
+```
+git push
+    ↓
+GitHub Actions: pages-build-deployment
+    ↓ (部署完成後)
+GitHub Actions: Check and Fix Links
+    ├─ lychee 掃描所有連結
+    ├─ 發現錯誤 → scripts/fix-broken-links.sh 自動修復
+    ├─ 可修復 → commit + push（觸發重新部署）
+    └─ 無法修復 → 建立 Issue（標記 needs-manual-fix）
+```
+
+**相關檔案：**
+- `.github/workflows/check-links.yml` — 連結檢查 workflow
+- `.lychee.toml` — lychee 設定（排除規則）
+- `scripts/fix-broken-links.sh` — 自動修復腳本
+
+**可自動修復的問題：**
+- 連結尾部斜線（`article/` → `article`）
+- index.md 表格連結格式錯誤
+
+**無法自動修復（會開 Issue）：**
+- 外部網站失效
+- 檔案真的不存在
+
 ---
 
 ## 進度回報格式
@@ -178,6 +209,7 @@ Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
 | Update | sonnet | ⏳ 等待中 | - |
 | 報告 | opus | ⏳ 等待中 | - |
 | GitHub | sonnet | ⏳ 等待中 | - |
+| 連結檢查 | GitHub Actions | ⏳ 自動 | 推送後觸發 |
 ```
 
 完成後回報：
