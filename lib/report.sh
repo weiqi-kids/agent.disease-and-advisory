@@ -316,3 +316,190 @@ report_get_range() {
     fi
   done | sort
 }
+
+########################################
+# 語意搜尋（Qdrant）
+########################################
+
+# report_semantic_search - 語意搜尋歷史資料
+#
+# 用法：
+#   report_semantic_search <query> [limit]
+#
+# 參數：
+#   query - 搜尋查詢（自然語言）
+#   limit - 回傳結果數量（預設 10）
+#
+# 輸出：
+#   JSON 格式的搜尋結果（包含 title, source_url, date, category, source_layer）
+#
+# 範例：
+#   report_semantic_search "馬堡病毒疫情" 5
+#   report_semantic_search "respiratory virus outbreak" 10
+#
+report_semantic_search() {
+  local query="$1"
+  local limit="${2:-10}"
+
+  if [[ -z "$query" ]]; then
+    echo "❌ 用法：report_semantic_search <query> [limit]" >&2
+    return 1
+  fi
+
+  # 載入依賴（若函式尚未定義）
+  if ! declare -f chatgpt_embed >/dev/null 2>&1; then
+    source "$_report_lib_dir/chatgpt.sh" 2>/dev/null || {
+      echo "❌ [report_semantic_search] 無法載入 chatgpt.sh" >&2
+      return 1
+    }
+  fi
+  if ! declare -f qdrant_search >/dev/null 2>&1; then
+    source "$_report_lib_dir/qdrant.sh" 2>/dev/null || {
+      echo "❌ [report_semantic_search] 無法載入 qdrant.sh" >&2
+      return 1
+    }
+  fi
+
+  # 初始化
+  chatgpt_init_env 2>/dev/null || {
+    echo "❌ [report_semantic_search] OpenAI 初始化失敗" >&2
+    return 1
+  }
+  qdrant_init_env 2>/dev/null || {
+    echo "❌ [report_semantic_search] Qdrant 初始化失敗" >&2
+    return 1
+  }
+
+  local collection="${QDRANT_COLLECTION:-disease_intel}"
+
+  # 產生 query embedding
+  local vector_json
+  vector_json=$(chatgpt_embed "$query" 2>/dev/null) || {
+    echo "❌ [report_semantic_search] Embedding 失敗" >&2
+    return 1
+  }
+
+  # 執行 Qdrant 搜尋
+  local result
+  result=$(qdrant_search "$collection" "$vector_json" "$limit" 2>/dev/null) || {
+    echo "❌ [report_semantic_search] Qdrant 搜尋失敗" >&2
+    return 1
+  }
+
+  # 格式化輸出
+  echo "$result" | jq -c '[.result[] | {
+    score: .score,
+    title: .payload.title,
+    source_url: .payload.source_url,
+    date: .payload.date,
+    category: .payload.category,
+    source_layer: .payload.source_layer,
+    file_path: .payload.file_path
+  }]'
+}
+
+# report_find_similar - 尋找與指定疾病相似的歷史資料
+#
+# 用法：
+#   report_find_similar <disease_name> [limit]
+#
+# 參數：
+#   disease_name - 疾病名稱（中文或英文）
+#   limit        - 回傳結果數量（預設 5）
+#
+# 輸出：
+#   相似疾病的歷史記錄（JSON 格式）
+#
+# 範例：
+#   report_find_similar "Marburg virus" 5
+#   report_find_similar "登革熱" 10
+#
+report_find_similar() {
+  local disease_name="$1"
+  local limit="${2:-5}"
+
+  if [[ -z "$disease_name" ]]; then
+    echo "❌ 用法：report_find_similar <disease_name> [limit]" >&2
+    return 1
+  fi
+
+  # 建構搜尋查詢
+  local query="$disease_name outbreak cases epidemiology"
+
+  report_semantic_search "$query" "$limit"
+}
+
+# report_cross_reference - 跨來源交叉驗證
+#
+# 用法：
+#   report_cross_reference <topic> [exclude_layer]
+#
+# 參數：
+#   topic         - 要驗證的主題
+#   exclude_layer - 要排除的來源 Layer（選填）
+#
+# 輸出：
+#   其他來源中關於同一主題的資料（JSON 格式）
+#
+# 範例：
+#   report_cross_reference "H5N1 avian influenza" "ecdc_cdtr"
+#
+report_cross_reference() {
+  local topic="$1"
+  local exclude_layer="${2:-}"
+
+  if [[ -z "$topic" ]]; then
+    echo "❌ 用法：report_cross_reference <topic> [exclude_layer]" >&2
+    return 1
+  fi
+
+  local results
+  results=$(report_semantic_search "$topic" 20) || return 1
+
+  if [[ -n "$exclude_layer" ]]; then
+    echo "$results" | jq -c "[.[] | select(.source_layer != \"$exclude_layer\")]"
+  else
+    echo "$results"
+  fi
+}
+
+# report_historical_context - 取得歷史脈絡
+#
+# 用法：
+#   report_historical_context <disease_name>
+#
+# 參數：
+#   disease_name - 疾病名稱
+#
+# 輸出：
+#   Markdown 格式的歷史脈絡摘要
+#
+# 範例：
+#   report_historical_context "Mpox"
+#
+report_historical_context() {
+  local disease_name="$1"
+
+  if [[ -z "$disease_name" ]]; then
+    echo "❌ 用法：report_historical_context <disease_name>" >&2
+    return 1
+  fi
+
+  local results
+  results=$(report_find_similar "$disease_name" 10) || return 1
+
+  local count
+  count=$(echo "$results" | jq 'length')
+
+  if [[ "$count" -eq 0 ]]; then
+    echo "無歷史記錄"
+    return 0
+  fi
+
+  echo "### $disease_name 歷史記錄"
+  echo ""
+  echo "找到 $count 筆相關資料："
+  echo ""
+
+  echo "$results" | jq -r '.[] | "- **\(.date)** [\(.title)](\(.source_url)) (\(.source_layer))"'
+}

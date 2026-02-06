@@ -50,6 +50,73 @@ prev_report=$(report_find_previous weekly_digest 2026-W05)
 
 > **注意**：若上一期報告不存在（如首次產出），則跳過比較章節。
 
+### 語意搜尋（Qdrant）
+
+產出報告時，**必須使用語意搜尋**查詢歷史資料，提供更完整的脈絡分析。
+
+```bash
+source lib/report.sh
+```
+
+| 函式 | 用途 | 範例 |
+|------|------|------|
+| `report_semantic_search` | 自然語言搜尋歷史資料 | `report_semantic_search "Marburg virus outbreak" 10` |
+| `report_find_similar` | 尋找相似疾病的歷史記錄 | `report_find_similar "登革熱" 5` |
+| `report_cross_reference` | 跨來源交叉驗證 | `report_cross_reference "H5N1" "ecdc_cdtr"` |
+| `report_historical_context` | 取得歷史脈絡摘要 | `report_historical_context "Mpox"` |
+
+#### 何時使用語意搜尋
+
+| 場景 | 應執行的搜尋 | 用途 |
+|------|-------------|------|
+| **新疾病出現** | `report_find_similar "{疾病名}"` | 找出過去類似疫情，了解可能走向 |
+| **疫情升級** | `report_semantic_search "{疾病} escalation severe"` | 找出歷史上類似升級案例 |
+| **跨來源驗證** | `report_cross_reference "{主題}" "{當前來源}"` | 確認多個權威來源是否都有報導 |
+| **趨勢分析** | `report_semantic_search "{疾病} {地區} trend"` | 找出該地區過去的疫情模式 |
+
+#### 語意搜尋流程
+
+產出週報時，依以下步驟使用語意搜尋：
+
+1. **識別本週重點疾病**
+   - 從各 Layer 萃取結果中找出本週提及的疾病
+
+2. **對每個重點疾病執行語意搜尋**
+   ```bash
+   # 範例：本週出現馬堡病毒
+   report_find_similar "Marburg virus" 5
+   report_cross_reference "Marburg virus"
+   ```
+
+3. **將搜尋結果納入報告**
+   - 在「全球疫情概覽」章節加入歷史脈絡
+   - 在「與上週比較」章節參考歷史趨勢
+
+4. **標註資料來源**
+   - 引用語意搜尋結果時，標明 `[語意搜尋]` 以區分
+
+#### 語意搜尋輸出格式
+
+搜尋結果為 JSON 格式：
+
+```json
+[
+  {
+    "score": 0.89,
+    "title": "Marburg virus disease - Rwanda",
+    "source_url": "https://...",
+    "date": "2024-10-15",
+    "category": "outbreak",
+    "source_layer": "who_disease_outbreak_news",
+    "file_path": "docs/Extractor/who_disease_outbreak_news/outbreak/..."
+  }
+]
+```
+
+- `score` > 0.8：高度相關
+- `score` 0.6-0.8：中度相關
+- `score` < 0.6：低相關（可忽略）
+
 ---
 
 ## 輸出框架

@@ -18,9 +18,37 @@ Narrator 讀取 Extractor 產出的結構化資料：
 docs/Extractor/{layer_name}/{category}/*.md
 ```
 
-可透過以下方式取得資料：
-1. 直接讀取 `docs/Extractor/` 下的 .md 檔案
-2. 從 Qdrant 向量資料庫查詢（需要語意搜尋時）
+### 取得資料的兩種方式
+
+| 方式 | 用途 | 工具 |
+|------|------|------|
+| **檔案系統** | 讀取本週最新資料 | `find`, `glob`, 直接讀取 .md |
+| **語意搜尋** | 查詢歷史相關資料 | `lib/report.sh` 函式 |
+
+### 語意搜尋（Qdrant）
+
+> **重要**：產出報告時**必須使用語意搜尋**查詢歷史資料，提供更完整的脈絡。
+
+```bash
+source lib/report.sh
+
+# 搜尋相關歷史資料
+report_semantic_search "Marburg virus outbreak" 10
+
+# 尋找相似疾病記錄
+report_find_similar "登革熱" 5
+
+# 跨來源交叉驗證
+report_cross_reference "H5N1" "ecdc_cdtr"
+
+# 取得歷史脈絡
+report_historical_context "Mpox"
+```
+
+語意搜尋可回答：
+- 「過去有沒有類似疫情？結果如何？」
+- 「其他來源有沒有報導這個疾病？」
+- 「這個地區歷史上的疫情模式？」
 
 ---
 
