@@ -245,8 +245,93 @@ https://www.promedmail.org/rss/                          # 2023-07 關閉
 
 ---
 
+## 6. GitHub Pages / Jekyll 連結問題
+
+### 6.1 內容連結使用目錄格式導致 404
+
+**錯誤**：索引頁連結使用 `(2020-01-16-article-name/)` 格式（尾部斜線）。
+
+**問題**：Jekyll 將 `.md` 檔案轉為 `.html`，但目錄格式 URL 需要有對應的 `index.html`，導致 404。
+
+| 格式 | URL | 結果 |
+|------|-----|------|
+| `(article/)` | `/article/` | ❌ 404 |
+| `(article)` | `/article` | ✅ 200（Jekyll 自動解析為 `.html`） |
+| `(article.html)` | `/article.html` | ✅ 200 |
+
+**修正**：
+- `scripts/generate-pages-index.sh` 已修正，產生連結不帶尾部斜線
+- 未來若手動編輯索引頁，**不要加尾部斜線**
+
+---
+
+### 6.2 YAML 巢狀引號破壞 frontmatter 解析
+
+**錯誤**：標題包含雙引號時，外層也用雙引號包覆。
+
+```yaml
+# ❌ 錯誤 — YAML 解析會在第二個 " 處結束字串
+title: "Report on "Disease X" outbreak"
+
+# ✅ 正確 — 使用單引號包覆外層
+title: 'Report on "Disease X" outbreak'
+```
+
+**影響**：frontmatter 解析失敗，導致：
+- `nav_exclude: true` 不生效 → 文章出現在側邊欄
+- 標題顯示為文章內第一個 `## 標題`
+
+**修正**：
+- `core/Extractor/CLAUDE.md` 已加入引號規則
+- 萃取時 checklist 包含檢查標題引號
+
+---
+
+### 6.3 內容檔案缺少 nav_exclude 出現在側邊欄
+
+**問題**：Jekyll 的 Just the Docs 主題會將所有 `.md` 檔案加入導航，除非設定 `nav_exclude: true`。
+
+**症狀**：側邊欄出現大量不應該顯示的頁面。
+
+**修正**：
+- 所有內容檔案的 frontmatter **必須**包含 `nav_exclude: true`
+- `core/Extractor/CLAUDE.md` 已將此列為必填欄位
+
+---
+
+### 6.4 除錯 checklist
+
+遇到 GitHub Pages 連結 404 或導航異常時，依序檢查：
+
+```markdown
+## GitHub Pages 除錯 Checklist
+
+1. [ ] 連結是否帶尾部斜線？
+   - 內容檔案連結不應帶 `/`
+   - 目錄連結（指向 index.md）應帶 `/`
+
+2. [ ] 內容檔案是否有 `nav_exclude: true`？
+   - 檢查 frontmatter 第一行（`---` 之後）
+
+3. [ ] 標題是否有巢狀引號？
+   - 若標題含 `"`，外層必須用 `'` 包覆
+
+4. [ ] frontmatter 格式是否正確？
+   - 開頭和結尾都要有 `---`
+   - 冒號後要有空格
+
+5. [ ] GitHub Actions 建置是否成功？
+   - 檢查 https://github.com/weiqi-kids/agent.disease-and-advisory/actions
+
+6. [ ] CDN 快取是否更新？
+   - 等待 1-2 分鐘或加 `?nocache=xxx` 參數測試
+```
+
+---
+
 ## 更新紀錄
 
 | 日期 | 更新內容 |
 |------|---------|
+| 2026-02-06 | 新增 GitHub Pages / Jekyll 連結問題（第 6 節） |
 | 2026-02-02 | 初版建立，記錄資料源探索階段發現的問題 |
