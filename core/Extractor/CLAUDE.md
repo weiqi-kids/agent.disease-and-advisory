@@ -100,6 +100,7 @@ sed -n '{N}p' {jsonl_file}
 
 | 欄位 | 必填 | 說明 |
 |------|------|------|
+| `nav_exclude` | ✅ | **必須為 `true`** — 隱藏於側邊欄 |
 | `title` | ✅ | 標題 |
 | `source_url` | ✅ | 原始連結（用於去重） |
 | `date` | ✅ | 發布日期（ISO 8601） |
@@ -108,6 +109,18 @@ sed -n '{N}p' {jsonl_file}
 | `summary` | ✅ | 摘要 |
 | `confidence` | ✅ | 信心度（高/中/低） |
 | `notes` | ❌ | 補充說明（如 WebFetch 降級） |
+
+### YAML 標題引號規則
+
+> **⚠️ 重要**：若標題包含雙引號 `"`，必須使用單引號包覆外層。
+
+```yaml
+# ❌ 錯誤 — 巢狀雙引號會破壞 YAML 解析
+title: "Report on "Disease X" outbreak"
+
+# ✅ 正確 — 使用單引號包覆
+title: 'Report on "Disease X" outbreak'
+```
 
 ---
 
@@ -127,6 +140,8 @@ docs/Extractor/{layer_name}/{category}/{YYYY-MM-DD}-{slug}.md
 
 萃取輸出前，子代理必須確認：
 
+- [ ] `nav_exclude: true` 存在於 frontmatter 開頭
+- [ ] `title` 若包含 `"` 則使用單引號包覆
 - [ ] `source_url` 與原始資料一致
 - [ ] `date` 格式正確（ISO 8601）
 - [ ] `category` 屬於該 Layer 的 enum 定義
