@@ -1,0 +1,58 @@
+name: Check Links
+
+on:
+  # 在 Pages 部署完成後觸發
+  workflow_run:
+    workflows: ["pages-build-deployment"]
+    types:
+      - completed
+  # 手動觸發
+  workflow_dispatch:
+  # 每週一檢查一次（外部連結可能失效）
+  schedule:
+    - cron: '0 6 * * 1'
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    # 只在 Pages 部署成功後執行，或手動/排程觸發
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'schedule' ||
+      github.event.workflow_run.conclusion == 'success'
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Wait for Pages deployment
+        if: github.event_name == 'workflow_run'
+        run: sleep 30  # 等待 CDN 更新
+
+      - name: Check links with lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # 使用 .lychee.toml 設定檔
+          args: >-
+            --config .lychee.toml
+            --base 'https://weiqi-kids.github.io/agent.disease-and-advisory'
+            'docs/**/*.md'
+          output: lychee-report.md
+          fail: true
+
+      - name: Upload report
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lychee-report
+          path: lychee-report.md
+          retention-days: 7
+
+      - name: Create issue on failure
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: '🔗 Broken links detected'
+          content-filepath: lychee-report.md
+          labels: |
+            bug
+            automated

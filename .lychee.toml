@@ -1,0 +1,42 @@
+# Lychee link checker configuration
+# https://lychee.cli.rs/usage/config/
+
+# 基本設定
+verbose = true
+no_progress = true
+timeout = 30
+max_retries = 3
+
+# 接受的 HTTP 狀態碼
+accept = [200, 204, 206]
+
+# 排除規則
+exclude_mail = true
+
+# 排除的 URL 模式（正規表達式）
+exclude = [
+    # 本機位址
+    'localhost',
+    '127\.0\.0\.1',
+
+    # 需要註冊或有 IP 限制的網站
+    'data\.gov\.sg',
+    'data\.go\.kr',
+
+    # GitHub 編輯連結（可能因權限問題失敗）
+    'github\.com/.*/edit/',
+
+    # 已知有 rate limit 的網站
+    'twitter\.com',
+    'x\.com',
+]
+
+# 不檢查的路徑
+exclude_path = [
+    # 原始資料目錄
+    'docs/Extractor/*/raw/',
+]
+
+# 快取設定（加速重複檢查）
+cache = true
+max_cache_age = "1d"
