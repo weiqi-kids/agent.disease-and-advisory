@@ -190,7 +190,7 @@ EOF
             local title=$(grep -m1 '^title:' "$md_file" 2>/dev/null | sed 's/^title: *//' | sed 's/"//g' | cut -c1-80 || echo "$basename_no_ext")
             [ -z "$title" ] && title="$basename_no_ext"
 
-            echo "| $date | [$title]($basename_no_ext/) |" >> "$index_file"
+            echo "| $date | [$title]($basename_no_ext) |" >> "$index_file"
         done
     fi
 }
@@ -237,7 +237,7 @@ EOF
         local title=$(grep -m1 '^title:' "$md_file" 2>/dev/null | sed 's/^title: *//' | sed 's/"//g' | cut -c1-80 || echo "$basename_no_ext")
         [ -z "$title" ] && title="$basename_no_ext"
 
-        echo "| $date | [$title]($basename_no_ext/) |" >> "$index_file"
+        echo "| $date | [$title]($basename_no_ext) |" >> "$index_file"
     done
 }
 
@@ -313,7 +313,7 @@ EOF
         local week=$(echo "$basename_no_ext" | grep -oE '^[0-9]{4}-W[0-9]{2}' || echo "")
         local title=$(grep -m1 '^# ' "$md_file" 2>/dev/null | sed 's/^# //' || echo "$basename_no_ext")
 
-        echo "| $week | [$title]($basename_no_ext/) |" >> "$index_file"
+        echo "| $week | [$title]($basename_no_ext) |" >> "$index_file"
     done
 }
 
