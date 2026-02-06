@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Level 1 - Global Dengue"
 source_url: "https://wwwnc.cdc.gov/travel/notices/level1/dengue-global"
 source_layer: us_travel_health_notices

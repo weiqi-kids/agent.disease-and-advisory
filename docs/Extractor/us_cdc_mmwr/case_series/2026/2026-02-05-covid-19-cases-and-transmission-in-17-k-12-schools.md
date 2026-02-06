@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Cases and Transmission in 17 K-12 Schools - Wood County, Wisconsin, August 31-November 29, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416022"
 source_layer: us_cdc_mmwr

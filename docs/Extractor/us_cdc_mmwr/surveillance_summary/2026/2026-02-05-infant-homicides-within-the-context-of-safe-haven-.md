@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Infant Homicides Within the Context of Safe Haven Laws - United States, 2008-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411669"
 source_layer: us_cdc_mmwr

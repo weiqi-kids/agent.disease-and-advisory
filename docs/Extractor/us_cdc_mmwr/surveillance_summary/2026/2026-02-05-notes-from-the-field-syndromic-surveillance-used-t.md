@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Syndromic Surveillance Used To Monitor Emergency Department Visits During a Synthetic Cannabinoid Overdose Outbreak - Connecticut, August 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403855"
 source_layer: us_cdc_mmwr

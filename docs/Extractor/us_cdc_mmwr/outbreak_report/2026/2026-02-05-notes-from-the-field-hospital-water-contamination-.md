@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Hospital Water Contamination Associated with a Pseudo-Outbreak of Mycobacterium porcinum --- Wisconsin, 2016--2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402818"
 source_layer: us_cdc_mmwr

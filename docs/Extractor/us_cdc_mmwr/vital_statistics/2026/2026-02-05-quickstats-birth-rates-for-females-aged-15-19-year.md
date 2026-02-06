@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Birth Rates for Females Aged 15-19 Years, by State - National Vital Statistics System, United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733133"
 source_layer: us_cdc_mmwr

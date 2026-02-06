@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "SUPPLEMENT: Disparities in School Connectedness, Unstable Housing, Experiences of Violence, Mental Health, and Suicidal Thoughts and Behaviors Among Transgender and Cisgender High School Students - Youth Risk Behavior Survey, United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753085"
 source_layer: us_cdc_mmwr

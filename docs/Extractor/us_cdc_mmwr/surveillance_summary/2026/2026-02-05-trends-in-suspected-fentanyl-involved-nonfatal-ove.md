@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Trends in Suspected Fentanyl-Involved Nonfatal Overdose Emergency Department Visits, by Age Group, Sex, and Race and Ethnicity - United States, October 2020-March 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759024"
 source_layer: us_cdc_mmwr

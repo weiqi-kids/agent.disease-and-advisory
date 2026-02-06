@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "National and State Trends in Anxiety and Depression Severity Scores Among Adults During the COVID-19 Pandemic - United States, 2020-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427652"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "<em>Surveillance Summaries</em>: Surveillance for Violent Deaths - National Violent Death Reporting System, 50 States, the District of Columbia, and Puerto Rico, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759633"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: High Prevalence of Fentanyl Detected by the Maryland Emergency Department Drug Surveillance System - Baltimore, Maryland, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407907"
 source_layer: us_cdc_mmwr

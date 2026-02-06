@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19-Associated Hospitalizations Among U.S. Infants Aged 6 Months - COVID-NET, 13 States, June 2021-August 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732675"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes From the Field: Overdose Deaths Involving Eutylone (Psychoactive Bath Salts) - United States, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730916"
 source_layer: us_cdc_mmwr

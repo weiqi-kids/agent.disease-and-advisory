@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Outbreak of Human Trichinellosis - Arizona, Minnesota, and South Dakota, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=748979"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Human infection with influenza A(H7N9) virus in China - update"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2013_04_07-en"
 source_layer: who_disease_outbreak_news

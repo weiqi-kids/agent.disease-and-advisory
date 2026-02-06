@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Vital Signs: Suicide Rates and Selected County-Level Factors - United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752438"
 source_layer: us_cdc_mmwr

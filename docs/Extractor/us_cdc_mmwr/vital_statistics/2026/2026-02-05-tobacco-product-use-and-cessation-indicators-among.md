@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Tobacco Product Use and Cessation Indicators Among Adults - United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402505"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Emergency Department Visit Rates Related to Mental Health Disorders, by Age Group and Sex - National Hospital Ambulatory Medical Care Survey, United States, 2016-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413676"
 source_layer: us_cdc_mmwr

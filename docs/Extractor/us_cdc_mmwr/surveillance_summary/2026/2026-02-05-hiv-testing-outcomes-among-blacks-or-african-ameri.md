@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "HIV Testing Outcomes Among Blacks or African Americans - 50 Local U.S. Jurisdictions Accounting for the Majority of New HIV Diagnoses and Seven States with Disproportionate Occurrences of HIV in Rural Areas, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403407"
 source_layer: us_cdc_mmwr

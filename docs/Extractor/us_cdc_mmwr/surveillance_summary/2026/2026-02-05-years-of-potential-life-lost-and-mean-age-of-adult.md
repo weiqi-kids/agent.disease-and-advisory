@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Years of Potential Life Lost and Mean Age of Adults Experiencing Nontraumatic, Out-of-Hospital Cardiac Arrests - Chicago, 2014-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=744991"
 source_layer: us_cdc_mmwr

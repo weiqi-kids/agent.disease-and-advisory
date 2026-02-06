@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "State Medicaid Coverage for Tobacco Cessation Treatments and Barriers to Accessing Treatments - United States, 2008-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403653"
 source_layer: us_cdc_mmwr

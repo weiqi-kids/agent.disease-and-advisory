@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Measles Outbreak Associated with an Infectious Traveler - Colorado, May-June 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=763292"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Emergency Department Survey of Vaccination Knowledge, Vaccination Coverage, and Willingness to Receive Vaccines in an Emergency Department Among Underserved Populations - Eight U.S. Cities, April-December, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=760017"
 source_layer: us_cdc_mmwr

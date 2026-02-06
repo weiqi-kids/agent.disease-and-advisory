@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Responding to the Wartime Spread of Antimicrobial-Resistant Organisms - Ukraine, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=740032"
 source_layer: us_cdc_mmwr

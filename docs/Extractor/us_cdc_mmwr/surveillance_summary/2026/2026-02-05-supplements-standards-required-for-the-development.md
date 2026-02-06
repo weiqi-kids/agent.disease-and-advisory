@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Supplements: Standards Required for the Development of CDC Evidence-Based Guidelines"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=483522"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Severe fever with thrombocytopaenia syndrome (SFTS): epidemiology, outbreaks and guidance"
 source_url: "https://www.gov.uk/guidance/severe-fever-with-thrombocytopaenia-syndrome-sfts-epidemiology-outbreaks-and-guidance"
 source_layer: uk_ukhsa_updates

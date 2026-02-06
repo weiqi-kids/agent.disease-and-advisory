@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Influenza Incidence and Vaccine Effectiveness During the Southern Hemisphere Influenza Season - Chile, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732441"
 source_layer: us_cdc_mmwr

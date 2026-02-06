@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Geospatial Transmission Hotspots of Recent HIV Infection - Malawi, October 2019-March 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=580635"
 source_layer: us_cdc_mmwr

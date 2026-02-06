@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Dispensing of Oral Antiviral Drugs for Treatment of COVID-19 by Zip Code-Level Social Vulnerability - United States, December 23, 2021-May 21, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729904"
 source_layer: us_cdc_mmwr

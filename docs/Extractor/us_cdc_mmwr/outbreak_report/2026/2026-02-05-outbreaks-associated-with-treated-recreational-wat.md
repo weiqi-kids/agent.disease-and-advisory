@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Outbreaks Associated with Treated Recreational Water - United States, 2015-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=422738"
 source_layer: us_cdc_mmwr

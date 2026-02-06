@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "What is measles and why is it so important we're up to date with our vaccines to protect against it?"
 source_url: "https://ukhsa.blog.gov.uk/2026/01/22/what-is-measles-and-why-is-it-so-important-were-up-to-date-with-our-vaccines-to-protect-against-it/"
 source_layer: uk_ukhsa_updates

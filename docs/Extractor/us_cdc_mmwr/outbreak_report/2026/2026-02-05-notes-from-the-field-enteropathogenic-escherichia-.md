@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Enteropathogenic Escherichia coli Outbreak at a Child Care Center - Oregon, August 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=697559"
 source_layer: us_cdc_mmwr

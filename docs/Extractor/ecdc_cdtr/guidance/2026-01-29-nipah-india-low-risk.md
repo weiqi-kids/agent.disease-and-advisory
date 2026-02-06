@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Nipah virus disease cases reported in West Bengal, India: very low risk for Europeans"
 source_url: "https://www.ecdc.europa.eu/en/news-events/nipah-virus-disease-cases-reported-west-bengal-india-very-low-risk-europeans"
 date: "2026-01-29"

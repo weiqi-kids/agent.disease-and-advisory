@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Gaps in Mental Health Care-Seeking Among Health Care Providers During the COVID-19 Pandemic - United States, September 2022-May 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=756559"
 source_layer: us_cdc_mmwr

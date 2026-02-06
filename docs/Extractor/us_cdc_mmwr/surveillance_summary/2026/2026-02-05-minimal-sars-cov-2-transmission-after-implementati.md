@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Minimal SARS-CoV-2 Transmission After Implementation of a Comprehensive Mitigation Strategy at a School - New Jersey, August 20-November 27, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=418761"
 source_layer: us_cdc_mmwr

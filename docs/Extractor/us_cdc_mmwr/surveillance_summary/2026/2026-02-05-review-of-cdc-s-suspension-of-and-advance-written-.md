@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Review of CDC's Suspension of and Advance Written Approval Process for Dogs Entering the United States from Egypt - May 2019-December 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731108"
 source_layer: us_cdc_mmwr

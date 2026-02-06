@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "SARS-CoV-2 B.1.1.529 (Omicron) Variant - United States, December 1-8, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=460372"
 source_layer: us_cdc_mmwr

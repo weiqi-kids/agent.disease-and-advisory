@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Universal Statewide Laboratory Testing for SARS-CoV-2 in Nursing Homes - West Virginia, April 21-May 8, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410487"
 source_layer: us_cdc_mmwr

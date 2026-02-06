@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Case Rates in Transitional Kindergarten Through Grade 12 Schools and in the Community - Los Angeles County, California, September 2020-March 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426262"
 source_layer: us_cdc_mmwr

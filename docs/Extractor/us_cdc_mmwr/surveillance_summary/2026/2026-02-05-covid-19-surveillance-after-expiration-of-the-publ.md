@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Surveillance After Expiration of the Public Health Emergency Declaration - United States, May 11, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734881"
 source_layer: us_cdc_mmwr

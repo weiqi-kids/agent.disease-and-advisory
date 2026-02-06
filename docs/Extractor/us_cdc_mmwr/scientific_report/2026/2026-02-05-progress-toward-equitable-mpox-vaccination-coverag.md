@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Progress Toward Equitable Mpox Vaccination Coverage: A Shortfall Analysis - United States, May 2022-April 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735330"
 source_layer: us_cdc_mmwr

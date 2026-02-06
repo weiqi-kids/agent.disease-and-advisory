@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Mortality Among Children Aged 5 Years Living with HIV Who Are Receiving Antiretroviral Treatment - U.S. President's Emergency Plan for AIDS Relief, 28 Supported Countries and Regions, October 2020-September 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=739791"
 source_layer: us_cdc_mmwr

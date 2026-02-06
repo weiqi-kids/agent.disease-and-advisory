@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Routes of Marijuana Use - Behavioral Risk Factor Surveillance System, 22 U.S. States and Two Territories, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758621"
 source_layer: us_cdc_mmwr

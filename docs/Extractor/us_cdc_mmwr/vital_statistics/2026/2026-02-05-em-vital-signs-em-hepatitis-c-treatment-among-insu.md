@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "<em>Vital Signs</em>: Hepatitis C Treatment Among Insured Adults - United States, 2019-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730832"
 source_layer: us_cdc_mmwr

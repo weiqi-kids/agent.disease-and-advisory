@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Early Estimates of Updated 2023-2024 (Monovalent XBB.1.5) COVID-19 Vaccine Effectiveness Against Symptomatic SARS-CoV-2 Infection Attributable to Co-Circulating Omicron Variants Among Immunocompetent Adults - Increasing Community Access to Testing Program, United States, September 2023-January 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=742448"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "SUPPLEMENTS: Perceived Racism and Demographic, Mental Health, and Behavioral Characteristics Among High School Students During the COVID-19 Pandemic - Adolescent Behaviors and Experiences Survey, United States, January-June 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=671172"
 source_layer: us_cdc_mmwr

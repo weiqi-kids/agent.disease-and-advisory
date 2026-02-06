@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Patient-Level and County-Level Trends in Nonfatal Opioid-Involved Overdose Emergency Medical Services Encounters - 491 Counties, United States, January 2018-March 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731107"
 source_layer: us_cdc_mmwr

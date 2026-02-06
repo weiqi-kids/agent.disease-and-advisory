@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Children Aged <18 Years with a Food or Digestive Allergy in the Past 12 Months, by Age Group - National Health Interview Survey, 2007-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401894"
 source_layer: us_cdc_mmwr

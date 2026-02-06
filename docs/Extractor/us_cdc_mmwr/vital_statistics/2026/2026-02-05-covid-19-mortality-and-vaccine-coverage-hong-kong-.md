@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Mortality and Vaccine Coverage - Hong Kong Special Administrative Region, China, January 6, 2022-March 21, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=697562"
 source_layer: us_cdc_mmwr

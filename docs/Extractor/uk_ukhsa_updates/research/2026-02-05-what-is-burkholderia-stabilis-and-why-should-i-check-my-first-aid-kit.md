@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "What is Burkholderia stabilis, and why should I check my first aid kit?"
 source_url: "https://ukhsa.blog.gov.uk/2026/02/05/what-is-burkholderia-stabilis-and-why-should-i-check-my-first-aid-kit/"
 source_layer: uk_ukhsa_updates

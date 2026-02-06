@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "HIV Testing Trends Among Persons with Commercial Insurance or Medicaid - United States, 2014-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423791"
 source_layer: us_cdc_mmwr

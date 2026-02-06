@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Death Rates for Drug Overdose Among Persons Aged 25-44 Years, by Race and Ethnicity- United States, 2000-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732757"
 source_layer: us_cdc_mmwr

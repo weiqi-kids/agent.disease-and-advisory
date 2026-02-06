@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Workplace Perceptions and Experiences Related to COVID-19 Response Efforts Among Public Health Workers - Public Health Workforce Interests and Needs Survey, United States, September 2021-January 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730554"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Persistent Transmission of Circulating Vaccine-Derived Poliovirus - Somalia, January 2017-March 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=750449"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Nirsevimab Effectiveness Against Medically Attended Respiratory Syncytial Virus Illness and Hospitalization Among Alaska Native Children - Yukon-Kuskokwim Delta Region, Alaska, October 2023-June 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=754666"
 source_layer: us_cdc_mmwr

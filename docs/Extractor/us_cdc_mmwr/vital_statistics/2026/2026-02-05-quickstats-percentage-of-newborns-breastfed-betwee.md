@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Newborns Breastfed Between Birth and Discharge from Hospital, by Maternal Age - National Vital Statistics System, 49 States and the District of Columbia, 2021 and 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=742453"
 source_layer: us_cdc_mmwr

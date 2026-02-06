@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Official Statistics: Seasonal influenza vaccine uptake in GP patients: monthly data, 2025 to 2026"
 source_url: "https://www.gov.uk/government/statistics/seasonal-influenza-vaccine-uptake-in-gp-patients-monthly-data-2025-to-2026"
 source_layer: uk_ukhsa_updates

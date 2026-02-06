@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Rate of Deaths Attributed to Unintentional Injury from Fire or Flames,† by Sex and Urban-Rural Status§ - National Vital Statistics System, United States, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=697561"
 source_layer: us_cdc_mmwr

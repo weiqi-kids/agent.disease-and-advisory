@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Monkeypox Virus Infection Resulting from an Occupational Needlestick - Florida, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732293"
 source_layer: us_cdc_mmwr

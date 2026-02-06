@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes From the Field: Prevalence of Previous Dengue Virus Infection Among Children and Adolescents - U.S. Virgin Islands, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734216"
 source_layer: us_cdc_mmwr

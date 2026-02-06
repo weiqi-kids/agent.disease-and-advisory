@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Surveillance for Harmful Algal Bloom Events and Associated Human and Animal Illnesses - One Health Harmful Algal Bloom System, United States, 2016-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=414702"
 source_layer: us_cdc_mmwr

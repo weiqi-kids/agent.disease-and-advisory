@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "A legacy of collaboration: The EU Initiative on Health Security online resource"
 source_url: "https://www.ecdc.europa.eu/en/news-events/legacy-collaboration-eu-initiative-health-security-online-resource"
 source_layer: ecdc_cdtr

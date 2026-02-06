@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Research: Acute hepatitis B (England): enhanced surveillance reports"
 source_url: "https://www.gov.uk/government/publications/acute-hepatitis-b-england-enhanced-surveillance-reports"
 source_layer: uk_ukhsa_updates

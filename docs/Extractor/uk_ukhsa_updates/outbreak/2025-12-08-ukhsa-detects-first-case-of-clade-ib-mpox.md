@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "New mpox strain identified in England"
 source_url: "https://www.gov.uk/government/news/ukhsa-detects-first-case-of-clade-ib-mpox"
 source_layer: uk_ukhsa_updates

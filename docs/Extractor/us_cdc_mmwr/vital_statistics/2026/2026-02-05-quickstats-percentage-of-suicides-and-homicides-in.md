@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Suicides and Homicides Involving a Firearm Among Persons Aged ≥10 Years, by Age Group - National Vital Statistics System, United States, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729271"
 source_layer: us_cdc_mmwr

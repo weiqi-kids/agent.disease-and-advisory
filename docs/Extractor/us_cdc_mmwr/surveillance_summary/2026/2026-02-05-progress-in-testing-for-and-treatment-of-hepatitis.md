@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Progress in Testing for and Treatment of Hepatitis C Virus Infection Among Persons Who Inject Drugs --- Georgia, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=400988"
 source_layer: us_cdc_mmwr

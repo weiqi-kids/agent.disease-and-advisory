@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Invasive Group G β-Hemolytic Streptococcus Outbreak at a Long-Term Care Facility - Pennsylvania, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=760219"
 source_layer: us_cdc_mmwr

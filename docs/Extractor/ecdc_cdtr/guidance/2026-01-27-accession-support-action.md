@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "ECDC launches ECDC Accession Support Action for EU candidate countries and potential candidate countries"
 source_url: "https://www.ecdc.europa.eu/en/news-events/ecdc-launches-ecdc-accession-support-action-eu-candidate-countries-and-potential"
 source_layer: ecdc_cdtr

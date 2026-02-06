@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "近期氣溫下降 呼籲符合資格民眾儘速接種公費流感及新冠疫苗 及早提升保護力 以加強防範流感及新冠等呼吸道傳染病"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/D1GBtAhtc5PV98PM1g_oOg?typeId=9"
 source_layer: tw_cdc_alerts

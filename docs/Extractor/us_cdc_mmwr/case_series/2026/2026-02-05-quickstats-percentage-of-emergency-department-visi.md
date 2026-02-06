@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Emergency Department Visits for Pain at Which Opioids Were Given or Prescribed, by Patient Age and Year - National Hospital Ambulatory Medical Care Survey, United States, 2010-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733267"
 source_layer: us_cdc_mmwr

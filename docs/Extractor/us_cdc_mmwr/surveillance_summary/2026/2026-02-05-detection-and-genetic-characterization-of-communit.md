@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Detection and Genetic Characterization of Community-Based SARS-CoV-2 Infections - New York City, March 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408724"
 source_layer: us_cdc_mmwr

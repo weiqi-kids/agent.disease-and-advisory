@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Mumps Cases Disproportionately Affecting Persons Living with HIV Infection and Men Who Have Sex with Men - Chicago, Illinois, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408722"
 source_layer: us_cdc_mmwr

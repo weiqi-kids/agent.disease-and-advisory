@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Provisional Mortality Data - United States, 2020 "
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=419374"
 source_layer: us_cdc_mmwr

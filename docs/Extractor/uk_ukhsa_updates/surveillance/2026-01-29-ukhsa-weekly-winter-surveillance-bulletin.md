@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Norovirus cases climb 18.3% in 2 weeks"
 source_url: "https://www.gov.uk/government/news/ukhsa-weekly-winter-surveillance-bulletin"
 source_layer: uk_ukhsa_updates

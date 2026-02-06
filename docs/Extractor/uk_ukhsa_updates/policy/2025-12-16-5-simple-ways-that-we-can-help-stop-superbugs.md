@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "5 simple ways that we can help stop superbugs"
 source_url: "https://ukhsa.blog.gov.uk/2025/12/16/5-simple-ways-that-we-can-help-stop-superbugs/"
 source_layer: uk_ukhsa_updates

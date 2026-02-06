@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "<em>Notes from the Field</em>: Detection of Medetomidine Among Patients Evaluated in Emergency Departments for Suspected Opioid Overdoses - Missouri, Colorado, and Pennsylvania, September 2020-December 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=751553"
 source_layer: us_cdc_mmwr

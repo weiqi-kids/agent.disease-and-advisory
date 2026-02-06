@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Yellow fever in Guinea"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2005_08_31-en"
 source_layer: who_disease_outbreak_news

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Lifetime Prevalence of Self-Reported Work-Related Health Problems Among U.S. Workers - United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405789"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Estimated Annual Number of HIV Infections ─ United States, 1981-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423187"
 source_layer: us_cdc_mmwr

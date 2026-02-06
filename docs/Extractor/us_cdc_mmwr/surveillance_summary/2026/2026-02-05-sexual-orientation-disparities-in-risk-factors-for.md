@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Sexual Orientation Disparities in Risk Factors for Adverse COVID-19-Related Outcomes, by Race/Ethnicity - Behavioral Risk Factor Surveillance System, United States, 2017-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416389"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Survey of Teen Noise Exposure and Efforts to Protect Hearing at School - United States, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413667"
 source_layer: us_cdc_mmwr

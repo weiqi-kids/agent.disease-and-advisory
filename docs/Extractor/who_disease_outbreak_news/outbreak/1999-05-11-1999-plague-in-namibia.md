@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "1999 - Plague in Namibia"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/1999_05_11-en"
 source_layer: who_disease_outbreak_news

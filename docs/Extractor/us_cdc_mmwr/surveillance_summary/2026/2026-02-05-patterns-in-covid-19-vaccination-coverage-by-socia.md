@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Patterns in COVID-19 Vaccination Coverage, by Social Vulnerability and Urbanicity - United States, December 14, 2020-May 1, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423045"
 source_layer: us_cdc_mmwr

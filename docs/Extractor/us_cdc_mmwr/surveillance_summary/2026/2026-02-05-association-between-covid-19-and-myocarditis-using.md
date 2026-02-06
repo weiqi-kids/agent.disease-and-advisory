@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Association Between COVID-19 and Myocarditis Using Hospital-Based Administrative Data - United States, March 2020-January 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426374"
 source_layer: us_cdc_mmwr

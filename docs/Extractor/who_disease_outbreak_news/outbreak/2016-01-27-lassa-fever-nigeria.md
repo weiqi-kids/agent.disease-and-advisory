@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Lassa Fever – Nigeria"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/27-january-2016-lassa-fever-nigeria-en"
 source_layer: who_disease_outbreak_news

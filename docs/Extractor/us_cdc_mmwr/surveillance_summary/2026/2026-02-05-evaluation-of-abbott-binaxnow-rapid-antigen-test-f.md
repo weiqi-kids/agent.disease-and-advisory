@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Evaluation of Abbott BinaxNOW Rapid Antigen Test for SARS-CoV-2 Infection at Two Community-Based Testing Sites - Pima County, Arizona, November 3-17, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415777"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Mitigation Behaviors by Age Group - United States, April-June 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412438"
 source_layer: us_cdc_mmwr

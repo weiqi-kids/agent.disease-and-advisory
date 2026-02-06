@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Functional Disability, Violence, HIV Status, and Risk Factors for HIV Among Adolescent Girls and Young Women - Eswatini, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758437"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Tobacco Product Use Among U.S. Middle and High School Students - National Youth Tobacco Survey, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=738696"
 source_layer: us_cdc_mmwr

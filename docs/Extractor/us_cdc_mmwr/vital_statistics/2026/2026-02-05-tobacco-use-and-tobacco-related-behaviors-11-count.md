@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Tobacco Use and Tobacco-Related Behaviors - 11 Countries, 2008-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402188"
 source_layer: us_cdc_mmwr

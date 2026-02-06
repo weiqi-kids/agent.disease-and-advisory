@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Management of Patient Health Information Functions Among Office-Based Physicians With and Without a Certified Electronic Health Record (EHR) System - National Electronic Health Records Survey, United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411578"
 source_layer: us_cdc_mmwr

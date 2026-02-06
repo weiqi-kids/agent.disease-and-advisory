@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Modifiable Risk Factors for Alzheimer Disease and Related Dementias Among Adults Aged ≥45 Years - United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729388"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Epidemiological update, 14 January 2025: Mpox due to monkeypox virus clade I"
 source_url: "https://www.ecdc.europa.eu/en/news-events/epidemiological-update-14-january-2025-mpox-due-monkeypox-virus-clade-i"
 source_layer: "ecdc_cdtr"

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Outbreak at an Overnight Summer School Retreat - Wisconsin, July-August 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412469"
 source_layer: us_cdc_mmwr

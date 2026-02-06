@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "First Reported Cases of SARS-CoV-2 Infection in Companion Animals - New York, March-April 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407863"
 source_layer: us_cdc_mmwr

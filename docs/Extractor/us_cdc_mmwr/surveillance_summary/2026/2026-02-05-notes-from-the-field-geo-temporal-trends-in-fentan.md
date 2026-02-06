@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Geo-Temporal Trends in Fentanyl Administration Routes Among Adults Reporting Use of Illegally Manufactured Fentanyl When Assessed for Substance-Use Treatment - 14 U.S. States, 2017-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=755751"
 source_layer: us_cdc_mmwr

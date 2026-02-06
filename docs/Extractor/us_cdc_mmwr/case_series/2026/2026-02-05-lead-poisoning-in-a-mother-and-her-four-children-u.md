@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Lead Poisoning in a Mother and Her Four Children Using a Traditional Eye Cosmetic - New York City, 2012-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=751552"
 source_layer: us_cdc_mmwr

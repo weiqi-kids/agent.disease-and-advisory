@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Trends in Meeting Physical Activity Guidelines Among Urban and Rural Dwelling Adults --- United States, 2008--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399044"
 source_layer: us_cdc_mmwr

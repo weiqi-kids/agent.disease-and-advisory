@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Identifying Higher-Volume Antibiotic Outpatient Prescribers Using Publicly Available Medicare Part D Data - United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=525249"
 source_layer: us_cdc_mmwr

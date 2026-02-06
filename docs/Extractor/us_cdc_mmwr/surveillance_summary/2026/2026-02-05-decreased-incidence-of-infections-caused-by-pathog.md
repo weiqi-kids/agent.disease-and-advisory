@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Decreased Incidence of Infections Caused by Pathogens Transmitted Commonly Through Food During the COVID-19 Pandemic - Foodborne Diseases Active Surveillance Network, 10 U.S. Sites, 2017-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427076"
 source_layer: us_cdc_mmwr

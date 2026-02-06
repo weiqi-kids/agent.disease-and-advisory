@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Age-Adjusted Death Rates for Stroke Among Adults Aged ≥ 65 Years, by Region and Metropolitan Status - National Vital Statistics System, United States, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732444"
 source_layer: us_cdc_mmwr

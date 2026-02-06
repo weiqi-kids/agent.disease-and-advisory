@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Human influenza A/H3N2 activity increases in many countries in central and eastern Europe - update 8"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2004_01_21-en"
 source_layer: who_disease_outbreak_news

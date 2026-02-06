@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Support for Transition from Adolescent to Adult Health Care Among Adolescents With and Without Mental, Behavioral, and Developmental Disorders - United States, 2016-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410485"
 source_layer: us_cdc_mmwr

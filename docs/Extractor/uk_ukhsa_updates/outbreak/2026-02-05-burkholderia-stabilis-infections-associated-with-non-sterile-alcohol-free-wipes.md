@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Burkholderia stabilis infections associated with non-sterile alcohol-free wipes: ongoing risk to patients"
 source_url: "https://www.gov.uk/guidance/burkholderia-stabilis-infections-associated-with-non-sterile-alcohol-free-wipes-ongoing-risk-to-patients"
 source_layer: uk_ukhsa_updates

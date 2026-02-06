@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Rapid Increase in Circulation of the SARS-CoV-2 B.1.617.2 (Delta) Variant - Mesa County, Colorado, April-June 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=425571"
 source_layer: us_cdc_mmwr

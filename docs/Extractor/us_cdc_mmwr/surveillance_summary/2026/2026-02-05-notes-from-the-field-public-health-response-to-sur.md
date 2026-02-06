@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Public Health Response to Surveillance for Recent HIV Infections - Malawi, May 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759594"
 source_layer: us_cdc_mmwr

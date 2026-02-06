@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "National Black HIV/AIDS Awareness Day --- February 7, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403402"
 source_layer: us_cdc_mmwr

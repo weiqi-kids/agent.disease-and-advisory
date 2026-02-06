@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Outbreak of Norovirus Illness Among Wildfire Evacuation Shelter Populations --- Butte and Glenn Counties, California, November 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407278"
 source_layer: us_cdc_mmwr

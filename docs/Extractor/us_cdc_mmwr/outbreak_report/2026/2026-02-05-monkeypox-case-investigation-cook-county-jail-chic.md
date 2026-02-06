@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Monkeypox Case Investigation - Cook County Jail, Chicago, Illinois, July-August 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732079"
 source_layer: us_cdc_mmwr

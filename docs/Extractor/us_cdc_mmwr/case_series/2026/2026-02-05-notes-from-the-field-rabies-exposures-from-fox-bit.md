@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Rabies Exposures from Fox Bites and Challenges to Completing Postexposure Prophylaxis After Hurricane Irma - Palm Beach County, Florida, August-September 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401692"
 source_layer: us_cdc_mmwr

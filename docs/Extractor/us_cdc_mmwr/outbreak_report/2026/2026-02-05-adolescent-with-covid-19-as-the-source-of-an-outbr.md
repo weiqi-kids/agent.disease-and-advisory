@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Adolescent with COVID-19 as the Source of an Outbreak at a 3-Week Family Gathering - Four States, June-July 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411862"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Adults Aged ≥25 Years Who Had Seen a Health Care Professional in the Past 12 Months and Who Easily Understood Information from Their Health Care Providers Most or All of the Time, by Sex and Education Level - National Health Interview Survey, United States, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402511"
 source_layer: us_cdc_mmwr

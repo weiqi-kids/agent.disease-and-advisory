@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Routine Vaccination Coverage - Worldwide, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732572"
 source_layer: us_cdc_mmwr

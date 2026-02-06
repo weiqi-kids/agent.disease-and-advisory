@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Alcohol Use and Co-use of Other Substances Among Pregnant Females Aged 12-44 Years - United States, 2015-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409280"
 source_layer: us_cdc_mmwr

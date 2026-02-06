@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "The Advisory Committee on Immunization Practices' Ethical Principles for Allocating Initial Supplies of COVID-19 Vaccine - United States, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413506"
 source_layer: us_cdc_mmwr

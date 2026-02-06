@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Level 2 - Chikungunya in Cuba"
 source_url: "https://wwwnc.cdc.gov/travel/notices/level2/chikungunya-cuba"
 source_layer: us_travel_health_notices

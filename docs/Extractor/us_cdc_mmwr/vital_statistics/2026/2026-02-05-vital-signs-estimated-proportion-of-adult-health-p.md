@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Vital Signs: Estimated Proportion of Adult Health Problems Attributable to Adverse Childhood Experiences and Implications for Prevention - 25 States, 2015-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402407"
 source_layer: us_cdc_mmwr

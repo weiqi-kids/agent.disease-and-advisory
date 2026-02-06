@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Translocation of an Anteater (Tamandua tetradactyla) Infected with Rabies from Virginia to Tennessee Resulting in Multiple Human Exposures, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=723108"
 source_layer: us_cdc_mmwr

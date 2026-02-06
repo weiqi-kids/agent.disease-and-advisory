@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Two cases of Middle East respiratory syndrome (MERS) in travellers returning to France from the Arabian Peninsula"
 source_url: "https://www.ecdc.europa.eu/en/news-events/cases-middle-east-respiratory-syndrome-coronavirus-mers-cov-travellers"
 source_layer: "ecdc_cdtr"

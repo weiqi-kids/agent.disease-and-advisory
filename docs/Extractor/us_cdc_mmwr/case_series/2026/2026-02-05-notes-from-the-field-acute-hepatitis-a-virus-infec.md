@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Acute Hepatitis A Virus infection Among Previously Vaccinated Persons with HIV Infection --- Tennessee, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397314"
 source_layer: us_cdc_mmwr

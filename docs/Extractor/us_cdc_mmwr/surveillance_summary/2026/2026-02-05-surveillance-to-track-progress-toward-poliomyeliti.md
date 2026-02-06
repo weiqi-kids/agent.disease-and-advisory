@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Surveillance To Track Progress Toward Poliomyelitis Eradication - Worldwide, 2021-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735328"
 source_layer: us_cdc_mmwr

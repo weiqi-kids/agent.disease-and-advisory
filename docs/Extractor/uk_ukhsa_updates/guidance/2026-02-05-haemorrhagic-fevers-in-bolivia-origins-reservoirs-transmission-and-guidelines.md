@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Haemorrhagic fevers in Bolivia: origins, reservoirs, transmission and guidelines"
 source_url: "https://www.gov.uk/guidance/haemorrhagic-fevers-in-bolivia-origins-reservoirs-transmission-and-guidelines"
 source_layer: uk_ukhsa_updates

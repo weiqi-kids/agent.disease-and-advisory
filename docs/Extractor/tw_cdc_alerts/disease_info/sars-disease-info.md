@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "嚴重急性呼吸道症候群"
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/j5QtbRPVkmFMg9BwiGezZA"
 source_layer: tw_cdc_alerts

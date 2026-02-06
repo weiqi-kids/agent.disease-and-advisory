@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Trends in Nonfatal and Fatal Overdoses Involving Benzodiazepines - 38 States and the District of Columbia, 2019-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426175"
 source_layer: us_cdc_mmwr

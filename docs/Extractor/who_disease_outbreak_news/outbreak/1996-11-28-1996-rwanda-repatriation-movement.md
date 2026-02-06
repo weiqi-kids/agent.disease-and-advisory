@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "1996 - Rwanda repatriation movement"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/1996_11_28c-en"
 source_layer: who_disease_outbreak_news

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Progress Toward Measles Elimination - European Region, 2009-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397615"
 source_layer: us_cdc_mmwr

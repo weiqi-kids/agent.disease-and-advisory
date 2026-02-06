@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Cave-Associated Histoplasmosis Outbreak Among Travelers Returning from Costa Rica - Georgia, Texas, and Washington, December 2024-January 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759053"
 source_layer: us_cdc_mmwr

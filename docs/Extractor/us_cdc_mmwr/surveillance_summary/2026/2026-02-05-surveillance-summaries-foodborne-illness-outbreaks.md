@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "SURVEILLANCE SUMMARIES: Foodborne Illness Outbreaks at Retail Food Establishments - National Environmental Assessment Reporting System, 25 State and Local Health Departments, 2017-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735208"
 source_layer: us_cdc_mmwr

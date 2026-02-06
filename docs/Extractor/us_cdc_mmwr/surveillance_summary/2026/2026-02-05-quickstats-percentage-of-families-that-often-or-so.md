@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Quickstats: Percentage of Families That Often or Sometimes Did Not Have Enough Food To Last 30 Days and Did Not Have Enough Money to Buy More, by Poverty Status - National Health Interview Survey, United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408440"
 source_layer: us_cdc_mmwr

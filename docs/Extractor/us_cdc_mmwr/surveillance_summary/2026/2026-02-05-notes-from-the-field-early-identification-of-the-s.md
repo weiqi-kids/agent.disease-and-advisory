@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Early Identification of the SARS-CoV-2 Omicron BA.2.86 Variant by the Traveler-Based Genomic Surveillance Program - Dulles International Airport, August 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=738468"
 source_layer: us_cdc_mmwr

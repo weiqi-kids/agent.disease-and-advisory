@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "<em>QuickStats</em>: Percentage of Adult Day Services Centers That Use Any Telehealth, by U.S. Census Bureau Region - United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=751554"
 source_layer: us_cdc_mmwr

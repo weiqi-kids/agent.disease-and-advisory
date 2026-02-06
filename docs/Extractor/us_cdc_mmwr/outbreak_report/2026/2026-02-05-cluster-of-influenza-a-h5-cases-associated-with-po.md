@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Cluster of Influenza A(H5) Cases Associated with Poultry Exposure at Two Facilities - Colorado, July 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752363"
 source_layer: us_cdc_mmwr

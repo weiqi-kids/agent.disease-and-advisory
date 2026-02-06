@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Severe Acute Respiratory Syndrome (SARS) - Multi-country outbreak - Update 43"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2003_04_30-en"
 source_layer: who_disease_outbreak_news

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Emergence of SARS-CoV-2 B.1.1.7 Lineage - United States, December 29, 2020-January 12, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415745"
 source_layer: us_cdc_mmwr

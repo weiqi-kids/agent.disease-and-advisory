@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Influenza A(H5N1) in cats – Poland"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2023-DON476"
 source_layer: who_disease_outbreak_news

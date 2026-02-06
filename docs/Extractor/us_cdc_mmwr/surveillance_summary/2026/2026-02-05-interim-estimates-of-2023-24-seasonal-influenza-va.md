@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Interim Estimates of 2023-24 Seasonal Influenza Vaccine Effectiveness - United States"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=744679"
 source_layer: us_cdc_mmwr

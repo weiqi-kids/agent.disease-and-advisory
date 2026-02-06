@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Urban and Rural Mpox Incidence Among Persons Aged 15-64 Years - United States, May 10-December 31, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735215"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Emergency Visits for Complications of Injecting Transmucosal Buprenorphine Products - United States, 2016-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409776"
 source_layer: us_cdc_mmwr

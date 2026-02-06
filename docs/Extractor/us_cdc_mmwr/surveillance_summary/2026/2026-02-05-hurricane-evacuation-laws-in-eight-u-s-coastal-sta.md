@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Hurricane Evacuation Laws in Eight U.S. Coastal States - December 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411244"
 source_layer: us_cdc_mmwr

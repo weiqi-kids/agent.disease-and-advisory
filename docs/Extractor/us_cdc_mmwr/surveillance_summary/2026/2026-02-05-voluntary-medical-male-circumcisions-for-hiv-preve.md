@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Voluntary Medical Male Circumcisions for HIV Prevention - 13 Countries in Eastern and Southern Africa, 2017-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734120"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Adoption of Strategies to Mitigate Transmission of COVID-19 During a Statewide Primary Election - Delaware, September 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412293"
 source_layer: us_cdc_mmwr

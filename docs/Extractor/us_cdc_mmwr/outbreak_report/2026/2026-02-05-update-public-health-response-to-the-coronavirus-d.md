@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Update: Public Health Response to the Coronavirus Disease 2019 Outbreak -United States, February 24, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403830"
 source_layer: us_cdc_mmwr

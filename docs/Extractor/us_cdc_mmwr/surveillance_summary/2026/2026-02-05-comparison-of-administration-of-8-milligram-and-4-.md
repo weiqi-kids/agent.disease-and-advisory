@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Comparison of Administration of 8-Milligram and 4-Milligram Intranasal Naloxone by Law Enforcement During Response to Suspected Opioid Overdose - New York, March 2022-August 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=742802"
 source_layer: us_cdc_mmwr

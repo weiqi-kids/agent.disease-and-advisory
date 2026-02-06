@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Early Season Pediatric Influenza B/Victoria Virus Infections Associated with a Recently Emerged Virus Subclade -- Louisiana, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403114"
 source_layer: us_cdc_mmwr

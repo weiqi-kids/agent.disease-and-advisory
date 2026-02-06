@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Emergency Department (ED) Visits Made by Adults with Influenza and Pneumonia That Resulted in Hospital Admission, by Age Group - United States, 2017-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413801"
 source_layer: us_cdc_mmwr

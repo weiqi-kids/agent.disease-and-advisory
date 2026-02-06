@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Epidemiology of Symptomatic Human Metapneumovirus Infection in the CASCADIA Community-Based Cohort - Oregon and Washington, 2022-2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758563"
 source_layer: us_cdc_mmwr

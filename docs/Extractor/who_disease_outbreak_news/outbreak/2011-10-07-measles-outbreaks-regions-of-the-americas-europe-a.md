@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Measles outbreaks: Regions of the Americas, Europe and Africa"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2011_10_07-en"
 source_layer: who_disease_outbreak_news

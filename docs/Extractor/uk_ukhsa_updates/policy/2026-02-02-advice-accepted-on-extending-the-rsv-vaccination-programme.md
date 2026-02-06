@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Advice accepted on extending the RSV vaccination programme"
 source_url: "https://www.gov.uk/government/news/advice-accepted-on-extending-the-rsv-vaccination-programme"
 source_layer: uk_ukhsa_updates

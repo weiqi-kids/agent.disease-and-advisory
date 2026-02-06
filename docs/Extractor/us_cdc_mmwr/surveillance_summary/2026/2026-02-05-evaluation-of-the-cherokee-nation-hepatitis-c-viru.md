@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Evaluation of the Cherokee Nation Hepatitis C Virus Elimination Program - Cherokee Nation, Oklahoma, 2015-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735273"
 source_layer: us_cdc_mmwr

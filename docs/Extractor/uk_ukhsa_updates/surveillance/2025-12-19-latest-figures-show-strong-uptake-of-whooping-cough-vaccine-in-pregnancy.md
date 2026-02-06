@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Latest figures show strong uptake of whooping cough vaccine in pregnancy"
 source_url: "https://www.gov.uk/government/news/latest-figures-show-strong-uptake-of-whooping-cough-vaccine-in-pregnancy"
 source_layer: uk_ukhsa_updates

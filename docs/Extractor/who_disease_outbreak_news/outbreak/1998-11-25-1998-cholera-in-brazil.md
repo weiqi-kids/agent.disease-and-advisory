@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "1998 - Cholera in Brazil"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/1998_11_25a-en"
 source_layer: who_disease_outbreak_news

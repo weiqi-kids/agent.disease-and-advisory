@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Recommendations for Use of Video Directly Observed Therapy During Tuberculosis Treatment - United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734311"
 source_layer: us_cdc_mmwr

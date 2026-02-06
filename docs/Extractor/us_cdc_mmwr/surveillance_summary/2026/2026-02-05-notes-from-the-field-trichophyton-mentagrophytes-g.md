@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Trichophyton mentagrophytes Genotype VII - New York City, April-July 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=754047"
 source_layer: us_cdc_mmwr

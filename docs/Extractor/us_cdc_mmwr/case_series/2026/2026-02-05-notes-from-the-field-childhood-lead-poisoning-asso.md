@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Childhood Lead Poisoning Associated with Turmeric Spices - Las Vegas, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=433704"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "MERS-CoV worldwide overview"
 source_url: "https://www.ecdc.europa.eu/en/middle-east-respiratory-syndrome-coronavirus-mers-cov-situation-update"
 source_name: "ECDC"

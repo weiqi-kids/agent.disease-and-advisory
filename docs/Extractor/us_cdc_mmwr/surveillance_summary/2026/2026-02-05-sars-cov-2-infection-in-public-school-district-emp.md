@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "SARS-CoV-2 Infection in Public School District Employees Following a District-Wide Vaccination Program - Philadelphia County, Pennsylvania, March 21-April 23, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=424917"
 source_layer: us_cdc_mmwr

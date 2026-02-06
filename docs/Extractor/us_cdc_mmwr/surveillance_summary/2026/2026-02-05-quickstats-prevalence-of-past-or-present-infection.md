@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Prevalence of Past or Present Infection with Hepatitis B Virus Among Adults Aged ≥18 Years, by Race and Hispanic Origin - National Health and Nutrition Examination Survey, 1999-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410954"
 source_layer: us_cdc_mmwr

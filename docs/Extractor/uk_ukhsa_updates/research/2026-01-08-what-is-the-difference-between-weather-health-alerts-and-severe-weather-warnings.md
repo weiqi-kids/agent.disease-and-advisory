@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "What is the difference between Weather-Health Alerts and Severe Weather Warnings?"
 source_url: "https://ukhsa.blog.gov.uk/2026/01/08/what-is-the-difference-between-weather-health-alerts-and-severe-weather-warnings/"
 source_layer: uk_ukhsa_updates

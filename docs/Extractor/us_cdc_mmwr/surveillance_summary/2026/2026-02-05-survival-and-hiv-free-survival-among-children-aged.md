@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Survival and HIV-Free Survival Among Children Aged ≤3 Years --- Eight Sub-Saharan African Countries, 2015--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407025"
 source_layer: us_cdc_mmwr

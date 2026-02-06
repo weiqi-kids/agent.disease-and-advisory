@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Ebola virus disease – Democratic Republic of the Congo"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2019-DON185"
 source_layer: who_disease_outbreak_news

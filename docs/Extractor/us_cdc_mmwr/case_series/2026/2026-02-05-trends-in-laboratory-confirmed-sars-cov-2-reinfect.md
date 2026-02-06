@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Trends in Laboratory-Confirmed SARS-CoV-2 Reinfections and Associated Hospitalizations and Deaths Among Adults Aged ≥18 Years - 18 U.S. Jurisdictions, September 2021-December 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735607"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Guidance: Hepatitis A infection: prevention and control guidance"
 source_url: "https://www.gov.uk/government/publications/hepatitis-a-infection-prevention-and-control-guidance"
 source_layer: uk_ukhsa_updates

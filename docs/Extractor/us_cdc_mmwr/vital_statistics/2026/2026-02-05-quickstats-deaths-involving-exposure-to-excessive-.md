@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Deaths Involving Exposure to Excessive Heat, by Sex - National Vital Statistics System, United States, 1999-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731111"
 source_layer: us_cdc_mmwr

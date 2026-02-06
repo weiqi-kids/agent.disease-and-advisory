@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Community-Associated Outbreak of COVID-19 in a Correctional Facility - Utah, September 2020-January 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=419406"
 source_layer: us_cdc_mmwr

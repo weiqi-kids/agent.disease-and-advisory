@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Level 2 - Diphtheria in Nigeria"
 source_url: "https://wwwnc.cdc.gov/travel/notices/level2/diphtheria-nigeria"
 source_layer: us_travel_health_notices

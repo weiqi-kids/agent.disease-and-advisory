@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Increase in Hospital-Acquired Carbapenem-Resistant Acinetobacter baumannii Infection and Colonization in an Acute Care Hospital During a Surge in COVID-19 Admissions - New Jersey, February-July 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413633"
 source_layer: us_cdc_mmwr

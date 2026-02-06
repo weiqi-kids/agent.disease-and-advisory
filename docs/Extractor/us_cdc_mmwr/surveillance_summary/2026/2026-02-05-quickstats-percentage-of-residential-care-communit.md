@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Residential Care Communities that Use Electronic Health Records, by Community Bed Size - United States, 2016 and 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731864"
 source_layer: us_cdc_mmwr

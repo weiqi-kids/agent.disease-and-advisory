@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Arthritis Among Children and Adolescents Aged 18 Years - United States, 2017-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735885"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Safety Monitoring of JYNNEOS Vaccine During the 2022 Mpox Outbreak - United States, May 22-October 21, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733020"
 source_layer: us_cdc_mmwr

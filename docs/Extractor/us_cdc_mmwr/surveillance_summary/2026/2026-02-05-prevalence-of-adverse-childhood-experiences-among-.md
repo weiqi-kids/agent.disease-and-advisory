@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Prevalence of Adverse Childhood Experiences Among U.S. Adults - Behavioral Risk Factor Surveillance System, 2011-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735676"
 source_layer: us_cdc_mmwr

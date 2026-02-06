@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "打疫苗 有保護 過好年 流感升溫新冠仍有感染風險"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/wBvUiZXEV_twj1arFSbPSw?typeId=9"
 source_layer: tw_cdc_alerts

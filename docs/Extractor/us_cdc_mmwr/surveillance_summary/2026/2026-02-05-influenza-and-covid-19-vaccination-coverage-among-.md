@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Influenza and COVID-19 Vaccination Coverage Among Health Care Personnel - United States, 2021-22"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732353"
 source_layer: us_cdc_mmwr

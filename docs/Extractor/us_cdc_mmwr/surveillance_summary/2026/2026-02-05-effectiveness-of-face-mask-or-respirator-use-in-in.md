@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Effectiveness of Face Mask or Respirator Use in Indoor Public Settings for Prevention of SARS-CoV-2 Infection - California, February-December 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=512571"
 source_layer: us_cdc_mmwr

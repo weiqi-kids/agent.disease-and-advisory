@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Interim Analysis of Acute Hepatitis of Unknown Etiology in Children Aged <10 Years - United States, October 2021-June 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729976"
 source_layer: us_cdc_mmwr

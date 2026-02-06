@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Nursing Pillows in the Sleep Environment and Sudden Unexpected Infant Deaths - Georgia, January 2013-December 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759394"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Age-Adjusted Death Rates for Parkinson Disease Among Adults Aged ≥65 Years - National Vital Statistics System, United States, 1999-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401597"
 source_layer: us_cdc_mmwr

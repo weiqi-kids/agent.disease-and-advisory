@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Mpox Cluster Caused by Tecovirimat-Resistant Monkeypox Virus - Five States, October 2023-February 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753304"
 source_layer: us_cdc_mmwr

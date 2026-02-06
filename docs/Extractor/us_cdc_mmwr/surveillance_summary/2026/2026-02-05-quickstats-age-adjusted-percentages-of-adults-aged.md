@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats:  Age-Adjusted Percentages of Adults Aged ≥18 Years Without a Usual Place of Health Care, by Region - National Health Interview Survey, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397214"
 source_layer: us_cdc_mmwr

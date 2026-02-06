@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Vital Signs: Influenza Hospitalizations and Vaccination Coverage by Race and Ethnicity-United States, 2009-10 Through 2021-22 Influenza Seasons"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732276"
 source_layer: us_cdc_mmwr

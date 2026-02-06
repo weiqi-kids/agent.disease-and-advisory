@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Characteristics of a Multistate Outbreak of Lung Injury Associated with E-cigarette Use, or Vaping - United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401924"
 source_layer: us_cdc_mmwr

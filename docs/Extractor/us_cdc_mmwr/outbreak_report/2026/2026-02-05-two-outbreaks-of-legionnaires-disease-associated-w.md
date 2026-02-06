@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Two Outbreaks of Legionnaires Disease Associated with Outdoor Hot Tubs for Private Use - Two Cruise Ships, November 2022-July 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753785"
 source_layer: us_cdc_mmwr

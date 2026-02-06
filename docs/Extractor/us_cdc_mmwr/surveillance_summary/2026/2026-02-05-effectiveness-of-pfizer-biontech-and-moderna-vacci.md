@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Effectiveness of Pfizer-BioNTech and Moderna Vaccines Against COVID-19 Among Hospitalized Adults Aged ≥65 Years - United States, January-March 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421438"
 source_layer: us_cdc_mmwr

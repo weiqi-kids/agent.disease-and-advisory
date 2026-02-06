@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Alternative Methods for Grouping Race and Ethnicity to Monitor COVID-19 Outcomes and Vaccination Coverage"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=425688"
 source_layer: us_cdc_mmwr

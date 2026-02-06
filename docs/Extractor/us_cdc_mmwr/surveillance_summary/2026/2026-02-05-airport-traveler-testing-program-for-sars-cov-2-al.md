@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Airport Traveler Testing Program for SARS-CoV-2 - Alaska, June-November 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421087"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Age-Adjusted Death Rates from Diabetes Mellitus as Underlying or Contributing Cause Among Adults Aged ≥65 Years, by Race/Ethnicity --- National Vital Statistics System, United States, 2004--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399280"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Deployment of an Electronic Self-Administered Survey to Assess Human Health Effects of an Industrial Chemical Facility Fire - Winnebago County, Illinois, June-July 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=460116"
 source_layer: us_cdc_mmwr

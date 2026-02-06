@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "1999 - Suspected viral haemorrhagic fever in Democratic Republic of Congo - Update 4"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/1999_05_12b-en"
 source_layer: who_disease_outbreak_news

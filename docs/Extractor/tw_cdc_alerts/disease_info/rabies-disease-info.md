@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "狂犬病"
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/u5dFJL5s1K6uh0EcWVzJYQ"
 source_layer: tw_cdc_alerts

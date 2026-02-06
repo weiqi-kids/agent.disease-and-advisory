@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Characteristics of Meat Processing Facility Workers with Confirmed SARS-CoV-2 Infection - Nebraska, April-May 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409282"
 source_layer: us_cdc_mmwr

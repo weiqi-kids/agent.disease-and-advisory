@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Influenza A(H3N2) Outbreak on a University Campus - Michigan, October-November 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=454624"
 source_layer: us_cdc_mmwr

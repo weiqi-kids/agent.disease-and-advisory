@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Epidemiologic and Clinical Characteristics of Monkeypox Cases - United States, May 17-July 22, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730843"
 source_layer: us_cdc_mmwr

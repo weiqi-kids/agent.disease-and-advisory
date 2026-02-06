@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Death Rates from Colorectal Cancer, by Age Group - United States, 1999-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426422"
 source_layer: us_cdc_mmwr

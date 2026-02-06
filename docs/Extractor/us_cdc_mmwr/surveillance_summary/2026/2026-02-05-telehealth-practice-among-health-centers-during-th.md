@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Telehealth Practice Among Health Centers During the COVID-19 Pandemic - United States, July 11-17, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=414704"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Implications of Measles Inclusion by Commercial Syndromic Polymerase Chain Reaction Panels - United States, May 2022-April 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=745864"
 source_layer: us_cdc_mmwr

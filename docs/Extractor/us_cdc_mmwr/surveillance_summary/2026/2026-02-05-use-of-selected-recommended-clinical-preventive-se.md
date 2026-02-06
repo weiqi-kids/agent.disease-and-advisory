@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Use of Selected Recommended Clinical Preventive Services - Behavioral Risk Factor Surveillance System, United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=419405"
 source_layer: us_cdc_mmwr

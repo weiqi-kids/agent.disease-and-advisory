@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Rift Valley fever - Saudi Arabia"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2000DON220"
 source_layer: who_disease_outbreak_news

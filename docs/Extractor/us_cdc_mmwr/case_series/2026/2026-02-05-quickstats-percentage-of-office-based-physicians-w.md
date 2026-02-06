@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Office-Based Physicians Who Had Telephone or Internet/Email Consults with Patients - National Ambulatory Medical Care Survey, United States, 2018 and 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=671160"
 source_layer: us_cdc_mmwr

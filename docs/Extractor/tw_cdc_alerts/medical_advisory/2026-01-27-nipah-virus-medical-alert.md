@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "因應國際間立百病毒感染症疫情,籲請醫界朋友加強詢問TOCC,如遇具立百病毒感染症流行地區旅遊史之疑似個案,必要時可採檢送驗(疾病管制署致醫界通函第597號)"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/gvAazHRLfyjoQYZlmeFO2A?typeId=48"
 source_layer: tw_cdc_alerts

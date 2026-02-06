@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Characteristics of Tetrahydrocannabinol-Containing E-cigarette, or Vaping, Products Used by Adults - Illinois, September-October 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408883"
 source_layer: us_cdc_mmwr

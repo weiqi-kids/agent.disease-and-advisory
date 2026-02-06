@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Lassa fever – United Kingdom of Great Britain and Northern Ireland"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/lassa-fever-united-kingdom-of-great-britain-and-northern-ireland"
 source_layer: who_disease_outbreak_news

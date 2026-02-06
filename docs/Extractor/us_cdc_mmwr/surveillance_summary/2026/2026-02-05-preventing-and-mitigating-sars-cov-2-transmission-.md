@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Preventing and Mitigating SARS-CoV-2 Transmission - Four Overnight Camps, Maine, June-August 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410482"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Progress Toward Measles Elimination --- China, January 2013--June 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402750"
 source_layer: us_cdc_mmwr

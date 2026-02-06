@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "SARS-CoV-2 Transmission to Masked and Unmasked Close Contacts of University Students with COVID-19 - St. Louis, Missouri, January-May 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426620"
 source_layer: us_cdc_mmwr

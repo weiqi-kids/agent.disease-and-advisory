@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Influenza A(H1N1) - update 49"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2009_06_15-en"
 source_layer: who_disease_outbreak_news

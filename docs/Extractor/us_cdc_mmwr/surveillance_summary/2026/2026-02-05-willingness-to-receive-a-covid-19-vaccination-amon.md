@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Willingness to Receive a COVID-19 Vaccination Among Incarcerated or Detained Persons in Correctional and Detention Facilities - Four States, September-December 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=419407"
 source_layer: us_cdc_mmwr

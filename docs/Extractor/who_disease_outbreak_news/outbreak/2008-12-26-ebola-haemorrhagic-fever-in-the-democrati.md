@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Ebola haemorrhagic fever in the Democratic Republic of the Congo"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2008_12_26a-en"
 source_layer: who_disease_outbreak_news

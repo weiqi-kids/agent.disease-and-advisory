@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Outbreak of Locally Acquired Mosquito-Transmitted (Autochthonous) Malaria - Florida and Texas, May-July 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736771"
 source_layer: us_cdc_mmwr

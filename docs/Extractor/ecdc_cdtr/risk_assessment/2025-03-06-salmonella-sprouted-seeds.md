@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Rapid outbreak assessment - Prolonged cross-border multi-serovar Salmonella outbreak linked to consumption of sprouted seeds"
 source_url: "https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-prolonged-cross-border-multi-serovar-salmonella"
 published_date: "2025-03-06"

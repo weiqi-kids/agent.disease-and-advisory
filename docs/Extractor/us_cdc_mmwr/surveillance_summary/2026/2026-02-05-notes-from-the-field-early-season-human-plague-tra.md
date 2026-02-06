@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Early-Season Human Plague Transmitted from an Infected Cat - Oregon, January 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759933"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Effectiveness of Monovalent mRNA Vaccines Against COVID-19-Associated Hospitalization Among Immunocompetent Adults During BA.1/BA.2 and BA.4/BA.5 Predominant Periods of SARS-CoV-2 Omicron Variant in the United States - IVY Network, 18 States, December 26, 2021-August 31, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732354"
 source_layer: us_cdc_mmwr

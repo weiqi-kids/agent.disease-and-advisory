@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Drug Overdose Deaths with Evidence of Counterfeit Pill Use - United States, July 2019-December 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736548"
 source_layer: us_cdc_mmwr

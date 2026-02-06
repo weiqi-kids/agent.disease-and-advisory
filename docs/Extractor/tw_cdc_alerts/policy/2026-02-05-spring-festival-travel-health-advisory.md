@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "春節出國安心行 旅遊防疫不輕忽"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/E9H8jwQfRg4IE6KTK6qn5g?typeId=9"
 source_layer: tw_cdc_alerts

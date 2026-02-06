@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Cake Decorating Luster Dust Associated with Toxic Metal Poisonings - Rhode Island and Missouri, 2018-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=428417"
 source_layer: us_cdc_mmwr

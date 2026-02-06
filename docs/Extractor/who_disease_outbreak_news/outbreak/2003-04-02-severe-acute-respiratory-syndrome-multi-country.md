@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Severe acute respiratory syndrome - Multi-country"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2003DON157"
 source_layer: who_disease_outbreak_news

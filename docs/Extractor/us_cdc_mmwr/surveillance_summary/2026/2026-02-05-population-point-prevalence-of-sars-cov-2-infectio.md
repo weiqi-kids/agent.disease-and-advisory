@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Population Point Prevalence of SARS-CoV-2 Infection Based on a Statewide Random Sample - Indiana, April 25-29, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408827"
 source_layer: us_cdc_mmwr

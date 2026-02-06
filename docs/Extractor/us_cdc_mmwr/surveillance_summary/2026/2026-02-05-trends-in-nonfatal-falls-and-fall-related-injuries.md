@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Trends in Nonfatal Falls and Fall-Related Injuries Among Adults Aged ≥65 Years - United States, 2012-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408553"
 source_layer: us_cdc_mmwr

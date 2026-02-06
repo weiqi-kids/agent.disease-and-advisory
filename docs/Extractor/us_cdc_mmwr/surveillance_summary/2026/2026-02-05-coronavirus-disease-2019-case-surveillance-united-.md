@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Coronavirus Disease 2019 Case Surveillance - United States, January 22-May 30, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407983"
 source_layer: us_cdc_mmwr

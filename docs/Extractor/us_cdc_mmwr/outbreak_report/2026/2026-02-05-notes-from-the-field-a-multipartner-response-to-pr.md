@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: A Multipartner Response to Prevent a Binational Rabies Outbreak --- Anse-à-Pitre, Haiti 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401195"
 source_layer: us_cdc_mmwr

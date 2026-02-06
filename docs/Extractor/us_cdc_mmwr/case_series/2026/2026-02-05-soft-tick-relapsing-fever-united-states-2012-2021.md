@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Soft Tick Relapsing Fever - United States, 2012-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735882"
 source_layer: us_cdc_mmwr

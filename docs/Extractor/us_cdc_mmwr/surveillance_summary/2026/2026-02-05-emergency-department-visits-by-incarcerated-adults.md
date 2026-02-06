@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Emergency Department Visits by Incarcerated Adults for Nonfatal Injuries - United States, 2010-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734214"
 source_layer: us_cdc_mmwr

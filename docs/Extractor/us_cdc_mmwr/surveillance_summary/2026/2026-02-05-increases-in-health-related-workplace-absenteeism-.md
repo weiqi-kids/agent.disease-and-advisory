@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Increases in Health-Related Workplace Absenteeism Among Workers in Essential Critical Infrastructure Occupations During the COVID-19 Pandemic - United States, March-April 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408548"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Detection of Ciprofloxacin-Resistant, β-Lactamase-Producing Neisseria meningitidis Serogroup Y Isolates - United States, 2019-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408044"
 source_layer: us_cdc_mmwr

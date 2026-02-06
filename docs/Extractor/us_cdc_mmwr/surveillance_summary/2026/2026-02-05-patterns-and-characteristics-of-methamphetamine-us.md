@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Patterns and Characteristics of Methamphetamine Use Among Adults - United States, 2015-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405586"
 source_layer: us_cdc_mmwr

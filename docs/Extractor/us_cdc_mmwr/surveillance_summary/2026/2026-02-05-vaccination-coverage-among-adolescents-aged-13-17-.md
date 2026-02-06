@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Vaccination Coverage Among Adolescents Aged 13-17 Years - National Immunization Survey-Teen, United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736353"
 source_layer: us_cdc_mmwr

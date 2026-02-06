@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Status of New Vaccine Introduction - Worldwide, 2016-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735750"
 source_layer: us_cdc_mmwr

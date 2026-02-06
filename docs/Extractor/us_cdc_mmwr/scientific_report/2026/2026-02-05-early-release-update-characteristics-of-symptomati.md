@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "EARLY RELEASE: Update: Characteristics of Symptomatic Women of Reproductive Age with Laboratory-Confirmed SARS-CoV-2 Infection by Pregnancy Status - United States, January 22-October 3, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412546"
 source_layer: us_cdc_mmwr

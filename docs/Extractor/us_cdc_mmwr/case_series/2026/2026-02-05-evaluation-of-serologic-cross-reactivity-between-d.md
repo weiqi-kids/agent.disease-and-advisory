@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Evaluation of Serologic Cross-Reactivity Between Dengue Virus and SARS-CoV-2 in Patients with Acute Febrile Illness - United States and Puerto Rico, April 2020-March 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=600325"
 source_layer: us_cdc_mmwr

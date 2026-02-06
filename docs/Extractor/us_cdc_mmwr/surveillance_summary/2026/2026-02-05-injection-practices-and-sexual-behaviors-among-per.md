@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Injection Practices and Sexual Behaviors Among Persons with Diagnosed HIV Infection Who Inject Drugs --- United States, 2015--2017 "
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401051"
 source_layer: us_cdc_mmwr

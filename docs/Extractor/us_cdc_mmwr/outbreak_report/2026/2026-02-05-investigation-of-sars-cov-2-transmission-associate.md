@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Investigation of SARS-CoV-2 Transmission Associated With a Large Indoor Convention - New York City, November-December 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=542103"
 source_layer: us_cdc_mmwr

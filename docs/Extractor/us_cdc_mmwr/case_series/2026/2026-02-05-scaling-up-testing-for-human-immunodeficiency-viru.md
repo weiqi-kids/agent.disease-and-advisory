@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Scaling Up Testing for Human Immunodeficiency Virus Infection Among Contacts of Index Patients - 20 Countries, 2016-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=398696"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Vision Impairment and Subjective Cognitive Decline-Related Functional Limitations - United States, 2015-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=398647"
 source_layer: us_cdc_mmwr

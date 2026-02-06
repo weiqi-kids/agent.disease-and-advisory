@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Continuation of Mosquito Surveillance and Control During Public Health Emergencies and Natural Disasters"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408725"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notice to Readers: Change in Publication Date of QuickStats"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=746108"
 source_layer: us_cdc_mmwr

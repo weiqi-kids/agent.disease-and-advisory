@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Racial/Ethnic and Age Group Differences in Opioid and Synthetic Opioid-Involved Overdose Deaths Among Adults Aged ≥18 Years in Metropolitan Areas - United States, 2015-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402349"
 source_layer: us_cdc_mmwr

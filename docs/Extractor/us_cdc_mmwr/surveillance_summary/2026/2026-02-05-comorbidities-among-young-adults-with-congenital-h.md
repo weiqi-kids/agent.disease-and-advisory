@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Comorbidities Among Young Adults with Congenital Heart Defects: Results from the Congenital Heart Survey To Recognize Outcomes, Needs, and well-beinG - Arizona, Arkansas, and Metropolitan Atlanta, 2016-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416720"
 source_layer: us_cdc_mmwr

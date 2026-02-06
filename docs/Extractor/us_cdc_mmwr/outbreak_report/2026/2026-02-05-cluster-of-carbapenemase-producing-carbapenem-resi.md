@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Cluster of Carbapenemase-Producing Carbapenem-Resistant Pseudomonas aeruginosa Among Patients in an Adult Intensive Care Unit - Idaho, 2021-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736107"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Outbreak of Neisseria meningitidis Conjunctivitis in Military Trainees - Texas, February-May 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=760157"
 source_layer: us_cdc_mmwr

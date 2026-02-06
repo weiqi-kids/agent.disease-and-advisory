@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Booster COVID-19 Vaccinations Among Persons Aged ≥5 Years and Second Booster COVID-19 Vaccinations Among Persons Aged ≥50 Years - United States, August 13, 2021-August 5, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731271"
 source_layer: us_cdc_mmwr

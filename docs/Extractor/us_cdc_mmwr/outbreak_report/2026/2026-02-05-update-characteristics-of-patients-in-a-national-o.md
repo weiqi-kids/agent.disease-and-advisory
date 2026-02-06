@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Update: Characteristics of Patients in a National Outbreak of E-cigarette, or Vaping, Product Use-Associated Lung Injuries - United States, October 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402323"
 source_layer: us_cdc_mmwr

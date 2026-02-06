@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Evaluation of Test to Stay Strategy on Secondary and Tertiary Transmission of SARS-CoV-2 in K-12 Schools - Lake County, Illinois, August 9-October 29, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=463398"
 source_layer: us_cdc_mmwr

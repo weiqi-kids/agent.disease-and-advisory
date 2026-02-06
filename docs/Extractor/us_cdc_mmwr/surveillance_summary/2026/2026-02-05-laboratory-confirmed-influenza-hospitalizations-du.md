@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Laboratory-Confirmed Influenza Hospitalizations During Pregnancy or the Early Postpartum Period - Suzhou City, Jiangsu Province, China, 2018-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=754042"
 source_layer: us_cdc_mmwr

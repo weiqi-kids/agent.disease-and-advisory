@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Update: Influenza Activity - United States and Worldwide, May 19-September 28, 2019, and Composition of the 2020 Southern Hemisphere Influenza Vaccine"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402091"
 source_layer: us_cdc_mmwr

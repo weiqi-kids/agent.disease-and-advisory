@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Preventable Deaths During Widespread Community Hepatitis A Outbreaks - United States, 2016-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=738217"
 source_layer: us_cdc_mmwr

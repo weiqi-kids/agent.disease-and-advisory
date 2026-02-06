@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "1998 - Influenza in China"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/1998_12_23-en"
 source_layer: who_disease_outbreak_news

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Interim Influenza Vaccine Effectiveness Against Laboratory-Confirmed Influenza - California, October 2023-January 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=744680"
 source_layer: us_cdc_mmwr

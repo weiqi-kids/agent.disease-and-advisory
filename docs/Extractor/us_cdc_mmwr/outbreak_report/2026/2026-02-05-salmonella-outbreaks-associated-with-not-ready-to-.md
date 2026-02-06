@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Salmonella Outbreaks Associated with Not Ready-to-Eat Breaded, Stuffed Chicken Products - United States, 1998-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734866"
 source_layer: us_cdc_mmwr

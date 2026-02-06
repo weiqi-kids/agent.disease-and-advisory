@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Update to U.S. Medical Eligibility Criteria for Contraceptive Use, 2016:  Updated Recommendations for the Use of Contraception Among Women at High Risk for HIV Infection"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406048"
 source_layer: us_cdc_mmwr

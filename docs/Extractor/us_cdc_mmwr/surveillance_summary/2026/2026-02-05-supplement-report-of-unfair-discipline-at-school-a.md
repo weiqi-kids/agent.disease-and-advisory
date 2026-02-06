@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "SUPPLEMENT: Report of Unfair Discipline at School and Associations with Health Risk Behaviors and Experiences - Youth Risk Behavior Survey, United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753083"
 source_layer: us_cdc_mmwr

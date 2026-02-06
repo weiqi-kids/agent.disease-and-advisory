@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Decline in SARS-CoV-2 Antibodies After Mild Infection Among Frontline Health Care Personnel in a Multistate Hospital Network - 12 States, April-August 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413537"
 source_layer: us_cdc_mmwr

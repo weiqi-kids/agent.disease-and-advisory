@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Changing Age Distribution of the COVID-19 Pandemic - United States, May-August 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411557"
 source_layer: us_cdc_mmwr

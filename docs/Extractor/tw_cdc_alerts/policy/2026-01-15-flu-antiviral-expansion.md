@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "疾管署自115年1月20日起至2月28日擴大公費流感抗病毒藥劑使用條件"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/23rXH95pA_WSBuR2-lWxvw?typeId=9"
 source_layer: tw_cdc_alerts

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "SURVEILLANCE SUMMARIES: Disease Surveillance Among U.S.-Bound Immigrants and Refugees - Electronic Disease Notification System, United States, 2014-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=490938"
 source_layer: us_cdc_mmwr

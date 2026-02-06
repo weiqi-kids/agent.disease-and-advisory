@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Yellow fever in Paraguay - update 2"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2008_03_07-en"
 source_layer: who_disease_outbreak_news

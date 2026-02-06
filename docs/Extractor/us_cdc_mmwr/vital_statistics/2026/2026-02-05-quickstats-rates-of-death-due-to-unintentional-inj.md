@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Rates of Death Due to Unintentional Injury from Fire or Flames, by Sex and Urbanization Level - National Vital Statistics System, United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734458"
 source_layer: us_cdc_mmwr

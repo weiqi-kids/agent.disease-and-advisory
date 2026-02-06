@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Nirsevimab Effectiveness Against Intensive Care Unit Admission for Respiratory Syncytial Virus in Infants - 24 States, December 2024-April 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=761559"
 source_layer: us_cdc_mmwr

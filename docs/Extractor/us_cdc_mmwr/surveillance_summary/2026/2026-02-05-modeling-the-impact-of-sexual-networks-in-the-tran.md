@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Modeling the Impact of Sexual Networks in the Transmission of Monkeypox virus Among Gay, Bisexual, and Other Men Who Have Sex With Men - United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731162"
 source_layer: us_cdc_mmwr

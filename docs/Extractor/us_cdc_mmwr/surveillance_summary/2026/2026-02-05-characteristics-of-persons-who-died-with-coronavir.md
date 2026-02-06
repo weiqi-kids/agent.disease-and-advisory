@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Characteristics of Persons Who Died with Coronavirus Disease 2019 (COVID-19) - United States, February 12-May 18, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408614"
 source_layer: us_cdc_mmwr

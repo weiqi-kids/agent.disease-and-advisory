@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Hepatitis C Virus Potentially Transmitted by Opioid Drug Diversion from a Nurse --- Washington, August 2017--March 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397540"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Adverse Health Events, Including Death, Associated with Ingesting Alcohol-Based Hand Sanitizers Containing Methanol - Arizona and New Mexico, May-June 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409277"
 source_layer: us_cdc_mmwr

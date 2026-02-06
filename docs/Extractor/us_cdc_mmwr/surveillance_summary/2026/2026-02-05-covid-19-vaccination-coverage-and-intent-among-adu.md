@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Vaccination Coverage and Intent Among Adults Aged 18-39 Years - United States, March-May 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423690"
 source_layer: us_cdc_mmwr

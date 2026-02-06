@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Evaluation of the Effectiveness of Surveillance and Containment Measures for the First 100 Patients with COVID-19 in Singapore - January 2-February 29, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=404811"
 source_layer: us_cdc_mmwr

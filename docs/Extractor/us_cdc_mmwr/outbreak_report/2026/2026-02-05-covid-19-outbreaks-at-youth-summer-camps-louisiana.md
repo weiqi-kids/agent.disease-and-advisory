@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Outbreaks at Youth Summer Camps - Louisiana, June-July 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427534"
 source_layer: us_cdc_mmwr

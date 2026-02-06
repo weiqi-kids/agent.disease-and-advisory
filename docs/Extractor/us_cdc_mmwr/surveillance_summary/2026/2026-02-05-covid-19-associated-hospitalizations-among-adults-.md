@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19-Associated Hospitalizations Among Adults During SARS-CoV-2 Delta and Omicron Variant Predominance, by Race/Ethnicity and Vaccination Status - COVID-NET, 14 States, July 2021-January 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=625715"
 source_layer: us_cdc_mmwr

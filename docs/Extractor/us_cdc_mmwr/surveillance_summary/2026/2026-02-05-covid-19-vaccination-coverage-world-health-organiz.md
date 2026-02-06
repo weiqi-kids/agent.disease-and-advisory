@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Vaccination Coverage - World Health Organization African Region, 2021-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=746360"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Ventilation Improvement Strategies Among K-12 Public Schools - The National School COVID-19 Prevention Study, United States, February 14-March 27, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729720"
 source_layer: us_cdc_mmwr

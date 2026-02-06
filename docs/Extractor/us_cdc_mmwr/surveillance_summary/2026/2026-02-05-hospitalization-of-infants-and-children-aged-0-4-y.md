@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Hospitalization of Infants and Children Aged 0-4 Years with Laboratory-Confirmed COVID-19 - COVID-NET, 14 States, March 2020-February 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=613117"
 source_layer: us_cdc_mmwr

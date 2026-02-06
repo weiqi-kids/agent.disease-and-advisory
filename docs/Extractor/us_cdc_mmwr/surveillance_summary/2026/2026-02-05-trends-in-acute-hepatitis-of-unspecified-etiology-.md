@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Trends in Acute Hepatitis of Unspecified Etiology and Adenovirus Stool Testing Results in Children - United States, 2017-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729854"
 source_layer: us_cdc_mmwr

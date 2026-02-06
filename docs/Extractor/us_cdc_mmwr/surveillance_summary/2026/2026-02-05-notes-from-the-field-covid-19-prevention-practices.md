@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: COVID-19 Prevention Practices in State Prisons - Puerto Rico, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410266"
 source_layer: us_cdc_mmwr

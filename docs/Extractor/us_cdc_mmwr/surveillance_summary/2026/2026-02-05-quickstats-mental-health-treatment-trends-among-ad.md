@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Mental Health Treatment Trends Among Adults Aged ≥18 Years, by Age Group - United States, 2019-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=755752"
 source_layer: us_cdc_mmwr

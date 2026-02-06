@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "National Preparedness Month - September 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401589"
 source_layer: us_cdc_mmwr

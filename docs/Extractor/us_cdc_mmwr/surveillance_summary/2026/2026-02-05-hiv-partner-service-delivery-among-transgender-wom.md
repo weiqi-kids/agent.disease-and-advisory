@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "HIV Partner Service Delivery Among Transgender Women --- United States, 2013--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403144"
 source_layer: us_cdc_mmwr

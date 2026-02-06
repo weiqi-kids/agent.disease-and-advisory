@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Trends in Secondhand Smoke Exposure Among Nonsmoking Adults, by Race and Hispanic Origin - National Health and Nutrition Examination Survey, United States, 2009-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416723"
 source_layer: us_cdc_mmwr

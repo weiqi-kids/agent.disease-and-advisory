@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Racial and Ethnic Disparities in Breastfeeding Initiation ─ United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=422923"
 source_layer: us_cdc_mmwr

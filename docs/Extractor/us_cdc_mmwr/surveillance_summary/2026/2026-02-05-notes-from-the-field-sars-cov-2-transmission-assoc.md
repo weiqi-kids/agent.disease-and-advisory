@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: SARS-CoV-2 Transmission Associated with High School Football Team Members - Florida, September-October 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=418762"
 source_layer: us_cdc_mmwr

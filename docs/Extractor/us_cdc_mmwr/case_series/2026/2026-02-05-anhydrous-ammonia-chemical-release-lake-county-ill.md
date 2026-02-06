@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Anhydrous Ammonia Chemical Release --- Lake County, Illinois, April 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403409"
 source_layer: us_cdc_mmwr

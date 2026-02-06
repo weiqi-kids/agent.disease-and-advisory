@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Progress Toward Rubella Elimination - World Health Organization European Region, 2005-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423449"
 source_layer: us_cdc_mmwr

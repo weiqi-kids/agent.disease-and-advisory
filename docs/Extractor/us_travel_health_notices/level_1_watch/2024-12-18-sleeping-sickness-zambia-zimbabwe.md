@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Level 1 - East African Sleeping Sickness in Zambia and Zimbabwe"
 source_url: "https://wwwnc.cdc.gov/travel/notices/level1/human-trypanosomiasis-east-africa"
 source_layer: us_travel_health_notices

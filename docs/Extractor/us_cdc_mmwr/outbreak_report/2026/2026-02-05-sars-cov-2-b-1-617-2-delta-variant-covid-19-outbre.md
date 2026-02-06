@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "SARS-CoV-2 B.1.617.2 (Delta) Variant COVID-19 Outbreak Associated with a Gymnastics Facility - Oklahoma, April-May 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=424342"
 source_layer: us_cdc_mmwr

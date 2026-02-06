@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Disparities in Incidence of COVID-19 Among Underrepresented Racial/Ethnic Groups in Counties Identified as Hotspots During June 5-18, 2020 - 22 States, February-June 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409869"
 source_layer: us_cdc_mmwr

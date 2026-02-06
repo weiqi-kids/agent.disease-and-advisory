@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Adults Who Did Not Get Needed Dental Care Because of Cost in the Past 12 Months, by Age Group and Sex - National Health Interview Survey, United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423795"
 source_layer: us_cdc_mmwr

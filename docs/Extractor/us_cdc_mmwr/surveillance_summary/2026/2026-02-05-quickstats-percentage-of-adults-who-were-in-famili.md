@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Adults Who Were in Families Having Problems Paying Medical Bills During the Previous 12 Months, by Race and Selected Hispanic Origin Subgroups - National Health Interview Survey, United States, 2020−2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734543"
 source_layer: us_cdc_mmwr

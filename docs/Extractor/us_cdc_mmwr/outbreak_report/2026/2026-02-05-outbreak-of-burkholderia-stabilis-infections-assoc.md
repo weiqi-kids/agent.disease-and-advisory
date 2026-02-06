@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Outbreak of Burkholderia stabilis Infections Associated with Contaminated Nonsterile, Multiuse Ultrasound Gel - 10 States, May-September 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732944"
 source_layer: us_cdc_mmwr

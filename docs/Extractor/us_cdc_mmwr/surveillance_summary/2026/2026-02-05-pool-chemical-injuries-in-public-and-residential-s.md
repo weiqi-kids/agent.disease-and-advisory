@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Pool Chemical Injuries in Public and Residential Settings - United States, 2008-2017, and New York, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397822"
 source_layer: us_cdc_mmwr

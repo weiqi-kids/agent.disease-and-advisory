@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Extreme Heat Exposure: Access and Barriers to Cooling Centers - Maricopa and Yuma Counties, Arizona, 2010-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729876"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Reasons for Receiving or Not Receiving Bivalent COVID-19 Booster Vaccinations Among Adults - United States, November 1-December 10, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733485"
 source_layer: us_cdc_mmwr

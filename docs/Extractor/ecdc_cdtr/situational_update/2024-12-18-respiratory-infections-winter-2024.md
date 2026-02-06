@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Acute respiratory infections in the EU/EEA: epidemiological update and current public health recommendations – winter 2024/2025"
 source_url: "https://www.ecdc.europa.eu/en/news-events/acute-respiratory-infections-eueea-epidemiological-update-and-current-public-health-0"
 source_layer: "ecdc_cdtr"

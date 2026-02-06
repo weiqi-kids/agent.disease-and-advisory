@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Distribution of SARS-CoV-2 Variants in a Large Integrated Health Care System - California, March-July 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427681"
 source_layer: us_cdc_mmwr

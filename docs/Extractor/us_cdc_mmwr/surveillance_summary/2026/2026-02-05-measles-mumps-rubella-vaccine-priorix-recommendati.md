@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Measles, Mumps, Rubella Vaccine (PRIORIX): Recommendations of the Advisory Committee on Immunization Practices - United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732754"
 source_layer: us_cdc_mmwr

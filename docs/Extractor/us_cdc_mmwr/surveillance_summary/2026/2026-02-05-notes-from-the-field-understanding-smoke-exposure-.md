@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Understanding Smoke Exposure in Communities and Fire Camps Affected by Wildfires - California and Oregon, 2020 "
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413798"
 source_layer: us_cdc_mmwr

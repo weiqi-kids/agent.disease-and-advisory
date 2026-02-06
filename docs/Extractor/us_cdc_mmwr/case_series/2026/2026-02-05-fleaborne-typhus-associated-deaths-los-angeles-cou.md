@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Fleaborne Typhus-Associated Deaths - Los Angeles County, California, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736102"
 source_layer: us_cdc_mmwr

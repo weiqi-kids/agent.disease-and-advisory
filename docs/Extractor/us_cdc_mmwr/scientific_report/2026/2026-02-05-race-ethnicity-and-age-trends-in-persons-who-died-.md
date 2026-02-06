@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Race, Ethnicity, and Age Trends in Persons Who Died from COVID-19 - United States, May-August 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412099"
 source_layer: us_cdc_mmwr

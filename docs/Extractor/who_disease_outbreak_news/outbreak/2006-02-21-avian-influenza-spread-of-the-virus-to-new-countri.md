@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Avian influenza –spread of the virus to new countries"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2006_02_21b-en"
 source_layer: who_disease_outbreak_news

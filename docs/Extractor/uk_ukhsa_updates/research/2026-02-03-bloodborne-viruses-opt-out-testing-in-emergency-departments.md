@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Research: Bloodborne viruses (BBVs): opt-out testing in emergency departments (EDs)"
 source_url: "https://www.gov.uk/government/publications/bloodborne-viruses-opt-out-testing-in-emergency-departments"
 source_layer: uk_ukhsa_updates

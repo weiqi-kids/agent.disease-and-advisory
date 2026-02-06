@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "RECOMMENDATIONS AND REPORTS: CDC Clinical Practice Guideline for Prescribing Opioids for Pain - United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732576"
 source_layer: us_cdc_mmwr

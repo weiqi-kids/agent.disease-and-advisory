@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Cluster of Blastomycosis Among Neighborhood Residents - St. Croix County, Wisconsin, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734384"
 source_layer: us_cdc_mmwr

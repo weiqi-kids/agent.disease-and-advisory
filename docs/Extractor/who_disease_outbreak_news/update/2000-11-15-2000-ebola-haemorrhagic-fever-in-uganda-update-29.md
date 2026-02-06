@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "2000 - Ebola haemorrhagic fever in Uganda - Update 29"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2000_11_15-en"
 source_layer: who_disease_outbreak_news

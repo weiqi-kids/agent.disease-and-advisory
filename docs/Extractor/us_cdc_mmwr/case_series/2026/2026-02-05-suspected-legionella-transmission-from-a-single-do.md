@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Suspected Legionella Transmission from a Single Donor to Two Lung Transplant Recipients - Pennsylvania, May 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737017"
 source_layer: us_cdc_mmwr

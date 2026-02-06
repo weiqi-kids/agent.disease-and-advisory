@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Early Evidence of the SARS-CoV-2 B.1.1.529 (Omicron) Variant in Community Wastewater - United States, November-December 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=490925"
 source_layer: us_cdc_mmwr

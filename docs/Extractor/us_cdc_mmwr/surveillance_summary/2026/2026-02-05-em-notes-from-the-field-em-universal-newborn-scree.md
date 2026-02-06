@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "<em>Notes from the Field</em>: Universal Newborn Screening and Surveillance for Congenital Cytomegalovirus - Minnesota, 2023-2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752013"
 source_layer: us_cdc_mmwr

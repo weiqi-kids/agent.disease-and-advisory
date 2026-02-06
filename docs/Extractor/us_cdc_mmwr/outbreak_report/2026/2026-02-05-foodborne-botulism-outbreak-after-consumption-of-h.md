@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Foodborne Botulism Outbreak After Consumption of Home-Canned Cactus (Nopales) - Fresno County, California, June 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759859"
 source_layer: us_cdc_mmwr

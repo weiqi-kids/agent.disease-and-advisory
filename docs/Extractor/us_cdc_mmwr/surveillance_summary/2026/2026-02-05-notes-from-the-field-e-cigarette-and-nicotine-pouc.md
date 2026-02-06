@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: E-Cigarette and Nicotine Pouch Use Among Middle and High School Students - United States, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752414"
 source_layer: us_cdc_mmwr

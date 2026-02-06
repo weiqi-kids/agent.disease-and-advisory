@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Vaccination Coverage Among Adults - United States, December 14, 2020-May 22, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423689"
 source_layer: us_cdc_mmwr

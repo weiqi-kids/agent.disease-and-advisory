@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Safety Monitoring of an Additional Dose of COVID-19 Vaccine - United States, August 12-September 19, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427422"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Vaccine Safety in Adolescents Aged 12-17 Years - United States, December 14, 2020-July 16, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=425230"
 source_layer: us_cdc_mmwr

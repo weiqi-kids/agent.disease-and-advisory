@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Suicidal Thoughts and Behaviors Among High School Students - Youth Risk Behavior Survey, United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734747"
 source_layer: us_cdc_mmwr

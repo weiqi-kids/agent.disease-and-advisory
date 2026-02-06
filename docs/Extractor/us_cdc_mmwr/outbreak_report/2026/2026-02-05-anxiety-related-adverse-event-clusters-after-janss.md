@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Anxiety-Related Adverse Event Clusters After Janssen COVID-19 Vaccination - Five U.S. Mass Vaccination Sites, April 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421542"
 source_layer: us_cdc_mmwr

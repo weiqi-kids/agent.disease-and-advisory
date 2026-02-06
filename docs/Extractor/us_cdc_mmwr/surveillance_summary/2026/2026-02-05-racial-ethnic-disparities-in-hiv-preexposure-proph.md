@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Racial/Ethnic Disparities in HIV Preexposure Prophylaxis Among Men Who Have Sex with Men - 23 Urban Areas, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401791"
 source_layer: us_cdc_mmwr

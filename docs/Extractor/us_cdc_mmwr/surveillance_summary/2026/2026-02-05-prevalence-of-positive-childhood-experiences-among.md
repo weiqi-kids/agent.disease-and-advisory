@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Prevalence of Positive Childhood Experiences Among Adults - Behavioral Risk Factor Surveillance System, Four States, 2015-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=747497"
 source_layer: us_cdc_mmwr

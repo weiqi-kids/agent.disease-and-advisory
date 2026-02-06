@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Emergency Department Visits for Firearm Injuries Before and During the COVID-19 Pandemic - United States, January 2019-December 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734380"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "First 100 Persons with COVID-19 - Zambia, March 18-April 28, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412228"
 source_layer: us_cdc_mmwr

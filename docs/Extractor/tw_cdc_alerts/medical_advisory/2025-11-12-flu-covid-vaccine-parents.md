@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "考量現今家庭組成型態多元,公費流感及COVID-19疫苗接種計畫實施對象「6個月內嬰兒父母」,自今(114)年11月12日起調整為「6個月內嬰兒雙親」(疾病管制署致醫界通函第593號)"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/YhKexHwnQTEK4r7Cj44jMw?typeId=48"
 source_layer: tw_cdc_alerts

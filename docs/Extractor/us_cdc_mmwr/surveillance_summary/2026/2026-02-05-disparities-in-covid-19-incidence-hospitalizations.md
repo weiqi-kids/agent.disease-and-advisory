@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Disparities in COVID-19 Incidence, Hospitalizations, and Testing, by Area-Level Deprivation - Utah, March 3-July 9, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411572"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Emergence of an Mpox Cluster Primarily Affecting Persons Previously Vaccinated Against Mpox - Chicago, Illinois, March 18-June 12, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735610"
 source_layer: us_cdc_mmwr

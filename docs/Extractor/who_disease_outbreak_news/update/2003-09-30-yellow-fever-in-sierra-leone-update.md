@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Yellow fever in Sierra Leone - update"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2003_09_30a-en"
 source_layer: who_disease_outbreak_news

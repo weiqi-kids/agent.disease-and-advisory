@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Percentage of Adolescents Meeting Federal Fruit and Vegetable Intake Recommendations - Youth Risk Behavior Surveillance System, United States, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415827"
 source_layer: us_cdc_mmwr

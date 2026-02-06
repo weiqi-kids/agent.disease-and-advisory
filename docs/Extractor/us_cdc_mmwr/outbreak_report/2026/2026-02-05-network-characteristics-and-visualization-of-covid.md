@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Network Characteristics and Visualization of COVID-19 Outbreak in a Large Detention Facility in the United States - Cook County, Illinois, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412714"
 source_layer: us_cdc_mmwr

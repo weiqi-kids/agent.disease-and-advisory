@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Changes to the childhood vaccination schedule from January 2026"
 source_url: "https://ukhsa.blog.gov.uk/2025/12/30/changes-to-the-childhood-vaccination-schedule-from-january-2026/"
 source_layer: uk_ukhsa_updates

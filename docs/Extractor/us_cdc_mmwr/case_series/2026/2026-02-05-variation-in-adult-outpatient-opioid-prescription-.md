@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Variation in Adult Outpatient Opioid Prescription Dispensing by Age and Sex - United States, 2008-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405266"
 source_layer: us_cdc_mmwr

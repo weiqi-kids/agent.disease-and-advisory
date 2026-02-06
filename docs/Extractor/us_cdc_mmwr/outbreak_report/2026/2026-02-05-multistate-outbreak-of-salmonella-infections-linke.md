@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Multistate Outbreak of Salmonella Infections Linked to Raw Turkey Products - United States, 2017-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402597"
 source_layer: us_cdc_mmwr

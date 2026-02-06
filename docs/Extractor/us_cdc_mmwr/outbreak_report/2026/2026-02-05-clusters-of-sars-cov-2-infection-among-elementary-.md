@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Clusters of SARS-CoV-2 Infection Among Elementary School Educators and Students in One School District - Georgia, December 2020-January 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416972"
 source_layer: us_cdc_mmwr

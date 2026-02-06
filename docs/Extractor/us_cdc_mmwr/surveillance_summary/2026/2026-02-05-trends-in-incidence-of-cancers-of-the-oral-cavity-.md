@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Trends in Incidence of Cancers of the Oral Cavity and Pharynx --- United States 2007--2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406263"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Laboratory-Confirmed COVID-19 Case Incidence Rates Among Residents in Nursing Homes by Up-to-Date Vaccination Status - United States, October 10, 2022-January 8, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733612"
 source_layer: us_cdc_mmwr

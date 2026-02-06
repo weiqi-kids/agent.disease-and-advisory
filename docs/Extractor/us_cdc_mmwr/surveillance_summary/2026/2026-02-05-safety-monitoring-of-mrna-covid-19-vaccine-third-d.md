@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Safety Monitoring of mRNA COVID-19 Vaccine Third Doses Among Children Aged 6 Months-5 Years - United States, June 17, 2022-May 7, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735329"
 source_layer: us_cdc_mmwr

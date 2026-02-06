@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Change of vaccine for the routine adult pneumococcal vaccination programme and individuals at increased clinical risk"
 source_url: "https://www.gov.uk/government/publications/change-of-vaccine-for-the-routine-adult-pneumococcal-vaccination-programme-and-individuals-at-increased-clinical-risk"
 source_layer: uk_ukhsa_updates

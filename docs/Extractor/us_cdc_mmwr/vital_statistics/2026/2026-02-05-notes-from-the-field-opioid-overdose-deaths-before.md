@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Opioid Overdose Deaths Before, During, and After an 11-Week COVID-19 Stay-at-Home Order - Cook County, Illinois, January 1, 2018-October 6, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=418418"
 source_layer: us_cdc_mmwr

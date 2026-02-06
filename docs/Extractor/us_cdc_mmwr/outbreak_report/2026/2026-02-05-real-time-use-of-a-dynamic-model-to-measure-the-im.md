@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Real-Time Use of a Dynamic Model To Measure the Impact of Public Health Interventions on Measles Outbreak Size and Duration - Chicago, Illinois, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=748316"
 source_layer: us_cdc_mmwr

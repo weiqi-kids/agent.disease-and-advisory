@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Short Sleep Duration Among Infants, Children, and Adolescents Aged 4 Months-17 Years - United States, 2016-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427073"
 source_layer: us_cdc_mmwr

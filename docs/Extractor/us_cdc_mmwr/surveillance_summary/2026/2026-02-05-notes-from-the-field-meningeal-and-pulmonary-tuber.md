@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Meningeal and Pulmonary Tuberculosis on a Commercial Fishing Vessel --- Hawaii, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399279"
 source_layer: us_cdc_mmwr

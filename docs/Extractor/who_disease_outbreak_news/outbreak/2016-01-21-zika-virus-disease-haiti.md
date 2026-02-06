@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Zika virus disease – Haiti"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/21-january-2016-zika-haiti-en"
 source_layer: who_disease_outbreak_news

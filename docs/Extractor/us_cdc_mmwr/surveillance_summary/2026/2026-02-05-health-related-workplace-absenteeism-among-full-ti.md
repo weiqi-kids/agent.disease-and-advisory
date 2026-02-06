@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Health-Related Workplace Absenteeism Among Full-Time Workers --- United States, 2017--18 Influenza Season"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399524"
 source_layer: us_cdc_mmwr

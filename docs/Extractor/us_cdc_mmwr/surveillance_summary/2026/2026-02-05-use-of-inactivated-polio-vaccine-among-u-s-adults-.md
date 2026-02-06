@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Use of Inactivated Polio Vaccine Among U.S. Adults: Updated Recommendations of the Advisory Committee on Immunization Practices - United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=740030"
 source_layer: us_cdc_mmwr

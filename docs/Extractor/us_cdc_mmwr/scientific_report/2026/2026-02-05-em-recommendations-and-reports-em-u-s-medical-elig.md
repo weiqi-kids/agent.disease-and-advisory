@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "<em>Recommendations and Reports</em>: U.S. Medical Eligibility Criteria for Contraceptive Use, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=751748"
 source_layer: us_cdc_mmwr

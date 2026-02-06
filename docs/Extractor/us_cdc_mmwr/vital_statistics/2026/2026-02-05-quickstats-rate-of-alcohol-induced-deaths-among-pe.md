@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats:  Rate of Alcohol-Induced Deaths Among Persons Aged ≥25 Years, by Age Group --- National Vital Statistics System, 1999--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401264"
 source_layer: us_cdc_mmwr

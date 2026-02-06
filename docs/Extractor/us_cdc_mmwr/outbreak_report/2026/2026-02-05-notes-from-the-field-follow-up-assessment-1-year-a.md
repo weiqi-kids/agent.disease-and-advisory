@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Follow-Up Assessment 1 Year After a Chemical Exposure Investigation - Winnebago County, Illinois, July-August 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733486"
 source_layer: us_cdc_mmwr

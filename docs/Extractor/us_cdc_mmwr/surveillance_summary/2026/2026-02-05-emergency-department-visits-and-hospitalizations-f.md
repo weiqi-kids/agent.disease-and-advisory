@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Emergency Department Visits and Hospitalizations for Selected Nonfatal Injuries among Adults Aged ≥65 Years - United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421669"
 source_layer: us_cdc_mmwr

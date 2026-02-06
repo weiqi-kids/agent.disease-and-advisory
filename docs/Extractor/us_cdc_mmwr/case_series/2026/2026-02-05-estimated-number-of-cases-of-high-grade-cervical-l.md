@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Estimated Number of Cases of High-Grade Cervical Lesions Diagnosed Among Women --- United States, 2008 and 2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397476"
 source_layer: us_cdc_mmwr

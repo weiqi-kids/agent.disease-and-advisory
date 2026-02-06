@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Proficiency Testing of Viral Marker Screening in African Blood Centers - Seven African Countries, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402267"
 source_layer: us_cdc_mmwr

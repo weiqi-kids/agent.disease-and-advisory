@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Comparison of COVID-19 Mortality Rates Among Adults Aged ≥65 Years Who Were Unvaccinated and Those Who Received a Bivalent Booster Dose Within the Preceding 6 Months - 20 U.S. Jurisdictions, September 18, 2022-April 1, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735511"
 source_layer: us_cdc_mmwr

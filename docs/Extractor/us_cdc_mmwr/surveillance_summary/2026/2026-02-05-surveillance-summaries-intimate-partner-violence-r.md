@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Surveillance Summaries: Intimate Partner Violence-Related Homicides of Hispanic and Latino Persons - National Violent Death Reporting System, United States, 2003-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=755457"
 source_layer: us_cdc_mmwr

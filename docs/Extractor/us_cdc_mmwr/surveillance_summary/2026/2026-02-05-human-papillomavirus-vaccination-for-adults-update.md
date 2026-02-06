@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Human Papillomavirus Vaccination for Adults: Updated Recommendations of the Advisory Committee on Immunization Practices"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401192"
 source_layer: us_cdc_mmwr

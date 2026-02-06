@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Surveillance Summaries: Waterborne Disease Outbreaks Associated with Splash Pads - United States, 1997-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=755268"
 source_layer: us_cdc_mmwr

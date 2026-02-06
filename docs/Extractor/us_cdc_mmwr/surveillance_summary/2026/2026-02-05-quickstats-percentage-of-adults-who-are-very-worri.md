@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Quickstats: Percentage of Adults Who Are Very Worried about Ability to Pay Medical Bills if They Get Sick or Have an Accident, by Home Ownership and Age Group - National Health Interview Survey, United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423190"
 source_layer: us_cdc_mmwr

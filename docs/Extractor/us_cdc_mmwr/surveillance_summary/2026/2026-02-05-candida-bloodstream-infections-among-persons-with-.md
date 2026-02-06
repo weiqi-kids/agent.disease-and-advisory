@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Candida Bloodstream Infections Among Persons with Injection Drug Use --- Denver Metropolitan Area, Colorado, 2017--2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397103"
 source_layer: us_cdc_mmwr

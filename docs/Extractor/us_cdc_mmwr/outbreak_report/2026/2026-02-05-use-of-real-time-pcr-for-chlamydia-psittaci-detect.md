@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Use of Real-Time PCR for Chlamydia psittaci Detection in Human Specimens During an Outbreak of Psittacosis - Georgia and Virginia, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=419774"
 source_layer: us_cdc_mmwr

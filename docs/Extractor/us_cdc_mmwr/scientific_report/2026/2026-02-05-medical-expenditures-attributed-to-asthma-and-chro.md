@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Medical Expenditures Attributed to Asthma and Chronic Obstructive Pulmonary Disease Among Workers - United States, 2011-2015"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408431"
 source_layer: us_cdc_mmwr

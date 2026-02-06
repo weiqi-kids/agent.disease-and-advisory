@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Screening for HIV Among Patients at Tuberculosis Clinics - Results from Population-Based HIV Impact Assessment Surveys, Malawi, Zambia, and Zimbabwe, 2015-2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=418417"
 source_layer: us_cdc_mmwr

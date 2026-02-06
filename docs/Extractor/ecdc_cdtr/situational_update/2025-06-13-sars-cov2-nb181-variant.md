@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Epidemiological update: SARS-CoV-2 and NB.1.8.1 variant assessment"
 source_url: "https://www.ecdc.europa.eu/en/news-events/epidemiological-update-sars-cov-2-and-nb181-variant-assessment"
 source_layer: "ecdc_cdtr"

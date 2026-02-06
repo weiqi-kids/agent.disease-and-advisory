@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "<em>Erratum</em>: Vol. 72, No. 36"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=745393"
 source_layer: us_cdc_mmwr

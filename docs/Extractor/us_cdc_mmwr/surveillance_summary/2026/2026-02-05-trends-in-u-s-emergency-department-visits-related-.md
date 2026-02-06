@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Trends in U.S. Emergency Department Visits Related to Suspected or Confirmed Child Abuse and Neglect Among Children and Adolescents Aged <18 Years Before and During the COVID-19 Pandemic - United States, January 2019-September 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413794"
 source_layer: us_cdc_mmwr

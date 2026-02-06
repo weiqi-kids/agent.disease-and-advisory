@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Seroprevalence Estimates of SARS-CoV-2 Infection in Convenience Sample - Oregon, May 11-June 15, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409775"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Second Nationwide Tuberculosis Outbreak Caused by Bone Allografts Containing Live Cells - United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=741296"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Outbreaks of Acute Gastrointestinal Illness Associated with a Splash Pad in a Wildlife Park - Kansas, June 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730812"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Update: Influenza Activity in the United States During the 2018-19 Season and Composition of the 2019-20 Influenza Vaccine"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399277"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "鼠疫"
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/nZ12n2-2csE8zkEt-5Qeyw"
 source_layer: tw_cdc_alerts

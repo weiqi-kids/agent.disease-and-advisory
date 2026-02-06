@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Vital Signs: HIV Infection, Diagnosis, Treatment, and Prevention Among Gay, Bisexual, and Other Men Who Have Sex with Men - United States, 2010-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=450840"
 source_layer: us_cdc_mmwr

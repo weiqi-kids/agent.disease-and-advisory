@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Suspected Recurrent SARS-CoV-2 Infections Among Residents of a Skilled Nursing Facility During a Second COVID-19 Outbreak - Kentucky, July-November 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=417162"
 source_layer: us_cdc_mmwr

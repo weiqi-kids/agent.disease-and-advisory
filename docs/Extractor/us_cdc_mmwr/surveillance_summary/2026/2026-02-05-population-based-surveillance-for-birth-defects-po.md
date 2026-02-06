@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Population-Based Surveillance for Birth Defects Potentially Related to Zika Virus Infection --- 22 States and Territories, January 2016--June 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403268"
 source_layer: us_cdc_mmwr

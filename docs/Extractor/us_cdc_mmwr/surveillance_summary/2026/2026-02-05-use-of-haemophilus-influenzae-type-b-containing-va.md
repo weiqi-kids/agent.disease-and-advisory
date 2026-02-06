@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Use of Haemophilus influenzae Type b-Containing Vaccines Among American Indian and Alaska Native Infants: Updated Recommendations of the Advisory Committee on Immunization Practices - United States, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752473"
 source_layer: us_cdc_mmwr

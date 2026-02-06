@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Prevalence of Symptoms ≤12 Months After Acute Illness, by COVID-19 Testing Status Among Adults - United States, December 2020-March 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736201"
 source_layer: us_cdc_mmwr

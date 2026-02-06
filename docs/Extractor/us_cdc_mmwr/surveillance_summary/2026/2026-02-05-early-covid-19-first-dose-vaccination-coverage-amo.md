@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Early COVID-19 First-Dose Vaccination Coverage Among Residents and Staff Members of Skilled Nursing Facilities Participating in the Pharmacy Partnership for Long-Term Care Program - United States, December 2020-January 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416287"
 source_layer: us_cdc_mmwr

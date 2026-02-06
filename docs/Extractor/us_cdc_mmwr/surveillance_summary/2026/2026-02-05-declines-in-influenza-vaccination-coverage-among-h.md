@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Declines in Influenza Vaccination Coverage Among Health Care Personnel in Acute Care Hospitals During the COVID-19 Pandemic - United States, 2017-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=738960"
 source_layer: us_cdc_mmwr

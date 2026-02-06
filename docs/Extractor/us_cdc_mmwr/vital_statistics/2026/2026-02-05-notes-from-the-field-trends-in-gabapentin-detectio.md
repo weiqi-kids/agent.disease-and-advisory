@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Trends in Gabapentin Detection and Involvement in Drug Overdose Deaths - 23 States and the District of Columbia, 2019-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729229"
 source_layer: us_cdc_mmwr

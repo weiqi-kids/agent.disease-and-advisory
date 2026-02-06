@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Characterization of COVID-19 in Assisted Living Facilities - 39 States, October 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413181"
 source_layer: us_cdc_mmwr

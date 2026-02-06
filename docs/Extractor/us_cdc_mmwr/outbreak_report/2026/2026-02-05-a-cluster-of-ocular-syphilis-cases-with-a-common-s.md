@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "A Cluster of Ocular Syphilis Cases with a Common Sex Partner - Southwest Michigan, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=739447"
 source_layer: us_cdc_mmwr

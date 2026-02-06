@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "High Influenza Incidence and Disease Severity Among Children and Adolescents Aged 18 Years - United States, 2022-23 Season"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737951"
 source_layer: us_cdc_mmwr

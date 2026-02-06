@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Progress Toward Poliomyelitis Eradication - Pakistan, January 2018-September 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402508"
 source_layer: us_cdc_mmwr

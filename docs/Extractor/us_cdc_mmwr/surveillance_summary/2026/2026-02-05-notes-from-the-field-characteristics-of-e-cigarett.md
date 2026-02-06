@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Characteristics of E-cigarette, or Vaping, Products Confiscated in Public High Schools in California and North Carolina -March and May 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412232"
 source_layer: us_cdc_mmwr

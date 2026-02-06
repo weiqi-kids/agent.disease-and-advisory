@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Autism Spectrum Disorder Among Children with Laboratory Evidence of Prenatal Zika Virus Exposure - Puerto Rico, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735887"
 source_layer: us_cdc_mmwr

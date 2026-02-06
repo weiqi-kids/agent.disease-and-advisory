@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Case Series of Multisystem Inflammatory Syndrome in Adults Associated with SARS-CoV-2 Infection - United Kingdom and United States, March-August 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411778"
 source_layer: us_cdc_mmwr

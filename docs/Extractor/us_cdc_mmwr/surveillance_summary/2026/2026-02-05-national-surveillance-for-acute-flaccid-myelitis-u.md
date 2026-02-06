@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "National Surveillance for Acute Flaccid Myelitis - United States, 2018-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=430663"
 source_layer: us_cdc_mmwr

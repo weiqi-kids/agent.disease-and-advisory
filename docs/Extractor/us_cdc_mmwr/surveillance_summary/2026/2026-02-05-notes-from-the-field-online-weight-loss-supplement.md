@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Online Weight Loss Supplements Labeled as Tejocote (Crataegus mexicana) Root, Substituted with Yellow Oleander (Cascabela thevetia) - United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737019"
 source_layer: us_cdc_mmwr

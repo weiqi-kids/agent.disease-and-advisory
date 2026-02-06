@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Increase in Acute Respiratory Illnesses Among Children and Adolescents Associated with Rhinoviruses and Enteroviruses, Including Enterovirus D68 - United States, July-September 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731851"
 source_layer: us_cdc_mmwr

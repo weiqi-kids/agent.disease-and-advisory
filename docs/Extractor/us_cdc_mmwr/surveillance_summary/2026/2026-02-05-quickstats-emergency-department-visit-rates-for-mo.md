@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Emergency Department Visit Rates for Motor Vehicle Crashes, by Age Group - United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415831"
 source_layer: us_cdc_mmwr

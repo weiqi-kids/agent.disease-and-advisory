@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Current Marijuana Use and Alcohol Consumption Among Adults Following the Legalization of Nonmedical Retail Marijuana Sales - Colorado, 2015-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=428418"
 source_layer: us_cdc_mmwr

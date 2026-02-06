@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Assessment of Epidemiology Capacity in State Health Departments - United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=671120"
 source_layer: us_cdc_mmwr

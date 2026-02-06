@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Adults Aged ≥45 Years Who Have Ever Had Lung Cancer, by Education Level - National Health Interview Survey, United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732678"
 source_layer: us_cdc_mmwr

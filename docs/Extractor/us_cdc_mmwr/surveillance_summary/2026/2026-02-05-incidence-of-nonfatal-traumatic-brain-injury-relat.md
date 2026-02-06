@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Incidence of Nonfatal Traumatic Brain Injury-Related Hospitalizations - United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=453397"
 source_layer: us_cdc_mmwr

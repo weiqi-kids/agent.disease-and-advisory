@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Large Community Outbreak of Legionnaires Disease Potentially Associated with a Cooling Tower - Napa County, California, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=740027"
 source_layer: us_cdc_mmwr

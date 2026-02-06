@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Candida auris Outbreak in a COVID-19 Specialty Care Unit - Florida, July-August 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415589"
 source_layer: us_cdc_mmwr

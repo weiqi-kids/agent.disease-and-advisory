@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "自115年1月15日起實施成人公費肺炎鏈球菌疫苗轉換政策,以1劑新肺鏈疫苗(PCV20)取代PCV13及PPV23之2劑接種,籲請醫界朋友鼓勵符合資格民眾踴躍接種(疾病管制署致醫界通函第596號)"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/By0KOxI7cSsrybfeeRRdxw?typeId=48"
 source_layer: tw_cdc_alerts

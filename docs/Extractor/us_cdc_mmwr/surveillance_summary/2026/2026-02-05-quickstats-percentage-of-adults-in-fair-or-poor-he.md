@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Adults In Fair or Poor Health, by Age Group and Race and Ethnicity - National Health Interview Survey, United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=417741"
 source_layer: us_cdc_mmwr

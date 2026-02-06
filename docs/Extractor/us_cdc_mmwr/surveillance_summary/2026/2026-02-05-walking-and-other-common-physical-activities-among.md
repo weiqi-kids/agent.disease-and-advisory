@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Walking and Other Common Physical Activities Among Adults with Arthritis - United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427680"
 source_layer: us_cdc_mmwr

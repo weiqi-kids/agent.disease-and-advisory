@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Surveillance Summaries: Surveillance for Coccidioidomycosis - United States, 2011-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401796"
 source_layer: us_cdc_mmwr

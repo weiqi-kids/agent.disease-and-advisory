@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "1999- Meningococcal disease in Sudan - Update 3"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/1999_04_28a-en"
 source_layer: who_disease_outbreak_news

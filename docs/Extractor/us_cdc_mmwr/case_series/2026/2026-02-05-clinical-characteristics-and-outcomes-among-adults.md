@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Clinical Characteristics and Outcomes Among Adults Hospitalized with Laboratory-Confirmed SARS-CoV-2 Infection During Periods of B.1.617.2 (Delta) and B.1.1.529 (Omicron) Variant Predominance - One Hospital, California, July 15-September 23, 2021, and December 21, 2021-January 27, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=514039"
 source_layer: us_cdc_mmwr

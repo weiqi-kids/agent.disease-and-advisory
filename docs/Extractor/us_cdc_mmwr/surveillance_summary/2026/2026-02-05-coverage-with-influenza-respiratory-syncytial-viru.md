@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Coverage with Influenza, Respiratory Syncytial Virus, and Updated COVID-19 Vaccines Among Nursing Home Residents - National Healthcare Safety Network, United States, December 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=740690"
 source_layer: us_cdc_mmwr

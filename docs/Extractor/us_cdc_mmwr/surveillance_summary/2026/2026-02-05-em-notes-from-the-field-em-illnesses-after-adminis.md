@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "<em>Notes from the Field</em>: Illnesses After Administration of Presumed Counterfeit Botulinum Toxin in Nonmedical Settings - Tennessee and New York City, March 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=750879"
 source_layer: us_cdc_mmwr

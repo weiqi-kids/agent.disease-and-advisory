@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Wound Botulism Outbreak Among a Group of Persons Who Inject Drugs - Dallas, Texas, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=723201"
 source_layer: us_cdc_mmwr

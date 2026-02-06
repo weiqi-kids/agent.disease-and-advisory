@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Vital Signs: Health Worker-Perceived Working Conditions and Symptoms of Poor Mental Health - Quality of Worklife Survey, United States, 2018-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=738313"
 source_layer: us_cdc_mmwr

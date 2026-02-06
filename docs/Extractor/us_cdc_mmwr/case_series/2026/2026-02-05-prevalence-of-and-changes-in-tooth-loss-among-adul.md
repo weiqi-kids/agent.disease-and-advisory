@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Prevalence of and Changes in Tooth Loss Among Adults Aged ≥50 Years with Selected Chronic Conditions --- United States, 1999--2004 and 2011--2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407445"
 source_layer: us_cdc_mmwr

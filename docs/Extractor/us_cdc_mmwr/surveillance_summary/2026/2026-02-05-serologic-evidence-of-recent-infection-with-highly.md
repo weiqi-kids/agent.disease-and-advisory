@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Serologic Evidence of Recent Infection with Highly Pathogenic Avian Influenza A(H5) Virus Among Dairy Workers - Michigan and Colorado, June-August 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=754307"
 source_layer: us_cdc_mmwr

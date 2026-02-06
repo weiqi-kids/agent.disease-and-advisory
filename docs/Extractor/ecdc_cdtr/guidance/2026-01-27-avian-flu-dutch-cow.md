@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Detection of avian flu antibodies in Dutch dairy cow: ECDC risk assessment remains unchanged"
 source_url: "https://www.ecdc.europa.eu/en/publications-data/detection-avian-flu-antibodies-dutch-dairy-cow-ecdc-risk-assessment-remains"
 source_layer: ecdc_cdtr

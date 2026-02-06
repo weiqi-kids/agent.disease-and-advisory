@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Interim Recommendations from the Advisory Committee on Immunization Practices for the Use of Bivalent Booster Doses of COVID-19 Vaccines - United States, October 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732674"
 source_layer: us_cdc_mmwr

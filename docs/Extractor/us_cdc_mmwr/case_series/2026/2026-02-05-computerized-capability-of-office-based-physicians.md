@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Computerized Capability of Office-Based Physicians to Identify Patients Who Need Preventive or Follow-up Care - United States, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412707"
 source_layer: us_cdc_mmwr

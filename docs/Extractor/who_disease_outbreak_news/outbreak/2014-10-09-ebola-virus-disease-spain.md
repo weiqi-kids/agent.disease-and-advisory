@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Ebola virus disease – Spain"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/09-october-2014-ebola-en"
 source_layer: who_disease_outbreak_news

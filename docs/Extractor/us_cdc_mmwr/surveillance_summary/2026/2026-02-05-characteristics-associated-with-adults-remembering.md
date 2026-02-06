@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Characteristics Associated with Adults Remembering to Wash Hands in Multiple Situations Before and During the COVID-19 Pandemic - United States, October 2019 and June 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411892"
 source_layer: us_cdc_mmwr

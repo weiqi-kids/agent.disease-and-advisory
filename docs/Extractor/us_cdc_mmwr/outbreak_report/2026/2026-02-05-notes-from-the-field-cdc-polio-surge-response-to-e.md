@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: CDC Polio Surge Response to Expanding Outbreaks of Type 2 Circulating Vaccine-Derived Poliovirus - Africa and Philippines, September 2019-March 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410490"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Average Age at Death, by Race/Hispanic Origin and Sex --- National Vital Statistics System, United States, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401131"
 source_layer: us_cdc_mmwr

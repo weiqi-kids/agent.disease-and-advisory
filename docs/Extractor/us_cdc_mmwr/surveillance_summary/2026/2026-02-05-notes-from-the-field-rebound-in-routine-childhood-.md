@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Rebound in Routine Childhood Vaccine Administration Following Decline During the COVID-19 Pandemic - New York City, March 1-June 27, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409067"
 source_layer: us_cdc_mmwr

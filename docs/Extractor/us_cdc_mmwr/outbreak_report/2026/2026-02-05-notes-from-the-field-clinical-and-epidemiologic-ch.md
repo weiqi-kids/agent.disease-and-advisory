@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Clinical and Epidemiologic Characteristics of Mpox Cases from the Initial Phase of the Outbreak - New York City, May 19-July 15, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733266"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Early Release: COVID-19 in a Correctional Facility Employee Following Multiple Brief Exposures to Persons with COVID-19 - Vermont, July-August 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412222"
 source_layer: us_cdc_mmwr

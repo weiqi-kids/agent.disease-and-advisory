@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Interim Estimate of Vaccine Effectiveness of BNT162b2 (Pfizer-BioNTech) Vaccine in Preventing SARS-CoV-2 Infection Among Adolescents Aged 12-17 Years - Arizona, July-December 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=471405"
 source_layer: us_cdc_mmwr

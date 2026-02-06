@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Public Health Responses to COVID-19 Outbreaks on Cruise Ships - Worldwide, February-March 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405430"
 source_layer: us_cdc_mmwr

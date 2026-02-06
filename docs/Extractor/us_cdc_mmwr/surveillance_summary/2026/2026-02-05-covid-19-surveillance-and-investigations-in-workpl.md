@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Surveillance and Investigations in Workplaces - Seattle & King County, Washington, June 15-November 15, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423793"
 source_layer: us_cdc_mmwr

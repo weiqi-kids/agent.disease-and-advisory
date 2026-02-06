@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Xylazine, a Veterinary Tranquilizer, Identified as an Emerging Novel Substance in Drug Overdose Deaths - Connecticut, 2019-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426748"
 source_layer: us_cdc_mmwr

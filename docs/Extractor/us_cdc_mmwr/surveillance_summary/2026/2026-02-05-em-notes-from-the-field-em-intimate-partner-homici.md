@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "<em>Notes from the Field</em>: Intimate Partner Homicide Among Women - United States, 2018-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752370"
 source_layer: us_cdc_mmwr

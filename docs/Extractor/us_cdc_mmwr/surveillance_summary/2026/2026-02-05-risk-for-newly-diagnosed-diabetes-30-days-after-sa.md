@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Risk for Newly Diagnosed Diabetes 30 Days After SARS-CoV-2 Infection Among Persons Aged 18 years - United States, March 1, 2020-June 28, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=478302"
 source_layer: us_cdc_mmwr

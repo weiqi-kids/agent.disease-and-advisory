@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Influenza, COVID-19, and Respiratory Syncytial Virus Vaccination Coverage Among Adults - United States, Fall 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=754830"
 source_layer: us_cdc_mmwr

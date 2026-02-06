@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "SARS-CoV-2 Infection Risk Among Active Duty Military Members Deployed to a Field Hospital - New York City, April 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=417739"
 source_layer: us_cdc_mmwr

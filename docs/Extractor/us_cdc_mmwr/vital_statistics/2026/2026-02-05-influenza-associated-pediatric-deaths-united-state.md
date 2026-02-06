@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Influenza-Associated Pediatric Deaths - United States, 2024-25 Influenza Season"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=760284"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Acute Intoxications from Consumption of Amanita muscaria Mushrooms - Minnesota, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=398698"
 source_layer: us_cdc_mmwr

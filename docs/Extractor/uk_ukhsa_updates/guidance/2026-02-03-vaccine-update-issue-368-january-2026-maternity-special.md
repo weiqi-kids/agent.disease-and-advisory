@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Promotional material: Vaccine update: issue 368, January 2026, maternity special"
 source_url: "https://www.gov.uk/government/publications/vaccine-update-issue-368-january-2026-maternity-special"
 source_layer: uk_ukhsa_updates

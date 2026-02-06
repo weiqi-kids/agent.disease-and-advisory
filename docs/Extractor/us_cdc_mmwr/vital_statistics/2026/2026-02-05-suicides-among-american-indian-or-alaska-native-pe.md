@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Suicides Among American Indian or Alaska Native Persons - National Violent Death Reporting System, United States, 2015-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731593"
 source_layer: us_cdc_mmwr

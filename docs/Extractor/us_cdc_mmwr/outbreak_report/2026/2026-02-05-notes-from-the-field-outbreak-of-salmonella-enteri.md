@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Outbreak of Salmonella Enteritidis at a Correctional Facility Using Mechanically Separated Chicken - Nebraska, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730396"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Update: COVID-19 Pandemic-Associated Changes in Emergency Department Visits - United States, December 2020-January 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=420527"
 source_layer: us_cdc_mmwr

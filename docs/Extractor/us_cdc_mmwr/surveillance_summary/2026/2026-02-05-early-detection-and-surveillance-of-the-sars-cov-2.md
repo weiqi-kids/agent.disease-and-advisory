@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Early Detection and Surveillance of the SARS-CoV-2 Variant BA.2.86 - Worldwide, July-October 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=738467"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Hepatitis C Virus Clearance Cascade - United States, 2013-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735677"
 source_layer: us_cdc_mmwr

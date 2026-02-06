@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: COVID-19 Vaccination Coverage Among Persons Experiencing Homelessness - Six U.S. Jurisdictions, December 2020-August 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=453398"
 source_layer: us_cdc_mmwr

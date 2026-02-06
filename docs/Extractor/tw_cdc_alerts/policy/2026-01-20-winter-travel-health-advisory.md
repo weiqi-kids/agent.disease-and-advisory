@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "寒假為出國旅遊旺季 提醒民眾出遊前了解當地疫情 並落實個人防護"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/tFWNcoR2JsoUqZZnPsq6RQ?typeId=9"
 source_layer: tw_cdc_alerts

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "<em>Notes from the Field</em>: Surveillance for Multisystem Inflammatory Syndrome in Children - United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=745391"
 source_layer: us_cdc_mmwr

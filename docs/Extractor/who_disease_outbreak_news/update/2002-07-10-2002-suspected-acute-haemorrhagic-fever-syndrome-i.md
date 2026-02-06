@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "2002 - Suspected acute haemorrhagic fever syndrome in The Republic of the Congo - Update 2"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2002_07_10-en"
 source_layer: who_disease_outbreak_news

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Rate of Emergency Department Visits, by Homeless Status - National Hospital Ambulatory Medical Care Survey, United States, 2010-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=738222"
 source_layer: us_cdc_mmwr

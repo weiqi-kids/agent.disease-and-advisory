@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Joint ECDC and Africa CDC training to strengthen surveillance and epidemic intelligence in Sierra Leone"
 source_url: "https://www.ecdc.europa.eu/en/news-events/joint-ecdc-and-africa-cdc-training-strengthen-surveillance-and-epidemic-intelligence"
 date: "2026-01-30"

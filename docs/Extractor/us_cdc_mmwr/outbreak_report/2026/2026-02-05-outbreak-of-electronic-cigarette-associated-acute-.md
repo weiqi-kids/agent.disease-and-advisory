@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Outbreak of Electronic-Cigarette-Associated Acute Lipoid Pneumonia - North Carolina, July-August 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401619"
 source_layer: us_cdc_mmwr

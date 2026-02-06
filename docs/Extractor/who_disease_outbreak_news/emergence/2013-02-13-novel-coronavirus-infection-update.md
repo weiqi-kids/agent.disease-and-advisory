@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Novel coronavirus infection – update"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2013_02_13-en"
 source_layer: who_disease_outbreak_news

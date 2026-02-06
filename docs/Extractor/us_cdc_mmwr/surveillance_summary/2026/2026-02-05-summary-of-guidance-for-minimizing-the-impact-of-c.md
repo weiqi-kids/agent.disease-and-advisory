@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Summary of Guidance for Minimizing the Impact of COVID-19 on Individual Persons, Communities, and Health Care Systems - United States, August 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730903"
 source_layer: us_cdc_mmwr

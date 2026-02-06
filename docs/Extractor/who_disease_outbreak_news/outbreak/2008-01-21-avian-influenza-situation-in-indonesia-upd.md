@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Avian influenza – situation in Indonesia – update 32"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2008_01_21-en"
 source_layer: who_disease_outbreak_news

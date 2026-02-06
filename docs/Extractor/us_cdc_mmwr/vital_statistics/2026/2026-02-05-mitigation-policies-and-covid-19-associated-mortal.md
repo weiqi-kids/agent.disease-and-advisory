@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Mitigation Policies and COVID-19-Associated Mortality - 37 European Countries, January 23-June 30, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415625"
 source_layer: us_cdc_mmwr

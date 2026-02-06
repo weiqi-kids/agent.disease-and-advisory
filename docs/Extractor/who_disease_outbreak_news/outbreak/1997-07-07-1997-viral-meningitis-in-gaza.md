@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "1997 - Viral meningitis in Gaza"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/1997_07_07-en"
 source_layer: who_disease_outbreak_news

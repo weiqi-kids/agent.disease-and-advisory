@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Update: Product, Substance-Use, and Demographic Characteristics of Hospitalized Patients in a Nationwide Outbreak of E-cigarette, or Vaping, Product Use-Associated Lung Injuries --- United States, August 2019--January 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403125"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Vaccination Coverage by Age 24 Months Among Children Born in 2015 and 2016 - National Immunization Survey-Child, United States, 2016-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402187"
 source_layer: us_cdc_mmwr

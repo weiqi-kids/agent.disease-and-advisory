@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Differences in Suicide Rates, by Race and Ethnicity and Age Group - United States, 2018-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=760244"
 source_layer: us_cdc_mmwr

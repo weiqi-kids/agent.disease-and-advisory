@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Differences in COVID-19 Outpatient Antiviral Treatment Among Adults Aged ≥65 Years by Age Group - National Patient-Centered Clinical Research Network, United States, April 2022-September 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753044"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Stats: COVID-19 and Influenza Discharge Diagnoses as a Percentage of Emergency Department (ED) Visits, by Year - United States, June 2018-March 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=420533"
 source_layer: us_cdc_mmwr

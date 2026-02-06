@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Effectiveness of the Pfizer-BioNTech COVID-19 Vaccine Among Residents of Two Skilled Nursing Facilities Experiencing COVID-19 Outbreaks - Connecticut, December 2020-February 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=418593"
 source_layer: us_cdc_mmwr

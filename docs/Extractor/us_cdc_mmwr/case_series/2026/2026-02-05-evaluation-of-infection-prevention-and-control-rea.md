@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Evaluation of Infection Prevention and Control Readiness at Frontline Health Care Facilities in High-Risk Districts Bordering Ebola Virus Disease-Affected Areas in the Democratic Republic of the Congo - Uganda, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401978"
 source_layer: us_cdc_mmwr

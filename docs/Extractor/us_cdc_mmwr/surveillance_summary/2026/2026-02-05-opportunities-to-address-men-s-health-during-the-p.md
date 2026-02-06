@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Opportunities to Address Men's Health During the Perinatal Period - Puerto Rico, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415322"
 source_layer: us_cdc_mmwr

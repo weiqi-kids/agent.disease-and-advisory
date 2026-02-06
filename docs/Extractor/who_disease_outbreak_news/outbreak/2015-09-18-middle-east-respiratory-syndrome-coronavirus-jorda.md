@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Middle East respiratory syndrome coronavirus – Jordan"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/18-september-2015-mers-jordan-en"
 source_layer: who_disease_outbreak_news

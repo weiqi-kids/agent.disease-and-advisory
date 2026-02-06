@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Women Who Have Ever Used Emergency Contraception Among Women Aged 22-49 Years Who Have Ever Had Sexual Intercourse, by Education - National Survey of Family Growth, United States, 2017-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416069"
 source_layer: us_cdc_mmwr

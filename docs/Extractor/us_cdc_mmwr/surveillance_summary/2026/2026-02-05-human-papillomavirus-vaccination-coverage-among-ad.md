@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Human Papillomavirus Vaccination Coverage Among Adolescent Girls Aged 13-17 Years - U.S.-Affiliated Pacific Islands, 2013-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752229"
 source_layer: us_cdc_mmwr

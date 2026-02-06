@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Multidisciplinary Approach to Investigating Brucella canis Exposures - South Carolina, September 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=750450"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Disease Severity of Respiratory Syncytial Virus Compared with COVID-19 and Influenza Among Hospitalized Adults Aged ≥60 Years - IVY Network, 20 U.S. States, February 2022-May 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737729"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Meningococcal disease in Burkina Faso - Update 3"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2003_03_7a-en"
 source_layer: who_disease_outbreak_news

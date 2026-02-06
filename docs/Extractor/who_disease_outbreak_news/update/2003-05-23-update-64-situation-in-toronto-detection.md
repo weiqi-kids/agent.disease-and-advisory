@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Update 64 - Situation in Toronto, detection of SARS-like virus in wild animals"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2003_05_23b-en"
 source_layer: who_disease_outbreak_news

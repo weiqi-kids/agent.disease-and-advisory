@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Outbreak of Severe Hypoglycemia After Ingestion of a Male Enhancement Supplement - Virginia, August-November 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408045"
 source_layer: us_cdc_mmwr

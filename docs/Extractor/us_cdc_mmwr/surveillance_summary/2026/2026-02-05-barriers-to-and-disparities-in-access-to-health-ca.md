@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Barriers to and Disparities in Access to Health Care Among Adults Aged ≥18 Years with Epilepsy - United States, 2015 and 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729550"
 source_layer: us_cdc_mmwr

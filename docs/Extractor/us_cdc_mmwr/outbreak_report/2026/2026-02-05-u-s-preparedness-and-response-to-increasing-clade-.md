@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "U.S. Preparedness and Response to Increasing Clade I Mpox Cases in the Democratic Republic of the Congo - United States, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=748317"
 source_layer: us_cdc_mmwr

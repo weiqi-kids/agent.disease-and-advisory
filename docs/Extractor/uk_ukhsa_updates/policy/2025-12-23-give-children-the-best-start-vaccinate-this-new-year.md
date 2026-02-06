@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Give children the best start: vaccinate this New Year"
 source_url: "https://www.gov.uk/government/news/give-children-the-best-start-vaccinate-this-new-year"
 source_layer: uk_ukhsa_updates

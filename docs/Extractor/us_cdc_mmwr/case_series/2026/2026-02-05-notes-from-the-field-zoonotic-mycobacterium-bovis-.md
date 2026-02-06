@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Zoonotic Mycobacterium bovis Disease in Deer Hunters - Michigan, 2002-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401793"
 source_layer: us_cdc_mmwr

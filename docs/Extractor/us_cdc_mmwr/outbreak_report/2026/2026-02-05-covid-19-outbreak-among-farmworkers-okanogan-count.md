@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Outbreak Among Farmworkers - Okanogan County, Washington, May-August 2020 "
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421456"
 source_layer: us_cdc_mmwr

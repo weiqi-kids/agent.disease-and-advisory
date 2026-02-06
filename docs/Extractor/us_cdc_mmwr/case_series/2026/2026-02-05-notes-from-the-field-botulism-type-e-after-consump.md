@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Botulism Type E After Consumption of Salt-Cured Fish - New Jersey, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402430"
 source_layer: us_cdc_mmwr

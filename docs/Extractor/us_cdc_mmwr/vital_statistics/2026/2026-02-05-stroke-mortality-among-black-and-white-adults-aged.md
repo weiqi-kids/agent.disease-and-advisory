@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Stroke Mortality Among Black and White Adults Aged ≥35 Years Before and During the COVID-19 Pandemic - United States, 2015-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734641"
 source_layer: us_cdc_mmwr

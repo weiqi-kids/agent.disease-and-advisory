@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Automated Digital Notification of COVID-19 Diagnoses Through Text and Email Messaging - North Carolina, December 2020-January 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=438250"
 source_layer: us_cdc_mmwr

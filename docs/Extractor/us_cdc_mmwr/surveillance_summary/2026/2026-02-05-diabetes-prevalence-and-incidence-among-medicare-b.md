@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Diabetes Prevalence and Incidence Among Medicare Beneficiaries - United States, 2001-2015"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402348"
 source_layer: us_cdc_mmwr

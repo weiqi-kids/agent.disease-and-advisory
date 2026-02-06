@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Surveillance to Track Progress Toward Polio Eradication - Worldwide, 2017-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397213"
 source_layer: us_cdc_mmwr

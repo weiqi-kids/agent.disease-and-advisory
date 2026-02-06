@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Tuberculosis Screening, Testing, and Treatment of U.S. Health Care Personnel: Recommendations from the National Tuberculosis Controllers Association and CDC, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397823"
 source_layer: us_cdc_mmwr

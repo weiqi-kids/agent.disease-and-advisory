@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Status of HIV Case-Based Surveillance Implementation - 39 U.S. PEPFAR-Supported Countries, May-July 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402682"
 source_layer: us_cdc_mmwr

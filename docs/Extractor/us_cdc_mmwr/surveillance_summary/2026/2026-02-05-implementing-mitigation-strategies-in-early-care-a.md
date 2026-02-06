@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Implementing Mitigation Strategies in Early Care and Education Settings for Prevention of SARS-CoV-2 Transmission - Eight States, September-October 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413749"
 source_layer: us_cdc_mmwr

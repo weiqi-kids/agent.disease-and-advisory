@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Birth and Infant Outcomes Following Laboratory-Confirmed SARS-CoV-2 Infection in Pregnancy - SET-NET, 16 Jurisdictions, March 29-October 14, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412716"
 source_layer: us_cdc_mmwr

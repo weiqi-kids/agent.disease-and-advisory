@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Cases and Hospitalizations by COVID-19 Vaccination Status and Previous COVID-19 Diagnosis - California and New York, May-November 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=489676"
 source_layer: us_cdc_mmwr

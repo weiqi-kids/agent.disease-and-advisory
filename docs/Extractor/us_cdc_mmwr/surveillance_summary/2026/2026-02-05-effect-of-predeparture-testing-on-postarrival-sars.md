@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Effect of Predeparture Testing on Postarrival SARS-CoV-2-Positive Test Results Among International Travelers - CDC Traveler-Based Genomic Surveillance Program, Four U.S. Airports, March-September 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733910"
 source_layer: us_cdc_mmwr

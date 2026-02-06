@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Deaths Related to Hurricane Ida Reported by Media - Nine States, August 29-September 9, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427475"
 source_layer: us_cdc_mmwr

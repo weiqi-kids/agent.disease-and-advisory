@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Rapid Adaptation of HIV Treatment Programs in Response to COVID-19 - Namibia, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412231"
 source_layer: us_cdc_mmwr

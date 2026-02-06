@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "SUPPLEMENT: Asking for Verbal Sexual Consent and Experiences of Sexual Violence and Sexual Behaviors Among High School Students - Youth Risk Behavior Survey, United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753084"
 source_layer: us_cdc_mmwr

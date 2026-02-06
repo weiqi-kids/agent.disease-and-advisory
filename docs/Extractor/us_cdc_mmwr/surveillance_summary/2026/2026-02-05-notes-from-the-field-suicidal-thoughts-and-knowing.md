@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Suicidal Thoughts and Knowing Someone Who Died by Suicide Among Adults - United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758624"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Oropouche Virus Disease Among U.S. Travelers - United States, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752337"
 source_layer: us_cdc_mmwr

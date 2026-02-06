@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Cases and Hospitalizations Among Medicare Beneficiaries With and Without Disabilities - United States, January 1, 2020-November 20, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729881"
 source_layer: us_cdc_mmwr

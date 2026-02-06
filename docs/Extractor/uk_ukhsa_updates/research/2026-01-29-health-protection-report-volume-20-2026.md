@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Research: Health Protection Report volume 20 (2026)"
 source_url: "https://www.gov.uk/government/publications/health-protection-report-volume-20-2026"
 source_layer: uk_ukhsa_updates

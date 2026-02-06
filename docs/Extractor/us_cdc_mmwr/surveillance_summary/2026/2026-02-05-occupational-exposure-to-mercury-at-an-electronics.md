@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Occupational Exposure to Mercury at an Electronics Waste and Lamp Recycling Facility - Ohio, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=756146"
 source_layer: us_cdc_mmwr

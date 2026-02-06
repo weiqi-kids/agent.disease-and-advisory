@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Trends and Characteristics in Marijuana Use Among Public School Students - King County, Washington, 2004-2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401977"
 source_layer: us_cdc_mmwr

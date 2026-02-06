@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Children and Adolescents Aged 4-17 Years with Serious Emotional or Behavioral Difficulties, by Sex and Urbanization Level - National Health Interview Survey, 2016-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=404673"
 source_layer: us_cdc_mmwr

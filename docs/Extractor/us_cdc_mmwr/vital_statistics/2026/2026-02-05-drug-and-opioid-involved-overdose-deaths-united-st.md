@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Drug and Opioid-Involved Overdose Deaths - United States, 2017-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405265"
 source_layer: us_cdc_mmwr

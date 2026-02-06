@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Advisory Committee on Immunization Practices Recommended Immunization Schedule for Adults Aged 19 Years or Older - United States, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403523"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Changes in Opioid-Involved Overdose Deaths by Opioid Type and Presence of Benzodiazepines, Cocaine, and Methamphetamine --- 25 States, July-December 2017 to January--June 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401377"
 source_layer: us_cdc_mmwr

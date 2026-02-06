@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Vital Signs: Progress Toward Eliminating HIV as a Global Public Health Threat Through Scale-Up of Antiretroviral Therapy and Health System Strengthening Supported by the U.S. President's Emergency Plan for AIDS Relief - Worldwide, 2004-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734179"
 source_layer: us_cdc_mmwr

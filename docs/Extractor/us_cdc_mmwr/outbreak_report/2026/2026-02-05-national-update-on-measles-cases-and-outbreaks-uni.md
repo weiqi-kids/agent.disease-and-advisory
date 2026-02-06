@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "National Update on Measles Cases and Outbreaks - United States, January 1-October 1, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402026"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Office-Based Physicians Using Telemedicine Technology, by Specialty - United States, 2019 and 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733022"
 source_layer: us_cdc_mmwr

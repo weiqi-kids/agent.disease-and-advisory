@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: COVID-19 Case Investigation and Contact Tracing Program - Spirit Lake Tribe, North Dakota, September-November 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=419777"
 source_layer: us_cdc_mmwr

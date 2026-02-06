@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: First Locally Acquired Dengue Virus Infections - Pasadena, California, October-December 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753786"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Guidance: Vaccination of individuals with uncertain or incomplete immunisation"
 source_url: "https://www.gov.uk/government/publications/vaccination-of-individuals-with-uncertain-or-incomplete-immunisation-status"
 source_layer: uk_ukhsa_updates

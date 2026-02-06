@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Receipt of First and Second Doses of JYNNEOS Vaccine for Prevention of Monkeypox - United States, May 22-October 10, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732379"
 source_layer: us_cdc_mmwr

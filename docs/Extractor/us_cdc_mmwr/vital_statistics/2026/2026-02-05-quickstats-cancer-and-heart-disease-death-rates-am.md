@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Cancer and Heart Disease Death Rates, Among Men and Women Aged 45-64 Years - United States, 1999-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407450"
 source_layer: us_cdc_mmwr

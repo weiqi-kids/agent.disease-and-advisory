@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Rapidly Linking an Outbreak of Salmonella Typhimurium Infections to Domestically Grown Cantaloupes Through Early Collaboration - United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=742803"
 source_layer: us_cdc_mmwr

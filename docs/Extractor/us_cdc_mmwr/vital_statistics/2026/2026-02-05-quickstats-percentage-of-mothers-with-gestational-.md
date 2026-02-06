@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Mothers with Gestational Diabetes, by Maternal Age - National Vital Statistics System, United States, 2016 and 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733321"
 source_layer: us_cdc_mmwr

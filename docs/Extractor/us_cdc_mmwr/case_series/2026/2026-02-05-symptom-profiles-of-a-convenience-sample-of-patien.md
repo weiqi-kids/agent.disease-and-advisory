@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Symptom Profiles of a Convenience Sample of Patients with COVID-19 - United States, January-April 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408721"
 source_layer: us_cdc_mmwr

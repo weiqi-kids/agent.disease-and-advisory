@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Outbreak Associated with a SARS-CoV-2 R.1 Lineage Variant in a Skilled Nursing Facility After Vaccination Program - Kentucky, March 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=420773"
 source_layer: us_cdc_mmwr

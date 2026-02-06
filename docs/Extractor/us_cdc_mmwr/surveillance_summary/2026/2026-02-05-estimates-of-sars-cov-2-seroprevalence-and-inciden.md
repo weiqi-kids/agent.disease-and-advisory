@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Estimates of SARS-CoV-2 Seroprevalence and Incidence of Primary SARS-CoV-2 Infections Among Blood Donors, by COVID-19 Vaccination Status - United States, April 2021-September 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735269"
 source_layer: us_cdc_mmwr

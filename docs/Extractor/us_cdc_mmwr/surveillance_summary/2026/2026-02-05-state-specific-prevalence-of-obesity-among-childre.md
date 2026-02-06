@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "State-Specific Prevalence of Obesity Among Children Aged 2-4 Years Enrolled in the Special Supplemental Nutrition Program for Women, Infants, and Children - United States, 2010-2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402599"
 source_layer: us_cdc_mmwr

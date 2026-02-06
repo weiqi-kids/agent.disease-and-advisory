@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Response to Measles Among Persons Evacuated from Afghanistan - Joint Base McGuire-Dix-Lakehurst, New Jersey, August-October 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729044"
 source_layer: us_cdc_mmwr

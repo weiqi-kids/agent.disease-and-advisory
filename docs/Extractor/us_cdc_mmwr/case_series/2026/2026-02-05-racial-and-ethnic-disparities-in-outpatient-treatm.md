@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Racial and Ethnic Disparities in Outpatient Treatment of COVID-19 - United States, January-July 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732442"
 source_layer: us_cdc_mmwr

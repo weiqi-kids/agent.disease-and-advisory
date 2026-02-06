@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Monkey Bite in a Public Park and Possible Exposure to Herpes B Virus - Thailand, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=404470"
 source_layer: us_cdc_mmwr

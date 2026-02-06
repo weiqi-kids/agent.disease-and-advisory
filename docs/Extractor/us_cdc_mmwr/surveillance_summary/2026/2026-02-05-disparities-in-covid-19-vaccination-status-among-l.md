@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Disparities in COVID-19 Vaccination Status Among Long-Term Care Facility Residents - United States, October 31, 2022-May 7, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737731"
 source_layer: us_cdc_mmwr

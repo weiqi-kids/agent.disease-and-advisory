@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Mpox worldwide overview"
 source_url: "https://www.ecdc.europa.eu/en/mpox-worldwide-overview"
 source_layer: ecdc_cdtr

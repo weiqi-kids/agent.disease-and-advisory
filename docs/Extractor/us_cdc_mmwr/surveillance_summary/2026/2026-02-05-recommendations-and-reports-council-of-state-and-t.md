@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "RECOMMENDATIONS AND REPORTS: Council of State and Territorial Epidemiologists/CDC Surveillance Case Definition for Multisystem Inflammatory Syndrome in Children Associated with SARS-CoV-2 Infection - United States"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733144"
 source_layer: us_cdc_mmwr

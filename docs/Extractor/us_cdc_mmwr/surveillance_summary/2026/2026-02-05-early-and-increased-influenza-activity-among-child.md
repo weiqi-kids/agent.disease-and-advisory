@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Early and Increased Influenza Activity Among Children - Tennessee, 2022-23 Influenza Season"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733478"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage of Adults Aged ≥20 Years Who Used Antidepressant Medications in the Past 30 Days, by Sex and Marital Status - National Health and Nutrition Examination Survey, United States, 2015-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412233"
 source_layer: us_cdc_mmwr

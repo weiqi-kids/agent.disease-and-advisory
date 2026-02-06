@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "1999 - West Nile fever in the United States of America (update on St. Louis encephalitis)"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/1999_10_06-en"
 source_layer: who_disease_outbreak_news

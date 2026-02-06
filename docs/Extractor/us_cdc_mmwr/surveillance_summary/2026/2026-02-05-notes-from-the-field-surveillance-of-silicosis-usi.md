@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Surveillance of Silicosis Using Electronic Case Reporting - California, December 2022-July 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=739209"
 source_layer: us_cdc_mmwr

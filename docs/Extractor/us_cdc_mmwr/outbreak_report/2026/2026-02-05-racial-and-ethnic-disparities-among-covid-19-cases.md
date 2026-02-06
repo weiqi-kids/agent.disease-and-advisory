@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Racial and Ethnic Disparities Among COVID-19 Cases in Workplace Outbreaks by Industry Sector - Utah, March 6-June 5, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409949"
 source_layer: us_cdc_mmwr

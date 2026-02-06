@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Avian influenza – situation in Viet Nam - update"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2005_01_06a-en"
 source_layer: who_disease_outbreak_news

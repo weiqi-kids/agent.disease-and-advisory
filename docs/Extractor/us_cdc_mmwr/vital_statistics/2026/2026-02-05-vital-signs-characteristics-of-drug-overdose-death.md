@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Vital Signs: Characteristics of Drug Overdose Deaths Involving Opioids and Stimulants --- 24 States and the District of Columbia, January-June 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410941"
 source_layer: us_cdc_mmwr

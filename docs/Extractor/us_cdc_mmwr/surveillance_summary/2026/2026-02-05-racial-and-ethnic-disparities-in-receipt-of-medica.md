@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Racial and Ethnic Disparities in Receipt of Medications for Treatment of COVID-19 - United States, March 2020-August 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=485413"
 source_layer: us_cdc_mmwr

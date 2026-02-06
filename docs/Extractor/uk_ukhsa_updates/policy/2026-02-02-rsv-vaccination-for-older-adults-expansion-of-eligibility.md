@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Correspondence: RSV vaccination for older adults: expansion of eligibility"
 source_url: "https://www.gov.uk/government/publications/rsv-vaccination-for-older-adults-expansion-of-eligibility"
 source_layer: uk_ukhsa_updates

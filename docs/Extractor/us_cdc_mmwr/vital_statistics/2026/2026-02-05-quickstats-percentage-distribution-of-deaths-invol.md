@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Percentage Distribution of Deaths Involving Injuries from Recreational and Nonrecreational Use of Watercraft, by Month --- United States, 2015--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399727"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Trends in COVID-19 Cases, Emergency Department Visits, and Hospital Admissions Among Children and Adolescents Aged 0-17 Years - United States, August 2020-August 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426475"
 source_layer: us_cdc_mmwr

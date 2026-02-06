@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Alcohol Consumption and Binge Drinking During Pregnancy Among Adults Aged 18-49 Years - United States, 2018-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=477481"
 source_layer: us_cdc_mmwr

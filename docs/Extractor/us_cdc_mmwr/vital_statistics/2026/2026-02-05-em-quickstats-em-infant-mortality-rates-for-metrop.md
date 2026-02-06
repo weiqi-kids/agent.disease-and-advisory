@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "<em>QuickStats</em>: Infant Mortality Rates for Metropolitan and Nonmetropolitan Counties, by Single Race and Hispanic Origin - National Vital Statistics System, United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=430661"
 source_layer: us_cdc_mmwr

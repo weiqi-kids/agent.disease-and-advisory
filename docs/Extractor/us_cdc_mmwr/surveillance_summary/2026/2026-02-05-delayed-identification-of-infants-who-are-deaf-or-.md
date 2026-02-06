@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Delayed Identification of Infants Who Are Deaf or Hard of Hearing - Minnesota, 2012-2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405267"
 source_layer: us_cdc_mmwr

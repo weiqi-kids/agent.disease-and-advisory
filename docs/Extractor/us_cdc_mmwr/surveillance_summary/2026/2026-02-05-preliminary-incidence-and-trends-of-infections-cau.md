@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Preliminary Incidence and Trends of Infections Caused by Pathogens Transmitted Commonly Through Food - Foodborne Diseases Active Surveillance Network, 10 U.S. Sites, 2016-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732140"
 source_layer: us_cdc_mmwr

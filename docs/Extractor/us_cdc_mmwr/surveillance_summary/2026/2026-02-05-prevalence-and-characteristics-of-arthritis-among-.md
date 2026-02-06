@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Prevalence and Characteristics of Arthritis Among Caregivers - 17 States, 2017 and 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732571"
 source_layer: us_cdc_mmwr

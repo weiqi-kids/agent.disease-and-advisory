@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "1 in 4 school-leavers unprotected by HPV vaccine"
 source_url: "https://www.gov.uk/government/news/1-in-4-school-leavers-unprotected-by-hpv-vaccine"
 source_layer: uk_ukhsa_updates

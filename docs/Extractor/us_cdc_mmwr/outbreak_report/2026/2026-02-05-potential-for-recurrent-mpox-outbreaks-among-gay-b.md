@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Potential for Recurrent Mpox Outbreaks Among Gay, Bisexual, and Other Men Who Have Sex with Men - United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735214"
 source_layer: us_cdc_mmwr

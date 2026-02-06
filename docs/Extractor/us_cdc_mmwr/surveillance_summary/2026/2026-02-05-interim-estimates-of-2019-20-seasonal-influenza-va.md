@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Interim Estimates of 2019-20 Seasonal Influenza Vaccine Effectiveness - United States, February 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403746"
 source_layer: us_cdc_mmwr

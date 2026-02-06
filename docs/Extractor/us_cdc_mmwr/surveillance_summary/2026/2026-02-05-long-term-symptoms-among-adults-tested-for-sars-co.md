@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Long-Term Symptoms Among Adults Tested for SARS-CoV-2 - United States, January 2020-April 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426618"
 source_layer: us_cdc_mmwr

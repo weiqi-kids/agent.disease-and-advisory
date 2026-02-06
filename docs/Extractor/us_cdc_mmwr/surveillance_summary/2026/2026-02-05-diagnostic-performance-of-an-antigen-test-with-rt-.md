@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Diagnostic Performance of an Antigen Test with RT-PCR for the Detection of SARS-CoV-2 in a Hospital Setting - Los Angeles County, California, June-August 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421985"
 source_layer: us_cdc_mmwr

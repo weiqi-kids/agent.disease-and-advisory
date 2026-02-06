@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Exposures Before Issuance of Stay-at-Home Orders Among Persons with Laboratory-Confirmed COVID-19 - Colorado, March 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408378"
 source_layer: us_cdc_mmwr

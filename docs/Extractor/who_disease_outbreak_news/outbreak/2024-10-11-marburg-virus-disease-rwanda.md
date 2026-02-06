@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Marburg virus disease – Rwanda"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2024-DON539"
 source_layer: who_disease_outbreak_news

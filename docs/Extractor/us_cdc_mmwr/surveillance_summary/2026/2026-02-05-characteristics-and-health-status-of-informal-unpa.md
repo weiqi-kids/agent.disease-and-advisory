@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Characteristics and Health Status of Informal Unpaid Caregivers - 44 States, District of Columbia, and Puerto Rico, 2015-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403747"
 source_layer: us_cdc_mmwr

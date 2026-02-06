@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Suspected Counterfeit M-30 Oxycodone Pill Exposures and Acute Withdrawals Reported from a Single Hospital - Toxicology Investigators Consortium Core Registry, U.S. Census Bureau Western Region, 2017-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=751340"
 source_layer: us_cdc_mmwr

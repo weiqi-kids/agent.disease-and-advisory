@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Genetic Characterization of Measles and Rubella Viruses Detected Through Global Measles and Rubella Elimination Surveillance, 2016--2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399526"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "HIV Testing in 50 Local Jurisdictions Accounting for the Majority of New HIV Diagnoses and Seven States with Disproportionate Occurrence of HIV in Rural Areas, 2016--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399473"
 source_layer: us_cdc_mmwr

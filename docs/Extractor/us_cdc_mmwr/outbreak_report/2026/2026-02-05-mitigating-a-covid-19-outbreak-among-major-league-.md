@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Mitigating a COVID-19 Outbreak Among Major League Baseball Players - United States, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412227"
 source_layer: us_cdc_mmwr

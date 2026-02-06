@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "RECOMMENDATIONS AND REPORTS: CDC Guidelines for the Prevention and Treatment of Anthrax, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=739123"
 source_layer: us_cdc_mmwr

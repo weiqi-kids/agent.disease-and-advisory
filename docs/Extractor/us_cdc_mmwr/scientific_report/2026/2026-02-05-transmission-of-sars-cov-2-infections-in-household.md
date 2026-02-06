@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Transmission of SARS-COV-2 Infections in Households - Tennessee and Wisconsin, April-September 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412715"
 source_layer: us_cdc_mmwr

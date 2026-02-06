@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Mental Health Among Parents of Children Aged less than 18 Years and Unpaid Caregivers of Adults During the COVID-19 Pandemic - United States, December 2020 and February-⁠March 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423667"
 source_layer: us_cdc_mmwr

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Tobacco Use in Top-Grossing Movies - United States, 2010-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402350"
 source_layer: us_cdc_mmwr

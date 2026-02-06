@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Age-Adjusted Death Rates for Pedestrians Involved in a Collision with a Motor Vehicle, by Race and Hispanic Origin - National Vital Statistics System, United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735512"
 source_layer: us_cdc_mmwr

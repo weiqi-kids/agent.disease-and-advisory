@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Typhoid Fever Surveillance, Incidence Estimates, and Progress Toward Typhoid Conjugate Vaccine Introduction - Worldwide, 2018-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733847"
 source_layer: us_cdc_mmwr

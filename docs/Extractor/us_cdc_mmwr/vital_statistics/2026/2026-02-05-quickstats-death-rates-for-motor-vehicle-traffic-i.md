@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Death Rates for Motor-Vehicle-Traffic Injuries, Suicide, and Homicide Among Adolescents and Young Adults Aged 15-24 Years - United States, 1999-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416394"
 source_layer: us_cdc_mmwr

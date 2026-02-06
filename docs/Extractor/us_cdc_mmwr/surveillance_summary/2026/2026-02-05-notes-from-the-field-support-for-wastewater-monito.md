@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Support for Wastewater Monitoring and Influence on Protective Behavioral Intentions Among Adults - United States, July 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752627"
 source_layer: us_cdc_mmwr

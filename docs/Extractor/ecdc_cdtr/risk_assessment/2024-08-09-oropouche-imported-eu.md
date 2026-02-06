@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Threat assessment brief - Oropouche virus disease cases imported to the European Union"
 source_url: "https://www.ecdc.europa.eu/en/publications-data/threat-assessment-brief-oropouche-virus-disease-cases-imported-european-union"
 date: "2024-08-09"

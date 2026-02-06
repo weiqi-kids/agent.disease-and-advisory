@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Increasing Access to HIV Testing Through Direct-to-Consumer HIV Self-Test Distribution - United States, March 31, 2020-March 30, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427074"
 source_layer: us_cdc_mmwr

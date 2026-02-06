@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Research: Syndromic surveillance: weekly summaries for 2026"
 source_url: "https://www.gov.uk/government/publications/syndromic-surveillance-weekly-summaries-for-2026"
 source_layer: uk_ukhsa_updates

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Persons Evaluated for 2019 Novel Coronavirus - United States, January 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403580"
 source_layer: us_cdc_mmwr

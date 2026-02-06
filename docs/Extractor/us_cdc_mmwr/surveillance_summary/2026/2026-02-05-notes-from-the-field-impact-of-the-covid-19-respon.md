@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Impact of the COVID-19 Response on Scale-up of HIV Viral Load Testing - PEPFAR-Supported Countries, January-June 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=422925"
 source_layer: us_cdc_mmwr

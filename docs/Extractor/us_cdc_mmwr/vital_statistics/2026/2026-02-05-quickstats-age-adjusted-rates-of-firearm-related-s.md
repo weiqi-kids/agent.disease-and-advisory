@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Age-Adjusted Rates of Firearm-Related Suicide, by Race, Hispanic Origin, and Sex - National Vital Statistics System, United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427846"
 source_layer: us_cdc_mmwr

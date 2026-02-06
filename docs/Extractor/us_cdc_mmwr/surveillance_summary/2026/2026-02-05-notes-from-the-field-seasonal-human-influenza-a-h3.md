@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Notes from the Field: Seasonal Human Influenza A(H3N2) and Influenza A(H1N1)pdm09 Reassortant Infection - Idaho, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406049"
 source_layer: us_cdc_mmwr

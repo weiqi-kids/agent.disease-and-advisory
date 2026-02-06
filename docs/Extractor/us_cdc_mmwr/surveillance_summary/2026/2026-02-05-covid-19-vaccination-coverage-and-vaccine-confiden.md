@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "COVID-19 Vaccination Coverage and Vaccine Confidence by Sexual Orientation and Gender Identity - United States, August 29-October 30, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=510954"
 source_layer: us_cdc_mmwr

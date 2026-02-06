@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Vital Signs: Health Disparities in Hemodialysis-Associated Staphylococcus aureus Bloodstream Infections - United States, 2017-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733727"
 source_layer: us_cdc_mmwr

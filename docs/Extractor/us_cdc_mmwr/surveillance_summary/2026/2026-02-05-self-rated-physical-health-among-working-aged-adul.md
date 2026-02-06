@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Self-Rated Physical Health Among Working-Aged Adults Along the Rural-Urban Continuum - United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=510933"
 source_layer: us_cdc_mmwr

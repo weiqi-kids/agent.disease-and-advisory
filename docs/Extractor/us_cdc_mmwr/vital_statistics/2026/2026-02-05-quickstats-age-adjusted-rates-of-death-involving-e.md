@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats: Age-Adjusted Rates of Death Involving Exposure to Excessive Heat Among States with the Highest Numbers of Deaths - National Vital Statistics System, United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736552"
 source_layer: us_cdc_mmwr

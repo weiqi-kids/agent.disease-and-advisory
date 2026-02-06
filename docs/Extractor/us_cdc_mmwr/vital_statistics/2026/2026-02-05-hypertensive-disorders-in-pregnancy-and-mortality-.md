@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "Hypertensive Disorders in Pregnancy and Mortality at Delivery Hospitalization, United States, 2017-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729035"
 source_layer: us_cdc_mmwr

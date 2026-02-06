@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: "QuickStats:  Number of Natural Heat-Related Deaths, by Sex and Age Group - National Vital Statistics System, United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409070"
 source_layer: us_cdc_mmwr
