@@ -4,7 +4,7 @@
 
 | 指令 | 說明 |
 |------|------|
-| **「執行完整流程」** | 執行所有 Layer 的 fetch → 萃取 → update，然後產出報告 |
+| **「執行完整流程」** | 執行所有 Layer 的 fetch → 萃取 → update → 推送 GitHub |
 | **「執行 {layer_name}」** | 只執行指定 Layer 的 fetch → 萃取 → update |
 | **「只跑 fetch」** | 只執行所有 Layer 的 fetch.sh，不萃取 |
 | **「只跑萃取」** | 假設 raw/ 已有資料，只做萃取 + update |
@@ -12,73 +12,126 @@
 
 ---
 
+## 執行架構
+
+```
+主執行緒（opus）— 僅協調，不做實際工作
+│
+├─ 分派 Task(Bash, sonnet, run_in_background=true) × N
+│   └─ 背景平行執行 fetch.sh
+│
+├─ 分派 Task(general-purpose, sonnet) × N
+│   └─ 平行萃取 JSONL 各行
+│
+├─ 分派 Task(Bash, sonnet, run_in_background=true) × N
+│   └─ 背景平行執行 update.sh
+│
+└─ 主執行緒執行 git commit + push
+```
+
+**核心原則：**
+- 主執行緒（opus）只做協調和 git 操作
+- 所有實際工作由 sonnet 子代理執行
+- 使用 `run_in_background: true` 讓任務背景執行
+- 同類型任務在**單一訊息**中平行分派
+
+---
+
 ## 執行完整流程
 
 當使用者說「執行完整流程」時，依序執行以下階段：
 
-### 階段 1：掃描 Layers
+### 階段 1：掃描 Layers（主執行緒）
 
 ```bash
-# 找出所有啟用的 Layer（沒有 .disabled 檔案）
+# 找出所有啟用的 Layer
 for d in core/Extractor/Layers/*/; do
   [[ -f "$d/.disabled" ]] || basename "$d"
 done
 ```
 
-### 階段 2：平行 Fetch
+### 階段 2：平行 Fetch（背景 sonnet）
 
-**在單一訊息中**同時分派所有 Layer 的 fetch：
-
-```
-Task(Bash, sonnet) → bash core/Extractor/Layers/who_disease_outbreak_news/fetch.sh
-Task(Bash, sonnet) → bash core/Extractor/Layers/us_cdc_han/fetch.sh
-Task(Bash, sonnet) → bash core/Extractor/Layers/us_cdc_mmwr/fetch.sh
-...（所有 Layer 平行執行）
-```
-
-產出位置：`docs/Extractor/{layer}/raw/*.jsonl`
-
-### 階段 3：萃取
-
-對每個 Layer 的 JSONL 逐行萃取：
-
-1. **取得行數**：`wc -l < docs/Extractor/{layer}/raw/*.jsonl`
-2. **逐行讀取**：`sed -n '{N}p' {jsonl_file}`
-3. **去重檢查**：檢查該 `source_url` 是否已存在
-4. **分派萃取**：每行交由一個 Task(general-purpose, sonnet) 處理
-
-萃取 Task 需讀取：
-- 該行 JSON 內容
-- `core/Extractor/Layers/{layer}/CLAUDE.md`（萃取邏輯）
-- `core/Extractor/CLAUDE.md`（通用規則）
-
-產出位置：`docs/Extractor/{layer}/{category}/*.md`
-
-### 階段 4：平行 Update
-
-**在單一訊息中**同時分派所有 Layer 的 update：
+**在單一訊息中**分派所有 fetch 任務，使用背景執行：
 
 ```
-Task(Bash, sonnet) → bash core/Extractor/Layers/who_disease_outbreak_news/update.sh
-Task(Bash, sonnet) → bash core/Extractor/Layers/us_cdc_han/update.sh
-...（所有 Layer 平行執行）
+Task(Bash, sonnet, run_in_background=true) → fetch.sh Layer1
+Task(Bash, sonnet, run_in_background=true) → fetch.sh Layer2
+Task(Bash, sonnet, run_in_background=true) → fetch.sh Layer3
+...（7 個 Layer 同時背景執行）
+```
+
+等待方式：使用 `TaskOutput` 確認所有背景任務完成。
+
+產出：`docs/Extractor/{layer}/raw/*.jsonl`
+
+### 階段 3：萃取（平行 sonnet）
+
+1. **統計**：對每個 Layer 執行 `wc -l < *.jsonl`
+2. **去重**：檢查 `source_url` 是否已存在於 `docs/Extractor/{layer}/`
+3. **分派**：每 10 筆為一批，平行分派萃取任務
+
+```
+Task(general-purpose, sonnet) → 萃取 Layer1 行 1-10
+Task(general-purpose, sonnet) → 萃取 Layer2 行 1-10
+...（批次平行）
+```
+
+萃取 Task 接收：
+- JSON 內容（`sed -n '{N}p' file.jsonl`）
+- Layer CLAUDE.md 萃取邏輯
+- core/Extractor/CLAUDE.md 通用規則
+
+產出：`docs/Extractor/{layer}/{category}/*.md`
+
+### 階段 4：平行 Update（背景 sonnet）
+
+**在單一訊息中**分派所有 update 任務：
+
+```
+Task(Bash, sonnet, run_in_background=true) → update.sh Layer1
+Task(Bash, sonnet, run_in_background=true) → update.sh Layer2
+...（所有 Layer 同時背景執行）
 ```
 
 update.sh 職責：
-- 將 .md 檔寫入 Qdrant（向量化搜尋）
+- 寫入 Qdrant（向量化）
 - 檢查 `[REVIEW_NEEDED]` 標記
 
-### 階段 5：產出報告（若有 Mode）
+### 階段 5：產出報告（sonnet，若有 Mode）
 
 ```
 Task(general-purpose, sonnet) → 讀取 Mode CLAUDE.md，產出報告
 ```
 
-產出位置：`docs/Narrator/{mode}/*.md`
+產出：`docs/Narrator/{mode}/*.md`
 
-### 階段 6：更新健康度
+### 階段 6：更新健康度（主執行緒）
 
-更新 README.md 中的健康度儀表板。
+更新 README.md 中的健康度儀表板表格。
+
+### 階段 7：推送 GitHub（主執行緒）
+
+```bash
+# 檢查是否有變更
+git status --porcelain
+
+# 若有變更，提交並推送
+git add docs/
+git commit -m "data: update $(date +%Y-%m-%d) - {摘要}"
+git push origin main
+```
+
+Commit message 格式：
+```
+data: update YYYY-MM-DD - N new items across M layers
+
+Layers updated:
+- layer1: +X items
+- layer2: +Y items
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+```
 
 ---
 
@@ -94,13 +147,14 @@ Task(general-purpose, sonnet) → 讀取 Mode CLAUDE.md，產出報告
 | Fetch | ✅ 完成 | 7/7 Layers |
 | 萃取 | 🔄 進行中 | 45/120 條目 |
 | Update | ⏳ 等待中 | - |
-| 報告 | ⏳ 等待中 | - |
+| GitHub | ⏳ 等待中 | - |
 ```
 
 完成後回報：
 1. 各 Layer 擷取筆數
-2. 新增的萃取結果
+2. 新增的萃取結果數量
 3. 有無 `[REVIEW_NEEDED]` 需要人工介入
+4. GitHub commit URL
 
 ---
 
@@ -120,34 +174,35 @@ Task(general-purpose, sonnet) → 讀取 Mode CLAUDE.md，產出報告
 
 ## 關鍵規則
 
+### 背景執行與平行化
+
+```
+✅ 正確：單一訊息 + 背景執行
+   [Task: Layer1, run_in_background=true]
+   [Task: Layer2, run_in_background=true]
+   [Task: Layer3, run_in_background=true]
+   → 三個任務同時背景執行
+
+❌ 錯誤：逐一發送等待
+   訊息1: [Task: Layer1] → 等待完成
+   訊息2: [Task: Layer2] → 等待完成
+```
+
 ### JSONL 處理
 
 > **⛔ 禁止使用 Read 工具直接讀取 `.jsonl` 檔案**
 
-正確做法：
 ```bash
 wc -l < file.jsonl           # 取得行數
 sed -n '1p' file.jsonl       # 讀取第 1 行
-sed -n '2p' file.jsonl       # 讀取第 2 行
-```
-
-### 平行執行
-
-同類型任務必須在**單一訊息**中發出多個 Task：
-
-```
-✅ 正確：一個訊息包含多個 Task
-   [Task: Layer1/fetch.sh] [Task: Layer2/fetch.sh] [Task: Layer3/fetch.sh]
-
-❌ 錯誤：逐一發送等待
-   訊息1: [Task: Layer1] → 等待 → 訊息2: [Task: Layer2] → 等待
+sed -n '5,10p' file.jsonl    # 讀取第 5-10 行
 ```
 
 ### [REVIEW_NEEDED] 標記
 
 - 各 Layer 的 `CLAUDE.md` 定義具體觸發規則
 - 子代理必須嚴格遵循，不可自行擴大判定範圍
-- `[REVIEW_NEEDED]` ≠ `confidence: 低`（前者是萃取可能有誤，後者是來源結構限制）
+- `[REVIEW_NEEDED]` ≠ `confidence: 低`
 
 ### WebFetch
 
