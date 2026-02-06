@@ -1,3 +1,11 @@
+---
+title: 傳染病威脅週報 2026-W06
+layout: default
+parent: 週報摘要
+grand_parent: 報告
+nav_exclude: true
+---
+
 # 傳染病威脅週報 2026-W06
 
 > **免責聲明**
