@@ -329,9 +329,94 @@ title: 'Report on "Disease X" outbreak'
 
 ---
 
+## 7. 自動化連結檢查機制
+
+### 7.1 為什麼需要自動化
+
+**問題**：手動檢查連結容易遺漏，且 2,246+ 個連結無法逐一驗證。
+
+**解決方案**：GitHub Actions 自動檢查 + 自動修復。
+
+---
+
+### 7.2 系統架構
+
+```
+git push
+    ↓
+GitHub Actions: pages-build-deployment
+    ↓ (部署完成後自動觸發)
+GitHub Actions: Check and Fix Links
+    ├─ lychee 掃描所有 docs/**/*.md
+    ├─ 發現錯誤 → scripts/fix-broken-links.sh
+    ├─ 可修復 → commit + push（觸發重新部署）
+    └─ 無法修復 → 建立 Issue（標記 needs-manual-fix）
+```
+
+---
+
+### 7.3 相關檔案
+
+| 檔案 | 用途 |
+|------|------|
+| `.github/workflows/check-links.yml` | 連結檢查 workflow |
+| `.lychee.toml` | lychee 設定（排除規則、timeout） |
+| `scripts/fix-broken-links.sh` | 自動修復腳本 |
+
+---
+
+### 7.4 可自動修復的問題
+
+| 類型 | 範例 | 修復方式 |
+|------|------|----------|
+| 尾部斜線 | `article/` → `article` | 移除 `/` |
+| index.md 表格連結 | 批次修正 | sed 替換 |
+
+---
+
+### 7.5 無法自動修復的問題
+
+以下情況會建立 GitHub Issue：
+
+- 外部網站失效（WHO 改 URL、CDC 移除頁面等）
+- 檔案真的不存在
+- 需要人工判斷的重新導向
+
+---
+
+### 7.6 排除規則
+
+在 `.lychee.toml` 中設定排除：
+
+```toml
+exclude = [
+    'localhost',
+    '127\\.0\\.0\\.1',
+    'data\\.gov\\.sg',      # 需要註冊
+    'data\\.go\\.kr',       # 需要註冊
+    'twitter\\.com',        # rate limit
+    'x\\.com',              # rate limit
+]
+```
+
+如需新增排除，編輯此檔案即可。
+
+---
+
+### 7.7 手動觸發檢查
+
+除了自動觸發，也可以手動執行：
+
+1. 前往 GitHub Actions 頁面
+2. 選擇「Check and Fix Links」workflow
+3. 點擊「Run workflow」
+
+---
+
 ## 更新紀錄
 
 | 日期 | 更新內容 |
 |------|---------|
+| 2026-02-06 | 新增自動化連結檢查機制（第 7 節） |
 | 2026-02-06 | 新增 GitHub Pages / Jekyll 連結問題（第 6 節） |
 | 2026-02-02 | 初版建立，記錄資料源探索階段發現的問題 |

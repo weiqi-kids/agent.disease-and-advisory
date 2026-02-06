@@ -12,6 +12,20 @@
 
 ---
 
+## 建議執行頻率
+
+| 頻率 | 時機 | 說明 |
+|------|------|------|
+| **每週一次** | 週一早上 | 正常運作，配合 MMWR/ECDC 週報 |
+| **每日一次** | 疫情活躍期 | 追蹤快速變化的疫情 |
+
+**理由**：
+- MMWR、ECDC CDTR 都是週報形式
+- 週報（weekly_digest）設計為每週產出
+- 過於頻繁執行會產生重複資料
+
+---
+
 ## 執行架構
 
 ```
@@ -361,6 +375,70 @@ Claude CLI 會載入 `core/CLAUDE.md` 並依照其中的維護指令執行。
 - 「新增一個 {名稱} Layer，資料來源是 {URL}」
 - 「暫停 {layer_name}」→ 建立 `.disabled` 檔
 - 「啟用 {layer_name}」→ 移除 `.disabled` 檔
+
+---
+
+## 常見錯誤與防範
+
+> **詳細除錯指南請參考 `docs/lessons-learned.md`**
+
+### GitHub Pages / Jekyll 連結問題
+
+| 錯誤 | 正確 | 說明 |
+|------|------|------|
+| `[title](article/)` | `[title](article)` | 內容連結不加尾部斜線 |
+| `title: "含\"引號\"的標題"` | `title: '含"引號"的標題'` | 巢狀引號用單引號包覆 |
+| 缺少 frontmatter | `nav_exclude: true` | 所有內容檔案必須隱藏於側邊欄 |
+
+### 萃取輸出必填欄位
+
+```yaml
+---
+nav_exclude: true          # ← 必填！否則出現在側邊欄
+title: '標題'              # ← 若含 " 必須用 ' 包覆
+layout: default
+source_url: https://...
+date: 2026-01-01
+source_layer: layer_name
+category: category_name
+---
+```
+
+### 自動化保護機制
+
+推送後 GitHub Actions 會自動：
+1. 檢查所有連結（lychee）
+2. 修復可修復的問題（尾部斜線等）
+3. 無法修復的問題會建立 Issue
+
+相關檔案：
+- `.github/workflows/check-links.yml`
+- `.lychee.toml`
+- `scripts/fix-broken-links.sh`
+
+---
+
+## 問題排查
+
+遇到問題時，依序檢查：
+
+### 網站 404 錯誤
+
+1. 連結是否帶尾部斜線？（內容檔案連結不應帶 `/`）
+2. GitHub Actions 是否成功？（檢查 Actions 頁面）
+3. CDN 快取是否更新？（等 1-2 分鐘）
+
+### 側邊欄異常
+
+1. 檔案是否有 `nav_exclude: true`？
+2. frontmatter 格式是否正確？（`---` 開頭結尾）
+3. 標題是否有巢狀引號問題？
+
+### 萃取失敗
+
+1. 資料源 URL 是否有效？（`curl` 測試）
+2. JSONL 是否為空？（`wc -l` 檢查）
+3. 是否違反 `core/Extractor/CLAUDE.md` 規則？
 
 ---
 
