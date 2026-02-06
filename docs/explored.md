@@ -1,3 +1,9 @@
+---
+title: 疾病監測資料源探索紀錄
+layout: default
+nav_exclude: true
+---
+
 # 疾病監測資料源探索紀錄
 
 > 最後更新：2026-02-02

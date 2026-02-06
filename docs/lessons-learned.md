@@ -1,3 +1,9 @@
+---
+title: 錯誤與教訓紀錄
+layout: default
+nav_exclude: true
+---
+
 # 錯誤與教訓紀錄
 
 本文件記錄系統建設過程中發現的問題與教訓，避免未來重複犯錯。
