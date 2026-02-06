@@ -1,0 +1,26 @@
+---
+title: "Newborn Screening Practices and Alpha-Thalassemia Detection - United States, 2016"
+source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411254"
+source_layer: us_cdc_mmwr
+category: scientific_report
+date: 2020-09-10
+confidence: 中
+mmwr_volume: ""
+mmwr_issue: ""
+---
+
+## 摘要
+
+This report describes a 2016 analysis of newborn screenings in the United States, which found that practices to detect alpha-thalassemia varied state to state. 
+
+## 詳細內容
+
+This report describes a 2016 analysis of newborn screenings in the United States, which found that practices to detect alpha-thalassemia varied state to state. 
+
+## 關鍵發現
+
+(需要透過 WebFetch 補充或人工審核來提取關鍵發現)
+
+---
+*萃取時間: 2026-02-05T15:15:15Z*
+*資料來源: CDC MMWR*
