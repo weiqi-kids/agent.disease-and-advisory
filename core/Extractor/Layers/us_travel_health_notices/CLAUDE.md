@@ -96,9 +96,12 @@
 
 ## 輸出格式
 
+> **注意**：若標題包含雙引號 `"`，外層必須使用單引號 `'` 包覆。
+
 ```markdown
 ---
-title: "{標題}"
+nav_exclude: true
+title: '{標題}'
 source_url: "{完整 CDC 連結}"
 source_layer: us_travel_health_notices
 category: {level_3_avoid|level_2_practice|level_1_watch|archived}
@@ -131,6 +134,8 @@ alert_level: "{原始等級文字}"
 ## 自我審核 Checklist
 
 萃取前確認：
+- [ ] `nav_exclude: true` 存在於 frontmatter 開頭
+- [ ] `title` 若包含 `"` 則使用單引號包覆
 - [ ] `source_url` 為有效的 CDC 旅遊健康連結
 - [ ] `date` 成功轉換為 ISO 8601
 - [ ] `category` 正確反映等級（level_1/2/3 或 archived）

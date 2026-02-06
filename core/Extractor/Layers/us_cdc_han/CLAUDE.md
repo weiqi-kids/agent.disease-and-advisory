@@ -30,7 +30,7 @@
 
 ## 資料來源
 
-- **RSS Feed**: `https://emergency.cdc.gov/han/han.asp` (RSS feed endpoint)
+- **RSS Feed**: `https://tools.cdc.gov/api/v2/resources/media/413690.rss`
 - **備用**: 若主 feed 失效，檢查 `https://www.cdc.gov/han/index.html`
 
 ---
@@ -82,9 +82,12 @@
 
 ## 輸出格式
 
+> **注意**：若標題包含雙引號 `"`，外層必須使用單引號 `'` 包覆。
+
 ```markdown
 ---
-title: "{HAN 標題}"
+nav_exclude: true
+title: '{HAN 標題}'
 source_url: "{原始連結}"
 source_layer: us_cdc_han
 category: {alert|advisory|update|information}
@@ -114,6 +117,8 @@ han_id: "{HAN 編號，如 HAN-00123}"
 ## 自我審核 Checklist
 
 萃取前確認：
+- [ ] `nav_exclude: true` 存在於 frontmatter 開頭
+- [ ] `title` 若包含 `"` 則使用單引號包覆
 - [ ] `source_url` 為有效的 CDC 連結
 - [ ] `date` 成功轉換為 ISO 8601
 - [ ] `category` 屬於 enum 定義的四個值之一
@@ -127,7 +132,8 @@ han_id: "{HAN 編號，如 HAN-00123}"
 
 ```markdown
 ---
-title: "Health Alert: Increase in Respiratory Syncytial Virus (RSV) Activity"
+nav_exclude: true
+title: 'Health Alert: Increase in Respiratory Syncytial Virus (RSV) Activity'
 source_url: "https://emergency.cdc.gov/han/2024/han00123.asp"
 source_layer: us_cdc_han
 category: alert

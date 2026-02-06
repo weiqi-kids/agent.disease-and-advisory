@@ -48,6 +48,20 @@ docs/Narrator/{mode_name}/{YYYY}-W{WW}-{report_name}.md
 docs/Narrator/{mode_name}/{YYYY}-W{WW}-{report_name}.html  （自動產生）
 ```
 
+### Frontmatter 必填欄位
+
+> **重要**：所有報告檔案的 frontmatter 必須包含以下欄位以避免出現在側邊欄導航。
+
+```yaml
+---
+nav_exclude: true
+title: '{報告標題}'
+layout: default
+---
+```
+
+> **注意**：若標題包含雙引號 `"`，外層必須使用單引號 `'` 包覆。
+
 - `YYYY`：年份
 - `WW`：週數（兩位數）
 - `report_name`：報告名稱（依 Mode 定義）
@@ -106,6 +120,8 @@ html_convert_md docs/Narrator/{mode_name}/{report_file}.md
 
 報告發布前，必須確認：
 
+- [ ] `nav_exclude: true` 存在於 frontmatter 開頭
+- [ ] `title` 若包含 `"` 則使用單引號包覆
 - [ ] 已包含免責聲明
 - [ ] 已列出所有資料來源
 - [ ] 引用的資料確實存在於 `docs/Extractor/`

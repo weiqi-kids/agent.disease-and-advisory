@@ -107,9 +107,12 @@
 
 ## 輸出格式
 
+> **注意**：若標題包含雙引號 `"`，外層必須使用單引號 `'` 包覆。
+
 ```markdown
 ---
-title: "{標題}"
+nav_exclude: true
+title: '{標題}'
 source_url: "{完整 ECDC 連結}"
 source_layer: ecdc_cdtr
 category: {surveillance|risk_assessment|guidance|outbreak_report|situational_update}
@@ -146,6 +149,8 @@ regions: ["{affected EU regions}"]
 ## 自我審核 Checklist
 
 萃取前確認：
+- [ ] `nav_exclude: true` 存在於 frontmatter 開頭
+- [ ] `title` 若包含 `"` 則使用單引號包覆
 - [ ] `source_url` 為有效的 ECDC 連結
 - [ ] `date` 成功轉換為 ISO 8601
 - [ ] `category` 屬於 enum 定義的五個值之一
@@ -160,7 +165,8 @@ regions: ["{affected EU regions}"]
 
 ```markdown
 ---
-title: "Communicable disease threats report, 8-14 January 2024, week 2"
+nav_exclude: true
+title: 'Communicable disease threats report, 8-14 January 2024, week 2'
 source_url: "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-8-14-january-2024-week-2"
 source_layer: ecdc_cdtr
 category: surveillance

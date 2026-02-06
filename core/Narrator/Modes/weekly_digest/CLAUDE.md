@@ -54,7 +54,15 @@ prev_report=$(report_find_previous weekly_digest 2026-W05)
 
 ## 輸出框架
 
+> **注意**：若標題包含雙引號 `"`，外層必須使用單引號 `'` 包覆。
+
 ```markdown
+---
+nav_exclude: true
+title: '傳染病威脅週報 {YYYY}-W{WW}'
+layout: default
+---
+
 # 傳染病威脅週報 {YYYY}-W{WW}
 
 > **免責聲明**
@@ -204,6 +212,12 @@ docs/Narrator/weekly_digest/{YYYY}-W{WW}-weekly-digest.md
 ## 輸出範例
 
 ```markdown
+---
+nav_exclude: true
+title: '傳染病威脅週報 2026-W05'
+layout: default
+---
+
 # 傳染病威脅週報 2026-W05
 
 > **免責聲明**

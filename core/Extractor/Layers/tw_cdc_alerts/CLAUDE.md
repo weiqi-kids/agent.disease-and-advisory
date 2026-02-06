@@ -117,9 +117,12 @@
 
 ## 輸出格式
 
+> **注意**：若標題包含雙引號 `"`，外層必須使用單引號 `'` 包覆。
+
 ```markdown
 ---
-title: "{標題}"
+nav_exclude: true
+title: '{標題}'
 source_url: "{完整 CDC 連結}"
 source_layer: tw_cdc_alerts
 category: {domestic_outbreak|imported_case|policy|medical_advisory|disease_info}
@@ -158,6 +161,8 @@ notes: "{補充說明，如 WebFetch 狀態}"
 ## 自我審核 Checklist
 
 萃取前確認：
+- [ ] `nav_exclude: true` 存在於 frontmatter 開頭
+- [ ] `title` 若包含 `"` 則使用單引號包覆
 - [ ] `source_url` 為有效的 CDC 連結
 - [ ] `date` 成功轉換為 ISO 8601
 - [ ] `category` 屬於 enum 定義的五個值之一
@@ -173,7 +178,8 @@ notes: "{補充說明，如 WebFetch 狀態}"
 
 ```markdown
 ---
-title: "國內新增1例本土登革熱確定病例，籲請民眾加強防蚊措施"
+nav_exclude: true
+title: '國內新增1例本土登革熱確定病例，籲請民眾加強防蚊措施'
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/xxxxx"
 source_layer: tw_cdc_alerts
 category: domestic_outbreak
@@ -212,7 +218,8 @@ regions: ["高雄市"]
 
 ```markdown
 ---
-title: "Taiwan CDC confirms 1 new domestic dengue case"
+nav_exclude: true
+title: 'Taiwan CDC confirms 1 new domestic dengue case'
 source_url: "https://www.cdc.gov.tw/En/Bulletin/Detail/xxxxx"
 source_layer: tw_cdc_alerts
 category: domestic_outbreak

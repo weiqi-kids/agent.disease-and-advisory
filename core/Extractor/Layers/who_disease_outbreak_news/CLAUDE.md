@@ -115,9 +115,12 @@
 
 ## 輸出格式
 
+> **注意**：若標題包含雙引號 `"`，外層必須使用單引號 `'` 包覆。
+
 ```markdown
 ---
-title: "{標題}"
+nav_exclude: true
+title: '{標題}'
 source_url: "{完整 WHO 連結}"
 source_layer: who_disease_outbreak_news
 category: {outbreak|emergence|emergency|update|investigation}
@@ -154,6 +157,8 @@ diseases: ["{disease names}"]
 ## 自我審核 Checklist
 
 萃取前確認：
+- [ ] `nav_exclude: true` 存在於 frontmatter 開頭
+- [ ] `title` 若包含 `"` 則使用單引號包覆
 - [ ] `source_url` 為有效的 WHO 連結
 - [ ] `date` 成功轉換為 ISO 8601
 - [ ] `category` 屬於 enum 定義的五個值之一
@@ -167,7 +172,8 @@ diseases: ["{disease names}"]
 
 ```markdown
 ---
-title: "Mpox - Democratic Republic of the Congo"
+nav_exclude: true
+title: 'Mpox - Democratic Republic of the Congo'
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON501"
 source_layer: who_disease_outbreak_news
 category: outbreak
