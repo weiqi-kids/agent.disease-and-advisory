@@ -13,4 +13,4 @@ grand_parent: US CDC MMWR
 
 | 日期 | 標題 |
 |------|------|
-| 2025-12-18 | [Coal Workers' Pneumoconiosis-Associated Deaths - United States, 2020-2023](2025-12-18-coal-workers-pneumoconiosis-associated-deaths-u/) |
+| 2025-12-18 | [Coal Workers' Pneumoconiosis-Associated Deaths - United States, 2020-2023](2025-12-18-coal-workers-pneumoconiosis-associated-deaths-u) |
