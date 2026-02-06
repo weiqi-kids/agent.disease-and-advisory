@@ -608,11 +608,12 @@ qdrant_upsert_from_md() {
   fi
 
   # 從 MD 檔案提取 metadata
+  # 處理 YAML frontmatter 的各種引號格式：無引號、單引號、雙引號
   local title source_url date category content
-  title=$(grep -m1 '^title:' "$md_file" 2>/dev/null | sed 's/title: *"\?\([^"]*\)"\?/\1/' || echo "")
-  source_url=$(grep -m1 '^source_url:' "$md_file" 2>/dev/null | sed 's/source_url: *"\?\([^"]*\)"\?/\1/' || echo "")
-  date=$(grep -m1 '^date:' "$md_file" 2>/dev/null | sed 's/date: *//' || echo "")
-  category=$(grep -m1 '^category:' "$md_file" 2>/dev/null | sed 's/category: *//' || echo "")
+  title=$(grep -m1 '^title:' "$md_file" 2>/dev/null | sed 's/^title: *//; s/^["'"'"']//; s/["'"'"']$//' || echo "")
+  source_url=$(grep -m1 '^source_url:' "$md_file" 2>/dev/null | sed 's/^source_url: *//; s/^["'"'"']//; s/["'"'"']$//' || echo "")
+  date=$(grep -m1 '^date:' "$md_file" 2>/dev/null | sed 's/^date: *//' || echo "")
+  category=$(grep -m1 '^category:' "$md_file" 2>/dev/null | sed 's/^category: *//' || echo "")
 
   if [[ -z "$source_url" ]]; then
     echo "⚠️  [qdrant_upsert_from_md] 無 source_url: $md_file" >&2
