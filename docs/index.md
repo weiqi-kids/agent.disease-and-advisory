@@ -17,8 +17,8 @@ Disease Intelligence System
 
 最新傳染病威脅週報，綜合分析全球疫情動態。
 
-[最新週報](Narrator/weekly_digest/2026-W06-weekly-digest/){: .btn .btn-primary }
-[查看所有週報](Narrator/weekly_digest/){: .btn }
+[最新週報]({{ site.baseurl }}/Narrator/weekly_digest/2026-W06-weekly-digest/){: .btn .btn-primary }
+[查看所有週報]({{ site.baseurl }}/Narrator/weekly_digest/){: .btn }
 
 ---
 
