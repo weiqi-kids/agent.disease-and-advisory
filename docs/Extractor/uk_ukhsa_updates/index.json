@@ -170,6 +170,26 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "research-2026-02-06-stomach-bugs-a-brief-guide-to-their-causes-and-treatment-md",
+    "title": "Stomach bugs: A brief guide to their causes and treatment",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-02-06-stomach-bugs-a-brief-guide-to-their-causes-and-treatment.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-02-06-environmental-monitoring-following-the-grenfell-tower-fire-md",
+    "title": "Environmental monitoring following the Grenfell Tower fire",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-02-06-environmental-monitoring-following-the-grenfell-tower-fire.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "research-2026-02-05-what-is-burkholderia-stabilis-and-why-should-i-check-my-first-aid-kit-md",
     "title": "",
     "category": "research",
@@ -185,6 +205,16 @@
     "category": "research",
     "date": "",
     "file": "research/2026-02-05-routine-childhood-immunisation-deaths-and-hospitalisations-prevented.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-02-05-identifying-sepsis-cases-in-administrative-data-a-validation-study-md",
+    "title": "Research: Identifying sepsis cases in administrative data: a validation study",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-02-05-identifying-sepsis-cases-in-administrative-data-a-validation-study.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"
@@ -566,6 +596,16 @@
     "date": "",
     "file": "guidance/2026-02-05-severe-fever-with-thrombocytopaenia-syndrome-sfts-epidemiology-outbreaks-and-guidance.md",
     "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-05-rotavirus-vaccination-programme-information-for-healthcare-practitioners-md",
+    "title": "Guidance: Rotavirus vaccination programme: information for healthcare practitioners",
+    "category": "guidance",
+    "date": "**日期**: 2026-02-05",
+    "file": "guidance/2026-02-05-rotavirus-vaccination-programme-information-for-healthcare-practitioners.md",
+    "source": "**來源**: UK Health Security Agency (UKHSA)",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"
   },

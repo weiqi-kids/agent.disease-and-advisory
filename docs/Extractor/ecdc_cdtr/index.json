@@ -10,6 +10,16 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "surveillance-2026-02-06-communicable-disease-threats-report-week-6-md",
+    "title": "Communicable disease threats report, 31 January - 6 February 2026, week 6",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-06-communicable-disease-threats-report-week-6.md",
+    "source": "**來源**: ECDC CDTR",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "surveillance-2026-01-30-cdtr-week-5-md",
     "title": "",
     "category": "surveillance",
@@ -355,6 +365,26 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-02-05-winter-olympics-and-paralympics-2026-health-protection-md",
+    "title": "Winter Olympics and Paralympics 2026: Health Protection Guidance",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-05-winter-olympics-and-paralympics-2026-health-protection.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-02-04-malta-simex-vector-borne-disease-md",
+    "title": "ECDC supports Malta in strengthening country preparedness through simulation exercise on vector-borne disease outbreak",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-04-malta-simex-vector-borne-disease.md",
     "source": "",
     "severity": "",
     "source_layer": "ecdc_cdtr"

@@ -20,6 +20,26 @@
     "source_layer": "us_travel_health_notices"
   },
   {
+    "id": "level_2_practice-2026-02-05-chikungunya-suriname-md",
+    "title": "Level 2 - Chikungunya in Suriname",
+    "category": "level_2_practice",
+    "date": "",
+    "file": "level_2_practice/2026-02-05-chikungunya-suriname.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "us_travel_health_notices"
+  },
+  {
+    "id": "level_2_practice-2026-02-05-chikungunya-seychelles-md",
+    "title": "Level 2 - Chikungunya in Seychelles",
+    "category": "level_2_practice",
+    "date": "",
+    "file": "level_2_practice/2026-02-05-chikungunya-seychelles.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "us_travel_health_notices"
+  },
+  {
     "id": "level_2_practice-2026-01-26-monkeypox-ghana-liberia-md",
     "title": "",
     "category": "level_2_practice",
