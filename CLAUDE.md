@@ -135,15 +135,51 @@ update.sh 職責：
 > **必須使用 opus** — 報告需要跨來源綜合分析、趨勢判斷、歷史比較
 
 ```
-Task(general-purpose, opus) → 讀取 Mode CLAUDE.md，產出報告
+Task(general-purpose, opus) → 讀取 Mode CLAUDE.md，使用 Qdrant 語意搜尋，產出報告
 ```
 
 報告任務需要：
 - 讀取多個 Layer 的萃取結果
 - 讀取上一期報告做比較
+- **使用 Qdrant 語意搜尋查詢歷史資料**
 - 判定優先級和趨勢變化
 
-產出：`docs/Narrator/{mode}/*.md`
+#### Qdrant 語意搜尋（必要）
+
+> **⚠️ 每次產出報告必須執行語意搜尋，提供歷史脈絡**
+
+使用 `lib/report.sh` 提供的函式查詢 Qdrant 向量資料庫：
+
+```bash
+# 必須使用 bash 執行（zsh 不相容）
+bash -c 'source lib/chatgpt.sh && source lib/qdrant.sh && source lib/report.sh && report_semantic_search "H5N1 avian influenza" 10'
+```
+
+可用函式：
+| 函式 | 用途 | 範例 |
+|------|------|------|
+| `report_semantic_search` | 自然語言查詢 | `report_semantic_search "Marburg virus outbreak" 10` |
+| `report_find_similar` | 找相似記錄 | `report_find_similar "docs/Extractor/.../file.md" 5` |
+| `report_historical_context` | 疾病歷史脈絡 | `report_historical_context "measles"` |
+
+報告產出流程：
+1. 讀取本週各 Layer 萃取結果
+2. 識別主要疾病/事件（通常 5-10 個）
+3. **對每個主要疾病執行 `report_semantic_search`**
+4. 整合歷史資料至報告的「歷史參考 [語意搜尋]」區段
+5. 產出 Markdown 和 HTML 兩種格式
+
+報告中的語意搜尋結果格式：
+```markdown
+### 歷史參考 [語意搜尋]
+
+| 日期 | 來源 | 標題 | 相關性 |
+|------|------|------|--------|
+| 2026-01-15 | WHO DON | Marburg virus disease - Rwanda | 0.92 |
+| 2025-12-20 | ECDC | Marburg outbreak update | 0.88 |
+```
+
+產出：`docs/Narrator/{mode}/*.md` 和 `*.html`
 
 ### 階段 6：更新健康度 + 推送 GitHub（sonnet）
 
