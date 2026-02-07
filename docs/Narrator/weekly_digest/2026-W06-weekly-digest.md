@@ -2,6 +2,8 @@
 nav_exclude: true
 title: '傳染病威脅週報 2026-W06'
 layout: default
+parent: 週報摘要
+grand_parent: 報告
 ---
 
 # 傳染病威脅週報 2026-W06
@@ -92,6 +94,14 @@ layout: default
   - **第一級注意（Watch）**：美國、英國、越南、印度等
 - 來源：tw_cdc_alerts, ecdc_cdtr
 
+##### 歷史參考 [語意搜尋]
+
+| 日期 | 標題 | 來源 | 相關分數 |
+|------|------|------|----------|
+| 2025-03-13 | [Human Cases of Highly Pathogenic Avian Influenza A(H5N1) - California](https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758378) | US CDC MMWR | 0.70 |
+| 2024-05-30 | [Outbreak of Highly Pathogenic Avian Influenza A(H5N1) in U.S. Dairy Cattle](https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=749036) | US CDC MMWR | 0.67 |
+| 2017-09-05 | [Human infection with avian influenza A(H7N9) virus - China](https://www.who.int/emergencies/disease-outbreak-news/5-september-2017-ah7n9-china-en) | WHO | 0.67 |
+
 ### 持續監測
 
 #### 流感（Influenza）
@@ -107,6 +117,14 @@ layout: default
 - **鄰近國家**：日本、韓國流感呈上升趨勢；香港及中國處相對高點或中度流行
 - **疫苗保護力**：本季疫苗對 K 分支保護力約 30-50%，5 歲以下幼童達 70%
 - 來源：tw_cdc_alerts
+
+##### 歷史參考 [語意搜尋]
+
+| 日期 | 標題 | 來源 | 相關分數 |
+|------|------|------|----------|
+| 2021-12-09 | [Influenza A(H3N2) Outbreak on a University Campus - Michigan](https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=454624) | US CDC MMWR | 0.62 |
+| 2022-06-02 | [Influenza A(H3N2) Outbreak Following a School Event - Los Angeles](https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729669) | US CDC MMWR | 0.61 |
+| 2009-05-14 | [Influenza A(H1N1) - update 28](https://www.who.int/emergencies/disease-outbreak-news/2009_05_14-en) | WHO | 0.61 |
 
 #### 百日咳（Pertussis）— 英國
 
@@ -124,6 +142,13 @@ layout: default
 - **政策動態**：台灣預計 3 月中正式將「立百病毒感染症」列為第五類法定傳染病
 - 來源：ecdc_cdtr, tw_cdc_alerts
 
+##### 歷史參考 [語意搜尋]
+
+| 日期 | 標題 | 來源 | 相關分數 |
+|------|------|------|----------|
+| 2026-01-29 | [Nipah virus disease cases reported in West Bengal, India](https://www.ecdc.europa.eu/en/news-events/nipah-virus-disease-cases-reported-west-bengal-india-very-low-risk-europeans) | ECDC | 0.71 |
+| 2026-01-29 | [Nipah virus: what is it, where is it found and how does it spread?](https://ukhsa.blog.gov.uk/2026/01/27/nipah-virus-what-is-it-where-is-it-found-and-how-does-it-spread/) | UKHSA | 0.68 |
+
 #### COVID-19
 
 - **台灣疫情**：處低點波動，門急診就診人次較前週下降
@@ -136,6 +161,14 @@ layout: default
 - **旅遊警示**：US CDC 對迦納及賴比瑞亞維持 Level 2 旅遊健康通知（Clade II 猴痘疫情）
 - 來源：us_travel_health_notices
 
+##### 歷史參考 [語意搜尋]
+
+| 日期 | 標題 | 來源 | 相關分數 |
+|------|------|------|----------|
+| 2025-01-14 | [Epidemiological update: Mpox due to monkeypox virus clade I](https://www.ecdc.europa.eu/en/news-events/epidemiological-update-14-january-2025-mpox-due-monkeypox-virus-clade-i) | ECDC | 0.77 |
+| 2025-02-13 | [First Clade Ib Monkeypox Virus Infection Reported in the Americas - California](https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=757868) | US CDC MMWR | 0.68 |
+| 2024-10-10 | [Mpox Cluster Caused by Tecovirimat-Resistant Monkeypox Virus](https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753304) | US CDC MMWR | 0.65 |
+
 #### 登革熱（Dengue）
 
 - **全球風險**：全年持續，每 2-5 年爆發
@@ -143,12 +176,56 @@ layout: default
 - **旅遊建議**：Level 1 Watch，建議防蚊措施
 - 來源：us_travel_health_notices, tw_cdc_alerts
 
+##### 歷史參考 [語意搜尋]
+
+| 日期 | 標題 | 來源 | 相關分數 |
+|------|------|------|----------|
+| 2025-12-22 | [Dengue worldwide overview](https://www.ecdc.europa.eu/en/dengue-monthly) | ECDC | 0.72 |
+| 2026-01-22 | [Level 1 - Global Dengue](https://wwwnc.cdc.gov/travel/notices/level1/dengue-global) | US CDC Travel | 0.64 |
+| 2025-02-20 | [Dengue Outbreak and Response - Puerto Rico, 2024](https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758084) | US CDC MMWR | 0.56 |
+
 #### 麻疹（Measles）
 
 - **疫情狀況**：近 2 個月於美國、加拿大、墨西哥、印度、印尼及越南等國持續有病例發生
 - 來源：tw_cdc_alerts
 
+##### 歷史參考 [語意搜尋]
+
+| 日期 | 標題 | 來源 | 相關分數 |
+|------|------|------|----------|
+| 2019-10-10 | [National Update on Measles Cases and Outbreaks - United States](https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402026) | US CDC MMWR | 0.64 |
+| 2026-01-29 | [Measles Outbreak Associated with an Infectious Traveler - Colorado](https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=763292) | US CDC MMWR | 0.62 |
+| 2025-03-27 | [Measles - United States of America](https://www.who.int/emergencies/disease-outbreak-news/2025-DON561) | WHO | 0.60 |
+
+#### 漢他病毒症候群（Hantavirus Syndrome）
+
+- **台灣狀況**：2026 年首例確診，70 多歲男性死亡病例
+- **歷史統計**：自 2017 年起台灣累計 44 例，男性占 66%
+- 來源：tw_cdc_alerts
+
+##### 歷史參考 [語意搜尋]
+
+| 日期 | 標題 | 來源 | 相關分數 |
+|------|------|------|----------|
+| 2019-09-05 | [Hantavirus Pulmonary Syndrome - Denver, Colorado, 2018](https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401596) | US CDC MMWR | 0.62 |
+| 2022-03-03 | [First Reports of Locally Transmitted Seoul Hantavirus Infection - DC](https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=580664) | US CDC MMWR | 0.52 |
+
 ### 風險評估更新
+
+#### 馬堡病毒病（Marburg Virus Disease）
+
+- **疫情狀態**：盧安達 2024 年 10 月疫情，WHO 已評級為最高級別（Grade 3）緊急事件
+- **累計病例**：58 例（截至 2024 年 10 月 10 日），含 13 例死亡（CFR 22%）
+- **ECDC 評估**：對 EU/EEA 風險中等
+- **目前監測**：持續追蹤中
+- 來源：ecdc_cdtr, who_disease_outbreak_news
+
+##### 歷史參考 [語意搜尋]
+
+| 日期 | 標題 | 來源 | 相關分數 |
+|------|------|------|----------|
+| 2024-10-11 | [Marburg virus disease - Rwanda](https://www.who.int/emergencies/disease-outbreak-news/2024-DON539) | WHO | 0.66 |
+| 2024-10-10 | [Threat assessment brief - Marburg virus disease outbreak in Rwanda](https://www.ecdc.europa.eu/en/publications-data/threat-assessment-brief-implications-marburg-virus-disease-outbreak-rwanda-eueea) | ECDC | 0.57 |
 
 #### 嚴重發熱伴血小板減少綜合症（SFTS）
 
@@ -367,6 +444,7 @@ UKHSA 更新指引，涵蓋兩種高危傳染病：
 - ECDC 傳染病威脅報告 (ecdc_cdtr)
 - WHO 疾病疫情新聞 (who_disease_outbreak_news)
 - US CDC 健康警報網絡 (us_cdc_han)
+- US CDC MMWR 週報 (us_cdc_mmwr)
 - US CDC 旅遊健康通知 (us_travel_health_notices)
 - 台灣疾管署公告 (tw_cdc_alerts)
 - UK Health Security Agency (uk_ukhsa_updates)
@@ -406,6 +484,22 @@ UKHSA 更新指引，涵蓋兩種高危傳染病：
 **US CDC (us_travel_health_notices)**
 - `level_2_practice/2026-01-26-monkeypox-ghana-liberia.md`
 - `level_1_watch/2026-01-22-dengue-global.md`
+
+### 語意搜尋查詢紀錄
+
+本報告使用 Qdrant 語意搜尋提供歷史脈絡，執行以下查詢：
+
+| 查詢 | 找到筆數 | 最高相關分數 |
+|------|----------|--------------|
+| H5N1 avian influenza human cases outbreak | 10 | 0.70 |
+| influenza A H3N2 outbreak respiratory | 10 | 0.64 |
+| measles outbreak cases | 10 | 0.64 |
+| Nipah virus outbreak cases | 10 | 0.71 |
+| Marburg virus disease outbreak | 10 | 0.66 |
+| dengue fever outbreak cases global | 10 | 0.72 |
+| Mpox monkeypox outbreak clade | 10 | 0.77 |
+| hantavirus syndrome cases | 8 | 0.62 |
+| spring festival travel health | 20 | 0.56 |
 
 ---
 *報告產出時間: 2026-02-07T12:00:00+08:00*
