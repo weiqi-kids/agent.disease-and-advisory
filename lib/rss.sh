@@ -167,17 +167,48 @@ rss_extract_items_jsonl() {
     return 1
   fi
 
-  # 優先使用 xmllint（精確度較高）
+  # 優先使用 Python（效率最高，O(n)）
+  if command -v python3 >/dev/null 2>&1; then
+    _rss_extract_via_python "$xml_file"
+    return $?
+  fi
+
+  # 回退到 xmllint（效率差，O(n²)，僅在無 Python 時使用）
   if command -v xmllint >/dev/null 2>&1; then
     _rss_extract_via_xmllint "$xml_file"
     return $?
   fi
 
-  # 回退到 sed 簡易解析
+  # 最終回退到 sed 簡易解析
   _rss_extract_via_sed "$xml_file"
 }
 
-# 使用 xmllint 解析（較精確）— 輸出 JSONL
+# 使用 Python 解析（高效）— 一次解析，O(n) 輸出 JSONL
+_rss_extract_via_python() {
+  local xml_file="$1"
+
+  python3 -c '
+import xml.etree.ElementTree as ET
+import json
+import sys
+
+def get_text(elem, tag):
+    child = elem.find(tag)
+    return (child.text or "") if child is not None else ""
+
+tree = ET.parse(sys.argv[1])
+for item in tree.findall(".//item"):
+    obj = {
+        "title": get_text(item, "title"),
+        "link": get_text(item, "link"),
+        "description": get_text(item, "description"),
+        "pubDate": get_text(item, "pubDate")
+    }
+    print(json.dumps(obj, ensure_ascii=False))
+' "$xml_file"
+}
+
+# 使用 xmllint 解析（已棄用，保留作為回退）— 效率差，O(n²)
 _rss_extract_via_xmllint() {
   local xml_file="$1"
 
