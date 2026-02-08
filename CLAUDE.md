@@ -99,9 +99,17 @@ Task(Bash, sonnet, run_in_background=true) → fetch.sh Layer3
 
 ### 階段 3：萃取（平行 sonnet）
 
-1. **統計**：對每個 Layer 執行 `wc -l < *.jsonl`
-2. **去重**：檢查 `source_url` 是否已存在於 `docs/Extractor/{layer}/`
-3. **分派**：每 10 筆為一批，平行分派萃取任務
+1. **去重**：使用 `lib/dedup.sh` 高效找出新資料
+
+```bash
+source lib/dedup.sh
+# 找出新資料的行號（使用 awk + comm，效率 O(n log n)）
+dedup_find_new_items "$jsonl_file" "docs/Extractor/$layer" > new_lines.txt
+# 或取得批次資訊
+dedup_batch_info "$jsonl_file" "docs/Extractor/$layer" 10
+```
+
+2. **分派**：每 10 筆為一批，平行分派萃取任務
 
 ```
 Task(general-purpose, sonnet) → 萃取 Layer1 行 1-10
@@ -115,6 +123,8 @@ Task(general-purpose, sonnet) → 萃取 Layer2 行 1-10
 - core/Extractor/CLAUDE.md 通用規則
 
 產出：`docs/Extractor/{layer}/{category}/*.md`
+
+> **⚠️ 禁止逐行 grep 去重** — 使用 `lib/dedup.sh`，效率提升 30x+
 
 ### 階段 4：平行 Update（背景 sonnet）
 
