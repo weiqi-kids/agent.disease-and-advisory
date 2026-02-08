@@ -194,12 +194,12 @@ bash -c 'source lib/chatgpt.sh && source lib/qdrant.sh && source lib/report.sh &
 ### 階段 6：更新健康度 + 推送 GitHub（sonnet）
 
 ```
-Task(Bash, sonnet) → 更新健康度 + git commit + push
+Task(Bash, sonnet) → 更新時間戳 + git commit + push
 ```
 
 ```bash
-# 更新 README.md 健康度表格
-# ...
+# 更新首頁時間戳
+sed -i '' "s/最後更新：.*/最後更新：$(date '+%Y-%m-%d %H:%M') (UTC+8)**/" docs/index.md
 
 # 檢查是否有變更
 git status --porcelain
