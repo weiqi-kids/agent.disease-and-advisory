@@ -120,6 +120,76 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "policy-2025-04-22-apec-dengue-prevention-conference-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2025-04-22-apec-dengue-prevention-conference.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2025-04-08-jn1-covid-vaccine-second-dose-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2025-04-08-jn1-covid-vaccine-second-dose.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2025-03-25-one-health-workshop-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2025-03-25-one-health-workshop.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2025-03-24-world-tb-day-testing-campaign-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2025-03-24-world-tb-day-testing-campaign.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2024-11-08-public-private-partnership-strengthened-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2024-11-08-public-private-partnership-strengthened.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2024-11-01-publicly-funded-flu-covid-vaccines-age-50-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2024-11-01-publicly-funded-flu-covid-vaccines-age-50.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2024-10-01-publicly-funded-flu-covid-vaccination-launch-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2024-10-01-publicly-funded-flu-covid-vaccination-launch.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "medical_advisory-index-md",
     "title": "medical_advisory",
     "category": "medical_advisory",
@@ -270,6 +340,36 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "domestic_outbreak-2025-05-20-covid-19-cases-increase-vaccination-urged-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2025-05-20-covid-19-cases-increase-vaccination-urged.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2025-04-02-enterovirus-fatal-case-coxsackievirus-b5-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2025-04-02-enterovirus-fatal-case-coxsackievirus-b5.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2025-03-18-elevated-flu-activity-warning-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2025-03-18-elevated-flu-activity-warning.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "disease_info-smallpox-disease-info-md",
     "title": "",
     "category": "disease_info",
@@ -350,11 +450,911 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "disease_info-2026-02-08-zika-virus-infection-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-zika-virus-infection.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-zhonghuaganchongganranzheng-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-zhonghuaganchongganranzheng.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-xuanmaochongganranzheng-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-xuanmaochongganranzheng.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-xinxing-a-xing-liugan-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-xinxing-a-xing-liugan.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-xijunxingchangweiyan-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-xijunxingchangweiyan.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-west-nile-fever-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-west-nile-fever.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-visa-vrsa-resistance-testing-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-visa-vrsa-resistance-testing.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-typhoid-fever-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-typhoid-fever.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-tuberculosis-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-tuberculosis.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-tu-re-bing-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-tu-re-bing.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-syphilis-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-syphilis.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-shamenshijunganranzheng-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-shamenshijunganranzheng.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-scabies-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-scabies.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-rubella-german-measles-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-rubella-german-measles.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-qinxixing-feiyan-lianjunqiu-ganranzheng-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-qinxixing-feiyan-lianjunqiu-ganranzheng.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-q-re-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-q-re.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-psittacosis-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-psittacosis.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-polio-acute-flaccid-paralysis-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-polio-acute-flaccid-paralysis.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-pneumocystis-pneumonia-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-pneumocystis-pneumonia.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-pertussis-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-pertussis.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-paratyphoid-fever-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-paratyphoid-fever.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-paozhen-b-bingdu-ganranzheng-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-paozhen-b-bingdu-ganranzheng.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-nipah-virus-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-nipah-virus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-mycoplasma-pneumoniae-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-mycoplasma-pneumoniae.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-mumps-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-mumps.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-mers-cov-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-mers-cov.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-meningococcal-meningitis-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-meningococcal-meningitis.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-measles-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-measles.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-mdr-tuberculosis-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-mdr-tuberculosis.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-marburg-virus-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-marburg-virus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-malaria-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-malaria.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-lymphatic-filariasis-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-lymphatic-filariasis.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-liugan-bingfa-zhongzheng-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-liugan-bingfa-zhongzheng.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-liegu-re-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-liegu-re.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-leibizhuo-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-leibizhuo.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-legionnaires-disease-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-legionnaires-disease.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-lassa-fever-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-lassa-fever.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-japanese-encephalitis-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-japanese-encephalitis.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-invasive-hib-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-invasive-hib.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-huang-re-bing-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-huang-re-bing.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-hiv-aids-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-hiv-aids.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-hendra-virus-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-hendra-virus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-head-lice-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-head-lice.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-hantavirus-syndrome-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-hantavirus-syndrome.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-guangdongzhuxuexianchongganranzheng-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-guangdongzhuxuexianchongganranzheng.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-gouduan-luoxuanti-bing-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-gouduan-luoxuanti-bing.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-fusneigeliamibanaomojingyan-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-fusneigeliamibanaomojingyan.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-feichongganranzheng-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-feichongganranzheng.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-epidemic-typhus-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-epidemic-typhus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-enterovirus-severe-complications-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-enterovirus-severe-complications.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-enterohemorrhagic-e-coli-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-enterohemorrhagic-e-coli.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-encephalitis-unknown-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-encephalitis-unknown.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-ebola-virus-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-ebola-virus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-diphtheria-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-diphtheria.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-dierleixingzhulianjunganranzheng-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-dierleixingzhulianjunganranzheng.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-cryptococcosis-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-cryptococcosis.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-cre-resistance-testing-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-cre-resistance-testing.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-congenital-rubella-syndrome-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-congenital-rubella-syndrome.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-community-mrsa-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-community-mrsa.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-cholera-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-cholera.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-changjianchangdaojishengchongbing-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-changjianchangdaojishengchongbing.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-cat-scratch-disease-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-cat-scratch-disease.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-blastocystis-hominis-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-blastocystis-hominis.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-bingduxingchangweiyan-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-bingduxingchangweiyan.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-bacillary-dysentery-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-bacillary-dysentery.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-anthrax-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-anthrax.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-amebic-dysentery-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-amebic-dysentery.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-acute-viral-hepatitis-a-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-acute-viral-hepatitis-a.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-acute-hepatitis-e-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-acute-hepatitis-e.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-08-acanthamoeba-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-08-acanthamoeba.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "disease_info-2026-01-27-flu-vaccine-k-variant-protection-md",
     "title": "",
     "category": "disease_info",
     "date": "",
     "file": "disease_info/2026-01-27-flu-vaccine-k-variant-protection.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2024-09-01-xin-guan-bing-fa-zhong-zheng-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2024-09-01-xin-guan-bing-fa-zhong-zheng.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2024-01-01-tetanus-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2024-01-01-tetanus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2024-01-01-neonatal-tetanus-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2024-01-01-neonatal-tetanus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2024-01-01-listeriosis-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2024-01-01-listeriosis.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2024-01-01-hansen-disease-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2024-01-01-hansen-disease.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2024-01-01-gonorrhea-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2024-01-01-gonorrhea.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2024-01-01-congenital-syphilis-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2024-01-01-congenital-syphilis.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2024-01-01-acute-viral-hepatitis-unspecified-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2024-01-01-acute-viral-hepatitis-unspecified.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2024-01-01-acute-viral-hepatitis-d-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2024-01-01-acute-viral-hepatitis-d.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2024-01-01-acute-viral-hepatitis-c-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2024-01-01-acute-viral-hepatitis-c.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2024-01-01-acute-viral-hepatitis-b-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2024-01-01-acute-viral-hepatitis-b.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2020-04-15-fa-re-ban-xue-xiao-ban-jian-shao-zong-he-zheng-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2020-04-15-fa-re-ban-xue-xiao-ban-jian-shao-zong-he-zheng.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2013-12-27-shui-dou-bing-fa-zheng-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2013-12-27-shui-dou-bing-fa-zheng.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2012-02-07-bu-shi-gan-jun-bing-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2012-02-07-bu-shi-gan-jun-bing.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2007-10-15-yang-chong-bing-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2007-10-15-yang-chong-bing.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2007-10-15-rou-du-gan-jun-zhong-du-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2007-10-15-rou-du-gan-jun-zhong-du.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2007-10-15-lai-mu-bing-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2007-10-15-lai-mu-bing.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2007-10-15-ku-jia-shi-bing-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2007-10-15-ku-jia-shi-bing.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2007-10-15-gong-xing-chong-gan-ran-zheng-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2007-10-15-gong-xing-chong-gan-ran-zheng.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2007-10-15-di-fang-xing-ban-zhen-shang-han-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2007-10-15-di-fang-xing-ban-zhen-shang-han.md",
     "source": "",
     "severity": "",
     "source_layer": "tw_cdc_alerts"
