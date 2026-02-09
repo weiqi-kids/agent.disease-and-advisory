@@ -28,7 +28,7 @@ if [[ $# -gt 0 ]]; then
 else
     while IFS= read -r -d '' file; do
         MD_FILES+=("$file")
-    done < <(find "$DOCS_DIR" -name "*.md" -type f -print0 2>/dev/null)
+    done < <(find "$DOCS_DIR" -name "*.md" ! -name "index.md" -type f -print0 2>/dev/null)
 fi
 
 echo "📄 [$LAYER_NAME] 找到 ${#MD_FILES[@]} 個 MD 檔案"
