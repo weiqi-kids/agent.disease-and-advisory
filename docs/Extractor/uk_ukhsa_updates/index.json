@@ -10,6 +10,26 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "surveillance-2026-02-10-pneumococcal-disease-pcv13-serotypes-md",
+    "title": "Pneumococcal disease: cases caused by serotypes covered by PCV13",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-10-pneumococcal-disease-pcv13-serotypes.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-10-pneumococcal-disease-non-pcv13-serotypes-md",
+    "title": "Pneumococcal disease: cases caused by serotypes not covered by PCV13",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-10-pneumococcal-disease-non-pcv13-serotypes.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "surveillance-2026-02-05-weekly-all-cause-mortality-surveillance-2025-to-2026-md",
     "title": "",
     "category": "surveillance",
@@ -370,6 +390,16 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "policy-2026-02-09-ukhsa-safeguarding-annual-report-2024-2025-md",
+    "title": "UKHSA safeguarding annual report 2024 to 2025",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-02-09-ukhsa-safeguarding-annual-report-2024-2025.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "policy-2026-02-02-rsv-vaccination-for-older-adults-expansion-of-eligibility-md",
     "title": "",
     "category": "policy",
@@ -585,6 +615,46 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-11-find-public-health-resources-md",
+    "title": "Find public health resources",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-11-find-public-health-resources.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-10-mmrv-programme-healthcare-practitioners-md",
+    "title": "MMRV programme: information for healthcare practitioners",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-10-mmrv-programme-healthcare-practitioners.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-10-gumcad-data-specification-technical-md",
+    "title": "GUMCAD: data specification and technical guidance",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-10-gumcad-data-specification-technical.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-10-gumcad-clinical-coding-guidance-md",
+    "title": "GUMCAD: clinical coding guidance",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-10-gumcad-clinical-coding-guidance.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"

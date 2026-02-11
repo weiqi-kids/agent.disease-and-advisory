@@ -10,6 +10,16 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "policy-2026-02-10-cold-wave-lunar-new-year-flu-covid-policy-md",
+    "title": "寒流發威及春節假期將至 民眾出遊探親往來頻繁 增加疾病傳播風險 籲請民眾落實衛生好習慣 並儘速接種疫苗 健康過好年",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-02-10-cold-wave-lunar-new-year-flu-covid-policy.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "policy-2026-02-05-spring-festival-travel-health-advisory-md",
     "title": "",
     "category": "policy",
@@ -195,6 +205,16 @@
     "category": "medical_advisory",
     "date": "",
     "file": "medical_advisory/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "medical_advisory-2026-02-10-lunar-new-year-hiv-mpox-prevention-md",
+    "title": "新春巧遇情人節，籲請民眾落實安全防護及主動篩檢、風險族群儘早完成2劑M痘疫苗接種",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2026-02-10-lunar-new-year-hiv-mpox-prevention.md",
     "source": "",
     "severity": "",
     "source_layer": "tw_cdc_alerts"
@@ -446,6 +466,16 @@
     "date": "",
     "file": "disease_info/chikungunya-disease-info.md",
     "source": "- **來源**：發燒患者的血清",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-10-rabies-prevention-outdoor-activities-md",
+    "title": "戶外活動勿觸碰或逗弄野生動物 遠離狂犬病威脅",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-10-rabies-prevention-outdoor-activities.md",
+    "source": "",
     "severity": "",
     "source_layer": "tw_cdc_alerts"
   },

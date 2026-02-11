@@ -130,6 +130,16 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "situational_update-2026-02-09-community-spread-drives-ongoing-measles-tran-md",
+    "title": "",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/2026-02-09-community-spread-drives-ongoing-measles-tran.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "situational_update-2026-01-19-mpox-worldwide-overview-md",
     "title": "Mpox worldwide overview",
     "category": "situational_update",
