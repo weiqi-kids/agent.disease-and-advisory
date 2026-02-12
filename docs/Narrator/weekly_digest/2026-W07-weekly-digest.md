@@ -18,15 +18,15 @@ grand_parent: 報告
 
 ## 本週重點
 
+- **台灣今年首例麻疹境外移入病例**：北部 8 個月大男嬰於越南感染後返台確診，為 2026 年首例麻疹病例，目前已掌握 400 名接觸者進行健康監測。全球麻疹疫情嚴峻，疾管署已針對越南等 7 國發布第二級旅遊警示。(tw_cdc_alerts)
+
+- **台灣今年首例百日咳確定病例**：北部 5 個月大男嬰確診百日咳，全球百日咳疫情嚴峻，日本去年累計病例逾 8 萬例創歷年最高，多地發現抗藥性菌株。疾管署呼籲孕婦及嬰幼兒照顧者接種 Tdap 疫苗。(tw_cdc_alerts)
+
 - **歐洲麻疹疫情持續傳播**：ECDC 發布 2025 年監測分析，歐盟/歐洲經濟區共報告 7,655 例麻疹病例及 8 例死亡（法國 4 例、羅馬尼亞 3 例、荷蘭 1 例），80% 病例未接種疫苗，社區傳播成為主要傳播模式。(ecdc_cdtr)
 
-- **英國 MMRV 疫苗計畫正式啟動**：自 2026 年 1 月 1 日起，英國將水痘疫苗納入常規兒童免疫接種計畫，兒童於 12 個月及 18 個月接種 MMRV 疫苗。(uk_ukhsa_updates)
-
-- **春節連假旅遊健康警示**：台灣疾管署針對春節出國旅遊發布全面性防疫提醒，涵蓋流感、麻疹、登革熱、屈公病、M痘等多種傳染病風險。(tw_cdc_alerts)
+- **英國更新 Mpox 流行病學概況**：UKHSA 更新猴痘 clade Ib 及 clade IIb 疫情監測報告，持續追蹤英國病例趨勢。(uk_ukhsa_updates)
 
 - **禽流感 H5N1 冬季高峰期**：2025 年全球共 30 例人類 H5N1 感染（12 例死亡），台灣今年已發生 7 起禽場禽流感事件，疾管署呼籲落實「5要6不」原則。(tw_cdc_alerts)
-
-- **屈公病疫區持續擴大**：本週新增蘇利南及塞席爾 Level 2 旅遊健康警示，全球屈公病傳播範圍持續擴大。(us_travel_health_notices)
 
 ---
 
@@ -34,17 +34,22 @@ grand_parent: 報告
 
 ### 新增威脅
 
-- **歐洲麻疹社區傳播分析**：ECDC 本週發布 2025 年全年監測報告，揭示社區傳播已成為主要傳播模式（而非境外輸入），80% 病例未接種疫苗，40% 為五歲以下兒童。此為本週新發布的重要流行病學分析。
+- **台灣今年首例麻疹境外移入病例**：北部 8 個月大男嬰於越南感染後返台確診，為 2026 年首例麻疹病例。2025 年台灣累計 53 例麻疹（34 例境外移入，其中越南占 30 例）。目前已掌握 400 名接觸者，監測至 2 月 28 日。
 
-- **英國 MMRV 疫苗計畫指引更新**：UKHSA 發布醫療專業人員指引更新，針對 2026 年 1 月起實施的 MMRV 疫苗計畫提供操作細節，包括布洛芬使用、孕婦接觸者管理、補種資格等。
+- **台灣今年首例百日咳確定病例**：北部 5 個月大男嬰確診百日咳，已按時程接種 2 劑疫苗仍感染。全球百日咳疫情嚴峻，日本去年累計逾 8 萬例創歷年最高，多地發現抗藥性菌株。
 
-- **肺炎鏈球菌非 PCV13 血清型監測**：UKHSA 更新侵襲性肺炎鏈球菌疾病監測報告，追蹤 PCV13 疫苗未涵蓋血清型的病例趨勢。
+- **英國 RSV 疫苗接種覆蓋率報告**：UKHSA 發布 RSV 孕婦疫苗及老年人疫苗接種覆蓋率數據，評估疫苗計畫成效。
 
 ### 升級警示
 
-- **麻疹（Measles）**：歐洲麻疹從上週的一般監測項目升級為本週重點，ECDC 分析顯示社區傳播持續，80% 病例未接種疫苗，死亡病例集中於法國、羅馬尼亞、荷蘭。
+- **麻疹（Measles）**：
+  - **歐洲**：ECDC 分析顯示社區傳播持續，2025 年 7,655 例，80% 未接種疫苗，死亡病例集中於法國、羅馬尼亞、荷蘭
+  - **台灣**：今年首例境外移入病例確診，疾管署針對越南等 7 國發布第二級旅遊警示
+  - **全球**：墨西哥今年 1 月已報告 740 例，美國、加拿大、亞洲多國持續有病例
 
-- **屈公病（Chikungunya）傳播範圍持續擴大**：從上週的古巴、斯里蘭卡、蘇利南、塞席爾四國，本週維持 Level 2 警示，疫區仍在擴大中。
+- **百日咳（Pertussis）**：從上週的英國監測報告，升級為台灣今年首例確診，全球疫情嚴峻，日本、美國、澳洲等國病例數持續攀升。
+
+- **猴痘（Mpox）監測更新**：UKHSA 更新 clade Ib 及 clade IIb 流行病學概況報告，持續追蹤英國病例趨勢。
 
 ### 持續關注
 
@@ -58,13 +63,83 @@ grand_parent: 報告
 
 ### 已解除 / 降級
 
-- **2026 冬季奧運健康指引**：上週為區域動態重點，本週無新進展，降為一般追蹤。
+- **英國 MMRV 疫苗計畫指引**：上週為新增威脅，本週計畫持續實施中，降為一般追蹤。
 
 ---
 
 ## 全球疫情概覽
 
 ### 新興威脅
+
+#### 台灣今年首例麻疹境外移入病例
+
+疾管署於 2 月 12 日公布 2026 年首例麻疹境外移入病例：
+
+**病例資訊**：
+- **個案**：北部 8 個月大本國籍男嬰
+- **感染地點**：越南（隨家人探親）
+- **發病過程**：1 月底返台，2 月上旬出現發燒、咳嗽，2 月 6 日因出疹住院，經採檢確診
+- **尚未達 MMR 疫苗接種年齡**
+
+**接觸者追蹤**：
+- 同住家人 5 人
+- 其他接觸者 395 人
+- 共計 400 人，監測至 2 月 28 日
+
+**台灣 2025 年疫情統計**：
+- 累計 53 例麻疹病例
+- 境外移入 34 例（越南 30 例、俄羅斯、加拿大、印尼、泰國各 1 例）
+- 國內感染 19 例
+
+**旅遊疫情建議**：
+- **第二級警示（Alert）**：越南、印尼、印度、安哥拉、墨西哥、葉門、巴基斯坦（共 7 國）
+- **第一級注意（Watch）**：31 國
+
+來源：tw_cdc_alerts/imported_case/2026-02-12-measles-imported-case-vietnam.md
+
+##### 歷史參考 [語意搜尋]
+
+| 日期 | 標題 | 來源 | 相關分數 |
+|------|------|------|----------|
+| 2025-03-27 | Measles - United States of America | WHO | 0.68 |
+| 2026-01-29 | Measles Outbreak Associated with an Infectious Traveler - Colorado | US CDC MMWR | 0.66 |
+| 2019-05-02 | Increase in Measles Cases - United States, January-April 2019 | US CDC MMWR | 0.63 |
+
+#### 台灣今年首例百日咳確定病例
+
+疾管署於 2 月 12 日公布 2026 年首例百日咳確定病例：
+
+**病例資訊**：
+- **個案**：北部 5 個月大男嬰
+- **已按時程接種 2 劑百日咳疫苗**
+- **發病過程**：1 月 23 日起出現咳嗽、喘鳴音、流鼻水、鼻塞，後出現陣發性咳嗽、呼吸喘，2 月 10 日確診，目前症狀已改善
+
+**接觸者追蹤**：
+- 家庭接觸者 4 人
+- 其中 2 名出現疑似症狀，已安排採檢及預防性投藥
+- 監測至 3 月 4 日
+
+**全球疫情嚴峻**：
+- **日本**：2025 年全年逾 8 萬例（歷年最高），多地發現抗藥性菌株；今年截至第 4 週累計逾 800 例
+- **中國**：今年 1 月逾 900 例；去年約 3.5 萬例
+- **韓國**：今年 1 月 62 例；去年約 5,500 例
+- **美國**：今年 1 月逾 700 例；去年約 2.8 萬例
+- **澳洲**：去年逾 2.5 萬例
+
+**疫苗接種建議**：
+- **嬰幼兒**：出生滿 2、4、6、18 個月及滿 5 歲至入學前各接種一劑
+- **孕婦（重要）**：建議每次懷孕自費接種 1 劑 Tdap 疫苗，以懷孕第 27-36 週接種效益最大化
+- **照顧者**：建議自費接種一劑 Tdap 疫苗
+
+來源：tw_cdc_alerts/domestic_outbreak/2026-02-12-pertussis-first-case.md
+
+##### 歷史參考 [語意搜尋]
+
+| 日期 | 標題 | 來源 | 相關分數 |
+|------|------|------|----------|
+| 2026-02-04 | Pertussis: laboratory confirmed cases reported in England 2025 | UKHSA | 0.56 |
+| 2025-12-19 | Latest figures show strong uptake of whooping cough vaccine in pregnancy | UKHSA | 0.48 |
+| 2020-01-23 | Use of Tdap Vaccines: Updated Recommendations - United States, 2019 | US CDC MMWR | 0.46 |
 
 #### 歐洲麻疹社區傳播 — EU/EEA
 
@@ -200,9 +275,23 @@ ECDC 於 2 月 9 日發布 2025 年麻疹監測分析，揭示歐盟/歐洲經�
 
 #### 猴痘（Mpox）
 
-- **旅遊警示**：US CDC 對迦納及賴比瑞亞維持 Level 2 旅遊健康通知（Clade II 猴痘疫情）
-- **全球疫情**：持續監測中
-- 來源：us_travel_health_notices, tw_cdc_alerts
+**英國流行病學概況更新（2/12）**：
+- UKHSA 更新 Mpox clade Ib 及 clade IIb 疫情監測報告
+- 自 2022 年 6 月起追蹤 clade IIb 病例
+- 2025 年 1 月後納入 clade Ib 監測數據
+- 來源：uk_ukhsa_updates/surveillance/2026-02-12-mpox-clade-ib-and-iib-outbreak-epidemiological-overview.md
+
+**旅遊警示**：
+- US CDC 對迦納及賴比瑞亞維持 Level 2 旅遊健康通知（Clade II 猴痘疫情）
+- 來源：us_travel_health_notices
+
+##### 歷史參考 [語意搜尋]
+
+| 日期 | 標題 | 來源 | 相關分數 |
+|------|------|------|----------|
+| 2025-01-14 | Epidemiological update: Mpox due to monkeypox virus clade I | ECDC | 0.72 |
+| 2024-08-16 | Risk assessment for the EU/EEA of the mpox epidemic caused by monkeypox virus clade I in affected African countries | ECDC | 0.62 |
+| 2025-02-13 | First Clade Ib Monkeypox Virus Infection Reported in the Americas - California | US CDC MMWR | 0.62 |
 
 #### COVID-19
 
@@ -219,6 +308,30 @@ ECDC 於 2 月 9 日發布 2025 年麻疹監測分析，揭示歐盟/歐洲經�
 - 來源：us_travel_health_notices, tw_cdc_alerts
 
 ### 風險評估更新
+
+#### RSV 疫苗接種覆蓋率 — 英國
+
+UKHSA 於 2 月 12 日發布 RSV（呼吸道合胞病毒）疫苗接種覆蓋率報告：
+
+**孕婦疫苗接種計畫**：
+- 追蹤孕婦 RSV 疫苗接種覆蓋率
+- 評估透過母體免疫保護新生兒的計畫成效
+
+**老年人疫苗接種計畫**：
+- 60 歲以上成人 RSV 疫苗接種覆蓋率數據
+- 搭配上週公布的 RSV 疫苗擴展計畫（已獲核准）
+
+來源：
+- uk_ukhsa_updates/surveillance/2026-02-12-rsv-maternal-vaccination-coverage-in-england.md
+- uk_ukhsa_updates/surveillance/2026-02-12-rsv-older-adults-vaccination-coverage-in-england-statistics.md
+
+##### 歷史參考 [語意搜尋]
+
+| 日期 | 標題 | 來源 | 相關分數 |
+|------|------|------|----------|
+| 2026-02-12 | RSV older adults vaccination coverage in England | UKHSA | 0.72 |
+| 2024-05-30 | Early Safety Findings Among Persons Aged 60+ Who Received RSV Vaccine | US CDC MMWR | 0.65 |
+| 2024-09-26 | Maternal RSV Vaccination and Receipt of Nirsevimab by Infants | US CDC MMWR | 0.64 |
 
 #### 肺炎鏈球菌疾病監測 — 英國
 
@@ -270,16 +383,18 @@ UKHSA 本週更新侵襲性肺炎鏈球菌疾病（IPD）監測報告：
 
 | 類型 | 事件 | 日期 |
 |------|------|------|
+| **監測報告** | **Mpox clade Ib/IIb 流行病學概況** | **2/12** |
+| **監測報告** | **RSV 孕婦疫苗接種覆蓋率** | **2/12** |
+| **監測報告** | **RSV 老年人疫苗接種覆蓋率** | **2/12** |
+| 指引更新 | Brucella 實驗室與臨床服務 | 2/12 |
 | 指引更新 | MMRV 疫苗計畫醫療專業人員指引 | 2/10 |
 | 監測報告 | 肺炎鏈球菌非 PCV13 血清型監測 | 2/10 |
-| 監測報告 | 2026 年監測中疫情清單 | 2/5 |
 | 政策報告 | UKHSA 保障年度報告 2024-2025 | 2/9 |
 | 指引更新 | 公共衛生資源索引 | 2/11 |
-| 指引更新 | GUMCAD 臨床編碼與資料規範 | 2/10 |
 
 **疫苗計畫進展**：
 - MMRV 疫苗計畫持續實施（2026 年 1 月起）
-- RSV 疫苗擴展方案已獲核准（上週公布）
+- RSV 疫苗擴展方案已獲核准，並發布首批接種覆蓋率數據
 
 ### 亞太地區
 
@@ -287,22 +402,26 @@ UKHSA 本週更新侵襲性肺炎鏈球菌疾病（IPD）監測報告：
 
 | 事件 | 日期 | 重點 |
 |------|------|------|
+| **今年首例麻疹境外移入** | 2/12 | 北部 8 個月大男嬰，越南感染，400 名接觸者監測中 |
+| **今年首例百日咳確診** | 2/12 | 北部 5 個月大男嬰，全球疫情嚴峻（日本去年逾 8 萬例） |
 | 春節出國旅遊健康提醒 | 2/5 | 流感、麻疹、登革熱、屈公病、M痘風險警示 |
 | 禽流感防護提醒 | 2/3 | 「5要6不」原則，全球 H5N1 監測 |
 | 流感疫情更新 | 2/3 | 新增 25 例重症、1 例死亡，公費疫苗剩約 11 萬劑 |
-| 麻疹疾病資訊更新 | 2/8 | 法定第二類傳染病，強調疫苗重要性 |
-| HIV/AIDS 疾病資訊更新 | 2/8 | 法定第三類傳染病，感染者權益保障 |
 
 **政策更新**：
 - 1/20-2/28 擴大公費流感抗病毒藥劑使用條件
 - 1/1-2/28 擴大 COVID-19 疫苗接種對象
 - 公費流感疫苗剩餘約 11 萬劑
 
-**疾病資訊更新**：
-本週更新多項傳染病疾病資訊頁面，包括麻疹、HIV/AIDS、腸病毒重症、結核病、百日咳等。
+**旅遊疫情建議**：
+- **麻疹第二級警示（Alert）**：越南、印尼、印度、安哥拉、墨西哥、葉門、巴基斯坦（共 7 國）
+- **麻疹第一級注意（Watch）**：31 國
 
 **印度**
 - 西孟加拉邦立百病毒疫情持續監測中
+
+**日本**
+- 百日咳疫情嚴峻：2025 年全年逾 8 萬例（歷年最高），多地發現抗藥性菌株
 
 ### 美洲
 
@@ -390,6 +509,13 @@ UKHSA 本週更新侵襲性肺炎鏈球菌疾病（IPD）監測報告：
 - 達成 95% 兩劑麻疹疫苗覆蓋率
 - MMR 疫苗需兩週產生有效保護力
 - 疫苗接種史不確定者應諮詢醫療人員
+- 6 個月以上未滿 1 歲嬰兒前往流行區，可出發前 2-4 週自費接種 1 劑 MMR
+
+**百日咳預防**
+- **嬰幼兒常規接種**：出生滿 2、4、6、18 個月及滿 5 歲至入學前各接種一劑
+- **孕婦接種（重要）**：建議每次懷孕自費接種 1 劑 Tdap 疫苗，以懷孕第 27-36 週接種效益最大化，可將母體抗體傳遞給新生兒
+- **照顧者接種**：建議嬰兒照顧者自費接種一劑 Tdap 疫苗
+- **日常防護**：家長及較大兒童注意咳嗽禮節，外出返家接觸嬰幼兒前先更衣洗手
 
 ### 禽流感預防「5要6不」原則（台灣）
 
@@ -436,13 +562,19 @@ UKHSA 本週更新侵襲性肺炎鏈球菌疾病（IPD）監測報告：
 - `guidance/2026-02-04-malta-simex-vector-borne-disease.md`
 
 **台灣疾管署 (tw_cdc_alerts)**
+- `imported_case/2026-02-12-measles-imported-case-vietnam.md` **[本週新增]**
+- `domestic_outbreak/2026-02-12-pertussis-first-case.md` **[本週新增]**
 - `policy/2026-02-05-spring-festival-travel-health-advisory.md`
 - `policy/2026-02-03-cny-travel-disease-prevention.md`
 - `policy/2026-02-03-avian-influenza-winter-prevention.md`
 - `disease_info/2026-02-08-measles.md`
-- `disease_info/2026-02-08-hiv-aids.md`
+- `disease_info/2026-02-08-pertussis.md`
 
 **UK UKHSA (uk_ukhsa_updates)**
+- `surveillance/2026-02-12-mpox-clade-ib-and-iib-outbreak-epidemiological-overview.md` **[本週新增]**
+- `surveillance/2026-02-12-rsv-maternal-vaccination-coverage-in-england.md` **[本週新增]**
+- `surveillance/2026-02-12-rsv-older-adults-vaccination-coverage-in-england-statistics.md` **[本週新增]**
+- `guidance/2026-02-12-brucella-laboratory-and-clinical-services.md` **[本週新增]**
 - `guidance/2026-02-10-mmrv-programme-healthcare-practitioners.md`
 - `surveillance/2026-02-10-pneumococcal-disease-non-pcv13-serotypes.md`
 - `surveillance/2026-02-05-outbreaks-under-monitoring-in-2026.md`
@@ -460,13 +592,16 @@ UKHSA 本週更新侵襲性肺炎鏈球菌疾病（IPD）監測報告：
 
 | 查詢 | 找到筆數 | 最高相關分數 |
 |------|----------|--------------|
+| measles imported case | 5 | 0.68 |
+| pertussis whooping cough outbreak | 5 | 0.56 |
+| RSV respiratory syncytial virus vaccine | 5 | 0.72 |
+| mpox monkeypox clade | 5 | 0.72 |
 | measles outbreak Europe 2026 | 10 | 0.69 |
 | H5N1 avian influenza human cases 2025 | 10 | 0.76 |
 | Nipah virus India outbreak 2026 | 8 | 0.71 |
 | influenza A H3N2 outbreak season | 8 | 0.64 |
 | chikungunya outbreak travel notice | 5 | 0.62 |
-| MMRV vaccine childhood immunisation UK | 5 | 0.67 |
 
 ---
-*報告產出時間: 2026-02-12T10:00:00+08:00*
-*下次更新: 2026-02-19*
+*報告產出時間: 2026-02-13T08:00:00+08:00*
+*下次更新: 2026-02-20*
