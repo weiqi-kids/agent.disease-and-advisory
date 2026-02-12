@@ -340,11 +340,31 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "imported_case-2026-02-12-measles-imported-case-vietnam-md",
+    "title": "",
+    "category": "imported_case",
+    "date": "",
+    "file": "imported_case/2026-02-12-measles-imported-case-vietnam.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "domestic_outbreak-index-md",
     "title": "domestic_outbreak",
     "category": "domestic_outbreak",
     "date": "",
     "file": "domestic_outbreak/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-02-12-pertussis-first-case-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-02-12-pertussis-first-case.md",
     "source": "",
     "severity": "",
     "source_layer": "tw_cdc_alerts"

@@ -10,6 +10,56 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "surveillance-2026-02-12-sexually-transmitted-infections-south-west-data-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-12-sexually-transmitted-infections-south-west-data.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-12-rsv-older-adults-vaccination-coverage-in-england-statistics-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-12-rsv-older-adults-vaccination-coverage-in-england-statistics.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-12-rsv-older-adults-vaccination-coverage-in-england-research-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-12-rsv-older-adults-vaccination-coverage-in-england-research.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-12-rsv-maternal-vaccination-coverage-in-england-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-12-rsv-maternal-vaccination-coverage-in-england.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-12-mpox-clade-ib-and-iib-outbreak-epidemiological-overview-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-12-mpox-clade-ib-and-iib-outbreak-epidemiological-overview.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "surveillance-2026-02-10-pneumococcal-disease-pcv13-serotypes-md",
     "title": "Pneumococcal disease: cases caused by serotypes covered by PCV13",
     "category": "surveillance",
@@ -615,6 +665,26 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-12-pre-release-access-lists-rsv-vaccination-coverage-reports-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-12-pre-release-access-lists-rsv-vaccination-coverage-reports.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-12-brucella-laboratory-and-clinical-services-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-12-brucella-laboratory-and-clinical-services.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"
