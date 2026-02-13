@@ -16,11 +16,24 @@ Disease Intelligence System
 
 ---
 
+## 本週重點
+
+| 日期 | 事件 | 來源 |
+|------|------|------|
+| 2/12 | 台灣首例麻疹境外移入（越南） | TW CDC |
+| 2/12 | 台灣首例百日咳確診 | TW CDC |
+| 2/12 | Mpox clade Ib/IIb 監測更新 | UK UKHSA |
+| 2/12 | RSV 疫苗覆蓋率報告（孕婦/老年） | UK UKHSA |
+
+[查看完整週報]({{ site.baseurl }}/Narrator/weekly_digest/){: .btn .btn-primary }
+
+---
+
 ## 週報
 
 最新傳染病威脅週報，綜合分析全球疫情動態。
 
-[最新週報]({{ site.baseurl }}/Narrator/weekly_digest/2026-W06-weekly-digest){: .btn .btn-primary }
+[最新週報]({{ site.baseurl }}/Narrator/weekly_digest/2026-W07-weekly-digest){: .btn .btn-primary }
 [查看所有週報]({{ site.baseurl }}/Narrator/weekly_digest/){: .btn }
 
 ---
@@ -29,15 +42,15 @@ Disease Intelligence System
 
 | Layer | 說明 |
 |-------|------|
-| [WHO Disease Outbreak News](Extractor/who_disease_outbreak_news/) | 世界衛生組織疾病爆發新聞 |
-| [US CDC HAN](Extractor/us_cdc_han/) | 美國 CDC 健康警報網絡 |
-| [US CDC MMWR](Extractor/us_cdc_mmwr/) | 美國 CDC 發病率與死亡率週報 |
-| [US Travel Health Notices](Extractor/us_travel_health_notices/) | 美國 CDC 旅遊健康通知 |
-| [ECDC CDTR](Extractor/ecdc_cdtr/) | 歐洲疾病預防控制中心週報 |
-| [UK UKHSA](Extractor/uk_ukhsa_updates/) | 英國健康安全局更新 |
-| [Taiwan CDC](Extractor/tw_cdc_alerts/) | 台灣疾管署警報 |
+| [WHO Disease Outbreak News]({{ site.baseurl }}/Extractor/who_disease_outbreak_news/) | 世界衛生組織疾病爆發新聞 |
+| [US CDC HAN]({{ site.baseurl }}/Extractor/us_cdc_han/) | 美國 CDC 健康警報網絡 |
+| [US CDC MMWR]({{ site.baseurl }}/Extractor/us_cdc_mmwr/) | 美國 CDC 發病率與死亡率週報 |
+| [US Travel Health Notices]({{ site.baseurl }}/Extractor/us_travel_health_notices/) | 美國 CDC 旅遊健康通知 |
+| [ECDC CDTR]({{ site.baseurl }}/Extractor/ecdc_cdtr/) | 歐洲疾病預防控制中心週報 |
+| [UK UKHSA]({{ site.baseurl }}/Extractor/uk_ukhsa_updates/) | 英國健康安全局更新 |
+| [Taiwan CDC]({{ site.baseurl }}/Extractor/tw_cdc_alerts/) | 台灣疾管署警報 |
 
-[查看所有資料來源](Extractor/){: .btn }
+[查看所有資料來源]({{ site.baseurl }}/Extractor/){: .btn }
 
 ---
 
