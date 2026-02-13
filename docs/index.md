@@ -25,16 +25,22 @@ Disease Intelligence System
 | 2/12 | Mpox clade Ib/IIb 監測更新 | UK UKHSA |
 | 2/12 | RSV 疫苗覆蓋率報告（孕婦/老年） | UK UKHSA |
 
-[查看完整週報]({{ site.baseurl }}/Narrator/weekly_digest/){: .btn .btn-primary }
+[查看完整週報]({{ site.baseurl }}/Narrator/weekly_digest/2026-W07-weekly-digest){: .btn .btn-primary }
+[歷史週報]({{ site.baseurl }}/Narrator/weekly_digest/){: .btn }
 
 ---
 
-## 週報
+## 關於
 
-最新傳染病威脅週報，綜合分析全球疫情動態。
+本系統自動收集並分析來自全球主要公衛機構的傳染病情報，包括：
 
-[最新週報]({{ site.baseurl }}/Narrator/weekly_digest/2026-W07-weekly-digest){: .btn .btn-primary }
-[查看所有週報]({{ site.baseurl }}/Narrator/weekly_digest/){: .btn }
+- **WHO** — 世界衛生組織
+- **US CDC** — 美國疾病管制與預防中心
+- **ECDC** — 歐洲疾病預防管制中心
+- **UK UKHSA** — 英國健康安全局
+- **Taiwan CDC** — 台灣衛生福利部疾病管制署
+
+[GitHub](https://github.com/weiqi-kids/agent.disease-and-advisory){: .btn .btn-outline }
 
 ---
 
@@ -51,17 +57,3 @@ Disease Intelligence System
 | [Taiwan CDC]({{ site.baseurl }}/Extractor/tw_cdc_alerts/) | 台灣疾管署警報 |
 
 [查看所有資料來源]({{ site.baseurl }}/Extractor/){: .btn }
-
----
-
-## 關於
-
-本系統自動收集並分析來自全球主要公衛機構的傳染病情報，包括：
-
-- **WHO** — 世界衛生組織
-- **US CDC** — 美國疾病管制與預防中心
-- **ECDC** — 歐洲疾病預防管制中心
-- **UK UKHSA** — 英國健康安全局
-- **Taiwan CDC** — 台灣衛生福利部疾病管制署
-
-[GitHub](https://github.com/weiqi-kids/agent.disease-and-advisory){: .btn .btn-outline }
