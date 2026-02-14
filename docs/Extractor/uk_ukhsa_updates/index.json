@@ -240,6 +240,16 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "research-2026-02-13-committees-on-toxicity-mutagenicity-carcinogenicity-annual-report-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-02-13-committees-on-toxicity-mutagenicity-carcinogenicity-annual-report.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "research-2026-02-06-stomach-bugs-a-brief-guide-to-their-causes-and-treatment-md",
     "title": "Stomach bugs: A brief guide to their causes and treatment",
     "category": "research",
@@ -665,6 +675,16 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-13-tuberculosis-tb-factsheet-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-13-tuberculosis-tb-factsheet.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"

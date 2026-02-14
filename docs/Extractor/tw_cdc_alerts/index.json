@@ -10,6 +10,16 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "policy-2026-02-13-spring-festival-epidemic-prevention-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-02-13-spring-festival-epidemic-prevention.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "policy-2026-02-10-cold-wave-lunar-new-year-flu-covid-policy-md",
     "title": "寒流發威及春節假期將至 民眾出遊探親往來頻繁 增加疾病傳播風險 籲請民眾落實衛生好習慣 並儘速接種疫苗 健康過好年",
     "category": "policy",
