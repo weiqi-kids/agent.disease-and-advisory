@@ -23,8 +23,8 @@ exclude:
 lang: zh-TW
 
 # URL 設定
-baseurl: "/agent.disease-and-advisory"
-url: "https://weiqi-kids.github.io"
+baseurl: ""
+url: "https://epialert.weiqi.kids"
 
 # 頁尾
 footer_content: "EpiAlert 疫情快訊 &copy; 2024-2026. Powered by Claude Code."
