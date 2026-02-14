@@ -1,8 +1,7 @@
 ---
 title: 報告
 layout: default
-nav_order: 3
-has_children: true
+nav_exclude: true
 ---
 
 # 報告 (Narrator)

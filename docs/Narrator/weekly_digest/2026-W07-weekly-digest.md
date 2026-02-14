@@ -2,8 +2,7 @@
 nav_exclude: true
 title: '傳染病威脅週報 2026-W07'
 layout: default
-parent: 週報摘要
-grand_parent: 報告
+parent: 週報
 ---
 
 # 傳染病威脅週報 2026-W07

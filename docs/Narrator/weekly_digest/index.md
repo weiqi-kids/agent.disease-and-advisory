@@ -1,20 +1,18 @@
 ---
-title: 週報摘要
+title: 週報
 layout: default
-parent: 報告
+nav_order: 2
 has_children: true
 ---
 
-# 週報摘要
+# 週報
 
-每週傳染病威脅綜合分析報告。
+每週傳染病威脅綜合分析。
 
 ---
 
-## 歷史週報
-
-| 週次 | 標題 |
+| 週次 | 報告 |
 |------|------|
-| 2026-W07 | [傳染病威脅週報 2026-W07](2026-W07-weekly-digest) |
-| 2026-W06 | [傳染病威脅週報 2026-W06](2026-W06-weekly-digest) |
-| 2026-W05 | [傳染病威脅週報 2026-W05](2026-W05-weekly-digest) |
+| W07 | [2026-W07 週報](2026-W07-weekly-digest) |
+| W06 | [2026-W06 週報](2026-W06-weekly-digest) |
+| W05 | [2026-W05 週報](2026-W05-weekly-digest) |

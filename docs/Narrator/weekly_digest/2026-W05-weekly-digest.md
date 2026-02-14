@@ -1,8 +1,7 @@
 ---
 title: 傳染病威脅週報 2026-W05
 layout: default
-parent: 週報摘要
-grand_parent: 報告
+parent: 週報
 nav_exclude: true
 ---
 
