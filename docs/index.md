@@ -4,9 +4,9 @@ layout: home
 nav_order: 1
 ---
 
-# 傳染病情報分析系統
+# EpiAlert 疫情快訊
 
-Disease Intelligence System
+全球傳染病情報自動收集與分析
 {: .fs-6 .fw-300 }
 
 **最後更新：2026-02-14 08:08 (UTC+8)**

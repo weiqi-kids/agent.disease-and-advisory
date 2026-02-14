@@ -1,5 +1,5 @@
-title: 傳染病情報分析系統
-description: Disease Intelligence System - 自動化傳染病情報收集與分析
+title: EpiAlert 疫情快訊
+description: 全球傳染病情報自動收集與分析
 remote_theme: just-the-docs/just-the-docs
 
 # 搜尋設定
@@ -27,7 +27,7 @@ baseurl: "/agent.disease-and-advisory"
 url: "https://weiqi-kids.github.io"
 
 # 頁尾
-footer_content: "Disease Intelligence System &copy; 2024-2026. Powered by Claude Code."
+footer_content: "EpiAlert 疫情快訊 &copy; 2024-2026. Powered by Claude Code."
 
 # 顏色主題
 color_scheme: light
