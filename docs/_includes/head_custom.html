@@ -1,0 +1,157 @@
+<!-- EpiAlert SEO: JSON-LD Schema -->
+{% assign site_url = "https://epialert.weiqi.kids" %}
+{% assign page_url = site_url | append: page.url %}
+
+<!-- Organization Schema (all pages) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ site_url }}#organization",
+      "name": "EpiAlert 疫情快訊",
+      "url": "{{ site_url }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site_url }}/assets/images/logo.png",
+        "width": 600,
+        "height": 60
+      },
+      "description": "全球傳染病情報自動收集與分析系統",
+      "sameAs": ["https://github.com/anthropics/claude-code"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site_url }}#website",
+      "url": "{{ site_url }}",
+      "name": "EpiAlert 疫情快訊",
+      "description": "{{ site.description }}",
+      "publisher": { "@id": "{{ site_url }}#organization" },
+      "inLanguage": "zh-TW",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "{{ site_url }}/search?q={search_term}",
+        "query-input": "required name=search_term"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{ page_url }}#webpage",
+      "url": "{{ page_url }}",
+      "name": "{{ page.title | default: site.title }}",
+      "description": "{{ page.description | default: site.description }}",
+      "isPartOf": { "@id": "{{ site_url }}#website" },
+      "inLanguage": "zh-TW",
+      "datePublished": "{{ page.date | date: '%Y-%m-%d' | default: '2026-01-01' }}",
+      "dateModified": "{{ site.time | date: '%Y-%m-%d' }}",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".article-summary",
+          ".key-takeaway",
+          ".key-answer",
+          ".expert-quote",
+          ".actionable-steps li"
+        ]
+      }
+    }
+    {% if page.source_layer or page.layout == 'default' and page.parent %}
+    ,{
+      "@type": "Person",
+      "@id": "{{ site_url }}/about#person",
+      "name": "EpiAlert AI 編輯",
+      "url": "{{ site_url }}/about",
+      "description": "AI 驅動的疫情資訊彙整系統",
+      "worksFor": { "@id": "{{ site_url }}#organization" },
+      "knowsAbout": ["傳染病監測", "公共衛生", "疫情分析", "流行病學"]
+    },
+    {
+      "@type": "Article",
+      "@id": "{{ page_url }}#article",
+      "headline": "{{ page.title }}",
+      "description": "{{ page.description | default: site.description }}",
+      "author": { "@id": "{{ site_url }}/about#person" },
+      "publisher": { "@id": "{{ site_url }}#organization" },
+      "mainEntityOfPage": { "@id": "{{ page_url }}#webpage" },
+      "datePublished": "{{ page.date | date: '%Y-%m-%d' | default: '2026-01-01' }}",
+      "dateModified": "{{ site.time | date: '%Y-%m-%d' }}",
+      "inLanguage": "zh-TW",
+      "isAccessibleForFree": true,
+      "isPartOf": { "@id": "{{ site_url }}#website" }
+    }
+    {% endif %}
+    {% if page.url contains '/Extractor/' or page.url contains '/Narrator/' %}
+    ,{
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首頁",
+          "item": "{{ site_url }}"
+        }
+        {% if page.url contains '/Extractor/' %}
+        ,{
+          "@type": "ListItem",
+          "position": 2,
+          "name": "資料來源",
+          "item": "{{ site_url }}/Extractor/"
+        }
+        {% if page.source_layer %}
+        ,{
+          "@type": "ListItem",
+          "position": 3,
+          "name": "{{ page.source_layer }}",
+          "item": "{{ site_url }}/Extractor/{{ page.source_layer }}/"
+        }
+        {% endif %}
+        {% elsif page.url contains '/Narrator/' %}
+        ,{
+          "@type": "ListItem",
+          "position": 2,
+          "name": "報告",
+          "item": "{{ site_url }}/Narrator/"
+        }
+        {% if page.url contains '/weekly_digest/' %}
+        ,{
+          "@type": "ListItem",
+          "position": 3,
+          "name": "週報",
+          "item": "{{ site_url }}/Narrator/weekly_digest/"
+        }
+        {% endif %}
+        {% endif %}
+        ,{
+          "@type": "ListItem",
+          "position": {% if page.source_layer or page.url contains '/weekly_digest/' %}4{% else %}3{% endif %},
+          "name": "{{ page.title }}",
+          "item": "{{ page_url }}"
+        }
+      ]
+    }
+    {% endif %}
+  ]
+}
+</script>
+
+<!-- YMYL Medical Disclaimer Meta -->
+<meta name="medical-disclaimer" content="本站內容由 AI 自動彙整自 WHO、CDC 等官方來源，僅供參考，不構成醫療建議。如有健康疑慮，請諮詢專業醫療人員。">
+
+<!-- Open Graph Tags -->
+<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:description" content="{{ page.description | default: site.description }}">
+<meta property="og:url" content="{{ page_url }}">
+<meta property="og:type" content="{% if page.source_layer or page.parent %}article{% else %}website{% endif %}">
+<meta property="og:site_name" content="EpiAlert 疫情快訊">
+<meta property="og:locale" content="zh_TW">
+{% if page.date %}
+<meta property="article:published_time" content="{{ page.date | date: '%Y-%m-%dT%H:%M:%S+08:00' }}">
+{% endif %}
+<meta property="article:modified_time" content="{{ site.time | date: '%Y-%m-%dT%H:%M:%S+08:00' }}">
+<meta property="article:author" content="EpiAlert AI 編輯">
+
+<!-- Twitter Card Tags -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ page.title | default: site.title }}">
+<meta name="twitter:description" content="{{ page.description | default: site.description }}">

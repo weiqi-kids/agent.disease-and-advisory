@@ -85,10 +85,36 @@ docs/Narrator/{mode_name}/{YYYY}-W{WW}-{report_name}.html  （自動產生）
 nav_exclude: true
 title: '{報告標題}'
 layout: default
+parent: 週報
+description: '{SEO 描述，155 字內}'
 ---
 ```
 
+| 欄位 | 必填 | 說明 |
+|------|------|------|
+| `nav_exclude` | ✅ | 必須為 `true` |
+| `title` | ✅ | 報告標題（≤60 字元） |
+| `layout` | ✅ | 必須為 `default` |
+| `parent` | ✅ | 父級導航（如「週報」） |
+| `description` | ❌ | SEO 描述（≤155 字元） |
+
 > **注意**：若標題包含雙引號 `"`，外層必須使用單引號 `'` 包覆。
+
+### SEO 相關欄位
+
+> 這些欄位支援 `_includes/head_custom.html` 自動生成 JSON-LD Schema。
+
+| 欄位 | 用途 |
+|------|------|
+| `title` | 用於 Article.headline、og:title |
+| `description` | 用於 meta description、og:description |
+| `parent` | 用於 BreadcrumbList 導航 |
+
+報告中的 SEO 優化元素：
+- `.key-takeaway`：適用於「本週重點」區塊
+- `.actionable-steps`：適用於「防護建議」區塊
+
+### 命名規範
 
 - `YYYY`：年份
 - `WW`：週數（兩位數）
@@ -148,6 +174,7 @@ html_convert_md docs/Narrator/{mode_name}/{report_file}.md
 
 報告發布前，必須確認：
 
+**基本欄位**：
 - [ ] `nav_exclude: true` 存在於 frontmatter 開頭
 - [ ] `title` 若包含 `"` 則使用單引號包覆
 - [ ] 已包含免責聲明
@@ -156,6 +183,13 @@ html_convert_md docs/Narrator/{mode_name}/{report_file}.md
 - [ ] 未產出無法驗證的「專業外觀」聲明
 - [ ] 推測與事實已明確區分
 - [ ] 未混淆不同 Layer 的資訊
+
+**SEO 優化**：
+- [ ] `title` 長度 ≤ 60 字元
+- [ ] `description` 若提供，長度 ≤ 155 字元
+- [ ] `parent` 正確設定（用於 BreadcrumbList 導航）
+- [ ] 「本週重點」區塊可標記為 `.key-takeaway`
+- [ ] 「防護建議」區塊可標記為 `.actionable-steps`
 
 ---
 

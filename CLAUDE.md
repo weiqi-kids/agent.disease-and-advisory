@@ -51,6 +51,9 @@
 ├─ Task(general-purpose, opus) ← 報告需要 opus
 │   └─ 產出週報（跨來源綜合分析）
 │
+├─ Task(general-purpose, sonnet) × 2 ← SEO 優化
+│   └─ Writer 產出 → Reviewer 檢查 → 迭代直到 pass
+│
 └─ Task(Bash, sonnet) — 健康度更新 + git push
 ```
 
@@ -60,6 +63,7 @@
 |----------|------|------|
 | fetch / update / 萃取 | **sonnet** | 單一來源處理，不需複雜推理 |
 | 報告產出 | **opus** | 跨來源綜合、趨勢判斷、歷史比較 |
+| SEO 優化 | **sonnet** | 規則明確，套用固定模板 |
 
 **執行原則：**
 - 主執行緒只做協調（分派 Task、接收結果、回報進度）
@@ -197,6 +201,45 @@ bash -c 'source lib/chatgpt.sh && source lib/qdrant.sh && source lib/report.sh &
 
 產出：`docs/Narrator/{mode}/*.md` 和 `*.html`
 
+### 階段 5.5：SEO 優化（sonnet）
+
+> **每次發布都執行完整 Writer + Reviewer 流程**
+
+```
+Task(general-purpose, sonnet) → SEO Writer：分析頁面，產出 Schema + SGE + Meta
+Task(general-purpose, sonnet) → SEO Reviewer：檢查，回報 pass/fail
+→ 迭代直到 Reviewer 回報 "pass"
+```
+
+**執行流程**：
+
+1. **讀取規則庫**：`seo/CLAUDE.md`（含 EpiAlert 專屬設定）
+2. **Writer 任務**（讀取 `seo/writer/CLAUDE.md`）：
+   - 分析目標頁面（首頁、週報、萃取結果）
+   - 產出 JSON-LD Schema（使用 EpiAlert 固定值）
+   - 產出 SGE 標記建議
+   - 產出 Meta 標籤建議
+3. **Reviewer 任務**（讀取 `seo/review/CLAUDE.md`）：
+   - 逐項檢查 Writer 輸出
+   - 驗證 EpiAlert 固定值是否正確套用
+   - 驗證 YMYL 欄位是否存在
+   - 回報 pass 或 fail + 修正指示
+4. **迭代**：若 fail，Writer 修正後重新提交，直到 pass
+
+**EpiAlert 固定值**（詳見 `seo/CLAUDE.md`）：
+- Organization：EpiAlert 疫情快訊
+- Person：EpiAlert AI 編輯
+- YMYL 免責聲明：必須包含
+
+**適用頁面**：
+- `docs/index.md`（首頁）
+- `docs/Narrator/*/` 下所有報告
+- `docs/Extractor/*/` 下所有萃取結果
+
+**產出方式**：
+- JSON-LD 透過 Jekyll `_includes/head_custom.html` 注入
+- 使用 frontmatter 的 `seo` 欄位儲存 Schema 資料
+
 ### 階段 6：更新健康度 + 推送 GitHub（sonnet）
 
 ```
@@ -274,6 +317,7 @@ GitHub Actions: Check and Fix Links
 | 萃取 | sonnet | 🔄 進行中 | 45/120 條目 |
 | Update | sonnet | ⏳ 等待中 | - |
 | 報告 | opus | ⏳ 等待中 | - |
+| SEO 優化 | sonnet | ⏳ 等待中 | Writer → Reviewer |
 | GitHub | sonnet | ⏳ 等待中 | - |
 | 連結檢查 | GitHub Actions | ⏳ 自動 | 推送後觸發 |
 ```

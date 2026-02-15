@@ -109,6 +109,20 @@ sed -n '{N}p' {jsonl_file}
 | `summary` | ✅ | 摘要 |
 | `confidence` | ✅ | 信心度（高/中/低） |
 | `notes` | ❌ | 補充說明（如 WebFetch 降級） |
+| `description` | ❌ | SEO 描述（155 字內，用於 meta description） |
+| `language` | ❌ | 內容語言（`zh` 或 `en`） |
+
+### SEO 相關欄位
+
+> 這些欄位支援 `_includes/head_custom.html` 自動生成 JSON-LD Schema。
+
+| 欄位 | 用途 |
+|------|------|
+| `title` | 用於 Article.headline、og:title |
+| `description` | 用於 meta description、og:description |
+| `date` | 用於 datePublished |
+| `source_layer` | 用於 BreadcrumbList 導航 |
+| `source_url` | 用於 Article.mainEntityOfPage |
 
 ### YAML 標題引號規則
 
@@ -140,6 +154,7 @@ docs/Extractor/{layer_name}/{category}/{YYYY-MM-DD}-{slug}.md
 
 萃取輸出前，子代理必須確認：
 
+**基本欄位**：
 - [ ] `nav_exclude: true` 存在於 frontmatter 開頭
 - [ ] `title` 若包含 `"` 則使用單引號包覆
 - [ ] `source_url` 與原始資料一致
@@ -148,3 +163,8 @@ docs/Extractor/{layer_name}/{category}/{YYYY-MM-DD}-{slug}.md
 - [ ] `summary` 基於原始資料，無憑空推測
 - [ ] 若有 WebFetch 降級，已在 `notes` 標註
 - [ ] 若符合 REVIEW_NEEDED 觸發規則，已在開頭標記
+
+**SEO 優化**：
+- [ ] `title` 長度 ≤ 60 字元（SEO 最佳實踐）
+- [ ] `description` 若提供，長度 ≤ 155 字元
+- [ ] `source_layer` 正確（用於 BreadcrumbList 導航）
