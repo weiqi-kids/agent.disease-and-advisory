@@ -1,6 +1,10 @@
 <!-- EpiAlert SEO: JSON-LD Schema -->
 {% assign site_url = "https://epialert.weiqi.kids" %}
 {% assign page_url = site_url | append: page.url %}
+{% assign default_og_image = site_url | append: "/assets/images/og-default.png" %}
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ page_url }}">
 
 <!-- Organization Schema (all pages) -->
 <script type="application/ld+json">
@@ -19,7 +23,12 @@
         "height": 60
       },
       "description": "全球傳染病情報自動收集與分析系統",
-      "sameAs": ["https://github.com/anthropics/claude-code"]
+      "sameAs": ["https://github.com/anthropics/claude-code"],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "technical support",
+        "url": "https://github.com/anthropics/claude-code/issues"
+      }
     },
     {
       "@type": "WebSite",
@@ -49,10 +58,12 @@
         "@type": "SpeakableSpecification",
         "cssSelector": [
           ".article-summary",
+          ".speakable-content",
           ".key-takeaway",
           ".key-answer",
           ".expert-quote",
-          ".actionable-steps li"
+          ".actionable-steps li",
+          ".faq-answer-content"
         ]
       }
     }
@@ -62,15 +73,30 @@
       "@id": "{{ site_url }}/about#person",
       "name": "EpiAlert AI 編輯",
       "url": "{{ site_url }}/about",
-      "description": "AI 驅動的疫情資訊彙整系統",
+      "description": "AI 驅動的疫情資訊彙整系統，自動收集並分析來自 WHO、CDC 等官方來源的傳染病情報",
       "worksFor": { "@id": "{{ site_url }}#organization" },
-      "knowsAbout": ["傳染病監測", "公共衛生", "疫情分析", "流行病學"]
+      "knowsAbout": ["傳染病監測", "公共衛生", "疫情分析", "流行病學"],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "AI 輔助醫療資訊系統",
+          "credentialCategory": "Automated Health Intelligence System"
+        }
+      ],
+      "sameAs": ["https://github.com/anthropics/claude-code"]
     },
     {
       "@type": "Article",
       "@id": "{{ page_url }}#article",
       "headline": "{{ page.title }}",
       "description": "{{ page.description | default: site.description }}",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "{{ page_url }}#primaryimage",
+        "url": "{{ default_og_image }}",
+        "width": 1200,
+        "height": 630
+      },
       "author": { "@id": "{{ site_url }}/about#person" },
       "publisher": { "@id": "{{ site_url }}#organization" },
       "mainEntityOfPage": { "@id": "{{ page_url }}#webpage" },
@@ -79,6 +105,17 @@
       "inLanguage": "zh-TW",
       "isAccessibleForFree": true,
       "isPartOf": { "@id": "{{ site_url }}#website" }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "{{ page_url }}#primaryimage",
+      "url": "{{ default_og_image }}",
+      "width": 1200,
+      "height": 630,
+      "caption": "{{ page.title | default: site.title }}",
+      "representativeOfPage": true,
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "creditText": "EpiAlert 疫情快訊"
     }
     {% endif %}
     {% if page.url contains '/Extractor/' or page.url contains '/Narrator/' %}
@@ -141,6 +178,7 @@
 <!-- Open Graph Tags -->
 <meta property="og:title" content="{{ page.title | default: site.title }}">
 <meta property="og:description" content="{{ page.description | default: site.description }}">
+<meta property="og:image" content="{{ default_og_image }}">
 <meta property="og:url" content="{{ page_url }}">
 <meta property="og:type" content="{% if page.source_layer or page.parent %}article{% else %}website{% endif %}">
 <meta property="og:site_name" content="EpiAlert 疫情快訊">
@@ -152,6 +190,7 @@
 <meta property="article:author" content="EpiAlert AI 編輯">
 
 <!-- Twitter Card Tags -->
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ page.title | default: site.title }}">
 <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+<meta name="twitter:image" content="{{ default_og_image }}">
