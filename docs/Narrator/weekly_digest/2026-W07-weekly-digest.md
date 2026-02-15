@@ -3,6 +3,152 @@ nav_exclude: true
 title: '傳染病威脅週報 2026-W07'
 layout: default
 parent: 週報
+seo:
+  meta:
+    title: '傳染病威脅週報 2026-W07 - 台灣首例麻疹境外移入、百日咳確診 | EpiAlert'
+    description: '本週重點：台灣今年首例麻疹境外移入病例（越南）、首例百日咳確診、歐洲麻疹社區傳播持續、禽流感 H5N1 冬季高峰期。來自 WHO、CDC、ECDC 等官方來源的完整分析。'
+  json_ld:
+    '@context': 'https://schema.org'
+    '@graph':
+      - '@type': 'WebPage'
+        '@id': 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W07-weekly-digest#webpage'
+        url: 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W07-weekly-digest'
+        name: '傳染病威脅週報 2026-W07'
+        description: '台灣首例麻疹境外移入、百日咳確診、歐洲麻疹社區傳播、禽流感 H5N1 監測'
+        inLanguage: 'zh-TW'
+        isPartOf:
+          '@id': 'https://epialert.weiqi.kids#website'
+        primaryImageOfPage:
+          '@type': 'ImageObject'
+          url: 'https://epialert.weiqi.kids/assets/images/logo.png'
+        datePublished: '2026-02-15T12:00:00+08:00'
+        dateModified: '2026-02-16T05:00:00+08:00'
+        speakable:
+          '@type': 'SpeakableSpecification'
+          cssSelector:
+            - '.article-summary'
+            - '.speakable-content'
+            - '.key-takeaway'
+            - '.key-answer'
+            - '.expert-quote'
+            - '.actionable-steps li'
+            - '.faq-answer-content'
+      - '@type': 'Article'
+        '@id': 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W07-weekly-digest#article'
+        mainEntityOfPage:
+          '@id': 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W07-weekly-digest#webpage'
+          significantLink:
+            - 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/'
+            - 'https://epialert.weiqi.kids/Extractor/ecdc_cdtr/'
+        headline: '傳染病威脅週報 2026-W07'
+        alternativeHeadline: 'Infectious Disease Threats Weekly Report 2026-W07'
+        description: '本週重點：台灣今年首例麻疹境外移入病例（越南）、首例百日咳確診、歐洲麻疹社區傳播持續、禽流感 H5N1 冬季高峰期'
+        image:
+          '@type': 'ImageObject'
+          url: 'https://epialert.weiqi.kids/assets/images/logo.png'
+          width: 1200
+          height: 630
+        author:
+          '@id': 'https://epialert.weiqi.kids/about#person'
+        publisher:
+          '@id': 'https://epialert.weiqi.kids#organization'
+        datePublished: '2026-02-15T12:00:00+08:00'
+        dateModified: '2026-02-16T05:00:00+08:00'
+        articleSection: '週報'
+        keywords: '麻疹, 百日咳, 禽流感, H5N1, 猴痘, Mpox, 流感, COVID-19, 傳染病監測, 疫情週報'
+        wordCount: 6500
+        inLanguage: 'zh-TW'
+        isAccessibleForFree: true
+        isPartOf:
+          '@type': 'WebSite'
+          '@id': 'https://epialert.weiqi.kids#website'
+          name: 'EpiAlert 疫情快訊'
+          potentialAction:
+            '@type': 'SearchAction'
+            target: 'https://epialert.weiqi.kids/search?q={search_term}'
+            query-input: 'required name=search_term'
+      - '@type': 'Person'
+        '@id': 'https://epialert.weiqi.kids/about#person'
+        name: 'EpiAlert AI 編輯'
+        url: 'https://epialert.weiqi.kids/about'
+        description: 'AI 驅動的疫情資訊彙整系統，自動收集並分析來自 WHO、CDC 等官方來源的傳染病情報'
+        worksFor:
+          '@id': 'https://epialert.weiqi.kids#organization'
+        knowsAbout:
+          - '傳染病監測'
+          - '公共衛生'
+          - '疫情分析'
+          - '流行病學'
+        hasCredential:
+          - '@type': 'EducationalOccupationalCredential'
+            name: 'AI 輔助醫療資訊系統'
+            credentialCategory: 'Automated Health Intelligence System'
+        sameAs:
+          - 'https://github.com/anthropics/claude-code'
+      - '@type': 'Organization'
+        '@id': 'https://epialert.weiqi.kids#organization'
+        name: 'EpiAlert 疫情快訊'
+        url: 'https://epialert.weiqi.kids'
+        logo:
+          '@type': 'ImageObject'
+          url: 'https://epialert.weiqi.kids/assets/images/logo.png'
+          width: 600
+          height: 60
+        description: '全球傳染病情報自動收集與分析系統'
+        sameAs:
+          - 'https://github.com/anthropics/claude-code'
+        contactPoint:
+          '@type': 'ContactPoint'
+          contactType: 'technical support'
+          url: 'https://github.com/anthropics/claude-code/issues'
+      - '@type': 'BreadcrumbList'
+        itemListElement:
+          - '@type': 'ListItem'
+            position: 1
+            name: '首頁'
+            item: 'https://epialert.weiqi.kids'
+          - '@type': 'ListItem'
+            position: 2
+            name: '週報'
+            item: 'https://epialert.weiqi.kids/Narrator/weekly_digest/'
+          - '@type': 'ListItem'
+            position: 3
+            name: '傳染病威脅週報 2026-W07'
+            item: 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W07-weekly-digest'
+      - '@type': 'ItemList'
+        '@id': 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W07-weekly-digest#highlights'
+        name: '本週傳染病威脅重點'
+        description: '2026 年第 7 週全球傳染病威脅摘要'
+        numberOfItems: 5
+        itemListElement:
+          - '@type': 'ListItem'
+            position: 1
+            name: '台灣今年首例麻疹境外移入病例'
+            description: '北部 8 個月大男嬰於越南感染後返台確診，為 2026 年首例麻疹病例，目前已掌握 400 名接觸者進行健康監測'
+          - '@type': 'ListItem'
+            position: 2
+            name: '台灣今年首例百日咳確定病例'
+            description: '北部 5 個月大男嬰確診百日咳，全球百日咳疫情嚴峻，日本去年累計病例逾 8 萬例創歷年最高'
+          - '@type': 'ListItem'
+            position: 3
+            name: '歐洲麻疹疫情持續傳播'
+            description: 'ECDC 發布 2025 年監測分析，歐盟/歐洲經濟區共報告 7,655 例麻疹病例及 8 例死亡，80% 病例未接種疫苗'
+          - '@type': 'ListItem'
+            position: 4
+            name: '英國更新 Mpox 流行病學概況'
+            description: 'UKHSA 更新猴痘 clade Ib 及 clade IIb 疫情監測報告，持續追蹤英國病例趨勢'
+          - '@type': 'ListItem'
+            position: 5
+            name: '禽流感 H5N1 冬季高峰期'
+            description: '2025 年全球共 30 例人類 H5N1 感染（12 例死亡），台灣今年已發生 7 起禽場禽流感事件'
+      - '@type': 'Table'
+        '@id': 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W07-weekly-digest#comparison'
+        about: '與上週疫情比較'
+        description: '新增威脅、升級警示、持續關注、已解除項目的完整比較'
+  ymyl:
+    lastReviewed: '2026-02-15'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本報告由自動化系統生成，僅供參考用途。報告內容基於公開資訊來源，不構成醫療建議、官方政策或專業診斷。使用者應自行驗證資訊並諮詢專業人士。'
 ---
 
 # 傳染病威脅週報 2026-W07
@@ -648,5 +794,5 @@ UKHSA 本週更新侵襲性肺炎鏈球菌疾病（IPD）監測報告：
 
 ---
 *報告產出時間: 2026-02-15T12:00:00+08:00*
-*上次更新: 2026-02-15T12:00:00+08:00*
-*下次更新: 2026-02-22*
+*上次更新: 2026-02-16T05:00:00+08:00*
+*下次更新: 2026-02-23 (2026-W08 週報)*
