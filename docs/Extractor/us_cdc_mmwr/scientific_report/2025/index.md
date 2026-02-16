@@ -1,6 +1,7 @@
 ---
 title: "2025"
 layout: default
+has_children: false
 parent: scientific_report
 grand_parent: US CDC MMWR
 seo:

@@ -1,6 +1,7 @@
 ---
 title: "2026"
 layout: default
+has_children: false
 parent: surveillance_summary
 grand_parent: US CDC MMWR
 ---

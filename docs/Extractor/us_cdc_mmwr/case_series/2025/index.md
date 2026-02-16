@@ -1,6 +1,7 @@
 ---
 title: "2025"
 layout: default
+has_children: false
 parent: case_series
 grand_parent: US CDC MMWR
 seo:
