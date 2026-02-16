@@ -2,7 +2,7 @@
 title: alert
 layout: single
 parent: US CDC Health Alert Network
-has_children: true
+has_children: false
 seo:
   json_ld:
     - "@type": "WebPage"

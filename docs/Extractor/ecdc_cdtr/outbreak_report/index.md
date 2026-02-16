@@ -2,7 +2,7 @@
 title: outbreak_report
 layout: single
 parent: ECDC CDTR
-has_children: true
+has_children: false
 seo:
   json_ld:
     - type: WebPage

@@ -2,7 +2,7 @@
 title: disease_info
 layout: single
 parent: Taiwan CDC Alerts
-has_children: true
+has_children: false
 seo:
   json_ld:
     - "@type": "WebPage"

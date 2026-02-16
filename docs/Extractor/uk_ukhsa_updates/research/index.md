@@ -2,7 +2,7 @@
 title: research
 layout: single
 parent: UK UKHSA Updates
-has_children: true
+has_children: false
 seo:
   json_ld:
     - "@type": "WebPage"

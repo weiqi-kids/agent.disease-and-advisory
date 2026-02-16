@@ -2,7 +2,7 @@
 title: investigation
 layout: single
 parent: WHO Disease Outbreak News
-has_children: true
+has_children: false
 seo:
   json_ld:
     - "@type": "WebPage"

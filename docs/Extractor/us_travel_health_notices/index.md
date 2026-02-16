@@ -4,7 +4,7 @@ layout: single
 sidebar:
   nav: "sidebar"
 parent: 資料來源
-has_children: true
+has_children: false
 nav_order: 4
 seo:
   json_ld:

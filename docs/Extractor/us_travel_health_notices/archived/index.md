@@ -2,7 +2,7 @@
 title: archived
 layout: single
 parent: US Travel Health Notices
-has_children: true
+has_children: false
 seo:
   json_ld:
     - type: WebPage

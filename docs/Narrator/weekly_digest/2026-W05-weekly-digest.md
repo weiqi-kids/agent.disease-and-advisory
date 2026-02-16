@@ -2,7 +2,6 @@
 nav_exclude: true
 title: '傳染病威脅週報 2026-W05'
 layout: single
-parent: 週報
 seo:
   meta:
     title: '傳染病威脅週報 2026-W05 - 漢他病毒致死、立百病毒疫情、流感 A(H3N2) 持續流行 | EpiAlert'
