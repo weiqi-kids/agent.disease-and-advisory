@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: Prolonged multi-country outbreak of Listeria monocytogenes ST173 linked to consumption of fish products
 source_url: https://www.ecdc.europa.eu/en/publications-data/prolonged-multi-country-outbreak-listeria-monocytogenes-st173-linked-consumption
 date: '2024-06-19'

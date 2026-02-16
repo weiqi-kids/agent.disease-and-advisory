@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Administration of Expired Injectable Influenza Vaccines Reported to the Vaccine Adverse Event Reporting System --- United States, July 2018--March 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399046"
 source_layer: "us_cdc_mmwr"

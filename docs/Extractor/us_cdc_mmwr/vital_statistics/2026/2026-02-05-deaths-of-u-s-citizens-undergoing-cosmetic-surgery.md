@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Deaths of U.S. Citizens Undergoing Cosmetic Surgery - Dominican Republic, 2009-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=742180"
 source_layer: us_cdc_mmwr

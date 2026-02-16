@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "SUPPLEMENTS: Disruptions to School and Home Life Among High School Students During the COVID-19 Pandemic - Adolescent Behaviors and Experiences Survey, United States, January-June 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=671213"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Dietary Supplement Use in Children and Adolescents Aged ≤19 Years - United States, 2017-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412466"
 source_layer: us_cdc_mmwr

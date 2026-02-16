@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Prevalence of Stroke - Behavioral Risk Factor Surveillance System, United States, 2011-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=748978"
 source_layer: us_cdc_mmwr

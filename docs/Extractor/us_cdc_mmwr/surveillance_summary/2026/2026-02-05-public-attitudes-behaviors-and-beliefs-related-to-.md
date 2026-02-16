@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Public Attitudes, Behaviors, and Beliefs Related to COVID-19, Stay-at-Home Orders, Nonessential Business Closures, and Public Health Guidance - United States, New York City, and Los Angeles, May 5-12, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407957"
 source_layer: us_cdc_mmwr

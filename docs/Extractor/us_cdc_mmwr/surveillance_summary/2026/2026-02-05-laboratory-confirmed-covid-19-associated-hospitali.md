@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Laboratory-Confirmed COVID-19-Associated Hospitalizations Among Adults During SARS-CoV-2 Omicron BA.2 Variant Predominance - COVID-19-Associated Hospitalization Surveillance Network, 14 States, June 20, 2021-May 31, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731109"
 source_layer: us_cdc_mmwr

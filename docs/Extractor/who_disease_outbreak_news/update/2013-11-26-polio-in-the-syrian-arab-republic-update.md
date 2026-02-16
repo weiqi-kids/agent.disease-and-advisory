@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Polio in the Syrian Arab Republic - update"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2013_11_26polio-en"
 source_layer: who_disease_outbreak_news

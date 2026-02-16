@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Unintentional Drowning Death Rates of Children and Adolescents Aged 0-17 Years, by Sex and Age Group - United States, 2020-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736358"
 source_layer: us_cdc_mmwr

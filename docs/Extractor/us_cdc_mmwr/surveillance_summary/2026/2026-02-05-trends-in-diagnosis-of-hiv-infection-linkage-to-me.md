@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Trends in Diagnosis of HIV Infection, Linkage to Medical Care, and Viral Suppression Among Men Who Have Sex with Men, by Race/Ethnicity and Age - 33 Jurisdictions, United States, 2014-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411561"
 source_layer: us_cdc_mmwr

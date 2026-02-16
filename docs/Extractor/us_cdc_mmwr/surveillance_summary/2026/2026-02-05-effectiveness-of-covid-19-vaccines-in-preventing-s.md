@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Effectiveness of COVID-19 Vaccines in Preventing SARS-CoV-2 Infection Among Frontline Workers Before and During B.1.617.2 (Delta) Variant Predominance - Eight U.S. Locations, December 2020-August 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426097"
 source_layer: us_cdc_mmwr

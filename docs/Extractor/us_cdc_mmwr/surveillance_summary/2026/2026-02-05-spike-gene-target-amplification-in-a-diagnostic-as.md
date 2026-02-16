@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Spike Gene Target Amplification in a Diagnostic Assay as a Marker for Public Health Monitoring of Emerging SARS-CoV-2 Variants - United States, November 2021-January 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733558"
 source_layer: us_cdc_mmwr

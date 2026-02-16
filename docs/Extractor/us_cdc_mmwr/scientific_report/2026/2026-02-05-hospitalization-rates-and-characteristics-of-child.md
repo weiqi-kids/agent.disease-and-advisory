@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: Hospitalization Rates and Characteristics of Children Aged <18 Years Hospitalized
   with Laboratory-Confirmed COVID-19 - COVID-NET, 14 States, March 1-July 25, 2020
 source_url: https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409618

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Erratum: Vol 64, No. SS-10"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413670"
 source_layer: us_cdc_mmwr

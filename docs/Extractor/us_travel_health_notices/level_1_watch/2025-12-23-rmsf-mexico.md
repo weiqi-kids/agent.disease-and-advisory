@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Level 1 - Rocky Mountain Spotted Fever in Mexico"
 source_url: "https://wwwnc.cdc.gov/travel/notices/level1/rmsf-mexico"
 source_layer: us_travel_health_notices

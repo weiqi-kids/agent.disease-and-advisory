@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Age-Adjusted Rates of Alcohol-Induced Deaths, by Urban-Rural Status - United States, 2000-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732575"
 source_layer: us_cdc_mmwr

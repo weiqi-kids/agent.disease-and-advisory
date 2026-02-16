@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Preliminary Incidence and Trends of Infections with Pathogens Transmitted Commonly Through Food --- Foodborne Diseases Active Surveillance Network, 10 U.S. Sites, 2015--2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397539"
 source_layer: us_cdc_mmwr

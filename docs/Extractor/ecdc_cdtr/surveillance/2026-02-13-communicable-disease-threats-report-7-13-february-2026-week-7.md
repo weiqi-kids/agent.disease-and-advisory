@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: Communicable disease threats report, 7 - 13 February 2026, week 7
 source_url: https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-7-13-february-2026-week-7
 source_layer: ecdc_cdtr

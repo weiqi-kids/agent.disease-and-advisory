@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "COVID-19 Trends Among Persons Aged 0-24 Years - United States, March 1-December 12, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415669"
 source_layer: us_cdc_mmwr

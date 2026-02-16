@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: Synthetic Opioid and Stimulant Co-Involved Overdose Deaths by Occupation and
   Industry - United States, 2022
 source_url: https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758503

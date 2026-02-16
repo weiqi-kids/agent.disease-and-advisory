@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: 'Get Flu and COVID-19 Shots for Good Health: Publicly funded influenza and COVID-19 vaccines available for individuals aged 50 and above'
 source_url: "https://www.cdc.gov.tw/En/Bulletin/Detail/v0dymfpW_5sPvVHJDdYm4g?typeId=158"
 source_layer: tw_cdc_alerts

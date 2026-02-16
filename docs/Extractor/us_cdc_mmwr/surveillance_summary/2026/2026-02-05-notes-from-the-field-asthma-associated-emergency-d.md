@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Asthma-Associated Emergency Department Visits During a Wildfire Smoke Event - New York, June 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736357"
 source_layer: us_cdc_mmwr

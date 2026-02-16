@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "SARS-CoV-2 Epidemiology and COVID-19 mRNA Vaccine Effectiveness Among Infants and Children Aged 6 Months-4 Years - New Vaccine Surveillance Network, United States, July 2022-September 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=739792"
 source_layer: us_cdc_mmwr

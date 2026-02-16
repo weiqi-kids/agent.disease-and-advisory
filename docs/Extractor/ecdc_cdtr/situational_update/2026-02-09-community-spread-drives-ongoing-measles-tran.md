@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: Community spread drives ongoing measles transmission in Europe
 source_url: https://www.ecdc.europa.eu/en/news-events/community-spread-drives-ongoing-measles-transmission-europe
 source_layer: ecdc_cdtr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Multidisciplinary Community-Based Investigation of a COVID-19 Outbreak Among Marshallese and Hispanic/Latino Communities - Benton and Washington Counties, Arkansas, March 2020-June 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413662"
 source_layer: us_cdc_mmwr

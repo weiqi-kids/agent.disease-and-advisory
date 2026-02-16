@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: First Case in the United States of Neisseria gonorrhoeae Harboring Emerging Mosaic penA60 Allele, Conferring Reduced Susceptibility to Cefixime and Ceftriaxone"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413799"
 source_layer: "us_cdc_mmwr"

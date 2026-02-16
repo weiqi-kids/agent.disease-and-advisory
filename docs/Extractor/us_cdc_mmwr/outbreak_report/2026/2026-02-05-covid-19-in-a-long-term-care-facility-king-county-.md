@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "COVID-19 in a Long-Term Care Facility - King County, Washington, February 27-March 9, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405260"
 source_layer: us_cdc_mmwr

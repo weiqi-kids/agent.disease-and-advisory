@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "RECOMMENDATIONS and REPORTS: Guidelines for the Treatment of Latent Tuberculosis Infection: Recommendations from the National Tuberculosis Controllers Association and CDC, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403661"
 source_layer: "us_cdc_mmwr"

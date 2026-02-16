@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Top Food Category Contributors to Sodium and Potassium Intake - United States, 2015-2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409774"
 source_layer: us_cdc_mmwr

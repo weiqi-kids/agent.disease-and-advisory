@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Multi-million pound backing for cutting edge projects by UK scientists and innovators"
 source_url: "https://www.gov.uk/government/news/multi-million-pound-backing-for-cutting-edge-projects-by-uk-scientists-and-innovators"
 source_layer: uk_ukhsa_updates

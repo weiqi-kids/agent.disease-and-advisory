@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Effectiveness of a Second COVID-19 Vaccine Booster Dose Against Infection, Hospitalization, or Death Among Nursing Home Residents - 19 States, March 29-July 25, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731866"
 source_layer: us_cdc_mmwr

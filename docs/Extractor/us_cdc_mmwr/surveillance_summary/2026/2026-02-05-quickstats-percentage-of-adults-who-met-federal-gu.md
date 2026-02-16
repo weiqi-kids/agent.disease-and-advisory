@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Percentage of Adults Who Met Federal Guidelines for Aerobic Physical Activity Through Leisure-Time Activity, by Race/Ethnicity --- National Health Interview Survey, 2008--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397106"
 source_layer: us_cdc_mmwr

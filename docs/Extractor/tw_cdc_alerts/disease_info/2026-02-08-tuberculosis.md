@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '結核病'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/j5_xY8JbRq3IzXAqxbnAvQ"
 source_layer: tw_cdc_alerts

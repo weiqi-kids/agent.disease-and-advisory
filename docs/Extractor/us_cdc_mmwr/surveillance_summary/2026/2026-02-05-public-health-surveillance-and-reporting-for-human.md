@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Public Health Surveillance and Reporting for Human Toxoplasmosis - Six States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730392"
 source_layer: us_cdc_mmwr

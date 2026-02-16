@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Drug Overdose Deaths Involving Cocaine and Psychostimulants with Abuse Potential - United States, 2003-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397614"
 source_layer: us_cdc_mmwr

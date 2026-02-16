@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Racial/Ethnic Disparities in Pregnancy-Related Deaths - United States, 2007-2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401594"
 source_layer: us_cdc_mmwr

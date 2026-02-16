@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Findings from the First Year of a Federally Funded, Direct-to-Consumer HIV Self-Test Distribution Program - United States, March 2023-March 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=750196"
 source_layer: us_cdc_mmwr

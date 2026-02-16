@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Incidence of SARS-CoV-2 Infection, Emergency Department Visits, and Hospitalizations Because of COVID-19 Among Persons Aged ≥12 Years, by COVID-19 Vaccination Status - Oregon and Washington, July 4-September 25, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=438251"
 source_layer: us_cdc_mmwr

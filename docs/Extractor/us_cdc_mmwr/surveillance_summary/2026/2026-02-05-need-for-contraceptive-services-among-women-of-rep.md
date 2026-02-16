@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Need for Contraceptive Services Among Women of Reproductive Age - 45 Jurisdictions, United States, 2017-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423792"
 source_layer: us_cdc_mmwr

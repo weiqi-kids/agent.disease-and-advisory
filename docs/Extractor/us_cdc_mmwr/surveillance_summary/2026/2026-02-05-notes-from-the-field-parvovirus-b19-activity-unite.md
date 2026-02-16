@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Parvovirus B19 Activity - United States, January 2024-May 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759815"
 source_layer: us_cdc_mmwr

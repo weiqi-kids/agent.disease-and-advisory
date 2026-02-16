@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "SARS-CoV-2 Transmission and Infection Among Attendees of an Overnight Camp - Georgia, June 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409113"
 source_layer: us_cdc_mmwr

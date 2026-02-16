@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Detection of Vaccine-Derived Poliovirus Type 2 in Wastewater - Five European Countries, September-December 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758319"
 source_layer: us_cdc_mmwr

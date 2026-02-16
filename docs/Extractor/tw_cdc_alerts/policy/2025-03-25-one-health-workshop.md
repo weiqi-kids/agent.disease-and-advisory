@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: 'Taiwan CDC organizes "One Health Workshop" to formulate National One Health Joint Plan of Action'
 source_url: "https://www.cdc.gov.tw/En/Bulletin/Detail/eXozIOKkwu0AJvYmjQZCjw?typeId=158"
 source_layer: tw_cdc_alerts

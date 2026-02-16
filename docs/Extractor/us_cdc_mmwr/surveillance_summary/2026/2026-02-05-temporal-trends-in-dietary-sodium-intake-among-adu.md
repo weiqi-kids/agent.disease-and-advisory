@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Temporal Trends in Dietary Sodium Intake Among Adults Aged ≥19 Years - United States, 2003-2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=428147"
 source_layer: us_cdc_mmwr

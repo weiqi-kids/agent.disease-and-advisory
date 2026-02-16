@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Vital Signs: Colorectal Cancer Screening Test Use - United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=404668"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Assessment of SARS-CoV-2 Infection Prevalence in Homeless Shelters --- Four U.S. Cities, March 27--April 15, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406435"
 source_layer: us_cdc_mmwr

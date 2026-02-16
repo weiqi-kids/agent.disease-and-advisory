@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Possible Undetected Mpox Infection Among Persons Accessing Homeless Services and Staying in Encampments - San Francisco, California, October-November 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734057"
 source_layer: us_cdc_mmwr

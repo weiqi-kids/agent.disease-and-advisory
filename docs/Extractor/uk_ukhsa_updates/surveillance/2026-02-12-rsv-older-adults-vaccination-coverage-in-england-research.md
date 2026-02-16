@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: 'RSV older adults vaccination coverage in England'
 source_url: "https://www.gov.uk/government/publications/rsv-older-adults-vaccination-coverage-in-england"
 source_layer: uk_ukhsa_updates

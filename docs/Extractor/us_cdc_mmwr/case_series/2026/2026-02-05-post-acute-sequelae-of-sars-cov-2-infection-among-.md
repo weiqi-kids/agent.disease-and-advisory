@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Post-Acute Sequelae of SARS-CoV-2 Infection Among Adults Aged ≥18 Years - Long Beach, California, April 1-December 10, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426745"
 source_layer: "us_cdc_mmwr"

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Human Parvovirus B19 Infections Among Pregnant Persons - Minnesota, January-September 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=755018"
 source_layer: us_cdc_mmwr

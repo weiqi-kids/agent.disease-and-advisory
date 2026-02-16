@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Outbreak of Norovirus Illness Caused by Consumption of Oysters Harvested from Galveston Bay, Texas - November-December 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736550"
 source_layer: us_cdc_mmwr

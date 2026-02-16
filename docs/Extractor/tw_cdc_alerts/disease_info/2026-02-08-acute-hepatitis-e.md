@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '急性病毒性E型肝炎'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/eEGcfcrF_6wTjQL36KmkxA"
 source_layer: tw_cdc_alerts

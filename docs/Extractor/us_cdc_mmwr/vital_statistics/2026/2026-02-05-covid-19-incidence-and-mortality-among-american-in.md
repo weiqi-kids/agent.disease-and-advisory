@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "COVID-19 Incidence and Mortality Among American Indian/Alaska Native and White Persons - Montana, March 13-November 30, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=419775"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Baylisascariasis (Raccoon Roundworm Infection) in Two Unrelated Children - Los Angeles County, California, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759987"
 source_layer: "us_cdc_mmwr"

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Firearm Storage Behaviors - Behavioral Risk Factor Surveillance System, Eight States, 2021-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=749982"
 source_layer: us_cdc_mmwr

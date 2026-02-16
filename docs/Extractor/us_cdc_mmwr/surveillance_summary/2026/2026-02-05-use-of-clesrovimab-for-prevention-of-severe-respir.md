@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Use of Clesrovimab for Prevention of Severe Respiratory Syncytial Virus-Associated Lower Respiratory Tract Infections in Infants: Recommendations of the Advisory Committee on Immunization Practices - United States, 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=760125"
 source_layer: us_cdc_mmwr

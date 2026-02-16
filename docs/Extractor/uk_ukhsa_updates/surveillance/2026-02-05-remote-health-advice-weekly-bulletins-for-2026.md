@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Research: Remote health advice: weekly bulletins for 2026"
 source_url: "https://www.gov.uk/government/publications/remote-health-advice-weekly-bulletins-for-2026"
 source_layer: uk_ukhsa_updates

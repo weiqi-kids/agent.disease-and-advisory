@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "樺加沙颱風後鉤端螺旋體及類鼻疽等傳染病發生風險上升,疾管署籲請臨床醫師提高警覺,加強詢問TOCC及通報(疾病管制署致醫界通函第588號)"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/siBTqOrByjEZ9BGTZ_fDZA?typeId=48"
 source_layer: tw_cdc_alerts

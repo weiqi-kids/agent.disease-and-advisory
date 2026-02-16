@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: 'Environmental monitoring following the Grenfell Tower fire'
-layout: single
+layout: default
 source_url: https://www.gov.uk/government/publications/environmental-monitoring-following-the-grenfell-tower-fire
 date: 2026-02-06
 source_layer: uk_ukhsa_updates

@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: 'Winter Olympics and Paralympics 2026: How to protect your own and your family''s health at the Games'
-layout: single
+layout: default
 source_url: https://www.ecdc.europa.eu/en/news-events/winter-olympics-and-paralympics-2026-how-protect-your-own-and-your-familys-health-games
 date: 2026-02-05
 source_layer: ecdc_cdtr

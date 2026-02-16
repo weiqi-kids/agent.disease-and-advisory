@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: 'QuickStats: Percentage of Residential Care Communities Engaged in Selected
   End-of-Life and Bereavement Care Practices - National Study of Long-Term Care Providers,
   United States, 2018'

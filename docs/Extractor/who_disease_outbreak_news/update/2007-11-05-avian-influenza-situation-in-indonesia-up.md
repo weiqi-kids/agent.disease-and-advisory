@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Avian influenza – situation in Indonesia – update 23"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2007_11_05a-en"
 source_layer: who_disease_outbreak_news

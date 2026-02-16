@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Estimated County-Level Prevalence of Select Underlying Medical Conditions Associated with Increased Risk of Severe COVID-19 Illness - United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408879"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Impact of Policy and Funding Decisions on COVID-19 Surveillance Operations and Case Reports - South Sudan, April 2020-February 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423189"
 source_layer: us_cdc_mmwr

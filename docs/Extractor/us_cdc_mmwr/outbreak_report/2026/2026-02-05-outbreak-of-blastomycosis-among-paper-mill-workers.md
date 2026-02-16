@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Outbreak of Blastomycosis Among Paper Mill Workers - Michigan, November 2022-May 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=755905"
 source_layer: us_cdc_mmwr

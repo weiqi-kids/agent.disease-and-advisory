@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Tobacco-Related Clinical Services and Tobacco-Free Policies in Behavioral Health Treatment Facilities - United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758849"
 source_layer: "us_cdc_mmwr"

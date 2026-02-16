@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "State and Territorial Laws Prohibiting Sales of Tobacco Products to Persons Aged <21 Years - United States, December 20, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403748"
 source_layer: us_cdc_mmwr

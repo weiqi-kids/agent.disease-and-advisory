@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Percentage of Adults Who Had a Severe Headache or Migraine in the Past 3 Months, by Sex and Age Group - National Health Interview Survey, United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405593"
 source_layer: us_cdc_mmwr

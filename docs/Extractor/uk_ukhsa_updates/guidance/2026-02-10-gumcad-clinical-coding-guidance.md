@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: 'GUMCAD: clinical coding guidance'
-layout: single
+layout: default
 source_url: https://www.gov.uk/government/publications/gumcad-clinical-guidelines
 date: 2026-02-10T10:14:11Z
 source_layer: uk_ukhsa_updates

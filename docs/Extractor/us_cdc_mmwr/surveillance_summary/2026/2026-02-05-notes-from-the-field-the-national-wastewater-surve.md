@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: The National Wastewater Surveillance System's Centers of Excellence Contributions to Public Health Action During the Respiratory Virus Season - Four U.S. Jurisdictions, 2022-23"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=739794"
 source_layer: us_cdc_mmwr

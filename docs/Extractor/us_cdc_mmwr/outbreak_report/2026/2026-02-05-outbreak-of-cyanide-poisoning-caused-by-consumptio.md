@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Outbreak of Cyanide Poisoning Caused by Consumption of Cassava Flour - Kasese District, Uganda, September 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397212"
 source_layer: us_cdc_mmwr

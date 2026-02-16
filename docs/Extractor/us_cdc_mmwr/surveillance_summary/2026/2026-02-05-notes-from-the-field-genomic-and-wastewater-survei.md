@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Genomic and Wastewater Surveillance Data to Guide a Hepatitis A Outbreak Response - Los Angeles County, March 2024-June 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758086"
 source_layer: us_cdc_mmwr

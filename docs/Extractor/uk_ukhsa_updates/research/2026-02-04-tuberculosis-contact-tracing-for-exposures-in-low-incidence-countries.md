@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Research: Tuberculosis: contact tracing for exposures in low-incidence countries"
 source_url: "https://www.gov.uk/government/publications/tuberculosis-contact-tracing-for-exposures-in-low-incidence-countries"
 source_layer: uk_ukhsa_updates

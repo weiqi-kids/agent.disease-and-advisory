@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: 'Corporate report: Committees on Toxicity, Mutagenicity, Carcinogenicity of Chemicals in Food, Consumer Products and the Environment: joint annual report'
 source_url: "https://www.gov.uk/government/publications/committee-on-toxicity-of-chemicals-in-food-consumer-products-and-the-environment-annual-report"
 source_layer: uk_ukhsa_updates

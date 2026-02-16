@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Linked Clusters of SARS-CoV-2 Variant B.1.351 - Maryland, January-February 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421458"
 source_layer: us_cdc_mmwr

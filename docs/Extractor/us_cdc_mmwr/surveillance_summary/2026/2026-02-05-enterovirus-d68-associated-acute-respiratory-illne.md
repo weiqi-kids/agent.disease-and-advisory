@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Enterovirus D68-Associated Acute Respiratory Illness ─ New Vaccine Surveillance Network, United States, July-November 2018-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=443163"
 source_layer: us_cdc_mmwr

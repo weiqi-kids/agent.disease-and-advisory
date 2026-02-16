@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Percentage of Uninsured Adults Aged 18-64 Years, by Race and Selected Hispanic Origin Subgroup - National Health Interview Survey, United States, 2019−2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729954"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Multistate, Multiserotype Outbreak of Salmonella Infections Linked to Cashew Brie - United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735217"
 source_layer: us_cdc_mmwr

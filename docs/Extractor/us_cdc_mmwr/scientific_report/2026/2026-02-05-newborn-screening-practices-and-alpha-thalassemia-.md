@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: Newborn Screening Practices and Alpha-Thalassemia Detection - United States,
   2016
 source_url: https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411254

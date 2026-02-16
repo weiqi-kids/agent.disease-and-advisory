@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "<em>Recommendations and Reports</em>: CDC Program Evaluation Framework, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752695"
 source_layer: us_cdc_mmwr

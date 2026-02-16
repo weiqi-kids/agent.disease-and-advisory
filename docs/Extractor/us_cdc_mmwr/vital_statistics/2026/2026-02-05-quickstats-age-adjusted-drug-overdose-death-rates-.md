@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Age-Adjusted Drug Overdose Death Rates, by State --- United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406266"
 source_layer: us_cdc_mmwr

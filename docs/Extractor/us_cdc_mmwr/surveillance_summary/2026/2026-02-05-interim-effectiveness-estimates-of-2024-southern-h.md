@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Interim Effectiveness Estimates of 2024 Southern Hemisphere Influenza Vaccines in Preventing Influenza-Associated Hospitalization - REVELAC-i Network, Five South American Countries, March-July 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753041"
 source_layer: us_cdc_mmwr

@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: 'Research: Identifying sepsis cases in administrative data: a validation study'
-layout: single
+layout: default
 source_url: https://www.gov.uk/government/publications/identifying-sepsis-cases-in-administrative-data-a-validation-study
 date: 2026-02-05
 source_layer: uk_ukhsa_updates

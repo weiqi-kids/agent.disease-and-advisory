@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: 'Threat Assessment Brief: Assessing the risk of influenza for the EU/EEA in the context of increasing circulation of A(H3N2) subclade K'
 source_url: https://www.ecdc.europa.eu/en/publications-data/threat-assessment-brief-assessing-risk-influenza-november-2025
 published_date: '2025-11-20'

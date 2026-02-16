@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Research: Pertussis: laboratory confirmed cases reported in England 2025"
 source_url: "https://www.gov.uk/government/publications/pertussis-laboratory-confirmed-cases-reported-in-england-2025"
 source_layer: uk_ukhsa_updates

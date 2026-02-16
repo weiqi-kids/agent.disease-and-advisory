@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Number of Deaths from Hornet, Wasp, and Bee Stings, Among Males and Females --- National Vital Statistics System, United States, 2000--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=400991"
 source_layer: us_cdc_mmwr

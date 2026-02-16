@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Reported Incidence of Infections Caused by Pathogens Transmitted Commonly Through Food: Impact of Increased Use of Culture-Independent Diagnostic Tests - Foodborne Diseases Active Surveillance Network, 1996-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=750634"
 source_layer: us_cdc_mmwr

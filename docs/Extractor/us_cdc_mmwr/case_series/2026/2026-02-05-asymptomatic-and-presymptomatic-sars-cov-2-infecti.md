@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Asymptomatic and Presymptomatic SARS-CoV-2 Infections in Residents of a Long-Term Care Skilled Nursing Facility - King County, Washington, March 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405690"
 source_layer: "us_cdc_mmwr"

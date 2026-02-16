@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '百日咳'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/gJ7r9uf6cgWWczRSeMRibA"
 source_layer: tw_cdc_alerts

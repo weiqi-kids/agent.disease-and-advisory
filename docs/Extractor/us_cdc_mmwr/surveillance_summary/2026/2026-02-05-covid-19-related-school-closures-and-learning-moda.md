@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "COVID-19-Related School Closures and Learning Modality Changes - United States, August 1-September 17, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427179"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Genomic Surveillance for SARS-CoV-2 Variants: Predominance of the Delta (B.1.617.2) and Omicron (B.1.1.529) Variants - United States, June 2021-January 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=525250"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "MMWR Supplement: A Standard Framework for Evaluating Large Health Care Data and Related Resources"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=747753"
 source_layer: us_cdc_mmwr

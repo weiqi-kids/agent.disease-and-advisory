@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Outbreak of Human Immunodeficiency Virus Infection Among Heterosexual Persons Who Are Living Homeless and Inject Drugs --- Seattle, Washington, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397477"
 source_layer: us_cdc_mmwr

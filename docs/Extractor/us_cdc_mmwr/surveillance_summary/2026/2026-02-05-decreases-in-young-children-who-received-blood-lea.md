@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Decreases in Young Children Who Received Blood Lead Level Testing During COVID-19-34 Jurisdictions, January-May 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416390"
 source_layer: us_cdc_mmwr

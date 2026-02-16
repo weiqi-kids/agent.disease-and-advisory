@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Progress Toward Maternal and Neonatal Tetanus Elimination --- Worldwide, 2000--2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406699"
 source_layer: "us_cdc_mmwr"

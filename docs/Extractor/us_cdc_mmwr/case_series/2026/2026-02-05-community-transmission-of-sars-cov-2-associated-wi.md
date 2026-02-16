@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Community Transmission of SARS-CoV-2 Associated with a Local Bar Opening Event - Illinois, February 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=419596"
 source_layer: "us_cdc_mmwr"

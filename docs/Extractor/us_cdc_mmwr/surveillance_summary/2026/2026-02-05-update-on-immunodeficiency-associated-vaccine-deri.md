@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Update on Immunodeficiency-Associated Vaccine-Derived Polioviruses - Worldwide, July 2018-December 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408723"
 source_layer: us_cdc_mmwr

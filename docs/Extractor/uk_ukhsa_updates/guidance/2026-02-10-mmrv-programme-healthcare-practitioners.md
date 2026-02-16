@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: 'MMRV programme: information for healthcare practitioners'
-layout: single
+layout: default
 source_url: https://www.gov.uk/government/publications/mmrv-programme-information-for-healthcare-practitioners
 date: 2026-02-10T12:32:35Z
 source_layer: uk_ukhsa_updates

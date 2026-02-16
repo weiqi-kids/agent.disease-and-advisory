@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: 'Public-private partnership strengthened in epidemic prevention: CDC and Carrefour Taiwan join forces to expand flu and COVID-19 vaccination'
 source_url: "https://www.cdc.gov.tw/En/Bulletin/Detail/YmSP7dQmTZUT96x0oV9LBA?typeId=158"
 source_layer: tw_cdc_alerts

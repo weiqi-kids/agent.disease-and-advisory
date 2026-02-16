@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Durability of Original Monovalent mRNA Vaccine Effectiveness Against COVID-19 Omicron-Associated Hospitalization in Children and Adolescents - United States, 2021-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=746768"
 source_layer: us_cdc_mmwr

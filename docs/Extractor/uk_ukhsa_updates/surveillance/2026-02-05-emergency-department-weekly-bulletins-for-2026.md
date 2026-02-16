@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Research: Emergency department: weekly bulletins for 2026"
 source_url: "https://www.gov.uk/government/publications/emergency-department-weekly-bulletins-for-2026"
 source_layer: uk_ukhsa_updates

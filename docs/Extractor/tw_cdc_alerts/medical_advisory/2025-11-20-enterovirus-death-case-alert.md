@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "國內新增1例腸病毒感染併發重症死亡個案,籲請醫師提高警覺,並加強注意產婦及新生兒健康"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/uU2bZS2_bpXp3FYO1e6lNA?typeId=48"
 source_layer: tw_cdc_alerts

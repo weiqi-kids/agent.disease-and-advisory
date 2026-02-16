@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Contact Lens Health Week --- August 19-23, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401190"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Rate of Triplet and Higher-Order Multiple Births, by Age of Mother - National Vital Statistics System, United States, 1998 and 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=741299"
 source_layer: us_cdc_mmwr

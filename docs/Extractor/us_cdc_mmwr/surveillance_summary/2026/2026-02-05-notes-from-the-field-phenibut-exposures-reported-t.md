@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Phenibut Exposures Reported to Poison Centers - United States, 2009-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410951"
 source_layer: us_cdc_mmwr

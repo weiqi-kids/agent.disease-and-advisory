@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Use of mRNA COVID-19 Vaccine After Reports of Myocarditis Among Vaccine Recipients: Update from the Advisory Committee on Immunization Practices - United States, June 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=424154"
 source_layer: us_cdc_mmwr

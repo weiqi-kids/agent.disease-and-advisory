@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: 'Estimated Effectiveness of JYNNEOS Vaccine in Preventing Mpox: A Multijurisdictional
   Case-Control Study - United States, August 19, 2022-March 31, 2023'
 source_url: https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735125

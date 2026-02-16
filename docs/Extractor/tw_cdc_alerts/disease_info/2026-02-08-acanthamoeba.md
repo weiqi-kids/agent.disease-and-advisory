@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '棘狀阿米巴'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/pJpNnSLeEAG8TbSPzsVUTQ"
 source_layer: tw_cdc_alerts

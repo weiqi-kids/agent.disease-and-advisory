@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Student-Reported School Safety Perceptions, Connectedness, and Absenteeism Following a Multiple-Fatality School Shooting - Broward County, Florida, February 14-21, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=404466"
 source_layer: us_cdc_mmwr

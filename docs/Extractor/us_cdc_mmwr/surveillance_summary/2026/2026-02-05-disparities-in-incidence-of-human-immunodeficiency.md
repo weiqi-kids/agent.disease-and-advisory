@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Disparities in Incidence of Human Immunodeficiency Virus Infection Among Black and White Women - United States, 2010-2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397711"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Respiratory Virus Surveillance Among Children with Acute Respiratory Illnesses - New Vaccine Surveillance Network, United States, 2016-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732139"
 source_layer: us_cdc_mmwr

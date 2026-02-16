@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Outbreak of Highly Pathogenic Avian Influenza A(H5N1) Viruses in U.S. Dairy Cattle and Detection of Two Human Cases - United States, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=749036"
 source_layer: us_cdc_mmwr

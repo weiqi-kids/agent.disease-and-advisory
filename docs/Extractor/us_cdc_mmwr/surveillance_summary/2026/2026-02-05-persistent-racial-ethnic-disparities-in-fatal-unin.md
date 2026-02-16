@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Persistent Racial/Ethnic Disparities in Fatal Unintentional Drowning Rates Among Persons Aged ≤29 Years - United States, 1999-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423665"
 source_layer: us_cdc_mmwr

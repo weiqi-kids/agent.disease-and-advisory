@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Human infection with avian influenza A(H7N9) virus – China"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/5-september-2017-ah7n9-china-en"
 source_layer: who_disease_outbreak_news

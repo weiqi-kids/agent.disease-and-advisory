@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Influenza-Associated Hospitalizations During a High Severity Season - Influenza Hospitalization Surveillance Network, United States, 2024-25 Influenza Season"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=760218"
 source_layer: us_cdc_mmwr

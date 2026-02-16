@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Transmission of Mpox to Nonsexual Close Contacts - Two U.S. Jurisdictions, May 1-July 31, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=740321"
 source_layer: "us_cdc_mmwr"

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Rabies Outbreak in an Urban, Unmanaged Cat Colony - Maryland, August 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=760098"
 source_layer: us_cdc_mmwr

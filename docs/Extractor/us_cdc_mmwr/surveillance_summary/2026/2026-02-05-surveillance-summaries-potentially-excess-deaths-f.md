@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Surveillance Summaries: Potentially Excess Deaths from the Five Leading Causes of Death in Metropolitan and Nonmetropolitan Counties - United States, 2010-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402433"
 source_layer: us_cdc_mmwr

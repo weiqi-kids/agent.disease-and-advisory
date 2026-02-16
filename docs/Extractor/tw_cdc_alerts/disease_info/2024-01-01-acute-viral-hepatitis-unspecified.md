@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '急性病毒性肝炎未定型'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/qCrz8c8pRVrpdDBo5S2kQg"
 source_layer: tw_cdc_alerts

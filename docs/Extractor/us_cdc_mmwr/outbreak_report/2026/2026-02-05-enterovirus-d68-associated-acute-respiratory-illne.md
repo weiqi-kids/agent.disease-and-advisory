@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Enterovirus D68--Associated Acute Respiratory Illness --- United States, July--October, 2017 and 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397101"
 source_layer: us_cdc_mmwr

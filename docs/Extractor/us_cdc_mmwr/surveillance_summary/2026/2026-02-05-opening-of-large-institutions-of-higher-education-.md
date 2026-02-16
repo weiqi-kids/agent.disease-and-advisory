@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Opening of Large Institutions of Higher Education and County-Level COVID-19 Incidence - United States, July 6-September 17, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415545"
 source_layer: us_cdc_mmwr

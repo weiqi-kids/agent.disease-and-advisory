@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Sepsis-Related Death Rates Among Persons Aged ≥65 Years, by Age Group and Sex - National Vital Statistics System, United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737249"
 source_layer: us_cdc_mmwr

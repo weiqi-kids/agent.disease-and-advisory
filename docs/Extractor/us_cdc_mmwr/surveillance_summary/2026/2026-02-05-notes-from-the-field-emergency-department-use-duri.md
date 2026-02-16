@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Emergency Department Use During the Los Angeles County Wildfires, January 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=757622"
 source_layer: us_cdc_mmwr

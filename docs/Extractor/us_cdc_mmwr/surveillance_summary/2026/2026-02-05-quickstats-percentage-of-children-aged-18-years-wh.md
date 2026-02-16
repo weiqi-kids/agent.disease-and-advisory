@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: " QuickStats: Percentage of Children Aged <18 Years Who Received a Well-Child Checkup in the Past 12 Months, by Age Group and Year - National Health Interview Survey, United States, 2008 and 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403856"
 source_layer: us_cdc_mmwr

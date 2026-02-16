@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "HIV Prevention Program Eligibility Among Adolescent Girls and Young Women - Namibia, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=433697"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Seasonal Trends in Emergency Department Visits for Mental and Behavioral Health Conditions Among Children and Adolescents Aged 5-17 Years - United States, January 2018-June 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737246"
 source_layer: us_cdc_mmwr

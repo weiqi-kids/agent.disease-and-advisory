@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Novel Coronavirus – Japan"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2020-DON236"
 source_layer: who_disease_outbreak_news

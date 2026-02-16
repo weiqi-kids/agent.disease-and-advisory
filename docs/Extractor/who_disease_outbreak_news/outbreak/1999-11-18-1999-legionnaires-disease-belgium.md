@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "1999 - Legionnaires' disease, Belgium"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/1999_11_18b-en"
 source_layer: who_disease_outbreak_news

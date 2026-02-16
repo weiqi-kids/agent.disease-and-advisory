@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Death Rates for Pedestrians Involved in Collision with Motor Vehicles, by Sex and Urbanization Level - National Vital Statistics System, United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736206"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Extragenital Chlamydia and Gonorrhea Among Community Venue--Attending Men Who Have Sex with Men --- Five Cities, United States, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397309"
 source_layer: us_cdc_mmwr

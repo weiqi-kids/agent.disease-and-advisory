@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "COVID-19 Self-Test Data: Challenges and Opportunities - United States, October 31, 2021-June 11, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730913"
 source_layer: us_cdc_mmwr

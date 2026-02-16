@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Official Statistics: National flu and COVID-19 surveillance reports: 2025 to 2026 season"
 source_url: "https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2025-to-2026-season"
 source_layer: uk_ukhsa_updates

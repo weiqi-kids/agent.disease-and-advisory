@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Outbreak of COVID-19 Among a Highly Vaccinated Population Aboard a U.S. Navy Ship After a Port Visit - Reykjavik, Iceland, July 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=542129"
 source_layer: us_cdc_mmwr

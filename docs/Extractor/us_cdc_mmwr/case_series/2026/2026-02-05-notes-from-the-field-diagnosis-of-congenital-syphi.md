@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Diagnosis of Congenital Syphilis and Syphilis Among Females of Reproductive Age Before and During the COVID-19 Pandemic - Chicago, 2015-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=739448"
 source_layer: "us_cdc_mmwr"

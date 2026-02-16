@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Disparities in COVID-19 Vaccination Status, Intent, and Perceived Access for Noninstitutionalized Adults, by Disability Status - National Immunization Survey Adult COVID Module, United States, May 30-June 26, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427474"
 source_layer: us_cdc_mmwr

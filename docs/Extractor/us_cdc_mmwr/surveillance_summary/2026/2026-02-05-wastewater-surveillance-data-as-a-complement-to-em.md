@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Wastewater Surveillance Data as a Complement to Emergency Department Visit Data for Tracking Incidence of Influenza A and Respiratory Syncytial Virus - Wisconsin, August 2022-March 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737018"
 source_layer: us_cdc_mmwr

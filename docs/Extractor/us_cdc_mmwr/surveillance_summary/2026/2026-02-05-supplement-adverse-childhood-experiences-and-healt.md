@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "SUPPLEMENT: Adverse Childhood Experiences and Health Conditions and Risk Behaviors Among High School Students - Youth Risk Behavior Survey, United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753089"
 source_layer: us_cdc_mmwr

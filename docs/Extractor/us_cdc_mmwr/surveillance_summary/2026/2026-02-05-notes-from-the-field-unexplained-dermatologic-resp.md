@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Unexplained Dermatologic, Respiratory, and Ophthalmic Symptoms Among Health Care Personnel at a Hospital - West Virginia, November 2017-January 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402429"
 source_layer: us_cdc_mmwr

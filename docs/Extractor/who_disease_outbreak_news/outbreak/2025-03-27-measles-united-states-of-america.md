@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Measles - United States of America"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2025-DON561"
 source_layer: who_disease_outbreak_news

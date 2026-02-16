@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '新生兒破傷風'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/5DGa_EE_lbJETeYvUqn1yg"
 source_layer: tw_cdc_alerts

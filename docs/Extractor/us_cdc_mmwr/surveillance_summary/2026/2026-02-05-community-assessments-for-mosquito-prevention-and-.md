@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Community Assessments for Mosquito Prevention and Control Experiences, Attitudes, and Practices --- U.S. Virgin Islands, 2017 and 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=398801"
 source_layer: us_cdc_mmwr

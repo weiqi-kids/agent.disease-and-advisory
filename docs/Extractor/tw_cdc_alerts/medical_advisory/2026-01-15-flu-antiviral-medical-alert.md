@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "疾管署自115年1月20日起至2月28日擴大公費流感抗病毒藥劑用藥措施,增列「有類流感症狀,且具下列身分之流感高傳播族群」,籲請醫師善用公費藥劑,共同防治流感(疾病管制署致醫界通函第595號)"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/726nhVEbrRE0I1HAMQdeiA?typeId=48"
 source_layer: tw_cdc_alerts

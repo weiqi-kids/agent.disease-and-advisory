@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Identification of and Surveillance for the SARS-CoV-2 Variants B.1.427 and B.1.429 - Colorado, January-March 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421658"
 source_layer: us_cdc_mmwr

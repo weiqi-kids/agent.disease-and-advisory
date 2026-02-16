@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Postvaccination SARS-CoV-2 Infections Among Skilled Nursing Facility Residents and Staff Members - Chicago, Illinois, December 2020-March 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=420772"
 source_layer: us_cdc_mmwr

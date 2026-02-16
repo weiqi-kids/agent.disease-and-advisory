@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "COVID-19 Among Workers in the Seafood Processing Industry: Implications for Prevention Measures - Alaska, March-October 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421457"
 source_layer: "us_cdc_mmwr"

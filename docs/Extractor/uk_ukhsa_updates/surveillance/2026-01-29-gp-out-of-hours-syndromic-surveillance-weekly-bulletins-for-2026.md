@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Research: GP out-of-hours syndromic surveillance: weekly bulletins for 2026"
 source_url: "https://www.gov.uk/government/publications/gp-out-of-hours-syndromic-surveillance-weekly-bulletins-for-2026"
 source_layer: uk_ukhsa_updates

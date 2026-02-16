@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: Prevalence of Violence Perpetration by Men Aged 18-24 Years in Low- and Middle-Income
   Countries Who Were Exposed to Violence During Childhood - Eight Countries, 2018-2023
 source_url: https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=763154

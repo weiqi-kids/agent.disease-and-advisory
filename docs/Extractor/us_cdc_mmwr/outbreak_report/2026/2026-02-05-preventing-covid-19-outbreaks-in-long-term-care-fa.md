@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Preventing COVID-19 Outbreaks in Long-term Care Facilities Through Preemptive Testing of Residents and Staff Members - Fulton County, Georgia, March-May 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411455"
 source_layer: us_cdc_mmwr

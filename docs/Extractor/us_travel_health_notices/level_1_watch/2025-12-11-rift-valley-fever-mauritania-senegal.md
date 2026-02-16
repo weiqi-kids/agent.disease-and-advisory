@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Level 1 - Rift Valley Fever in Mauritania and Senegal"
 source_url: "https://wwwnc.cdc.gov/travel/notices/level1/rift-valley-fever-mauritania-senegal"
 source_layer: us_travel_health_notices

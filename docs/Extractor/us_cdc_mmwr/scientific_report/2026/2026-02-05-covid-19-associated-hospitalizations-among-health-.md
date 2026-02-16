@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: COVID-19-Associated Hospitalizations Among Health Care Personnel - COVID-NET,
   13 States, March 1-May 31, 2020
 source_url: https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412410

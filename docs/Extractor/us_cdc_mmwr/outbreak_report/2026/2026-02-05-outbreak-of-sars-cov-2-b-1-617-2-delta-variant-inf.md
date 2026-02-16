@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Outbreak of SARS-CoV-2 B.1.617.2 (Delta) Variant Infections Among Incarcerated Persons in a Federal Prison - Texas, July-August 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427003"
 source_layer: us_cdc_mmwr

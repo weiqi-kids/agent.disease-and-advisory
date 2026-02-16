@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '侵襲性肺炎鏈球菌感染症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/oAznsrFTsYK-p12_juf0kw"
 source_layer: tw_cdc_alerts

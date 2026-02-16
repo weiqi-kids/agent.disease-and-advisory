@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '桿菌性痢疾'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/DXJzRq9tI4559p0A6MX3rw"
 source_layer: tw_cdc_alerts

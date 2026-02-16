@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Geographic Differences in Sex-Specific Chronic Obstructive Pulmonary Disease Mortality Rate Trends Among Adults Aged ≥25 Years - United States, 1999-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729135"
 source_layer: us_cdc_mmwr

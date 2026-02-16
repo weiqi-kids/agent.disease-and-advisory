@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Age-Adjusted Death Rates for Stroke, by Region - National Vital Statistics System, United States, 2001-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737732"
 source_layer: us_cdc_mmwr

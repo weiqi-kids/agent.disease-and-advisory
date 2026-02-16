@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Vital Signs: Pregnancy-Related Deaths, United States, 2011-2015, and Strategies for Prevention, 13 States, 2013-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397676"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Clade Ib Mpox Outbreak - Kenya, July 2024-February 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759756"
 source_layer: us_cdc_mmwr

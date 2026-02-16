@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: 'Taiwan CDC Confirms One New Fatal Case of Enterovirus Infection with Severe Complications; Public Urged to Practice Good Hygiene'
 source_url: "https://www.cdc.gov.tw/En/Bulletin/Detail/KGrfDFxhdNkCjZKutzRYiQ?typeId=158"
 source_layer: tw_cdc_alerts

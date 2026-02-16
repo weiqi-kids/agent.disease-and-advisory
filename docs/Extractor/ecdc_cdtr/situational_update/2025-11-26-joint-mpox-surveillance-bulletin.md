@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: Joint ECDC-WHO/Europe mpox surveillance bulletin
 source_url: https://www.ecdc.europa.eu/en/news-events/joint-ecdc-whoeurope-mpox-surveillance-bulletin
 source_layer: ecdc_cdtr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Active Monitoring of Persons Exposed to Patients with Confirmed COVID-19 - United States, January-February 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=404415"
 source_layer: "us_cdc_mmwr"

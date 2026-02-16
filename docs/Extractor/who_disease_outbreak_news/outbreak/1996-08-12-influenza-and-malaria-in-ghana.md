@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "1996 - Influenza and malaria in Ghana"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/1996_08_12c-en"
 source_layer: who_disease_outbreak_news

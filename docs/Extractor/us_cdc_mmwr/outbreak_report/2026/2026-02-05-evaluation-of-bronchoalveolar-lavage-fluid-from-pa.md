@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Evaluation of Bronchoalveolar Lavage Fluid from Patients in an Outbreak of E-cigarette, or Vaping, Product Use-Associated Lung Injury - 10 States, August-October 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402475"
 source_layer: us_cdc_mmwr

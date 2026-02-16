@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Characteristics of COVID-19 Cases and Outbreaks at Child Care Facilities - District of Columbia, July-December 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=422740"
 source_layer: us_cdc_mmwr

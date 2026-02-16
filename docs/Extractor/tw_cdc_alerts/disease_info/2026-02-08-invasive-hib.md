@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '侵襲性b型嗜血桿菌感染症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/T8cxu9oK6AvF_uCkyS0v1w"
 source_layer: tw_cdc_alerts

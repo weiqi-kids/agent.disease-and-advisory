@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "SURVEILLANCE SUMMARIES: Surveillance for Sickle Cell Disease - Sickle Cell Data Collection Program, Two States, 2004-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732148"
 source_layer: us_cdc_mmwr

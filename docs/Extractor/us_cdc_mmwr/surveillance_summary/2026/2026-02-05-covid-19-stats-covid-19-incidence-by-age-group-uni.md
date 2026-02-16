@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "COVID-19 Stats: COVID-19 Incidence, by Age Group - United States, March 1-November 14, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415324"
 source_layer: us_cdc_mmwr

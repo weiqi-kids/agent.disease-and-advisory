@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Potential Outbreak of Extrapulmonary Mycobacterium abscessus subspecies massiliense Infections from Stem Cell Treatment Clinics in Mexico - Arizona and Colorado, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=747873"
 source_layer: us_cdc_mmwr

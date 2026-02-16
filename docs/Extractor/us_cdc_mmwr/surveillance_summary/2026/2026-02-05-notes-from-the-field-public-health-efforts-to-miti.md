@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Public Health Efforts to Mitigate COVID-19 Transmission During the April 7, 2020 Election - City of Milwaukee, Wisconsin, March 13-May 5, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409068"
 source_layer: us_cdc_mmwr

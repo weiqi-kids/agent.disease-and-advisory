@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Case Definitions Used During the First 6 Months of the 10th Ebola Virus Disease Outbreak in the Democratic Republic of the Congo --- Four Neighboring Countries, August 2018--February 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403090"
 source_layer: us_cdc_mmwr

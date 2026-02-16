@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Patient Characteristics and Product Use Behaviors Among Persons with E-cigarette, or Vaping, Product Use-Associated Lung Injury --- Indiana, June--October 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402817"
 source_layer: "us_cdc_mmwr"

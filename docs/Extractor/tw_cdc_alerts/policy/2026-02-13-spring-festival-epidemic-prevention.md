@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '春節不忘防疫 籲請民眾落實衛生好習慣 聚會、聚餐留意飲食安全及環境整潔 平安健康迎新年'
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/usKez3EUHiaOkMD7vc1qrw?typeId=9"
 source_layer: tw_cdc_alerts

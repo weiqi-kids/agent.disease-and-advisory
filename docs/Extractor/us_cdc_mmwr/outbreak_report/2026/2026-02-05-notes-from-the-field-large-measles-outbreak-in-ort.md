@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Large Measles Outbreak in Orthodox Jewish Communities --- Jerusalem District, Israel, 2018--2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406868"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Thrombocytopenia Associated with Elemental Mercury Poisoning in Two Siblings - Connecticut, July 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737245"
 source_layer: "us_cdc_mmwr"

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Estimated Current and Future Congenital Rubella Syndrome Incidence with and Without Rubella Vaccine Introduction - 19 Countries, 2019-2055"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759129"
 source_layer: "us_cdc_mmwr"

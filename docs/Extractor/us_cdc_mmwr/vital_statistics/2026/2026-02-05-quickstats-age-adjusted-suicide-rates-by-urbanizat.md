@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Age-Adjusted Suicide Rates, by Urbanization Level and Sex - National Vital Statistics System, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731422"
 source_layer: us_cdc_mmwr

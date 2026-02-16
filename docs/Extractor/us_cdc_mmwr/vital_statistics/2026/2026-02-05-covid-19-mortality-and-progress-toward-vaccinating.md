@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "COVID-19 Mortality and Progress Toward Vaccinating Older Adults - World Health Organization, Worldwide, 2020-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733709"
 source_layer: us_cdc_mmwr

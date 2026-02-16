@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Predicted Heart Age Among Cancer Survivors - United States, 2013-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415542"
 source_layer: us_cdc_mmwr

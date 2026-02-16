@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Progress Toward Poliovirus Containment Implementation - Worldwide, 2018-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401889"
 source_layer: us_cdc_mmwr

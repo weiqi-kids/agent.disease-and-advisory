@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: '傳染病威脅週報 2026-W06'
-layout: single
+layout: default
 seo:
   meta:
     title: '傳染病威脅週報 2026-W06 - 英國濕紙巾污染警告、春節旅遊警示、禽流感 H5N1 高峰期 | EpiAlert'

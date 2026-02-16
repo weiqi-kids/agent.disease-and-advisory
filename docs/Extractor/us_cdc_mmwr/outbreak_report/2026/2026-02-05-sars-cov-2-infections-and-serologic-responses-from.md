@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "SARS-CoV-2 Infections and Serologic Responses from a Sample of U.S. Navy Service Members - USS Theodore Roosevelt, April 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407882"
 source_layer: us_cdc_mmwr

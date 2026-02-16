@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Trends in County-Level COVID-19 Incidence in Counties With and Without a Mask Mandate - Kansas, June 1-August 23, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413217"
 source_layer: us_cdc_mmwr

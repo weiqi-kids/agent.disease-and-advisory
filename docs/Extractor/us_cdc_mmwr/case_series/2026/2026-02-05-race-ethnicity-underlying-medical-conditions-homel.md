@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Race/Ethnicity, Underlying Medical Conditions, Homelessness, and Hospitalization Status of Adult Patients with COVID-19 at an Urban Safety-Net Medical Center - Boston, Massachusetts, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408551"
 source_layer: "us_cdc_mmwr"

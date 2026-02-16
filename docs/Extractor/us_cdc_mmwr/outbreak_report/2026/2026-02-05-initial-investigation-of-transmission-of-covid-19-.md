@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Initial Investigation of Transmission of COVID-19 Among Crew Members During Quarantine of a Cruise Ship - Yokohama, Japan, February 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405179"
 source_layer: us_cdc_mmwr

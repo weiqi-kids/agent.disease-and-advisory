@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "COVID-19 Severity and COVID-19-Associated Deaths Among Hospitalized Patients with HIV Infection - Zambia, March-December 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423188"
 source_layer: "us_cdc_mmwr"

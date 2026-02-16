@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Factors Associated with Severe Outcomes Among Immunocompromised Adults Hospitalized for COVID-19 - COVID-NET, 10 States, March 2020-February 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730210"
 source_layer: "us_cdc_mmwr"

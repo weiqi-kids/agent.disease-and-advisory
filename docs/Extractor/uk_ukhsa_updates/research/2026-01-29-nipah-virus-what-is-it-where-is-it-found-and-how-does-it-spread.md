@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Nipah virus: what is it, where is it found and how does it spread?"
 source_url: "https://ukhsa.blog.gov.uk/2026/01/27/nipah-virus-what-is-it-where-is-it-found-and-how-does-it-spread/"
 source_layer: uk_ukhsa_updates

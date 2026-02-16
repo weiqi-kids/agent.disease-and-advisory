@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "State-Specific Severe Joint Pain and Physical Inactivity Among Adults with Arthritis - United States, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397613"
 source_layer: us_cdc_mmwr

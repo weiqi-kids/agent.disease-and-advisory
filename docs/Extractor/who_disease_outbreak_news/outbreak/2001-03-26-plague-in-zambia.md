@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "2001 - Plague in Zambia"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2001_03_26-en"
 source_layer: who_disease_outbreak_news

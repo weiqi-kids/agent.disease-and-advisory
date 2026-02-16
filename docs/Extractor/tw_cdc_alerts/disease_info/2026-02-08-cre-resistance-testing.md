@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: 'CRE抗藥性檢測'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/XE0kRC83F4xbWn42IufaMg"
 source_layer: tw_cdc_alerts

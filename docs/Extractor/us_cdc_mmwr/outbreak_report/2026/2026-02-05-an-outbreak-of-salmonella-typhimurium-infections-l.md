@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "An Outbreak of Salmonella Typhimurium Infections Linked to Ready-To-Eat Tofu in Multiple Health Districts - Ontario, Canada, May-July 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736200"
 source_layer: us_cdc_mmwr

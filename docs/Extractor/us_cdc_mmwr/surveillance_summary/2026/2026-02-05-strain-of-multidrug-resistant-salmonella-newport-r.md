@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Strain of Multidrug-Resistant Salmonella Newport Remains Linked to Travel to Mexico and U.S. Beef Products - United States, 2021-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=738957"
 source_layer: us_cdc_mmwr

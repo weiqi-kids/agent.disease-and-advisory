@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: 'Pneumococcal disease: cases caused by serotypes not covered by PCV13'
-layout: single
+layout: default
 source_url: https://www.gov.uk/government/publications/pneumococcal-disease-caused-by-strains-not-covered-by-prevenar-13-vaccine
 date: 2026-02-10T15:43:59Z
 source_layer: uk_ukhsa_updates

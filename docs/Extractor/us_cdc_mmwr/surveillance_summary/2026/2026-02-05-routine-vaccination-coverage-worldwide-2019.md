@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Routine Vaccination Coverage - Worldwide, 2019 "
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412887"
 source_layer: us_cdc_mmwr

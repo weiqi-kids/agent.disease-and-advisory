@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Level 1 - Global Measles"
 source_url: "https://wwwnc.cdc.gov/travel/notices/level1/measles-globe"
 source_layer: us_travel_health_notices

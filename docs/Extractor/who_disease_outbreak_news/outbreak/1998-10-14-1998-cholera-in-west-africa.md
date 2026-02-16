@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "1998 - Cholera in West Africa"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/1998_10_14-en"
 source_layer: who_disease_outbreak_news

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '馬堡病毒出血熱'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/vLH0m6fNqOMv870WokABDQ"
 source_layer: tw_cdc_alerts

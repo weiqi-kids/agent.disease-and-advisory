@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Influenza A(H3N2) Outbreak Following a School Event - Los Angeles, California, March 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729669"
 source_layer: us_cdc_mmwr

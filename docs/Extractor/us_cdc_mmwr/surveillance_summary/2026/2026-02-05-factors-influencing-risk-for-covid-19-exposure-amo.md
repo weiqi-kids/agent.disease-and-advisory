@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Factors Influencing Risk for COVID-19 Exposure Among Young Adults Aged 18-23 Years - Winnebago County, Wisconsin, March-July 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411987"
 source_layer: us_cdc_mmwr

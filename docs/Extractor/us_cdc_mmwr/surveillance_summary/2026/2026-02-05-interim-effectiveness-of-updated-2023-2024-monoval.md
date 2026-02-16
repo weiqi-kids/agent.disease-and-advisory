@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Interim Effectiveness of Updated 2023-2024 (Monovalent XBB.1.5) COVID-19 Vaccines Against COVID-19-Associated Emergency Department and Urgent Care Encounters and Hospitalization Among Immunocompetent Adults Aged ≥18 Years - VISION and IVY Networks, September 2023-January 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=744685"
 source_layer: us_cdc_mmwr

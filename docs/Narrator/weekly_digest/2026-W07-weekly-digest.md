@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: '傳染病威脅週報 2026-W07'
-layout: single
+layout: default
 seo:
   meta:
     title: '傳染病威脅週報 2026-W07 - 台灣首例麻疹境外移入、百日咳確診 | EpiAlert'

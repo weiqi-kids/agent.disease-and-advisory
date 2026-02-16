@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Level 2 - Yellow Fever in Colombia"
 source_url: "https://wwwnc.cdc.gov/travel/notices/level2/yellow-fever-colombia"
 source_layer: us_travel_health_notices

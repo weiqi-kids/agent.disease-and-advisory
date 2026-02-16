@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Description of Eschar-Associated Rickettsial Diseases Using Passive Surveillance Data --- United States, 2010--2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402975"
 source_layer: us_cdc_mmwr

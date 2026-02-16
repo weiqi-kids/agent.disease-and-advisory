@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '弓形蟲感染症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/dnJViM3tqyy13hLh2n_s4w"
 source_layer: tw_cdc_alerts

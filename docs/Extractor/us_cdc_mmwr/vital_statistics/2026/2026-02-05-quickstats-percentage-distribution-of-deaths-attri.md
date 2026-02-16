@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Percentage Distribution of Deaths Attributed to Excessive Cold or Hypothermia, by Month - United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758237"
 source_layer: us_cdc_mmwr

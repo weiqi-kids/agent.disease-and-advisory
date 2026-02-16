@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '肺炎黴漿菌感染症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/3RrXho4Rz3cqtHUGHpVVhw"
 source_layer: tw_cdc_alerts

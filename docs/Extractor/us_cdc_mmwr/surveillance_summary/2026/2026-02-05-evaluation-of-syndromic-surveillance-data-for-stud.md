@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Evaluation of Syndromic Surveillance Data for Studying Harmful Algal Bloom-Associated Illnesses - United States, 2017-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426419"
 source_layer: us_cdc_mmwr

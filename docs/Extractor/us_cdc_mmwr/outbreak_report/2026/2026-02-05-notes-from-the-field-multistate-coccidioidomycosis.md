@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Multistate Coccidioidomycosis Outbreak in U.S. Residents Returning from Community Service Trips to Baja California, Mexico --- July--August 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397317"
 source_layer: us_cdc_mmwr

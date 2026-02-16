@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Reduced Risk for Mpox After Receipt of 1 or 2 Doses of JYNNEOS Vaccine Compared with Risk Among Unvaccinated Persons - 43 U.S. Jurisdictions, July 31-October 1, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733021"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Dietary and Physical Activity Behaviors in 2021 and Changes from 2019 to 2021 Among High School Students - Youth Risk Behavior Survey, United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734752"
 source_layer: us_cdc_mmwr

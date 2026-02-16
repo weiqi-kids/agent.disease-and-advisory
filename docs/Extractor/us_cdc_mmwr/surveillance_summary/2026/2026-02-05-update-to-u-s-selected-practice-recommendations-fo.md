@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Update to U.S. Selected Practice Recommendations for Contraceptive Use: Self-Administration of Subcutaneous Depot Medroxyprogesterone Acetate"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=422739"
 source_layer: us_cdc_mmwr

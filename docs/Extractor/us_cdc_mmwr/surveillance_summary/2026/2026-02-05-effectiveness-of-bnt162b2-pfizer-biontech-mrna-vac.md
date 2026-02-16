@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Effectiveness of BNT162b2 (Pfizer-BioNTech) mRNA Vaccination Against Multisystem Inflammatory Syndrome in Children Among Persons Aged 12-18 Years - United States, July-December 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=478301"
 source_layer: us_cdc_mmwr

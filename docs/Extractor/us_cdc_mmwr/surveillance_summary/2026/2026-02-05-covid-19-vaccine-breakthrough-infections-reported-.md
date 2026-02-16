@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "COVID-19 Vaccine Breakthrough Infections Reported to CDC - United States, January 1-April 30, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=422857"
 source_layer: us_cdc_mmwr

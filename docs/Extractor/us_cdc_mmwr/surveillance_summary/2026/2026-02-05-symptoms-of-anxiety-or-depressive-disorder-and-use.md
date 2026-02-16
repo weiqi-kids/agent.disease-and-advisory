@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Symptoms of Anxiety or Depressive Disorder and Use of Mental Health Care Among Adults During the COVID-19 Pandemic - United States, August 2020-February 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=419353"
 source_layer: us_cdc_mmwr

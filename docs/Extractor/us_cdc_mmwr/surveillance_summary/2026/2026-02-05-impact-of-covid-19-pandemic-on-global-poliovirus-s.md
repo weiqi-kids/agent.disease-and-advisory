@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Impact of COVID-19 Pandemic on Global Poliovirus Surveillance"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415351"
 source_layer: us_cdc_mmwr

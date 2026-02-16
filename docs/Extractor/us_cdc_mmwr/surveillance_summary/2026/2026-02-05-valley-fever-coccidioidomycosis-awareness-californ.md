@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Valley Fever (Coccidioidomycosis) Awareness - California, 2016-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412225"
 source_layer: us_cdc_mmwr

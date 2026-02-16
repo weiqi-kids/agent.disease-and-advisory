@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "近期氣溫多變 疾病傳播風險升高 籲請民眾落實衛生好習慣 並儘速接種公費流感新冠疫苗"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/MrpCaX_PcFlHRTbpq-kWtA?typeId=9"
 source_layer: tw_cdc_alerts

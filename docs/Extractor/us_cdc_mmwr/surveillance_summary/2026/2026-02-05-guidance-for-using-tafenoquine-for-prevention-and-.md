@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Guidance for Using Tafenoquine for Prevention and Antirelapse Therapy for Malaria - United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402600"
 source_layer: us_cdc_mmwr

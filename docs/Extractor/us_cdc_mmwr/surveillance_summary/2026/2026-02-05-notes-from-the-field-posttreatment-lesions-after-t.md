@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Posttreatment Lesions After Tecovirimat Treatment for Mpox - New York City, August-September 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734730"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Updated Recommendations from the Advisory Committee on Immunization Practices for Use of the Janssen (Johnson & Johnson) COVID-19 Vaccine After Reports of Thrombosis with Thrombocytopenia Syndrome Among Vaccine Recipients - United States, April 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421416"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Contact Tracing for Mpox Clade II Cases Associated with Air Travel - United States, July 2021-August 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752412"
 source_layer: "us_cdc_mmwr"

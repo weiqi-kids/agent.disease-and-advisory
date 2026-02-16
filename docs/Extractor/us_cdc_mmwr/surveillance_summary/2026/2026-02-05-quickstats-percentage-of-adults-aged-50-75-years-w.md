@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Percentage of Adults Aged 50-75 Years Who Met Colorectal Screening Recommendations - National Health Interview Survey, United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405268"
 source_layer: us_cdc_mmwr

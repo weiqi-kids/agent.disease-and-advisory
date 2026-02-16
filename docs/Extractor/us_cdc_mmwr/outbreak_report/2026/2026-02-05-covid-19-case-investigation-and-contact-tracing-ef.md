@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "COVID-19 Case Investigation and Contact Tracing Efforts from Health Departments - United States, June 25-July 24, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415830"
 source_layer: us_cdc_mmwr

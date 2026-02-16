@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "SARS-CoV-2 Serology and Self-Reported Infection Among Adults - National Health and Nutrition Examination Survey, United States, August 2021-May 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732945"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "School-Based Interventions to Increase Student COVID-19 Vaccination Coverage in Public School Populations with Low Coverage - Seattle, Washington, December 2021-June 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734215"
 source_layer: us_cdc_mmwr

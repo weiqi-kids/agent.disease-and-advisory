@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Ceftriaxone-Resistant Gonorrhea - China, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=745863"
 source_layer: us_cdc_mmwr

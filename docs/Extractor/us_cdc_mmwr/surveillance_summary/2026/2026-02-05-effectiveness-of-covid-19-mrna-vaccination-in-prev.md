@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Effectiveness of COVID-19 mRNA Vaccination in Preventing COVID-19-Associated Hospitalization Among Adults with Previous SARS-CoV-2 Infection - United States, June 2021-February 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=714930"
 source_layer: us_cdc_mmwr

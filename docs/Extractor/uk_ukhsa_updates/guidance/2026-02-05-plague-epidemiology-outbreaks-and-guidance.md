@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Plague: epidemiology, outbreaks and guidance"
 source_url: "https://www.gov.uk/guidance/plague-epidemiology-outbreaks-and-guidance"
 source_layer: uk_ukhsa_updates

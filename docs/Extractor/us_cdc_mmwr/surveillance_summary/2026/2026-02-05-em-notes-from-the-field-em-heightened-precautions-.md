@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "<em>Notes from the Field</em>: Heightened Precautions for Imported Dogs Vaccinated with Potentially Ineffective Rabies Vaccine - United States, August 2021−April 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752014"
 source_layer: us_cdc_mmwr

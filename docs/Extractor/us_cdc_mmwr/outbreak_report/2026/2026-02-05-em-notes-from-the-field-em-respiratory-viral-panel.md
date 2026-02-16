@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "<em>Notes from the Field</em>: Respiratory Viral Panel as an Early Diagnostic Tool for Neonatal Enterovirus Infection - San Diego, California 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=750878"
 source_layer: us_cdc_mmwr

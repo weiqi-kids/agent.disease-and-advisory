@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Hydroxychloroquine and Chloroquine Prescribing Patterns by Provider Specialty Following Initial Reports of Potential Benefit for COVID-19 Treatment - United States, January-June 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410950"
 source_layer: us_cdc_mmwr

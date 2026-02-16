@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Percentage of Total Deaths, by Age and Hispanic Origin and Race - United States, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731599"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '人芽囊原蟲感染'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/kT5kIYks2DR1G6JqaeKauQ"
 source_layer: tw_cdc_alerts

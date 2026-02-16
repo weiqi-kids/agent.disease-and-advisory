@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Time from Start of Quarantine to SARS-CoV-2 Positive Test Among Quarantined College and University Athletes - 17 States, June-October 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415543"
 source_layer: us_cdc_mmwr

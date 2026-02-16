@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Workplace Secondhand Tobacco Smoke Exposure Among U.S. Nonsmoking Workers, 2015 "
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399571"
 source_layer: us_cdc_mmwr

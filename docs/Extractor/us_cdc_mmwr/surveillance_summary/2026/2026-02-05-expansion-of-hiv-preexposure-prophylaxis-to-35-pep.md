@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Expansion of HIV Preexposure Prophylaxis to 35 PEPFAR-Supported Early Program Adopters, October 2016-September 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403854"
 source_layer: us_cdc_mmwr

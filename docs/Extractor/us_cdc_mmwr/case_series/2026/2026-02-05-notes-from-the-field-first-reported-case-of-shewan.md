@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: First Reported Case of Shewanella haliotis in the Region of the Americas - New York, December 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402874"
 source_layer: "us_cdc_mmwr"

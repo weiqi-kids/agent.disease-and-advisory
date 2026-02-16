@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Guidance: Hepatitis B household contract tracing pilot"
 source_url: "https://www.gov.uk/government/publications/hepatitis-b-household-contract-tracing-pilot"
 source_layer: uk_ukhsa_updates

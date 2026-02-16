@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Information for Persons Who Are Immunocompromised Regarding Prevention and Treatment of SARS-CoV-2 Infection in the Context of Currently Circulating Omicron Sublineages - United States, January 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733632"
 source_layer: us_cdc_mmwr

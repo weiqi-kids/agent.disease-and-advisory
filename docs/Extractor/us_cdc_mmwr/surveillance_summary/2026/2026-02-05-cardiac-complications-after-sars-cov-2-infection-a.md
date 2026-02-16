@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Cardiac Complications After SARS-CoV-2 Infection and mRNA COVID-19 Vaccination - PCORnet, United States, January 2021-January 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=675051"
 source_layer: us_cdc_mmwr

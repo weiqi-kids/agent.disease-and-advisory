@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "疾病管制署延長擴大公費流感抗病毒藥劑使用對象「有類流感症狀,且具下列身分之流感高傳播族群」之適用期限至114年11月15日止,籲請醫師善用公費藥劑,共同防治流感(疾病管制署致醫界通函第591號)"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/PBhppo4sqW-yAXVmxgulOQ?typeId=48"
 source_layer: tw_cdc_alerts

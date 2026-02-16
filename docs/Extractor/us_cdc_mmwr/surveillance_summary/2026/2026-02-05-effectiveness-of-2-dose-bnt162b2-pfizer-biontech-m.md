@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Effectiveness of 2-Dose BNT162b2 (Pfizer BioNTech) mRNA Vaccine in Preventing SARS-CoV-2 Infection Among Children Aged 5-11 Years and Adolescents Aged 12-15 Years - PROTECT Cohort, July 2021-February 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=603187"
 source_layer: us_cdc_mmwr

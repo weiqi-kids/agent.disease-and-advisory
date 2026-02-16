@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Detection of Real-Time Changes in Direction of COVID-19 Transmission Using National- and State-Level Epidemic Trends Based on Rt Estimates - United States Overall and New Mexico, April-October 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=754832"
 source_layer: us_cdc_mmwr

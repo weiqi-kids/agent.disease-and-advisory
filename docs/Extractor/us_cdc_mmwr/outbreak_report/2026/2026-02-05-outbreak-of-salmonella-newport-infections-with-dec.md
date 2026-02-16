@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Outbreak of Salmonella Newport Infections with Decreased Susceptibility to Azithromycin Linked to Beef Obtained in the United States and Soft Cheese Obtained in Mexico --- United States, 2018-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401260"
 source_layer: us_cdc_mmwr

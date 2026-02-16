@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Emergency Department Visits for Bicycle-Related Traumatic Brain Injuries Among Children and Adults - United States, 2009-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421983"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Decline in Vaccination Coverage by Age 24 Months and Vaccination Inequities Among Children Born in 2020 and 2021 - National Immunization Survey-Child, United States, 2021-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752792"
 source_layer: us_cdc_mmwr

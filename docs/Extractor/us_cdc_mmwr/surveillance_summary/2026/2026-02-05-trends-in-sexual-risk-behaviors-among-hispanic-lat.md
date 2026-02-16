@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Trends in Sexual Risk Behaviors Among Hispanic/Latino Men Who Have Sex with Men - 19 Urban Areas, 2011-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402089"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Changes in Suicide Rates - United States, 2019 and 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=560388"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Demographic and Social Factors Associated with COVID-19 Vaccination Initiation Among Adults Aged ≥65 Years - United States, December 14, 2020-April 10, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421870"
 source_layer: us_cdc_mmwr

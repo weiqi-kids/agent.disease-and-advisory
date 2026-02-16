@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Guidance: Influenza, COVID-19 and other respiratory viruses: sources of surveillance data"
 source_url: "https://www.gov.uk/government/publications/sources-of-surveillance-data-for-influenza-covid-19-and-other-respiratory-viruses"
 source_layer: uk_ukhsa_updates

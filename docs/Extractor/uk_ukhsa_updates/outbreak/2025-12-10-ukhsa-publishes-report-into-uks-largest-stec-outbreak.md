@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "UKHSA publishes report into UK's largest STEC outbreak"
 source_url: "https://www.gov.uk/government/news/ukhsa-publishes-report-into-uks-largest-stec-outbreak"
 source_layer: uk_ukhsa_updates

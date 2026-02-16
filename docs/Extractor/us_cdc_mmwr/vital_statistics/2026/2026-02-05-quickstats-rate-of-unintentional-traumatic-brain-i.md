@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Rate of Unintentional Traumatic Brain Injury (TBI)-Related Deaths Among Persons Aged ≤24 Years, by Age Group - National Vital Statistics System, United States, 1999-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412047"
 source_layer: us_cdc_mmwr

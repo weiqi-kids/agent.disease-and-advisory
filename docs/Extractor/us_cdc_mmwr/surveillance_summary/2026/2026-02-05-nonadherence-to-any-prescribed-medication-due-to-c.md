@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Nonadherence to Any Prescribed Medication Due to Costs Among Adults with HIV Infection --- United States, 2016--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402815"
 source_layer: us_cdc_mmwr

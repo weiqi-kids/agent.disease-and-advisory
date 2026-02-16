@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Quickstats: Percentage of Adults Aged 18-26 Years Who Ever Received a Human Papillomavirus Vaccine, by Race and Hispanic Origin and Sex - National Health Interview Survey, United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=422927"
 source_layer: us_cdc_mmwr

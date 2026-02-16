@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Unexpected Hepatitis B Virus Infection After Liver Transplantation - United States, 2014-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=424238"
 source_layer: us_cdc_mmwr

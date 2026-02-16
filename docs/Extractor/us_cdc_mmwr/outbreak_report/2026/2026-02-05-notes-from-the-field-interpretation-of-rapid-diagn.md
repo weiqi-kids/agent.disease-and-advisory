@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Interpretation of Rapid Diagnostic Tests for Leptospirosis During a Dengue Outbreak - Yap State, Federated States of Micronesia, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413668"
 source_layer: us_cdc_mmwr

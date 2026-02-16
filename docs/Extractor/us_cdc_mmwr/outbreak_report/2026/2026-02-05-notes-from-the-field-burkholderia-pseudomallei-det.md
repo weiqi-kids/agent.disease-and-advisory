@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Burkholderia pseudomallei Detected in a Raccoon Carcass Linked to a Multistate Aromatherapy-Associated Melioidosis Outbreak - Texas, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733129"
 source_layer: us_cdc_mmwr

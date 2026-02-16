@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Racial and Ethnic Disparities in COVID-19 Incidence by Age, Sex, and Period Among Persons Aged <25 Years - 16 U.S. Jurisdictions, January 1-December 31, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=418389"
 source_layer: us_cdc_mmwr

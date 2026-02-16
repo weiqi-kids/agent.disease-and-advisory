@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: " Laboratory Modeling of SARS-CoV-2 Exposure Reduction Through Physically Distanced Seating in Aircraft Cabins Using Bacteriophage Aerosol - November 2020 "
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=420496"
 source_layer: us_cdc_mmwr

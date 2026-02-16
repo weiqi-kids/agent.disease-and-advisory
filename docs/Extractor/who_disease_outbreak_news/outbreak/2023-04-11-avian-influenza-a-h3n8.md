@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Avian Influenza A(H3N8)"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2023-DON456"
 source_layer: who_disease_outbreak_news

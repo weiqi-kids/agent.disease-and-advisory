@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Interim Recommendations for Use of Bivalent mRNA COVID-19 Vaccines for Persons Aged ≥6 Months - United States, April 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735508"
 source_layer: us_cdc_mmwr

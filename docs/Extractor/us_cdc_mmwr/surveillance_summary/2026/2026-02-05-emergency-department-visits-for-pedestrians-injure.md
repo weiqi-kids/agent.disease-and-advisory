@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Emergency Department Visits for Pedestrians Injured in Motor Vehicle Traffic Crashes - United States, January 2021-December 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=747495"
 source_layer: us_cdc_mmwr

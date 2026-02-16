@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Cruise Ship Norovirus Outbreak Associated with Person-to-Person Transmission - United States Jurisdiction, January 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736009"
 source_layer: us_cdc_mmwr

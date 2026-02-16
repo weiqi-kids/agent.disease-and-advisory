@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Percentage of Current Cigarette Smokers Aged ≥18 Years Who Received Advice from a Health Professional To Quit Smoking, by Sex and Age Group - United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=750197"
 source_layer: us_cdc_mmwr

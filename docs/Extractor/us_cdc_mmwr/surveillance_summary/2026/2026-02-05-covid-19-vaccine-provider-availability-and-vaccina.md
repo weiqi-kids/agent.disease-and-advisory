@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "COVID-19 Vaccine Provider Availability and Vaccination Coverage Among Children Aged 5-11 Years - United States, November 1, 2021-April 25, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730125"
 source_layer: us_cdc_mmwr

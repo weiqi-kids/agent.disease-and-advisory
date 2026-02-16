@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Investigation of a SARS-CoV-2 B.1.1.529 (Omicron) Variant Cluster - Nebraska, November-December 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=470631"
 source_layer: us_cdc_mmwr

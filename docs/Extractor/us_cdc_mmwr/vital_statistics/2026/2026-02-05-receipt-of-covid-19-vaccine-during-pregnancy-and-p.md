@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Receipt of COVID-19 Vaccine During Pregnancy and Preterm or Small-for-Gestational-Age at Birth - Eight Integrated Health Care Organizations, United States, December 15, 2020-July 22, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=475844"
 source_layer: us_cdc_mmwr

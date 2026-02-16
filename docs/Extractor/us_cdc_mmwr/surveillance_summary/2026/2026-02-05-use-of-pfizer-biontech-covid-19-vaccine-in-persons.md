@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Use of Pfizer-BioNTech COVID-19 Vaccine in Persons Aged ≥16 Years: Recommendations of the Advisory Committee on Immunization Practices - United States, September 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427002"
 source_layer: us_cdc_mmwr

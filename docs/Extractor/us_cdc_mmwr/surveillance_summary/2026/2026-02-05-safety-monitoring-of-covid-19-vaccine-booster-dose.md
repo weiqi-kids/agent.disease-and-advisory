@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Safety Monitoring of COVID-19 Vaccine Booster Doses Among Adults - United States, September 22, 2021-February 6, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=529035"
 source_layer: us_cdc_mmwr

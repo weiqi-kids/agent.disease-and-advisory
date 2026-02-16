@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Multipathogen Respiratory Virus Testing Among Primary and Secondary School Students and Staff Members in a Large Metropolitan School District - Missouri, November 2, 2022-April 19, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735813"
 source_layer: us_cdc_mmwr

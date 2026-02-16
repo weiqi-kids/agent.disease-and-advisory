@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Percentage Distribution of Cigarette Smoking Status Among Current Adult E-Cigarette Users, by Age Group - National Health Interview Survey, United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734125"
 source_layer: us_cdc_mmwr

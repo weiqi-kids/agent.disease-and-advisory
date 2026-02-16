@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Progress Toward Poliomyelitis Eradication --- Nigeria, January 2018--May 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=400989"
 source_layer: "us_cdc_mmwr"

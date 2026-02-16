@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Surveillance Summaries: Population-Based Active Surveillance for Culture-Confirmed Candidemia - Four Sites, United States, 2012-2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401884"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Tuberculosis notifications in England stabilise in 2025"
 source_url: "https://www.gov.uk/government/news/tuberculosis-notifications-in-england-stabilise-in-2025"
 source_layer: uk_ukhsa_updates

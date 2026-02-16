@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Telework Before Illness Onset Among Symptomatic Adults Aged ≥18 Years With and Without COVID-19 in 11 Outpatient Health Care Facilities - United States, July 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412718"
 source_layer: "us_cdc_mmwr"

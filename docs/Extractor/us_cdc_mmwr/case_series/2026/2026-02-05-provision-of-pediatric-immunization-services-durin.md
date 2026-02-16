@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Provision of Pediatric Immunization Services During the COVID-19 Pandemic: an Assessment of Capacity Among Pediatric Immunization Providers Participating in the Vaccines for Children Program - United States, May 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408550"
 source_layer: "us_cdc_mmwr"

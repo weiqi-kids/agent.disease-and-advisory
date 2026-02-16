@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "屈公病"
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/NvKXcB74Wh3-1vGaYMigDw"
 source_layer: tw_cdc_alerts

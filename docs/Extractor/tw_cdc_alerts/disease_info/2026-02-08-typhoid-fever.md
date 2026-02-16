@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '傷寒'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/wp-kiiztSq_5cFd6H96f9w"
 source_layer: tw_cdc_alerts

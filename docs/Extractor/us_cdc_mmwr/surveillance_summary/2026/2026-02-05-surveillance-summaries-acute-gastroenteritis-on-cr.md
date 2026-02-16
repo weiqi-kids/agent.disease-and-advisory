@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Surveillance Summaries: Acute Gastroenteritis on Cruise Ships - Maritime Illness Database and Reporting System, United States, 2006-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427080"
 source_layer: us_cdc_mmwr

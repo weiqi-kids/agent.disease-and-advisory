@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "1998 - Yellow fever in Brazil, Update"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/1998_10_22a-en"
 source_layer: who_disease_outbreak_news

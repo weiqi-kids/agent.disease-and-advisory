@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Evaluation of a Combined Text Messaging and Online Survey Protocol for Giardiasis Case Investigation - Colorado, September 2023-May 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759932"
 source_layer: us_cdc_mmwr

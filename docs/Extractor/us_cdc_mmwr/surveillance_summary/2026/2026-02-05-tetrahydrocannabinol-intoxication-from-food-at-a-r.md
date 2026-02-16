@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Tetrahydrocannabinol Intoxication from Food at a Restaurant - Wisconsin, October 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759968"
 source_layer: us_cdc_mmwr

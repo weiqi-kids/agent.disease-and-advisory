@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Low SARS-CoV-2 Transmission in Elementary Schools - Salt Lake County, Utah, December 3, 2020-January 31, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=418813"
 source_layer: us_cdc_mmwr

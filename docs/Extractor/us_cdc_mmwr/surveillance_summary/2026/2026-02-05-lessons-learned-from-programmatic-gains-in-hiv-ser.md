@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Lessons Learned from Programmatic Gains in HIV Service Delivery During the COVID-19 Pandemic - 41 PEPFAR-Supported Countries, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=642931"
 source_layer: us_cdc_mmwr

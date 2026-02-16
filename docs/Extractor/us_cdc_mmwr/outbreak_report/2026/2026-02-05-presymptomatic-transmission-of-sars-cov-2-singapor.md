@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Presymptomatic Transmission of SARS-CoV-2 - Singapore, January 23-March 16, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405787"
 source_layer: us_cdc_mmwr

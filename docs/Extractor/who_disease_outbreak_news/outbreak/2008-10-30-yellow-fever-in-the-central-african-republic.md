@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Yellow fever in the Central African Republic"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2008_10_30-en"
 source_layer: who_disease_outbreak_news

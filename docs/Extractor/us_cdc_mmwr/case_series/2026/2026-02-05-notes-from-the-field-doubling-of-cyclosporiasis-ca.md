@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Notes from the Field: Doubling of Cyclosporiasis Cases Partially Attributable to a Salad Kit - Florida, 2021-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735751"
 source_layer: "us_cdc_mmwr"

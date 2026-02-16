@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '西尼羅熱'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/JZfpaa5JOvYAmIEUuBMauA"
 source_layer: tw_cdc_alerts

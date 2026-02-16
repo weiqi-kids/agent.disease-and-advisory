@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: '新型A型流感'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/8Yt_gKjz-BEr3QJZGOa0fQ"
 source_layer: tw_cdc_alerts

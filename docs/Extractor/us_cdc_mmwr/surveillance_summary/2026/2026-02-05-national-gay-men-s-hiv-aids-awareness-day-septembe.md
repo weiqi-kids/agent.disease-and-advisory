@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "National Gay Men's HIV/AIDS Awareness Day - September 27, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401790"
 source_layer: us_cdc_mmwr

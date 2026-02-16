@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Update 88 – New cases reported in China and Japan"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2003_06_25-en"
 source_layer: who_disease_outbreak_news

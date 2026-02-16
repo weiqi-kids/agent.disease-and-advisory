@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "SUPPLEMENT: Adult Caretaker Engagement and School Connectedness and Association with Substance Use, Indicators of Emotional Well-Being and Suicide Risk, and Experiences with Violence Among American Indian or Alaska Native High School Students - Youth Risk Behavior Survey, United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753095"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Effectiveness of Maternal Vaccination with mRNA COVID-19 Vaccine During Pregnancy Against COVID-19-Associated Hospitalization in Infants Aged <6 Months - 17 States, July 2021-January 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=536908"
 source_layer: us_cdc_mmwr

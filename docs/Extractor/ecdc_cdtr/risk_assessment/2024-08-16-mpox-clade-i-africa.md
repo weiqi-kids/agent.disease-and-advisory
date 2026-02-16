@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: Risk assessment for the EU/EEA of the mpox epidemic caused by monkeypox virus clade I in affected African countries
 source_url: https://www.ecdc.europa.eu/en/publications-data/risk-assessment-mpox-epidemic-monkeypox-virus-clade-i-africa
 date: '2024-08-16'

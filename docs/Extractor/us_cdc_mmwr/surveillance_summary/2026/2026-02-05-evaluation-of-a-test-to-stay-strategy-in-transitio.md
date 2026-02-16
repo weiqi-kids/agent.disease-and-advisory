@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Evaluation of a Test to Stay Strategy in Transitional Kindergarten Through Grade 12 Schools - Los Angeles County, California, August 16-October 31, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=463397"
 source_layer: us_cdc_mmwr

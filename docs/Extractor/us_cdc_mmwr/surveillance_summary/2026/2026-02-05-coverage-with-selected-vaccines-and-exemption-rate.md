@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Coverage with Selected Vaccines and Exemption Rates Among Children in Kindergarten - United States, 2023-24 School Year"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753556"
 source_layer: us_cdc_mmwr

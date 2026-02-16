@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Threefold Increases in Population HIV Viral Load Suppression Among Men and Young Adults --- Bukoba Municipal Council, Tanzania, 2014--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401052"
 source_layer: us_cdc_mmwr

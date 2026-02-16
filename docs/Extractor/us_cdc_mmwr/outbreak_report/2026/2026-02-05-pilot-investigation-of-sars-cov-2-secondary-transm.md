@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Pilot Investigation of SARS-CoV-2 Secondary Transmission in Kindergarten Through Grade 12 Schools Implementing Mitigation Strategies - St. Louis County and City of Springfield, Missouri, December 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=418814"
 source_layer: us_cdc_mmwr

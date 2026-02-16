@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: 'VISA/VRSA抗藥性檢測'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/kZuxGtL8uJu77TQHcyB2DA"
 source_layer: tw_cdc_alerts

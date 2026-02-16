@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Possible Exposures Among Mpox Patients Without Reported Male-to-Male Sexual Contact - Six U.S. Jurisdictions, November 1-December 14, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736547"
 source_layer: "us_cdc_mmwr"

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Update on Vaccine-Derived Poliovirus Outbreaks - Worldwide, January 2018-June 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402507"
 source_layer: us_cdc_mmwr

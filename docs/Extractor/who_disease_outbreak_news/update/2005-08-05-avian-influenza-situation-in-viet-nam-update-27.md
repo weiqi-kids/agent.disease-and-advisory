@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "Avian influenza – situation in Viet Nam – update 27"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2005_08_05-en"
 source_layer: who_disease_outbreak_news

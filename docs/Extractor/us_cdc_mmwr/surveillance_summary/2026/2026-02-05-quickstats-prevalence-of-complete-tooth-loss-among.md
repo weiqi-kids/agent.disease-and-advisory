@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: single
+layout: default
 title: "QuickStats: Prevalence of Complete Tooth Loss Among Adults Aged ≥65 Years, by Federal Poverty Level - National Health and Nutrition Examination Survey, United States, 1999-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411461"
 source_layer: us_cdc_mmwr
