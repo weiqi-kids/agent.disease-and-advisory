@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: 'EARLY RELEASE: Update: Characteristics of Symptomatic Women of Reproductive
   Age with Laboratory-Confirmed SARS-CoV-2 Infection by Pregnancy Status - United
   States, January 22-October 3, 2020'

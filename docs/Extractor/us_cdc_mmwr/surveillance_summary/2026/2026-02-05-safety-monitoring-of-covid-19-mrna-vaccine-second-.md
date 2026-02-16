@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Safety Monitoring of COVID-19 mRNA Vaccine Second Booster Doses Among Adults Aged ≥50 Years - United States, March 29, 2022-July 10, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730736"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Guidance for Implementing COVID-19 Prevention Strategies in the Context of Varying Community Transmission Levels and Vaccination Coverage"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=425127"
 source_layer: us_cdc_mmwr

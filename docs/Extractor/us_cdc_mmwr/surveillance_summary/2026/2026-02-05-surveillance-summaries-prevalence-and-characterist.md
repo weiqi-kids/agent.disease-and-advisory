@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "SURVEILLANCE SUMMARIES: Prevalence and Characteristics of Autism Spectrum Disorder Among Children Aged 8 Years - Autism and Developmental Disabilities Monitoring Network, 11 Sites, United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=453436"
 source_layer: us_cdc_mmwr

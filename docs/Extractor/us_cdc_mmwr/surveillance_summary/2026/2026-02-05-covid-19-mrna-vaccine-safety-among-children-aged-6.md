@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "COVID-19 mRNA Vaccine Safety Among Children Aged 6 Months-5 Years - United States, June 18, 2022-August 21, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731270"
 source_layer: us_cdc_mmwr

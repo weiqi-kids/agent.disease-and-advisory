@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "West Nile virus - United States of America"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2002DON194"
 source_layer: who_disease_outbreak_news

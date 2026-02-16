@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Demographic Characteristics of Persons Vaccinated During the First Month of the COVID-19 Vaccination Program - United States, December 14, 2020-January 14, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416286"
 source_layer: us_cdc_mmwr

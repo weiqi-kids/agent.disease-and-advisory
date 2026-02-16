@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Travel-Associated Measles in a Person Born Before 1957 - Pinellas County, Florida, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411576"
 source_layer: "us_cdc_mmwr"

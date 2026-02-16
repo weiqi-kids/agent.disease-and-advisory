@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Outbreak of Escherichia coli O157:H7 Infections Linked to Organic Walnuts - Washington and California, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=761768"
 source_layer: us_cdc_mmwr

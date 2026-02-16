@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Coverage with Selected Vaccines and Exemption from School Vaccine Requirements Among Children in Kindergarten - United States, 2022-23 School Year"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=738956"
 source_layer: us_cdc_mmwr

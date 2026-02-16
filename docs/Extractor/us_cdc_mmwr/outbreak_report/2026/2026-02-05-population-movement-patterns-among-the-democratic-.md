@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Population Movement Patterns Among the Democratic Republic of the Congo, Rwanda, and Uganda During an Outbreak of Ebola Virus Disease: Results from Community Engagement in Two Districts --- Uganda, March 201"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403089"
 source_layer: us_cdc_mmwr

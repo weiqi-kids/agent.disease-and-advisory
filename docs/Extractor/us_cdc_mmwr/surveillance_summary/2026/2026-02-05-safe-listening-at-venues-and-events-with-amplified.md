@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Safe Listening at Venues and Events with Amplified Music - United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734381"
 source_layer: us_cdc_mmwr

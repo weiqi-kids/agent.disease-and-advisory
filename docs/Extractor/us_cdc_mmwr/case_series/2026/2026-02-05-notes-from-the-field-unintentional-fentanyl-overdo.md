@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Unintentional Fentanyl Overdoses Among Persons Who Thought They Were Snorting Cocaine --- Fresno, California, January 7, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401130"
 source_layer: "us_cdc_mmwr"

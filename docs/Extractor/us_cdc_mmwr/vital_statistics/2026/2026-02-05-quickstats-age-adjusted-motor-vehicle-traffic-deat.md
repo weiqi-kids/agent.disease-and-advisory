@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Age-Adjusted Motor Vehicle Traffic Death Rates, by Urban-Rural Status and Sex --- National Vital Statistics System, United States, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399475"
 source_layer: us_cdc_mmwr

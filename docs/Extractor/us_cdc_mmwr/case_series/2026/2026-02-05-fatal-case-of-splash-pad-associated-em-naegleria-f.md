@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Fatal Case of Splash Pad-Associated <em>Naegleria fowleri</em> Meningoencephalitis - Pulaski County, Arkansas, September 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758502"
 source_layer: "us_cdc_mmwr"

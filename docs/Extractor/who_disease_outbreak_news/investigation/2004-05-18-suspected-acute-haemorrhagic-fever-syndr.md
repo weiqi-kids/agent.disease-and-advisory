@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Suspected acute haemorrhagic fever syndrome - South Sudan"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2004DON140"
 source_layer: who_disease_outbreak_news

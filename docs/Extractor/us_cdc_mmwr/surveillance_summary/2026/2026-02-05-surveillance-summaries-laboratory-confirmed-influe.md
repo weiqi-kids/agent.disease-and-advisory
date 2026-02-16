@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "SURVEILLANCE SUMMARIES: Laboratory-Confirmed Influenza-Associated Hospitalizations Among Children and Adults - Influenza Hospitalization Surveillance Network, United States, 2010-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=754002"
 source_layer: us_cdc_mmwr

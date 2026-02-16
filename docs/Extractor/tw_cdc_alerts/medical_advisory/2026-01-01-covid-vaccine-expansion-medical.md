@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "自115年1月1日起,公費新冠疫苗擴大全民接種,籲請醫界朋友鼓勵滿6個月以上尚未接種民眾踴躍施打(疾病管制署致醫界通函第594號)"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/9qYljrp4-HVOCx6TjbboMA?typeId=48"
 source_layer: tw_cdc_alerts

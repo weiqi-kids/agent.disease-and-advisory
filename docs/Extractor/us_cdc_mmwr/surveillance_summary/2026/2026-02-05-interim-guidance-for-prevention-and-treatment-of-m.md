@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Interim Guidance for Prevention and Treatment of Monkeypox in Persons with HIV Infection - United States, August 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730844"
 source_layer: us_cdc_mmwr

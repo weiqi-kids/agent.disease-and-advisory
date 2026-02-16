@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Vital Signs: Prescription Opioid Pain Reliever Use During Pregnancy - 34 U.S. Jurisdictions, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408720"
 source_layer: "us_cdc_mmwr"

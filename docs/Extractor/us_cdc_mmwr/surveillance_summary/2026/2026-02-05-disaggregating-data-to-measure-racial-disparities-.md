@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Disaggregating Data to Measure Racial Disparities in COVID-19 Outcomes and Guide Community Response - Hawaii, March 1, 2020-February 28, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426744"
 source_layer: us_cdc_mmwr

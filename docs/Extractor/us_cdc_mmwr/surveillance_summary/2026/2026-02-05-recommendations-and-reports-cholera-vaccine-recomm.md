@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "RECOMMENDATIONS AND REPORTS: Cholera Vaccine: Recommendations of the Advisory Committee on Immunization Practices, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731869"
 source_layer: us_cdc_mmwr

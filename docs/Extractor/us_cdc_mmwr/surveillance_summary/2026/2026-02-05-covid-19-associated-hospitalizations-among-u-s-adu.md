@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "COVID-19-Associated Hospitalizations Among U.S. Adults Aged ≥65 Years - COVID-NET, 13 States, January-August 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737730"
 source_layer: us_cdc_mmwr

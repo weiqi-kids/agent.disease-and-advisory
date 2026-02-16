@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Use of COVIDTests.gov At-Home Test Kits Among Adults in a National Household Probability Sample - United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734644"
 source_layer: us_cdc_mmwr

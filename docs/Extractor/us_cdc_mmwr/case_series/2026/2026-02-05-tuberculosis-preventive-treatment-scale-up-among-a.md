@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Tuberculosis Preventive Treatment Scale-Up Among Antiretroviral Therapy Patients - 16 Countries Supported by the U.S. President's Emergency Plan for AIDS Relief, 2017-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405588"
 source_layer: "us_cdc_mmwr"

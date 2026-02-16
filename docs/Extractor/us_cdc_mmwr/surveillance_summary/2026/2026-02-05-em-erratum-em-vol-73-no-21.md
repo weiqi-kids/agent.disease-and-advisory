@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "<em>Erratum</em>: Vol. 73, No. 21"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=750880"
 source_layer: us_cdc_mmwr

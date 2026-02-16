@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Percentage of Adults Who Volunteered or Worked in a Hospital, Medical Clinic, Doctor's Office, Dentist's Office, Nursing Home, or Some Other Health Care Facility, by Sex, Race, and Hispanic Origin - National Health Interview Survey, United States, 2016-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408726"
 source_layer: us_cdc_mmwr

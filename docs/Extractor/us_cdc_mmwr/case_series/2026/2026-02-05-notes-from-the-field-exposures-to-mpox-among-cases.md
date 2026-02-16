@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Exposures to Mpox Among Cases in Children Aged ≤12 Years - United States, September 25-December 31, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735331"
 source_layer: "us_cdc_mmwr"

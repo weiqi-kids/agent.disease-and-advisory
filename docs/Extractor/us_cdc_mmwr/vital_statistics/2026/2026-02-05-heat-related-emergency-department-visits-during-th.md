@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Heat-Related Emergency Department Visits During the Northwestern Heat Wave - United States, June 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=424636"
 source_layer: us_cdc_mmwr

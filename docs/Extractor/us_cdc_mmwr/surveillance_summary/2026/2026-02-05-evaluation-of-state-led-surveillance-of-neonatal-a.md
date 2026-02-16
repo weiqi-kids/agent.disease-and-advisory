@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Evaluation of State-Led Surveillance of Neonatal Abstinence Syndrome - Six U.S. States, 2018-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=483508"
 source_layer: us_cdc_mmwr

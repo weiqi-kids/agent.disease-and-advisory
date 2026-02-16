@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Increase in Diagnoses of Human Parvovirus B19-Associated Aplastic Crises in Children and Adolescents with Sickle Cell Disease - Atlanta, Georgia, December 14, 2023-September 30, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=755019"
 source_layer: us_cdc_mmwr

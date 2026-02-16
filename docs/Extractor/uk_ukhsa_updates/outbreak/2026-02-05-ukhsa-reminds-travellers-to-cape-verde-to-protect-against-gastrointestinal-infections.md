@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "UKHSA reminds travellers to Cape Verde to protect against gastrointestinal infections"
 source_url: "https://www.gov.uk/government/news/ukhsa-reminds-travellers-to-cape-verde-to-protect-against-gastrointestinal-infections"
 source_layer: uk_ukhsa_updates

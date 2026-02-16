@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Poliomyelitis in Angola - Update"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2005_08_25-en"
 source_layer: who_disease_outbreak_news

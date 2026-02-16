@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "SURVEILLANCE SUMMARIES: Progress Toward Tuberculosis Elimination and Tuberculosis Program Performance - National Tuberculosis Indicators Project, 2016-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=749453"
 source_layer: us_cdc_mmwr

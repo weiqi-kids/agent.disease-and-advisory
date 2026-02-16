@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Primary Indicators to Systematically Monitor COVID-19 Mitigation and Response - Kentucky, May 19-July 15, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410456"
 source_layer: us_cdc_mmwr

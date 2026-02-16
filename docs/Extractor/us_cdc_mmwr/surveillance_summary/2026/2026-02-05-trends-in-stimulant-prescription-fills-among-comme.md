@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Trends in Stimulant Prescription Fills Among Commercially Insured Children and Adults - United States, 2016-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734379"
 source_layer: us_cdc_mmwr

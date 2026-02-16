@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Epidemiologic Characteristics of SARS-CoV-2 Recombinant Variant XBB.1.5 - New York City, November 1, 2022-January 4, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733912"
 source_layer: us_cdc_mmwr

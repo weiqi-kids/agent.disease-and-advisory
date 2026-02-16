@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Racial and Ethnic Differences in Social Determinants of Health and Health-Related Social Needs Among Adults - Behavioral Risk Factor Surveillance System, United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=744993"
 source_layer: us_cdc_mmwr

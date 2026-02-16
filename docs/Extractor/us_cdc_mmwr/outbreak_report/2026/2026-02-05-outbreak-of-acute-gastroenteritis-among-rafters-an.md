@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Outbreak of Acute Gastroenteritis Among Rafters and Backpackers in the Backcountry of Grand Canyon National Park, April-June 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731761"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Prevalence of Underlying Medical Conditions Among Selected Essential Critical Infrastructure Workers - Behavioral Risk Factor Surveillance System, 31 States, 2017-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411249"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Influenza Activity and Composition of the 2022-23 Influenza Vaccine - United States, 2021-22 Season"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730553"
 source_layer: us_cdc_mmwr

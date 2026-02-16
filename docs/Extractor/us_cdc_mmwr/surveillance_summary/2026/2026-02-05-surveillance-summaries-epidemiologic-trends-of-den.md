@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "SURVEILLANCE SUMMARIES: Epidemiologic Trends of Dengue in U.S. Territories, 2010-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735114"
 source_layer: us_cdc_mmwr

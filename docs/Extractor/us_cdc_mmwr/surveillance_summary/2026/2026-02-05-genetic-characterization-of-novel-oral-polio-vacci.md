@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Genetic Characterization of Novel Oral Polio Vaccine Type 2 Viruses During Initial Use Phase Under Emergency Use Listing - Worldwide, March-October 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729877"
 source_layer: us_cdc_mmwr

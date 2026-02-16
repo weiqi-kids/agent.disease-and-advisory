@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Percentage of Women Who Smoked Cigarettes During Pregnancy, by Race and Hispanic Origin - National Vital Statistics System, United States, 2016 and 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=740324"
 source_layer: us_cdc_mmwr

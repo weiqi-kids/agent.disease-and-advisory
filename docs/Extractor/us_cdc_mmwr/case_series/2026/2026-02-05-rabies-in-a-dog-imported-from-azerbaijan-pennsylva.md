@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Rabies in a Dog Imported from Azerbaijan - Pennsylvania, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729394"
 source_layer: "us_cdc_mmwr"

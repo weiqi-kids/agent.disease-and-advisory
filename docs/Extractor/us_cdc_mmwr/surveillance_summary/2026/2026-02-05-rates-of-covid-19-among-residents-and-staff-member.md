@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Rates of COVID-19 Among Residents and Staff Members in Nursing Homes - United States, May 25-November 22, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415588"
 source_layer: us_cdc_mmwr

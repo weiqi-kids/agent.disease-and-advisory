@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "COVID-19 Outbreak Among Attendees of an Exercise Facility - Chicago, Illinois, August-September 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=417130"
 source_layer: us_cdc_mmwr

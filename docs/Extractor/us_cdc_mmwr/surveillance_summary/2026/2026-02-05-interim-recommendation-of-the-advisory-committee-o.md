@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Interim Recommendation of the Advisory Committee on Immunization Practices for Use of the Novavax COVID-19 Vaccine in Persons Aged ≥18 years - United States, July 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730814"
 source_layer: us_cdc_mmwr

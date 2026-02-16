@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Age-Adjusted Death Rates for Alzheimer Disease Among Adults Aged ≥ 65 Years, by Sex and Race/Hispanic Origin - National Vital Statistics System, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412721"
 source_layer: us_cdc_mmwr

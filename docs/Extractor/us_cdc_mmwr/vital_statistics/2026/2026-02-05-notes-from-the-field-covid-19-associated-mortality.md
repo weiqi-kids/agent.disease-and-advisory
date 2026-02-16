@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: COVID-19-Associated Mortality Risk Among Long-Term Care Facility Residents and Community-Dwelling Adults Aged ≥65 Years - Illinois, December 2020 and January 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729882"
 source_layer: us_cdc_mmwr

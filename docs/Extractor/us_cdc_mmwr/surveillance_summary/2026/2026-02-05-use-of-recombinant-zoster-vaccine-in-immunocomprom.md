@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Use of Recombinant Zoster Vaccine in Immunocompromised Adults Aged ≥19 Years: Recommendations of the Advisory Committee on Immunization Practices - United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=490922"
 source_layer: us_cdc_mmwr

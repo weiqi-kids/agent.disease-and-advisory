@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Guidance: Respiratory syncytial virus: the green book"
 source_url: "https://www.gov.uk/government/publications/respiratory-syncytial-virus-the-green-book-chapter-27a"
 source_layer: uk_ukhsa_updates

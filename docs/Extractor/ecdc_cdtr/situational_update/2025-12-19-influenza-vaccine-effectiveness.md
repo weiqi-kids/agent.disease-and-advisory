@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: Early estimates of seasonal influenza vaccine effectiveness against influenza requiring medical attention at primary care level in Europe, week 41 - 49, 2025
 source_url: https://www.ecdc.europa.eu/en/news-events/early-estimates-seasonal-influenza-vaccine-effectiveness-against-influenza-requiring
 source_name: ECDC

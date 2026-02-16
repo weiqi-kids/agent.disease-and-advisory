@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: Precautionary global recall of infant nutrition products following detection of Bacillus cereus toxin
 source_url: https://www.ecdc.europa.eu/en/news-events/precautionary-global-recall-infant-nutrition-products-following-detection-bacillus
 source_layer: ecdc_cdtr

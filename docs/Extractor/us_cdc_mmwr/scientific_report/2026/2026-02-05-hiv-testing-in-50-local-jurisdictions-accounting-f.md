@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: HIV Testing in 50 Local Jurisdictions Accounting for the Majority of New HIV
   Diagnoses and Seven States with Disproportionate Occurrence of HIV in Rural Areas,
   2016--2017

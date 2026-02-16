@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Live Poultry Shipment Box Sampling at Feed Stores as an Indicator for Human Salmonella Infections - Michigan, 2016-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397617"
 source_layer: us_cdc_mmwr

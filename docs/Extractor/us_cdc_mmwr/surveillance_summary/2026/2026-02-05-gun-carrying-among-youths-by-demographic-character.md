@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Gun Carrying Among Youths, by Demographic Characteristics, Associated Violence Experiences, and Risk Behaviors - United States, 2017-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730733"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Results from a Test-to-Release from Isolation Strategy Among Fully Vaccinated National Football League Players and Staff Members with COVID-19 - United States, December 14-19, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=560387"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Pseudomonas Infection Outbreak Associated with a Hotel Swimming Pool - Maine, March 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=741877"
 source_layer: us_cdc_mmwr

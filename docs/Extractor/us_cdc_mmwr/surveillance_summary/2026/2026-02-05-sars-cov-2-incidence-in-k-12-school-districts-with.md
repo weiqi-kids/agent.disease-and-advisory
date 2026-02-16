@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "SARS-CoV-2 Incidence in K-12 School Districts with Mask-Required Versus Mask-Optional Policies - Arkansas, August-October 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=594804"
 source_layer: us_cdc_mmwr

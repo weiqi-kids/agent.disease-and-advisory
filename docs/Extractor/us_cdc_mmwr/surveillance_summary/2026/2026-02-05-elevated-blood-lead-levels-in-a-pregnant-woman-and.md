@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Elevated Blood Lead Levels in a Pregnant Woman and her Family from Traditional Kansa (Bronze) and Pital (Brass) Metalware - New York City, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759127"
 source_layer: us_cdc_mmwr

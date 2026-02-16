@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Progress Toward Hepatitis B and Hepatitis C Elimination Using a Catalytic Funding Model - Tashkent, Uzbekistan, December 6, 2019-March 15, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410486"
 source_layer: "us_cdc_mmwr"

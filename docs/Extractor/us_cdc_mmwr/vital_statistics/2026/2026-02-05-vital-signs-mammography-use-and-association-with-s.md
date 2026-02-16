@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Vital Signs: Mammography Use and Association with Social Determinants of Health and Health-Related Social Needs Among Women - United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=746178"
 source_layer: us_cdc_mmwr

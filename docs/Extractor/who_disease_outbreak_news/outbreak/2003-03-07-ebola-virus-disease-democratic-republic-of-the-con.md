@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Ebola virus disease - Democratic Republic of the Congo"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2003DON154"
 source_layer: who_disease_outbreak_news

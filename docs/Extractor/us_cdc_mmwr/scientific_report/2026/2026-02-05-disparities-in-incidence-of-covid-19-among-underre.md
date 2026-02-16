@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: Disparities in Incidence of COVID-19 Among Underrepresented Racial/Ethnic Groups
   in Counties Identified as Hotspots During June 5-18, 2020 - 22 States, February-June
   2020

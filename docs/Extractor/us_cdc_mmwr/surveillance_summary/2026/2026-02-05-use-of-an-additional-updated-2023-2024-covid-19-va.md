@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Use of an Additional Updated 2023-2024 COVID-19 Vaccine Dose for Adults Aged ≥65 Years: Recommendations of the Advisory Committee on Immunization Practices - United States, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=747229"
 source_layer: us_cdc_mmwr

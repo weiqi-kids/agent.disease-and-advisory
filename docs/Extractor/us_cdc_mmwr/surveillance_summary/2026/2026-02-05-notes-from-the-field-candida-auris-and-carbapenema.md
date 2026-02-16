@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Candida auris and Carbapenemase-Producing Organism Prevalence in a Pediatric Hospital Providing Long-Term Transitional Care - Chicago, Illinois, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410489"
 source_layer: us_cdc_mmwr

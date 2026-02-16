@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "SURVEILLANCE SUMMARIES: Travel-Related Diagnoses Among U.S. Nonmigrant Travelers or Migrants Presenting to U.S. GeoSentinel Sites - GeoSentinel Network, 2012-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735655"
 source_layer: us_cdc_mmwr

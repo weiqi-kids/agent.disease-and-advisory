@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "2002 - Cholera in Malawi"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2002_03_26-en"
 source_layer: who_disease_outbreak_news

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Influenza Vaccinations During the COVID-19 Pandemic - 11 U.S. Jurisdictions, September-December 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=433703"
 source_layer: us_cdc_mmwr

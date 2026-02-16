@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Estimated Resource Costs for Implementation of CDC's Recommended COVID-19 Mitigation Strategies in Pre-Kindergarten through Grade 12 Public Schools - United States, 2020-21 School Year"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413949"
 source_layer: us_cdc_mmwr

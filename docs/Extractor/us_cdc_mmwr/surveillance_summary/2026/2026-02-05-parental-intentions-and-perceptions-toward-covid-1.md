@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Parental Intentions and Perceptions Toward COVID-19 Vaccination Among Children Aged 4 Months to 4 Years - PROTECT Cohort, Four States, July 2021-May 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731268"
 source_layer: us_cdc_mmwr

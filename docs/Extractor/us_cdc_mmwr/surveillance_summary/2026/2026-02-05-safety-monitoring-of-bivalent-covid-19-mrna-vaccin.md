@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Safety Monitoring of Bivalent COVID-19 mRNA Vaccine Booster Doses Among Persons Aged ≥12 Years - United States, August 31-October 23, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732573"
 source_layer: us_cdc_mmwr

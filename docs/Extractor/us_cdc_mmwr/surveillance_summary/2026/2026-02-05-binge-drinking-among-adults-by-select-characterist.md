@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Binge Drinking Among Adults, by Select Characteristics and State - United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427843"
 source_layer: us_cdc_mmwr

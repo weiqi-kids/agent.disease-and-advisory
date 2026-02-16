@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '福氏內格里阿米巴腦膜腦炎'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/N5Rp7f-HlNiS5rXr1ZLxfw"
 source_layer: tw_cdc_alerts

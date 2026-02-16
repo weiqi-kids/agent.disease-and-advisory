@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '白喉'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/z-qdbqHk7Op2ePc-Le9H0Q"
 source_layer: tw_cdc_alerts

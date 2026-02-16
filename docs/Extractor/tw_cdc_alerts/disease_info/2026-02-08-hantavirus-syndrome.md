@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '漢他病毒症候群'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/C6xqTECywd28HiYIG9VZ_w"
 source_layer: tw_cdc_alerts

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Rapid Diagnostic Testing for Response to the Monkeypox Outbreak - Laboratory Response Network, United States, May 17-June 30, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730250"
 source_layer: us_cdc_mmwr

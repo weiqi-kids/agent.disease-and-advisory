@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "COVID-19 Vaccination Coverage Among Insured Persons Aged ≥16 Years, by Race/Ethnicity and Other Selected Characteristics - Eight Integrated Health Care Organizations, United States, December 14, 2020-May 15, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=424599"
 source_layer: us_cdc_mmwr

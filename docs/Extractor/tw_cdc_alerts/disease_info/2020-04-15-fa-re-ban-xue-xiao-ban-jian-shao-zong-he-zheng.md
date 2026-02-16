@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '發熱伴血小板減少綜合症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/Wpss42uAl9aMRA9XDVJGhg"
 source_layer: tw_cdc_alerts

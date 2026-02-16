@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "RECOMMENDATIONS AND REPORTS: Recommendations for Providing Quality Sexually Transmitted Diseases Clinical Services, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402998"
 source_layer: "us_cdc_mmwr"

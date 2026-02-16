@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Prevalence of High Total Cholesterol Among Adults Aged ≥20 Years, by Age Group and Sex - National Health and Nutrition Examination Survey, 2015-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407698"
 source_layer: us_cdc_mmwr

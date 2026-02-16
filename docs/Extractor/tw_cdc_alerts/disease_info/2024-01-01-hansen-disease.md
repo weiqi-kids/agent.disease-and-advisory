@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '漢生病'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/oCOSaTTkOdBcnJ5_Dz_aDQ"
 source_layer: tw_cdc_alerts

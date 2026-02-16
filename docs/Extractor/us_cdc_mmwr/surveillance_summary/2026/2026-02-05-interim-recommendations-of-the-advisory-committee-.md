@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Interim Recommendations of the Advisory Committee on Immunization Practices for Use of Moderna and Pfizer-BioNTech COVID-19 Vaccines in Children Aged 6 Months-5 Years - United States, June 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730085"
 source_layer: us_cdc_mmwr

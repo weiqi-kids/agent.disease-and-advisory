@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Personal Protective Equipment Use by Dairy Farmworkers Exposed to Cows Infected with Highly Pathogenic Avian Influenza A(H5N1) Viruses - Colorado, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=754306"
 source_layer: us_cdc_mmwr

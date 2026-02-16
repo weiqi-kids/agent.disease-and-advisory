@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Effectiveness of Monovalent and Bivalent mRNA Vaccines in Preventing COVID-19-Associated Emergency Department and Urgent Care Encounters Among Children Aged 6 Months-5 Years - VISION Network, United States, July 2022-June 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736271"
 source_layer: us_cdc_mmwr

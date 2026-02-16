@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: Dengue worldwide overview
 source_url: https://www.ecdc.europa.eu/en/dengue-monthly
 source_name: ECDC

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '類鼻疽'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/WGBQSsyqfj6SiFQ4aMXXUg"
 source_layer: tw_cdc_alerts

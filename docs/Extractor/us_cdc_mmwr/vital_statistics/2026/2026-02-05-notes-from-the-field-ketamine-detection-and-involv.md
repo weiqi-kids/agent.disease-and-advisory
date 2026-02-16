@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Ketamine Detection and Involvement in Drug Overdose Deaths - United States, July 2019-June 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=754308"
 source_layer: us_cdc_mmwr

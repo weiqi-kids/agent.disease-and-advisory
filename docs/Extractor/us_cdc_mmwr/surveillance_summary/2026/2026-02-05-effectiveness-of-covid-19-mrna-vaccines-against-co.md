@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Effectiveness of COVID-19 mRNA Vaccines Against COVID-19-Associated Hospitalization - Five Veterans Affairs Medical Centers, United States, February 1-August 6, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426663"
 source_layer: us_cdc_mmwr

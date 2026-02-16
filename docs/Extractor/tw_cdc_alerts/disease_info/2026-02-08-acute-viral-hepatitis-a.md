@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '急性病毒性A型肝炎'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/817zKI1D5najSwVzuiPYMQ"
 source_layer: tw_cdc_alerts

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: Effectiveness of 2024-2025 COVID-19 Vaccines in Children in the United States
   - VISION, August 29, 2024-September 2, 2025
 source_url: https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=762139

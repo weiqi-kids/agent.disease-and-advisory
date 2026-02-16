@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "近期氣溫變化大 疾病傳播風險升高 提醒民眾落實衛生好習慣 並儘速接種公費流感新冠疫苗 及早提升保護力 健康迎新年"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/AXG37sOc0tSeYH5Utn2ndw?typeId=9"
 source_layer: tw_cdc_alerts

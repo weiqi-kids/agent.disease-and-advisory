@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Epidemiologic and Clinical Features of Children and Adolescents Aged 18 Years with Monkeypox - United States, May 17-September 24, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732574"
 source_layer: "us_cdc_mmwr"

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '沙門氏菌感染症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/1eaJi1denSmW8L3FD2Bybw"
 source_layer: tw_cdc_alerts

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '黃熱病'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/tzX-qyodDiY0th8Cyb5yfw"
 source_layer: tw_cdc_alerts

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Rates of Emergency Department Visits for Children and Adolescents with Acute Upper Respiratory Infection, by Age Group - United States, 2021-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753046"
 source_layer: us_cdc_mmwr

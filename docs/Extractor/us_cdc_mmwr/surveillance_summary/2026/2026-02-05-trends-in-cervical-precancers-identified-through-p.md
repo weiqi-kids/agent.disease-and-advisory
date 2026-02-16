@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Trends in Cervical Precancers Identified Through Population-Based Surveillance - Human Papillomavirus Vaccine Impact Monitoring Project, Five Sites, United States, 2008-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758235"
 source_layer: us_cdc_mmwr

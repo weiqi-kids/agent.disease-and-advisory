@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: Prolonged multi-country outbreak of Salmonella Strathcona ST2559 linked to consumption of tomatoes in the European Union/European Economic Area – first update
 source_url: https://www.ecdc.europa.eu/en/publications-data/prolonged-multi-country-outbreak-salmonella-strathcona-st2559-linked-consumption
 published_date: '2025-10-23'

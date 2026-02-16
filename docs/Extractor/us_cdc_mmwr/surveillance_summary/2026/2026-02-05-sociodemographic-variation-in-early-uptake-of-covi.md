@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Sociodemographic Variation in Early Uptake of COVID-19 Vaccine and Parental Intent and Attitudes Toward Vaccination of Children Aged 6 Months-4 Years - United States, July 1-29, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732756"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: January marks Cervical Cancer Awareness Month
 source_url: https://www.ecdc.europa.eu/en/news-events/january-marks-cervical-cancer-awareness-month
 source_layer: ecdc_cdtr

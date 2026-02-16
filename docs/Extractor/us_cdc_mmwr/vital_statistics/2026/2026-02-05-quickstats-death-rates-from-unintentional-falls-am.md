@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Death Rates from Unintentional Falls Among Persons ≥65 Years, by Age Group - National Vital Statistics System, 1999-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412890"
 source_layer: us_cdc_mmwr

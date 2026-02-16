@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Surveillance Summaries: National Toxic Substances Incidents Program - Nine States, 2010-2014"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405269"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Readiness for Use of Type 2 Novel Oral Poliovirus Vaccine in Response to a Type 2 Circulating Vaccine-Derived Poliovirus Outbreak - Tajikistan, 2020-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=580833"
 source_layer: us_cdc_mmwr

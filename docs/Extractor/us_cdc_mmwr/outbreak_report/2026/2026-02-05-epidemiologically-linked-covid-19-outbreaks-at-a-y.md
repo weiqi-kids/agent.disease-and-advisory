@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Epidemiologically Linked COVID-19 Outbreaks at a Youth Camp and Men's Conference - Illinois, June-July 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426371"
 source_layer: us_cdc_mmwr

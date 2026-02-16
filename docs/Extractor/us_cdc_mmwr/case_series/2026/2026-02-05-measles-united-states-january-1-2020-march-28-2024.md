@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Measles - United States, January 1, 2020-March 28, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=746358"
 source_layer: "us_cdc_mmwr"

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: 'Sexually transmitted infections: South West data'
 source_url: "https://www.gov.uk/government/publications/sexually-transmitted-infections-south-west-data"
 source_layer: uk_ukhsa_updates

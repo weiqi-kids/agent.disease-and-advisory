@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: An Outbreak of Shiga Toxin-Producing Escherichia coli O157:H7 Associated with a Farming Camp - Tennessee, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735888"
 source_layer: us_cdc_mmwr

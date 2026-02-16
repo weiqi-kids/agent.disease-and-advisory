@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Interim Effectiveness Estimates of 2025 Southern Hemisphere Influenza Vaccines in Preventing Influenza-Associated Outpatient and Hospitalized Illness - Eight Southern Hemisphere Countries, March-September 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=760285"
 source_layer: "us_cdc_mmwr"

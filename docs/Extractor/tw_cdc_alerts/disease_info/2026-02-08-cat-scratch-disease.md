@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '貓抓病'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/aqnxpMDvYMnPPCOV4pwq0Q"
 source_layer: tw_cdc_alerts

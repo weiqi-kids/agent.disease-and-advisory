@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Implementation of a Pooled Surveillance Testing Program for Asymptomatic SARS-CoV-2 Infections on a College Campus - Duke University, Durham, North Carolina, August 2-October 11, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413140"
 source_layer: us_cdc_mmwr

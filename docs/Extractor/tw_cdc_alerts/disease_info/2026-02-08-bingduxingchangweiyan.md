@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '病毒性腸胃炎'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/j1rqZjBCeR9vtCRUHefN3g"
 source_layer: tw_cdc_alerts

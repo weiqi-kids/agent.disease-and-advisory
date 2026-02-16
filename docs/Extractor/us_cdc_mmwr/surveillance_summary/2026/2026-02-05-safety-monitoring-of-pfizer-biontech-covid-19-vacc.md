@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Safety Monitoring of Pfizer-BioNTech COVID-19 Vaccine Booster Doses Among Children Aged 5-11 Years - United States, May 17-July 31, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731014"
 source_layer: us_cdc_mmwr

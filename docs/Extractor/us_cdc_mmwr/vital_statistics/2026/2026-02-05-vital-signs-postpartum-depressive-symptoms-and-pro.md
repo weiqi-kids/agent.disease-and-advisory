@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Vital Signs: Postpartum Depressive Symptoms and Provider Discussions About Perinatal Depression --- United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407019"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '肉毒桿菌中毒'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/WcUjPeATneXReDw_6JilYg"
 source_layer: tw_cdc_alerts

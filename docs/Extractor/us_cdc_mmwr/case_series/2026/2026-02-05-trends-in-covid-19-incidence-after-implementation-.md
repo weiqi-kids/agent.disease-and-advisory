@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Trends in COVID-19 Incidence After Implementation of Mitigation Measures - Arizona, January 22-August 7, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411876"
 source_layer: "us_cdc_mmwr"

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Risk Factors for E-Cigarette, or Vaping, Product Use-Associated Lung Injury (EVALI) Among Adults Who Use E-Cigarette, or Vaping, Products - Illinois, July-October 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402474"
 source_layer: us_cdc_mmwr

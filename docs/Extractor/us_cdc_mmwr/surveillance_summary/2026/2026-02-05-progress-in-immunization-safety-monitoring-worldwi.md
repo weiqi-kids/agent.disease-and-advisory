@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Progress in Immunization Safety Monitoring - Worldwide, 2010-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=420526"
 source_layer: us_cdc_mmwr

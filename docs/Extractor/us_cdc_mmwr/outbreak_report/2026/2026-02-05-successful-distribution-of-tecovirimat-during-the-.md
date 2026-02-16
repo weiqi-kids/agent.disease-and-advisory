@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Successful Distribution of Tecovirimat During the Peak of the Mpox Outbreak - Los Angeles County, June 2022-January 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=750194"
 source_layer: us_cdc_mmwr

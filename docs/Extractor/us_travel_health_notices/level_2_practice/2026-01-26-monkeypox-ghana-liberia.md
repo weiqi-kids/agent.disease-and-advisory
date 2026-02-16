@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Level 2 - Clade II Monkeypox in Ghana and Liberia"
 source_url: "https://wwwnc.cdc.gov/travel/notices/level2/monkeypox-western-africa"
 source_layer: us_travel_health_notices

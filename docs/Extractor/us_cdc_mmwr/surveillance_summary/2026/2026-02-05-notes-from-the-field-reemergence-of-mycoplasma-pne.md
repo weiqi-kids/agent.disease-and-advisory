@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Reemergence of Mycoplasma pneumoniae Infections in Children and Adolescents After the COVID-19 Pandemic, United States, 2018-2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=744339"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "RECOMMENDATIONS and REPORTS: Prevention of Hepatitis A Virus Infection in the United States: Recommendations of the Advisory Committee on Immunization Practices, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408472"
 source_layer: us_cdc_mmwr

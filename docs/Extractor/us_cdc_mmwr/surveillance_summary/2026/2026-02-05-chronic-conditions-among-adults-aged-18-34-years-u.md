@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Chronic Conditions Among Adults Aged 18─34 Years - United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730735"
 source_layer: us_cdc_mmwr

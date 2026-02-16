@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Disparities in Learning Mode Access Among K-12 Students During the COVID-19 Pandemic, by Race/Ethnicity, Geography, and Grade Level - United States, September 2020-April 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423978"
 source_layer: us_cdc_mmwr

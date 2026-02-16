@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Verona Integron-Encoded Metallo-β-Lactamase-Producing Carbapenem-Resistant Pseudomonas aeruginosa Infections Associated with Invasive Medical Procedures in Mexico"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=398649"
 source_layer: us_cdc_mmwr

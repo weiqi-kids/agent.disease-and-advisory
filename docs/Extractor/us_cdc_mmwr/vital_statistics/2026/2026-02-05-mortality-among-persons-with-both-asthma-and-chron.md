@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Mortality Among Persons with Both Asthma and Chronic Obstructive Pulmonary Disease Aged ≥25 Years, by Industry and Occupation - United States, 1999-2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407696"
 source_layer: us_cdc_mmwr

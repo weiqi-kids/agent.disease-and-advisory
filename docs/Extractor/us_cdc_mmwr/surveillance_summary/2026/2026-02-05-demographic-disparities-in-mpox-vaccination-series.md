@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Demographic Disparities in Mpox Vaccination Series Completion, by Route of Vaccine Administration - California, August 9, 2022-March 31, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736008"
 source_layer: us_cdc_mmwr

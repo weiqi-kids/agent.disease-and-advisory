@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '腸道出血性大腸桿菌感染症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/8j7ht_y-FpmDZTO4eYxyUw"
 source_layer: tw_cdc_alerts

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "<em>Notes from the Field</em>: Fatal <em>Acanthamoeba</em> Encephalitis in a Patient Who Regularly Used Tap Water in an Electronic Nasal Irrigation Device and a Continuous Positive Airway Pressure Machine at Home - New Mexico, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758504"
 source_layer: "us_cdc_mmwr"

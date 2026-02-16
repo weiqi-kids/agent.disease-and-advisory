@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Risk of Clade II Mpox Associated with Intimate and Nonintimate Close Contact Among Men Who Have Sex with Men and Transgender Adults - United States, August 2022-July 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753303"
 source_layer: us_cdc_mmwr

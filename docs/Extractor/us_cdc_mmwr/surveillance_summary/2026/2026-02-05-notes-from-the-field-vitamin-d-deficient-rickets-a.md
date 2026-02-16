@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Vitamin D-Deficient Rickets and Severe Hypocalcemia in Infants Fed Homemade Alkaline Diet Formula - Three States, August 2020-February 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=425964"
 source_layer: us_cdc_mmwr

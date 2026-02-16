@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Effectiveness of Maternal mRNA COVID-19 Vaccination During Pregnancy Against COVID-19-Associated Hospitalizations in Infants Aged 6 Months During SARS-CoV-2 Omicron Predominance - 20 States, March 9, 2022-May 31, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737469"
 source_layer: us_cdc_mmwr

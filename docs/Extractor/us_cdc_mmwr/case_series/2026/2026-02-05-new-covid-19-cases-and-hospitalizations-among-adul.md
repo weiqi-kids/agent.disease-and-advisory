@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "New COVID-19 Cases and Hospitalizations Among Adults, by Vaccination Status - New York, May 3-July 25, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=425927"
 source_layer: "us_cdc_mmwr"

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "SURVEILLANCE SUMMARIES:  Opioid Prescribing Behaviors - Prescription Behavior Surveillance System, 11 States, 2010--2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403401"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: 'Notice to Readers: Forthcoming Correction and Republication of the Report "Deaths and Years of Potential Life Lost From Excessive Alcohol Use-United States, 2011-2015"'
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410953"
 source_layer: us_cdc_mmwr

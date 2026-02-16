@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Provisional COVID-19 Age-Adjusted Death Rates, by Race and Ethnicity - United States, 2020-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=728930"
 source_layer: us_cdc_mmwr

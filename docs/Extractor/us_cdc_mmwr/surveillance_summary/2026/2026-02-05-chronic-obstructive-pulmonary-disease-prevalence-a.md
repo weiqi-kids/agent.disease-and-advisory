@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Chronic Obstructive Pulmonary Disease Prevalence Among Adults Who Have Never Smoked, by Industry and Occupation - United States, 2013-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397211"
 source_layer: us_cdc_mmwr

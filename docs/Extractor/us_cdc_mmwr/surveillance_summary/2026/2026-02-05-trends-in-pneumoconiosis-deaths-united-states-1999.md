@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Trends in Pneumoconiosis Deaths - United States, 1999-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407905"
 source_layer: us_cdc_mmwr

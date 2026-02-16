@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Yellow cold-health alert issued for North West and North East England"
 source_url: "https://www.gov.uk/government/news/ukhsa-issues-cold-health-alert-as-low-temperatures-forecast"
 source_layer: uk_ukhsa_updates

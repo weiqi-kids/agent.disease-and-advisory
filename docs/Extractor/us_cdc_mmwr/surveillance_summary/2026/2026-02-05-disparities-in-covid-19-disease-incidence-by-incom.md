@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Disparities in COVID-19 Disease Incidence by Income and Vaccination Coverage - 81 Communities, Los Angeles, California, July 2020-September 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735679"
 source_layer: us_cdc_mmwr

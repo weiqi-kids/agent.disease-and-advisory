@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '急性病毒性B型肝炎'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/MApdR8IIYvl-JIL7_DK7tw"
 source_layer: tw_cdc_alerts

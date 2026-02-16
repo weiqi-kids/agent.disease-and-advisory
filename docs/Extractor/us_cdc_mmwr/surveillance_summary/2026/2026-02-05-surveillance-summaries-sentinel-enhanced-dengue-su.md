@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "SURVEILLANCE SUMMARIES: Sentinel Enhanced Dengue Surveillance System - Puerto Rico, 2012-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=749359"
 source_layer: us_cdc_mmwr

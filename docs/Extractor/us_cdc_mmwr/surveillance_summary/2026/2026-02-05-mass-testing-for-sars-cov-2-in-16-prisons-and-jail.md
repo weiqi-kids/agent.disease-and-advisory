@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Mass Testing for SARS-CoV-2 in 16 Prisons and Jails - Six Jurisdictions, United States, April-May 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410265"
 source_layer: us_cdc_mmwr

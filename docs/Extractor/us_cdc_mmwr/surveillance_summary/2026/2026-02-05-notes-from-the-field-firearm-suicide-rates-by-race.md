@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Firearm Suicide Rates, by Race and Ethnicity - United States, 2019-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=739793"
 source_layer: us_cdc_mmwr

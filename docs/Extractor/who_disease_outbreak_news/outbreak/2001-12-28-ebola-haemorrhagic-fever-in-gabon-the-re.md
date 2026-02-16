@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "2001 - Ebola haemorrhagic fever in Gabon/The Republic of Congo - Update 9"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2001_12_28-en"
 source_layer: who_disease_outbreak_news

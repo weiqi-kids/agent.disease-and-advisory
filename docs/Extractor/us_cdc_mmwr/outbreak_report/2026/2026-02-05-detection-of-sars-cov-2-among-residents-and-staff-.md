@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Detection of SARS-CoV-2 Among Residents and Staff Members of an Independent and Assisted Living Community for Older Adults --- Seattle, Washington, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405841"
 source_layer: us_cdc_mmwr

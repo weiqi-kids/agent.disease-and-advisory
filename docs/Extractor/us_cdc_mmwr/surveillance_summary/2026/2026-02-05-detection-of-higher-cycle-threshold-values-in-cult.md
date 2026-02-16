@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Detection of Higher Cycle Threshold Values in Culturable SARS-CoV-2 Omicron BA.1 Sublineage Compared with Pre-Omicron Variant Specimens - San Francisco Bay Area, California, July 2021-March 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731421"
 source_layer: us_cdc_mmwr

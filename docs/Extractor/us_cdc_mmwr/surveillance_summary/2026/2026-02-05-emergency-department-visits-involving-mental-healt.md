@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Emergency Department Visits Involving Mental Health Conditions, Suicide-Related Behaviors, and Drug Overdoses Among Adolescents - United States, January 2019-February 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734989"
 source_layer: us_cdc_mmwr

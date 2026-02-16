@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: 'QuickStats: Percentage of Children and Adolescents Aged 5-17 Years Who Took
   Medication for Their Mental Health or Received Counseling or Therapy from a Mental
   Health Professional During the Past 12 Months, by Year - National Health Interview

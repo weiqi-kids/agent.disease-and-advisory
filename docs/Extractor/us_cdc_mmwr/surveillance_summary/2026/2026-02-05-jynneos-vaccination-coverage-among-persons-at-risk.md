@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "JYNNEOS Vaccination Coverage Among Persons at Risk for Mpox - United States, May 22, 2022-January 31, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734382"
 source_layer: us_cdc_mmwr

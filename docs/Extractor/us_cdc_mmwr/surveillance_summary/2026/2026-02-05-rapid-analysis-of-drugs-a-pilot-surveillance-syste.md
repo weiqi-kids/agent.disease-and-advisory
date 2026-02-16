@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Rapid Analysis of Drugs: A Pilot Surveillance System To Detect Changes in the Illicit Drug Supply To Guide Timely Harm Reduction Responses - Eight Syringe Services Programs, Maryland, November 2021-August 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734727"
 source_layer: us_cdc_mmwr

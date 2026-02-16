@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Botulism Type B After Intravenous Methamphetamine Use - New Jersey, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411673"
 source_layer: us_cdc_mmwr

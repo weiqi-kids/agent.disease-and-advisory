@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=744010"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Characteristics and Outcomes Among Adults Aged ≥60 Years Hospitalized with Laboratory-Confirmed Respiratory Syncytial Virus - RSV-NET, 12 States, July 2022-June 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737727"
 source_layer: us_cdc_mmwr

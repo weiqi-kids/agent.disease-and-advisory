@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Poliovirus detected from environmental samples in Israel and West Bank and Gaza Strip"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2013_09_20_polio-en"
 source_layer: who_disease_outbreak_news

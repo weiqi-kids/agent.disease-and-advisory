@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Firearm Homicides and Suicides in Major Metropolitan Areas - United States, 2015-2016 and 2018-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=477482"
 source_layer: us_cdc_mmwr

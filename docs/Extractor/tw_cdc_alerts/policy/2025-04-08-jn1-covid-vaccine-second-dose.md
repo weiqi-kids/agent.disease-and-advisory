@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: 'Starting April 8, second dose of JN.1 COVID-19 vaccine available to elderly people aged 65 and over, indigenous individuals aged 55-64, and immunocompromised individuals'
 source_url: "https://www.cdc.gov.tw/En/Bulletin/Detail/cogDKYkdNWVuNLudKigmrg?typeId=158"
 source_layer: tw_cdc_alerts

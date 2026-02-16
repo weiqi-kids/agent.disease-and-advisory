@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Characteristics of Alcohol, Marijuana, and Other Drug Use Among Persons Aged 13-18 Years Being Assessed for Substance Use Disorder Treatment - United States, 2014-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=742798"
 source_layer: us_cdc_mmwr

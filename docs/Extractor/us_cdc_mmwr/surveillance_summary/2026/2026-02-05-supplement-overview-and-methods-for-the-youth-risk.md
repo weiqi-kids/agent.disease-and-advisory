@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "SUPPLEMENT: Overview and Methods for the Youth Risk Behavior Surveillance System - United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753097"
 source_layer: us_cdc_mmwr

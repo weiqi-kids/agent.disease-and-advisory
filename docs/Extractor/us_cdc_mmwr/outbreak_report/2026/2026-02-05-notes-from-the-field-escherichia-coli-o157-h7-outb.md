@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Escherichia coli O157:H7 Outbreak in Children with Clostridioides difficile Colonization Associated with an Improperly Treated Swimming Pool - Pennsylvania, June 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729395"
 source_layer: us_cdc_mmwr

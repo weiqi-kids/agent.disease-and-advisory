@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Level 1 - Oropouche in the Americas"
 source_url: "https://wwwnc.cdc.gov/travel/notices/level1/oropouche-in-the-americas"
 source_layer: us_travel_health_notices

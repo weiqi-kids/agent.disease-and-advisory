@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Death Rates from Septicemia Among Persons Aged ≥65 Years, by Age Group - National Vital Statistics System, United States, 2000-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413185"
 source_layer: us_cdc_mmwr

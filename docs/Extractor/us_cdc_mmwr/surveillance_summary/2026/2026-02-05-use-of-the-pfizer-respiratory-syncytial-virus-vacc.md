@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Use of the Pfizer Respiratory Syncytial Virus Vaccine During Pregnancy for the Prevention of Respiratory Syncytial Virus-Associated Lower Respiratory Tract Disease in Infants: Recommendations of the Advisory Committee on Immunization Practices - United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737788"
 source_layer: us_cdc_mmwr

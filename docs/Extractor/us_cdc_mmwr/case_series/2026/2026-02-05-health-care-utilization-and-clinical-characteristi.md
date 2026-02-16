@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Health Care Utilization and Clinical Characteristics of Nonhospitalized Adults in an Integrated Health Care System 28-180 Days After COVID-19 Diagnosis - Georgia, May 2020-March 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421149"
 source_layer: "us_cdc_mmwr"

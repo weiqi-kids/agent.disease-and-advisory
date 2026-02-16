@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Invasive Nontypeable Haemophilus influenzae Disease Outbreak at an Elementary School - Michigan, May 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752006"
 source_layer: us_cdc_mmwr

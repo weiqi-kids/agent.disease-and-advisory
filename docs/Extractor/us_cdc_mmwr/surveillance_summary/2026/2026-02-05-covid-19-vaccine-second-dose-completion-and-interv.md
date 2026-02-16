@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "COVID-19 Vaccine Second-Dose Completion and Interval Between First and Second Doses Among Vaccinated Persons - United States, December 14, 2020−February 14, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=418592"
 source_layer: us_cdc_mmwr

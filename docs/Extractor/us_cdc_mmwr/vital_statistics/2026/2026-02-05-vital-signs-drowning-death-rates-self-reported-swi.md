@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Vital Signs: Drowning Death Rates, Self-Reported Swimming Skill, Swimming Lesson Participation, and Recreational Water Exposure - United States, 2019-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=748251"
 source_layer: us_cdc_mmwr

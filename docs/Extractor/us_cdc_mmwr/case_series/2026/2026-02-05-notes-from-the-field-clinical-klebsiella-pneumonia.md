@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Clinical Klebsiella pneumoniae Isolate with Three Carbapenem Resistance Genes Associated with Urology Procedures --- King County, Washington, 2018 "
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401054"
 source_layer: "us_cdc_mmwr"

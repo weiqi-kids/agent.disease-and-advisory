@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: 'Notes from the Field: HeatRisk Forecasts and Emergency Department Visits for
   Heat-Related Illness - New York, May-September 2024'
 source_url: https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759128

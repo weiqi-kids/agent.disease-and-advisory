@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Hospitalizations Associated with COVID-19 Among Children and Adolescents - COVID-NET, 14 States, March 1, 2020-August 14, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426476"
 source_layer: us_cdc_mmwr

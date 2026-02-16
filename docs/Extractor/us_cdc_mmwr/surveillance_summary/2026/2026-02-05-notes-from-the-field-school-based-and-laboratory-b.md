@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: School-Based and Laboratory-Based Reporting of Positive COVID-19 Test Results Among School-Aged Children - New York, September 11, 2021-April 29, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730915"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Multiple Variants of SARS-CoV-2 in a University Outbreak After Spring Break - Chicago, Illinois, March-May 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426420"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "E-cigarette, or Vaping, Product Use-Associated Lung Injury Among Clusters of Patients Reporting Shared Product Use - Wisconsin, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=404467"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: 'Mpox clade Ib and clade IIb outbreak: epidemiological overview'
 source_url: "https://www.gov.uk/government/publications/monkeypox-outbreak-epidemiological-overview"
 source_layer: uk_ukhsa_updates

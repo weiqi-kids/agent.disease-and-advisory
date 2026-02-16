@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "SUPPLEMENTS: Suicidal Ideation and Behaviors Among High School Students - Youth Risk Behavior Survey, United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410275"
 source_layer: us_cdc_mmwr

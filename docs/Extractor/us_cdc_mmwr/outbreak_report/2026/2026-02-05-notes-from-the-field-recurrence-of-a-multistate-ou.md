@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Recurrence of a Multistate Outbreak of Salmonella Typhimurium Infections Linked to Contact with Hedgehogs - United States and Canada, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=425689"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Updated CDC Recommendation for Serologic Diagnosis of Lyme Disease"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401193"
 source_layer: us_cdc_mmwr

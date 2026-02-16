@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Barriers to Antiretroviral Therapy Adherence Among HIV-Positive Hispanic and Latino Men Who Have Sex with Men -United States, 2015-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411891"
 source_layer: us_cdc_mmwr

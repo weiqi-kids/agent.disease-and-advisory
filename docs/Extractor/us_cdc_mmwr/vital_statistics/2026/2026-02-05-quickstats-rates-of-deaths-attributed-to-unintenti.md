@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Rates of Deaths Attributed to Unintentional Injury from Fire or Flames, by Age Group and Urbanization Level - National Vital Statistics System, United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410492"
 source_layer: us_cdc_mmwr

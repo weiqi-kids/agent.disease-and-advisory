@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Shiga Toxin-Producing Escherichia coli O157:H7 Illness Outbreak Associated with Untreated, Pressurized, Municipal Irrigation Water - Utah, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=747871"
 source_layer: us_cdc_mmwr

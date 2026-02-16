@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Clade II Mpox Surveillance Update - United States, October 2023-April 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=748982"
 source_layer: us_cdc_mmwr

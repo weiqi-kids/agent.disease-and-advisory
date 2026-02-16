@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Expanding Birthing Hospital Enrollment in the Vaccines for Children Program to Increase Infant Immunization Against Respiratory Syncytial Virus - United States, October 2023-March 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=761560"
 source_layer: us_cdc_mmwr

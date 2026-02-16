@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Attention-Deficit/Hyperactivity Disorder Diagnosis, Treatment, and Telehealth Use in Adults - National Center for Health Statistics Rapid Surveys System, United States, October-November 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753302"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "SARS-CoV-2 Viral Shedding and Rapid Antigen Test Performance - Respiratory Virus Transmission Network, November 2022-May 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=747226"
 source_layer: us_cdc_mmwr

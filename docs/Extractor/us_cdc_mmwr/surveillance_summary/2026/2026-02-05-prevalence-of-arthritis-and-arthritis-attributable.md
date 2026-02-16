@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Prevalence of Arthritis and Arthritis-Attributable Activity Limitation - United States, 2016-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427679"
 source_layer: us_cdc_mmwr

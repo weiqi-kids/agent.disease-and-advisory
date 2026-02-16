@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Response to a COVID-19 Outbreak on a University Campus - Indiana, August 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416065"
 source_layer: us_cdc_mmwr

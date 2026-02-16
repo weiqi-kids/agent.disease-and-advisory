@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Health Care Access and Use Among Adults with Diabetes During the COVID-19 Pandemic - United States, February-March 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=438248"
 source_layer: us_cdc_mmwr

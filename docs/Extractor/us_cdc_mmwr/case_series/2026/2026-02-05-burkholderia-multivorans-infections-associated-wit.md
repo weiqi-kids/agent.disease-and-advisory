@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Burkholderia multivorans Infections Associated with Use of Ice and Water from Ice Machines for Patient Care Activities - Four Hospitals, California and Colorado, 2020-2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753045"
 source_layer: "us_cdc_mmwr"

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Rates of Firearm-Related Deaths Among Persons Aged ≥15 Years, by Selected Intent and Age Group - National Vital Statistics System, United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=418420"
 source_layer: us_cdc_mmwr

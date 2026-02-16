@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '鉤端螺旋體病'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/T5nLeG_WEMafixCPa1M7Jw"
 source_layer: tw_cdc_alerts

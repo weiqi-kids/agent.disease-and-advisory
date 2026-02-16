@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: House-to-House Campaign Administration of Inactivated Poliovirus Vaccine - Sokoto State, Nigeria, November 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=739449"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '流行性腦脊髓膜炎'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/S3bWvDNewVa3FspPkOkvHg"
 source_layer: tw_cdc_alerts

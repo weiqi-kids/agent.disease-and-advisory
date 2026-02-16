@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: 'As COVID-19 cases increase, demand for vaccinations rises; public urged to stay vigilant and get vaccinated as soon as possible'
 source_url: "https://www.cdc.gov.tw/En/Bulletin/Detail/UYz-uNymm3Sq5588Gw4NcQ?typeId=158"
 source_layer: tw_cdc_alerts

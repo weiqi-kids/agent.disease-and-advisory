@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Health Care Provider Knowledge and Attitudes Regarding Adult Pneumococcal Conjugate Vaccine Recommendations - United States, September 28-October 10, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736772"
 source_layer: us_cdc_mmwr

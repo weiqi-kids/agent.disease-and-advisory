@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Acute watery diarrhoeal syndrome in Ethiopia"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2006_10_04-en"
 source_layer: who_disease_outbreak_news

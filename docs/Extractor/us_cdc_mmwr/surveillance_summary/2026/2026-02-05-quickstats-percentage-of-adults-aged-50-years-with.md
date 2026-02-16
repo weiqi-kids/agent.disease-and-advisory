@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Percentage of Adults Aged ≥50 Years with Osteoporosis, by Race and Hispanic Origin - United States, 2017-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421987"
 source_layer: us_cdc_mmwr

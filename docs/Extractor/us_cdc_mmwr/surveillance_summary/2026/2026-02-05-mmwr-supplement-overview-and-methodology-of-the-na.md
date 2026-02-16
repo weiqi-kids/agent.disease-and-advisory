@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "MMWR Supplement: Overview and Methodology of the National HIV Behavioral Surveillance Among Transgender Women - Seven Urban Areas, United States, 2019-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=742236"
 source_layer: us_cdc_mmwr

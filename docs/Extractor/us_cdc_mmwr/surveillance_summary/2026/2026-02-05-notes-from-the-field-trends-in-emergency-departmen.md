@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Trends in Emergency Department Visits for Firearm Injuries - United States, January 2018-December 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=754833"
 source_layer: us_cdc_mmwr

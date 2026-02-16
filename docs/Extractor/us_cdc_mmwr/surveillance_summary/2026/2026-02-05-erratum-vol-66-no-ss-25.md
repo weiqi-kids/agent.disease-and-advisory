@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Erratum: Vol 66, No. SS-25"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413673"
 source_layer: us_cdc_mmwr

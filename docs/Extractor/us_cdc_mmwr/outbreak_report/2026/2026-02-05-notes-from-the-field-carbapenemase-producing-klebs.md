@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Carbapenemase-Producing Klebsiella pneumoniae in a Ventilator-Capable Skilled Nursing Facility - Maricopa County, Arizona, July-November 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=404672"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Investigation of Lead and Chromium Exposure After Consumption of Contaminated Cinnamon-Containing Applesauce - United States, November 2023-April 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758848"
 source_layer: us_cdc_mmwr

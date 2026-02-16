@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Genotyping and Subtyping Cryptosporidium To Identify Risk Factors and Transmission Patterns - Nebraska, 2015-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405589"
 source_layer: "us_cdc_mmwr"

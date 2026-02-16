@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Early Safety Findings Among Persons Aged ≥60 Years Who Received a Respiratory Syncytial Virus Vaccine - United States, May 3, 2023-April 14, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=749417"
 source_layer: us_cdc_mmwr

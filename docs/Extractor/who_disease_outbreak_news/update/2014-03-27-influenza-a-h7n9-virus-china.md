@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Influenza A(H7N9) virus - China"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2014DON014"
 source_layer: who_disease_outbreak_news

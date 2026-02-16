@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Prevalence and Characteristics of Subjective Cognitive Decline Among Unpaid Caregivers Aged ≥45 Years - 22 States, 2015-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=438241"
 source_layer: us_cdc_mmwr

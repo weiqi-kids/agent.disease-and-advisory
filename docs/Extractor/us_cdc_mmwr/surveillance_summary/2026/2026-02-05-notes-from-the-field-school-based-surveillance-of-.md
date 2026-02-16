@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: School-Based Surveillance of Mycoplasma pneumoniae Trends and Impact on School Attendance by Students and Staff Members - Missouri, Fall 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=755750"
 source_layer: us_cdc_mmwr

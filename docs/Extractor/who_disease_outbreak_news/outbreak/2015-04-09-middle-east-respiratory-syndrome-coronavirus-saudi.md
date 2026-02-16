@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Middle East respiratory syndrome coronavirus – Saudi Arabia"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/9-april-2015-mers-saudi-arabia-en"
 source_layer: who_disease_outbreak_news

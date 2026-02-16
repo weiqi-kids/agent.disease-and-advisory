@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Cannabis Use Among Students in Grades 8, 10, and 12, by Sex - King County, Washington, 2008-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=741876"
 source_layer: us_cdc_mmwr

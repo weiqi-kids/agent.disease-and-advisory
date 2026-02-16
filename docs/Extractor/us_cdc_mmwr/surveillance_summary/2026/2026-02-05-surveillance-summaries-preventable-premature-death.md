@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "SURVEILLANCE SUMMARIES: Preventable Premature Deaths from the Five Leading Causes of Death in Nonmetropolitan and Metropolitan Counties, United States, 2010-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=747409"
 source_layer: us_cdc_mmwr

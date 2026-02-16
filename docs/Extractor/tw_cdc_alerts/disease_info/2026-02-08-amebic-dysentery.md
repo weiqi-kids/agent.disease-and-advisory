@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '阿米巴性痢疾'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/r0w7-NmfmIEmsJIcqyBe6A"
 source_layer: tw_cdc_alerts

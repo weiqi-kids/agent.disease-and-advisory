@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Suspected Medetomidine Withdrawal Syndrome Among Fentanyl-Exposed Patients - Philadelphia, Pennsylvania, September 2024-January 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758919"
 source_layer: "us_cdc_mmwr"

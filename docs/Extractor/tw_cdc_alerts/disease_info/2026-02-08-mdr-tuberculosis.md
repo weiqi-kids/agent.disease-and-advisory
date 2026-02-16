@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '多重抗藥性結核病'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/MDmwWa4Ffh5--tMDfvK_WA"
 source_layer: tw_cdc_alerts

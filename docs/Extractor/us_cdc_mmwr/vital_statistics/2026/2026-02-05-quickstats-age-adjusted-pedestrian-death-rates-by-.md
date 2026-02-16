@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Age-Adjusted Pedestrian Death Rates, by Race/Ethnicity - National Vital Statistics System, United States, 2009 and 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411677"
 source_layer: us_cdc_mmwr

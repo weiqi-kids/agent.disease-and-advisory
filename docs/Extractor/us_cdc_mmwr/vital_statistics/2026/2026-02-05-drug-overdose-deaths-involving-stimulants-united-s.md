@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Drug Overdose Deaths Involving Stimulants - United States, January 2018-June 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=760123"
 source_layer: us_cdc_mmwr

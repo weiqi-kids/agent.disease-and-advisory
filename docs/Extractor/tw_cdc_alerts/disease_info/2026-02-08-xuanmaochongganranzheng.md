@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '旋毛蟲感染症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/TjfRPEL5yuvaWGWFleyY9A"
 source_layer: tw_cdc_alerts

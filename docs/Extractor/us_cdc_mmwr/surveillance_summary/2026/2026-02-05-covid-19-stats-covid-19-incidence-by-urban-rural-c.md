@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "COVID-19-Stats: COVID-19 Incidence, by Urban-Rural Classification - United States, January 22-October 31, 2020 "
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413184"
 source_layer: us_cdc_mmwr

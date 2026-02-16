@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Pediatric HIV Case Identification Across 22 PEPFAR-Supported Countries During the COVID-19 Pandemic, October 2019-September 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730393"
 source_layer: "us_cdc_mmwr"

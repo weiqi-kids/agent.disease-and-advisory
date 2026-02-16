@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Mental Health-Related Emergency Department Visits Among Children Aged <18 Years During the COVID-19 Pandemic - United States, January 1-September 19, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412883"
 source_layer: us_cdc_mmwr

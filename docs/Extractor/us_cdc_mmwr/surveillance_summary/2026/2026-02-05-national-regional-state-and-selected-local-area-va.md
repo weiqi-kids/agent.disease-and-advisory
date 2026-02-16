@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "National, Regional, State, and Selected Local Area Vaccination Coverage Among Adolescents Aged 13-17 Years --- United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401261"
 source_layer: us_cdc_mmwr

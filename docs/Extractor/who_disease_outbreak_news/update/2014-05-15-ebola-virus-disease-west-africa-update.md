@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Ebola virus disease, West Africa – update"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2014_05_15_ebola-en"
 source_layer: who_disease_outbreak_news

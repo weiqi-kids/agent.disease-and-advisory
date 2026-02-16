@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Disproportionate Incidence of COVID-19 Infection, Hospitalizations, and Deaths Among Persons Identifying as Hispanic or Latino - Denver, Colorado March-October 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413664"
 source_layer: us_cdc_mmwr

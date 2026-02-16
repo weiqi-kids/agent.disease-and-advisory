@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes From the Field: Severe Illnesses After Self-Injection of Botulinum Toxin Purchased Online - New York, Texas, and Wisconsin, 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=761765"
 source_layer: "us_cdc_mmwr"

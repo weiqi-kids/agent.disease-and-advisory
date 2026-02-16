@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Novel Treatment of a Vaccinia Virus Infection from an Occupational Needlestick - San Diego, California, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402266"
 source_layer: us_cdc_mmwr

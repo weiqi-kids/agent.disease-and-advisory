@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Evaluation of Online Risk Assessment To Identify Rabies Exposures Among Health Care Workers - Utah, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408881"
 source_layer: us_cdc_mmwr

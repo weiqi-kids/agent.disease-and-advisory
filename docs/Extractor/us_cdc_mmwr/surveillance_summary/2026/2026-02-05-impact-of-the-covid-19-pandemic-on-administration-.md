@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Impact of the COVID-19 Pandemic on Administration of Selected Routine Childhood and Adolescent Vaccinations - 10 U.S. Jurisdictions, March-September 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423450"
 source_layer: us_cdc_mmwr

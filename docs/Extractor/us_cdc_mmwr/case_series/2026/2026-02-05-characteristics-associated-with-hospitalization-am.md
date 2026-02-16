@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Characteristics Associated with Hospitalization Among Patients with COVID-19 - Metropolitan Atlanta, Georgia, March - April 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408030"
 source_layer: "us_cdc_mmwr"

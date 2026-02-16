@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Strategies Adopted by Gay, Bisexual, and Other Men Who Have Sex with Men to Prevent Monkeypox virus Transmission - United States, August 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731161"
 source_layer: us_cdc_mmwr

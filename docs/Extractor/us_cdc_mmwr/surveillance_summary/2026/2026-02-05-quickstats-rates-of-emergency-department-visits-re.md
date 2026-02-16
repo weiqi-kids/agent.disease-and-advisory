@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Rates of Emergency Department Visits Related to Mental Health Disorders Among Adults Aged ≥18 Years, by Disorder Category - National Hospital Ambulatory Medical Care Survey, United States, 2017-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=510957"
 source_layer: us_cdc_mmwr

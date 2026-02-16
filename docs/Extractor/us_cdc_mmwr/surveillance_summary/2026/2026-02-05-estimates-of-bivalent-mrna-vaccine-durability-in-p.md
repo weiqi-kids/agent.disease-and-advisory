@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Estimates of Bivalent mRNA Vaccine Durability in Preventing COVID-19-Associated Hospitalization and Critical Illness Among Adults with and Without Immunocompromising Conditions - VISION Network, September 2022-April 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735216"
 source_layer: us_cdc_mmwr

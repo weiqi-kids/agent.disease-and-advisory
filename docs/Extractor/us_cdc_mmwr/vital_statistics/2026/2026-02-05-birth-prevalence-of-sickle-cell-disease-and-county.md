@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Birth Prevalence of Sickle Cell Disease and County-Level Social Vulnerability - Sickle Cell Data Collection Program, 11 States, 2016-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=745859"
 source_layer: us_cdc_mmwr

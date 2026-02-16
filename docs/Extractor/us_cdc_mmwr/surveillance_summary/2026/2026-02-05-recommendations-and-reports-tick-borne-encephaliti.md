@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "RECOMMENDATIONS AND REPORTS: Tick-Borne Encephalitis Vaccine: Recommendations of the Advisory Committee on Immunization Practices, United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=738954"
 source_layer: us_cdc_mmwr

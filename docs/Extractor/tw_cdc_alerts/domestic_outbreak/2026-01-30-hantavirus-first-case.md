@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "今(2026)年首例漢他病毒症候群現蹤 請民眾歲末大掃除時注意落實「防鼠三不」及防治措施"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/6On9bIw5j_JtIWGywBxNrA?typeId=9"
 source_layer: tw_cdc_alerts

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '李斯特菌症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/yrsLujIBevFlvrtmgzz7Tg"
 source_layer: tw_cdc_alerts

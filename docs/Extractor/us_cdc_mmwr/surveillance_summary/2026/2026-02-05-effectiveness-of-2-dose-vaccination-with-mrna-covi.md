@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Effectiveness of 2-Dose Vaccination with mRNA COVID-19 Vaccines Against COVID-19-Associated Hospitalizations Among Immunocompromised Adults - Nine States, January-September 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=429547"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Detection of Illegally Manufactured Fentanyls and Carfentanil in Drug Overdose Deaths - United States, 2021-2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=755309"
 source_layer: us_cdc_mmwr

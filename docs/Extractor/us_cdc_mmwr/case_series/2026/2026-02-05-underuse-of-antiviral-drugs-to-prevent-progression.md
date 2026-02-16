@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Underuse of Antiviral Drugs to Prevent Progression to Severe COVID-19 - Veterans Health Administration, March-September 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=742179"
 source_layer: "us_cdc_mmwr"

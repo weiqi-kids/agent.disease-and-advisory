@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Percentage of Women Aged 22-44 Years Who Have Ever Cohabited with an Opposite-Sex Partner, by Education - National Survey of Family Growth, United States, 2006-2010 and 2015-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415675"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "West Nile Virus and Other Nationally Notifiable Arboviral Diseases - United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736351"
 source_layer: us_cdc_mmwr

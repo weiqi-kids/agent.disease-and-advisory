@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Vital Signs: Drug Overdose Deaths, by Selected Sociodemographic and Social Determinants of Health Characteristics - 25 States and the District of Columbia, 2019-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730415"
 source_layer: us_cdc_mmwr

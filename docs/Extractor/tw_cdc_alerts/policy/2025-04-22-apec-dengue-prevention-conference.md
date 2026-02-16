@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: 'Taiwan CDC hosts APEC Conference on Dengue Prevention and Control in the Post-COVID-19 Era: New Challenges and Role of Innovative Technology'
 source_url: "https://www.cdc.gov.tw/En/Bulletin/Detail/W0SjjMT7ONV88fGDY3xpkg?typeId=158"
 source_layer: tw_cdc_alerts

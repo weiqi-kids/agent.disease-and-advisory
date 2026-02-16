@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '中華肝吸蟲感染症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/bLTJKs46lP3q20opq3EGRA"
 source_layer: tw_cdc_alerts

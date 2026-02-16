@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Evaluation of a Program to Improve Linkage to and Retention in Care Among Refugees with Hepatitis B Virus Infection - Three U.S. Cities, 2006-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407446"
 source_layer: us_cdc_mmwr

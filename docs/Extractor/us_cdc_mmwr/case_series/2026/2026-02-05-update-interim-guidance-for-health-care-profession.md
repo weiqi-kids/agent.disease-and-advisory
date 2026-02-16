@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Update: Interim Guidance for Health Care Professionals Evaluating and Caring for Patients with Suspected E-cigarette, or Vaping, Product Use-Associated Lung Injury Injury and for Reducing the Risk for Rehospitalization and Death Following Hospital Discharge - United States, December 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402908"
 source_layer: "us_cdc_mmwr"

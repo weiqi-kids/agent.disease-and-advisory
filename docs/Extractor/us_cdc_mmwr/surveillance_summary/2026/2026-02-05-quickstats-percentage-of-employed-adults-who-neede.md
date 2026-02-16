@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Percentage of Employed Adults Who Needed to Work Closer Than 6 Feet from Other Persons All or Most of the Time at Their Main Job, by Occupation - National Health Interview Survey, United States, July-December 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=460119"
 source_layer: us_cdc_mmwr

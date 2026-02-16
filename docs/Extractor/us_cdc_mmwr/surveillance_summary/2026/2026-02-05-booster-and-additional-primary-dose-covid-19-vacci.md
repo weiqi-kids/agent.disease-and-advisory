@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Booster and Additional Primary Dose COVID-19 Vaccinations Among Adults Aged ≥65 Years - United States, August 13, 2021-November 19, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=460373"
 source_layer: us_cdc_mmwr

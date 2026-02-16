@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Monkeypox in a Young Infant - Florida, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731671"
 source_layer: us_cdc_mmwr

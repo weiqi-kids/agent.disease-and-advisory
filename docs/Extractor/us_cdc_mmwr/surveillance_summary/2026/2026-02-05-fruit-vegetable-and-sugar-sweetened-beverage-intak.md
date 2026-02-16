@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Fruit, Vegetable, and Sugar-Sweetened Beverage Intake Among Young Children, by State - United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733845"
 source_layer: us_cdc_mmwr

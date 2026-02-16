@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Factors Associated with Use of HIV Prevention and Health Care Among Transgender Women - Seven Urban Areas, 2019-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729387"
 source_layer: us_cdc_mmwr

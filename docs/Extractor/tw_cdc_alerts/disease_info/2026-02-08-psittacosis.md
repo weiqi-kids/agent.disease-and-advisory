@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '鸚鵡熱'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/7R8K5mmR035CEmBqa-y0Nw"
 source_layer: tw_cdc_alerts

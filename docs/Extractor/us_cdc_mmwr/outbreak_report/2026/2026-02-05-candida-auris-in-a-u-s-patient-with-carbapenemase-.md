@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Candida auris in a U.S. Patient with Carbapenemase-Producing Organisms and Recent Hospitalization in Kenya "
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401053"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Vaccination Coverage with Selected Vaccines and Exemption Rates Among Children in Kindergarten - United States, 2018-19 School Year"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402186"
 source_layer: us_cdc_mmwr

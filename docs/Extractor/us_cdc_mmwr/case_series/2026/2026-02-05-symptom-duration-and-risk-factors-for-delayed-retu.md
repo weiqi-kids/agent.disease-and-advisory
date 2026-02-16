@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Symptom Duration and Risk Factors for Delayed Return to Usual Health Among Outpatients with COVID-19 in a Multistate Health Care Systems Network - United States, March-June 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408980"
 source_layer: "us_cdc_mmwr"

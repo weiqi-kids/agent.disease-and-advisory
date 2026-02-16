@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Sociodemographic and Geographic Variation in Awareness of Stroke Signs and Symptoms Among Adults - United States, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412701"
 source_layer: us_cdc_mmwr

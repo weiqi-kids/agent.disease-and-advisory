@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: 'Pre-release access lists: Respiratory syncytial virus (RSV) maternal and older adults vaccination coverage in England reports'
 source_url: "https://www.gov.uk/government/publications/pre-release-access-lists-respiratory-syncytial-virus-rsv-maternal-and-older-adults-vaccination-coverage-in-england-reports"
 source_layer: uk_ukhsa_updates

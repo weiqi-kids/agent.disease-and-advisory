@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '新冠併發重症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/N6XvFa1YP9CXYdB0kNSA9A"
 source_layer: tw_cdc_alerts

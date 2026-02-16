@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Decline in COVID-19 Hospitalization Growth Rates Associated with Statewide Mask Mandates - 10 States, March-October 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416530"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Community-Based Testing Sites for SARS-CoV-2 - United States, March 2020-November 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=460115"
 source_layer: us_cdc_mmwr

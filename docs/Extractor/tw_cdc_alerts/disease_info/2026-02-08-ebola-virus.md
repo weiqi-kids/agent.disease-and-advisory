@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '伊波拉病毒感染'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/3DGpsvfGoSlTJyTGmn-pbw"
 source_layer: tw_cdc_alerts

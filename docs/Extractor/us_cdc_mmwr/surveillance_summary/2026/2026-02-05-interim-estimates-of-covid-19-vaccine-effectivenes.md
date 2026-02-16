@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Interim Estimates of COVID-19 Vaccine Effectiveness Against COVID-19-Associated Emergency Department or Urgent Care Clinic Encounters and Hospitalizations Among Adults During SARS-CoV-2 B.1.617.2 (Delta) Variant Predominance - Nine States, June-August 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426662"
 source_layer: us_cdc_mmwr

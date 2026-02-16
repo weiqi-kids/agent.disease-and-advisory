@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Use of the Janssen (Johnson & Johnson) COVID-19 Vaccine: Updated Interim Recommendations from the Advisory Committee on Immunization Practices - United States, December 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=490924"
 source_layer: us_cdc_mmwr

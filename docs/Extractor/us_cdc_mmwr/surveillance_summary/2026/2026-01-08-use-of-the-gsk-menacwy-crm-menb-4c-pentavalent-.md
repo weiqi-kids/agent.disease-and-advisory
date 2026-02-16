@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Use of the GSK MenACWY-CRM/MenB-4C Pentavalent Meningococcal Vaccine Among Persons Aged ≥10 Years: Recommendations of the Advisory Committee on Immunization Practices - United States, 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=762789"
 source_layer: us_cdc_mmwr

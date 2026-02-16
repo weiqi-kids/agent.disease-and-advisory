@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Characteristics of Adults Aged ≥18 Years Evaluated for Substance Use and Treatment Planning - United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729795"
 source_layer: us_cdc_mmwr

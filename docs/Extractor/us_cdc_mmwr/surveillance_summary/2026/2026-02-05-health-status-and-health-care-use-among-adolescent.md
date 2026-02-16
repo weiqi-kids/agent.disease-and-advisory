@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Health Status and Health Care Use Among Adolescents Identified With and Without Autism in Early Childhood - Four U.S. Sites, 2018-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421454"
 source_layer: us_cdc_mmwr

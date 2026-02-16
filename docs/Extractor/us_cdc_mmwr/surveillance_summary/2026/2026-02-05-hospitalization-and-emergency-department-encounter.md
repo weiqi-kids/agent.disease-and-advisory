@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Hospitalization and Emergency Department Encounters for COVID-19 After Paxlovid Treatment - California, December 2021-May 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729906"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Racial, Ethnic, and Gender Disparities in Awareness of Preexposure Prophylaxis Among HIV-Negative Heterosexually Active Adults at Increased Risk for HIV Infection - 23 Urban Areas, United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=443165"
 source_layer: us_cdc_mmwr

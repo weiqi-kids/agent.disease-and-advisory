@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Hantavirus Pulmonary Syndrome - Denver, Colorado, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401596"
 source_layer: "us_cdc_mmwr"

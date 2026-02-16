@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Report of Health Care Provider Recommendation for COVID-19 Vaccination Among Adults, by Recipient COVID-19 Vaccination Status and Attitudes - United States, April-September 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=462534"
 source_layer: us_cdc_mmwr

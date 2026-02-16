@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Pediatric Brain Abscesses, Epidural Empyemas, and Subdural Empyemas Associated with Streptococcus Species - United States, January 2016-August 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731594"
 source_layer: us_cdc_mmwr

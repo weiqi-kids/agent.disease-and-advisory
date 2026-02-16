@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Serial Laboratory Testing for SARS-CoV-2 Infection Among Incarcerated and Detained Persons in a Correctional and Detention Facility - Louisiana, April-May 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408358"
 source_layer: "us_cdc_mmwr"

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "SURVEILLANCE SUMMARIES: Investigations of Possible Multistate Outbreaks of Salmonella, Shiga Toxin-Producing Escherichia coli, and Listeria monocytogenes Infections - United States, 2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412804"
 source_layer: us_cdc_mmwr

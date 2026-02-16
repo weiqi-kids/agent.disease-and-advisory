@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Multicomponent Strategies to Prevent SARS-CoV-2 Transmission - Nine Overnight Youth Summer Camps, United States, June-August 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427533"
 source_layer: us_cdc_mmwr

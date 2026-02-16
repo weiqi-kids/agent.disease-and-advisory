@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '淋病'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/nWvBNnt9UvaZzdrzbQcfBA"
 source_layer: tw_cdc_alerts

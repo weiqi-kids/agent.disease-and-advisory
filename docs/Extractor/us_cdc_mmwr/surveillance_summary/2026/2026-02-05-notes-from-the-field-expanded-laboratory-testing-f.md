@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Expanded Laboratory Testing for Varicella - Minnesota, 2016-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=745608"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Highly Pathogenic Avian Influenza A(H5N1) Virus Infection of Indoor Domestic Cats Within Dairy Industry Worker Households - Michigan, May 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758085"
 source_layer: us_cdc_mmwr

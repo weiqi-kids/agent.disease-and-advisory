@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '流感併發重症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/x7jzGIMMuIeuLM5izvwg_g"
 source_layer: tw_cdc_alerts

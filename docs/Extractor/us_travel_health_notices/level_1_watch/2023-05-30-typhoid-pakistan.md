@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Level 1 - Extensively Drug-Resistant Typhoid Fever in Pakistan"
 source_url: "https://wwwnc.cdc.gov/travel/notices/level1/xdr-typhoid-fever-pakistan"
 source_layer: us_travel_health_notices

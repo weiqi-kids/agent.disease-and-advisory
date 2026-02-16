@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "COVID-19 Vaccination Coverage, by Race and Ethnicity - National Immunization Survey Adult COVID Module, United States, December 2020-November 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729796"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Vital Signs: Trends in Human Rabies Deaths and Exposures --- United States, 1938--2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399040"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '水痘併發症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/ipoIA74yjikLAewcRSjXjw"
 source_layer: tw_cdc_alerts

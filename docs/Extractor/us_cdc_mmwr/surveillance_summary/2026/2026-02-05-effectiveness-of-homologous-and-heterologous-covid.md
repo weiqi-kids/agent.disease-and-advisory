@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Effectiveness of Homologous and Heterologous COVID-19 Booster Doses Following 1 Ad.26.COV2.S (Janssen [Johnson & Johnson]) Vaccine Dose Against COVID-19-Associated Emergency Department and Urgent Care Encounters and Hospitalizations Among Adults - VISION Network, 10 States, December 2021-March 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=663826"
 source_layer: us_cdc_mmwr

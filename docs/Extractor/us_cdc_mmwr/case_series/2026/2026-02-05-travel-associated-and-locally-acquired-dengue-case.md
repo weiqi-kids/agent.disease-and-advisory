@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Travel-Associated and Locally Acquired Dengue Cases - United States, 2010-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403652"
 source_layer: "us_cdc_mmwr"

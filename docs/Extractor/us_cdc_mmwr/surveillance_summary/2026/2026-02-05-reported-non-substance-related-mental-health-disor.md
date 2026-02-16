@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Reported Non-Substance-Related Mental Health Disorders Among Persons Who Died of Drug Overdose - United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752368"
 source_layer: us_cdc_mmwr

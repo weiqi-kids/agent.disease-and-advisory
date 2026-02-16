@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Annual Out-of-Pocket Expenditures and Financial Hardship Among Cancer Survivors Aged 18-64 Years --- United States, 2011--2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=398800"
 source_layer: us_cdc_mmwr

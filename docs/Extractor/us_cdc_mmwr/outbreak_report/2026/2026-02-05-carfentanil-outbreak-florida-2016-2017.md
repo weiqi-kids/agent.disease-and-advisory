@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Carfentanil Outbreak - Florida, 2016-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403516"
 source_layer: us_cdc_mmwr

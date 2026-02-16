@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Update on Extensively Drug-Resistant Salmonella Serotype Typhi Infections Among Travelers to or from Pakistan and Report of Ceftriaxone-Resistant Salmonella Serotype Typhi Infections Among Travelers to Iraq --- United States, 2018--2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407279"
 source_layer: us_cdc_mmwr

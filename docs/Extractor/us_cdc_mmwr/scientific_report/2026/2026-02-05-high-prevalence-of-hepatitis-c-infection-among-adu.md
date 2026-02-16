@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: High Prevalence of Hepatitis C Infection Among Adult Patients at Four Urban
   Emergency Departments --- Birmingham, Oakland, Baltimore, and Boston, 2015--2017
 source_url: https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407017

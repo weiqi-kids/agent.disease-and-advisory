@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Specialist and reference microbiology: laboratory tests and services"
 source_url: "https://www.gov.uk/guidance/specialist-and-reference-microbiology-laboratory-tests-and-services"
 source_layer: uk_ukhsa_updates

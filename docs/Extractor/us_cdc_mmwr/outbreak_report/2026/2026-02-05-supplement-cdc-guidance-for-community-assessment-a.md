@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "SUPPLEMENT: CDC Guidance for Community Assessment and Investigation of Suspected Suicide Clusters, United States, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=744606"
 source_layer: us_cdc_mmwr

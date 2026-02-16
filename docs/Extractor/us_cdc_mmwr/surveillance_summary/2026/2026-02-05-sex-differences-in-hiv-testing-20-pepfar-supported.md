@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Sex Differences in HIV Testing - 20 PEPFAR-Supported Sub-Saharan African Countries, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413657"
 source_layer: us_cdc_mmwr

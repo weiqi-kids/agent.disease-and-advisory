@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Recommendations and Reports: Essential Components of a Public Health Tuberculosis Prevention, Control, and Elimination Program: Recommendations of the Advisory Council for the Elimination of Tuberculosis and the National Tuberculosis Controllers Association"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409071"
 source_layer: us_cdc_mmwr

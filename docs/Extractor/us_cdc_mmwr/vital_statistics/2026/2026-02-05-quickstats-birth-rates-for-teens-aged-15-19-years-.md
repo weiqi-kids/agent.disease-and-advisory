@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Birth Rates for Teens Aged 15-19 Years, by State - National Vital Statistics System, United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402432"
 source_layer: us_cdc_mmwr

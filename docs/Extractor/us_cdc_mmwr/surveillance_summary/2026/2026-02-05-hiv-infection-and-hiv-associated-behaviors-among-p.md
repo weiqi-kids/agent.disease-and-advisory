@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "HIV Infection and HIV-Associated Behaviors Among Persons Who Inject Drugs - 23 Metropolitan Statistical Areas, United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=428141"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Laboratory-Confirmed COVID-19 Among Adults Hospitalized with COVID-19-Like Illness with Infection-Induced or mRNA Vaccine-Induced SARS-CoV-2 Immunity - Nine States, January-September 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=428471"
 source_layer: us_cdc_mmwr

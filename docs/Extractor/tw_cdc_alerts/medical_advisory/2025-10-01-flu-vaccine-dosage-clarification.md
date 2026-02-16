@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "今年公費三價流感疫苗幼兒與成人皆爲每劑0.5mL,3歲以下幼兒接種無須減半(疾病管制署致醫界通函第590號)"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/hlS4oV8eQO6bDolQwXUYaw?typeId=48"
 source_layer: tw_cdc_alerts

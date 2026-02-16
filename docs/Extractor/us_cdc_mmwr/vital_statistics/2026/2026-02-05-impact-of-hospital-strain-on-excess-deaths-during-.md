@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Impact of Hospital Strain on Excess Deaths During the COVID-19 Pandemic - United States, July 2020-July 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=438252"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Early Estimates of Bivalent mRNA Booster Dose Vaccine Effectiveness in Preventing Symptomatic SARS-CoV-2 Infection Attributable to Omicron BA.5- and XBB/XBB.1.5-Related Sublineages Among Immunocompetent Adults - Increasing Community Access to Testing Program, United States, December 2022-January 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733556"
 source_layer: us_cdc_mmwr

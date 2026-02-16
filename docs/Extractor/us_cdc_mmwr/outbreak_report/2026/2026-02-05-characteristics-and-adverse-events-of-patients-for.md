@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Characteristics and Adverse Events of Patients for Whom Nifurtimox Was Released Through CDC-Sponsored Investigational New Drug Program for Treatment of Chagas Disease - United States, 2001-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=600324"
 source_layer: us_cdc_mmwr

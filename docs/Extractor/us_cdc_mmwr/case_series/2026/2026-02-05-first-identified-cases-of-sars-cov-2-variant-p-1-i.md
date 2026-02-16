@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "First Identified Cases of SARS-CoV-2 Variant P.1 in the United States - Minnesota, January 2021  "
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=417442"
 source_layer: "us_cdc_mmwr"

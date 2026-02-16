@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "A Health Equity Approach for Implementation of JYNNEOS Vaccination at Large, Community-Based LGBTQIA+ Events - Georgia, August 27-September 5, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732381"
 source_layer: us_cdc_mmwr

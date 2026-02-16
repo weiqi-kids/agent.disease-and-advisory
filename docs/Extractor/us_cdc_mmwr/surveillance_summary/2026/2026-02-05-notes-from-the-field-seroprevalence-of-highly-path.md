@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Seroprevalence of Highly Pathogenic Avian Influenza A(H5) Virus Infections Among Bovine Veterinary Practitioners - United States, September 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=757870"
 source_layer: us_cdc_mmwr

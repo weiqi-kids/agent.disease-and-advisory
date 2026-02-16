@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Rapid Spread of SARS-CoV-2 in a State Prison after Introduction by Newly Transferred Incarcerated Persons - Wisconsin, August 14-October 22, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=419408"
 source_layer: us_cdc_mmwr

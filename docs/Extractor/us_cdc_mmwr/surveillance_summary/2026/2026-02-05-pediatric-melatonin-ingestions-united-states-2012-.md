@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Pediatric Melatonin Ingestions - United States, 2012-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729666"
 source_layer: us_cdc_mmwr

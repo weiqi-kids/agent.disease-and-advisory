@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Monkeypox in a Traveler Returning from Nigeria - Dallas, Texas, July 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=697557"
 source_layer: "us_cdc_mmwr"

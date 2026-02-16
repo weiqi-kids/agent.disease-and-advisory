@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Age-Adjusted Percentage of Adults Aged ≥18 Years Who Reported That They Needed Dental Care During the Past 12 Months But Didn't Get It Because They Couldn't Afford It, by Sex, Race, and Hispanic Origin --- National Health Interview Survey, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397033"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Recent Increase in COVID-19 Cases Reported Among Adults Aged 18-22 Years - United States, May 31-September 5, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411654"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Surveillance Summaries: Surveillance of Vaccination Coverage Among Adult Populations - United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421988"
 source_layer: us_cdc_mmwr

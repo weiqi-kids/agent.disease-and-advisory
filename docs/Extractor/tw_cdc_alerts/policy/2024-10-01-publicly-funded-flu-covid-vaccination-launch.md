@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: 'Get Flu and COVID-19 Shots for Good Health: Publicly funded flu and COVID-19 vaccination program launched on October 1'
 source_url: "https://www.cdc.gov.tw/En/Bulletin/Detail/zRikIHnEeY1yZj_UP0vFpw?typeId=158"
 source_layer: tw_cdc_alerts

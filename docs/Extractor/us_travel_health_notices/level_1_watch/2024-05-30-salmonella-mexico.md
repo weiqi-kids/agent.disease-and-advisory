@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Level 1 - A Strain of Multidrug-Resistant Salmonella Newport in Mexico"
 source_url: "https://wwwnc.cdc.gov/travel/notices/level1/salmonella-newport-mexico"
 source_layer: us_travel_health_notices

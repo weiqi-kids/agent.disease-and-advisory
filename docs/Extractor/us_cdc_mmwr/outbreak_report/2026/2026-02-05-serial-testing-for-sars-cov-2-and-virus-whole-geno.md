@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Serial Testing for SARS-CoV-2 and Virus Whole Genome Sequencing Inform Infection Risk at Two Skilled Nursing Facilities with COVID-19 Outbreaks - Minnesota, April-June 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411454"
 source_layer: us_cdc_mmwr

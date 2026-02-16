@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Effectiveness of a Third Dose of Pfizer-BioNTech and Moderna Vaccines in Preventing COVID-19 Hospitalization Among Immunocompetent and Immunocompromised Adults - United States, August-December 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=499899"
 source_layer: us_cdc_mmwr

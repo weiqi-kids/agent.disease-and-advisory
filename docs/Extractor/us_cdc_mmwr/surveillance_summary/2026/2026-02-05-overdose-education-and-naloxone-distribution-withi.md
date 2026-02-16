@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Overdose Education and Naloxone Distribution Within Syringe Service Programs - United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410264"
 source_layer: us_cdc_mmwr

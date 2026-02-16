@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '流行性斑疹傷寒'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/-Bwx4k9nuXzv1znntQ-DhA"
 source_layer: tw_cdc_alerts

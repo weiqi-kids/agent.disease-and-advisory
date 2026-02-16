@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Characteristics of E-cigarette, or Vaping, Products Used by Patients with Associated Lung Injury and Products Seized by Law Enforcement - Minnesota, 2018 and 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402675"
 source_layer: "us_cdc_mmwr"

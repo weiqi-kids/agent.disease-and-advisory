@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '廣東住血線蟲感染症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/XL8BjStUl52JYsw3Rr9ShA"
 source_layer: tw_cdc_alerts

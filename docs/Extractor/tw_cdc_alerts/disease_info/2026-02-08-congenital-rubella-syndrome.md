@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '先天性德國麻疹症候群'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/Ba6DI2kXzQDk4zeVaT8amQ"
 source_layer: tw_cdc_alerts

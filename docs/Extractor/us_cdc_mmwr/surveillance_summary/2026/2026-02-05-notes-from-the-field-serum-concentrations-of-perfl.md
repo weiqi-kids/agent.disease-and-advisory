@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Serum Concentrations of Perfluoroalkyl and Polyfluoroalkyl Substances Among First Responders to the Maui Wildfires - Hawaii, September 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=757621"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: 'Brucella: laboratory and clinical services'
 source_url: "https://www.gov.uk/guidance/bru-reference-services"
 source_layer: uk_ukhsa_updates

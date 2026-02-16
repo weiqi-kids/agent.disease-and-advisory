@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "因應流感疫情進入流行期,自今年10月1日起至10月31日擴大公費流感抗病毒藥劑使用措施,增列「有類流感症狀,且具下列身分之流感高傳播族群」,籲請醫師善用公費藥劑,共同防治流感,另花蓮縣馬太鞍溪堰塞湖受災安置收容所民眾即日起優先擴大用藥,並提前安排接種公費流感疫苗(疾病管制署致醫界通函第589號)"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/HaNOpph4B9-iXVNRt2hEqw?typeId=48"
 source_layer: tw_cdc_alerts

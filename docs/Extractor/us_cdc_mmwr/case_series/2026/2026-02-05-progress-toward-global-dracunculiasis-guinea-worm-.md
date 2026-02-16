@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Progress Toward Global Dracunculiasis (Guinea Worm Disease) Eradication, January 2023-June 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=754303"
 source_layer: "us_cdc_mmwr"

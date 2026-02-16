@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Recommendations and Reports: CDC Clinical Guidelines on the Use of Doxycycline Postexposure Prophylaxis for Bacterial Sexually Transmitted Infection Prevention, United States, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=749454"
 source_layer: "us_cdc_mmwr"

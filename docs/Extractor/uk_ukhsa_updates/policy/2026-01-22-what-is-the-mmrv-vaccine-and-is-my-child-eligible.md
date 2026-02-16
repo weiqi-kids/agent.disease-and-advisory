@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "How the MMRV protects against 4 potentially serious illnesses, including chickenpox"
 source_url: "https://ukhsa.blog.gov.uk/2025/12/17/what-is-the-mmrv-vaccine-and-is-my-child-eligible/"
 source_layer: uk_ukhsa_updates

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '不明原因腦炎'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/xssPAz-UExUUGWCVUkKzGw"
 source_layer: tw_cdc_alerts

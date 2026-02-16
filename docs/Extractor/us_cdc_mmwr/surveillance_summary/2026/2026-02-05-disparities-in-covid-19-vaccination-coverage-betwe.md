@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Disparities in COVID-19 Vaccination Coverage Between Urban and Rural Counties - United States, December 14, 2020-April 10, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=422502"
 source_layer: us_cdc_mmwr

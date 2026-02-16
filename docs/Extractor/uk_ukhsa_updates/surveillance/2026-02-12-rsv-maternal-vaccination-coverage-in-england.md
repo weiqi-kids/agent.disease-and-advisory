@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: 'RSV maternal vaccination coverage in England'
 source_url: "https://www.gov.uk/government/publications/rsv-maternal-vaccination-coverage-in-england"
 source_layer: uk_ukhsa_updates

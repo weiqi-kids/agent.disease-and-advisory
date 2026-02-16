@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '庫賈氏病'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/nF4Iyqv-feP6RE5rWPMtGw"
 source_layer: tw_cdc_alerts

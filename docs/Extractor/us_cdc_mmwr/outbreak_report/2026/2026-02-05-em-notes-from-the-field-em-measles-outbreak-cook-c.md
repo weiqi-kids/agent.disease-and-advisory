@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "<em>Notes from the Field</em>: Measles Outbreak - Cook County, Illinois, October-November 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=745392"
 source_layer: us_cdc_mmwr

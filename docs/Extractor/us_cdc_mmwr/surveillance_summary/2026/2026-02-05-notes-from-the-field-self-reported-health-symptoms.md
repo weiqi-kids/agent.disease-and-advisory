@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Self-Reported Health Symptoms Following Petroleum Contamination of a Drinking Water System - Oahu, Hawaii, November 2021-February 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729553"
 source_layer: us_cdc_mmwr

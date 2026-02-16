@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Underutilization of Influenza Antiviral Treatment Among Children and Adolescents at Higher Risk for Influenza-Associated Complications - United States, 2023-2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=754667"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "HIV Services and Outcomes During the COVID-19 Pandemic - United States, 2019-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732942"
 source_layer: us_cdc_mmwr

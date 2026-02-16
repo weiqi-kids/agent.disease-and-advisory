@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Prevalence of Voluntary Medical Male Circumcision for HIV Infection Prevention - Chókwè District, Mozambique, 2014-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=424044"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '日本腦炎'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/FWEo643r7uqDO3-xM-zQ_g"
 source_layer: tw_cdc_alerts

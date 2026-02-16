@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Transmission of Pan-Resistant and Echinocandin-Resistant Candida auris in Health Care Facilities - Texas and the District of Columbia, January-April 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=424883"
 source_layer: us_cdc_mmwr

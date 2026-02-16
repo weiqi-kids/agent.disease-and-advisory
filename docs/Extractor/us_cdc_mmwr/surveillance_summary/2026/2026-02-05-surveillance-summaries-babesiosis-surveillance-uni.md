@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "SURVEILLANCE SUMMARIES: Babesiosis Surveillance - United States, 2011-2015"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=398700"
 source_layer: us_cdc_mmwr

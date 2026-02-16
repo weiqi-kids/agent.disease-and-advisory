@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Asthma-Associated Emergency Department Visits During the Canadian Wildfire Smoke Episodes - United States, April- August 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736356"
 source_layer: us_cdc_mmwr

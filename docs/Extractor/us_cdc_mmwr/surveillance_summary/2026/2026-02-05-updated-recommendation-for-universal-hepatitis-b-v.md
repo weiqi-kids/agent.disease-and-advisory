@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Updated Recommendation for Universal Hepatitis B Vaccination in Adults Aged 19-59 Years - United States, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=755310"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Notes from the Field: Delays in Identification and Treatment of a Case of Septicemic Plague - Navajo County, Arizona, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=425472"
 source_layer: "us_cdc_mmwr"

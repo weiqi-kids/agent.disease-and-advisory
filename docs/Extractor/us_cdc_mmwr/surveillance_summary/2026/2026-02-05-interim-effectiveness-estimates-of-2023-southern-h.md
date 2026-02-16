@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Interim Effectiveness Estimates of 2023 Southern Hemisphere Influenza Vaccines in Preventing Influenza-Associated Hospitalizations - REVELAC-i Network, March-July 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736842"
 source_layer: us_cdc_mmwr

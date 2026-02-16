@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Official Statistics: Weekly all-cause mortality surveillance: 2025 to 2026"
 source_url: "https://www.gov.uk/government/statistics/weekly-all-cause-mortality-surveillance-2025-to-2026"
 source_layer: uk_ukhsa_updates

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Use of Additional Doses of 2024-2025 COVID-19 Vaccine for Adults Aged ≥65 Years and Persons Aged ≥6 Months with Moderate or Severe Immunocompromise: Recommendations of the Advisory Committee on Immunization Practices - United States, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=755545"
 source_layer: us_cdc_mmwr

@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: '萊姆病'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/a3ehnb-7K1HBseL0yXv8OA"
 source_layer: tw_cdc_alerts

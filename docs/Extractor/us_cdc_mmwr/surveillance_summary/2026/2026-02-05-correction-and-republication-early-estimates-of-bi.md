@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Correction and Republication: Early Estimates of Bivalent mRNA Vaccine Effectiveness in Preventing COVID-19-Associated Emergency Department or Urgent Care Encounters and Hospitalizations Among Immunocompetent Adults - VISION Network, Nine States, September-November 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734220"
 source_layer: us_cdc_mmwr

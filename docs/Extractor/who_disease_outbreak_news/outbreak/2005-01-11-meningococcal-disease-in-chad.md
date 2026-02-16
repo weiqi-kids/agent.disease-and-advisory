@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Meningococcal disease in Chad"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2005_01_11a-en"
 source_layer: who_disease_outbreak_news

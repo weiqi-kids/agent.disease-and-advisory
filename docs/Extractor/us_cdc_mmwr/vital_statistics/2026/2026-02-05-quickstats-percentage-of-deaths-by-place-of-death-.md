@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "QuickStats: Percentage of Deaths, by Place of Death --- National Vital Statistics System, United States, 2000--2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407027"
 source_layer: us_cdc_mmwr

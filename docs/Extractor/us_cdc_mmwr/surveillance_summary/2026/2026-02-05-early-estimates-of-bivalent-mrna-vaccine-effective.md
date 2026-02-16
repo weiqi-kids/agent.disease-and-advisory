@@ -1,5 +1,6 @@
 ---
 nav_exclude: true
+layout: default
 title: "Early Estimates of Bivalent mRNA Vaccine Effectiveness in Preventing COVID-19-Associated Hospitalization Among Immunocompetent Adults Aged ≥65 Years - IVY Network, 18 States, September 8-November 30, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733157"
 source_layer: us_cdc_mmwr
