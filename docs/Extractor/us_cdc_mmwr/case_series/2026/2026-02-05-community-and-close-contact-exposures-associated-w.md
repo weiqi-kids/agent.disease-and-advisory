@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Community and Close Contact Exposures Associated with COVID-19 Among Symptomatic Adults ≥18 Years in 11 Outpatient Health Care Facilities - United States, July 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411250"
 source_layer: "us_cdc_mmwr"

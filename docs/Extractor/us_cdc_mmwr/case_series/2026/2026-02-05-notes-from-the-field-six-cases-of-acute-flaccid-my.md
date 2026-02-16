@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Notes from the Field: Six Cases of Acute Flaccid Myelitis in Children --- Minnesota, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397479"
 source_layer: "us_cdc_mmwr"

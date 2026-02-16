@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Modeling of Future COVID-19 Cases, Hospitalizations, and Deaths, by Vaccination Rates and Nonpharmaceutical Intervention Scenarios - United States, April-September 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421616"
 source_layer: "us_cdc_mmwr"

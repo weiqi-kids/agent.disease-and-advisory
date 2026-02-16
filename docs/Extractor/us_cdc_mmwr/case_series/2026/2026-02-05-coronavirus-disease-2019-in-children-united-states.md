@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Coronavirus Disease 2019 in Children --- United States, February 12--April 2, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405930"
 source_layer: "us_cdc_mmwr"

@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Healthy Contact Lens Behaviors Communicated by Eye Care Providers and Recalled by Patients --- United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401191"
 source_layer: "us_cdc_mmwr"

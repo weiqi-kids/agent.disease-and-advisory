@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "EARLY RELEASE: Characteristics and Clinical Outcomes of Adult Patients Hospitalized with COVID-19 --- Georgia, March 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406672"
 source_layer: "us_cdc_mmwr"

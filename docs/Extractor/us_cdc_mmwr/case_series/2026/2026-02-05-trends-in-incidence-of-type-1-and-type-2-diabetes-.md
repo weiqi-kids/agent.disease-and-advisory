@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Trends in Incidence of Type 1 and Type 2 Diabetes Among Youths - Selected Counties and Indian Reservations, United States, 2002-2015"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403654"
 source_layer: "us_cdc_mmwr"

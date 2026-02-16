@@ -162,6 +162,9 @@ seo:
 ---
 
 ## 本週重點
+{: .speakable-content}
+
+<div class="key-takeaway" markdown="1">
 
 - **英國發布非無菌濕紙巾緊急警告**：UKHSA 與 MHRA 發出緊急通知，4 款非無菌無酒精濕紙巾因洋蔥伯克氏菌（Burkholderia stabilis）污染已造成感染病例及死亡案例，呼籲民眾立即停用並檢查急救箱。(uk_ukhsa_updates)
 
@@ -172,6 +175,8 @@ seo:
 - **台灣流感疫情持續上升**：上週類流感門急診就診人次上升 3.2%，新增 25 例重症及 1 例死亡，公費流感疫苗僅剩約 11 萬劑。(tw_cdc_alerts)
 
 - **UKHSA 更新多項高危傳染病指引**：發布嚴重發熱伴血小板減少綜合症（SFTS）、玻利維亞出血熱、鼠疫等高危傳染病指引，提升醫療人員對旅遊相關病例的識別能力。(uk_ukhsa_updates)
+
+</div>
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Interim Clinical Treatment Considerations for Severe Manifestations of Mpox - United States, February 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734058"
 source_layer: "us_cdc_mmwr"

@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Increase in Measles Cases --- United States, January 1--April 26, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397580"
 source_layer: "us_cdc_mmwr"

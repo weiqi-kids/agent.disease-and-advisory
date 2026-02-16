@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Prevalence of SARS-CoV-2 and Influenza Coinfection and Clinical Characteristics Among Children and Adolescents Aged 18 Years Who Were Hospitalized or Died with Influenza - United States, 2021-22 Influenza Season"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733128"
 source_layer: "us_cdc_mmwr"

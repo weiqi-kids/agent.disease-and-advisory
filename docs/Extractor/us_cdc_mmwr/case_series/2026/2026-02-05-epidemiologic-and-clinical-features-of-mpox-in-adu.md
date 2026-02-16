@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Epidemiologic and Clinical Features of Mpox in Adults Aged 50 Years - United States, May 2022-May 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736272"
 source_layer: "us_cdc_mmwr"

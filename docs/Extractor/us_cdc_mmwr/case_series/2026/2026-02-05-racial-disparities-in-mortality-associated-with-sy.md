@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Racial Disparities in Mortality Associated with Systemic Lupus Erythematosus - Fulton and DeKalb Counties, Georgia, 2002-2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397712"
 source_layer: "us_cdc_mmwr"

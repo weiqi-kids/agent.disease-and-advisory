@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Notes from the Field: Increase in Human and Animal Tularemia Cases - Minnesota, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758763"
 source_layer: "us_cdc_mmwr"

@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Trends in Racial and Ethnic Disparities in COVID-19 Hospitalizations, by Region - United States, March-December 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=420182"
 source_layer: "us_cdc_mmwr"

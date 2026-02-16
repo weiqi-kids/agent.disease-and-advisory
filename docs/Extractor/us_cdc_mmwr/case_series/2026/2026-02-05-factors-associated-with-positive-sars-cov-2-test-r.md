@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Factors Associated with Positive SARS-CoV-2 Test Results in Outpatient Health Facilities and Emergency Departments Among Children and Adolescents Aged <18 Years - Mississippi, September-November 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=414203"
 source_layer: "us_cdc_mmwr"

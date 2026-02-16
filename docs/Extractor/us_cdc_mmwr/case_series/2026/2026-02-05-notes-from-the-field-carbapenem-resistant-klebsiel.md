@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Notes from the Field: Carbapenem-resistant Klebsiella pneumoniae with mcr-1 Gene Identified in a Hospitalized Patient - Wyoming, January 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403655"
 source_layer: "us_cdc_mmwr"

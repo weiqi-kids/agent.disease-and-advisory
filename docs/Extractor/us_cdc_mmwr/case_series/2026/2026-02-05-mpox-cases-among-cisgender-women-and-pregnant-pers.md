@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Mpox Cases Among Cisgender Women and Pregnant Persons - United States, May 11-November 7, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733319"
 source_layer: "us_cdc_mmwr"

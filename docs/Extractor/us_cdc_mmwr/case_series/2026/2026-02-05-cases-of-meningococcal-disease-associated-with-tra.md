@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Cases of Meningococcal Disease Associated with Travel to Saudi Arabia for Umrah Pilgrimage - United States, United Kingdom, and France, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=749472"
 source_layer: "us_cdc_mmwr"

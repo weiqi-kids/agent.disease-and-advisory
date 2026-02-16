@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Human Cases of Highly Pathogenic Avian Influenza A(H5N1) - California, September-December 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758378"
 source_layer: "us_cdc_mmwr"

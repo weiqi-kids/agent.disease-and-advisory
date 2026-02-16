@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Implications of Shortened Quarantine Among Household Contacts of Index Patients with Confirmed SARS-CoV-2 Infection - Tennessee and Wisconsin, April-September 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415321"
 source_layer: "us_cdc_mmwr"

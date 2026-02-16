@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "COVID-19 in Primary and Secondary School Settings During the First Semester of School Reopening - Florida, August-December 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=418812"
 source_layer: "us_cdc_mmwr"

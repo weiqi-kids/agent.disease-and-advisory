@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Geographic Distribution of Suspected Alpha-gal Syndrome Cases - United States, January 2017-December 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736006"
 source_layer: "us_cdc_mmwr"

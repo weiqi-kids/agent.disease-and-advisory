@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Notes from the Field: Amphetamine Use Among Workers with Severe Hyperthermia - Eight States, 2010-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409069"
 source_layer: "us_cdc_mmwr"

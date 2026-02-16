@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Sepsis Attributed to Bacterial Contamination of Platelets Associated with a Potential Common Source --- Multiple States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399045"
 source_layer: "us_cdc_mmwr"

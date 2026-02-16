@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "SARS-CoV-2 Infection and Death Rates Among Maintenance Dialysis Patients During Delta and Early Omicron Waves - United States, June 30, 2021-September 27, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736203"
 source_layer: "us_cdc_mmwr"

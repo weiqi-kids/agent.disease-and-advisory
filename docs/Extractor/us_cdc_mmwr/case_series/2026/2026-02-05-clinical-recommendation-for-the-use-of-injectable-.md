@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Clinical Recommendation for the Use of Injectable Lenacapavir as HIV Preexposure Prophylaxis - United States, 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=760243"
 source_layer: "us_cdc_mmwr"

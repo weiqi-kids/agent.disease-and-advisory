@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Notes from the Field: E-Cigarette-Associated Cases Reported to Poison Centers - United States, April 1, 2022-March 31, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735609"
 source_layer: "us_cdc_mmwr"

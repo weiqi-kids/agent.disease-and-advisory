@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Progress Toward Poliomyelitis Eradication - Pakistan, January 2022-June 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736270"
 source_layer: "us_cdc_mmwr"

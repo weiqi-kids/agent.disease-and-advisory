@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Notes from the Field: Four Cases of Lyme Disease at an Outdoor Wilderness Camp --- North Carolina, 2017 and 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403410"
 source_layer: "us_cdc_mmwr"

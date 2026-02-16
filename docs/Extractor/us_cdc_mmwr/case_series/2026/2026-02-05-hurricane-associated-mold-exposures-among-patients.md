@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Hurricane-Associated Mold Exposures Among Patients at Risk for Invasive Mold Infections After Hurricane Harvey - Houston, Texas, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=398695"
 source_layer: "us_cdc_mmwr"

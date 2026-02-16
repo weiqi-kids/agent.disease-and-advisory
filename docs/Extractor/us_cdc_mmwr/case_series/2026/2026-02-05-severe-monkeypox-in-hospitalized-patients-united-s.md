@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Severe Monkeypox in Hospitalized Patients - United States, August 10-October 10, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732433"
 source_layer: "us_cdc_mmwr"

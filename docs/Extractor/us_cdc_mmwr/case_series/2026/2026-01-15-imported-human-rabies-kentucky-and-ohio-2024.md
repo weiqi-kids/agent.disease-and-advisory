@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Imported Human Rabies - Kentucky and Ohio, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=762975"
 source_layer: "us_cdc_mmwr"

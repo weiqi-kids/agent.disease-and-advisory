@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Notes from the Field: Interventions to Reduce Measles Virus Exposures in Outpatient Health Care Facilities - New York City, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401689"
 source_layer: "us_cdc_mmwr"

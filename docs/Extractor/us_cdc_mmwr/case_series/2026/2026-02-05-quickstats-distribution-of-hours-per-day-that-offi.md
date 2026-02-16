@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "QuickStats: Distribution of Hours per Day That Office-Based Primary Care and Specialist Care Physicians Spent Outside Normal Office Hours Documenting Clinical Care in Their Medical Record System† - United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=462542"
 source_layer: "us_cdc_mmwr"

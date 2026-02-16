@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Notes from the Field: First Reported U.S. Cases of Tinea Caused by Trichophyton indotineae - New York City, December 2021-March 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734992"
 source_layer: "us_cdc_mmwr"

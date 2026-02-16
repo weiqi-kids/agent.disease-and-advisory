@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Notes from the Field: E-cigarette, or Vaping, Product Use-Associated Lung Injury Cases During the COVID-19 Response - California, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408237"
 source_layer: "us_cdc_mmwr"

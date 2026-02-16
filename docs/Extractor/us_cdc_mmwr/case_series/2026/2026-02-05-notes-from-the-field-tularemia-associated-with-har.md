@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Notes from the Field: Tularemia Associated with Harbor Seal Necropsy - Kitsap County, Washington, October 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752230"
 source_layer: "us_cdc_mmwr"

@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Highly Pathogenic Avian Influenza A(H5N1) Virus Infection in a Child with No Known Exposure - San Francisco, California, December 2024-January 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=760158"
 source_layer: "us_cdc_mmwr"

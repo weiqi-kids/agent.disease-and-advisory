@@ -1,5 +1,5 @@
 ---
-nav_exclude: "true"
+nav_exclude: true
 title: "Travel from the United Kingdom to the United States by a Symptomatic Patient Infected with the SARS-CoV-2 B.1.1.7 Variant - Texas, January 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=417444"
 source_layer: "us_cdc_mmwr"
