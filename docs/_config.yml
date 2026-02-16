@@ -31,3 +31,55 @@ footer_content: "EpiAlert 疫情快訊 &copy; 2024-2026. Powered by Claude Code.
 
 # 顏色主題
 color_scheme: light
+
+# 預設值 - 只讓 index.md 和 lessons-learned.md 出現在導覽
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "index.md"
+    values:
+      nav_exclude: false
+      nav_order: 1
+  - scope:
+      path: "Narrator/weekly_digest/index.md"
+    values:
+      nav_exclude: false
+      nav_order: 2
+  - scope:
+      path: "Extractor/index.md"
+    values:
+      nav_exclude: false
+      nav_order: 90
+  # Layer 索引頁 - 作為資料來源的子項目
+  - scope:
+      path: "Extractor/who_disease_outbreak_news/index.md"
+    values:
+      nav_exclude: false
+  - scope:
+      path: "Extractor/us_cdc_han/index.md"
+    values:
+      nav_exclude: false
+  - scope:
+      path: "Extractor/us_cdc_mmwr/index.md"
+    values:
+      nav_exclude: false
+  - scope:
+      path: "Extractor/us_travel_health_notices/index.md"
+    values:
+      nav_exclude: false
+  - scope:
+      path: "Extractor/ecdc_cdtr/index.md"
+    values:
+      nav_exclude: false
+  - scope:
+      path: "Extractor/uk_ukhsa_updates/index.md"
+    values:
+      nav_exclude: false
+  - scope:
+      path: "Extractor/tw_cdc_alerts/index.md"
+    values:
+      nav_exclude: false
