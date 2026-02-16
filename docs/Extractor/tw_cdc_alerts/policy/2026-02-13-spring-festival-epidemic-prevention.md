@@ -10,6 +10,47 @@ language: zh
 feed_source: "news_zh"
 diseases: ["流感", "新冠肺炎", "諾羅病毒"]
 regions: ["台灣"]
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy/2026-02-13-spring-festival-epidemic-prevention#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy/2026-02-13-spring-festival-epidemic-prevention#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '政策公告'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy'
+        - position: 4
+          name: '春節不忘防疫 籲請民眾落實衛生好習慣 聚會、聚餐留意飲食安全及環境整潔 平安健康迎新年'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy/2026-02-13-spring-festival-epidemic-prevention'
+  ymyl:
+    lastReviewed: '2026-02-13'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

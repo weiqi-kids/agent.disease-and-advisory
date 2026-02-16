@@ -9,6 +9,44 @@ confidence: 高
 who_id: "3988526b-1c62-4fe4-9037-03854ee2bda7"
 regions: [On,Algeria,Global Polio Laboratory Network,Tamanrasset,Stool,Pasteur Institute,Paris,Genomic,Kano,Nigeria]
 diseases: [polio,Polio]
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/outbreak/2022-09-13-circulating-vaccine-derived-poliovirus-type-2-cvdp#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/outbreak/2022-09-13-circulating-vaccine-derived-poliovirus-type-2-cvdp#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: '疫情爆發'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news'
+        - position: 3
+          name: 'Circulating vaccine-derived poliovirus type 2 (cVDPV2) - Algeria'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/outbreak/2022-09-13-circulating-vaccine-derived-poliovirus-type-2-cvdp'
+  ymyl:
+    lastReviewed: '2022-09-13'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

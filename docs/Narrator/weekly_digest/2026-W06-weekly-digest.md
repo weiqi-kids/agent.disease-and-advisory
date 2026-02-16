@@ -3,6 +3,152 @@ nav_exclude: true
 title: '傳染病威脅週報 2026-W06'
 layout: default
 parent: 週報
+seo:
+  meta:
+    title: '傳染病威脅週報 2026-W06 - 英國濕紙巾污染警告、春節旅遊警示、禽流感 H5N1 高峰期 | EpiAlert'
+    description: '本週重點：英國發布非無菌濕紙巾緊急警告、春節連假旅遊警示、禽流感 H5N1 冬季高峰期警示、台灣流感疫情持續上升、屈公病疫區擴大。來自 WHO、CDC、ECDC 等官方來源的完整分析。'
+  json_ld:
+    '@context': 'https://schema.org'
+    '@graph':
+      - '@type': 'WebPage'
+        '@id': 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W06-weekly-digest#webpage'
+        url: 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W06-weekly-digest'
+        name: '傳染病威脅週報 2026-W06'
+        description: '英國濕紙巾污染警告、春節旅遊健康提醒、禽流感 H5N1 冬季警示、流感疫情監測'
+        inLanguage: 'zh-TW'
+        isPartOf:
+          '@id': 'https://epialert.weiqi.kids#website'
+        primaryImageOfPage:
+          '@type': 'ImageObject'
+          url: 'https://epialert.weiqi.kids/assets/images/logo.png'
+        datePublished: '2026-02-09T10:00:00+08:00'
+        dateModified: '2026-02-09T10:00:00+08:00'
+        speakable:
+          '@type': 'SpeakableSpecification'
+          cssSelector:
+            - '.article-summary'
+            - '.speakable-content'
+            - '.key-takeaway'
+            - '.key-answer'
+            - '.expert-quote'
+            - '.actionable-steps li'
+            - '.faq-answer-content'
+      - '@type': 'Article'
+        '@id': 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W06-weekly-digest#article'
+        mainEntityOfPage:
+          '@id': 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W06-weekly-digest#webpage'
+          significantLink:
+            - 'https://epialert.weiqi.kids/Extractor/uk_ukhsa_updates/'
+            - 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/'
+        headline: '傳染病威脅週報 2026-W06'
+        alternativeHeadline: 'Infectious Disease Threats Weekly Report 2026-W06'
+        description: '本週重點：英國發布非無菌濕紙巾緊急警告、春節連假旅遊警示、禽流感 H5N1 冬季高峰期警示、台灣流感疫情持續上升'
+        image:
+          '@type': 'ImageObject'
+          url: 'https://epialert.weiqi.kids/assets/images/logo.png'
+          width: 1200
+          height: 630
+        author:
+          '@id': 'https://epialert.weiqi.kids/about#person'
+        publisher:
+          '@id': 'https://epialert.weiqi.kids#organization'
+        datePublished: '2026-02-09T10:00:00+08:00'
+        dateModified: '2026-02-09T10:00:00+08:00'
+        articleSection: '週報'
+        keywords: 'Burkholderia stabilis, 洋蔥伯克氏菌, 禽流感, H5N1, 流感, H3N2, 百日咳, 屈公病, 立百病毒, 春節旅遊, 傳染病監測, 疫情週報'
+        wordCount: 6200
+        inLanguage: 'zh-TW'
+        isAccessibleForFree: true
+        isPartOf:
+          '@type': 'WebSite'
+          '@id': 'https://epialert.weiqi.kids#website'
+          name: 'EpiAlert 疫情快訊'
+          potentialAction:
+            '@type': 'SearchAction'
+            target: 'https://epialert.weiqi.kids/search?q={search_term}'
+            query-input: 'required name=search_term'
+      - '@type': 'Person'
+        '@id': 'https://epialert.weiqi.kids/about#person'
+        name: 'EpiAlert AI 編輯'
+        url: 'https://epialert.weiqi.kids/about'
+        description: 'AI 驅動的疫情資訊彙整系統,自動收集並分析來自 WHO、CDC 等官方來源的傳染病情報'
+        worksFor:
+          '@id': 'https://epialert.weiqi.kids#organization'
+        knowsAbout:
+          - '傳染病監測'
+          - '公共衛生'
+          - '疫情分析'
+          - '流行病學'
+        hasCredential:
+          - '@type': 'EducationalOccupationalCredential'
+            name: 'AI 輔助醫療資訊系統'
+            credentialCategory: 'Automated Health Intelligence System'
+        sameAs:
+          - 'https://github.com/anthropics/claude-code'
+      - '@type': 'Organization'
+        '@id': 'https://epialert.weiqi.kids#organization'
+        name: 'EpiAlert 疫情快訊'
+        url: 'https://epialert.weiqi.kids'
+        logo:
+          '@type': 'ImageObject'
+          url: 'https://epialert.weiqi.kids/assets/images/logo.png'
+          width: 600
+          height: 60
+        description: '全球傳染病情報自動收集與分析系統'
+        sameAs:
+          - 'https://github.com/anthropics/claude-code'
+        contactPoint:
+          '@type': 'ContactPoint'
+          contactType: 'technical support'
+          url: 'https://github.com/anthropics/claude-code/issues'
+      - '@type': 'BreadcrumbList'
+        itemListElement:
+          - '@type': 'ListItem'
+            position: 1
+            name: '首頁'
+            item: 'https://epialert.weiqi.kids'
+          - '@type': 'ListItem'
+            position: 2
+            name: '週報'
+            item: 'https://epialert.weiqi.kids/Narrator/weekly_digest/'
+          - '@type': 'ListItem'
+            position: 3
+            name: '傳染病威脅週報 2026-W06'
+            item: 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W06-weekly-digest'
+      - '@type': 'ItemList'
+        '@id': 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W06-weekly-digest#highlights'
+        name: '本週傳染病威脅重點'
+        description: '2026 年第 6 週全球傳染病威脅摘要'
+        numberOfItems: 5
+        itemListElement:
+          - '@type': 'ListItem'
+            position: 1
+            name: '英國發布非無菌濕紙巾緊急警告'
+            description: 'UKHSA 與 MHRA 發出緊急通知,4 款非無菌無酒精濕紙巾因洋蔥伯克氏菌污染已造成感染病例及死亡案例'
+          - '@type': 'ListItem'
+            position: 2
+            name: '春節連假旅遊警示'
+            description: '台灣疾管署發布春節出國旅遊健康提醒,全球流感、麻疹、登革熱及屈公病等傳染病疫情持續或升溫'
+          - '@type': 'ListItem'
+            position: 3
+            name: '禽流感 H5N1 冬季高峰期警示'
+            description: '台灣今年已發生 7 起禽場禽流感事件,2025 年全球共通報 30 例人類 H5N1 感染(12 例死亡)'
+          - '@type': 'ListItem'
+            position: 4
+            name: '台灣流感疫情持續上升'
+            description: '上週新增 25 例重症及 1 例死亡,公費流感疫苗僅剩約 11 萬劑,流感季累計 497 例重症、94 例死亡'
+          - '@type': 'ListItem'
+            position: 5
+            name: 'UKHSA 更新多項高危傳染病指引'
+            description: '發布嚴重發熱伴血小板減少綜合症(SFTS)、玻利維亞出血熱、鼠疫等高危傳染病指引'
+      - '@type': 'Table'
+        '@id': 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W06-weekly-digest#comparison'
+        about: '與上週疫情比較'
+        description: '新增威脅、升級警示、持續關注、已解除項目的完整比較'
+  ymyl:
+    lastReviewed: '2026-02-09'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本報告由自動化系統生成,僅供參考用途。報告內容基於公開資訊來源,不構成醫療建議、官方政策或專業診斷。使用者應自行驗證資訊並諮詢專業人士。'
 ---
 
 # 傳染病威脅週報 2026-W06

@@ -8,6 +8,47 @@ date: 2025-09-22
 confidence: 中
 language: zh
 feed_source: "medical_zh"
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory/2025-09-22-post-typhoon-disease-alert#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory/2025-09-22-post-typhoon-disease-alert#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '醫療通告'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory'
+        - position: 4
+          name: '樺加沙颱風後鉤端螺旋體及類鼻疽等傳染病發生風險上升,疾管署籲請臨床醫師提高警覺,加強詢問TOCC及通報(疾病管制署致醫界通函第588號)'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory/2025-09-22-post-typhoon-disease-alert'
+  ymyl:
+    lastReviewed: '2025-09-22'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

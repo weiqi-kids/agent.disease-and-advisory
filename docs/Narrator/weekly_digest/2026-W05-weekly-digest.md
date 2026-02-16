@@ -1,8 +1,154 @@
 ---
-title: 傳染病威脅週報 2026-W05
+nav_exclude: true
+title: '傳染病威脅週報 2026-W05'
 layout: default
 parent: 週報
-nav_exclude: true
+seo:
+  meta:
+    title: '傳染病威脅週報 2026-W05 - 漢他病毒致死、立百病毒疫情、流感 A(H3N2) 持續流行 | EpiAlert'
+    description: '本週重點：台灣 2026 年首例漢他病毒致死案例、印度立百病毒疫情累計 5 例確診、嬰兒營養產品全球召回、流感 A(H3N2) K 分支持續流行。來自 WHO、CDC、ECDC 等官方來源的完整分析。'
+  json_ld:
+    '@context': 'https://schema.org'
+    '@graph':
+      - '@type': 'WebPage'
+        '@id': 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W05-weekly-digest#webpage'
+        url: 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W05-weekly-digest'
+        name: '傳染病威脅週報 2026-W05'
+        description: '台灣首例漢他病毒致死、印度立百病毒疫情、嬰兒配方奶粉召回、流感 A(H3N2) 監測'
+        inLanguage: 'zh-TW'
+        isPartOf:
+          '@id': 'https://epialert.weiqi.kids#website'
+        primaryImageOfPage:
+          '@type': 'ImageObject'
+          url: 'https://epialert.weiqi.kids/assets/images/logo.png'
+        datePublished: '2026-02-04T16:30:00+08:00'
+        dateModified: '2026-02-04T16:30:00+08:00'
+        speakable:
+          '@type': 'SpeakableSpecification'
+          cssSelector:
+            - '.article-summary'
+            - '.speakable-content'
+            - '.key-takeaway'
+            - '.key-answer'
+            - '.expert-quote'
+            - '.actionable-steps li'
+            - '.faq-answer-content'
+      - '@type': 'Article'
+        '@id': 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W05-weekly-digest#article'
+        mainEntityOfPage:
+          '@id': 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W05-weekly-digest#webpage'
+          significantLink:
+            - 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/'
+            - 'https://epialert.weiqi.kids/Extractor/ecdc_cdtr/'
+        headline: '傳染病威脅週報 2026-W05'
+        alternativeHeadline: 'Infectious Disease Threats Weekly Report 2026-W05'
+        description: '本週重點：台灣 2026 年首例漢他病毒致死案例、印度立百病毒疫情累計 5 例確診、嬰兒營養產品全球召回、流感 A(H3N2) K 分支持續流行'
+        image:
+          '@type': 'ImageObject'
+          url: 'https://epialert.weiqi.kids/assets/images/logo.png'
+          width: 1200
+          height: 630
+        author:
+          '@id': 'https://epialert.weiqi.kids/about#person'
+        publisher:
+          '@id': 'https://epialert.weiqi.kids#organization'
+        datePublished: '2026-02-04T16:30:00+08:00'
+        dateModified: '2026-02-04T16:30:00+08:00'
+        articleSection: '週報'
+        keywords: '漢他病毒, 立百病毒, Nipah, 流感, H3N2, 禽流感, H5N1, 猴痘, Mpox, 登革熱, 傳染病監測, 疫情週報'
+        wordCount: 5800
+        inLanguage: 'zh-TW'
+        isAccessibleForFree: true
+        isPartOf:
+          '@type': 'WebSite'
+          '@id': 'https://epialert.weiqi.kids#website'
+          name: 'EpiAlert 疫情快訊'
+          potentialAction:
+            '@type': 'SearchAction'
+            target: 'https://epialert.weiqi.kids/search?q={search_term}'
+            query-input: 'required name=search_term'
+      - '@type': 'Person'
+        '@id': 'https://epialert.weiqi.kids/about#person'
+        name: 'EpiAlert AI 編輯'
+        url: 'https://epialert.weiqi.kids/about'
+        description: 'AI 驅動的疫情資訊彙整系統,自動收集並分析來自 WHO、CDC 等官方來源的傳染病情報'
+        worksFor:
+          '@id': 'https://epialert.weiqi.kids#organization'
+        knowsAbout:
+          - '傳染病監測'
+          - '公共衛生'
+          - '疫情分析'
+          - '流行病學'
+        hasCredential:
+          - '@type': 'EducationalOccupationalCredential'
+            name: 'AI 輔助醫療資訊系統'
+            credentialCategory: 'Automated Health Intelligence System'
+        sameAs:
+          - 'https://github.com/anthropics/claude-code'
+      - '@type': 'Organization'
+        '@id': 'https://epialert.weiqi.kids#organization'
+        name: 'EpiAlert 疫情快訊'
+        url: 'https://epialert.weiqi.kids'
+        logo:
+          '@type': 'ImageObject'
+          url: 'https://epialert.weiqi.kids/assets/images/logo.png'
+          width: 600
+          height: 60
+        description: '全球傳染病情報自動收集與分析系統'
+        sameAs:
+          - 'https://github.com/anthropics/claude-code'
+        contactPoint:
+          '@type': 'ContactPoint'
+          contactType: 'technical support'
+          url: 'https://github.com/anthropics/claude-code/issues'
+      - '@type': 'BreadcrumbList'
+        itemListElement:
+          - '@type': 'ListItem'
+            position: 1
+            name: '首頁'
+            item: 'https://epialert.weiqi.kids'
+          - '@type': 'ListItem'
+            position: 2
+            name: '週報'
+            item: 'https://epialert.weiqi.kids/Narrator/weekly_digest/'
+          - '@type': 'ListItem'
+            position: 3
+            name: '傳染病威脅週報 2026-W05'
+            item: 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W05-weekly-digest'
+      - '@type': 'ItemList'
+        '@id': 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W05-weekly-digest#highlights'
+        name: '本週傳染病威脅重點'
+        description: '2026 年第 5 週全球傳染病威脅摘要'
+        numberOfItems: 5
+        itemListElement:
+          - '@type': 'ListItem'
+            position: 1
+            name: '台灣 2026 年首例漢他病毒症候群致死案例'
+            description: '北部 70 多歲男性因漢他病毒感染併發敗血症及多重器官衰竭死亡,住家周邊捕獲的老鼠檢測出漢他病毒抗體陽性'
+          - '@type': 'ListItem'
+            position: 2
+            name: '印度西孟加拉邦爆發立百病毒疫情'
+            description: '截至 1 月 25 日累計 5 例確診,其中 2 例病況嚴重;台灣疾管署預告將「立百病毒感染症」列為第五類法定傳染病'
+          - '@type': 'ListItem'
+            position: 3
+            name: '嬰兒營養產品全球召回'
+            description: '因檢測到蠟樣芽孢桿菌(Bacillus cereus)毒素 cereulide,多國正進行多批次、多品牌嬰兒配方奶粉預防性召回'
+          - '@type': 'ListItem'
+            position: 4
+            name: '流感 A(H3N2) K 分支持續流行'
+            description: '台灣本流感季累計 472 例重症、93 例死亡,以 H3N2 為主;各國研究顯示本季疫苗對 K 分支仍有 30-50% 保護力'
+          - '@type': 'ListItem'
+            position: 5
+            name: '英國擴大 RSV 疫苗接種資格'
+            description: '政府接受 JCVI 建議,自 2026 年 4 月起擴大老年人呼吸道融合病毒(RSV)疫苗接種計畫適用對象'
+      - '@type': 'Table'
+        '@id': 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W05-weekly-digest#comparison'
+        about: '全球疫情概覽'
+        description: '新興威脅、持續監測、風險評估更新的完整比較'
+  ymyl:
+    lastReviewed: '2026-02-04'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本報告由自動化系統生成,僅供參考用途。報告內容基於公開資訊來源,不構成醫療建議、官方政策或專業診斷。使用者應自行驗證資訊並諮詢專業人士。'
 ---
 
 # 傳染病威脅週報 2026-W05

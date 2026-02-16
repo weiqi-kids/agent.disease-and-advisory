@@ -11,6 +11,47 @@ feed_source: "news_en"
 diseases: ["influenza A(H1N1)", "influenza A(H3N2)", "influenza B"]
 regions: ["Taiwan", "United States", "Canada", "Korea", "Europe"]
 notes: "108K flu visits in week 11; 1,152 severe cases and 254 deaths this season (Oct 2024-Mar 2025); H1N1 predominant strain; 58% of severe cases in adults 65+"
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/domestic_outbreak/2025-03-18-elevated-flu-activity-warning#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/domestic_outbreak/2025-03-18-elevated-flu-activity-warning#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '國內疫情'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/domestic_outbreak'
+        - position: 4
+          name: 'Public urged to practice good hygiene habits and to seek medical attention immediately if experiencing warning signs amid elevated flu activity'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/domestic_outbreak/2025-03-18-elevated-flu-activity-warning'
+  ymyl:
+    lastReviewed: '2025-03-18'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

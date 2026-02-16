@@ -9,6 +9,44 @@ confidence: 高
 who_id: "eaea5901-3d24-4329-9562-081930aecd02"
 regions: [Disease Outbreak News,Middle East,Co,Saudi Arabia,Riyadh,Asir,Additionally,United Arab Emirates,Globally,Based]
 diseases: [MERS]
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/update/2013-08-28-middle-east-respiratory-syndrome-coronavirus-mers-#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/update/2013-08-28-middle-east-respiratory-syndrome-coronavirus-mers-#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: '疫情更新'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news'
+        - position: 3
+          name: 'Middle East respiratory syndrome coronavirus (MERS-CoV) - update'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/update/2013-08-28-middle-east-respiratory-syndrome-coronavirus-mers-'
+  ymyl:
+    lastReviewed: '2013-08-28'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

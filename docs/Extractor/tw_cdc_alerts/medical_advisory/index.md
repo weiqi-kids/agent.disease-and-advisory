@@ -3,6 +3,75 @@ title: medical_advisory
 layout: default
 parent: Taiwan CDC Alerts
 has_children: true
+seo:
+  json_ld:
+    - "@type": "WebPage"
+      "@id": "https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory#webpage"
+      url: "https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory"
+      name: "medical_advisory"
+      description: "台灣疾病管制署致醫界通函彙整，涵蓋立百病毒、肺炎鏈球菌疫苗、流感抗病毒藥劑等醫療專業防疫指引"
+      inLanguage: "zh-TW"
+      isPartOf:
+        "@id": "https://epialert.weiqi.kids#website"
+      datePublished: "2025-09-22"
+      dateModified: "2026-01-27"
+      speakable:
+        "@type": "SpeakableSpecification"
+        cssSelector:
+          - ".article-summary"
+          - ".speakable-content"
+          - ".key-takeaway"
+          - ".key-answer"
+          - ".expert-quote"
+          - ".actionable-steps li"
+          - ".faq-answer-content"
+    - "@type": "Organization"
+      "@id": "https://epialert.weiqi.kids#organization"
+      name: "EpiAlert 疫情快訊"
+      url: "https://epialert.weiqi.kids"
+      logo:
+        "@type": "ImageObject"
+        url: "https://epialert.weiqi.kids/assets/images/logo.png"
+        width: 600
+        height: 60
+      description: "全球傳染病情報自動收集與分析系統"
+      sameAs:
+        - "https://github.com/anthropics/claude-code"
+      contactPoint:
+        "@type": "ContactPoint"
+        contactType: "technical support"
+        url: "https://github.com/anthropics/claude-code/issues"
+    - "@type": "BreadcrumbList"
+      itemListElement:
+        - "@type": "ListItem"
+          position: 1
+          name: "首頁"
+          item: "https://epialert.weiqi.kids"
+        - "@type": "ListItem"
+          position: 2
+          name: "Taiwan CDC Alerts"
+          item: "https://epialert.weiqi.kids/Extractor/tw_cdc_alerts"
+        - "@type": "ListItem"
+          position: 3
+          name: "medical_advisory"
+          item: "https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory"
+    - "@type": "ItemList"
+      name: "台灣 CDC 致醫界通函列表"
+      description: "台灣疾病管制署針對醫療專業人員發布的傳染病監測、疫苗接種、用藥指引等專業通函"
+      numberOfItems: 10
+      itemListElement:
+        - "@type": "ListItem"
+          position: 1
+          name: "因應國際間立百病毒感染症疫情,籲請醫界朋友加強詢問TOCC"
+          url: "https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory/2026-01-27-nipah-virus-medical-alert"
+        - "@type": "ListItem"
+          position: 2
+          name: "成人公費肺炎鏈球菌疫苗轉換政策"
+          url: "https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory/2026-01-15-pneumococcal-vaccine-medical"
+  ymyl:
+    lastReviewed: "2026-02-16"
+    reviewedBy: "EpiAlert AI 編輯"
+    medicalDisclaimer: "本站內容由 AI 自動彙整自 WHO、CDC 等官方來源，僅供參考，不構成醫療建議。如有健康疑慮，請諮詢專業醫療人員。"
 ---
 
 # medical_advisory

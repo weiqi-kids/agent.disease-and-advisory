@@ -9,6 +9,44 @@ confidence: 高
 who_id: "08fc41cb-5211-4b8f-9cee-038bc5f9fdbf"
 regions: [On,United Kingdom,All,London,Monkeypox,Another,The West African,Sexual Health Services,West African,Great Britain]
 diseases: [monkeypox,Monkeypox]
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/outbreak/2022-05-18-monkeypox-united-kingdom-of-great-britain-and-nort#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/outbreak/2022-05-18-monkeypox-united-kingdom-of-great-britain-and-nort#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: '疫情爆發'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news'
+        - position: 3
+          name: 'Monkeypox - United Kingdom of Great Britain and Northern Ireland'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/outbreak/2022-05-18-monkeypox-united-kingdom-of-great-britain-and-nort'
+  ymyl:
+    lastReviewed: '2022-05-18'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

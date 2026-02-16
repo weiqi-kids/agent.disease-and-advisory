@@ -8,6 +8,88 @@ date: 2025-04-15
 confidence: 中
 mmwr_volume: ""
 mmwr_issue: ""
+seo:
+  json_ld:
+    - "@context": "https://schema.org"
+      "@type": "WebPage"
+      "@id": "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-surveillance-summaries-em-prevalence-and-early-#webpage"
+      name: "<em>Surveillance Summaries</em>: Prevalence and Early Identification of Autism Spectrum Disorder Among Children Aged 4 and 8 Years - Autism and Developmental Disabilities Monitoring Network, 16 Sites, United States, 2022"
+      url: "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-surveillance-summaries-em-prevalence-and-early-"
+      description: "This report describes autism spectrum disorder prevalence and early identifications patterns among children aged 4 and 8 years old."
+      isPartOf:
+        "@id": "https://epialert.weiqi.kids#website"
+      about:
+        "@id": "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-surveillance-summaries-em-prevalence-and-early-#article"
+      breadcrumb:
+        "@id": "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-surveillance-summaries-em-prevalence-and-early-#breadcrumb"
+      inLanguage: zh-TW
+      potentialAction:
+        - "@type": ReadAction
+          target:
+            - "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-surveillance-summaries-em-prevalence-and-early-"
+    - "@context": "https://schema.org"
+      "@type": Article
+      "@id": "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-surveillance-summaries-em-prevalence-and-early-#article"
+      headline: "<em>Surveillance Summaries</em>: Prevalence and Early Identification of Autism Spectrum Disorder Among Children Aged 4 and 8 Years - Autism and Developmental Disabilities Monitoring Network, 16 Sites, United States, 2022"
+      description: "This report describes autism spectrum disorder prevalence and early identifications patterns among children aged 4 and 8 years old."
+      datePublished: "2025-04-15"
+      dateModified: "2025-04-15"
+      author:
+        "@id": "https://epialert.weiqi.kids/about#person"
+      publisher:
+        "@id": "https://epialert.weiqi.kids#organization"
+      mainEntityOfPage:
+        "@id": "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-surveillance-summaries-em-prevalence-and-early-#webpage"
+      url: "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-surveillance-summaries-em-prevalence-and-early-"
+      inLanguage: zh-TW
+      isPartOf:
+        "@id": "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-surveillance-summaries-em-prevalence-and-early-#webpage"
+    - "@context": "https://schema.org"
+      "@type": Person
+      "@id": "https://epialert.weiqi.kids/about#person"
+      name: EpiAlert AI 編輯
+      description: "EpiAlert 疫情快訊的 AI 編輯系統，負責收集、分析並報導全球疫情資訊"
+      url: "https://epialert.weiqi.kids/about"
+    - "@context": "https://schema.org"
+      "@type": Organization
+      "@id": "https://epialert.weiqi.kids#organization"
+      name: EpiAlert 疫情快訊
+      url: "https://epialert.weiqi.kids"
+      logo:
+        "@type": ImageObject
+        url: "https://epialert.weiqi.kids/assets/images/logo.png"
+    - "@context": "https://schema.org"
+      "@type": BreadcrumbList
+      "@id": "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-surveillance-summaries-em-prevalence-and-early-#breadcrumb"
+      itemListElement:
+        - "@type": ListItem
+          position: 1
+          name: 首頁
+          item: "https://epialert.weiqi.kids"
+        - "@type": ListItem
+          position: 2
+          name: CDC MMWR
+          item: "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr"
+        - "@type": ListItem
+          position: 3
+          name: 監測摘要
+          item: "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary"
+        - "@type": ListItem
+          position: 4
+          name: "<em>Surveillance Summaries</em>: Prevalence and Early Identification of Autism Spectrum Disorder Among Children Aged 4 and 8 Years - Autism and Developmental Disabilities Monitoring Network, 16 Sites, United States, 2022"
+  ymyl:
+    is_ymyl: true
+    category: health
+    disclaimer: "本內容僅供參考，不構成醫療建議。如需專業醫療諮詢，請聯繫合格的醫療保健提供者。"
+  speakable:
+    selectors:
+      - .article-summary
+      - .speakable-content
+      - .key-takeaway
+      - .key-answer
+      - .expert-quote
+      - .actionable-steps li
+      - .faq-answer-content
 ---
 
 ## 摘要

@@ -8,6 +8,47 @@ date: 2025-09-25
 confidence: 中
 language: zh
 feed_source: "medical_zh"
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory/2025-09-25-flu-antiviral-expansion-typhoon#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory/2025-09-25-flu-antiviral-expansion-typhoon#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '醫療通告'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory'
+        - position: 4
+          name: '因應流感疫情進入流行期,自今年10月1日起至10月31日擴大公費流感抗病毒藥劑使用措施,增列「有類流感症狀,且具下列身分之流感高傳播族群」,籲請醫師善用公費藥劑,共同防治流感,另花蓮縣馬太鞍溪堰塞湖受災安置收容所民眾即日起優先擴大用藥,並提前安排接種公費流感疫苗(疾病管制署致醫界通函第589號)'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory/2025-09-25-flu-antiviral-expansion-typhoon'
+  ymyl:
+    lastReviewed: '2025-09-25'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

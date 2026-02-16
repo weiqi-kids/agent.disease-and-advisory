@@ -11,6 +11,47 @@ feed_source: "news_en"
 diseases: ["tuberculosis", "latent tuberculosis infection"]
 regions: ["Taiwan"]
 notes: "World TB Day campaign offering free LTBI testing Mar 24-May 24; 63% reduction in TB incidence since 2005; treatment provides 90%+ protection"
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy/2025-03-24-world-tb-day-testing-campaign#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy/2025-03-24-world-tb-day-testing-campaign#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '政策公告'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy'
+        - position: 4
+          name: 'In observance of World TB Day, Taiwan CDC holds "Raise Your Hand for Testing, Say Goodbye to TB" press conference'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy/2025-03-24-world-tb-day-testing-campaign'
+  ymyl:
+    lastReviewed: '2025-03-24'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

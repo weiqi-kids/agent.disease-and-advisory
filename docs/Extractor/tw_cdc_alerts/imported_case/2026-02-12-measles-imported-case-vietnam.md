@@ -10,6 +10,47 @@ language: zh
 feed_source: "news_zh"
 diseases: ["麻疹"]
 regions: ["越南", "台灣北部"]
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/imported_case/2026-02-12-measles-imported-case-vietnam#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/imported_case/2026-02-12-measles-imported-case-vietnam#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '境外移入'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/imported_case'
+        - position: 4
+          name: '今年首例麻疹境外移入 呼籲民眾前往流行地區前先就醫評估接種疫苗 在當地做好自我防護 出現疑似症狀速就醫 並主動告知醫師旅遊及暴露史'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/imported_case/2026-02-12-measles-imported-case-vietnam'
+  ymyl:
+    lastReviewed: '2026-02-12'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

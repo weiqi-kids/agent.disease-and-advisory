@@ -8,6 +8,47 @@ date: 2026-01-20
 confidence: 中
 language: zh
 feed_source: "news_zh"
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy/2026-01-20-winter-travel-health-advisory#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy/2026-01-20-winter-travel-health-advisory#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '政策公告'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy'
+        - position: 4
+          name: '寒假為出國旅遊旺季 提醒民眾出遊前了解當地疫情 並落實個人防護'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy/2026-01-20-winter-travel-health-advisory'
+  ymyl:
+    lastReviewed: '2026-01-20'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

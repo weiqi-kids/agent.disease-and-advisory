@@ -11,6 +11,47 @@ feed_source: "disease_zh"
 diseases: ["肺炎黴漿菌感染症", "Mycoplasma pneumoniae infection", "會走路的肺炎"]
 regions: ["全球"]
 notes: "非典型細菌，透過飛沫傳播，症狀較輕微，稱為會走路的肺炎"
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2026-02-08-mycoplasma-pneumoniae#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2026-02-08-mycoplasma-pneumoniae#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '疾病資訊'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info'
+        - position: 4
+          name: '肺炎黴漿菌感染症'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2026-02-08-mycoplasma-pneumoniae'
+  ymyl:
+    lastReviewed: '2026-02-08'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

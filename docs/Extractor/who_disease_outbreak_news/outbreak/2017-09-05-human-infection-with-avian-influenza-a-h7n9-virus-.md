@@ -9,6 +9,44 @@ confidence: 高
 who_id: "44c1a21c-757b-4307-b5aa-06ba48b2ab44"
 regions: [On,National Health,Family Planning Commission,China,Details,Fujian,He,The Chinese,To,Human]
 diseases: [H7N9,influenza]
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/outbreak/2017-09-05-human-infection-with-avian-influenza-a-h7n9-virus-#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/outbreak/2017-09-05-human-infection-with-avian-influenza-a-h7n9-virus-#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: '疫情爆發'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news'
+        - position: 3
+          name: 'Human infection with avian influenza A(H7N9) virus – China'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/outbreak/2017-09-05-human-infection-with-avian-influenza-a-h7n9-virus-'
+  ymyl:
+    lastReviewed: '2017-09-05'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

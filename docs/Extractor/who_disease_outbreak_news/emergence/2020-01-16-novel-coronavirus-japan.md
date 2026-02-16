@@ -9,6 +9,44 @@ confidence: 高
 who_id: "565c24a5-e3ba-43b6-aeba-06c8ad03501e"
 regions: [The Japanese Ministry,Health,Labour,Welfare,World Health Organization,Co,Wuhan,China,Thailand,Considering]
 diseases: []
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/emergence/2020-01-16-novel-coronavirus-japan#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/emergence/2020-01-16-novel-coronavirus-japan#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: '新興疾病'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news'
+        - position: 3
+          name: 'Novel Coronavirus – Japan'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/emergence/2020-01-16-novel-coronavirus-japan'
+  ymyl:
+    lastReviewed: '2020-01-16'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

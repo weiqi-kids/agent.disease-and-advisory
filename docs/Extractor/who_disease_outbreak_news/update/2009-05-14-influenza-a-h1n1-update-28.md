@@ -9,6 +9,44 @@ confidence: 高
 who_id: "64295983-f9da-4a9a-9394-039d8f6dac5f"
 regions: [As,Mexico,The United States,Canada,Costa Rica,Argentina,Australia,Austria,Brazil,China]
 diseases: [H1N1,influenza,Influenza]
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/update/2009-05-14-influenza-a-h1n1-update-28#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/update/2009-05-14-influenza-a-h1n1-update-28#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: '疫情更新'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news'
+        - position: 3
+          name: 'Influenza A(H1N1) - update 28'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/update/2009-05-14-influenza-a-h1n1-update-28'
+  ymyl:
+    lastReviewed: '2009-05-14'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

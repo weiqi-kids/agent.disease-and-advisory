@@ -11,6 +11,47 @@ feed_source: "news_en"
 diseases: ["emerging infectious diseases", "zoonotic diseases", "vector-borne diseases", "antimicrobial resistance"]
 regions: ["Taiwan"]
 notes: "Two-day workshop (Mar 25-26) with 60 representatives from Ministry of Agriculture, Environment, and Health to develop National One Health Joint Plan of Action"
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy/2025-03-25-one-health-workshop#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy/2025-03-25-one-health-workshop#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '政策公告'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy'
+        - position: 4
+          name: 'Taiwan CDC organizes "One Health Workshop" to formulate National One Health Joint Plan of Action'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy/2025-03-25-one-health-workshop'
+  ymyl:
+    lastReviewed: '2025-03-25'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

@@ -17,6 +17,47 @@ regions:
   - Taiwan
   - Global (reference)
 notes: Lunar New Year policy update on flu/COVID vaccines, special clinics, and antiviral drug eligibility expansion
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy/2026-02-10-cold-wave-lunar-new-year-flu-covid-policy#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy/2026-02-10-cold-wave-lunar-new-year-flu-covid-policy#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '政策公告'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy'
+        - position: 4
+          name: '寒流發威及春節假期將至 民眾出遊探親往來頻繁 增加疾病傳播風險 籲請民眾落實衛生好習慣 並儘速接種疫苗 健康過好年'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/policy/2026-02-10-cold-wave-lunar-new-year-flu-covid-policy'
+  ymyl:
+    lastReviewed: '2026-02-10'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 # 寒流發威及春節假期將至 民眾出遊探親往來頻繁 增加疾病傳播風險 籲請民眾落實衛生好習慣 並儘速接種疫苗 健康過好年

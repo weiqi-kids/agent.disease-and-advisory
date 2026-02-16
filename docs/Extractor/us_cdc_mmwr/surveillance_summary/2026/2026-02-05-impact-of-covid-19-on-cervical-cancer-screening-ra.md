@@ -8,6 +8,86 @@ date: 2021-01-28
 confidence: 中
 mmwr_volume: ""
 mmwr_issue: ""
+seo:
+  json_ld:
+    - '@context': 'https://schema.org'
+      '@type': 'WebPage'
+      '@id': 'https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-impact-of-covid-19-on-cervical-cancer-screening-ra#webpage'
+      url: 'https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-impact-of-covid-19-on-cervical-cancer-screening-ra'
+      name: 'Impact of COVID-19 on Cervical Cancer Screening Rates Among Women Aged 21-65 Years in a Large Integrated Health Care System - Southern California, January 1-September 30, 2019 and January 1-September 30, 2020'
+      description: 'CDC MMWR surveillance summary extracted by EpiAlert AI system'
+      inLanguage: 'en-US'
+      isPartOf:
+        '@id': 'https://epialert.weiqi.kids#website'
+      breadcrumb:
+        '@id': 'https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-impact-of-covid-19-on-cervical-cancer-screening-ra#breadcrumb'
+      potentialAction:
+        '@type': 'ReadAction'
+        target:
+          - 'https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-impact-of-covid-19-on-cervical-cancer-screening-ra'
+      speakable:
+        '@type': 'SpeakableSpecification'
+        cssSelector:
+          - '.article-summary'
+          - '.speakable-content'
+          - '.key-takeaway'
+          - '.key-answer'
+          - '.expert-quote'
+          - '.actionable-steps li'
+          - '.faq-answer-content'
+    - '@context': 'https://schema.org'
+      '@type': 'Article'
+      '@id': 'https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-impact-of-covid-19-on-cervical-cancer-screening-ra#article'
+      headline: 'Impact of COVID-19 on Cervical Cancer Screening Rates Among Women Aged 21-65 Years in a Large Integrated Health Care System - Southern California, January 1-September 30, 2019 and January 1-September 30, 2020'
+      description: 'CDC MMWR surveillance summary extracted by EpiAlert AI system'
+      datePublished: '2021-01-28T00:00:00+00:00'
+      dateModified: '2021-01-28T00:00:00+00:00'
+      author:
+        '@type': 'Person'
+        '@id': 'https://epialert.weiqi.kids/about#person'
+        name: 'EpiAlert AI 編輯'
+        url: 'https://epialert.weiqi.kids/about'
+      publisher:
+        '@type': 'Organization'
+        '@id': 'https://epialert.weiqi.kids#organization'
+        name: 'EpiAlert 疫情快訊'
+        url: 'https://epialert.weiqi.kids'
+        logo:
+          '@type': 'ImageObject'
+          url: 'https://epialert.weiqi.kids/assets/images/logo.png'
+      mainEntityOfPage:
+        '@type': 'WebPage'
+        '@id': 'https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-impact-of-covid-19-on-cervical-cancer-screening-ra#webpage'
+      isPartOf:
+        '@type': 'WebPage'
+        '@id': 'https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-impact-of-covid-19-on-cervical-cancer-screening-ra#webpage'
+    - '@context': 'https://schema.org'
+      '@type': 'BreadcrumbList'
+      '@id': 'https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-impact-of-covid-19-on-cervical-cancer-screening-ra#breadcrumb'
+      itemListElement:
+        - '@type': 'ListItem'
+          position: 1
+          name: '首頁'
+          item: 'https://epialert.weiqi.kids'
+        - '@type': 'ListItem'
+          position: 2
+          name: 'Extractor'
+          item: 'https://epialert.weiqi.kids/Extractor'
+        - '@type': 'ListItem'
+          position: 3
+          name: 'CDC MMWR'
+          item: 'https://epialert.weiqi.kids/Extractor/us_cdc_mmwr'
+        - '@type': 'ListItem'
+          position: 4
+          name: 'Surveillance Summary'
+          item: 'https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary'
+        - '@type': 'ListItem'
+          position: 5
+          name: 'Impact of COVID-19 on Cervical Cancer Screening Rates Among Women Aged 21-65 Years in a Large Integrated Health Care System - Southern California, January 1-September 30, 2019 and January 1-September 30, 2020'
+  ymyl:
+    medical_disclaimer: '本內容由 EpiAlert AI 系統自動萃取自 CDC MMWR 官方資料,僅供參考。如有醫療需求,請諮詢專業醫療人員。'
+    source_attribution: '資料來源:CDC MMWR (Centers for Disease Control and Prevention Morbidity and Mortality Weekly Report)'
+    last_verified: '2021-01-28T00:00:00+00:00'
 ---
 
 ## 摘要

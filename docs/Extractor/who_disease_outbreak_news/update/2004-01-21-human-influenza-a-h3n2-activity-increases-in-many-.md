@@ -9,6 +9,44 @@ confidence: 高
 who_id: "b35acc1e-c80c-4f9b-a9a0-04989b712b23"
 regions: [Summary,Influenza,Fujian,European,Austria,Croatia,Latvia,Norway,Russia Federation,Slovenia]
 diseases: [H1N1,H1N2,H3N2,H5N1,influenza,Influenza]
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/update/2004-01-21-human-influenza-a-h3n2-activity-increases-in-many-#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/update/2004-01-21-human-influenza-a-h3n2-activity-increases-in-many-#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: '疫情更新'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news'
+        - position: 3
+          name: 'Human influenza A/H3N2 activity increases in many countries in central and eastern Europe - update 8'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/update/2004-01-21-human-influenza-a-h3n2-activity-increases-in-many-'
+  ymyl:
+    lastReviewed: '2004-01-21'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

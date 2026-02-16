@@ -11,6 +11,47 @@ feed_source: "news_en"
 diseases: ["enterovirus", "Coxsackievirus B5", "Echovirus 11", "Coxsackievirus A16", "Coxsackievirus A6"]
 regions: ["Taiwan", "Southern Taiwan"]
 notes: "Fatal enterovirus case in 1-year-old; 4 severe cases (3 deaths) in Feb-March 2025, highest for this period in 5 years"
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/domestic_outbreak/2025-04-02-enterovirus-fatal-case-coxsackievirus-b5#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/domestic_outbreak/2025-04-02-enterovirus-fatal-case-coxsackievirus-b5#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '國內疫情'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/domestic_outbreak'
+        - position: 4
+          name: 'Taiwan CDC Confirms One New Fatal Case of Enterovirus Infection with Severe Complications; Public Urged to Practice Good Hygiene'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/domestic_outbreak/2025-04-02-enterovirus-fatal-case-coxsackievirus-b5'
+  ymyl:
+    lastReviewed: '2025-04-02'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

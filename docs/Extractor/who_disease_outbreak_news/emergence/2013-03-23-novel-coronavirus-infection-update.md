@@ -9,6 +9,44 @@ confidence: 高
 who_id: "3650d68b-30b1-4ef1-b777-0698be0ab397"
 regions: [The Ministry,Health,Saudi Arabia,Co,Disease Outbreak News,Currently,To,Based,Member States,All]
 diseases: []
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/emergence/2013-03-23-novel-coronavirus-infection-update#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/emergence/2013-03-23-novel-coronavirus-infection-update#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: '新興疾病'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news'
+        - position: 3
+          name: 'Novel coronavirus infection - update'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/emergence/2013-03-23-novel-coronavirus-infection-update'
+  ymyl:
+    lastReviewed: '2013-03-23'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

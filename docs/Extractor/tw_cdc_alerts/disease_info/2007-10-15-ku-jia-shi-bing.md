@@ -11,6 +11,47 @@ feed_source: "disease_zh"
 diseases: ["庫賈氏病", "CJD", "Creutzfeldt-Jakob disease", "新型庫賈氏病", "vCJD"]
 regions: ["台灣", "全球"]
 notes: "罕見神經退化性疾病，全球年發生率約百萬分之0.5-1。新型庫賈氏病與狂牛症(BSE)高度相關"
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2007-10-15-ku-jia-shi-bing#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2007-10-15-ku-jia-shi-bing#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '疾病資訊'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info'
+        - position: 4
+          name: '庫賈氏病'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2007-10-15-ku-jia-shi-bing'
+  ymyl:
+    lastReviewed: '2007-10-15'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

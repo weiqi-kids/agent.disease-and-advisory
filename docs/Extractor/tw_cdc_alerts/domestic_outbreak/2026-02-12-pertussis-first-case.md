@@ -10,6 +10,47 @@ language: zh
 feed_source: "news_zh"
 diseases: ["百日咳"]
 regions: ["台灣北部"]
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/domestic_outbreak/2026-02-12-pertussis-first-case#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/domestic_outbreak/2026-02-12-pertussis-first-case#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '國內疫情'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/domestic_outbreak'
+        - position: 4
+          name: '國內出現今年首例百日咳確定病例 呼籲醫師及嬰幼兒照顧者提高警覺'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/domestic_outbreak/2026-02-12-pertussis-first-case'
+  ymyl:
+    lastReviewed: '2026-02-12'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

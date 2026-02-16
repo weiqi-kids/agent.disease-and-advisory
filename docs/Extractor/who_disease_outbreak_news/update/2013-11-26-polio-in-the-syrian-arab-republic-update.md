@@ -9,6 +9,44 @@ confidence: 高
 who_id: "01ce66b8-d656-4829-b49b-03e6fbd486cb"
 regions: [Disease,Syrian Arab Republic,In,Deir Al Zour,Damascus,Aleppo,Seven,Eastern Mediterranean Region,Syrians,Syrian]
 diseases: [polio,Polio]
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/update/2013-11-26-polio-in-the-syrian-arab-republic-update#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/update/2013-11-26-polio-in-the-syrian-arab-republic-update#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: '疫情更新'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news'
+        - position: 3
+          name: 'Polio in the Syrian Arab Republic - update'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/update/2013-11-26-polio-in-the-syrian-arab-republic-update'
+  ymyl:
+    lastReviewed: '2013-11-26'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

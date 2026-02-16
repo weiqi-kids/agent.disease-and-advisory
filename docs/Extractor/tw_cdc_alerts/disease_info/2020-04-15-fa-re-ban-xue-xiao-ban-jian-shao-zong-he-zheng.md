@@ -11,6 +11,47 @@ feed_source: "disease_zh"
 diseases: ["發熱伴血小板減少綜合症", "SFTS", "Severe Fever with Thrombocytopenia Syndrome"]
 regions: ["中國大陸", "南韓", "日本", "台灣"]
 notes: "主要經由蜱蟲叮咬感染，致死率約5-15%。可能發生醫護人員感染，須採行正確防護措施"
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2020-04-15-fa-re-ban-xue-xiao-ban-jian-shao-zong-he-zheng#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2020-04-15-fa-re-ban-xue-xiao-ban-jian-shao-zong-he-zheng#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '疾病資訊'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info'
+        - position: 4
+          name: '發熱伴血小板減少綜合症'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2020-04-15-fa-re-ban-xue-xiao-ban-jian-shao-zong-he-zheng'
+  ymyl:
+    lastReviewed: '2020-04-15'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

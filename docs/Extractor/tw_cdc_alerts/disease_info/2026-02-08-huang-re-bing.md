@@ -11,6 +11,47 @@ feed_source: "disease_zh"
 diseases: ["黃熱病", "Yellow Fever"]
 regions: ["非洲", "拉丁美洲", "安哥拉", "巴西", "奈及利亞"]
 notes: "第五類法定傳染病，主要流行於非洲及拉丁美洲，疫苗可預防"
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2026-02-08-huang-re-bing#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2026-02-08-huang-re-bing#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '疾病資訊'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info'
+        - position: 4
+          name: '黃熱病'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2026-02-08-huang-re-bing'
+  ymyl:
+    lastReviewed: '2026-02-08'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

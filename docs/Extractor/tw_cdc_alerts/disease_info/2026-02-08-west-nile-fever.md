@@ -11,6 +11,47 @@ feed_source: "disease_zh"
 diseases: ["西尼羅熱", "West Nile Fever", "West Nile Virus"]
 regions: ["全球", "非洲", "中東", "美洲", "埃及", "希臘", "以色列", "印度", "法國", "羅馬尼亞", "捷克", "澳洲", "烏干達"]
 notes: "西尼羅病毒最早於1937年從烏干達一名發燒婦女身上發現"
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2026-02-08-west-nile-fever#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2026-02-08-west-nile-fever#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '疾病資訊'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info'
+        - position: 4
+          name: '西尼羅熱'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2026-02-08-west-nile-fever'
+  ymyl:
+    lastReviewed: '2026-02-08'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

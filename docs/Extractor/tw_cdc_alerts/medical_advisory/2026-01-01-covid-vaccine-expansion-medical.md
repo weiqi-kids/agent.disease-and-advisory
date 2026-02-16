@@ -8,6 +8,47 @@ date: 2026-01-01
 confidence: 中
 language: zh
 feed_source: "medical_zh"
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory/2026-01-01-covid-vaccine-expansion-medical#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory/2026-01-01-covid-vaccine-expansion-medical#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '醫療通告'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory'
+        - position: 4
+          name: '自115年1月1日起,公費新冠疫苗擴大全民接種,籲請醫界朋友鼓勵滿6個月以上尚未接種民眾踴躍施打(疾病管制署致醫界通函第594號)'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/medical_advisory/2026-01-01-covid-vaccine-expansion-medical'
+  ymyl:
+    lastReviewed: '2026-01-01'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

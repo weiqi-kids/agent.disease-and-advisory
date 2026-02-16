@@ -8,6 +8,88 @@ date: 2024-07-11
 confidence: 低
 mmwr_volume: ""
 mmwr_issue: ""
+seo:
+  json_ld:
+    - "@context": "https://schema.org"
+      "@type": "WebPage"
+      "@id": "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-notes-from-the-field-em-illnesses-after-adminis#webpage"
+      name: "<em>Notes from the Field</em>: Illnesses After Administration of Presumed Counterfeit Botulinum Toxin in Nonmedical Settings - Tennessee and New York City, March 2024"
+      url: "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-notes-from-the-field-em-illnesses-after-adminis"
+      description: "This report describes illnesses among women who received counterfeit botulinum toxin injections."
+      isPartOf:
+        "@id": "https://epialert.weiqi.kids#website"
+      about:
+        "@id": "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-notes-from-the-field-em-illnesses-after-adminis#article"
+      breadcrumb:
+        "@id": "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-notes-from-the-field-em-illnesses-after-adminis#breadcrumb"
+      inLanguage: zh-TW
+      potentialAction:
+        - "@type": ReadAction
+          target:
+            - "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-notes-from-the-field-em-illnesses-after-adminis"
+    - "@context": "https://schema.org"
+      "@type": Article
+      "@id": "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-notes-from-the-field-em-illnesses-after-adminis#article"
+      headline: "<em>Notes from the Field</em>: Illnesses After Administration of Presumed Counterfeit Botulinum Toxin in Nonmedical Settings - Tennessee and New York City, March 2024"
+      description: "This report describes illnesses among women who received counterfeit botulinum toxin injections."
+      datePublished: "2024-07-11"
+      dateModified: "2024-07-11"
+      author:
+        "@id": "https://epialert.weiqi.kids/about#person"
+      publisher:
+        "@id": "https://epialert.weiqi.kids#organization"
+      mainEntityOfPage:
+        "@id": "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-notes-from-the-field-em-illnesses-after-adminis#webpage"
+      url: "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-notes-from-the-field-em-illnesses-after-adminis"
+      inLanguage: zh-TW
+      isPartOf:
+        "@id": "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-notes-from-the-field-em-illnesses-after-adminis#webpage"
+    - "@context": "https://schema.org"
+      "@type": Person
+      "@id": "https://epialert.weiqi.kids/about#person"
+      name: EpiAlert AI 編輯
+      description: "EpiAlert 疫情快訊的 AI 編輯系統，負責收集、分析並報導全球疫情資訊"
+      url: "https://epialert.weiqi.kids/about"
+    - "@context": "https://schema.org"
+      "@type": Organization
+      "@id": "https://epialert.weiqi.kids#organization"
+      name: EpiAlert 疫情快訊
+      url: "https://epialert.weiqi.kids"
+      logo:
+        "@type": ImageObject
+        url: "https://epialert.weiqi.kids/assets/images/logo.png"
+    - "@context": "https://schema.org"
+      "@type": BreadcrumbList
+      "@id": "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary/2026/2026-02-05-em-notes-from-the-field-em-illnesses-after-adminis#breadcrumb"
+      itemListElement:
+        - "@type": ListItem
+          position: 1
+          name: 首頁
+          item: "https://epialert.weiqi.kids"
+        - "@type": ListItem
+          position: 2
+          name: CDC MMWR
+          item: "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr"
+        - "@type": ListItem
+          position: 3
+          name: 監測摘要
+          item: "https://epialert.weiqi.kids/Extractor/us_cdc_mmwr/surveillance_summary"
+        - "@type": ListItem
+          position: 4
+          name: "<em>Notes from the Field</em>: Illnesses After Administration of Presumed Counterfeit Botulinum Toxin in Nonmedical Settings - Tennessee and New York City, March 2024"
+  ymyl:
+    is_ymyl: true
+    category: health
+    disclaimer: "本內容僅供參考，不構成醫療建議。如需專業醫療諮詢，請聯繫合格的醫療保健提供者。"
+  speakable:
+    selectors:
+      - .article-summary
+      - .speakable-content
+      - .key-takeaway
+      - .key-answer
+      - .expert-quote
+      - .actionable-steps li
+      - .faq-answer-content
 ---
 
 ## 摘要

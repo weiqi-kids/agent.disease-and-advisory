@@ -8,6 +8,47 @@ date: 2026-01-30
 confidence: 中
 language: zh
 feed_source: "news_zh"
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/domestic_outbreak/2026-01-30-hantavirus-first-case#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/domestic_outbreak/2026-01-30-hantavirus-first-case#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '國內疫情'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/domestic_outbreak'
+        - position: 4
+          name: '今(2026)年首例漢他病毒症候群現蹤 請民眾歲末大掃除時注意落實「防鼠三不」及防治措施'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/domestic_outbreak/2026-01-30-hantavirus-first-case'
+  ymyl:
+    lastReviewed: '2026-01-30'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

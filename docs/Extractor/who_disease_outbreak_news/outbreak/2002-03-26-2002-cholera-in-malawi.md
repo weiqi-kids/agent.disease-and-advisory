@@ -9,6 +9,44 @@ confidence: 高
 who_id: "a1967569-0b2c-4175-b234-0357846128d3"
 regions: [Disease Outbreak Reported As,The Southern Region,Laboratory,Vibrio,The Ministry,Health,Ministry,Surveillance,Chlorination,Village]
 diseases: [cholera,Cholera]
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/outbreak/2002-03-26-2002-cholera-in-malawi#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/outbreak/2002-03-26-2002-cholera-in-malawi#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: '疫情爆發'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news'
+        - position: 3
+          name: '2002 - Cholera in Malawi'
+          url: 'https://epialert.weiqi.kids/Extractor/who_disease_outbreak_news/outbreak/2002-03-26-2002-cholera-in-malawi'
+  ymyl:
+    lastReviewed: '2002-03-26'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要

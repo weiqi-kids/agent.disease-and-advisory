@@ -11,6 +11,47 @@ feed_source: "disease_zh"
 diseases: ["腸道寄生蟲病", "阿米巴痢疾", "梨形鞭毛蟲", "隱胞子蟲", "蛔蟲", "鉤蟲", "鞭蟲", "蟯蟲", "中華肝吸蟲", "絛蟲"]
 regions: ["熱帶地區", "亞熱帶地區", "開發中國家"]
 notes: "反映當地衛生條件與生活品質，包含原蟲和蠕蟲兩類病原體"
+seo:
+  json_ld:
+    - type: WebPage
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2026-02-08-changjianchangdaojishengchongbing#webpage'
+      speakable:
+        cssSelector:
+          - .article-summary
+          - .speakable-content
+          - .key-takeaway
+          - .key-answer
+          - .expert-quote
+          - .actionable-steps li
+          - .faq-answer-content
+    - type: Article
+      id: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2026-02-08-changjianchangdaojishengchongbing#article'
+      author_id: 'https://epialert.weiqi.kids/about#person'
+      publisher_id: 'https://epialert.weiqi.kids#organization'
+    - type: Person
+      id: 'https://epialert.weiqi.kids/about#person'
+      name: 'EpiAlert AI 編輯'
+    - type: Organization
+      id: 'https://epialert.weiqi.kids#organization'
+      name: 'EpiAlert 疫情快訊'
+    - type: BreadcrumbList
+      items:
+        - position: 1
+          name: '首頁'
+          url: 'https://epialert.weiqi.kids'
+        - position: 2
+          name: 'tw_cdc_alerts'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts'
+        - position: 3
+          name: '疾病資訊'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info'
+        - position: 4
+          name: '常見腸道寄生蟲病'
+          url: 'https://epialert.weiqi.kids/Extractor/tw_cdc_alerts/disease_info/2026-02-08-changjianchangdaojishengchongbing'
+  ymyl:
+    lastReviewed: '2026-02-08'
+    reviewedBy: 'EpiAlert AI 編輯'
+    medicalDisclaimer: '本站內容由 AI 自動彙整自 WHO、CDC 等官方來源,僅供參考,不構成醫療建議。如有健康疑慮,請諮詢專業醫療人員。'
 ---
 
 ## 摘要
