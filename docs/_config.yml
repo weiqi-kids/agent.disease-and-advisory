@@ -1,6 +1,20 @@
 title: EpiAlert 疫情快訊
 description: 全球傳染病情報自動收集與分析
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+
+# 預設 frontmatter 設定
+defaults:
+  - scope:
+      path: "Extractor/**/*"
+      type: pages
+    values:
+      nav_exclude: true
+      layout: default
+  - scope:
+      path: "Extractor/**/index.md"
+      type: pages
+    values:
+      nav_exclude: false
 
 # 搜尋設定
 search_enabled: true
