@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '國內出現今年首例百日咳確定病例 呼籲醫師及嬰幼兒照顧者提高警覺'
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/0VuKo3P_L1b4r12hPX3jKw?typeId=9"
 source_layer: tw_cdc_alerts

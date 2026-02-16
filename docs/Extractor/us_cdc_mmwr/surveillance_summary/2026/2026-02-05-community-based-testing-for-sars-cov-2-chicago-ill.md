@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Community-Based Testing for SARS-CoV-2 - Chicago, Illinois, May-November 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421986"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Successive Norovirus Outbreaks at an Event Center --- Nebraska, October--November, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399725"
 source_layer: us_cdc_mmwr

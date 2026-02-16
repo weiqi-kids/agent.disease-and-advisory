@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Rates of Injury from Sports, Recreation and Leisure Activities Among Children and Adolescents Aged 1-17 Years, by Age Group - National Health Interview Survey, United States, 2015-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=398652"
 source_layer: us_cdc_mmwr

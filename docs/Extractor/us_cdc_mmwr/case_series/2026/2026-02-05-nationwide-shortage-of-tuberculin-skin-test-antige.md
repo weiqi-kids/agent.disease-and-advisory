@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Nationwide Shortage of Tuberculin Skin Test Antigens: CDC Recommendations for Patient Care and Public Health Practice"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399278"
 source_layer: "us_cdc_mmwr"

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Human Case of Leptospirosis During a Canine Disease Outbreak - Wyoming, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=750877"
 source_layer: us_cdc_mmwr

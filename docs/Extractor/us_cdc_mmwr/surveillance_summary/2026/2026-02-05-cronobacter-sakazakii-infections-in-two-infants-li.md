@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Cronobacter sakazakii Infections in Two Infants Linked to Powdered Infant Formula and Breast Pump Equipment - United States, 2021 and 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734054"
 source_layer: us_cdc_mmwr

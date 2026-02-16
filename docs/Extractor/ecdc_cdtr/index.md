@@ -1,6 +1,8 @@
 ---
 title: ECDC CDTR
-layout: default
+layout: single
+sidebar:
+  nav: "sidebar"
 parent: 資料來源
 has_children: true
 nav_order: 5

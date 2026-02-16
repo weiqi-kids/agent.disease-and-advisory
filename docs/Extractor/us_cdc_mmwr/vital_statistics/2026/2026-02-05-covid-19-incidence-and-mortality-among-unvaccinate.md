@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged ≥12 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination - 24 U.S. Jurisdictions, October 3, 2021-December 24, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733795"
 source_layer: us_cdc_mmwr

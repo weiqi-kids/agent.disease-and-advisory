@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Estimating the Incidence of Influenza at the State Level - Utah, 2016-17 and 2017-18 Influenza Seasons"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402871"
 source_layer: us_cdc_mmwr

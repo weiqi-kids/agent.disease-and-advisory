@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Differences in State Traumatic Brain Injury-Related Deaths, by Principal Mechanism of Injury, Intent, and Percentage of Population Living in Rural Areas - United States, 2016-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427844"
 source_layer: us_cdc_mmwr

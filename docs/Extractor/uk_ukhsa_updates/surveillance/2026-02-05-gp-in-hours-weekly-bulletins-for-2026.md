@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Research: GP in-hours: weekly bulletins for 2026"
 source_url: "https://www.gov.uk/government/publications/gp-in-hours-weekly-bulletins-for-2026"
 source_layer: uk_ukhsa_updates

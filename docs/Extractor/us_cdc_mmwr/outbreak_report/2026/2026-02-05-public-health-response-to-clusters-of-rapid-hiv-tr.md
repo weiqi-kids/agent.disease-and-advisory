@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Public Health Response to Clusters of Rapid HIV Transmission Among Hispanic or Latino Gay, Bisexual, and Other Men Who Have Sex with Men - Metropolitan Atlanta, Georgia, 2021-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734121"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Plague in the Democratic Republic of the Congo - update 3"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2005_03_09-en"
 source_layer: who_disease_outbreak_news

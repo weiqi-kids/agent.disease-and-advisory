@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Decline in Child Vaccination Coverage During the COVID-19 Pandemic --- Michigan Care Improvement Registry, May 2016--May 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407122"
 source_layer: us_cdc_mmwr

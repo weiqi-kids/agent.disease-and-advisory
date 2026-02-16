@@ -1,6 +1,6 @@
 ---
 title: "2025"
-layout: default
+layout: single
 has_children: false
 parent: surveillance_summary
 grand_parent: US CDC MMWR

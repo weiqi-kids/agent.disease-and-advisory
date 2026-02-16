@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: ECDC supports Malta in strengthening country preparedness through simulation exercise on vector-borne disease outbreak
-layout: default
+layout: single
 source_url: https://www.ecdc.europa.eu/en/news-events/ecdc-supports-malta-strengthening-country-preparedness-through-simulation-exercise
 date: 2026-02-04
 source_layer: ecdc_cdtr

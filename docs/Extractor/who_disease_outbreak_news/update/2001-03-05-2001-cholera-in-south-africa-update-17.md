@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "2001 - Cholera in South Africa - Update 17"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2001_03_05-en"
 source_layer: who_disease_outbreak_news

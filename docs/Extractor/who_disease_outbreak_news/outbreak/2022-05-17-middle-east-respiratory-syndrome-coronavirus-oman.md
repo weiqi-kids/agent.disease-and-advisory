@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Middle East respiratory syndrome coronavirus – Oman"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2022-DON380"
 source_layer: who_disease_outbreak_news

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Incidence of Monkeypox Among Unvaccinated Persons Compared with Persons Receiving ≥1 JYNNEOS Vaccine Dose - 32 U.S. Jurisdictions, July 31-September 3, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732080"
 source_layer: "us_cdc_mmwr"

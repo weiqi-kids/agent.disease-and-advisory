@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '肺囊蟲肺炎'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/1yyEHADlGlsJkqyjTMsf8w"
 source_layer: tw_cdc_alerts

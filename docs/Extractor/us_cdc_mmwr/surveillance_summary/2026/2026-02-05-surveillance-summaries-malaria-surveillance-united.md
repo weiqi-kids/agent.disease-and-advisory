@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "SURVEILLANCE SUMMARIES: Malaria Surveillance - United States, 2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397828"
 source_layer: us_cdc_mmwr

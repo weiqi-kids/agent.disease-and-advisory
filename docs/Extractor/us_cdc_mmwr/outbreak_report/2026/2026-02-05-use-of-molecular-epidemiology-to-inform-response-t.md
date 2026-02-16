@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Use of Molecular Epidemiology to Inform Response to a Hepatitis A Outbreak - Los Angeles County, California, October 2018-April 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408438"
 source_layer: us_cdc_mmwr

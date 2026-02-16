@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Pediatric Emergency Department Visits Associated with Mental Health Conditions Before and During the COVID-19 Pandemic - United States, January 2019-January 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=546725"
 source_layer: us_cdc_mmwr

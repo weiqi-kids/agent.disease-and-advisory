@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Influenza and Up-to-Date COVID-19 Vaccination Coverage Among Health Care Personnel - National Healthcare Safety Network, United States, 2022-23 Influenza Season"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=738959"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '疱疹B病毒感染症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/D44rDbFMnmnxVf0ZzBfS8Q"
 source_layer: tw_cdc_alerts

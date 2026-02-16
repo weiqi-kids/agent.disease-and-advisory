@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Efficacy of Portable Air Cleaners and Masking for Reducing Indoor Exposure to Simulated Exhaled SARS-CoV-2 Aerosols - United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=424146"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Hepatitis A Virus Infections Among Men Who Have Sex with Men - Eight U.S. States, 2017-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423666"
 source_layer: "us_cdc_mmwr"

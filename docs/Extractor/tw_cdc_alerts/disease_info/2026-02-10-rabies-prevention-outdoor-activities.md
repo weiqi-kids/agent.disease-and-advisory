@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: '戶外活動勿觸碰或逗弄野生動物 遠離狂犬病威脅'
-layout: default
+layout: single
 source_url: https://www.cdc.gov.tw/Bulletin/Detail/EIzPUZsJx4y2Ana1D4soeg?typeId=9
 date: 2026-02-10
 source_layer: tw_cdc_alerts

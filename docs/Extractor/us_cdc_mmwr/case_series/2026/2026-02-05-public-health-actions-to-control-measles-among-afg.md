@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Public Health Actions to Control Measles Among Afghan Evacuees During Operation Allies Welcome - United States, September-November 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729043"
 source_layer: "us_cdc_mmwr"

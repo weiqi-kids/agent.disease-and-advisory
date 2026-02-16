@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Increases in Firearm Homicide and Suicide Rates - United States, 2020-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732144"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Percentage of Adults Aged 18-24 Years Who Currently Smoke Cigarettes or Who Currently Use Electronic Cigarettes, by Year - National Health Interview Survey, United States, 2014-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401980"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Forced Sexual Initiation and Early Sexual Debut and Associated Risk Factors and Health Problems Among Adolescent Girls and Young Women - Violence Against Children and Youth Surveys, Nine PEPFAR Countries, 2007-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=443164"
 source_layer: us_cdc_mmwr

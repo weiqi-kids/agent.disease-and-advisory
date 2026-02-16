@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Community Water Fluoridation Levels To Promote Effectiveness and Safety in Oral Health -  United States, 2016-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735268"
 source_layer: us_cdc_mmwr

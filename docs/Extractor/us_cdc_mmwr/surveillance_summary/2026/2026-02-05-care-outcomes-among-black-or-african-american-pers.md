@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Care Outcomes Among Black or African American Persons with Diagnosed HIV in Rural, Urban, and Metropolitan Statistical Areas - 42 U.S. Jurisdictions, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416888"
 source_layer: us_cdc_mmwr

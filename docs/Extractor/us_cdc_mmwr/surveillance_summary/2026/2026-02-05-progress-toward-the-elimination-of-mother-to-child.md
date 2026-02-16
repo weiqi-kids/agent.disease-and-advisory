@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Progress Toward the Elimination of Mother-to-Child Transmission of Hepatitis B Virus - Worldwide, 2016-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730734"
 source_layer: us_cdc_mmwr

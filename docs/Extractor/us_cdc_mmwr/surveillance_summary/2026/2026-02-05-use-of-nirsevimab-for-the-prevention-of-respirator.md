@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Use of Nirsevimab for the Prevention of Respiratory Syncytial Virus Disease Among Infants and Young Children: Recommendations of the Advisory Committee on Immunization Practices - United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736354"
 source_layer: us_cdc_mmwr

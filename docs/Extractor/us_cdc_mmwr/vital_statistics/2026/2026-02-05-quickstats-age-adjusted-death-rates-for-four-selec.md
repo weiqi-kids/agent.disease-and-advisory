@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Quickstats: Age-Adjusted Death Rates for Four Selected Mechanisms of Injury - National Vital Statistics System, United States, 1979-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=422741"
 source_layer: us_cdc_mmwr

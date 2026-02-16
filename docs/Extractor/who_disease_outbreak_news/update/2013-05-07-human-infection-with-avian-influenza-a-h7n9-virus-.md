@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Human infection with avian influenza A(H7N9) virus – update"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2013_05_07-en"
 source_layer: who_disease_outbreak_news

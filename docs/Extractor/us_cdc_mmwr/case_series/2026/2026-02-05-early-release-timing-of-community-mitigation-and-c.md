@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "EARLY RELEASE: Timing of Community Mitigation and Changes in Reported COVID-19 and Community Mobility --- Four U.S. Metropolitan Areas, February 26--April 1, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406126"
 source_layer: "us_cdc_mmwr"

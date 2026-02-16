@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Percentage of Men and Women Aged 25-49 Years Who Spent at Least One Night in the Past 12 Months at an Alternate Location Because They Did Not Have a Permanent Place To Stay, by Type of Location - National Survey of Family Growth, United States, 2017-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=424603"
 source_layer: us_cdc_mmwr

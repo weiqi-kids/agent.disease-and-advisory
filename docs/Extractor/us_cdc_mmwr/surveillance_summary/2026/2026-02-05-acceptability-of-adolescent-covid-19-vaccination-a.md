@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Acceptability of Adolescent COVID-19 Vaccination Among Adolescents and Parents of Adolescents - United States, April 15-23, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=424341"
 source_layer: us_cdc_mmwr

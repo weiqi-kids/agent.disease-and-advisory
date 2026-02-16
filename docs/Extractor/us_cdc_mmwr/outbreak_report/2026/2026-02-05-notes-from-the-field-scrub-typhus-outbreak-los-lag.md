@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Scrub Typhus Outbreak - Los Lagos Region, Chile, January-February 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735752"
 source_layer: us_cdc_mmwr

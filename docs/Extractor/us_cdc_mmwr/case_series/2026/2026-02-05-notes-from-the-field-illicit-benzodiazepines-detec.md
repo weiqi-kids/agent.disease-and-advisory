@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Illicit Benzodiazepines Detected in Patients Evaluated in Emergency Departments for Suspected Opioid Overdose - Four States, October 6, 2020-March 9, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426177"
 source_layer: "us_cdc_mmwr"

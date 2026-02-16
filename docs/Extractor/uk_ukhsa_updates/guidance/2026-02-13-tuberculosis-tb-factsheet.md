@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: 'Guidance: Tuberculosis (TB) factsheet'
 source_url: "https://www.gov.uk/government/publications/tuberculosis-tb-factsheet"
 source_layer: uk_ukhsa_updates

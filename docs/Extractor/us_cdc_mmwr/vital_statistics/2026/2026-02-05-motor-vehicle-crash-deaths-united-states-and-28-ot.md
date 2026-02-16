@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Motor Vehicle Crash Deaths - United States and 28 Other High-Income Countries, 2015 and 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730123"
 source_layer: us_cdc_mmwr

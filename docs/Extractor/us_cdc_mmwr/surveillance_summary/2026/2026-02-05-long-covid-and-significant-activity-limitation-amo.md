@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Long COVID and Significant Activity Limitation Among Adults, by Age - United States, June 1-13, 2022, to June 7-19, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736202"
 source_layer: us_cdc_mmwr

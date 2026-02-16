@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Hepatitis A Exposure Response and Outbreak Prevention in a Large Urban Jail - Los Angeles County, California, May-July 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=744013"
 source_layer: us_cdc_mmwr

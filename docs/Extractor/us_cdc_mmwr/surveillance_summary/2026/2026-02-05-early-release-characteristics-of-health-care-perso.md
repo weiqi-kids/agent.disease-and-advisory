@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "EARLY RELEASE: Characteristics of Health Care Personnel with COVID-19 --- United States, February 12--April 9, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406160"
 source_layer: us_cdc_mmwr

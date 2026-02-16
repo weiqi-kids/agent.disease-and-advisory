@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Recent Changes in Suicide Rates, by Race and Ethnicity and Age Group - United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733796"
 source_layer: us_cdc_mmwr

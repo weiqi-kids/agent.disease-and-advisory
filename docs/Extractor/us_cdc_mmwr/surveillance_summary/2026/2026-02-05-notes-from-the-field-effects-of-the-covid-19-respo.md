@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Effects of the COVID-19 Response on Tuberculosis Prevention and Control Efforts - United States, March-April 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408882"
 source_layer: us_cdc_mmwr

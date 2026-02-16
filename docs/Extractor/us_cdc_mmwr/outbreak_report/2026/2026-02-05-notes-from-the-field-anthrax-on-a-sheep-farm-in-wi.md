@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Anthrax on a Sheep Farm in Winter - Texas, December 2023-January 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=749735"
 source_layer: us_cdc_mmwr

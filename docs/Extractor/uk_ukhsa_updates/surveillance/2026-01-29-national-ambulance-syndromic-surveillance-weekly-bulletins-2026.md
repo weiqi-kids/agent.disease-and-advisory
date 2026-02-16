@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Research: National ambulance syndromic surveillance: weekly bulletins 2026"
 source_url: "https://www.gov.uk/government/publications/national-ambulance-syndromic-surveillance-weekly-bulletins-2026"
 source_layer: uk_ukhsa_updates

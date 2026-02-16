@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "RECOMMENDATIONS and REPORTS: Assessing Solid Organ Donors and Monitoring Transplant Recipients for Human Immunodeficiency Virus, Hepatitis B Virus, and Hepatitis C Virus Infection - U.S. Public Health Service Guideline, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408260"
 source_layer: us_cdc_mmwr

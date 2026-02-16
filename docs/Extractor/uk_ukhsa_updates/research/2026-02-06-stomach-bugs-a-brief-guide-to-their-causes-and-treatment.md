@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: 'Stomach bugs: A brief guide to their causes and treatment'
-layout: default
+layout: single
 source_url: https://ukhsa.blog.gov.uk/2026/02/06/stomach-bugs-a-brief-guide-to-their-causes-and-treatment/
 date: 2026-02-06
 source_layer: uk_ukhsa_updates

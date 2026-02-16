@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Life Expectancy at Birth, by Sex - National Vital Statistics System, United States, 2019-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735814"
 source_layer: us_cdc_mmwr

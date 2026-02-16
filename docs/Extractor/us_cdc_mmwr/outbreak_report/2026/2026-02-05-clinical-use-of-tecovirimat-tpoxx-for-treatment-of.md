@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Clinical Use of Tecovirimat (Tpoxx) for Treatment of Monkeypox Under an Investigational New Drug Protocol - United States, May-August 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731495"
 source_layer: us_cdc_mmwr

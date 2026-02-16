@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Frequent Mental Distress Among Adults, by Disability Status, Disability Type, and Selected Characteristics - United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411248"
 source_layer: us_cdc_mmwr

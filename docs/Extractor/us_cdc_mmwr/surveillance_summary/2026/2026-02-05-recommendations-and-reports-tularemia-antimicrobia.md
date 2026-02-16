@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Recommendations and Reports: Tularemia Antimicrobial Treatment and Prophylaxis: CDC Recommendations for Naturally Acquired Infections and Bioterrorism Response - United States, 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=760339"
 source_layer: us_cdc_mmwr

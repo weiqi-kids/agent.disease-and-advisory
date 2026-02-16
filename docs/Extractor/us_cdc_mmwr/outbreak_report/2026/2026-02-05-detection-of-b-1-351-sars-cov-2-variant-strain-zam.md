@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Detection of B.1.351 SARS-CoV-2 Variant Strain - Zambia, December 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416828"
 source_layer: us_cdc_mmwr

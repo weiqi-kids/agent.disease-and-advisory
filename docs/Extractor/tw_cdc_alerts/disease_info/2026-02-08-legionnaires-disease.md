@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '退伍軍人病'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/mrl8S_96ADvSpl0j2kwX9A"
 source_layer: tw_cdc_alerts

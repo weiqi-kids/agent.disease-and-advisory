@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: ECDC and WHO/Europe renew joint commitment to strengthen European health security and collaboration on public health
 source_url: https://www.ecdc.europa.eu/en/news-events/ecdc-and-whoeurope-renew-joint-commitment-strengthen-european-health-security-and
 source_layer: ecdc_cdtr

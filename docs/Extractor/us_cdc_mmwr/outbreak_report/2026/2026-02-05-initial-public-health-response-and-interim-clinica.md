@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Initial Public Health Response and Interim Clinical Guidance for the 2019 Novel Coronavirus Outbreak --- United States, December 31, 2019--February 4, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403510"
 source_layer: us_cdc_mmwr

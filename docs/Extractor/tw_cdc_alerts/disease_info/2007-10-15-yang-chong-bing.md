@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '恙蟲病'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/4Q2S4vQH2s5ECf9ciWEu9g"
 source_layer: tw_cdc_alerts

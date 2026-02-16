@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '隱球菌症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/XqLmL3AsGvrsZyD29hXUCQ"
 source_layer: tw_cdc_alerts

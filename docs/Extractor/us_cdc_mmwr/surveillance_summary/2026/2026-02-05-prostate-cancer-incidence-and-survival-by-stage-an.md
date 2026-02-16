@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Prostate Cancer Incidence and Survival, by Stage and Race/Ethnicity - United States, 2001-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412040"
 source_layer: us_cdc_mmwr

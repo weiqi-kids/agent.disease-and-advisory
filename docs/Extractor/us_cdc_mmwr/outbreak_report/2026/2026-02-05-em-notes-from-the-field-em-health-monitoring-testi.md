@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "<em>Notes from the Field</em>: Health Monitoring, Testing, and Case Identification Among Persons Exposed to Influenza A(H5N1) - Michigan, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=751345"
 source_layer: us_cdc_mmwr

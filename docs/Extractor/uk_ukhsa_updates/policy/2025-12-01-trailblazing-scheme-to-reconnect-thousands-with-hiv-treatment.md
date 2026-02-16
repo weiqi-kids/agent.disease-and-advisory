@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Trailblazing scheme to reconnect thousands with HIV treatment"
 source_url: "https://www.gov.uk/government/news/trailblazing-scheme-to-reconnect-thousands-with-hiv-treatment"
 source_layer: uk_ukhsa_updates

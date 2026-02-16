@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Candida auris Isolates Resistant to Three Classes of Antifungal Medications --- New York, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403088"
 source_layer: "us_cdc_mmwr"

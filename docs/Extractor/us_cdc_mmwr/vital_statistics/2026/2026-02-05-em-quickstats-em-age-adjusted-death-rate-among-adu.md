@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "<em>QuickStats</em>: Age-Adjusted Death Rate Among Adults Aged ≥65 Years, by Sex - United States, 1970-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=750636"
 source_layer: us_cdc_mmwr

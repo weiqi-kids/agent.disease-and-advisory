@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Nonfatal and Fatal Falls Among Adults Aged ≥65 Years - United States, 2020-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736546"
 source_layer: us_cdc_mmwr

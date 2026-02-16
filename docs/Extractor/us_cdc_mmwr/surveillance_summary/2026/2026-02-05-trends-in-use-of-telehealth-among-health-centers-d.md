@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Trends in Use of Telehealth Among Health Centers During the COVID-19 Pandemic - United States, June 26-November 6, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416890"
 source_layer: us_cdc_mmwr

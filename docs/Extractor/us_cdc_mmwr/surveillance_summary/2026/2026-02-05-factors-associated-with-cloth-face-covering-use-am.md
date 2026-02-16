@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Factors Associated with Cloth Face Covering Use Among Adults During the COVID-19 Pandemic - United States, April and May 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408691"
 source_layer: us_cdc_mmwr

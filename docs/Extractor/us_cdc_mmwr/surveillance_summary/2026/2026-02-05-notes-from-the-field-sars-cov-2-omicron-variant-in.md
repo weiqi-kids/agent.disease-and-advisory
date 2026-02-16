@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: SARS-CoV-2 Omicron Variant Infection in 10 Persons Within 90 Days of Previous SARS-CoV-2 Delta Variant Infection - Four States, October 2021-January 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=697558"
 source_layer: us_cdc_mmwr

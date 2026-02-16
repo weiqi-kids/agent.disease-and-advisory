@@ -1,8 +1,8 @@
 ---
 title: 資料來源
-layout: default
-nav_order: 90
-has_children: true
+layout: single
+sidebar:
+  nav: "sidebar"
 seo:
   meta:
     title: '資料來源 - EpiAlert 疫情快訊'

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: Health Care Personnel Exposures to Subsequently Laboratory-Confirmed Monkeypox
   Patients - Colorado, 2022
 source_url: https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731638

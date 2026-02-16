@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "A parent's guide to croup: what are the symptoms and when to seek medical advice"
 source_url: "https://ukhsa.blog.gov.uk/2026/01/21/a-parents-guide-to-croup-what-are-the-symptoms-and-when-to-seek-medical-advice/"
 source_layer: uk_ukhsa_updates

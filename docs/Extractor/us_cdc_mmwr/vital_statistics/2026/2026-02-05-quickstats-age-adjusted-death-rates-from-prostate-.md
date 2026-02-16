@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Age-Adjusted Death Rates from Prostate Cancer, by Race/Ethnicity --- National Vital Statistics System, United States, 1999--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399047"
 source_layer: us_cdc_mmwr

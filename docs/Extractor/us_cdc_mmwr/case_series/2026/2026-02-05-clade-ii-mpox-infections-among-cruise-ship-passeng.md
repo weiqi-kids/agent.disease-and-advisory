@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Clade II Mpox Infections Among Cruise Ship Passengers and Crew Members - United States, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759755"
 source_layer: "us_cdc_mmwr"

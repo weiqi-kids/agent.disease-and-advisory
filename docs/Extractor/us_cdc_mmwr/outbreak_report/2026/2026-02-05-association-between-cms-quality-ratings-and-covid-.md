@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Association Between CMS Quality Ratings and COVID-19 Outbreaks in Nursing Homes - West Virginia, March 17-June 11, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411458"
 source_layer: us_cdc_mmwr

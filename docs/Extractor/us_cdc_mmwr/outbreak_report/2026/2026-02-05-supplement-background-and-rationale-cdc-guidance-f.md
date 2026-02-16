@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "SUPPLEMENT: Background and Rationale - CDC Guidance for Communities Assessing, Investigating, and Responding to Suicide Clusters, United States, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=744605"
 source_layer: us_cdc_mmwr

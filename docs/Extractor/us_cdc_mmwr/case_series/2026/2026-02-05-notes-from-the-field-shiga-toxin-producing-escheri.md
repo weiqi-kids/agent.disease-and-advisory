@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Shiga Toxin-Producing Escherichia coli O157:H7 Linked to Raw Milk Consumption Associated with a Cow-Share Arrangement - Tennessee, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734729"
 source_layer: "us_cdc_mmwr"

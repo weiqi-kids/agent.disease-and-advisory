@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Improving Detection and Response to Respiratory Events --- Kenya, April 2016--April 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406867"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Three Human Rabies Deaths Attributed to Bat Exposures - United States, August 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=477492"
 source_layer: us_cdc_mmwr

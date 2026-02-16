@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "What are the symptoms of adenovirus and how does it spread?"
 source_url: "https://ukhsa.blog.gov.uk/2026/01/07/what-are-the-symptoms-of-adenovirus-and-how-does-it-spread/"
 source_layer: uk_ukhsa_updates

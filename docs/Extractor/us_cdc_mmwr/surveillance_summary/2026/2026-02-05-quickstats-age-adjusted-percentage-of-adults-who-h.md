@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Age-Adjusted Percentage of Adults Who Had Ever Used an E-cigarette, by Race and Ethnicity - National Health Interview Survey, United States, 2014 and 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402684"
 source_layer: us_cdc_mmwr

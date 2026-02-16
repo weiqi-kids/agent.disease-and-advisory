@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Inequities in COVID-19 Vaccination Coverage Among Pregnant Persons, by Disaggregated Race and Ethnicity - Massachusetts, May 2021-October 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737468"
 source_layer: us_cdc_mmwr

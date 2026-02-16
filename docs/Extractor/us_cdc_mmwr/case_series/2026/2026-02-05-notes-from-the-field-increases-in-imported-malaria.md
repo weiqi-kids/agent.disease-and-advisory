@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Increases in Imported Malaria Cases - Three Southern U.S. Border Jurisdictions, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=747872"
 source_layer: "us_cdc_mmwr"

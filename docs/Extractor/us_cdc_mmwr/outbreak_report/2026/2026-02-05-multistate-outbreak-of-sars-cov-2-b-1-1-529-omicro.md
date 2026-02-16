@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Multistate Outbreak of SARS-CoV-2 B.1.1.529 (Omicron) Variant Infections Among Persons in a Social Network Attending a Convention - New York City, November 18-December 20, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=542102"
 source_layer: us_cdc_mmwr

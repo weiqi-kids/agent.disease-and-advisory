@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Epidemiology of Tuberculosis and Progress Toward Meeting Global Targets - Worldwide, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=418931"
 source_layer: us_cdc_mmwr

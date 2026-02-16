@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Controlled Substance Prescribing Patterns Among Fatal Overdose Decedents with an Opioid, Stimulant, or Both Contributing to Death - Pennsylvania, 2017-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758622"
 source_layer: us_cdc_mmwr

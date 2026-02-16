@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Progress Toward Poliomyelitis Eradication - Worldwide, January 2021-March 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734991"
 source_layer: us_cdc_mmwr

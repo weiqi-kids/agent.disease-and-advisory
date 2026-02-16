@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: 'Guidance: Rotavirus vaccination programme: information for healthcare practitioners'
-layout: default
+layout: single
 source_url: https://www.gov.uk/government/publications/rotavirus-qas-for-healthcare-practitioners
 date: 2026-02-05
 source_layer: uk_ukhsa_updates

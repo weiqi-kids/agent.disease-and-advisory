@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Prevalence of Obesity and Severe Obesity Among Persons Aged 2-19 Years - National Health and Nutrition Examination Survey, 1999-2000 through 2017-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405794"
 source_layer: us_cdc_mmwr

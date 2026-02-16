@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Sepsis Program Activities in Acute Care Hospitals - National Healthcare Safety Network, United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736352"
 source_layer: us_cdc_mmwr

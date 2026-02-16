@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '社區型MRSA'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/fzBArZD9KqldFihuEknKaQ"
 source_layer: tw_cdc_alerts

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Human Papillomavirus-Attributable Cancers --- United States, 2012--2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401262"
 source_layer: us_cdc_mmwr

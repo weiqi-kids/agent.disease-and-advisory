@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "COVID-19 Among American Indian and Alaska Native Persons - 23 States, January 31-July 3, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410074"
 source_layer: us_cdc_mmwr

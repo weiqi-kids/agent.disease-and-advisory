@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Nontuberculous Mycobacteria Infections After Cosmetic Surgery Procedures in Florida - Nine States, 2022-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=742181"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Participation in Fraternity and Sorority Activities and the Spread of COVID-19 Among Residential University Communities - Arkansas, August 21-September 5, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415546"
 source_layer: us_cdc_mmwr

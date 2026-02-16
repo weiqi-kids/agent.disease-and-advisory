@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: '傳染病威脅週報 2026-W07'
-layout: default
+layout: single
 parent: 週報
 seo:
   meta:

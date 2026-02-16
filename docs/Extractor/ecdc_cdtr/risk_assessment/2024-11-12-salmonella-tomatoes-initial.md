@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: Rapid outbreak assessment – Prolonged multi-country outbreak of Salmonella Strathcona ST2559 linked to consumption of tomatoes in the EU/EEA and the UK
 source_url: https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-prolonged-multi-country-outbreak-salmonella-strathcona
 published_date: '2024-11-12'

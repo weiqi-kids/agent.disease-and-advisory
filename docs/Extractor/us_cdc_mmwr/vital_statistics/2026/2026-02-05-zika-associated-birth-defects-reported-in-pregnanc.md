@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Zika-Associated Birth Defects Reported in Pregnancies with Laboratory Evidence of Confirmed or Possible Zika Virus Infection - U.S. Zika Pregnancy and Infant Registry, December 1, 2015-March 31, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=490877"
 source_layer: us_cdc_mmwr

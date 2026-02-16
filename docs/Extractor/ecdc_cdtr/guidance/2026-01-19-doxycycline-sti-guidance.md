@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "ECDC issues guidance on doxycycline for STI prevention"
 source_url: "https://www.ecdc.europa.eu/en/news-events/ecdc-issues-guidance-doxycycline-sti-prevention"
 source_layer: ecdc_cdtr

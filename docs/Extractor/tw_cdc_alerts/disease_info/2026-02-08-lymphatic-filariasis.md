@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '淋巴絲蟲病'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/sj0UyYO8dh8ynsjIrNzH-g"
 source_layer: tw_cdc_alerts

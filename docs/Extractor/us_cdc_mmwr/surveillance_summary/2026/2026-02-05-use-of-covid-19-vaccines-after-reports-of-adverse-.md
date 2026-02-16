@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Use of COVID-19 Vaccines After Reports of Adverse Events Among Adult Recipients of Janssen (Johnson & Johnson) and mRNA COVID-19 Vaccines (Pfizer-BioNTech and Moderna): Update from the Advisory Committee on Immunization Practices - United States, July 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=425616"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Disparities in Excess Mortality Associated with COVID-19 - United States, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=425962"
 source_layer: us_cdc_mmwr

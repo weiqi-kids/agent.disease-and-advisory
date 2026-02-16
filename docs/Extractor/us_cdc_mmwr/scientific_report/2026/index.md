@@ -1,6 +1,6 @@
 ---
 title: "2026"
-layout: default
+layout: single
 has_children: false
 parent: scientific_report
 grand_parent: US CDC MMWR

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Outbreak of Cyclosporiasis Among Patrons of a Mexican-Style Restaurant - Limestone County, Alabama, May-June 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758760"
 source_layer: us_cdc_mmwr

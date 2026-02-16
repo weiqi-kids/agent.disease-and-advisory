@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Assessing the Role of Food Handlers in Hepatitis A Virus Transmission --- Multiple States, 2016--2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407281"
 source_layer: us_cdc_mmwr

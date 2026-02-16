@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Wastewater Surveillance for Influenza A Virus and H5 Subtype Concurrent with the Highly Pathogenic Avian Influenza A(H5N1) Virus Outbreak in Cattle and Poultry and Associated Human Cases - United States, May 12-July 13, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752626"
 source_layer: us_cdc_mmwr

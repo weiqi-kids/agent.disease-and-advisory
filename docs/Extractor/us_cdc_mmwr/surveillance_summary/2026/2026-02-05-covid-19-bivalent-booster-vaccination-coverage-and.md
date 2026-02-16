@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "COVID-19 Bivalent Booster Vaccination Coverage and Intent to Receive Booster Vaccination Among Adolescents and Adults - United States, November-December 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733850"
 source_layer: us_cdc_mmwr

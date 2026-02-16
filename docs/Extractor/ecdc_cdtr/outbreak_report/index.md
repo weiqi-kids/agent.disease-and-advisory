@@ -1,6 +1,6 @@
 ---
 title: outbreak_report
-layout: default
+layout: single
 parent: ECDC CDTR
 has_children: true
 seo:

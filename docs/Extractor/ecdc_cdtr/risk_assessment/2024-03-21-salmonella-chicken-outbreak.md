@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: 'Rapid Outbreak Assessment: Multi-country outbreak of Salmonella Mbandaka ST413 linked to consumption of chicken meat products in the EU/EEA and the UK – first update'
 source_url: https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-multi-country-outbreak-salmonella-mbandaka-st413-linked
 date: '2024-03-21'

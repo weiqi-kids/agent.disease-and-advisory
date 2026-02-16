@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Level 1 - Rabies in Morocco"
 source_url: "https://wwwnc.cdc.gov/travel/notices/level1/rabies-morocco"
 source_layer: us_travel_health_notices

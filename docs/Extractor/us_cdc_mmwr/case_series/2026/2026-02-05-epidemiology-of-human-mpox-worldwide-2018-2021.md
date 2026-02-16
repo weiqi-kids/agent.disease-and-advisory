@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Epidemiology of Human Mpox - Worldwide, 2018-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733484"
 source_layer: "us_cdc_mmwr"

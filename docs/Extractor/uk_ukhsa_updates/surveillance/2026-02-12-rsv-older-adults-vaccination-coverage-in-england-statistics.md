@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: 'Respiratory syncytial virus (RSV) older adults vaccination coverage in England'
 source_url: "https://www.gov.uk/government/statistics/respiratory-syncytial-virus-rsv-older-adults-vaccination-coverage-in-england"
 source_layer: uk_ukhsa_updates

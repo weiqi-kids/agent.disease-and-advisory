@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '第二型豬鏈球菌感染症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/v1aYuhcLOrC17Cn6o4rVAw"
 source_layer: tw_cdc_alerts

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "COVID-19 Vaccination Coverage Among Pregnant Women During Pregnancy - Eight Integrated Health Care Organizations, United States, December 14, 2020-May 8, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423566"
 source_layer: us_cdc_mmwr

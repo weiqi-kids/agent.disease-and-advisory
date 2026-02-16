@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Percentage of Adults Who Received Any Mental Health Treatment in the Past 12 Months, by Age Group and Year - National Health Interview Survey, United States, 2019-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=428420"
 source_layer: us_cdc_mmwr

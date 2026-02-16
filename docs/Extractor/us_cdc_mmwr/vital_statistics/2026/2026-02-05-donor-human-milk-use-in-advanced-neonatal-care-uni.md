@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Donor Human Milk Use in Advanced Neonatal Care Units - United States, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731010"
 source_layer: us_cdc_mmwr

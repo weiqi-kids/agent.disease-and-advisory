@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Routes of Drug Use Among Drug Overdose Deaths - United States, 2020-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=744012"
 source_layer: us_cdc_mmwr

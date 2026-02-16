@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Death Certificate-Based ICD-10 Diagnosis Codes for COVID-19 Mortality Surveillance - United States, January-December 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=419375"
 source_layer: us_cdc_mmwr

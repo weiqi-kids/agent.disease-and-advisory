@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Rate of Emergency Department (ED) Visits, by Homeless Status and Geographic Region - National Hospital Ambulatory Medical Care Survey, United States, 2015-2018 "
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=414797"
 source_layer: us_cdc_mmwr

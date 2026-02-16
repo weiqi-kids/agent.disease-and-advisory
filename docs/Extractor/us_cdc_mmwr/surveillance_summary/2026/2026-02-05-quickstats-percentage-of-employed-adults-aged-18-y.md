@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Percentage of Employed Adults Aged ≥18 Years with Any Work-Loss Days Because of Illness or Injury in the Past 12 Months, by Sex and Age Group - National Health Interview Survey, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397618"
 source_layer: us_cdc_mmwr

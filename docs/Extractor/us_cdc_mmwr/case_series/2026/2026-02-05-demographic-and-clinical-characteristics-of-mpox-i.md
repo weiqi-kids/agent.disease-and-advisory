@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Demographic and Clinical Characteristics of Mpox in Persons Who Had Previously Received 1 Dose of JYNNEOS Vaccine and in Unvaccinated Persons - 29 U.S. Jurisdictions, May 22-September 3, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733265"
 source_layer: "us_cdc_mmwr"

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Use of JYNNEOS (Smallpox and Monkeypox Vaccine, Live, Nonreplicating) for Preexposure Vaccination of Persons at Risk for Occupational Exposure to Orthopoxviruses: Recommendations of the Advisory Committee on Immunization Practices - United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729600"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Legionnaires Disease in a U.S. Traveler After Staying in a Private Vacation Rental House in the U.S. Virgin Islands - United States, February 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735127"
 source_layer: "us_cdc_mmwr"

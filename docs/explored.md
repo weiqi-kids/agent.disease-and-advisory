@@ -1,6 +1,6 @@
 ---
 title: 疾病監測資料源探索紀錄
-layout: default
+layout: single
 nav_exclude: true
 ---
 

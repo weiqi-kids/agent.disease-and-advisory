@@ -1,8 +1,8 @@
 ---
 title: 週報
-layout: default
-nav_order: 2
-has_children: true
+layout: single
+sidebar:
+  nav: "sidebar"
 seo:
   meta:
     title: '週報 - EpiAlert 疫情快訊'

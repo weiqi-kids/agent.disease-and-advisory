@@ -1,6 +1,6 @@
 ---
 title: imported_case
-layout: default
+layout: single
 parent: Taiwan CDC Alerts
 has_children: true
 seo:

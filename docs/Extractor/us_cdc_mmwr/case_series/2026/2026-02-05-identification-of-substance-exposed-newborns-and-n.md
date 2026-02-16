@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Identification of Substance-Exposed Newborns and Neonatal Abstinence Syndrome Using ICD-10-CM - 15 Hospitals, Massachusetts"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408880"
 source_layer: "us_cdc_mmwr"

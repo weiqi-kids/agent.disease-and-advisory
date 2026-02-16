@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Avian influenza: H5N1 detected in pigs in China"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2004_08_20-en"
 source_layer: who_disease_outbreak_news

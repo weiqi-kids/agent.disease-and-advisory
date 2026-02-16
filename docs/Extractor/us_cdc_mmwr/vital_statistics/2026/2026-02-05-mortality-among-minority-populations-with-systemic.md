@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Mortality Among Minority Populations with Systemic Lupus Erythematosus, Including Asian and Hispanic/Latino Persons - California, 2007-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416889"
 source_layer: us_cdc_mmwr

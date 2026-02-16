@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Salmonellosis Outbreak Detected by Automated Spatiotemporal Analysis - New York City, May-June 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408433"
 source_layer: us_cdc_mmwr

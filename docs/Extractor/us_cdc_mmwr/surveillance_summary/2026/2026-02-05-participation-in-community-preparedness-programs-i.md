@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Participation in Community Preparedness Programs in Human Services Organizations and Faith-Based Organizations - New York City, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401593"
 source_layer: us_cdc_mmwr

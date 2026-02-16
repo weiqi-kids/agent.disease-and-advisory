@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Changes in Health Indicators Among Caregivers - United States, 2015-2016 to 2021-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752365"
 source_layer: us_cdc_mmwr

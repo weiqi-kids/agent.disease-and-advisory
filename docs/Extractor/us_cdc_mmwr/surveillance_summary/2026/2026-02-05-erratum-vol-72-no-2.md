@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Erratum: Vol. 72, No. 2"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734123"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "COVID-19 Monitoring and Response Among U.S. Air Force Basic Military Trainees - Texas, March-April 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407672"
 source_layer: us_cdc_mmwr

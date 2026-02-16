@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Health and Economic Benefits of Routine Childhood Immunizations in the Era of the Vaccines for Children Program - United States, 1994-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=751814"
 source_layer: us_cdc_mmwr

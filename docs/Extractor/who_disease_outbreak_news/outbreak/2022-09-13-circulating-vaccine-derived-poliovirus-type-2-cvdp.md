@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Circulating vaccine-derived poliovirus type 2 (cVDPV2) - Algeria"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2022-DON406"
 source_layer: who_disease_outbreak_news

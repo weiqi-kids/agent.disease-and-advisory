@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Effectiveness of 2, 3, and 4 COVID-19 mRNA Vaccine Doses Among Immunocompetent Adults During Periods when SARS-CoV-2 Omicron BA.1 and BA.2/BA.2.12.1 Sublineages Predominated - VISION Network, 10 States, December 2021-June 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730414"
 source_layer: us_cdc_mmwr

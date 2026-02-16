@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '先天性梅毒'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/1s7E2BErloh0I3okXTYiuQ"
 source_layer: tw_cdc_alerts

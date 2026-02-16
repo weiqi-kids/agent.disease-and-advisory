@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "SUPPLEMENTS: Overview and Methods for the Youth Risk Behavior Surveillance System - United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410269"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Changes in HIV Preexposure Prophylaxis Awareness and Use Among Men Who Have Sex with Men --- 20 Urban Areas, 2014 and 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399570"
 source_layer: us_cdc_mmwr

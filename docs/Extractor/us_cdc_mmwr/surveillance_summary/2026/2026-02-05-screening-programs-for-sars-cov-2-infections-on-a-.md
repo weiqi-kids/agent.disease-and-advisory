@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Screening Programs for SARS-CoV-2 Infections on a University Campus - Austin, Texas, September 30-November 30, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426421"
 source_layer: us_cdc_mmwr

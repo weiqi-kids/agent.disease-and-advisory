@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Consumption of Alcohol Beverages and Binge Drinking Among Pregnant Women Aged 18-44 Years --- United States, 2015--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397538"
 source_layer: us_cdc_mmwr

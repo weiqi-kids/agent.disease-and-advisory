@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Multistate Outbreak of Eastern Equine Encephalitis Virus --- United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403145"
 source_layer: us_cdc_mmwr

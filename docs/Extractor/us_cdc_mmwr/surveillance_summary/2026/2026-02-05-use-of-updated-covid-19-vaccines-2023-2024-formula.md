@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Use of Updated COVID-19 Vaccines 2023-2024 Formula for Persons Aged ≥6 Months: Recommendations of the Advisory Committee on Immunization Practices - United States, September 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737810"
 source_layer: us_cdc_mmwr

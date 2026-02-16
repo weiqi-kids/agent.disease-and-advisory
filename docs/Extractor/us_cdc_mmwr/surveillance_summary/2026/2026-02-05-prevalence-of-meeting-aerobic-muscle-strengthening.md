@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Prevalence of Meeting Aerobic, Muscle-Strengthening, and Combined Physical Activity Guidelines During Leisure Time Among Adults, by Rural-Urban Classification and Region - United States, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733610"
 source_layer: us_cdc_mmwr

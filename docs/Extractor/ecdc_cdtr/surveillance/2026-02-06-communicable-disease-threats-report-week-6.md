@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: Communicable disease threats report, 31 January - 6 February 2026, week 6
-layout: default
+layout: single
 source_url: https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-31-january-6-february-2026-week-6
 date: 2026-02-06
 source_layer: ecdc_cdtr

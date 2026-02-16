@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Percentage of Adults with Fair or Poor Health, by Home Ownership Status and Age Group - National Health Interview Survey, United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=419411"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes From the Field: Campylobacteriosis Outbreak Associated with Consumption of Raw Water - Montana, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734541"
 source_layer: us_cdc_mmwr

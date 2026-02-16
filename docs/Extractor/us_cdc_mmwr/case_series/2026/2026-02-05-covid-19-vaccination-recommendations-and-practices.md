@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "COVID-19 Vaccination Recommendations and Practices for Women of Reproductive Age by Health Care Providers - Fall DocStyles Survey, United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737467"
 source_layer: "us_cdc_mmwr"

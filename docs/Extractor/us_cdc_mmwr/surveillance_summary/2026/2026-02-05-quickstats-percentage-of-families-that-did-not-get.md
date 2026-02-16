@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Percentage of Families That Did Not Get Needed Medical Care Because of Cost, by Poverty Status - National Health Interview Survey, United States, 2013 and 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407908"
 source_layer: us_cdc_mmwr

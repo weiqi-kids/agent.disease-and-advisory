@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Health Center Visit Rates, by Adults Aged ≥18 Years with Mental Health Disorder, Substance Use Disorder, or Both, by Sex - United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=756148"
 source_layer: us_cdc_mmwr

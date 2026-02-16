@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Effectiveness of Monovalent mRNA COVID-19 Vaccination in Preventing COVID-19-Associated Invasive Mechanical Ventilation and Death Among Immunocompetent Adults During the Omicron Variant Period - IVY Network, 19 U.S. States, February 1, 2022-January 31, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734728"
 source_layer: us_cdc_mmwr

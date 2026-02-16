@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "COVID-19 Vaccine Administration, by Race and Ethnicity - North Carolina, December 14, 2020-April 6, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=424600"
 source_layer: us_cdc_mmwr

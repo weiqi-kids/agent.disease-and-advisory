@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Percentage of Women Aged 25-44 Years Who Had Ever Used Infertility Services, by Type of Service - National Survey of Family Growth, United States, 2006-2010 and 2015-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427682"
 source_layer: us_cdc_mmwr

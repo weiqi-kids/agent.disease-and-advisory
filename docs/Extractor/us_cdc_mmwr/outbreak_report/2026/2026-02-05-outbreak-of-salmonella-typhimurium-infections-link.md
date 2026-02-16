@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Outbreak of Salmonella Typhimurium Infections Linked to Commercially Distributed Raw Milk - California and Four Other States, September 2023-March 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759967"
 source_layer: us_cdc_mmwr

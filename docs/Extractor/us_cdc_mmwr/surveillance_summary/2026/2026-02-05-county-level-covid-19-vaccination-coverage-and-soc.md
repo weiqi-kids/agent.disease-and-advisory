@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "County-Level COVID-19 Vaccination Coverage and Social Vulnerability - United States, December 14, 2020-March 1, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=418738"
 source_layer: us_cdc_mmwr

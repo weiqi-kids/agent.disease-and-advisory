@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Risk for In-Hospital Complications Associated with COVID-19 and Influenza - Veterans Health Administration, United States, October 1, 2018-May 31, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412202"
 source_layer: "us_cdc_mmwr"

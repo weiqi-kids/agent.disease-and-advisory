@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Research: Routine childhood immunisation: deaths and hospitalisations prevented"
 source_url: "https://www.gov.uk/government/publications/routine-childhood-immunisation-deaths-and-hospitalisations-prevented"
 source_layer: uk_ukhsa_updates

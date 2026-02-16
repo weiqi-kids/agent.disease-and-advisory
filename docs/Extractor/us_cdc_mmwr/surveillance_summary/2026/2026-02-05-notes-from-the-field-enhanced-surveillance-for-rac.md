@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Enhanced Surveillance for Raccoon Rabies Virus Variant and Vaccination of Wildlife for Management - Omaha, Nebraska, October 2023-July 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753552"
 source_layer: us_cdc_mmwr

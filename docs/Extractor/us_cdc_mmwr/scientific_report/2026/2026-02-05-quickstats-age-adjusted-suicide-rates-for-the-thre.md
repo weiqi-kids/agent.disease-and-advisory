@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: 'QuickStats: Age-Adjusted Suicide Rates for the Three Leading Methods of Suicide,
   by Race and Ethnicity - National Vital Statistics System, United States, 2020'
 source_url: https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730737

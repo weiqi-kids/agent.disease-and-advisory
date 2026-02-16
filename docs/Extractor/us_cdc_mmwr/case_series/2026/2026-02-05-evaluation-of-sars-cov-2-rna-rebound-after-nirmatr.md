@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Evaluation of SARS-CoV-2 RNA Rebound After Nirmatrelvir/Ritonavir Treatment in Randomized, Double-Blind, Placebo-Controlled Trials - United States and International Sites, 2021-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=740688"
 source_layer: "us_cdc_mmwr"

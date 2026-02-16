@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "RECOMMENDATION AND REPORTS: Japanese Encephalitis Vaccine: Recommendations of the Advisory Committee on Immunization Practices"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399728"
 source_layer: us_cdc_mmwr

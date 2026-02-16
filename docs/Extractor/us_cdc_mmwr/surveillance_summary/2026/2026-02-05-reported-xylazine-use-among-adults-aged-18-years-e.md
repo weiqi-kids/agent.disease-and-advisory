@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Reported Xylazine Use Among Adults Aged ≥18 Years Evaluated for Substance Use Treatment - United States, July 2022-September 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=750635"
 source_layer: us_cdc_mmwr

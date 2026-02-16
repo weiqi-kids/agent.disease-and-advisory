@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Assessment of Day-7 Postexposure Testing of Asymptomatic Contacts of COVID-19 Patients to Evaluate Early Release from Quarantine - Vermont, May-November 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415544"
 source_layer: "us_cdc_mmwr"

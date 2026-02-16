@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "2002 - West Nile virus in Canada - Update 2"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2002_09_20-en"
 source_layer: who_disease_outbreak_news

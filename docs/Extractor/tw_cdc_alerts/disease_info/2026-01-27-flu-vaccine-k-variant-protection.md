@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "疾管署說明本季流感疫苗對新變異「K分支」病毒株感染之輕重症均具保護力"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/Kkpb-QYuHKlEUyQvZGk1dg?typeId=9"
 source_layer: tw_cdc_alerts

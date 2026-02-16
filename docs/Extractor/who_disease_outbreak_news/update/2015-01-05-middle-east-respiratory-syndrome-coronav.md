@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Middle East respiratory syndrome coronavirus – Saudi Arabia"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/middle-east-respiratory-syndrome-coronavirus---saudi-arabia"
 source_layer: who_disease_outbreak_news

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "SURVEILLANCE SUMMARIES: Demographic, Behavioral, and Clinical Characteristics of Persons Seeking Care at Sexually Transmitted Disease Clinics - 14 Sites, STD Surveillance Network, United States, 2010-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=430748"
 source_layer: us_cdc_mmwr

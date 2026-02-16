@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Seizures, Hyperthermia, and Myocardial Injury in Three Young Adults Who Consumed Bromazolam Disguised as Alprazolam - Chicago, Illinois, February 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=741298"
 source_layer: us_cdc_mmwr

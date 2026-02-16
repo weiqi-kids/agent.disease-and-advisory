@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Percentage of Persons Who Used Telemedicine During the Past 12 Months, by Age Group - National Health Interview Survey, United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733710"
 source_layer: us_cdc_mmwr

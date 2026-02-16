@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: 'GUMCAD: data specification and technical guidance'
-layout: default
+layout: single
 source_url: https://www.gov.uk/government/publications/gumcad-data-specification-and-technical-guidance
 date: 2026-02-10T09:48:43Z
 source_layer: uk_ukhsa_updates

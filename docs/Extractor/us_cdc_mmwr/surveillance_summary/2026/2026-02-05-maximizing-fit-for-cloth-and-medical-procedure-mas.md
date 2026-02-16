@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Maximizing Fit for Cloth and Medical Procedure Masks to Improve Performance and Reduce SARS-CoV-2 Transmission and Exposure, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416712"
 source_layer: us_cdc_mmwr

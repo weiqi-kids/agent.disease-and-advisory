@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "自2026年1月15日起成人公費肺鏈疫苗再升級 打一劑即有完整免疫保護力"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/Ay1_7PLUOICQg6JClwYiTA?typeId=9"
 source_layer: tw_cdc_alerts

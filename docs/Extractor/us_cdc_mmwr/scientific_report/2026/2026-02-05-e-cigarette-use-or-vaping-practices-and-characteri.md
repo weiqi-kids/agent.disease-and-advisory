@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: E-cigarette Use, or Vaping, Practices and Characteristics Among Persons with
   Associated Lung Injury - Utah, April-October 2019
 source_url: https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402252

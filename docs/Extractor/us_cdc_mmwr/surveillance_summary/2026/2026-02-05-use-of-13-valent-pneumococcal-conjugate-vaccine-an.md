@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Use of 13-Valent Pneumococcal Conjugate Vaccine and 23-Valent Pneumococcal Polysaccharide Vaccine Among Adults Aged ≥65 Years: Updated Recommendations of the Advisory Committee on Immunization Practices"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402601"
 source_layer: us_cdc_mmwr

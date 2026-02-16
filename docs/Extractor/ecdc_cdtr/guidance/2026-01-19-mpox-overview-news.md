@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Mpox worldwide overview"
 source_url: "https://www.ecdc.europa.eu/en/mpox-worldwide-overview"
 source_layer: ecdc_cdtr

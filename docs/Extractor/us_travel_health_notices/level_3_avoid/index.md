@@ -1,6 +1,6 @@
 ---
 title: level_3_avoid
-layout: default
+layout: single
 parent: US Travel Health Notices
 has_children: true
 seo:

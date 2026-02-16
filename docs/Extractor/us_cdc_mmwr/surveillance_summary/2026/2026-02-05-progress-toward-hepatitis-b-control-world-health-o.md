@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Progress Toward Hepatitis B Control - World Health Organization European Region, 2016-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=425154"
 source_layer: us_cdc_mmwr

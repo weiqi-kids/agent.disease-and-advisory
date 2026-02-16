@@ -1,6 +1,6 @@
 ---
 title: 錯誤與教訓紀錄
-layout: default
+layout: single
 nav_exclude: true
 ---
 

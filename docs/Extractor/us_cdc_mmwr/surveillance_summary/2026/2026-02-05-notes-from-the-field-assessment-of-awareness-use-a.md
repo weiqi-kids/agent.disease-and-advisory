@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Assessment of Awareness, Use, and Access Barriers to Cooling Centers in Maricopa County, Arizona - August 1-September 15, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758850"
 source_layer: us_cdc_mmwr

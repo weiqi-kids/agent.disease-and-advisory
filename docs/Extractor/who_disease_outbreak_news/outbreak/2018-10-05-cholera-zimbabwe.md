@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Cholera – Zimbabwe"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/05-october-2018-cholera-zimbabwe-en"
 source_layer: who_disease_outbreak_news

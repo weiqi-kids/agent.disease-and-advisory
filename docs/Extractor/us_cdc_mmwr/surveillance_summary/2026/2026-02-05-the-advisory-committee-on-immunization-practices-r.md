@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "The Advisory Committee on Immunization Practices' Recommendation for Use of Moderna COVID-19 Vaccine in Adults Aged ≥18 Years and Considerations for Extended Intervals for Administration of Primary Series Doses of mRNA COVID-19 Vaccines - United States, February 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=622515"
 source_layer: us_cdc_mmwr

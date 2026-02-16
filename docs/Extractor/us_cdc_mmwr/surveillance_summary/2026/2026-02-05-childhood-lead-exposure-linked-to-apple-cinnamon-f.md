@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Childhood Lead Exposure Linked to Apple Cinnamon Fruit Puree Pouches - North Carolina, June 2023-January 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=751136"
 source_layer: us_cdc_mmwr

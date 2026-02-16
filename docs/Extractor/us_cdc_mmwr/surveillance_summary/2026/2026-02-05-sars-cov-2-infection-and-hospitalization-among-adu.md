@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "SARS-CoV-2 Infection and Hospitalization Among Adults Aged ≥18 Years, by Vaccination Status, Before and During SARS-CoV-2 B.1.1.529 (Omicron) Variant Predominance - Los Angeles County, California, November 7, 2021-January 8, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=508967"
 source_layer: us_cdc_mmwr

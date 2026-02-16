@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Use of At-Home COVID-19 Tests - United States, August 23, 2021-March 12, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=649169"
 source_layer: us_cdc_mmwr

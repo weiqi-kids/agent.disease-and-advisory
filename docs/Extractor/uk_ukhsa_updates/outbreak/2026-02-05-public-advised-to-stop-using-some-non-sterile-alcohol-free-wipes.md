@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Public advised to stop using some non-sterile alcohol-free wipes"
 source_url: "https://www.gov.uk/government/news/public-advised-to-stop-using-certain-non-sterile-alcohol-free-wipes"
 source_layer: uk_ukhsa_updates

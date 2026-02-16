@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '拉薩熱'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/gObCGj40QjXsqD4AZ8sz1w"
 source_layer: tw_cdc_alerts

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Association of Children's Mode of School Instruction with Child and Parent Experiences and Well-Being During the COVID-19 Pandemic - COVID Experiences Survey, United States, October 8-November 13, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=418760"
 source_layer: us_cdc_mmwr

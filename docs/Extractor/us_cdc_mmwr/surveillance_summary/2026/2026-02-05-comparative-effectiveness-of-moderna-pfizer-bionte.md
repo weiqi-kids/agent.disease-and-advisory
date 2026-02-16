@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Comparative Effectiveness of Moderna, Pfizer-BioNTech, and Janssen (Johnson & Johnson) Vaccines in Preventing COVID-19 Hospitalizations Among Adults Without Immunocompromising Conditions - United States, March-August 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426778"
 source_layer: us_cdc_mmwr

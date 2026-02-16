@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Progress Toward Measles Elimination --- Pakistan, 2000--2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=398802"
 source_layer: us_cdc_mmwr

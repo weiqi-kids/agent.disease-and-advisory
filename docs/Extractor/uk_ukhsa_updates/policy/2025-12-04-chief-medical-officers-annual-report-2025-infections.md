@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Chief Medical Officer's annual report 2025: infections"
 source_url: "https://www.gov.uk/government/news/chief-medical-officers-annual-report-2025-infections"
 source_layer: uk_ukhsa_updates

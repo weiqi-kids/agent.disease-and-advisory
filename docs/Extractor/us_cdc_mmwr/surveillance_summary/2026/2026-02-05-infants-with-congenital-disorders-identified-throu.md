@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Infants with Congenital Disorders Identified Through Newborn Screening - United States, 2015-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411251"
 source_layer: us_cdc_mmwr

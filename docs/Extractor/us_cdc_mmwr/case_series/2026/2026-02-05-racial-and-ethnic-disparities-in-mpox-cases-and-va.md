@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Racial and Ethnic Disparities in Mpox Cases and Vaccination Among Adult Males - United States, May-December 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734539"
 source_layer: "us_cdc_mmwr"

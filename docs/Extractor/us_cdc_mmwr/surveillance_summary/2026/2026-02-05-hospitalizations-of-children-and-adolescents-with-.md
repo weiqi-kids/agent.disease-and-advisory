@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Hospitalizations of Children and Adolescents with Laboratory-Confirmed COVID-19 - COVID-NET, 14 States, July 2021-January 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=536909"
 source_layer: us_cdc_mmwr

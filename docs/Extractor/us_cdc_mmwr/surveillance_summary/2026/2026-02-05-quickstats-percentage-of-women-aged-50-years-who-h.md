@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Percentage of Women Aged ≥50 Years Who Have Had a Hysterectomy, by Race/Ethnicity and Year - National Health Interview Survey, United States, 2008 and 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402190"
 source_layer: us_cdc_mmwr

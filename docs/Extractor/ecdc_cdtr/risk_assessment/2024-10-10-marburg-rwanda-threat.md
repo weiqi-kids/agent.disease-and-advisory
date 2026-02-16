@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: Threat assessment brief - Implications of the Marburg virus disease outbreak in Rwanda for the EU/EEA, 2024
 source_url: https://www.ecdc.europa.eu/en/publications-data/threat-assessment-brief-implications-marburg-virus-disease-outbreak-rwanda-eueea
 published_date: '2024-10-10'

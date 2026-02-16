@@ -1,6 +1,6 @@
 ---
 title: update
-layout: default
+layout: single
 parent: WHO Disease Outbreak News
 has_children: true
 seo:

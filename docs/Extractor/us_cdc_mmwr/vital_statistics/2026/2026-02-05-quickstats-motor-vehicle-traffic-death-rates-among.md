@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Motor-Vehicle-Traffic Death Rates Among Persons Aged 15-24 Years and ≥25 Years - United States, 2000-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=417165"
 source_layer: us_cdc_mmwr

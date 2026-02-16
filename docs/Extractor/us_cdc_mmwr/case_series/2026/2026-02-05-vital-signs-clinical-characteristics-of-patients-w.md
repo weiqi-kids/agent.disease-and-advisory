@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Vital Signs: Clinical Characteristics of Patients with Confirmed Acute Flaccid Myelitis, United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409156"
 source_layer: "us_cdc_mmwr"

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Association Between K-12 School Mask Policies and School-Associated COVID-19 Outbreaks - Maricopa and Pima Counties, Arizona, July-August 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427178"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Percentage of Children Aged 2-17 Years Who Wear Glasses or Contact Lenses, by Sex and Age Group - National Health Interview Survey, United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423452"
 source_layer: us_cdc_mmwr

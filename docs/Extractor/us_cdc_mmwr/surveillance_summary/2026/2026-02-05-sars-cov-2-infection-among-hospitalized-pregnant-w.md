@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "SARS-CoV-2 Infection Among Hospitalized Pregnant Women: Reasons for Admission and Pregnancy Characteristics - Eight U.S. Health Care Centers, March 1-May 30, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411433"
 source_layer: us_cdc_mmwr

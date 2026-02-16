@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "COVID-19 Stats: Percentage of Middle and High School Students Aged 13-21 Years Attending In-Person Classes Who Reported Observing Fellow Students Wearing a Mask All the Time, by School Setting and Activity - United States, October 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=416722"
 source_layer: us_cdc_mmwr

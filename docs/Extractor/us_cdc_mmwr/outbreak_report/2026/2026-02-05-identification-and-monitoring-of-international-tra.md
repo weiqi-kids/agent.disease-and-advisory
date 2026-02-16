@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Identification and Monitoring of International Travelers During the Initial Phase of an Outbreak of COVID-19 --- California, February 3--March 17, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406930"
 source_layer: us_cdc_mmwr

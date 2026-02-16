@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "SUPPLEMENT: Mental Health and Suicide Risk Among High School Students and Protective Factors - Youth Risk Behavior Survey, United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=753082"
 source_layer: us_cdc_mmwr

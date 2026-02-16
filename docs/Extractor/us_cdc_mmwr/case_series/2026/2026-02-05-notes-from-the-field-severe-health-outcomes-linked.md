@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Severe Health Outcomes Linked to Consumption of Mushroom-Based Psychoactive Microdosing Products - Arizona, June-October 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=756147"
 source_layer: "us_cdc_mmwr"

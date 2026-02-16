@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Use of COVID-19 Vaccines for Persons Aged ≥6 Months: Recommendations of the Advisory Committee on Immunization Practices - United States, 2024-2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752454"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "UK's first citizen-led study on childhood lead exposure begins"
 source_url: "https://www.gov.uk/government/news/uks-first-citizen-led-study-on-childhood-lead-exposure-begins"
 source_layer: uk_ukhsa_updates

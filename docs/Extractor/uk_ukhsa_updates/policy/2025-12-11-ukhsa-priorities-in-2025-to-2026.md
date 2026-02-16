@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "UKHSA priorities in 2025 to 2026"
 source_url: "https://www.gov.uk/government/publications/ukhsa-priorities-in-2025-to-2026"
 source_layer: uk_ukhsa_updates

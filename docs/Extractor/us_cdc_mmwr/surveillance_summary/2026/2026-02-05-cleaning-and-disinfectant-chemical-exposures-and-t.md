@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Cleaning and Disinfectant Chemical Exposures and Temporal Associations with COVID-19 --- National Poison Data System, United States, January 1, 2020--March 31, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406404"
 source_layer: us_cdc_mmwr

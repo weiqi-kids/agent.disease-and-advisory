@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "冬季為禽流感好發季節,疾管署籲請禽場相關從業人員加強防護措施,民眾落實「5要6不」原則"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/giyutoLsHxpQ5W4W5-0bHg?typeId=9"
 source_layer: tw_cdc_alerts

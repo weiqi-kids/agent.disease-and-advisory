@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "ACIP Updates: Recommendations for Use of 20-Valent Pneumococcal Conjugate Vaccine in Children - United States, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737471"
 source_layer: us_cdc_mmwr

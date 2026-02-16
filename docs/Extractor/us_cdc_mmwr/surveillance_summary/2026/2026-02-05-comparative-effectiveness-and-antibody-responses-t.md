@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Comparative Effectiveness and Antibody Responses to Moderna and Pfizer-BioNTech COVID-19 Vaccines among Hospitalized Veterans - Five Veterans Affairs Medical Centers, United States, February 1-September 30, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=460114"
 source_layer: us_cdc_mmwr

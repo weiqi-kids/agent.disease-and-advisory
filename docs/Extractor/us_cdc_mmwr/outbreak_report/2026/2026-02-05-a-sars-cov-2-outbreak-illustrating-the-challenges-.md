@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "A SARS-CoV-2 Outbreak Illustrating the Challenges in Limiting the Spread of the Virus - Hopi Tribe, May-June 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412719"
 source_layer: us_cdc_mmwr

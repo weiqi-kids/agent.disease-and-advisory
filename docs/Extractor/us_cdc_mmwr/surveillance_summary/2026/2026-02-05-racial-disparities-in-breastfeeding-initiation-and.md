@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Racial Disparities in Breastfeeding Initiation and Duration Among U.S. Infants Born in 2015"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401378"
 source_layer: us_cdc_mmwr

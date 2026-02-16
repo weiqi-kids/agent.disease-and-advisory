@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '立百病毒感染症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/MLQ64xwSdQU7UJHUOq7zSg"
 source_layer: tw_cdc_alerts

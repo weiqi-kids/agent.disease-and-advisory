@@ -1,6 +1,6 @@
 ---
 title: "2025"
-layout: default
+layout: single
 has_children: false
 parent: outbreak_report
 grand_parent: US CDC MMWR

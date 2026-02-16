@@ -1,7 +1,8 @@
 ---
 title: 首頁
-layout: home
-nav_order: 1
+layout: single
+sidebar:
+  nav: "sidebar"
 seo:
   meta:
     title: 'EpiAlert 疫情快訊 - 全球傳染病情報自動收集與分析'
@@ -111,12 +112,11 @@ seo:
 
 # EpiAlert 疫情快訊
 
-全球傳染病情報自動收集與分析
-{: .fs-6 .fw-300 }
+*全球傳染病情報自動收集與分析*
 
 **最後更新：2026-02-16 05:04 (UTC+8)**
-{: .label .label-green }
 
+{: .notice--warning}
 > **免責聲明**：本系統由自動化程式生成，僅供參考用途。內容基於公開資訊來源，不構成醫療建議、官方政策或專業診斷。使用者應自行驗證資訊並諮詢專業人士。
 
 ---
@@ -130,8 +130,8 @@ seo:
 | 2/12 | Mpox clade Ib/IIb 監測更新 | UK UKHSA |
 | 2/12 | RSV 疫苗覆蓋率報告（孕婦/老年） | UK UKHSA |
 
-[查看完整週報]({{ site.baseurl }}/Narrator/weekly_digest/2026-W07-weekly-digest){: .btn .btn-primary }
-[歷史週報]({{ site.baseurl }}/Narrator/weekly_digest/){: .btn }
+[查看完整週報](/Narrator/weekly_digest/2026-W07-weekly-digest){: .btn .btn--primary .btn--large}
+[歷史週報](/Narrator/weekly_digest/){: .btn .btn--info}
 
 ---
 
@@ -145,7 +145,7 @@ seo:
 - **UK UKHSA** — 英國健康安全局
 - **Taiwan CDC** — 台灣衛生福利部疾病管制署
 
-[GitHub](https://github.com/weiqi-kids/agent.disease-and-advisory){: .btn .btn-outline }
+[GitHub](https://github.com/weiqi-kids/agent.disease-and-advisory){: .btn .btn--info}
 
 ---
 
@@ -153,12 +153,12 @@ seo:
 
 | Layer | 說明 |
 |-------|------|
-| [WHO Disease Outbreak News]({{ site.baseurl }}/Extractor/who_disease_outbreak_news/) | 世界衛生組織疾病爆發新聞 |
-| [US CDC HAN]({{ site.baseurl }}/Extractor/us_cdc_han/) | 美國 CDC 健康警報網絡 |
-| [US CDC MMWR]({{ site.baseurl }}/Extractor/us_cdc_mmwr/) | 美國 CDC 發病率與死亡率週報 |
-| [US Travel Health Notices]({{ site.baseurl }}/Extractor/us_travel_health_notices/) | 美國 CDC 旅遊健康通知 |
-| [ECDC CDTR]({{ site.baseurl }}/Extractor/ecdc_cdtr/) | 歐洲疾病預防控制中心週報 |
-| [UK UKHSA]({{ site.baseurl }}/Extractor/uk_ukhsa_updates/) | 英國健康安全局更新 |
-| [Taiwan CDC]({{ site.baseurl }}/Extractor/tw_cdc_alerts/) | 台灣疾管署警報 |
+| [WHO Disease Outbreak News](/Extractor/who_disease_outbreak_news/) | 世界衛生組織疾病爆發新聞 |
+| [US CDC HAN](/Extractor/us_cdc_han/) | 美國 CDC 健康警報網絡 |
+| [US CDC MMWR](/Extractor/us_cdc_mmwr/) | 美國 CDC 發病率與死亡率週報 |
+| [US Travel Health Notices](/Extractor/us_travel_health_notices/) | 美國 CDC 旅遊健康通知 |
+| [ECDC CDTR](/Extractor/ecdc_cdtr/) | 歐洲疾病預防控制中心週報 |
+| [UK UKHSA](/Extractor/uk_ukhsa_updates/) | 英國健康安全局更新 |
+| [Taiwan CDC](/Extractor/tw_cdc_alerts/) | 台灣疾管署警報 |
 
-[查看所有資料來源]({{ site.baseurl }}/Extractor/){: .btn }
+[查看所有資料來源](/Extractor/){: .btn .btn--info}

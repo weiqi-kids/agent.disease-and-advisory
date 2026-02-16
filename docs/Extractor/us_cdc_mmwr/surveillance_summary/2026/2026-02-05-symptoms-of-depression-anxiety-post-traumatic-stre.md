@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Symptoms of Depression, Anxiety, Post-Traumatic Stress Disorder, and Suicidal Ideation Among State, Tribal, Local, and Territorial Public Health Workers During the COVID-19 Pandemic - United States, March-April 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=423827"
 source_layer: us_cdc_mmwr

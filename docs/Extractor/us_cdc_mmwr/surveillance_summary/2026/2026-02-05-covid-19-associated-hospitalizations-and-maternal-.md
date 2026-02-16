@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "COVID-19-Associated Hospitalizations and Maternal Vaccination Among Infants Aged 6 Months - COVID-NET, 12 States, October 2022-April 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=752790"
 source_layer: us_cdc_mmwr

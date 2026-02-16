@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Development of an Enhanced Community-Focused COVID-19 Surveillance Program - Hopi Tribe, June‒July 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412720"
 source_layer: us_cdc_mmwr

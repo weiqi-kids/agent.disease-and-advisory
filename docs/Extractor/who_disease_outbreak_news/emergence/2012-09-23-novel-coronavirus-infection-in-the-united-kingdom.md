@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Novel coronavirus infection in the United Kingdom"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2012_09_23-en"
 source_layer: who_disease_outbreak_news

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "COVID-19 Stats: College and University COVID-19 Student Testing Protocols, by Mode of Instruction (N = 1,849) - United States, Spring 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=419778"
 source_layer: us_cdc_mmwr

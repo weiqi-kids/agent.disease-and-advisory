@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Fatal Occupational Asthma in Cannabis Production - Massachusetts, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=739207"
 source_layer: us_cdc_mmwr

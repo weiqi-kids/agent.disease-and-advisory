@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Middle East respiratory syndrome coronavirus (MERS-CoV) – The Kingdom of Saudi Arabia"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2019-DON222"
 source_layer: who_disease_outbreak_news

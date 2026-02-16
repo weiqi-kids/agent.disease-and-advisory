@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Field Testing and Validation of a New Question Set to Measure Housing Status - Fulton County, Georgia, August-September 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759592"
 source_layer: us_cdc_mmwr

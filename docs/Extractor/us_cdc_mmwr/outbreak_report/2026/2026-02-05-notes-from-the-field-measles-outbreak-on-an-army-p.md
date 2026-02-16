@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Measles Outbreak on an Army Post and a Neighboring Community - El Paso, Texas, July-September 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407906"
 source_layer: us_cdc_mmwr

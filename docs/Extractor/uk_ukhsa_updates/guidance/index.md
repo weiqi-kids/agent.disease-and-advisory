@@ -1,6 +1,6 @@
 ---
 title: guidance
-layout: default
+layout: single
 parent: UK UKHSA Updates
 has_children: true
 seo:

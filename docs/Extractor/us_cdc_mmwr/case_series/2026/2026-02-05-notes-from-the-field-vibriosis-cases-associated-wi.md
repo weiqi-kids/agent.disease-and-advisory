@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Vibriosis Cases Associated with Flood Waters During and After Hurricane Ian - Florida, September-October 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734869"
 source_layer: "us_cdc_mmwr"

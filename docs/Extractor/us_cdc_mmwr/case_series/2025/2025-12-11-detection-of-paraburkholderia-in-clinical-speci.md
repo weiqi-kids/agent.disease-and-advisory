@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Detection of Paraburkholderia in Clinical Specimens Associated with Use of Nonsterile Ultrasound Gel for Percutaneous Procedures - United States, Canada, and Israel, May 2023⎯April 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=762142"
 source_layer: "us_cdc_mmwr"

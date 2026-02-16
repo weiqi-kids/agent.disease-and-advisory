@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Effectiveness of JYNNEOS Vaccine Against Diagnosed Mpox Infection - New York, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735126"
 source_layer: us_cdc_mmwr

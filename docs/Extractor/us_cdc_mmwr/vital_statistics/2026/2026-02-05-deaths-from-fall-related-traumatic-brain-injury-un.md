@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Deaths from Fall-Related Traumatic Brain Injury - United States, 2008-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=404465"
 source_layer: us_cdc_mmwr

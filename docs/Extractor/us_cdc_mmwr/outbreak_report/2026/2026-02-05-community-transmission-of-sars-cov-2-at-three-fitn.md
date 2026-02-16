@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Community Transmission of SARS-CoV-2 at Three Fitness Facilities - Hawaii, June-July 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=417129"
 source_layer: us_cdc_mmwr

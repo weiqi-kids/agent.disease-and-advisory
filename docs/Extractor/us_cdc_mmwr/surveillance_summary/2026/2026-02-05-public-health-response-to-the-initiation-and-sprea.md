@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Public Health Response to the Initiation and Spread of Pandemic COVID-19 in the United States, February 24--April 21, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406737"
 source_layer: us_cdc_mmwr

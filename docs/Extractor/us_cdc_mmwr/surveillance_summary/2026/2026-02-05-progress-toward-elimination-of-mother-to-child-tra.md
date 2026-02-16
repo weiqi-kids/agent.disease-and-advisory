@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Progress Toward Elimination of Mother-to-Child Transmission of Hepatitis B Virus - Region of the Americas, 2012-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=751342"
 source_layer: us_cdc_mmwr

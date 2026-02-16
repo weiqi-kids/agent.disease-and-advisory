@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Nonvoluntary or Forced Sex Among Women, by Sexual Identity, Attraction, and Behavior - National Survey of Family Growth, United States, 2011-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427075"
 source_layer: us_cdc_mmwr

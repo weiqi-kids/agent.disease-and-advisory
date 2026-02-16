@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Percentage of Women Aged 50-74 Years Who Had a Mammogram Within the Preceding 2 Years, by Family Income - National Health Interview Survey, United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733851"
 source_layer: us_cdc_mmwr

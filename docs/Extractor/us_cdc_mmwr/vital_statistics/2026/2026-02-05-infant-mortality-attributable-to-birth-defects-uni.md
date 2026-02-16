@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Infant Mortality Attributable to Birth Defects --- United States, 2003-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403142"
 source_layer: us_cdc_mmwr

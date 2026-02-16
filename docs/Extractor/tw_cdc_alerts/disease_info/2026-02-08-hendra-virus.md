@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '亨德拉病毒感染症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/aOH9YQ6Xn72BaPz8aXv2vQ"
 source_layer: tw_cdc_alerts

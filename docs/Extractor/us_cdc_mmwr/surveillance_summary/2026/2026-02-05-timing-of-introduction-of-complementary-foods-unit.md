@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Timing of Introduction of Complementary Foods - United States, 2016-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413539"
 source_layer: us_cdc_mmwr

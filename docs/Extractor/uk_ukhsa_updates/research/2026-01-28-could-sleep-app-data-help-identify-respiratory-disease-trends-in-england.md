@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Could sleep app data help identify respiratory disease trends in England?"
 source_url: "https://www.gov.uk/government/news/could-sleep-app-data-help-identify-respiratory-disease-trends-in-england"
 source_layer: uk_ukhsa_updates

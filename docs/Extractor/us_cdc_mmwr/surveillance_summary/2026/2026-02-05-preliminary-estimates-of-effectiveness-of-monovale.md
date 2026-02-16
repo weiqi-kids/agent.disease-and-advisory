@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Preliminary Estimates of Effectiveness of Monovalent mRNA Vaccines in Preventing Symptomatic SARS-CoV-2 Infection Among Children Aged 3-5 Years - Increasing Community Access to Testing Program, United States, July 2022-February 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733848"
 source_layer: us_cdc_mmwr

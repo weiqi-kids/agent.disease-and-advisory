@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Impact of Public Health Interventions on Drinking Water-Associated Outbreaks of Hepatitis A - United States, 1971-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401595"
 source_layer: us_cdc_mmwr

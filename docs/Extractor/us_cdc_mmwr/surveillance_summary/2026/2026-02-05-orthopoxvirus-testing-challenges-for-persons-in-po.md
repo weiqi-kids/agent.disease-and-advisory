@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Orthopoxvirus Testing Challenges for Persons in Populations at Low Risk or Without Known Epidemiologic Link to Monkeypox - United States, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731307"
 source_layer: us_cdc_mmwr

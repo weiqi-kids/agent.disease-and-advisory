@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Safety Monitoring of COVID-19 mRNA Vaccine First Booster Doses Among Persons Aged ≥12 Years with Presumed Immunocompromise Status - United States, January 12, 2022-March 28, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730394"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Increased Incidence of Fentanyl-Related Deaths Involving Para-fluorofentanyl or Metonitazene - Knox County, Tennessee, November 2020-August 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=499900"
 source_layer: "us_cdc_mmwr"

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "COVID-19 in Correctional and Detention Facilities --- United States, February--April 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406854"
 source_layer: "us_cdc_mmwr"

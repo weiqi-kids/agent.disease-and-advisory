@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Age-Adjusted Rates of Suicide, by State- National Vital Statistics System, United States, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401693"
 source_layer: us_cdc_mmwr

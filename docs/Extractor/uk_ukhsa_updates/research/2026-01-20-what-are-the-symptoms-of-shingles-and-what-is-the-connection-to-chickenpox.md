@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "What are the symptoms of shingles and what is the connection to chickenpox?"
 source_url: "https://ukhsa.blog.gov.uk/2026/01/20/what-are-the-symptoms-of-shingles-and-what-is-the-connection-to-chickenpox/"
 source_layer: uk_ukhsa_updates

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Mortality Risk Among Patients Hospitalized Primarily for COVID-19 During the Omicron and Delta Variant Pandemic Periods - United States, April 2020-June 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731597"
 source_layer: "us_cdc_mmwr"

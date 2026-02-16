@@ -1,6 +1,8 @@
 ---
 title: US CDC Health Alert Network
-layout: default
+layout: single
+sidebar:
+  nav: "sidebar"
 parent: 資料來源
 has_children: true
 nav_order: 2

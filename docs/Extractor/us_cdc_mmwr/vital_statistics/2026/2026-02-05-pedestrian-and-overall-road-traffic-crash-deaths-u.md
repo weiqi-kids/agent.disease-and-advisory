@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Pedestrian and Overall Road Traffic Crash Deaths - United States and 27 Other High-Income Countries, 2013-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758379"
 source_layer: us_cdc_mmwr

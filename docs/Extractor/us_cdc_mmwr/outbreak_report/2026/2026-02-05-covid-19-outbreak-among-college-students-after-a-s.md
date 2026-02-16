@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "COVID-19 Outbreak Among College Students After a Spring Break Trip to Mexico - Austin, Texas, March 26-April 5, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408229"
 source_layer: us_cdc_mmwr

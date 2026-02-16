@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "<em>Notes from the Field</em>: Neurosyphilis, Ocular Syphilis, and Otic Syphilis - Chicago, January-October 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758380"
 source_layer: "us_cdc_mmwr"

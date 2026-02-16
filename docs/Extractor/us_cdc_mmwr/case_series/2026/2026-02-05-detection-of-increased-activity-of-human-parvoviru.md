@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Detection of Increased Activity of Human Parvovirus B19 Using Commercial Laboratory Testing of Clinical Samples and Source Plasma Donor Pools - United States, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=755016"
 source_layer: "us_cdc_mmwr"

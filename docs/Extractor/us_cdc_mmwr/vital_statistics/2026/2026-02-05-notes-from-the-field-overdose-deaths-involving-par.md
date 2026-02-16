@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Overdose Deaths Involving Para-fluorofentanyl - United States, July 2020-June 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731862"
 source_layer: us_cdc_mmwr

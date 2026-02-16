@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Effectiveness of COVID-19 Pfizer-BioNTech BNT162b2 mRNA Vaccination in Preventing COVID-19-Associated Emergency Department and Urgent Care Encounters and Hospitalizations Among Nonimmunocompromised Children and Adolescents Aged 5-17 Years - VISION Network, 10 States, April 2021-January 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=575259"
 source_layer: us_cdc_mmwr

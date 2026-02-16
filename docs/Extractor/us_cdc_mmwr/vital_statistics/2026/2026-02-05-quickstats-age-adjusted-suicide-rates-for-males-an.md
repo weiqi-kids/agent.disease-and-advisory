@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Age-Adjusted Suicide Rates for Males and Females, by Race and Ethnicity - National Vital Statistics System, United States, 2000-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=560390"
 source_layer: us_cdc_mmwr

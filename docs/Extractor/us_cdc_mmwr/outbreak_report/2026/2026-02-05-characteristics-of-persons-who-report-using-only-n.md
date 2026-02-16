@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Characteristics of Persons Who Report Using Only Nicotine-Containing Products Among Interviewed Patients with E-cigarette, or Vaping, Product Use-Associated Lung Injury --- Illinois, August--December 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403169"
 source_layer: us_cdc_mmwr

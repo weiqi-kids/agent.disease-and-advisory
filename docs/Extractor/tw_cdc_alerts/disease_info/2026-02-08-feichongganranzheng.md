@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '肺吸蟲感染症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/DsDOkPNK_cqAXmWYHyuAFQ"
 source_layer: tw_cdc_alerts

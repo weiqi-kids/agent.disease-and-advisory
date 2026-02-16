@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Impact of the DREAMS Program on New HIV Diagnoses in Adolescent Girls and Young Women Attending Antenatal Care - Lesotho, 2015-2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=483510"
 source_layer: us_cdc_mmwr

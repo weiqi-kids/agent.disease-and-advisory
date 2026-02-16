@@ -1,6 +1,6 @@
 ---
 title: situational_update
-layout: default
+layout: single
 parent: ECDC CDTR
 has_children: true
 seo:

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Community Assessment for Mental and Physical Health Effects After Hurricane Irma - Florida Keys, May 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=424043"
 source_layer: us_cdc_mmwr

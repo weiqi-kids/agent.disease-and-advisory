@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Trends in the Use of Telehealth During the Emergence of the COVID-19 Pandemic - United States, January-March 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412468"
 source_layer: us_cdc_mmwr

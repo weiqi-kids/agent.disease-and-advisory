@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Outbreak of Human Immunodeficiency Virus Infection Among Persons Who Inject Drugs - Cabell County, West Virginia, 2018-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406476"
 source_layer: us_cdc_mmwr

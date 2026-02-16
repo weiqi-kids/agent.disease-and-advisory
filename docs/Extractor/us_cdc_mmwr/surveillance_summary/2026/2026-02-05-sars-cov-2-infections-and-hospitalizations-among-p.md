@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "SARS-CoV-2 Infections and Hospitalizations Among Persons Aged ≥16 Years, by Vaccination Status - Los Angeles County, California, May 1-July 25, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426098"
 source_layer: us_cdc_mmwr

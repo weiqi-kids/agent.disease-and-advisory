@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '布氏桿菌病'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/zs7y9ag-DLeJwCDGj2XQHA"
 source_layer: tw_cdc_alerts

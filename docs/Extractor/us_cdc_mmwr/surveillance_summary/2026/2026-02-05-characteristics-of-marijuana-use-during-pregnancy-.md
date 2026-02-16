@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Characteristics of Marijuana Use During Pregnancy - Eight States, Pregnancy Risk Assessment Monitoring System, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409773"
 source_layer: us_cdc_mmwr

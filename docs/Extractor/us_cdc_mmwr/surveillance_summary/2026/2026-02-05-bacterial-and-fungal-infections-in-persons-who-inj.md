@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Bacterial and Fungal Infections in Persons Who Inject Drugs --- Western New York, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399525"
 source_layer: us_cdc_mmwr

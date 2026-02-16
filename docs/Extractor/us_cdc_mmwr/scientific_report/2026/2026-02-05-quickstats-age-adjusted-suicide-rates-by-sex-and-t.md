@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: 'QuickStats: Age-Adjusted Suicide Rates, by Sex and Three Most Common Methods
   - United States, 2000-2018'
 source_url: https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=404471

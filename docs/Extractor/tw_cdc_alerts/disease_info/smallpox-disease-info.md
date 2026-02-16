@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "天花"
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/r-efSTx60KilIEf_MlwknA"
 source_layer: tw_cdc_alerts

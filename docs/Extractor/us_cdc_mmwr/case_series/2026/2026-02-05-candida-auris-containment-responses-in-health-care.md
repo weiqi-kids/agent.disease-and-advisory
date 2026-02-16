@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Candida auris Containment Responses in Health Care Facilities that Provide Hemodialysis Services - New Jersey, North Carolina, South Carolina, and Tennessee, 2020-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759877"
 source_layer: "us_cdc_mmwr"

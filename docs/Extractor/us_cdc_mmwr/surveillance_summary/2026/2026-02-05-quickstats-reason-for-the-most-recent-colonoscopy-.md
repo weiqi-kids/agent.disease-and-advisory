@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Reason for the Most Recent Colonoscopy, Among Adults Aged 50-75 Years Who Had a Test in the Past 10 Years - National Health Interview Survey, United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408047"
 source_layer: us_cdc_mmwr

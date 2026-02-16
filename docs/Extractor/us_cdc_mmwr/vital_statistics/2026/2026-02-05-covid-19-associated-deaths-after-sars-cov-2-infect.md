@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "COVID-19-Associated Deaths After SARS-CoV-2 Infection During Pregnancy - Mississippi, March 1, 2020-October 6, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=438801"
 source_layer: us_cdc_mmwr

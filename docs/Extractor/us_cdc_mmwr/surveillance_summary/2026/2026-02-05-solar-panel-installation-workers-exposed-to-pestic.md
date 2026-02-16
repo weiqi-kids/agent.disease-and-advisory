@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Solar Panel Installation Workers Exposed to Pesticides During Two Agricultural Applications - Michigan, August 2023 and May 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=759988"
 source_layer: us_cdc_mmwr

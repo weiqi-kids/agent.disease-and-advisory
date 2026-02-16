@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Safety Monitoring of Novavax COVID-19 Vaccine Among Persons Aged ≥12 Years - United States, July 13, 2022-March 13, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736109"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 title: information
-layout: default
+layout: single
 parent: US CDC Health Alert Network
 has_children: true
 seo:

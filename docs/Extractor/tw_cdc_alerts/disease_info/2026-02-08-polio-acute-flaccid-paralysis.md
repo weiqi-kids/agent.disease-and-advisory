@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '小兒麻痺症/急性無力肢體麻痺'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/FIm0Yh1XffviByRaoMhTqw"
 source_layer: tw_cdc_alerts

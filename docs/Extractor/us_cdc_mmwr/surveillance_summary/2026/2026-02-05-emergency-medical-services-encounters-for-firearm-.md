@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Emergency Medical Services Encounters for Firearm Injuries - 858 Counties, United States, January 2019-September 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=750195"
 source_layer: us_cdc_mmwr

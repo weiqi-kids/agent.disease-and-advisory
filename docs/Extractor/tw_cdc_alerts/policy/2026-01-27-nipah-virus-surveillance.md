@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "預告「立百病毒感染症」列為第五類法定傳染病"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/uyGn5mXv3-AgOOe_wmLO_g?typeId=9"
 source_layer: tw_cdc_alerts

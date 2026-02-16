@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Life Expectancy at Birth, by Sex - United States, 2019-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=746110"
 source_layer: us_cdc_mmwr

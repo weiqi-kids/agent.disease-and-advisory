@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Reports of Encephalopathy Among Children with Influenza-Associated Mortality - United States, 2010-11 Through 2024-25 Influenza Seasons"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758234"
 source_layer: "us_cdc_mmwr"

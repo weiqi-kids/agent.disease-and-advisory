@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: '寒流發威及春節假期將至 民眾出遊探親往來頻繁 增加疾病傳播風險 籲請民眾落實衛生好習慣 並儘速接種疫苗 健康過好年'
-layout: default
+layout: single
 source_url: https://www.cdc.gov.tw/Bulletin/Detail/q6bu7XjucOl-6qUsEi8_mA?typeId=9
 date: 2026-02-10
 source_layer: tw_cdc_alerts

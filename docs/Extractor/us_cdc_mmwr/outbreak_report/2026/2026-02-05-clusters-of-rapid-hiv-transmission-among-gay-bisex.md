@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Clusters of Rapid HIV Transmission Among Gay, Bisexual, and Other Men Who Have Sex with Men - United States, 2018-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731759"
 source_layer: us_cdc_mmwr

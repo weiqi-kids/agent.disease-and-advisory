@@ -1,6 +1,6 @@
 ---
 title: disease_info
-layout: default
+layout: single
 parent: Taiwan CDC Alerts
 has_children: true
 seo:

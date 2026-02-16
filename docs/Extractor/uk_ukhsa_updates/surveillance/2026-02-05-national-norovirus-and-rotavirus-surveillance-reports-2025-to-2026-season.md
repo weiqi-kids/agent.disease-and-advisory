@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Official Statistics: National norovirus and rotavirus surveillance reports: 2025 to 2026 season"
 source_url: "https://www.gov.uk/government/statistics/national-norovirus-and-rotavirus-surveillance-reports-2025-to-2026-season"
 source_layer: uk_ukhsa_updates

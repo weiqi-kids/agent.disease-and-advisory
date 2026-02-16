@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Erratum: Vol. 74, No. RR-1"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=760245"
 source_layer: us_cdc_mmwr

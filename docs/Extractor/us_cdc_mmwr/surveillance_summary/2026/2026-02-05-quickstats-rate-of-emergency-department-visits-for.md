@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Rate of Emergency Department Visits for Substance Use Disorders Among Adults Aged ≥18 Years, by Age Group - National Hospital Ambulatory Medical Care Survey, United States, 2018-2019 and 2020-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737472"
 source_layer: us_cdc_mmwr

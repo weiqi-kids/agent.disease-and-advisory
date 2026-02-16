@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Andi Biotic dances back to save antibiotics"
 source_url: "https://www.gov.uk/government/news/andi-biotic-dances-back-to-save-antibiotics"
 source_layer: uk_ukhsa_updates

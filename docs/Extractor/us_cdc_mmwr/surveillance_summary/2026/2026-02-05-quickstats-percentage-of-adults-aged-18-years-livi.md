@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Percentage of Adults Aged ≥18 Years Living in Families That Were Food-Insecure in the Past 30 Days, by Family Income and Urbanicity - National Health Interview Survey, United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732947"
 source_layer: us_cdc_mmwr

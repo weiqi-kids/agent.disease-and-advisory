@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Supply Interruptions of First- and Second-Line Oral Drugs to Treat Tuberculosis During the Previous 12 Months - California, January-March, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=741297"
 source_layer: us_cdc_mmwr

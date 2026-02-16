@@ -1,6 +1,6 @@
 ---
 title: level_1_watch
-layout: default
+layout: single
 parent: US Travel Health Notices
 has_children: true
 seo:

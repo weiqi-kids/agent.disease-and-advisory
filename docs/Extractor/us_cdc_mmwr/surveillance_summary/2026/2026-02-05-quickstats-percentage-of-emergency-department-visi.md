@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Percentage of Emergency Department Visits for Pain at Which Opioids Were Given or Prescribed, by Geographic Region of the Hospital --- United States, 2005-2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403146"
 source_layer: us_cdc_mmwr

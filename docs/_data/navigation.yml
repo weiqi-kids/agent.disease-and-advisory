@@ -1,0 +1,43 @@
+# EpiAlert 疫情快訊 - 側邊欄導覽
+# 只有在此檔案中定義的頁面才會出現在導覽中
+
+sidebar:
+  - title: 首頁
+    url: /
+
+  - title: 週報
+    url: /Narrator/weekly_digest/
+    children:
+      - title: 2026-W07 週報
+        url: /Narrator/weekly_digest/2026-W07-weekly-digest
+      - title: 2026-W06 週報
+        url: /Narrator/weekly_digest/2026-W06-weekly-digest
+      - title: 2026-W05 週報
+        url: /Narrator/weekly_digest/2026-W05-weekly-digest
+
+  - title: 資料來源
+    url: /Extractor/
+    children:
+      - title: WHO 疾病爆發新聞
+        url: /Extractor/who_disease_outbreak_news/
+      - title: US CDC HAN
+        url: /Extractor/us_cdc_han/
+      - title: US CDC MMWR
+        url: /Extractor/us_cdc_mmwr/
+      - title: US Travel Health Notices
+        url: /Extractor/us_travel_health_notices/
+      - title: ECDC CDTR
+        url: /Extractor/ecdc_cdtr/
+      - title: UK UKHSA
+        url: /Extractor/uk_ukhsa_updates/
+      - title: 台灣 CDC
+        url: /Extractor/tw_cdc_alerts/
+
+# 頂部主選單
+main:
+  - title: 首頁
+    url: /
+  - title: 週報
+    url: /Narrator/weekly_digest/
+  - title: 資料來源
+    url: /Extractor/

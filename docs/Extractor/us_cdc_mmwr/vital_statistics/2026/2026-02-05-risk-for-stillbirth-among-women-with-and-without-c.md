@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Risk for Stillbirth Among Women With and Without COVID-19 at Delivery Hospitalization - United States, March 2020-September 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=438802"
 source_layer: us_cdc_mmwr

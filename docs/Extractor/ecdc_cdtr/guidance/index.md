@@ -1,6 +1,6 @@
 ---
 title: guidance
-layout: default
+layout: single
 parent: ECDC CDTR
 has_children: true
 seo:

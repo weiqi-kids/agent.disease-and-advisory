@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Pediatric HIV Outbreak in Ratodero, Pakistan - April 2019-April 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=428148"
 source_layer: us_cdc_mmwr

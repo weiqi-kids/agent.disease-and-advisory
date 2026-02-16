@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Factors That Might Affect SARS-CoV-2 Transmission Among Foreign-Born and U.S.-Born Poultry Facility Workers - Maryland, May 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=414705"
 source_layer: us_cdc_mmwr

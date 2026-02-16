@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: 'Rapid Outbreak Assessment: Prolonged multi-country outbreak of Listeria monocytogenes ST1607 linked to smoked salmon products'
 source_url: https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-prolonged-multi-country-outbreak-listeria-monocytogenes
 date: '2024-04-25'

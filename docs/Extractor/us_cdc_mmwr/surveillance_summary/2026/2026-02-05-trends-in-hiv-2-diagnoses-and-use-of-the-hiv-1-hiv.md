@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Trends in HIV-2 Diagnoses and Use of the HIV-1/HIV-2 Differentiation Test --- United States, 2010--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403259"
 source_layer: us_cdc_mmwr

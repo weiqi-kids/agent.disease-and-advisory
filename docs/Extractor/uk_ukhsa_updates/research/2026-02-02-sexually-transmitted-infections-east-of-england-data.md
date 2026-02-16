@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Research: Sexually transmitted infections: East of England data"
 source_url: "https://www.gov.uk/government/publications/sexually-transmitted-infections-east-of-england-data"
 source_layer: uk_ukhsa_updates

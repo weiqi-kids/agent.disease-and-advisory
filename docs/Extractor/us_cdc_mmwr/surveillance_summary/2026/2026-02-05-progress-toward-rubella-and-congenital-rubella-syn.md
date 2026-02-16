@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Progress Toward Rubella and Congenital Rubella Syndrome Control and Elimination - Worldwide, 2000-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401979"
 source_layer: us_cdc_mmwr

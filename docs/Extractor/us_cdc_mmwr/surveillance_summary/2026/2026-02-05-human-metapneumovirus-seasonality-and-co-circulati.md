@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Human Metapneumovirus Seasonality and Co-Circulation with Respiratory Syncytial Virus - United States, 2014-2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758562"
 source_layer: us_cdc_mmwr

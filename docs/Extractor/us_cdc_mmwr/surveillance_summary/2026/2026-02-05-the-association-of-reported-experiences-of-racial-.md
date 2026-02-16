@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "The Association of Reported Experiences of Racial and Ethnic Discrimination in Health Care with COVID-19 Vaccination Status and Intent - United States, April 22, 2021-November 26, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734642"
 source_layer: us_cdc_mmwr

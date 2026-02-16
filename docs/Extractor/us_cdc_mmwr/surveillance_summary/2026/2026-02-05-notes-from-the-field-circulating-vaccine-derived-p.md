@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Circulating Vaccine-Derived Poliovirus Type 2 Emergences Linked to Novel Oral Poliovirus Vaccine Type 2 Use - Six African Countries, 2021-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=737248"
 source_layer: us_cdc_mmwr

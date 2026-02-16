@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "National Diabetes Month - November 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402347"
 source_layer: us_cdc_mmwr

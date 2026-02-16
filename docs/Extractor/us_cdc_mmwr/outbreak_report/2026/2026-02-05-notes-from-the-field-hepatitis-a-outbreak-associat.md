@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Hepatitis A Outbreak Associated with Drug Use and Homelessness --- West Virginia, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397316"
 source_layer: us_cdc_mmwr

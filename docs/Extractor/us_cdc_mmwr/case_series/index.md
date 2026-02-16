@@ -1,6 +1,6 @@
 ---
 title: case_series
-layout: default
+layout: single
 parent: US CDC MMWR
 has_children: true
 seo:

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "New Dosing Interval and Schedule for the Bexsero MenB-4C Vaccine: Updated Recommendations of the Advisory Committee on Immunization Practices - United States, October 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=755547"
 source_layer: us_cdc_mmwr

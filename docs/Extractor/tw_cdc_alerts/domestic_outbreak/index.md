@@ -1,6 +1,6 @@
 ---
 title: domestic_outbreak
-layout: default
+layout: single
 parent: Taiwan CDC Alerts
 has_children: true
 seo:

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "COVID-19 Among Workers in Meat and Poultry Processing Facilities --- 19 States, April 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406734"
 source_layer: "us_cdc_mmwr"

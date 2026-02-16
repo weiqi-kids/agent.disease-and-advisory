@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: Nonfatal Drug and Polydrug Overdoses Treated in Emergency Departments - 29
   States, 2018-2019
 source_url: https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410484

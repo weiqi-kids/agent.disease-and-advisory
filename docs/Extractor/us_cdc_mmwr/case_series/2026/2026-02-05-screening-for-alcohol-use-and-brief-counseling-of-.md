@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Screening for Alcohol Use and Brief Counseling of Adults - 13 States and the District of Columbia, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=404670"
 source_layer: "us_cdc_mmwr"

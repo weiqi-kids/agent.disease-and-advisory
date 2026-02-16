@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "SARS-CoV-2 B.1.1.529 (Omicron) Variant Transmission Within Households - Four U.S. Jurisdictions, November 2021-February 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=564942"
 source_layer: us_cdc_mmwr

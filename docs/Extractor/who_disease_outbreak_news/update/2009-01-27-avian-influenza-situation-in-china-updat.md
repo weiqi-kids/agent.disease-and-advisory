@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Avian influenza – situation in China - update 3"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/2009_01_27-en"
 source_layer: who_disease_outbreak_news

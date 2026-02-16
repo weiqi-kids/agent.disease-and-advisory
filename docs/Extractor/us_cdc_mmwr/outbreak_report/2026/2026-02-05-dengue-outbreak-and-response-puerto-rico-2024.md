@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Dengue Outbreak and Response - Puerto Rico, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758084"
 source_layer: us_cdc_mmwr

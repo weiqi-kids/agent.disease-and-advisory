@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Cluster of Parechovirus Central Nervous System Infections in Young Infants - Tennessee, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730738"
 source_layer: us_cdc_mmwr

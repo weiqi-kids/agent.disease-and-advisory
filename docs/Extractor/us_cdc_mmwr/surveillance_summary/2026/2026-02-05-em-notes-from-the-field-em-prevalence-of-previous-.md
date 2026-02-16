@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "<em>Notes from the Field</em>: Prevalence of Previous Dengue Virus Infection Among Children and Adolescents Aged 7-16 Years - American Samoa, September-October 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=751815"
 source_layer: us_cdc_mmwr

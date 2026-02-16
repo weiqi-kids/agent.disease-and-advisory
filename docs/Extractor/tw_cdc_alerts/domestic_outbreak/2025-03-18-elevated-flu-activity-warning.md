@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: 'Public urged to practice good hygiene habits and to seek medical attention immediately if experiencing warning signs amid elevated flu activity'
 source_url: "https://www.cdc.gov.tw/En/Bulletin/Detail/AYwoUNQs2ua9OGCA3i5few?typeId=158"
 source_layer: tw_cdc_alerts

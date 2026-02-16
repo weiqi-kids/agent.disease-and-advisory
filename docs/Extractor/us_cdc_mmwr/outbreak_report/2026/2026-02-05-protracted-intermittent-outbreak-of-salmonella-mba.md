@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Protracted, Intermittent Outbreak of Salmonella Mbandaka Linked to a Restaurant - Michigan, 2008-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=425961"
 source_layer: us_cdc_mmwr

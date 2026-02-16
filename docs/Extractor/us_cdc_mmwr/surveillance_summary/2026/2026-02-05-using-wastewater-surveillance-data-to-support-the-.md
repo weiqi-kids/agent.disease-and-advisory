@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Using Wastewater Surveillance Data to Support the COVID-19 Response - United States, 2020-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=426619"
 source_layer: us_cdc_mmwr

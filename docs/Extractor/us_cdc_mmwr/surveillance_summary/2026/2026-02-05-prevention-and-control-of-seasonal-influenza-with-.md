@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Prevention and Control of Seasonal Influenza with Vaccines: Recommendations of the Advisory Committee on Immunization Practices - United States, 2025-26 Influenza Season"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=760124"
 source_layer: us_cdc_mmwr

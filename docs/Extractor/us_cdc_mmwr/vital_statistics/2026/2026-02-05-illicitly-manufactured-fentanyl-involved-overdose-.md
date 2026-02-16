@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Illicitly Manufactured Fentanyl-Involved Overdose Deaths with Detected Xylazine - United States, January 2019-June 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=735678"
 source_layer: us_cdc_mmwr

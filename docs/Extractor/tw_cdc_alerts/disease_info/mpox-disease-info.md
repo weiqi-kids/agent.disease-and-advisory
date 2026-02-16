@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "M痘"
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/G3A6nyt8JmqIUcUF5Pek6w"
 source_layer: tw_cdc_alerts

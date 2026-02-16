@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Tuberculosis Preventive Treatment Update - U.S. President's Emergency Plan for AIDS Relief, 36 Countries, 2016-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=745606"
 source_layer: us_cdc_mmwr

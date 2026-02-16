@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Selection of Antibiotics as Prophylaxis for Close Contacts of Patients with Meningococcal Disease in Areas with Ciprofloxacin Resistance - United States, 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=742799"
 source_layer: "us_cdc_mmwr"

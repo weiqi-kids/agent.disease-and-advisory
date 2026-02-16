@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "臨近春節連假國內外旅遊頻繁 疾病傳播風險升高 提醒民眾落實衛生好習慣 並接種疫苗以保障自身與家人健康 平安過好年"
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/I0Se07aQ8o21oCByW05F5g?typeId=9"
 source_layer: tw_cdc_alerts

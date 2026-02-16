@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: 'In observance of World TB Day, Taiwan CDC holds "Raise Your Hand for Testing, Say Goodbye to TB" press conference'
 source_url: "https://www.cdc.gov.tw/En/Bulletin/Detail/67yE1YglyaytEaZhCNckWQ?typeId=158"
 source_layer: tw_cdc_alerts

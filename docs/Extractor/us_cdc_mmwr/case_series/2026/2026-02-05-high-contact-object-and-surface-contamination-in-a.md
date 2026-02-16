@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "High-Contact Object and Surface Contamination in a Household of Persons with Monkeypox Virus Infection - Utah, June 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=731037"
 source_layer: "us_cdc_mmwr"

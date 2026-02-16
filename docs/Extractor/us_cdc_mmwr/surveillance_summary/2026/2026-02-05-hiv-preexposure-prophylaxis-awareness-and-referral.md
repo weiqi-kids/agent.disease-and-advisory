@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "HIV Preexposure Prophylaxis Awareness and Referral to Providers Among Hispanic/Latino Persons - United States, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427678"
 source_layer: us_cdc_mmwr

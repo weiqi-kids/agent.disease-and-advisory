@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Acute Nonviral Hepatitis Linked to a Brand of Alkaline Bottled Water - Clark County, Nevada and California, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=438254"
 source_layer: "us_cdc_mmwr"

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Declines in Prevalence of Human Papillomavirus Vaccine-Type Infection Among Females after Introduction of Vaccine - United States, 2003-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=418929"
 source_layer: us_cdc_mmwr

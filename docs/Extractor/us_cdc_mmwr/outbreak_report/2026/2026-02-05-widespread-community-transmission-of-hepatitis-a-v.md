@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Widespread Community Transmission of Hepatitis A Virus Following an Outbreak at a Local Restaurant - Virginia, September 2021-September 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734455"
 source_layer: us_cdc_mmwr

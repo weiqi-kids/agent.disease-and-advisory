@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '常見腸道寄生蟲病'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/uzjQodThOrXY_CSe5gP3Mg"
 source_layer: tw_cdc_alerts

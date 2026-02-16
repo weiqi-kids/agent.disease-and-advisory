@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: Transmission Dynamics by Age Group in COVID-19 Hotspot Counties - United States,
   April-September 2020
 source_url: https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=411986

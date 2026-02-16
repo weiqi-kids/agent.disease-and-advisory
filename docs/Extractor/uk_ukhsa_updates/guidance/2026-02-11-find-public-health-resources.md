@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: Find public health resources
-layout: default
+layout: single
 source_url: https://www.gov.uk/guidance/find-public-health-resources
 date: 2026-02-11T14:12:25Z
 source_layer: uk_ukhsa_updates

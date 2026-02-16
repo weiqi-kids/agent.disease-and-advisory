@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Use of Ebola Vaccine: Expansion of Recommendations of the Advisory Committee on Immunization Practices To Include Two Additional Populations - United States, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=560385"
 source_layer: us_cdc_mmwr

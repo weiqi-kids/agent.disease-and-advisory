@@ -1,7 +1,8 @@
 ---
 title: 報告
-layout: default
-nav_exclude: true
+layout: single
+sidebar:
+  nav: "sidebar"
 seo:
   meta:
     title: '報告 - EpiAlert 疫情快訊'

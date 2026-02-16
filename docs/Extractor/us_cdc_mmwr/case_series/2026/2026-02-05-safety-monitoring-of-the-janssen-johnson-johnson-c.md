@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Safety Monitoring of the Janssen (Johnson & Johnson) COVID-19 Vaccine - United States, March-April 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=421539"
 source_layer: "us_cdc_mmwr"

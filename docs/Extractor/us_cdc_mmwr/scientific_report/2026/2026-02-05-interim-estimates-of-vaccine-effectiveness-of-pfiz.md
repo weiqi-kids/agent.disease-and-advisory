@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: Interim Estimates of Vaccine Effectiveness of Pfizer-BioNTech and Moderna COVID-19
   Vaccines Among Health Care Personnel - 33 U.S. Sites, January-March 2021
 source_url: https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=422061

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "The Advisory Committee on Immunization Practices Interim Recommendation for Allocating Initial Supplies of COVID-19 Vaccine - United States, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=413681"
 source_layer: us_cdc_mmwr

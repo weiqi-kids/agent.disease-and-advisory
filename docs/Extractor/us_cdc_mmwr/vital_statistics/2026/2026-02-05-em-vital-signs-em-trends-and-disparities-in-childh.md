@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "<em>Vital Signs</em>: Trends and Disparities in Childhood Vaccination Coverage by Vaccines for Children Program Eligibility - National Immunization Survey-Child, United States, 2012-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=751850"
 source_layer: us_cdc_mmwr

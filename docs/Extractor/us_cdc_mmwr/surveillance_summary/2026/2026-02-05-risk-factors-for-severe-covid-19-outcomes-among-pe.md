@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Risk Factors for Severe COVID-19 Outcomes Among Persons Aged ≥18 Years Who Completed a Primary COVID-19 Vaccination Series - 465 Health Care Facilities, United States, December 2020-October 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=477483"
 source_layer: us_cdc_mmwr

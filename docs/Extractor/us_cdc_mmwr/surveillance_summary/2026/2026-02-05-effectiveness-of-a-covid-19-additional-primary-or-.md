@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Effectiveness of a COVID-19 Additional Primary or Booster Vaccine Dose in Preventing SARS-CoV-2 Infection Among Nursing Home Residents During Widespread Circulation of the Omicron Variant - United States, February 14-March 27, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729138"
 source_layer: us_cdc_mmwr

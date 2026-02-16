@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: Respiratory Syncytial Virus Immunization Coverage Among Infants Through Receipt
   of Nirsevimab Monoclonal Antibody or Maternal Vaccination - United States, October
   2023-March 2024

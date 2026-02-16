@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Multiple COVID-19 Outbreaks Linked to a Wedding Reception in Rural Maine - August 7-September 14, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=412885"
 source_layer: us_cdc_mmwr

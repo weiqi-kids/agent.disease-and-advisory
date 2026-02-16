@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Driving Under the Influence of Marijuana and Illicit Drugs Among Persons Aged ≥16 Years - United States, 2018 "
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402870"
 source_layer: us_cdc_mmwr

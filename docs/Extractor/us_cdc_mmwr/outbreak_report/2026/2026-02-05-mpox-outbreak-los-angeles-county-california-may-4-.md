@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Mpox Outbreak - Los Angeles County, California, May 4-August 17, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=741880"
 source_layer: us_cdc_mmwr

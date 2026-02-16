@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Disparities in Receipt of Eye Exams Among Medicare Part B Fee-for-Service Beneficiaries with Diabetes - United States, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402506"
 source_layer: us_cdc_mmwr

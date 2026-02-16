@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: 'UKHSA safeguarding annual report 2024 to 2025'
-layout: default
+layout: single
 source_url: https://www.gov.uk/government/publications/ukhsa-safeguarding-annual-report-2024-to-2025
 date: 2026-02-09T09:30:01Z
 source_layer: uk_ukhsa_updates

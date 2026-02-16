@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Federal Retail Pharmacy Program Contributions to Bivalent mRNA COVID-19 Vaccinations Across Sociodemographic Characteristics - United States, September 1, 2022-September 30, 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=746107"
 source_layer: us_cdc_mmwr

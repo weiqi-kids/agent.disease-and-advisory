@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Trends in Number and Distribution of COVID-19 Hotspot Counties - United States, March 8-July 15, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409870"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "COVID-19 Vaccination Coverage, and Rates of SARS-CoV-2 Infection and COVID-19-Associated Hospitalization Among Residents in Nursing Homes - National Healthcare Safety Network, United States, October 2023-February 2024"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=746774"
 source_layer: us_cdc_mmwr

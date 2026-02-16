@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Post-COVID Conditions Among Adult COVID-19 Survivors Aged 18-64 and ≥65 Years - United States, March 2020-November 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=729444"
 source_layer: us_cdc_mmwr

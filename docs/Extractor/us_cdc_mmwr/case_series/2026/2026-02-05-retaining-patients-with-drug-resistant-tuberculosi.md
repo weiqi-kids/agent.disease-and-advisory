@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Retaining Patients with Drug-Resistant Tuberculosis on Treatment During the COVID-19 Pandemic - Dharavi, Mumbai, India, 2020-2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=734302"
 source_layer: "us_cdc_mmwr"

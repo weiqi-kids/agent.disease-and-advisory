@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Multidrug-Resistant Tuberculosis Among Workers at Two Food Processing Facilities - Ohio, 2018-2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=409777"
 source_layer: us_cdc_mmwr

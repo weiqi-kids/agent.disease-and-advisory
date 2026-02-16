@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Human-to-Human Rabies Transmission via Solid Organ Transplantation from a Donor with Undiagnosed Rabies - United States, October 2024-February 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=761975"
 source_layer: "us_cdc_mmwr"

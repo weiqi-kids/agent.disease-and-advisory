@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: Chikungunya virus disease worldwide overview
 source_url: https://www.ecdc.europa.eu/en/chikungunya-monthly
 source_name: ECDC

@@ -1,7 +1,7 @@
 ---
 nav_exclude: true
 title: '新春巧遇情人節，籲請民眾落實安全防護及主動篩檢、風險族群儘早完成2劑M痘疫苗接種'
-layout: default
+layout: single
 source_url: https://www.cdc.gov.tw/Bulletin/Detail/F7Y7QXWHMGjHn0NwdYcQ7Q?typeId=9
 date: 2026-02-10
 source_layer: tw_cdc_alerts

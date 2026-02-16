@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Rapid Sentinel Surveillance for COVID-19 - Santa Clara County, California, March 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405844"
 source_layer: us_cdc_mmwr

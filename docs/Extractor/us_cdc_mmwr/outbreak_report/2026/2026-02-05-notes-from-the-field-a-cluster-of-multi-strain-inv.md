@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: A Cluster of Multi-Strain Invasive Pneumococcal Disease Among Persons Experiencing Homelessness and Use of Pneumococcal Conjugate Vaccine - El Paso County, Colorado, 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=739210"
 source_layer: us_cdc_mmwr

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Tobacco Product Use Among Adults - United States, 2017-2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=758318"
 source_layer: us_cdc_mmwr

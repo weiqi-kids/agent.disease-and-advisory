@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Opioid-Involved Overdose Deaths with Fentanyl or Fentanyl Analogs Detected - 28 States and the District of Columbia, July 2016-December 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=404671"
 source_layer: us_cdc_mmwr

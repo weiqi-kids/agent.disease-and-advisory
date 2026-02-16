@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '茲卡病毒感染症'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/ZkG69TzhnvazzfwwMA4BgA"
 source_layer: tw_cdc_alerts

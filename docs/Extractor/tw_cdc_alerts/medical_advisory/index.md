@@ -1,6 +1,6 @@
 ---
 title: medical_advisory
-layout: default
+layout: single
 parent: Taiwan CDC Alerts
 has_children: true
 seo:

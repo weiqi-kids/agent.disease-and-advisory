@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Monkeypox – Singapore"
 source_url: "https://www.who.int/emergencies/disease-outbreak-news/16-may-2019-monkeypox-singapore-en"
 source_layer: who_disease_outbreak_news

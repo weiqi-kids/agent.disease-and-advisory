@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "SARS-CoV-2 Rebound With and Without Use of COVID-19 Oral Antivirals"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=740686"
 source_layer: "us_cdc_mmwr"

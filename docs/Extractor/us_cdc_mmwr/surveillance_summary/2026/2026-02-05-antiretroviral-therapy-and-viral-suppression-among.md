@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Antiretroviral Therapy and Viral Suppression Among Active Duty Service Members with Incident HIV Infection - United States, January 2012-June 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=405790"
 source_layer: us_cdc_mmwr

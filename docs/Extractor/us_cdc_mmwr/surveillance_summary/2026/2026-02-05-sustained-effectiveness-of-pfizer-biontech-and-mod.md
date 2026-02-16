@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Sustained Effectiveness of Pfizer-BioNTech and Moderna Vaccines Against COVID-19 Associated Hospitalizations Among Adults - United States, March-July 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=425928"
 source_layer: us_cdc_mmwr

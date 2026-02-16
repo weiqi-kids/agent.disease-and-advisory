@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Use of Rapid Antigen Testing for SARS-CoV-2 in Remote Communities - Yukon-Kuskokwim Delta Region, Alaska, September 15, 2020-March 1, 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=425963"
 source_layer: us_cdc_mmwr

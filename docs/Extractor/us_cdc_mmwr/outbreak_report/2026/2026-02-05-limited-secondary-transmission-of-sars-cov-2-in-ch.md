@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Limited Secondary Transmission of SARS-CoV-2 in Child Care Programs - Rhode Island, June 1-July 31, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410325"
 source_layer: us_cdc_mmwr

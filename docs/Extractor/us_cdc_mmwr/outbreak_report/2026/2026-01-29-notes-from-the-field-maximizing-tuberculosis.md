@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Notes from the Field: Maximizing Tuberculosis Testing After a School-Based Exposure - Lake County, Illinois, 2025"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=763293"
 source_layer: us_cdc_mmwr

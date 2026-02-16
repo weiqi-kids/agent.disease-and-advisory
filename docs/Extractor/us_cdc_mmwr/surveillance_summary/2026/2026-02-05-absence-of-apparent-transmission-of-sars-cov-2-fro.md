@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Absence of Apparent Transmission of SARS-CoV-2 from Two Stylists After Exposure at a Hair Salon with a Universal Face Covering Policy - Springfield, Missouri, May 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=408690"
 source_layer: us_cdc_mmwr

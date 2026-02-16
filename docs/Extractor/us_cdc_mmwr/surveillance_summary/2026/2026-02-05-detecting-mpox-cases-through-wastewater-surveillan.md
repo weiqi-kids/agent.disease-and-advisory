@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Detecting Mpox Cases Through Wastewater Surveillance - United States, August 2022-May 2023"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=741878"
 source_layer: us_cdc_mmwr

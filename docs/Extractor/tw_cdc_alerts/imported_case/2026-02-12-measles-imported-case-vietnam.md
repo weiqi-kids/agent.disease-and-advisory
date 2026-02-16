@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '今年首例麻疹境外移入 呼籲民眾前往流行地區前先就醫評估接種疫苗 在當地做好自我防護 出現疑似症狀速就醫 並主動告知醫師旅遊及暴露史'
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/2LLgkEqaiLkFLqK7ii30FQ?typeId=9"
 source_layer: tw_cdc_alerts

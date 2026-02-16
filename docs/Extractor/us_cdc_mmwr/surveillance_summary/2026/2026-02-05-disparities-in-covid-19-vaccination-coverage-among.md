@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Disparities in COVID-19 Vaccination Coverage Among Health Care Personnel Working in Long-Term Care Facilities, by Job Category, National Healthcare Safety Network - United States, March 2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=425155"
 source_layer: us_cdc_mmwr

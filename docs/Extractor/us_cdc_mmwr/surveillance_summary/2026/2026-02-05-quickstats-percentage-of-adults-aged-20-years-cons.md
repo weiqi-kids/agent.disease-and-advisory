@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Percentage of Adults Aged ≥20 Years Consuming Breakfast on a Given Day, By Sex and Age - United States, 2015-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415325"
 source_layer: us_cdc_mmwr

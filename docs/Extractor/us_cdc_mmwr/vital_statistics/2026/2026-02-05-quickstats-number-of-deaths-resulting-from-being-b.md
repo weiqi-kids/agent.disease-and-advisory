@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "QuickStats: Number of Deaths Resulting from Being Bitten or Struck by a Dog, by Sex - National Vital Statistics System, United States, 2011-2021"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=736776"
 source_layer: us_cdc_mmwr

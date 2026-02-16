@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Alcohol Use, Screening, and Brief Intervention Among Pregnant Persons - 24 U.S. Jurisdictions, 2017 and 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733482"
 source_layer: us_cdc_mmwr

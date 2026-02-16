@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '德國麻疹'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/zr_if7hmAx6OrLVRhHuIGQ"
 source_layer: tw_cdc_alerts

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: "Effectiveness of Bivalent mRNA Vaccines in Preventing Symptomatic SARS-CoV-2 Infection - Increasing Community Access to Testing Program, United States, September-November 2022"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732866"
 source_layer: us_cdc_mmwr

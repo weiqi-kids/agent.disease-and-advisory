@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: default
+layout: single
 title: '地方性斑疹傷寒'
 source_url: "https://www.cdc.gov.tw/Disease/SubIndex/k_5c9-5H66BQ49i1QNrLng"
 source_layer: tw_cdc_alerts
