@@ -1,26 +1,16 @@
-# EpiAlert 疫情快訊 - Jekyll 設定
 title: EpiAlert 疫情快訊
 description: 全球傳染病情報自動收集與分析
-
-# 使用 Minimal Mistakes 主題 - 支援明確導覽控制
-remote_theme: mmistakes/minimal-mistakes@4.26.2
-minimal_mistakes_skin: "default"
-
-# 必要插件
-plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
-
-# 中文支援
-locale: "zh-TW"
-
-# URL 設定
-baseurl: ""
-url: "https://epialert.weiqi.kids"
+remote_theme: just-the-docs/just-the-docs
 
 # 搜尋設定
-search: true
-search_full_content: false
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+
+# 導航設定
+nav_enabled: true
+nav_sort: case_insensitive
 
 # 排除原始資料
 exclude:
@@ -28,56 +18,16 @@ exclude:
   - "**/*.jsonl"
   - "**/*.xml"
   - "**/.DS_Store"
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
 
-# 作者資訊
-author:
-  name: "EpiAlert AI 編輯"
-  bio: "全球傳染病情報自動收集與分析系統"
-  location: "Taiwan"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/weiqi-kids/agent.disease-and-advisory"
+# 中文支援
+lang: zh-TW
+
+# URL 設定
+baseurl: ""
+url: "https://epialert.weiqi.kids"
 
 # 頁尾
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/weiqi-kids/agent.disease-and-advisory"
+footer_content: "EpiAlert 疫情快訊 &copy; 2024-2026. Powered by Claude Code."
 
-# 預設值 - 為所有內容頁面設定側邊欄
-defaults:
-  # 首頁
-  - scope:
-      path: "index.md"
-    values:
-      layout: single
-      sidebar:
-        nav: "sidebar"
-  # 週報
-  - scope:
-      path: "Narrator"
-    values:
-      layout: single
-      sidebar:
-        nav: "sidebar"
-      toc: true
-      toc_sticky: true
-  # 資料來源索引頁
-  - scope:
-      path: "Extractor"
-    values:
-      layout: single
-      sidebar:
-        nav: "sidebar"
-  # 萃取內容 - 不在導覽中顯示
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: single
+# 顏色主題
+color_scheme: light
