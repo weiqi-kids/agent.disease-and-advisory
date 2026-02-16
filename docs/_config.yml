@@ -31,3 +31,92 @@ footer_content: "EpiAlert 疫情快訊 &copy; 2024-2026. Powered by Claude Code.
 
 # 顏色主題
 color_scheme: light
+
+# 預設值 - 內容頁不出現在導覽（但會保留側邊欄）
+defaults:
+  # 週報內容頁
+  - scope:
+      path: "Narrator/weekly_digest/2026"
+    values:
+      nav_exclude: true
+  # 各 Layer 的內容資料夾
+  - scope:
+      path: "Extractor/ecdc_cdtr/guidance"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/ecdc_cdtr/outbreak_report"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/ecdc_cdtr/risk_assessment"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/ecdc_cdtr/situational_update"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/tw_cdc_alerts/alert"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/uk_ukhsa_updates/surveillance_report"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_han/alert"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_han/advisory"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_han/update"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_han/information"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_mmwr/case_series"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_mmwr/outbreak_report"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_mmwr/scientific_report"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_mmwr/surveillance_summary"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_mmwr/vital_statistics"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_travel_health_notices/level_1_watch"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_travel_health_notices/level_2_practice"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_travel_health_notices/level_3_avoid"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_travel_health_notices/archived"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/who_disease_outbreak_news/outbreak"
+    values:
+      nav_exclude: true
