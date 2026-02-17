@@ -21,7 +21,7 @@ seo:
           '@type': 'ImageObject'
           url: 'https://epialert.weiqi.kids/assets/images/logo.png'
         datePublished: '2026-02-15T12:00:00+08:00'
-        dateModified: '2026-02-16T05:00:00+08:00'
+        dateModified: '2026-02-17T10:30:00+08:00'
         speakable:
           '@type': 'SpeakableSpecification'
           cssSelector:
@@ -52,7 +52,7 @@ seo:
         publisher:
           '@id': 'https://epialert.weiqi.kids#organization'
         datePublished: '2026-02-15T12:00:00+08:00'
-        dateModified: '2026-02-16T05:00:00+08:00'
+        dateModified: '2026-02-17T10:30:00+08:00'
         articleSection: '週報'
         keywords: '麻疹, 百日咳, 禽流感, H5N1, 猴痘, Mpox, 流感, COVID-19, 傳染病監測, 疫情週報'
         wordCount: 6500
@@ -145,7 +145,7 @@ seo:
         about: '與上週疫情比較'
         description: '新增威脅、升級警示、持續關注、已解除項目的完整比較'
   ymyl:
-    lastReviewed: '2026-02-15'
+    lastReviewed: '2026-02-17'
     reviewedBy: 'EpiAlert AI 編輯'
     medicalDisclaimer: '本報告由自動化系統生成，僅供參考用途。報告內容基於公開資訊來源，不構成醫療建議、官方政策或專業診斷。使用者應自行驗證資訊並諮詢專業人士。'
 ---
@@ -768,6 +768,7 @@ UKHSA 本週更新侵襲性肺炎鏈球菌疾病（IPD）監測報告：
 ### 本週引用資料
 
 **ECDC (ecdc_cdtr)**
+- `situational_update/2026-02-16-phac-visits-ecdc-collaboration.md` **[本週新增]**
 - `surveillance/2026-02-13-communicable-disease-threats-report-7-13-february-2026-week-7.md` **[本週新增]**
 - `situational_update/2026-02-09-community-spread-drives-ongoing-measles-tran.md`
 - `surveillance/2026-02-06-communicable-disease-threats-report-week-6.md`
@@ -787,6 +788,9 @@ UKHSA 本週更新侵襲性肺炎鏈球菌疾病（IPD）監測報告：
 - `disease_info/2026-02-08-pertussis.md`
 
 **UK UKHSA (uk_ukhsa_updates)**
+- `guidance/2026-02-16-carbon-monoxide-antenatal-checks-algorithm.md` **[本週新增]**
+- `guidance/2026-02-16-easy-read-guide-mmr-vaccination.md` **[本週新增]**
+- `policy/2026-02-16-parents-vaccination-campaign.md` **[本週新增]**
 - `guidance/2026-02-13-tuberculosis-tb-factsheet.md` **[本週新增]**
 - `surveillance/2026-02-12-mpox-clade-ib-and-iib-outbreak-epidemiological-overview.md` **[本週新增]**
 - `surveillance/2026-02-12-rsv-maternal-vaccination-coverage-in-england.md` **[本週新增]**
@@ -822,5 +826,5 @@ UKHSA 本週更新侵襲性肺炎鏈球菌疾病（IPD）監測報告：
 
 ---
 *報告產出時間: 2026-02-15T12:00:00+08:00*
-*上次更新: 2026-02-16T05:00:00+08:00*
+*上次更新: 2026-02-17T10:30:00+08:00*
 *下次更新: 2026-02-23 (2026-W08 週報)*
