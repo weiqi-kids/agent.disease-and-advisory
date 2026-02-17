@@ -20,10 +20,10 @@ nav_order: 1
 
 | 日期 | 事件 | 來源 |
 |------|------|------|
+| 2/16 | ECDC-PHAC 國際合作會議 | ECDC |
+| 2/16 | 兒童疫苗接種宣傳活動啟動 | UK UKHSA |
 | 2/12 | 台灣首例麻疹境外移入（越南） | TW CDC |
 | 2/12 | 台灣首例百日咳確診 | TW CDC |
-| 2/12 | Mpox clade Ib/IIb 監測更新 | UK UKHSA |
-| 2/12 | RSV 疫苗覆蓋率報告（孕婦/老年） | UK UKHSA |
 
 [查看完整週報](Narrator/weekly_digest/2026-W07-weekly-digest){: .btn .btn-primary }
 [歷史週報](Narrator/weekly_digest/){: .btn }
