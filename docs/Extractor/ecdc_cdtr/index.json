@@ -140,6 +140,16 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "situational_update-2026-02-16-phac-visits-ecdc-collaboration-md",
+    "title": "Public Health Agency of Canada visits ECDC for enhanced collaboration and to strengthen global health security",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/2026-02-16-phac-visits-ecdc-collaboration.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "situational_update-2026-02-09-community-spread-drives-ongoing-measles-tran-md",
     "title": "",
     "category": "situational_update",

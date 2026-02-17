@@ -450,6 +450,16 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "policy-2026-02-16-parents-vaccination-campaign-md",
+    "title": "Parents urged to protect children through vaccination campaign",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-02-16-parents-vaccination-campaign.md",
+    "source": "**來源**: UK Health Security Agency (UKHSA)",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "policy-2026-02-09-ukhsa-safeguarding-annual-report-2024-2025-md",
     "title": "UKHSA safeguarding annual report 2024 to 2025",
     "category": "policy",
@@ -675,6 +685,26 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-16-easy-read-guide-mmr-vaccination-md",
+    "title": "Easy read guide to the MMR vaccination",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-16-easy-read-guide-mmr-vaccination.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-16-carbon-monoxide-antenatal-checks-algorithm-md",
+    "title": "Carbon monoxide (CO): antenatal checks algorithm for midwives",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-16-carbon-monoxide-antenatal-checks-algorithm.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"
