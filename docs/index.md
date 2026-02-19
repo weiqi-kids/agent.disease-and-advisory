@@ -139,7 +139,7 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 | 語意搜尋 | ✅ | ❌ | ❌ |
 | 開源透明 | ✅ | ❌ | ❌ |
 
-[了解更多](about){: .btn .btn-outline } [GitHub](https://github.com/weiqi-kids/agent.disease-and-advisory){: .btn .btn-outline }
+[了解更多](about){: .btn .btn-outline } [GitHub](https://github.com/weiqi-kids/agent.disease-and-advisory){: .btn .btn-outline } [RSS 訂閱](feed.xml){: .btn .btn-outline }
 
 ---
 

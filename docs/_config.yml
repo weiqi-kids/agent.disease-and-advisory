@@ -5,12 +5,21 @@ remote_theme: just-the-docs/just-the-docs
 # 插件
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
 
-# 搜尋設定
+# RSS Feed 設定
+feed:
+  path: feed.xml
+  posts_limit: 20
+  excerpt_only: true
+
+# 搜尋設定 - 使用按鈕模式延遲載入以優化 TBT
 search_enabled: true
 search:
   heading_level: 3
   previews: 3
+  button: true
+  # 延遲載入：點擊搜尋按鈕才載入 lunr.js 索引
 
 # 導航設定
 nav_enabled: true
