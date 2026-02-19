@@ -400,6 +400,16 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "guidance-2026-02-18-antimicrobial-resistance-foodborne-bacteria-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-18-antimicrobial-resistance-foodborne-bacteria.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "guidance-2026-02-05-winter-olympics-and-paralympics-2026-health-protection-md",
     "title": "Winter Olympics and Paralympics 2026: Health Protection Guidance",
     "category": "guidance",

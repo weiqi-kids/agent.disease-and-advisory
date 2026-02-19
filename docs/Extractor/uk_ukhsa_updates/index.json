@@ -10,6 +10,36 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "surveillance-2026-02-18-ukhsa-publishes-first-cold-mortality-report-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-18-ukhsa-publishes-first-cold-mortality-report.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-18-cold-weather-health-impact-report-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-18-cold-weather-health-impact-report.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-18-cold-mortality-monitoring-report-england-winter-2024-to-2025-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-18-cold-mortality-monitoring-report-england-winter-2024-to-2025.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "surveillance-2026-02-12-sexually-transmitted-infections-south-west-data-md",
     "title": "",
     "category": "surveillance",
@@ -685,6 +715,46 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-18-rabies-pre-exposure-request-form-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-18-rabies-pre-exposure-request-form.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-18-pre-release-access-lists-cold-mortality-monitoring-reports-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-18-pre-release-access-lists-cold-mortality-monitoring-reports.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-18-high-consequence-infectious-disease-country-specific-risk-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-18-high-consequence-infectious-disease-country-specific-risk.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-18-cold-mortality-monitoring-report-england-quality-and-methodology-information-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-18-cold-mortality-monitoring-report-england-quality-and-methodology-information.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"
