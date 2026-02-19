@@ -15,6 +15,8 @@
 | **「只跑 fetch」** | 只執行所有 Layer 的 fetch.sh，不萃取 |
 | **「只跑萃取」** | 假設 raw/ 已有資料，只做萃取 + update |
 | **「產出報告」** | 只執行 Narrator Mode 產出報告 |
+| **「執行網站改版」** | 執行網站改版流程（定位→盤點→競品→分析→策略→規格→驗收） |
+| **「網站健檢」** | 只執行技術健檢（效能、安全、SEO） |
 
 ---
 
@@ -481,6 +483,130 @@ GitHub Actions: Check and Fix Links
 
 ---
 
+## 網站改版流程
+
+當使用者說「執行網站改版」時，執行結構化的網站改版流程。
+
+### 流程總覽
+
+```
+0-Positioning → 1-Discovery → 2-Competitive → 3-Analysis → 4-Strategy → 5-Content-Spec → 執行 → Final-Review
+     ↓              ↓             ↓              ↓            ↓              ↓                       ↓
+  Review ✓      Review ✓      Review ✓      Review ✓     Review ✓       Review ✓                Review ✓
+```
+
+### 階段說明
+
+| 階段 | 目的 | 輸出 |
+|------|------|------|
+| **0-positioning** | 釐清品牌定位、核心價值 | 定位文件 |
+| **1-discovery** | 盤點現有內容 + 技術健檢 | 健檢報告 + KPI |
+| **2-competitive** | 分析競爭對手 | 競品分析報告 |
+| **3-analysis** | 受眾分析 + 內容差距 | 差距分析報告 |
+| **4-strategy** | 改版計劃 + 優先級排序 | 改版計劃書 |
+| **5-content-spec** | 每頁內容規格 | 內容規格書 |
+| **final-review** | 驗收執行結果 | 驗收報告 |
+
+### 執行架構
+
+```
+主執行緒 — 僅協調，不做實際工作
+│
+├─ Task(general-purpose, sonnet) — 0-Positioning Writer
+│   └─ Reviewer 檢查 → 迭代直到通過
+│
+├─ Task(general-purpose, sonnet) — 1-Discovery Writer
+│   ├─ 執行 lib/site-audit.sh 技術健檢
+│   └─ Reviewer 檢查 → 迭代直到通過
+│
+├─ Task(general-purpose, sonnet) — 2-Competitive Writer
+│   ├─ 執行 lib/competitive-audit.sh 競品比較
+│   └─ Reviewer 檢查 → 迭代直到通過
+│
+├─ Task(general-purpose, sonnet) — 3-Analysis Writer
+│   └─ Reviewer 檢查 → 迭代直到通過
+│
+├─ Task(general-purpose, sonnet) — 4-Strategy Writer
+│   └─ Reviewer 檢查 → 迭代直到通過
+│
+├─ Task(general-purpose, sonnet) — 5-Content-Spec Writer
+│   └─ Reviewer 檢查 → 迭代直到通過
+│
+├─ 執行改版（依 Strategy 計劃）
+│
+└─ Task(general-purpose, sonnet) — Final Review
+    └─ 整合驗收，確認執行結果符合規劃
+```
+
+### 詳細指令參照
+
+各階段的 Writer 和 Reviewer 詳細指令位於：
+
+| 階段 | Writer | Reviewer |
+|------|--------|----------|
+| 0-positioning | `revamp/0-positioning/CLAUDE.md` | `revamp/0-positioning/review/CLAUDE.md` |
+| 1-discovery | `revamp/1-discovery/CLAUDE.md` | `revamp/1-discovery/review/CLAUDE.md` |
+| 2-competitive | `revamp/2-competitive/CLAUDE.md` | `revamp/2-competitive/review/CLAUDE.md` |
+| 3-analysis | `revamp/3-analysis/CLAUDE.md` | `revamp/3-analysis/review/CLAUDE.md` |
+| 4-strategy | `revamp/4-strategy/CLAUDE.md` | `revamp/4-strategy/review/CLAUDE.md` |
+| 5-content-spec | `revamp/5-content-spec/CLAUDE.md` | `revamp/5-content-spec/review/CLAUDE.md` |
+| final-review | `revamp/final-review/CLAUDE.md` | — |
+
+### 自動化工具
+
+| 工具 | 用途 | 使用方式 |
+|------|------|----------|
+| `lib/site-audit.sh` | 網站技術健檢 | `lib/site-audit.sh https://example.com` |
+| `lib/competitive-audit.sh` | 競品比較分析 | `lib/competitive-audit.sh https://our-site.com https://competitor.com` |
+
+#### site-audit.sh 檢測項目
+
+| 類別 | 工具 | 檢測內容 |
+|------|------|----------|
+| 效能 | Lighthouse | Performance, SEO, Accessibility, Best Practices, Core Web Vitals |
+| 安全 | Mozilla Observatory | 安全評級, 測試通過數 |
+| 安全 | SSL Labs | SSL 評級 |
+| 安全 | HTTP Headers | HSTS, X-Frame-Options, CSP 等 |
+| SEO | W3C Validator | HTML 錯誤/警告數量 |
+| SEO | robots.txt / sitemap | 是否存在, URL 數量 |
+
+### 網站健檢（單獨執行）
+
+當使用者說「網站健檢」時，只執行技術健檢，不進行完整改版流程：
+
+```bash
+# 完整健檢
+lib/site-audit.sh https://epialert.example.com
+
+# 只檢測效能
+lib/site-audit.sh https://epialert.example.com --lighthouse
+
+# 只檢測安全性
+lib/site-audit.sh https://epialert.example.com --security
+
+# 只檢測 SEO
+lib/site-audit.sh https://epialert.example.com --seo
+```
+
+### 進度回報格式
+
+```
+## 網站改版進度
+
+| 階段 | 狀態 | 詳情 |
+|------|------|------|
+| 0-Positioning | ✅ 完成 | 定位文件通過審查 |
+| 1-Discovery | 🔄 進行中 | 技術健檢完成，等待審查 |
+| 2-Competitive | ⏳ 等待中 | - |
+| 3-Analysis | ⏳ 等待中 | - |
+| 4-Strategy | ⏳ 等待中 | - |
+| 5-Content-Spec | ⏳ 等待中 | - |
+| 執行 | ⏳ 等待中 | - |
+| Final-Review | ⏳ 等待中 | - |
+```
+
+---
+
 ## 現有 Layers
 
 | Layer | 資料來源 | 說明 |
@@ -558,7 +684,19 @@ sed -n '5,10p' file.jsonl    # 讀取第 5-10 行
 ├── lib/                         # 共用 shell 函式庫
 │   ├── rss.sh                   # RSS 擷取與解析
 │   ├── chatgpt.sh               # OpenAI embedding
-│   └── qdrant.sh                # Qdrant 向量資料庫
+│   ├── qdrant.sh                # Qdrant 向量資料庫
+│   ├── site-audit.sh            # 網站技術健檢
+│   └── competitive-audit.sh     # 競品比較分析
+│
+├── revamp/                      # 網站改版流程模組
+│   ├── CLAUDE.md                # 改版流程總覽
+│   ├── 0-positioning/           # 品牌定位
+│   ├── 1-discovery/             # 現況盤點
+│   ├── 2-competitive/           # 競品分析
+│   ├── 3-analysis/              # 差距分析
+│   ├── 4-strategy/              # 改版策略
+│   ├── 5-content-spec/          # 內容規格
+│   └── final-review/            # 整合驗收
 │
 └── docs/
     ├── Extractor/{layer}/
@@ -691,7 +829,7 @@ category: category_name
 
 ## 參考文件
 
-完整 SEO/AEO 規則請參照：
+完整規則請參照：
 
 | 文件 | 說明 |
 |------|------|
@@ -699,6 +837,7 @@ category: category_name
 | `seo/writer/CLAUDE.md` | Writer 執行流程 |
 | `seo/review/CLAUDE.md` | Reviewer 檢查清單 |
 | `prompt/任務完成品質關卡.md` | 品質關卡原始定義（完整版） |
+| `revamp/CLAUDE.md` | 網站改版流程總覽 |
 
 ---
 
