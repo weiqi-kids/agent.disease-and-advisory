@@ -59,7 +59,7 @@ seo:
 全球傳染病情報自動收集與分析
 {: .fs-6 .fw-300 }
 
-**最後更新：2026-02-18 07:26 (UTC+8)**
+**最後更新：2026-02-19 09:16 (UTC+8)**
 {: .label .label-green }
 
 <div class="ymyl-disclaimer">
