@@ -109,8 +109,17 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 ---
 
 ## 資料來源
+{: .speakable-content }
 
-整合全球 7 大權威公衛機構的官方資料：
+<p class="key-answer" data-question="EpiAlert 的資料來源有哪些">整合全球 7 大權威公衛機構的官方資料，確保資訊的權威性與可靠性。</p>
+
+<div class="source-badges" style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 1.5rem 0;">
+  <span style="background: #009edb; color: white; padding: 0.5rem 1rem; border-radius: 4px; font-weight: bold;">🌐 WHO</span>
+  <span style="background: #0033a0; color: white; padding: 0.5rem 1rem; border-radius: 4px; font-weight: bold;">🇺🇸 US CDC</span>
+  <span style="background: #003399; color: white; padding: 0.5rem 1rem; border-radius: 4px; font-weight: bold;">🇪🇺 ECDC</span>
+  <span style="background: #00205B; color: white; padding: 0.5rem 1rem; border-radius: 4px; font-weight: bold;">🇬🇧 UKHSA</span>
+  <span style="background: #006241; color: white; padding: 0.5rem 1rem; border-radius: 4px; font-weight: bold;">🇹🇼 台灣 CDC</span>
+</div>
 
 | 來源 | 說明 | 更新頻率 |
 |------|------|----------|
