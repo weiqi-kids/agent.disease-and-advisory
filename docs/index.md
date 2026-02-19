@@ -4,11 +4,24 @@ layout: home
 nav_order: 1
 seo:
   meta:
-    title: 'EpiAlert 疫情快訊 - 全球傳染病情報自動收集與分析'
-    description: '自動收集並分析 WHO、CDC、ECDC、UKHSA 等全球公衛機構的傳染病情報，提供麻疹、百日咳、RSV、禽流感等疫情即時監測與週報分析。'
+    title: 'EpiAlert 疫情快訊 — AI 驅動的全球疫情週報'
+    description: '運用 AI 自動彙整 WHO、CDC、ECDC、UKHSA、台灣 CDC 的疫情資訊，提供即時、結構化的傳染病週報與監測分析。免費開源。'
   json_ld:
     '@context': 'https://schema.org'
     '@graph':
+      - '@type': 'WebSite'
+        '@id': 'https://epialert.weiqi.kids#website'
+        url: 'https://epialert.weiqi.kids'
+        name: 'EpiAlert 疫情快訊'
+        description: 'AI 驅動的全球疫情週報'
+        potentialAction:
+          '@type': 'SearchAction'
+          target: 'https://epialert.weiqi.kids/search?q={search_term_string}'
+          query-input: 'required name=search_term_string'
+        publisher:
+          '@type': 'Organization'
+          name: 'EpiAlert'
+          url: 'https://epialert.weiqi.kids'
       - '@type': 'WebPage'
         '@id': 'https://epialert.weiqi.kids#webpage'
         url: 'https://epialert.weiqi.kids'
@@ -21,7 +34,7 @@ seo:
           '@type': 'ImageObject'
           url: 'https://epialert.weiqi.kids/assets/images/logo.png'
         datePublished: '2026-01-01T00:00:00Z'
-        dateModified: '2026-02-18T00:00:00Z'
+        dateModified: '2026-02-20T00:00:00Z'
         speakable:
           '@type': 'SpeakableSpecification'
           cssSelector:
@@ -43,75 +56,95 @@ seo:
           height: 60
         description: '全球傳染病情報自動收集與分析系統'
         sameAs:
-          - 'https://github.com/anthropics/claude-code'
+          - 'https://github.com/weiqi-kids/agent.disease-and-advisory'
         contactPoint:
           '@type': 'ContactPoint'
           contactType: 'technical support'
-          url: 'https://github.com/anthropics/claude-code/issues'
+          url: 'https://github.com/weiqi-kids/agent.disease-and-advisory/issues'
   ymyl:
-    lastReviewed: '2026-02-18'
+    lastReviewed: '2026-02-20'
     reviewedBy: 'EpiAlert AI 編輯'
-    medicalDisclaimer: '本系統由自動化程式生成，僅供參考用途。內容基於公開資訊來源，不構成醫療建議、官方政策或專業診斷。使用者應自行驗證資訊並諮詢專業人士。'
+    medicalDisclaimer: '本網站內容僅供參考，不構成醫療建議或診斷。如有健康疑慮，請諮詢專業醫療人員。'
 ---
 
 # EpiAlert 疫情快訊
 
-全球傳染病情報自動收集與分析
+AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 等 7 大官方來源
 {: .fs-6 .fw-300 }
 
-**最後更新：2026-02-19 09:16 (UTC+8)**
+**最後更新：2026-02-20 09:00 (UTC+8)**
 {: .label .label-green }
 
-<div class="ymyl-disclaimer">
-本站內容由 AI 自動彙整自 WHO、CDC 等官方來源，僅供參考，不構成醫療建議。如有健康疑慮，請諮詢專業醫療人員。
-</div>
-
-> **免責聲明**：本系統由自動化程式生成，僅供參考用途。內容基於公開資訊來源，不構成醫療建議、官方政策或專業診斷。使用者應自行驗證資訊並諮詢專業人士。
+[查看 2026-W08 週報](Narrator/weekly_digest/2026-W08-weekly-digest){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[歷史週報](Narrator/weekly_digest/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
 ## 本週重點
 {: .speakable-content }
 
-| 日期 | 事件 | 來源 |
-|------|------|------|
-| 2/16 | ECDC-PHAC 國際合作會議 | ECDC |
-| 2/16 | 兒童疫苗接種宣傳活動啟動 | UK UKHSA |
-| 2/12 | 台灣首例麻疹境外移入（越南） | TW CDC |
-| 2/12 | 台灣首例百日咳確診 | TW CDC |
+| 風險 | 疾病/事件 | 地區 | 摘要 | 來源 |
+|:----:|-----------|------|------|------|
+| 🟡 | 寒冷死亡率報告 | 英國 | 2024-25 冬季 2,544 例死亡與寒流相關，65 歲以上高風險 | [UKHSA](Extractor/uk_ukhsa_updates/) |
+| 🟡 | 抗生素抗藥性 | 歐洲 | 沙門氏菌、彎曲桿菌環丙沙星抗藥性高企，碳青黴烯酶檢出上升 | [ECDC](Extractor/ecdc_cdtr/) |
+| 🟢 | RSV 疫苗 PGD | 英國 | 發布呼吸道融合病毒疫苗患者群組指示範本 | [UKHSA](Extractor/uk_ukhsa_updates/) |
+| 🟡 | 尼帕病毒疫情 | 印度 | HCID 風險清單更新，西孟加拉邦 1/13 確認爆發 | [UKHSA](Extractor/uk_ukhsa_updates/) |
+| 🟢 | 麻疹境外移入 | 台灣 | 今年首例，越南感染，400 名接觸者監測至 2/28 | [TW CDC](Extractor/tw_cdc_alerts/) |
+| 🟢 | 百日咳確診 | 台灣 | 今年首例，家庭接觸者監測至 3/4 | [TW CDC](Extractor/tw_cdc_alerts/) |
+| 🟢 | 猴痘 Mpox | 全球 | clade Ib/IIb 持續監測，英國維持警戒 | [UKHSA](Extractor/uk_ukhsa_updates/) |
 
-[查看完整週報](Narrator/weekly_digest/2026-W07-weekly-digest){: .btn .btn-primary }
-[歷史週報](Narrator/weekly_digest/){: .btn }
+**風險等級說明**：🔴 高風險（PHEIC/大規模爆發）｜🟡 中風險（區域爆發/新興威脅）｜🟢 低風險（散發案例/常規監測）
+{: .fs-3 .text-grey-dk-000 }
+
+[查看完整週報分析 →](Narrator/weekly_digest/2026-W08-weekly-digest){: .btn .btn-primary }
 
 ---
 
-## 關於
-{: .speakable-content }
+## 本週統計
 
-<p class="key-answer" data-question="EpiAlert 是什麼">EpiAlert 是全球傳染病情報自動收集與分析系統，自動收集並分析來自 WHO、CDC、ECDC、UKHSA 等全球主要公衛機構的傳染病情報。</p>
-
-本系統自動收集並分析來自全球主要公衛機構的傳染病情報，包括：
-
-- **WHO** — 世界衛生組織
-- **US CDC** — 美國疾病管制與預防中心
-- **ECDC** — 歐洲疾病預防管制中心
-- **UK UKHSA** — 英國健康安全局
-- **Taiwan CDC** — 台灣衛生福利部疾病管制署
-
-[GitHub](https://github.com/weiqi-kids/agent.disease-and-advisory){: .btn .btn-outline }
+| 📊 整合公告 | 🦠 追蹤疾病 | 🌍 涵蓋國家 | 📚 歷史資料 |
+|:-----------:|:-----------:|:-----------:|:-----------:|
+| **42** 個 | **12** 種 | **28** 個 | **2,450+** 篇 |
 
 ---
 
 ## 資料來源
 
-| Layer | 說明 |
-|-------|------|
-| [WHO Disease Outbreak News](Extractor/who_disease_outbreak_news/) | 世界衛生組織疾病爆發新聞 |
-| [US CDC HAN](Extractor/us_cdc_han/) | 美國 CDC 健康警報網絡 |
-| [US CDC MMWR](Extractor/us_cdc_mmwr/) | 美國 CDC 發病率與死亡率週報 |
-| [US Travel Health Notices](Extractor/us_travel_health_notices/) | 美國 CDC 旅遊健康通知 |
-| [ECDC CDTR](Extractor/ecdc_cdtr/) | 歐洲疾病預防控制中心週報 |
-| [UK UKHSA](Extractor/uk_ukhsa_updates/) | 英國健康安全局更新 |
-| [Taiwan CDC](Extractor/tw_cdc_alerts/) | 台灣疾管署警報 |
+整合全球 7 大權威公衛機構的官方資料：
+
+| 來源 | 說明 | 更新頻率 |
+|------|------|----------|
+| [WHO Disease Outbreak News](Extractor/who_disease_outbreak_news/) | 世界衛生組織疾病爆發新聞 | 不定期 |
+| [US CDC HAN](Extractor/us_cdc_han/) | 美國 CDC 健康警報網絡 | 不定期 |
+| [US CDC MMWR](Extractor/us_cdc_mmwr/) | 美國 CDC 發病率與死亡率週報 | 每週 |
+| [US Travel Health Notices](Extractor/us_travel_health_notices/) | 美國 CDC 旅遊健康通知 | 不定期 |
+| [ECDC CDTR](Extractor/ecdc_cdtr/) | 歐洲疾病預防控制中心週報 | 每週 |
+| [UK UKHSA](Extractor/uk_ukhsa_updates/) | 英國健康安全局更新 | 不定期 |
+| [Taiwan CDC](Extractor/tw_cdc_alerts/) | 台灣疾管署警報 | 不定期 |
 
 [查看所有資料來源](Extractor/){: .btn }
+
+---
+
+## 關於 EpiAlert
+{: .speakable-content }
+
+<p class="key-answer" data-question="EpiAlert 是什麼">EpiAlert 是 AI 驅動的全球疫情週報系統，運用 AI 技術自動彙整 WHO、CDC、ECDC、UKHSA、台灣 CDC 等 7 大官方來源的疫情資訊，每週產出結構化分析報告。</p>
+
+| 項目 | EpiAlert | ProMED | HealthMap |
+|------|----------|--------|-----------|
+| 定位 | AI 驅動週報 | 專家策展快報 | 即時地圖 |
+| 更新頻率 | 每週 | 每日多次 | 即時 |
+| 資料來源 | 7 大官方來源 | 多元含非官方 | 多元含新聞 |
+| 語意搜尋 | ✅ | ❌ | ❌ |
+| 開源透明 | ✅ | ❌ | ❌ |
+
+[了解更多](about){: .btn .btn-outline } [GitHub](https://github.com/weiqi-kids/agent.disease-and-advisory){: .btn .btn-outline }
+
+---
+
+<div class="ymyl-disclaimer">
+
+**免責聲明**：本網站內容僅供參考，不構成醫療建議或診斷。如有健康疑慮，請諮詢專業醫療人員。所有資料來源為 WHO、CDC 等官方機構，EpiAlert 不對資料的即時性或完整性做出保證。
+
+</div>

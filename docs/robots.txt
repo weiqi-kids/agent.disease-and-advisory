@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# 排除原始資料目錄
+Disallow: /Extractor/*/raw/
+Disallow: /*.jsonl$
+
+# Sitemap
+Sitemap: https://epialert.weiqi.kids/sitemap.xml
