@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="pandoc">
+  <title>傳染病威脅週報 2026-W08 (更新版)</title>
+  <style>
+    /* === Reset & Base === */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 16px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans TC", sans-serif;
+      color: #1a1a1a;
+      background-color: #f8f9fa;
+    }
+
+    /* === Layout === */
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+      background-color: #ffffff;
+      min-height: 100vh;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        padding: 3rem 4rem;
+        margin: 1rem auto;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    /* === Typography === */
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      line-height: 1.3;
+      color: #1e3a5f;
+    }
+
+    h1 {
+      font-size: 1.875rem;
+      margin-top: 0;
+      padding-bottom: 0.75rem;
+      border-bottom: 3px solid #1e3a5f;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      color: #2c5282;
+    }
+
+    h4 {
+      font-size: 1.125rem;
+      color: #3d5a80;
+    }
+
+    p {
+      margin: 0 0 1rem 0;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    strong {
+      font-weight: 600;
+      color: #1e3a5f;
+    }
+
+    /* === Lists === */
+    ul, ol {
+      margin: 0 0 1rem 0;
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    li > ul, li > ol {
+      margin-top: 0.5rem;
+      margin-bottom: 0;
+    }
+
+    /* === Blockquote (Disclaimer) === */
+    blockquote {
+      margin: 1.5rem 0;
+      padding: 1rem 1.25rem;
+      background-color: #fff3cd;
+      border-left: 4px solid #ffc107;
+      border-radius: 0 4px 4px 0;
+    }
+
+    blockquote p {
+      margin: 0;
+    }
+
+    blockquote strong {
+      color: #856404;
+    }
+
+    /* === Tables === */
+    table {
+      width: 100%;
+      margin: 1.5rem 0;
+      border-collapse: collapse;
+      font-size: 0.9375rem;
+    }
+
+    thead {
+      background-color: #1e3a5f;
+      color: #ffffff;
+    }
+
+    th {
+      padding: 0.75rem 1rem;
+      text-align: left;
+      font-weight: 600;
+    }
+
+    td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    tbody tr:hover {
+      background-color: #f8f9fa;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f8f9fa;
+    }
+
+    tbody tr:nth-child(even):hover {
+      background-color: #e9ecef;
+    }
+
+    /* === Code === */
+    code {
+      font-family: "SF Mono", Monaco, "Cascadia Code", "Consolas", monospace;
+      font-size: 0.875em;
+      padding: 0.2em 0.4em;
+      background-color: #f1f3f5;
+      border-radius: 3px;
+    }
+
+    pre {
+      margin: 1.5rem 0;
+      padding: 1rem;
+      background-color: #1e3a5f;
+      color: #e9ecef;
+      border-radius: 4px;
+      overflow-x: auto;
+    }
+
+    pre code {
+      padding: 0;
+      background-color: transparent;
+      color: inherit;
+    }
+
+    /* === Horizontal Rule === */
+    hr {
+      margin: 2rem 0;
+      border: none;
+      border-top: 1px solid #dee2e6;
+    }
+
+    /* === Checklist === */
+    ul li input[type="checkbox"] {
+      margin-right: 0.5rem;
+    }
+
+    /* === Footer / Meta === */
+    .meta {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #dee2e6;
+      font-size: 0.875rem;
+      color: #6c757d;
+      font-style: italic;
+    }
+
+    /* === Print Styles === */
+    @media print {
+      body {
+        background-color: #ffffff;
+      }
+
+      .container {
+        max-width: none;
+        margin: 0;
+        padding: 1cm;
+        box-shadow: none;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+      }
+
+      table, figure, pre {
+        page-break-inside: avoid;
+      }
+
+      a {
+        color: #1a1a1a;
+        text-decoration: none;
+      }
+
+      a[href^="http"]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        color: #6c757d;
+      }
+
+      blockquote {
+        border-left-color: #1a1a1a;
+        background-color: #f8f9fa;
+      }
+
+      thead {
+        background-color: #1a1a1a !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+
+    /* === Responsive Tables === */
+    @media (max-width: 600px) {
+      table {
+        font-size: 0.875rem;
+      }
+
+      th, td {
+        padding: 0.5rem 0.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+<h1 id="傳染病威脅週報-2026-w08-更新版">傳染病威脅週報 2026-W08
+(更新版)</h1>
+<div class="ymyl-disclaimer">
+本站內容由 AI 自動彙整自 WHO、CDC 等官方來源，僅供參考，不構成醫療建議。如有健康疑慮，請諮詢專業醫療人員。
+</div>
+
+<blockquote>
+<p><strong>免責聲明</strong></p>
+<p>本報告由自動化系統生成，僅供參考用途。報告內容基於公開資訊來源，
+不構成醫療建議、官方政策或專業診斷。使用者應自行驗證資訊並諮詢
+專業人士。</p>
+</blockquote>
+<hr />
+<h2 id="本次更新摘要-2026-02-20">本次更新摘要 (2026-02-20)</h2>
+<p>{: .speakable-content}</p>
+<div class="key-takeaway" markdown="1">
+
+<p>本次更新新增 5 筆萃取結果：</p>
+<table>
+<thead>
+<tr>
+<th>來源</th>
+<th>類型</th>
+<th>項目</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ECDC</td>
+<td>風險評估</td>
+<td>嬰兒配方奶粉 cereulide 污染風險降低</td>
+</tr>
+<tr>
+<td>UKHSA</td>
+<td>研究</td>
+<td>麻疹流行病學 2023-2026</td>
+</tr>
+<tr>
+<td>UKHSA</td>
+<td>研究</td>
+<td>PWID 注射藥物使用者感染監測</td>
+</tr>
+<tr>
+<td>UKHSA</td>
+<td>監測</td>
+<td>GUMCAD 性傳染病監測系統</td>
+</tr>
+<tr>
+<td>UKHSA</td>
+<td>研究</td>
+<td>活動醫療照護快速範疇文獻回顧</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<hr />
+<h2 id="本週重點">本週重點</h2>
+<p>{: .speakable-content}</p>
+<div class="key-takeaway" markdown="1">
+
+<ul>
+<li><p><strong>嬰兒配方奶粉 cereulide 污染風險降低</strong>：ECDC 與
+EFSA
+聯合發布快速疫情評估，指出由於歐洲各國持續執行產品回收措施，暴露於受
+cereulide（蠟狀芽孢桿菌毒素）污染的嬰兒配方奶粉的風險已顯著降低。(ecdc_cdtr)
+<strong>[2/20 新增]</strong></p></li>
+<li><p><strong>英國麻疹流行病學報告發布</strong>：UKHSA 發布 2023-2026
+年英格蘭麻疹流行病學研究報告，提供實驗室確診病例的官方統計數據，為疫苗接種計畫成效評估提供重要參考。(uk_ukhsa_updates)
+<strong>[2/20 新增]</strong></p></li>
+<li><p><strong>PWID 感染監測報告更新</strong>：UKHSA 發布「Shooting
+Up」研究報告，全面描述英國注射藥物使用者（PWID）族群中 HIV、B 型肝炎、C
+型肝炎等血源性感染的流行情況。(uk_ukhsa_updates) <strong>[2/20
+新增]</strong></p></li>
+<li><p><strong>STI 監測系統資訊更新</strong>：UKHSA 更新 GUMCAD
+性傳染病監測系統指引，說明英格蘭地區性傳染病數據收集與報告機制。(uk_ukhsa_updates)
+<strong>[2/20 新增]</strong></p></li>
+<li><p><strong>活動醫療照護指引彙整</strong>：UKHSA
+發布快速範疇文獻回顧，識別並總結英國現有關於大型活動醫療準備的指引文件。(uk_ukhsa_updates)
+<strong>[2/20 新增]</strong></p></li>
+</ul>
+</div>
+
+<hr />
+<h2 id="與上次更新比較">與上次更新比較</h2>
+<h3 id="新增威脅">新增威脅</h3>
+<ul>
+<li><strong>嬰兒配方奶粉 cereulide
+污染風險評估更新（歐洲）</strong>：ECDC 與 EFSA 於 2/19
+發布聯合快速疫情評估。相較於 1 月 28
+日首次發布的全球預防性回收警告，此次評估指出由於回收措施持續執行，當前暴露於受污染配方奶粉的可能性已降低。這是該事件的正向進展。</li>
+</ul>
+<h3 id="持續關注">持續關注</h3>
+<ul>
+<li><p><strong>麻疹（Measles）</strong>：UKHSA 發布 2023-2026
+年麻疹流行病學數據，顯示英格蘭持續監測實驗室確診病例。結合先前台灣首例境外移入病例及全球疫情，麻疹仍是需要持續關注的疫苗可預防疾病。</p></li>
+<li><p><strong>注射藥物使用者感染（PWID Infections）</strong>：UKHSA
+更新「Shooting Up」報告，持續追蹤 PWID 族群的 HIV
+及肝炎感染情況，為減害策略提供監測數據。</p></li>
+<li><p><strong>性傳染病監測（STI Surveillance）</strong>：GUMCAD
+系統持續運作，確保英格蘭地區 STI 流行趨勢的即時監測。</p></li>
+</ul>
+<hr />
+<h2 id="全球疫情概覽">全球疫情概覽</h2>
+<h3 id="風險評估更新">風險評估更新</h3>
+<h4 id="嬰兒配方奶粉-cereulide-污染--歐洲">嬰兒配方奶粉 cereulide 污染 —
+歐洲</h4>
+<p>{: #cereulide-update}</p>
+<p class="key-answer" data-question="嬰兒配方奶粉 cereulide 污染事件最新進展">ECDC/EFSA 評估指出，由於回收措施持續執行，暴露於受 cereulide 污染的嬰兒配方奶粉的風險已顯著降低。</p>
+
+<p>ECDC 與 EFSA 於 2 月 19 日發布快速疫情評估（ROA）：</p>
+<p><strong>事件背景</strong>：</p>
+<ul>
+<li>歐洲多國持續回收因檢測出
+cereulide（蠟狀芽孢桿菌毒素）的嬰兒配方奶粉產品</li>
+<li>首次預防性回收警告發布於 2026 年 1 月 28 日</li>
+</ul>
+<p><strong>風險評估結論</strong>：</p>
+<ul>
+<li>由於回收措施持續有效執行，當前民眾暴露於受污染配方奶粉的風險已降低</li>
+<li>此評估對於保護嬰幼兒健康、指導公共衛生決策具有重要意義</li>
+</ul>
+<p><strong>相關疾病</strong>：</p>
+<ul>
+<li>Cereulide 毒素污染</li>
+<li>蠟狀芽孢桿菌（Bacillus cereus）感染</li>
+<li>食源性疾病</li>
+</ul>
+<p>來源：ecdc_cdtr/risk_assessment/2026-02-19-lower-risk-exposure-cereulide-infant-formula.md
+<strong>[2/20 新增]</strong></p>
+<h5 id="歷史參考-語意搜尋">歷史參考 [語意搜尋]</h5>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>標題</th>
+<th>來源</th>
+<th>相關分數</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2026-01-28</td>
+<td>Precautionary global recall of infant nutrition products following
+detection of Bacillus cereus toxin</td>
+<td>ECDC</td>
+<td>0.71</td>
+</tr>
+<tr>
+<td>2023-03-02</td>
+<td>Cronobacter sakazakii Infections in Two Infants Linked to Powdered
+Infant Formula</td>
+<td>US CDC MMWR</td>
+<td>0.54</td>
+</tr>
+</tbody>
+</table>
+<h3 id="監測數據更新">監測數據更新</h3>
+<h4 id="麻疹流行病學-2023-2026--英國">麻疹流行病學 2023-2026 — 英國</h4>
+<p>{: #measles-epi}</p>
+<p class="key-answer" data-question="英國麻疹疫情監測現況">UKHSA 發布 2023-2026 年英格蘭麻疹流行病學報告，提供實驗室確診病例的官方統計數據。</p>
+
+<p>UKHSA 於 2 月 19 日發布麻疹流行病學研究報告：</p>
+<p><strong>報告涵蓋範圍</strong>：</p>
+<ul>
+<li>時間範圍：2023 年至 2026 年</li>
+<li>地區：英格蘭</li>
+<li>數據類型：實驗室確診病例</li>
+</ul>
+<p><strong>公衛意義</strong>：</p>
+<ul>
+<li>作為疫苗可預防疾病的重要監測指標</li>
+<li>評估疫苗接種計劃成效</li>
+<li>疫情預警的關鍵流行病學數據</li>
+</ul>
+<p>來源：uk_ukhsa_updates/research/2026-02-19-measles-epidemiology-2023-to-2026.md
+<strong>[2/20 新增]</strong></p>
+<h5 id="歷史參考-語意搜尋-1">歷史參考 [語意搜尋]</h5>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>標題</th>
+<th>來源</th>
+<th>相關分數</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-04-11</td>
+<td>Measles - United States, January 2020-March 2024</td>
+<td>US CDC MMWR</td>
+<td>0.69</td>
+</tr>
+<tr>
+<td>2025-04-24</td>
+<td>Measles Update - United States, January 1-April 17, 2025</td>
+<td>US CDC MMWR</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>2026-01-29</td>
+<td>Measles Outbreak Associated with an Infectious Traveler -
+Colorado</td>
+<td>US CDC MMWR</td>
+<td>0.63</td>
+</tr>
+</tbody>
+</table>
+<h4 id="注射藥物使用者感染監測--英國">注射藥物使用者感染監測 — 英國</h4>
+<p>{: #pwid-infections}</p>
+<p class="key-answer" data-question="注射藥物使用者面臨哪些感染風險">注射藥物使用者（PWID）面臨的主要感染風險包括 HIV、B 型肝炎、C 型肝炎等血源性感染，主要透過注射器具共用傳播。</p>
+
+<p>UKHSA 於 2 月 19 日發布「Shooting Up」研究報告：</p>
+<p><strong>報告內容</strong>：</p>
+<ul>
+<li>全面描述英國 PWID 族群中的感染情況</li>
+<li>涵蓋注射相關健康危害的嚴重程度評估</li>
+</ul>
+<p><strong>監測的主要感染</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>感染類型</th>
+<th>傳播途徑</th>
+<th>風險說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HIV</td>
+<td>注射器具共用</td>
+<td>重要傳播途徑之一</td>
+</tr>
+<tr>
+<td>B 型肝炎</td>
+<td>血液傳播</td>
+<td>PWID 族群盛行率較高</td>
+</tr>
+<tr>
+<td>C 型肝炎</td>
+<td>血液傳播</td>
+<td>注射藥物使用者感染風險顯著升高</td>
+</tr>
+</tbody>
+</table>
+<p><strong>公衛意義</strong>：</p>
+<ul>
+<li>為減害策略提供實證基礎</li>
+<li>指導針對性的感染預防計劃</li>
+<li>評估公共衛生干預措施成效</li>
+</ul>
+<p>來源：uk_ukhsa_updates/research/2026-02-19-shooting-up-infections-among-people-who-inject-drugs.md
+<strong>[2/20 新增]</strong></p>
+<h5 id="歷史參考-語意搜尋-2">歷史參考 [語意搜尋]</h5>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>標題</th>
+<th>來源</th>
+<th>相關分數</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2019-08-01</td>
+<td>Injection Practices and Sexual Behaviors Among Persons with
+Diagnosed HIV Infection Who Inject Drugs</td>
+<td>US CDC MMWR</td>
+<td>0.59</td>
+</tr>
+<tr>
+<td>2021-10-21</td>
+<td>HIV Infection and HIV-Associated Behaviors Among PWID - 23
+Metropolitan Areas, US, 2018</td>
+<td>US CDC MMWR</td>
+<td>0.58</td>
+</tr>
+<tr>
+<td>2019-07-25</td>
+<td>Progress in Testing for and Treatment of Hepatitis C Among PWID -
+Georgia, 2018</td>
+<td>US CDC MMWR</td>
+<td>0.54</td>
+</tr>
+</tbody>
+</table>
+<h4 id="gumcad-性傳染病監測系統--英國">GUMCAD 性傳染病監測系統 —
+英國</h4>
+<p>{: #gumcad-sti}</p>
+<p class="key-answer" data-question="GUMCAD 系統的功能是什麼">GUMCAD（Genitourinary Medicine Clinic Activity Dataset）是英格蘭性傳染病監測系統，負責系統性地收集與報告 STI 的流行病學數據。</p>
+
+<p>UKHSA 於 2 月 19 日更新 GUMCAD 系統指引：</p>
+<p><strong>系統功能</strong>：</p>
+<ul>
+<li>系統性收集英格蘭 STI 流行病學數據</li>
+<li>持續監測 STI 流行趨勢</li>
+<li>及時發現疫情變化</li>
+<li>為性健康政策提供實證基礎</li>
+</ul>
+<p><strong>監測的疾病類型</strong>：</p>
+<ul>
+<li>淋病（Gonorrhoea）</li>
+<li>梅毒（Syphilis）</li>
+<li>衣原體感染（Chlamydia）</li>
+<li>生殖器疱疹（Genital herpes）</li>
+<li>其他性傳染病</li>
+</ul>
+<p>來源：uk_ukhsa_updates/surveillance/2026-02-19-gumcad-sti-surveillance-system.md
+<strong>[2/20 新增]</strong></p>
+<h5 id="歷史參考-語意搜尋-3">歷史參考 [語意搜尋]</h5>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>標題</th>
+<th>來源</th>
+<th>相關分數</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-11-04</td>
+<td>Demographic, Behavioral, and Clinical Characteristics of Persons
+Seeking Care at STD Clinics - 14 Sites, US, 2010-2018</td>
+<td>US CDC MMWR</td>
+<td>0.64</td>
+</tr>
+<tr>
+<td>2026-02-12</td>
+<td>Sexually transmitted infections: South West data</td>
+<td>UKHSA</td>
+<td>0.63</td>
+</tr>
+</tbody>
+</table>
+<h3 id="公衛指引更新">公衛指引更新</h3>
+<h4 id="活動醫療照護快速範疇文獻回顧--英國">活動醫療照護快速範疇文獻回顧
+— 英國</h4>
+<p>{: #events-healthcare}</p>
+<p class="key-answer" data-question="大型活動需要哪些醫療準備">大型活動的醫療準備應涵蓋緊急醫療應變能力、傳染病預防措施、現場醫療服務配置等面向，需依據活動規模與性質進行規劃。</p>
+
+<p>UKHSA 於 2 月 19 日發布快速範疇文獻回顧：</p>
+<p><strong>研究目的</strong>：</p>
+<ul>
+<li>識別英國現有活動醫療照護指引</li>
+<li>總結最佳實踐</li>
+</ul>
+<p><strong>適用場景</strong>：</p>
+<ul>
+<li>體育賽事</li>
+<li>音樂節</li>
+<li>大型集會</li>
+<li>其他公共活動</li>
+</ul>
+<p><strong>公衛意義</strong>：</p>
+<ul>
+<li>確保大型活動期間的公共衛生安全</li>
+<li>強化緊急醫療應變能力</li>
+<li>指導傳染病預防措施規劃</li>
+<li>特別重要於疫情後時代大型活動恢復的背景下</li>
+</ul>
+<p>來源：uk_ukhsa_updates/research/2026-02-19-healthcare-provision-at-events-rapid-scoping-review.md
+<strong>[2/20 新增]</strong></p>
+<hr />
+<h2 id="區域動態">區域動態</h2>
+<h3 id="歐洲-ecdc">歐洲 (ECDC)</h3>
+<p><strong>第 8 週更新（2026/2/19-2/20）</strong></p>
+<table>
+<thead>
+<tr>
+<th>威脅項目</th>
+<th>狀態</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>嬰兒配方奶粉 cereulide 污染</td>
+<td>風險降低 <strong>[2/20 更新]</strong></td>
+</tr>
+<tr>
+<td>食源性細菌抗藥性</td>
+<td>ECDC/EFSA 聯合警告（2/18）</td>
+</tr>
+<tr>
+<td>麻疹流行病學</td>
+<td>UKHSA 發布 2023-2026 報告 <strong>[2/20 新增]</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="英國-ukhsa">英國 (UKHSA)</h3>
+<p><strong>本次更新（2/19-2/20）</strong></p>
+<table>
+<thead>
+<tr>
+<th>類型</th>
+<th>事件</th>
+<th>日期</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>研究</strong></td>
+<td>麻疹流行病學 2023-2026</td>
+<td>2/19</td>
+</tr>
+<tr>
+<td><strong>研究</strong></td>
+<td>PWID 感染監測（Shooting Up）</td>
+<td>2/19</td>
+</tr>
+<tr>
+<td><strong>監測</strong></td>
+<td>GUMCAD STI 監測系統</td>
+<td>2/19</td>
+</tr>
+<tr>
+<td><strong>研究</strong></td>
+<td>活動醫療照護文獻回顧</td>
+<td>2/19</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="公共衛生指引">公共衛生指引</h2>
+<h3 id="嬰兒配方奶粉安全">嬰兒配方奶粉安全</h3>
+<p class="key-answer" data-question="如何確保嬰兒配方奶粉安全">家長應留意產品回收公告，檢查家中配方奶粉批號是否在回收範圍內；若有疑慮，應停止使用並諮詢醫療專業人員。</p>
+
+<ol class="actionable-steps">
+<li>留意官方產品回收公告</li>
+<li>檢查家中配方奶粉批號是否在回收範圍內</li>
+<li>如有疑慮，停止使用並諮詢醫療專業人員</li>
+<li>按照製造商或公衛機關指示處理回收產品</li>
+</ol>
+
+<h3 id="麻疹預防">麻疹預防</h3>
+<ol class="actionable-steps">
+<li>確認 MMR 疫苗接種狀態，特別是 1 歲以上兒童</li>
+<li>前往麻疹流行地區前，確認疫苗接種紀錄</li>
+<li>出現發燒、紅疹症狀時，及時就醫並告知旅遊史</li>
+</ol>
+
+<h3 id="注射藥物使用者感染預防">注射藥物使用者感染預防</h3>
+<ol class="actionable-steps">
+<li>使用乾淨的注射器具，避免共用</li>
+<li>接受 HIV 及肝炎檢測</li>
+<li>考慮 B 型肝炎疫苗接種</li>
+<li>尋求減害服務及支持</li>
+</ol>
+
+<h3 id="性傳染病預防">性傳染病預防</h3>
+<ol class="actionable-steps">
+<li>正確使用保險套</li>
+<li>定期接受 STI 篩檢</li>
+<li>有症狀時及早就醫</li>
+<li>通知性伴侶接受檢測</li>
+</ol>
+
+<hr />
+<h2 id="資料來源">資料來源</h2>
+<p>本報告基於以下來源：</p>
+<ul>
+<li>ECDC 傳染病威脅報告 (ecdc_cdtr)</li>
+<li>UK Health Security Agency (uk_ukhsa_updates)</li>
+</ul>
+<h3 id="本次更新引用資料">本次更新引用資料</h3>
+<p><strong>ECDC (ecdc_cdtr)</strong></p>
+<ul>
+<li><code>risk_assessment/2026-02-19-lower-risk-exposure-cereulide-infant-formula.md</code>
+<strong>[2/20 新增]</strong></li>
+</ul>
+<p><strong>UK UKHSA (uk_ukhsa_updates)</strong></p>
+<ul>
+<li><code>research/2026-02-19-measles-epidemiology-2023-to-2026.md</code>
+<strong>[2/20 新增]</strong></li>
+<li><code>research/2026-02-19-shooting-up-infections-among-people-who-inject-drugs.md</code>
+<strong>[2/20 新增]</strong></li>
+<li><code>surveillance/2026-02-19-gumcad-sti-surveillance-system.md</code>
+<strong>[2/20 新增]</strong></li>
+<li><code>research/2026-02-19-healthcare-provision-at-events-rapid-scoping-review.md</code>
+<strong>[2/20 新增]</strong></li>
+</ul>
+<h3 id="語意搜尋查詢紀錄">語意搜尋查詢紀錄</h3>
+<p>本報告使用 Qdrant 語意搜尋提供歷史脈絡，執行以下查詢：</p>
+<table>
+<thead>
+<tr>
+<th>查詢</th>
+<th>找到筆數</th>
+<th>最高相關分數</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>measles outbreak UK England 2023 2024 2025</td>
+<td>5</td>
+<td>0.70</td>
+</tr>
+<tr>
+<td>cereulide Bacillus cereus food contamination infant formula</td>
+<td>5</td>
+<td>0.71</td>
+</tr>
+<tr>
+<td>PWID injection drug users HIV hepatitis infection</td>
+<td>5</td>
+<td>0.59</td>
+</tr>
+<tr>
+<td>STI sexually transmitted infections surveillance monitoring</td>
+<td>5</td>
+<td>0.64</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="分享本週報">分享本週報</h2>
+<div class="share-buttons">
+
+<p><a
+href="https://www.facebook.com/sharer/sharer.php?u=https://epialert.weiqi.kids/Narrator/weekly_digest/W08-2026-02-20">分享至
+Facebook</a>{: .btn .btn-outline target="_blank" rel="noopener" } <a
+href="https://twitter.com/intent/tweet?url=https://epialert.weiqi.kids/Narrator/weekly_digest/W08-2026-02-20&amp;text=EpiAlert%20疫情快訊%202026-W08%20週報更新">分享至
+Twitter</a>{: .btn .btn-outline target="_blank" rel="noopener" } <a
+href="https://social-plugins.line.me/lineit/share?url=https://epialert.weiqi.kids/Narrator/weekly_digest/W08-2026-02-20">分享至
+LINE</a>{: .btn .btn-outline target="_blank" rel="noopener" }</p>
+</div>
+
+<hr />
+<h2 id="引用本週報">引用本週報</h2>
+<div class="citation-block" style="background: #f6f8fa; border-left: 4px solid #0366d6; padding: 1rem; margin: 1rem 0;">
+
+<p><strong>APA 格式</strong></p>
+<code style="display: block; background: white; padding: 0.5rem; margin-top: 0.5rem; font-size: 0.9rem; word-break: break-all;">
+EpiAlert AI 編輯. (2026, February 20). 傳染病威脅週報 2026-W08 (更新版). EpiAlert 疫情快訊. https://epialert.weiqi.kids/Narrator/weekly_digest/W08-2026-02-20
+</code>
+
+<p><strong>BibTeX 格式</strong></p>
+<pre style="background: white; padding: 0.5rem; margin-top: 0.5rem; font-size: 0.85rem; overflow-x: auto;">
+@misc{epialert2026w08update,
+  author = {{EpiAlert AI 編輯}},
+  title = {傳染病威脅週報 2026-W08 (更新版)},
+  year = {2026},
+  month = {February},
+  day = {20},
+  howpublished = {EpiAlert 疫情快訊},
+  url = {https://epialert.weiqi.kids/Narrator/weekly_digest/W08-2026-02-20},
+  note = {Accessed: 2026-02-20}
+}
+</pre>
+
+</div>
+
+<button onclick="window.print()" class="btn btn-outline" style="margin-top: 0.5rem;">
+  列印 / 匯出 PDF
+</button>
+
+<style>
+@media print {
+  .site-nav, .site-footer, .share-buttons, .citation-block, button, #region-filter { display: none !important; }
+  .main-content { max-width: 100% !important; }
+}
+</style>
+
+<hr />
+<p><em>報告產出時間: 2026-02-20T12:00:00+08:00</em> <em>本報告為
+2026-W08 週報的更新版，完整週報請參見 <a
+href="2026-W08-weekly-digest">2026-W08-weekly-digest</a></em>
+<em>下次更新: 2026-02-25 (2026-W09 週報)</em></p>
+  </div>
+</body>
+</html>

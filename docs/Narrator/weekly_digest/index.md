@@ -15,6 +15,7 @@ has_children: true
 
 | 週次 | 中文報告 | English |
 |------|----------|---------|
+| W08 (更新) | [2026-W08 週報更新版 (2/20)](W08-2026-02-20) | - |
 | W08 | [2026-W08 週報](2026-W08-weekly-digest) | [2026-W08 Weekly](en/2026-W08-weekly-digest) |
 | W07 | [2026-W07 週報](2026-W07-weekly-digest) | - |
 | W06 | [2026-W06 週報](2026-W06-weekly-digest) | - |
