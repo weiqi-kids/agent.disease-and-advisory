@@ -270,6 +270,16 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "risk_assessment-2026-02-19-lower-risk-exposure-cereulide-infant-formula-md",
+    "title": "",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/2026-02-19-lower-risk-exposure-cereulide-infant-formula.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "risk_assessment-2025-11-20-influenza-a-h3n2-threat-md",
     "title": "Threat Assessment Brief: Assessing the risk of influenza for the EU/EEA in the context of increasing circulation of A(H3N2) subclade K",
     "category": "risk_assessment",

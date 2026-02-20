@@ -10,6 +10,16 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "surveillance-2026-02-19-gumcad-sti-surveillance-system-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-19-gumcad-sti-surveillance-system.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "surveillance-2026-02-18-ukhsa-publishes-first-cold-mortality-report-md",
     "title": "",
     "category": "surveillance",
@@ -265,6 +275,36 @@
     "category": "research",
     "date": "",
     "file": "research/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-02-19-shooting-up-infections-among-people-who-inject-drugs-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-02-19-shooting-up-infections-among-people-who-inject-drugs.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-02-19-measles-epidemiology-2023-to-2026-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-02-19-measles-epidemiology-2023-to-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-02-19-healthcare-provision-at-events-rapid-scoping-review-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-02-19-healthcare-provision-at-events-rapid-scoping-review.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"
