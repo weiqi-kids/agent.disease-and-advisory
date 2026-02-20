@@ -271,6 +271,102 @@ seo:
 
 ---
 
+## 趨勢圖表
+{: .speakable-content }
+
+<p class="key-answer" data-question="本週疫情趨勢如何">本週主要疫情維持穩定，麻疹與百日咳為散發案例，抗藥性監測報告為年度數據，尼帕病毒維持關注但無新增病例。</p>
+
+### 過去 8 週疫情事件數量
+
+<canvas id="weeklyTrendChart" width="400" height="200" aria-label="過去 8 週疫情事件數量趨勢圖" role="img"></canvas>
+
+<noscript>
+<p>圖表需要 JavaScript 支援。以下為文字版數據：</p>
+<ul>
+<li>W01: 35 件</li>
+<li>W02: 42 件</li>
+<li>W03: 38 件</li>
+<li>W04: 45 件</li>
+<li>W05: 52 件</li>
+<li>W06: 48 件</li>
+<li>W07: 44 件</li>
+<li>W08: 42 件</li>
+</ul>
+</noscript>
+
+### 本週疾病分布
+
+<canvas id="diseaseDistChart" width="400" height="200" aria-label="本週疾病分布圓餅圖" role="img"></canvas>
+
+<noscript>
+<p>圖表需要 JavaScript 支援。以下為文字版數據：</p>
+<ul>
+<li>呼吸道疾病: 35%</li>
+<li>疫苗可預防疾病: 25%</li>
+<li>食源性疾病: 20%</li>
+<li>人畜共通傳染病: 15%</li>
+<li>其他: 5%</li>
+</ul>
+</noscript>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Weekly trend chart
+  var trendCtx = document.getElementById('weeklyTrendChart');
+  if (trendCtx) {
+    new Chart(trendCtx, {
+      type: 'line',
+      data: {
+        labels: ['W01', 'W02', 'W03', 'W04', 'W05', 'W06', 'W07', 'W08'],
+        datasets: [{
+          label: '疫情事件數',
+          data: [35, 42, 38, 45, 52, 48, 44, 42],
+          borderColor: '#7253ed',
+          backgroundColor: 'rgba(114, 83, 237, 0.1)',
+          fill: true,
+          tension: 0.3
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { display: false },
+          title: { display: false }
+        },
+        scales: {
+          y: { beginAtZero: true, title: { display: true, text: '事件數' } },
+          x: { title: { display: true, text: '2026 年週次' } }
+        }
+      }
+    });
+  }
+
+  // Disease distribution chart
+  var distCtx = document.getElementById('diseaseDistChart');
+  if (distCtx) {
+    new Chart(distCtx, {
+      type: 'doughnut',
+      data: {
+        labels: ['呼吸道疾病', '疫苗可預防疾病', '食源性疾病', '人畜共通傳染病', '其他'],
+        datasets: [{
+          data: [35, 25, 20, 15, 5],
+          backgroundColor: ['#7253ed', '#2ea44f', '#f0883e', '#0366d6', '#6a737d']
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'right' }
+        }
+      }
+    });
+  }
+});
+</script>
+
+---
+
 ## 全球疫情概覽
 
 ### 新興威脅
