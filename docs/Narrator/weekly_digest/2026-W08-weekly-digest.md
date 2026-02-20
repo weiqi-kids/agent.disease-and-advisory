@@ -857,5 +857,45 @@ UKHSA 於 2 月 18 日更新狂犬病暴露前疫苗申請表單：
 
 ---
 
+## 引用本週報
+
+<div class="citation-block" style="background: #f6f8fa; border-left: 4px solid #0366d6; padding: 1rem; margin: 1rem 0;">
+
+**APA 格式**
+
+<code style="display: block; background: white; padding: 0.5rem; margin-top: 0.5rem; font-size: 0.9rem; word-break: break-all;">
+EpiAlert AI 編輯. (2026, February 18). 傳染病威脅週報 2026-W08. EpiAlert 疫情快訊. https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W08-weekly-digest
+</code>
+
+**BibTeX 格式**
+
+<pre style="background: white; padding: 0.5rem; margin-top: 0.5rem; font-size: 0.85rem; overflow-x: auto;">
+@misc{epialert2026w08,
+  author = {{EpiAlert AI 編輯}},
+  title = {傳染病威脅週報 2026-W08},
+  year = {2026},
+  month = {February},
+  day = {18},
+  howpublished = {EpiAlert 疫情快訊},
+  url = {https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W08-weekly-digest},
+  note = {Accessed: 2026-02-20}
+}
+</pre>
+
+</div>
+
+<button onclick="window.print()" class="btn btn-outline" style="margin-top: 0.5rem;">
+  🖨️ 列印 / 匯出 PDF
+</button>
+
+<style>
+@media print {
+  .site-nav, .site-footer, .share-buttons, .citation-block, button, #region-filter { display: none !important; }
+  .main-content { max-width: 100% !important; }
+}
+</style>
+
+---
+
 *報告產出時間: 2026-02-19T14:00:00+08:00*
 *下次更新: 2026-02-25 (2026-W09 週報)*

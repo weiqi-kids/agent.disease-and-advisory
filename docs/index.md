@@ -83,15 +83,83 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 ## 本週重點
 {: .speakable-content }
 
-| 風險 | 疾病/事件 | 地區 | 摘要 | 來源 |
-|:----:|-----------|------|------|------|
-| 🟡 | 寒冷死亡率報告 | 英國 | 2024-25 冬季 2,544 例死亡與寒流相關，65 歲以上高風險 | [UKHSA](Extractor/uk_ukhsa_updates/) |
-| 🟡 | 抗生素抗藥性 | 歐洲 | 沙門氏菌、彎曲桿菌環丙沙星抗藥性高企，碳青黴烯酶檢出上升 | [ECDC](Extractor/ecdc_cdtr/) |
-| 🟢 | RSV 疫苗 PGD | 英國 | 發布呼吸道融合病毒疫苗患者群組指示範本 | [UKHSA](Extractor/uk_ukhsa_updates/) |
-| 🟡 | 尼帕病毒疫情 | 印度 | HCID 風險清單更新，西孟加拉邦 1/13 確認爆發 | [UKHSA](Extractor/uk_ukhsa_updates/) |
-| 🟢 | 麻疹境外移入 | 台灣 | 今年首例，越南感染，400 名接觸者監測至 2/28 | [TW CDC](Extractor/tw_cdc_alerts/) |
-| 🟢 | 百日咳確診 | 台灣 | 今年首例，家庭接觸者監測至 3/4 | [TW CDC](Extractor/tw_cdc_alerts/) |
-| 🟢 | 猴痘 Mpox | 全球 | clade Ib/IIb 持續監測，英國維持警戒 | [UKHSA](Extractor/uk_ukhsa_updates/) |
+<div id="region-filter" style="margin-bottom: 1rem;">
+  <span style="margin-right: 0.5rem; color: #666;">篩選地區：</span>
+  <button data-region="all" class="btn btn-sm active" style="margin: 0.25rem;">全部</button>
+  <button data-region="asia" class="btn btn-sm" style="margin: 0.25rem;">🌏 亞洲</button>
+  <button data-region="europe" class="btn btn-sm" style="margin: 0.25rem;">🇪🇺 歐洲</button>
+  <button data-region="americas" class="btn btn-sm" style="margin: 0.25rem;">🌎 美洲</button>
+  <button data-region="africa" class="btn btn-sm" style="margin: 0.25rem;">🌍 非洲</button>
+  <button data-region="global" class="btn btn-sm" style="margin: 0.25rem;">🌐 全球</button>
+</div>
+
+<style>
+#region-filter button.active { background-color: #7253ed; color: white; }
+#region-filter button:hover { opacity: 0.8; }
+</style>
+
+<table id="weekly-highlights">
+  <thead>
+    <tr>
+      <th style="text-align:center">風險</th>
+      <th>疾病/事件</th>
+      <th>地區</th>
+      <th>摘要</th>
+      <th>來源</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center">🟡</td>
+      <td>寒冷死亡率報告</td>
+      <td>英國</td>
+      <td>2024-25 冬季 2,544 例死亡與寒流相關，65 歲以上高風險</td>
+      <td><a href="Extractor/uk_ukhsa_updates/">UKHSA</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">🟡</td>
+      <td>抗生素抗藥性</td>
+      <td>歐洲</td>
+      <td>沙門氏菌、彎曲桿菌環丙沙星抗藥性高企，碳青黴烯酶檢出上升</td>
+      <td><a href="Extractor/ecdc_cdtr/">ECDC</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">🟢</td>
+      <td>RSV 疫苗 PGD</td>
+      <td>英國</td>
+      <td>發布呼吸道融合病毒疫苗患者群組指示範本</td>
+      <td><a href="Extractor/uk_ukhsa_updates/">UKHSA</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">🟡</td>
+      <td>尼帕病毒疫情</td>
+      <td>印度</td>
+      <td>HCID 風險清單更新，西孟加拉邦 1/13 確認爆發</td>
+      <td><a href="Extractor/uk_ukhsa_updates/">UKHSA</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">🟢</td>
+      <td>麻疹境外移入</td>
+      <td>台灣</td>
+      <td>今年首例，越南感染，400 名接觸者監測至 2/28</td>
+      <td><a href="Extractor/tw_cdc_alerts/">TW CDC</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">🟢</td>
+      <td>百日咳確診</td>
+      <td>台灣</td>
+      <td>今年首例，家庭接觸者監測至 3/4</td>
+      <td><a href="Extractor/tw_cdc_alerts/">TW CDC</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">🟢</td>
+      <td>猴痘 Mpox</td>
+      <td>全球</td>
+      <td>clade Ib/IIb 持續監測，英國維持警戒</td>
+      <td><a href="Extractor/uk_ukhsa_updates/">UKHSA</a></td>
+    </tr>
+  </tbody>
+</table>
 
 **風險等級說明**：🔴 高風險（PHEIC/大規模爆發）｜🟡 中風險（區域爆發/新興威脅）｜🟢 低風險（散發案例/常規監測）
 {: .fs-3 .text-grey-dk-000 }
