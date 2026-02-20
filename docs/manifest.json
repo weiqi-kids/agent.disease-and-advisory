@@ -1,0 +1,66 @@
+{
+  "name": "EpiAlert 疫情快訊",
+  "short_name": "EpiAlert",
+  "description": "AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC 等 7 大官方來源",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7253ed",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "zh-TW",
+  "categories": ["health", "news", "medical"],
+  "icons": [
+    {
+      "src": "/assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "最新週報",
+      "short_name": "週報",
+      "description": "查看本週疫情週報",
+      "url": "/Narrator/weekly_digest/2026-W08-weekly-digest",
+      "icons": [{ "src": "/assets/images/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "疫情地圖",
+      "short_name": "地圖",
+      "description": "查看台灣與全球疫情地圖",
+      "url": "/map/",
+      "icons": [{ "src": "/assets/images/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "家長專區",
+      "short_name": "家長",
+      "description": "兒童傳染病預防指南",
+      "url": "/parents/",
+      "icons": [{ "src": "/assets/images/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/images/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/assets/images/screenshot-mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

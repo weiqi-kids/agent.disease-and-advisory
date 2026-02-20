@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>離線 - EpiAlert 疫情快訊</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(135deg, #7253ed 0%, #5a3fd4 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      padding: 1rem;
+    }
+    .container {
+      text-align: center;
+      max-width: 400px;
+    }
+    .icon {
+      font-size: 4rem;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+      opacity: 0.9;
+      line-height: 1.6;
+    }
+    .button {
+      display: inline-block;
+      background: white;
+      color: #7253ed;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .cached-pages {
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255,255,255,0.3);
+    }
+    .cached-pages h2 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      opacity: 0.9;
+    }
+    .cached-list {
+      list-style: none;
+      text-align: left;
+    }
+    .cached-list li {
+      margin: 0.5rem 0;
+    }
+    .cached-list a {
+      color: white;
+      text-decoration: none;
+      opacity: 0.9;
+    }
+    .cached-list a:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">📡</div>
+    <h1>您目前處於離線狀態</h1>
+    <p>無法連接到網路。請檢查您的網路連線後再試一次。</p>
+    <a href="/" class="button" onclick="location.reload(); return false;">重新載入</a>
+
+    <div class="cached-pages">
+      <h2>可離線瀏覽的頁面：</h2>
+      <ul class="cached-list">
+        <li><a href="/">🏠 首頁</a></li>
+        <li><a href="/Narrator/weekly_digest/">📊 週報列表</a></li>
+        <li><a href="/glossary">📖 術語解釋</a></li>
+        <li><a href="/parents/">👨‍👩‍👧 家長專區</a></li>
+        <li><a href="/map/">🗺️ 疫情地圖</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    // Check if online and redirect
+    window.addEventListener('online', function() {
+      location.reload();
+    });
+  </script>
+</body>
+</html>
