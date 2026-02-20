@@ -39,6 +39,9 @@
 ```
 主執行緒 — 僅協調，不做實際工作
 │
+├─ 階段 0：建立任務檢查清單（必須！）
+│   └─ 輸出任務目標、預計修改檔案、適用 Schema
+│
 ├─ Task(Bash, sonnet) — 掃描 Layers
 │
 ├─ Task(Bash, sonnet, run_in_background=true) × 7
@@ -48,7 +51,7 @@
 │   └─ 平行萃取 JSONL 各行
 │
 ├─ Task(Bash, sonnet, run_in_background=true) × 7
-│   └─ 背景平行執行 update.sh
+│   └─ 背景平行執行 update.sh（所有 Layer 都要執行）
 │
 ├─ Task(general-purpose, opus) ← 報告需要 opus
 │   └─ 產出週報（跨來源綜合分析）
@@ -58,15 +61,15 @@
 │
 ├─ Task(Bash, sonnet) — 健康度更新 + git push
 │
-└─ 品質關卡檢查 — 10 項必須全數通過才能回報完成
-    ├─ 連結檢查
-    ├─ SEO/AEO 標籤（Meta + Schema + SGE）
-    ├─ E-E-A-T 信號
-    ├─ YMYL 檢查
-    ├─ 內容更新確認
-    ├─ Git 狀態檢查
-    └─ SOP 完成度檢查
+└─ Task(general-purpose, sonnet) — 獨立品質關卡 Reviewer
+    ├─ 讀取 core/Reviewer/CLAUDE.md
+    ├─ 執行 lib/quality-gate.sh 驗證指令
+    ├─ 輸出結構化審核報告
+    └─ 回傳 PASS/FAIL（FAIL 則修正後重審）
 ```
+
+> **⚠️ 品質關卡由獨立 Task 執行**：Reviewer 與執行者是不同 context，
+> 確保「執行者不能自己說通過」。
 
 **模型分配原則：**
 
@@ -86,6 +89,37 @@
 ## 執行完整流程
 
 當使用者說「執行完整流程」時，依序執行以下階段：
+
+### 階段 0：建立任務檢查清單（必須！）
+
+> **⚠️ 這是強制步驟，不可跳過！**
+
+在開始任何工作前，先輸出以下格式：
+
+```markdown
+## 本次任務檢查清單
+
+- **任務目標**：執行完整流程 - 擷取所有來源、萃取新資料、產出週報
+- **預計執行的 Layers**：
+  - [ ] ecdc_cdtr
+  - [ ] tw_cdc_alerts
+  - [ ] uk_ukhsa_updates
+  - [ ] us_cdc_han
+  - [ ] us_cdc_mmwr
+  - [ ] us_travel_health_notices
+  - [ ] who_disease_outbreak_news
+- **預計產出**：
+  - [ ] 萃取結果（docs/Extractor/*/）
+  - [ ] 週報（docs/Narrator/weekly_digest/）
+- **適用的 Schema**：WebSite, WebPage, Organization, Article
+- **是否為 YMYL 內容**：是（本專案所有內容皆為 YMYL）
+- **品質關卡**：由獨立 Reviewer Task 驗證（core/Reviewer/CLAUDE.md）
+```
+
+**為什麼需要這步？**
+- 明確任務範圍，避免遺漏
+- 建立可追蹤的 checklist
+- 讓獨立 Reviewer 可以驗證完成度
 
 ### 階段 1：掃描 Layers（sonnet）
 
@@ -312,125 +346,119 @@ GitHub Actions: Check and Fix Links
 - 外部網站失效
 - 檔案真的不存在
 
-### 階段 8：任務完成品質關卡（必須通過）
+### 階段 8：獨立品質關卡 Reviewer（必須通過）
 
-> **⚠️ 在回報「完成」之前，必須執行以下檢查，全部通過才能視為成功。**
+> **⚠️ 這個階段由獨立 Task 執行，確保「執行者不能自己說通過」**
 
-#### 8.1 連結檢查
+#### 8.0 為什麼需要獨立 Reviewer？
 
-- [ ] 所有新增/修改的內部連結正常，無 404
-- [ ] 所有新增/修改的外部連結正常
-- [ ] 無死連結或斷裂連結
+之前的問題：
+- 執行者 = 檢查者 → 利益衝突
+- 口頭報告「完成了」→ 無法驗證
+- 勾選 checkbox → 可以跳過
 
-> **注意**：GitHub Actions 會自動執行連結檢查，但在回報完成前應先確認部署成功且無連結錯誤。
+解決方案：
+- 分派**獨立 Task** 作為 Reviewer
+- Reviewer 使用**驗證指令**，不信任口頭報告
+- 失敗就是失敗，不可放行
 
-#### 8.2 SEO + AEO 標籤檢查
-
-> **完整 SEO/AEO 規則請參照 `seo/CLAUDE.md`**
-
-##### Meta 標籤
-
-- [ ] `<title>` 存在且 ≤ 60 字，含核心關鍵字
-- [ ] `<meta name="description">` 存在且 ≤ 155 字
-- [ ] `og:title`, `og:description`, `og:image`, `og:url` 存在
-- [ ] `og:type` = "article"
-- [ ] `article:published_time`, `article:modified_time` 存在（ISO 8601 格式）
-- [ ] `twitter:card` = "summary_large_image"
-
-##### JSON-LD Schema（7 種必填）
-
-| Schema | 必填欄位 |
-|--------|----------|
-| WebPage | speakable（至少 7 個 cssSelector） |
-| Article | isAccessibleForFree, isPartOf（含 SearchAction）, significantLink |
-| Person | knowsAbout（≥2）, hasCredential（≥1）, sameAs（≥1） |
-| Organization | contactPoint, logo（含 width/height） |
-| BreadcrumbList | position 從 1 開始連續編號 |
-| FAQPage | 3-5 個 Question + Answer |
-| ImageObject | license, creditText |
-
-##### 條件式 Schema（依內容判斷）
-
-| Schema | 觸發條件 | 必填欄位 |
-|--------|----------|----------|
-| HowTo | 有步驟教學 | step, totalTime |
-| ItemList | 有排序清單（「N 大」「TOP」） | itemListElement |
-| Event | 有活動資訊 | startDate, location |
-
-##### SGE/AEO 標記（AI 引擎優化）
-
-| 標記 | 要求 |
-|------|------|
-| `.key-answer` | 每個 H2 必須有，含 `data-question` 屬性 |
-| `.key-takeaway` | 文章重點摘要（2-3 個） |
-| `.expert-quote` | 專家引言（至少 1 個） |
-| `.actionable-steps` | 行動步驟清單 |
-| `.comparison-table` | 比較表格（若有） |
-
-##### E-E-A-T 信號
-
-- [ ] Person Schema 有專業認證（hasCredential）
-- [ ] 至少 2 個高權威外部連結（.gov、學術期刊、專業協會）
-
-##### YMYL 檢查（本專案所有內容皆適用）
-
-- [ ] `lastReviewed` 欄位（最後審核日期）
-- [ ] `reviewedBy` 欄位（審核者資訊）
-- [ ] 免責聲明（醫療資訊免責）
-
-> **注意**：EpiAlert 為健康類 YMYL 內容，所有頁面都需要 YMYL 檢查。
-
-#### 8.3 內容更新確認
-
-- [ ] 列出本次預計修改的所有檔案
-- [ ] 逐一確認每個檔案都已正確更新
-- [ ] 修改內容與任務要求一致
-- [ ] 無遺漏項目
-
-#### 8.4 Git 狀態檢查
-
-- [ ] 所有變更已 commit
-- [ ] commit message 清楚描述本次變更
-- [ ] 已 push 到 GitHub
-- [ ] GitHub Pages 部署完成且網站已更新
-
-#### 8.5 SOP 完成度檢查
-
-- [ ] 回顧原始任務需求
-- [ ] 原訂 SOP 每個步驟都已執行
-- [ ] 無遺漏的待辦項目
-- [ ] 無「之後再處理」的項目
-
-#### 8.6 檢查報告格式
-
-完成檢查後，輸出以下格式：
+#### 8.1 分派獨立 Reviewer Task
 
 ```
-## 完成檢查報告
-
-| 類別 | 狀態 | 問題（如有） |
-|------|------|-------------|
-| 連結檢查 | ✅/❌ | |
-| Meta 標籤 | ✅/❌ | |
-| Schema（必填） | ✅/❌ | |
-| Schema（條件式） | ✅/❌/N/A | |
-| SGE/AEO 標記 | ✅/❌ | |
-| E-E-A-T 信號 | ✅/❌ | |
-| YMYL | ✅/❌ | |
-| 內容更新 | ✅/❌ | |
-| Git 狀態 | ✅/❌ | |
-| SOP 完成度 | ✅/❌ | |
-
-**總結**：X/Y 項通過，狀態：通過/未通過
+Task(general-purpose, sonnet)
+  prompt: "讀取 core/Reviewer/CLAUDE.md，執行品質關卡驗證，輸出審核報告"
 ```
 
-#### 8.7 檢查未通過時
+**重要**：
+- 這個 Task 與執行階段 1-7 是**不同 context**
+- Reviewer 只看檔案系統狀態，不知道執行者說了什麼
+- Reviewer 必須執行 `lib/quality-gate.sh` 驗證指令
 
-1. **不回報完成**
-2. 列出所有未通過項目
-3. 立即修正問題
-4. 重新執行檢查
-5. 全部通過才能說「完成」
+#### 8.2 驗證指令（Reviewer 必須執行）
+
+```bash
+# 執行完整品質關卡驗證
+source lib/quality-gate.sh && qg_run_all
+```
+
+這個指令會驗證：
+
+| 檢查項目 | 驗證函式 | Pass 條件 |
+|----------|----------|-----------|
+| YMYL 欄位 | `qg_check_ymyl` | 所有 .md 有 lastReviewed + reviewedBy |
+| Frontmatter | `qg_check_frontmatter` | 所有萃取結果有 nav_exclude: true |
+| 連結格式 | `qg_check_link_format` | 無帶尾部斜線的內部連結 |
+| Git 狀態 | `qg_check_git_status` | 已提交 + 已推送 |
+| Schema | `qg_check_schema_index` | 首頁有 WebSite/WebPage/Organization |
+| 內容更新 | `qg_check_content_updated` | 首頁時間戳為今天 |
+| E-E-A-T | `qg_check_eeat_links` | 至少 2 個 .gov 連結 |
+
+#### 8.3 Reviewer 輸出格式
+
+Reviewer 必須輸出結構化報告：
+
+```markdown
+## 品質關卡審核報告
+
+**審核時間**：YYYY-MM-DD HH:MM
+**審核者**：Quality Gate Reviewer（獨立 Task）
+
+### 驗證結果
+
+| # | 檢查項目 | 結果 | 問題 |
+|---|----------|------|------|
+| 1 | YMYL 欄位 | ✅/❌ | |
+| 2 | Frontmatter | ✅/❌ | |
+| 3 | 連結格式 | ✅/❌ | |
+| 4 | Git 狀態 | ✅/❌ | |
+| 5 | Schema | ✅/❌ | |
+| 6 | 內容更新 | ✅/❌ | |
+| 7 | E-E-A-T | ✅/❌ | |
+
+### 結論
+
+❌ **FAIL** - 有 N 項未通過，不可回報完成
+或
+✅ **PASS** - 品質關卡通過，可以回報完成
+```
+
+#### 8.4 失敗處理流程
+
+```
+Reviewer 回報 FAIL
+    ↓
+主執行緒接收失敗項目
+    ↓
+執行修正（不是 Reviewer 修正！）
+    ↓
+重新分派 Reviewer Task
+    ↓
+迭代直到 PASS
+```
+
+**關鍵**：
+- Reviewer 只負責**檢查**，不負責**修正**
+- 修正由主執行緒或新的執行 Task 處理
+- 修正後必須**重新審核**
+
+#### 8.5 詳細檢查項目（參考）
+
+完整 SEO/AEO 規則請參照 `seo/CLAUDE.md`：
+
+**JSON-LD Schema（首頁必填）**：
+- WebSite, WebPage, Organization
+- speakable 設定
+
+**YMYL 欄位（所有頁面必填）**：
+- `lastReviewed`：最後審核日期
+- `reviewedBy`：審核者資訊
+- 免責聲明
+
+**萃取結果必填**：
+- `nav_exclude: true`
+- `source_url`
+- `date`
+- `source_layer`
 
 ---
 
@@ -463,15 +491,16 @@ GitHub Actions: Check and Fix Links
 
 | 階段 | 模型 | 狀態 | 詳情 |
 |------|------|------|------|
-| 掃描 | sonnet | ✅ 完成 | 7 Layers |
-| Fetch | sonnet | ✅ 完成 | 7/7 Layers |
-| 萃取 | sonnet | 🔄 進行中 | 45/120 條目 |
-| Update | sonnet | ⏳ 等待中 | - |
-| 報告 | opus | ⏳ 等待中 | - |
-| SEO 優化 | sonnet | ⏳ 等待中 | Writer → Reviewer |
-| GitHub | sonnet | ⏳ 等待中 | - |
-| 連結檢查 | GitHub Actions | ⏳ 自動 | 推送後觸發 |
-| 品質關卡 | - | ⏳ 等待中 | 10 項檢查 |
+| 0-檢查清單 | - | ✅ 完成 | 已建立任務清單 |
+| 1-掃描 | sonnet | ✅ 完成 | 7 Layers |
+| 2-Fetch | sonnet | ✅ 完成 | 7/7 Layers |
+| 3-萃取 | sonnet | 🔄 進行中 | 45/120 條目 |
+| 4-Update | sonnet | ⏳ 等待中 | 7/7 Layers |
+| 5-報告 | opus | ⏳ 等待中 | - |
+| 5.5-SEO | sonnet | ⏳ 等待中 | Writer → Reviewer |
+| 6-GitHub | sonnet | ⏳ 等待中 | - |
+| 7-Actions | GitHub | ⏳ 自動 | 推送後觸發 |
+| 8-品質關卡 | sonnet | ⏳ 獨立 Reviewer | lib/quality-gate.sh |
 ```
 
 完成後回報：
@@ -479,7 +508,7 @@ GitHub Actions: Check and Fix Links
 2. 新增的萃取結果數量
 3. 有無 `[REVIEW_NEEDED]` 需要人工介入
 4. GitHub commit URL
-5. **完成檢查報告**（階段 8 品質關卡結果，必須全數通過）
+5. **品質關卡審核報告**（由獨立 Reviewer Task 產出，必須 PASS）
 
 ---
 
@@ -833,10 +862,12 @@ category: category_name
 
 | 文件 | 說明 |
 |------|------|
+| `core/Reviewer/CLAUDE.md` | **獨立品質關卡 Reviewer**（新增） |
+| `lib/quality-gate.sh` | **品質關卡驗證腳本**（新增） |
 | `seo/CLAUDE.md` | SEO + AEO 規則庫（含 EpiAlert 專屬設定） |
 | `seo/writer/CLAUDE.md` | Writer 執行流程 |
 | `seo/review/CLAUDE.md` | Reviewer 檢查清單 |
-| `prompt/任務完成品質關卡.md` | 品質關卡原始定義（完整版） |
+| `prompt/任務完成品質關卡.md` | 品質關卡原始定義（參考用） |
 | `revamp/CLAUDE.md` | 網站改版流程總覽 |
 
 ---
