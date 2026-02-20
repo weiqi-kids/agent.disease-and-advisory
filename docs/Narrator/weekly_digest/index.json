@@ -8,6 +8,22 @@
     "source_mode": "weekly_digest"
   },
   {
+    "id": "en-index-md",
+    "title": "Weekly Digest (English)",
+    "date": "",
+    "period": "",
+    "file": "en/index.md",
+    "source_mode": "weekly_digest"
+  },
+  {
+    "id": "en-2026-W08-weekly-digest-md",
+    "title": "Infectious Disease Threats Weekly Report 2026-W08",
+    "date": "2026-W08",
+    "period": "",
+    "file": "en/2026-W08-weekly-digest.md",
+    "source_mode": "weekly_digest"
+  },
+  {
     "id": "2026-W08-weekly-digest-md",
     "title": "傳染病威脅週報 2026-W08",
     "date": "2026-W08",
