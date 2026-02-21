@@ -76,7 +76,7 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 {: .label .label-green }
 
 [查看 2026-W08 週報](Narrator/weekly_digest/2026-W08-weekly-digest){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[歷史週報](Narrator/weekly_digest/){: .btn .fs-5 .mb-4 .mb-md-0 }
+[歷史週報](Narrator/weekly_digest){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -114,49 +114,49 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
       <td>寒冷死亡率報告</td>
       <td>英國</td>
       <td>2024-25 冬季 2,544 例死亡與寒流相關，65 歲以上高風險</td>
-      <td><a href="Extractor/uk_ukhsa_updates/">UKHSA</a></td>
+      <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
     </tr>
     <tr>
       <td style="text-align:center">🟡</td>
       <td>抗生素抗藥性</td>
       <td>歐洲</td>
       <td>沙門氏菌、彎曲桿菌環丙沙星抗藥性高企，碳青黴烯酶檢出上升</td>
-      <td><a href="Extractor/ecdc_cdtr/">ECDC</a></td>
+      <td><a href="Extractor/ecdc_cdtr">ECDC</a></td>
     </tr>
     <tr>
       <td style="text-align:center">🟢</td>
       <td>RSV 疫苗 PGD</td>
       <td>英國</td>
       <td>發布呼吸道融合病毒疫苗患者群組指示範本</td>
-      <td><a href="Extractor/uk_ukhsa_updates/">UKHSA</a></td>
+      <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
     </tr>
     <tr>
       <td style="text-align:center">🟡</td>
       <td>尼帕病毒疫情</td>
       <td>印度</td>
       <td>HCID 風險清單更新，西孟加拉邦 1/13 確認爆發</td>
-      <td><a href="Extractor/uk_ukhsa_updates/">UKHSA</a></td>
+      <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
     </tr>
     <tr>
       <td style="text-align:center">🟢</td>
       <td>麻疹境外移入</td>
       <td>台灣</td>
       <td>今年首例，越南感染，400 名接觸者監測至 2/28</td>
-      <td><a href="Extractor/tw_cdc_alerts/">TW CDC</a></td>
+      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
     </tr>
     <tr>
       <td style="text-align:center">🟢</td>
       <td>百日咳確診</td>
       <td>台灣</td>
       <td>今年首例，家庭接觸者監測至 3/4</td>
-      <td><a href="Extractor/tw_cdc_alerts/">TW CDC</a></td>
+      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
     </tr>
     <tr>
       <td style="text-align:center">🟢</td>
       <td>猴痘 Mpox</td>
       <td>全球</td>
       <td>clade Ib/IIb 持續監測，英國維持警戒</td>
-      <td><a href="Extractor/uk_ukhsa_updates/">UKHSA</a></td>
+      <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
     </tr>
   </tbody>
 </table>
@@ -191,15 +191,15 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 
 | 來源 | 說明 | 更新頻率 |
 |------|------|----------|
-| [WHO Disease Outbreak News](Extractor/who_disease_outbreak_news/) | 世界衛生組織疾病爆發新聞 | 不定期 |
-| [US CDC HAN](Extractor/us_cdc_han/) | 美國 CDC 健康警報網絡 | 不定期 |
-| [US CDC MMWR](Extractor/us_cdc_mmwr/) | 美國 CDC 發病率與死亡率週報 | 每週 |
-| [US Travel Health Notices](Extractor/us_travel_health_notices/) | 美國 CDC 旅遊健康通知 | 不定期 |
-| [ECDC CDTR](Extractor/ecdc_cdtr/) | 歐洲疾病預防控制中心週報 | 每週 |
-| [UK UKHSA](Extractor/uk_ukhsa_updates/) | 英國健康安全局更新 | 不定期 |
-| [Taiwan CDC](Extractor/tw_cdc_alerts/) | 台灣疾管署警報 | 不定期 |
+| [WHO Disease Outbreak News](Extractor/who_disease_outbreak_news) | 世界衛生組織疾病爆發新聞 | 不定期 |
+| [US CDC HAN](Extractor/us_cdc_han) | 美國 CDC 健康警報網絡 | 不定期 |
+| [US CDC MMWR](Extractor/us_cdc_mmwr) | 美國 CDC 發病率與死亡率週報 | 每週 |
+| [US Travel Health Notices](Extractor/us_travel_health_notices) | 美國 CDC 旅遊健康通知 | 不定期 |
+| [ECDC CDTR](Extractor/ecdc_cdtr) | 歐洲疾病預防控制中心週報 | 每週 |
+| [UK UKHSA](Extractor/uk_ukhsa_updates) | 英國健康安全局更新 | 不定期 |
+| [Taiwan CDC](Extractor/tw_cdc_alerts) | 台灣疾管署警報 | 不定期 |
 
-[查看所有資料來源](Extractor/){: .btn }
+[查看所有資料來源](Extractor){: .btn }
 
 ---
 
@@ -225,7 +225,7 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 | 功能 | 說明 |
 |------|------|
 | [🔍 語意搜尋](search/semantic) | 使用 AI 搜尋 2,450+ 篇歷史疫情資料 |
-| [🦠 疾病專頁](disease/) | 查看各類傳染病的背景資訊與疫情追蹤 |
+| [🦠 疾病專頁](disease) | 查看各類傳染病的背景資訊與疫情追蹤 |
 | [📧 訂閱週報](subscribe) | Email 或 RSS 訂閱，每週收到疫情摘要 |
 | [📖 術語解釋](glossary) | 疫情相關專業術語中英對照 |
 
