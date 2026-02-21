@@ -511,10 +511,55 @@ qg_run_incremental      # 只檢查最近 commit 的檔案
 
 ---
 
+### 8.6 Qdrant 更新必須做差異更新
+
+**問題**：原始 update.sh 對所有 MD 檔案都執行 embedding + upsert。
+
+**影響**：
+- us_cdc_mmwr 有 2000+ 檔案 → 每次執行產生 2000+ 個 OpenAI API 呼叫
+- 每次執行消耗大量 API 費用和時間
+- 絕大多數檔案已存在於 Qdrant，重複處理是浪費
+
+**原始邏輯**：
+```bash
+for md_file in "${MD_FILES[@]}"; do
+    qdrant_upsert_from_md "$md_file" "$LAYER_NAME"  # 每個檔案都處理
+done
+```
+
+**優化後邏輯**：
+```bash
+# 先批次查詢 Qdrant，找出哪些 UUID 已存在
+NEW_FILES=$(qdrant_filter_new_files "$COLLECTION" "${MD_FILES[@]}")
+
+# 只處理新檔案
+for md_file in "${NEW_FILES[@]}"; do
+    qdrant_upsert_from_md "$md_file" "$LAYER_NAME"
+done
+```
+
+**效能改進**：
+- 2000 檔案 → 通常只有 0-10 個新檔案需要處理
+- API 呼叫減少 99%+
+- 執行時間從數分鐘降至數秒
+
+**實作細節**：
+- `lib/qdrant.sh` 新增 `qdrant_filter_new_files` 函式
+- 所有 7 個 Layer 的 update.sh 已更新使用差異更新
+- 使用 `source_url` 生成 UUID，批次查詢 Qdrant 確認是否存在
+
+**教訓**：
+- **任何批次寫入都應先做差異檢查**
+- Qdrant 的 upsert 雖然是冪等的，但 embedding 生成不是免費的
+- 在設計 pipeline 時，應該從一開始就考慮增量更新
+
+---
+
 ## 更新紀錄
 
 | 日期 | 更新內容 |
 |------|---------|
+| 2026-02-21 | 新增 Qdrant 差異更新優化（8.6 節） |
 | 2026-02-21 | 新增執行完整流程經驗（第 8 節） |
 | 2026-02-06 | 新增自動化連結檢查機制（第 7 節） |
 | 2026-02-06 | 新增 GitHub Pages / Jekyll 連結問題（第 6 節） |

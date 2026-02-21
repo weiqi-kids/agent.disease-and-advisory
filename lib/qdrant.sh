@@ -753,3 +753,105 @@ qdrant_search() {
 
   return 1
 }
+
+########################################
+# 差異更新：只處理新增的檔案
+########################################
+
+# qdrant_filter_new_files COLLECTION_NAME FILES...
+#
+# 功能：
+#   - 批次檢查哪些檔案尚未存在於 Qdrant
+#   - 輸出需要處理的檔案路徑（每行一個）
+#
+# 參數：
+#   COLLECTION_NAME: collection 名稱
+#   FILES: 一個或多個 .md 檔案路徑
+#
+# stdout:
+#   需要處理的檔案路徑（每行一個）
+#
+# 用法：
+#   new_files=$(qdrant_filter_new_files "disease_intel" file1.md file2.md)
+#   while IFS= read -r f; do
+#     qdrant_upsert_from_md "$f" "$layer"
+#   done <<< "$new_files"
+#
+qdrant_filter_new_files() {
+  local collection_name="$1"
+  shift
+  local -a all_files=("$@")
+
+  local total=${#all_files[@]}
+  if [[ $total -eq 0 ]]; then
+    return 0
+  fi
+
+  echo "🔍 [qdrant_filter] 檢查 $total 個檔案..." >&2
+
+  # 收集 source_url → UUID 映射
+  local -a urls=()
+  local -a uuids=()
+  local -a valid_files=()
+
+  for md_file in "${all_files[@]}"; do
+    local source_url
+    source_url=$(grep -m1 '^source_url:' "$md_file" 2>/dev/null | sed 's/^source_url: *//; s/^["'"'"']//; s/["'"'"']$//' || echo "")
+    if [[ -n "$source_url" ]]; then
+      local uuid
+      uuid=$(_qdrant_id_to_uuid "$source_url")
+      urls+=("$source_url")
+      uuids+=("$uuid")
+      valid_files+=("$md_file")
+    fi
+  done
+
+  local valid_count=${#valid_files[@]}
+  if [[ $valid_count -eq 0 ]]; then
+    echo "⚠️  [qdrant_filter] 無有效檔案" >&2
+    return 0
+  fi
+
+  # 批次查詢（每次最多 100 個）
+  local batch_size=100
+  local -a existing_uuids=()
+
+  for ((i=0; i<valid_count; i+=batch_size)); do
+    local end=$((i + batch_size))
+    [[ $end -gt $valid_count ]] && end=$valid_count
+
+    # 構建 JSON array
+    local ids_json="["
+    local first=1
+    for ((j=i; j<end; j++)); do
+      [[ $first -eq 1 ]] && first=0 || ids_json+=","
+      ids_json+="\"${uuids[j]}\""
+    done
+    ids_json+="]"
+
+    # 查詢
+    local result
+    result=$(qdrant_get_existing_ids "$collection_name" "$ids_json" 2>/dev/null) || continue
+
+    while IFS= read -r uuid; do
+      [[ -n "$uuid" ]] && existing_uuids+=("$uuid")
+    done < <(echo "$result" | jq -r '.[]' 2>/dev/null)
+  done
+
+  # 輸出不存在的檔案
+  local new_count=0
+  for ((i=0; i<valid_count; i++)); do
+    local uuid="${uuids[i]}"
+    local found=0
+    for existing in "${existing_uuids[@]}"; do
+      [[ "$uuid" == "$existing" ]] && { found=1; break; }
+    done
+    if [[ $found -eq 0 ]]; then
+      echo "${valid_files[i]}"
+      ((new_count++))
+    fi
+  done
+
+  local skipped=$((valid_count - new_count))
+  echo "✅ [qdrant_filter] 跳過 $skipped 已存在，需處理 $new_count 新檔案" >&2
+}
