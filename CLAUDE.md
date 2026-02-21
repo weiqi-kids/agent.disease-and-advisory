@@ -16,20 +16,32 @@
 - `source lib/quality-gate.sh && qg_run_all` — 品質關卡驗證
 - `source lib/dedup.sh && dedup_*` — 去重函式
 - `source lib/report.sh && report_*` — 報告產出函式
+- `source lib/qdrant.sh && qdrant_*` — Qdrant 向量資料庫操作
+- `source lib/chatgpt.sh && chatgpt_*` — OpenAI embedding 操作
 
 ### 檔案寫入
 - `docs/Extractor/*/` — 萃取結果目錄
 - `docs/Narrator/*/` — 報告產出目錄
 - `docs/index.md` — 首頁時間戳更新
+- `docs/lessons-learned.md` — 經驗教訓記錄
+
+### 程式碼修改（效能優化）
+- `lib/*.sh` — 共用函式庫優化
+- `core/Extractor/Layers/*/update.sh` — Layer 更新腳本優化
+- `core/Extractor/Layers/*/fetch.sh` — Layer 擷取腳本優化
 
 ### Git 操作
 - `git add docs/` — 加入文件變更
+- `git add lib/` — 加入函式庫變更
+- `git add core/` — 加入核心模組變更
 - `git commit` — 建立提交（使用標準格式）
 - `git push origin main` — 推送到主分支
+- `git pull --rebase origin main` — 拉取遠端變更（解決衝突）
 
 ### 其他
 - 背景執行 Task（`run_in_background: true`）
 - 平行執行多個 Task（單一訊息多個 tool call）
+- 中斷/終止執行中的背景任務
 
 ---
 
