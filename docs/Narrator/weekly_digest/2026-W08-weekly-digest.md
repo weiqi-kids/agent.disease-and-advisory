@@ -3,13 +3,13 @@ nav_exclude: true
 title: '傳染病威脅週報 2026-W08'
 layout: default
 datePublished: '2026-02-18T12:00:00+08:00'
-dateModified: '2026-02-19T14:00:00+08:00'
+dateModified: '2026-02-22T10:00:00+08:00'
 seo:
   meta:
     title: '傳染病威脅週報 2026-W08 | EpiAlert 疫情快訊'
     description: '本週重點：UKHSA 首份寒冷死亡率報告、ECDC 抗藥性警告、RSV 疫苗範本、HCID 風險清單更新。'
     og:title: '傳染病威脅週報 2026-W08 | EpiAlert'
-    og:description: 'UKHSA 發布首份寒冷死亡率報告（2,544 例死亡）、ECDC/EFSA 抗生素抗藥性警告、RSV 疫苗 PGD 範本發布、HCID 風險清單更新。'
+    og:description: 'UKHSA 首份寒冷死亡率報告、ECDC 嬰兒配方奶粉召回風險降低、麻疹流行病學 2023-2026、HCID 風險清單更新、移民健康指引更新。'
     og:type: 'article'
     og:url: 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W08-weekly-digest'
     og:image: 'https://epialert.weiqi.kids/assets/images/logo.png'
@@ -31,7 +31,7 @@ seo:
           '@type': 'ImageObject'
           url: 'https://epialert.weiqi.kids/assets/images/logo.png'
         datePublished: '2026-02-18T12:00:00+08:00'
-        dateModified: '2026-02-19T14:00:00+08:00'
+        dateModified: '2026-02-22T10:00:00+08:00'
         speakable:
           '@type': 'SpeakableSpecification'
           cssSelector:
@@ -63,7 +63,7 @@ seo:
         publisher:
           '@id': 'https://epialert.weiqi.kids#organization'
         datePublished: '2026-02-18T12:00:00+08:00'
-        dateModified: '2026-02-19T14:00:00+08:00'
+        dateModified: '2026-02-22T10:00:00+08:00'
         articleSection: '週報'
         keywords: 'RSV, 呼吸道融合病毒, 疫苗, 麻疹, 百日咳, 猴痘, Mpox, 禽流感, H5N1, 抗生素抗藥性, AMR, 寒冷死亡率, HCID, 傳染病監測, 疫情週報'
         wordCount: 7500
@@ -160,7 +160,7 @@ seo:
         about: '與上週疫情比較'
         description: '新增威脅、升級警示、持續關注、已解除項目的完整比較'
   ymyl:
-    lastReviewed: '2026-02-19T14:00:00+08:00'
+    lastReviewed: '2026-02-22T10:00:00+08:00'
     reviewedBy: 'EpiAlert AI 編輯'
     medicalDisclaimer: '本報告由自動化系統生成，僅供參考用途。報告內容基於公開資訊來源，不構成醫療建議、官方政策或專業診斷。使用者應自行驗證資訊並諮詢專業人士。'
 ---
@@ -195,6 +195,10 @@ seo:
 - **麻疹、百日咳接觸者監測中**：台灣今年首例麻疹境外移入病例（400 名接觸者監測至 2/28）及首例百日咳病例（家庭接觸者監測至 3/4）持續追蹤。(tw_cdc_alerts)
 
 - **猴痘（Mpox）監測持續**：UKHSA 持續更新 clade Ib 及 clade IIb 流行病學概況，追蹤英國病例趨勢，全球維持警戒。(uk_ukhsa_updates)
+
+- **嬰兒配方奶粉召回風險降低**：ECDC/EFSA 聯合評估指出，由於持續執行回收措施，暴露於 cereulide（蠟狀芽孢桿菌毒素）污染配方奶粉的風險已降低。(ecdc_cdtr) **[2/19 更新]**
+
+- **UKHSA 發布麻疹流行病學報告**：涵蓋 2023-2026 年英格蘭實驗室確診麻疹病例數據，為疫苗接種計劃成效評估提供關鍵監測資料。(uk_ukhsa_updates) **[2/19 更新]**
 
 </div>
 
@@ -243,6 +247,12 @@ seo:
 - **RSV 疫苗 PGD 範本（英國）**：UKHSA 於 2/17 發布 RSV 疫苗的患者群組指示範本，為醫療從業人員提供標準化疫苗接種指示，支援孕婦及 75 歲以上長者的國家疫苗接種計畫。此為 RSV 疫苗計畫的重要指引文件。
 
 - **ECDC 與 PHAC 國際合作**：2/16 加拿大公共衛生局局長訪問 ECDC，反映跨大西洋公共衛生合作的持續深化，有助於面對跨國公衛威脅時的協調應對能力提升。
+
+- **嬰兒配方奶粉召回風險評估更新**（2/19）：ECDC/EFSA 發布快速疫情評估（ROA），指出由於持續回收措施，暴露於 cereulide（蠟狀芽孢桿菌毒素）污染的嬰兒配方奶粉風險已降低。**[2/19 更新]**
+
+- **麻疹流行病學報告**（2/19）：UKHSA 發布 2023-2026 年英格蘭麻疹流行病學研究報告，提供實驗室確診病例的完整數據分析。**[2/19 更新]**
+
+- **移民健康指引更新**（2/20）：UKHSA 更新探親訪友旅行（VFR）及脊髓灰質炎/後脊髓灰質炎症候群的移民健康指南，為醫療從業人員提供專業建議。**[2/20 更新]**
 
 ### 升級警示
 
@@ -454,6 +464,32 @@ ECDC 與 EFSA 於 2 月 18 日發布聯合報告：
 | 2023-11-09 | MDR Salmonella Newport Linked to Travel to Mexico | US CDC MMWR | 0.52 |
 | 2024-07-03 | Reported Incidence of Foodborne Pathogen Infections | US CDC MMWR | 0.51 |
 
+#### 嬰兒配方奶粉召回風險評估更新 — 歐洲
+{: #infant-formula-update}
+
+<p class="key-answer" data-question="嬰兒配方奶粉召回後風險如何">由於持續執行回收措施，暴露於 cereulide（蠟狀芽孢桿菌毒素）污染嬰兒配方奶粉的風險已降低，但仍需持續監測。</p>
+
+ECDC 與 EFSA 於 2 月 19 日發布快速疫情評估（ROA）更新：
+
+**核心發現**：
+- 由於產品回收措施持續執行，暴露風險已降低
+- Cereulide 是蠟狀芽孢桿菌（Bacillus cereus）產生的毒素
+- 可能導致嘔吐型食源性疾病
+
+**公衛意義**：
+- 回收措施有效降低公眾暴露風險
+- 持續監測以確保無新增病例
+- 提醒家長檢查家中是否有召回產品
+
+來源：ecdc_cdtr/risk_assessment/2026-02-19-lower-risk-exposure-cereulide-infant-formula.md **[2/19 更新]**
+
+##### 歷史參考 [語意搜尋]
+
+| 日期 | 標題 | 來源 | 相關分數 |
+|------|------|------|----------|
+| 2026-01-28 | Precautionary global recall of infant nutrition products | ECDC | 0.74 |
+| 2023-03-02 | Cronobacter sakazakii Infections in Infants Linked to Powdered Formula | US CDC MMWR | 0.56 |
+
 #### RSV 疫苗計畫進展 — 英國
 
 <p class="key-answer" data-question="英國 RSV 疫苗計畫針對哪些人群">英國 RSV 疫苗計畫針對孕婦（保護嬰兒）、75 歲以上長者及老年護理機構住民提供疫苗接種。</p>
@@ -563,12 +599,19 @@ UKHSA 於 2 月 16 日發起新一波兒童疫苗接種宣傳活動：
 - 400 名接觸者監測至 2 月 28 日
 - 2025 年台灣累計 53 例（境外移入 34 例，其中越南 30 例）
 
+**英國麻疹流行病學報告（2/19 更新）**：
+- UKHSA 發布 2023-2026 年英格蘭麻疹流行病學研究報告
+- 提供實驗室確診病例的完整統計數據
+- 為評估疫苗接種計劃成效提供關鍵監測指標
+
 **全球疫情**：
 - 歐洲 2025 年共報告 7,655 例麻疹病例，80% 未接種疫苗
 - 墨西哥今年 1 月已報告 740 例
 - 疾管署針對越南等 7 國發布第二級旅遊警示
 
-來源：tw_cdc_alerts/imported_case/2026-02-12-measles-imported-case-vietnam.md
+來源：
+- tw_cdc_alerts/imported_case/2026-02-12-measles-imported-case-vietnam.md
+- uk_ukhsa_updates/research/2026-02-19-measles-epidemiology-2023-to-2026.md **[2/19 更新]**
 
 ##### 歷史參考 [語意搜尋]
 
@@ -702,10 +745,12 @@ UKHSA 於 2 月 18 日更新狂犬病暴露前疫苗申請表單：
 
 ### 歐洲 (ECDC)
 
-**第 8 週主要動態（2026/2/14-2/19）**
+**第 8 週主要動態（2026/2/14-2/22）**
 
 | 威脅項目 | 狀態 |
 |----------|------|
+| 第 8 週 CDTR 報告 | 呼吸道病毒、禽流感、猴痘監測 **[2/20 更新]** |
+| 嬰兒配方奶粉召回 | 風險評估更新，暴露風險降低 **[2/19 更新]** |
 | 食源性細菌抗藥性 | ECDC/EFSA 聯合警告 **[本週新增]** |
 | RSV 疫苗計畫 | 英國發布 PGD 範本 |
 | 國際合作 | PHAC 訪問 ECDC |
@@ -714,6 +759,8 @@ UKHSA 於 2 月 18 日更新狂犬病暴露前疫苗申請表單：
 | 呼吸道病毒 | EU/EEA 持續監測 |
 
 **本週重要發布**：
+- **第 8 週 CDTR 報告**（2/20）：呼吸道病毒、禽流感、猴痘監測更新 **[2/20 更新]**
+- **嬰兒配方奶粉召回風險評估**（2/19）：cereulide 暴露風險已降低 **[2/19 更新]**
 - **食源性細菌抗藥性聯合報告**（2/18）：環丙沙星抗藥性高企，碳青黴烯酶產生型大腸桿菌上升
 - **RSV 疫苗 PGD 範本**（2/17）：支援孕婦及長者疫苗接種計畫
 - **兒童疫苗接種宣傳**（2/16）：提升 MMR 等疫苗接種率
@@ -725,6 +772,12 @@ UKHSA 於 2 月 18 日更新狂犬病暴露前疫苗申請表單：
 
 | 類型 | 事件 | 日期 |
 |------|------|------|
+| **指引更新** | **探親訪友旅行移民健康指南** | **2/20** |
+| **指引更新** | **脊髓灰質炎移民健康指南** | **2/20** |
+| **研究報告** | **麻疹流行病學 2023-2026** | **2/19** |
+| 研究報告 | 注射藥物使用者感染報告 | 2/19 |
+| 研究報告 | 活動醫療照護快速範疇文獻回顧 | 2/19 |
+| 監測系統 | GUMCAD 性傳染病監測系統 | 2/19 |
 | **監測報告** | **首份寒冷死亡率報告** | **2/18** |
 | **指引更新** | **HCID 國家風險清單** | **2/18** |
 | 指引更新 | 狂犬病暴露前疫苗申請表單 | 2/18 |
@@ -738,6 +791,8 @@ UKHSA 於 2 月 18 日更新狂犬病暴露前疫苗申請表單：
 | 監測報告 | RSV 疫苗接種覆蓋率 | 2/12 |
 
 **重點議題**：
+- **移民健康指引更新**：探親訪友旅行及脊髓灰質炎指南（2/20 更新）
+- **麻疹流行病學研究**：2023-2026 年英格蘭麻疹病例完整數據（2/19 更新）
 - **寒冷死亡率監測**：首份年度報告發布，2,544 例死亡與寒冷天氣相關
 - **HCID 風險評估**：更新全球高後果傳染病國家風險清單
 - **疫苗計畫進展**：RSV、MMRV、兒童常規疫苗持續推動
@@ -817,6 +872,26 @@ UKHSA 於 2 月 18 日更新狂犬病暴露前疫苗申請表單：
 - 準備適當的個人防護措施
 - 返國後如有發燒等症狀，主動告知醫療人員旅遊史
 
+### 探親訪友旅行健康指引（VFR）— 新增
+
+<p class="key-answer" data-question="探親訪友旅行者有什麼特殊健康風險">探親訪友旅行者（VFR）通常面臨較高的旅行相關感染風險，因為停留時間較長、接觸當地社區環境、可能忽視旅行前健康諮詢。</p>
+
+UKHSA 於 2/20 更新移民健康指南，針對探親訪友旅行提供專業建議：
+
+**高風險因素**：
+- 前往疾病流行地區
+- 停留時間較長
+- 接觸當地社區環境
+- 可能忽視旅行前健康諮詢
+
+**建議**：
+- 出發前諮詢旅遊醫學門診
+- 確認疫苗接種狀態
+- 攜帶適當的預防藥物（如瘧疾預防藥）
+- 注意食品和飲水衛生
+
+來源：uk_ukhsa_updates/guidance/2026-02-20-travel-to-visit-friends-and-relatives-migrant.md **[2/20 更新]**
+
 ---
 
 ## 公共衛生指引
@@ -886,11 +961,19 @@ UKHSA 於 2 月 18 日更新狂犬病暴露前疫苗申請表單：
 ### 本週引用資料
 
 **ECDC (ecdc_cdtr)**
+- `risk_assessment/2026-02-19-lower-risk-exposure-cereulide-infant-formula.md` **[2/19 更新]**
+- `surveillance/2026-02-20-communicable-disease-threats-report-week-8.md` **[2/20 更新]**
 - `guidance/2026-02-18-antimicrobial-resistance-foodborne-bacteria.md` **[本週新增]**
 - `situational_update/2026-02-16-phac-visits-ecdc-collaboration.md`
 - `surveillance/2026-02-13-communicable-disease-threats-report-7-13-february-2026-week-7.md`
 
 **UK UKHSA (uk_ukhsa_updates)**
+- `research/2026-02-19-measles-epidemiology-2023-to-2026.md` **[2/19 更新]**
+- `research/2026-02-19-shooting-up-infections-among-people-who-inject-drugs.md` **[2/19 更新]**
+- `research/2026-02-19-healthcare-provision-at-events-rapid-scoping-review.md` **[2/19 更新]**
+- `surveillance/2026-02-19-gumcad-sti-surveillance-system.md` **[2/19 更新]**
+- `guidance/2026-02-20-travel-to-visit-friends-and-relatives-migrant.md` **[2/20 更新]**
+- `guidance/2026-02-20-poliomyelitis-and-post-polio-syndrome-migrant.md` **[2/20 更新]**
 - `surveillance/2026-02-18-ukhsa-publishes-first-cold-mortality-report.md` **[本週新增]**
 - `surveillance/2026-02-18-cold-weather-health-impact-report.md` **[本週新增]**
 - `surveillance/2026-02-18-cold-mortality-monitoring-report-england-winter-2024-to-2025.md` **[本週新增]**
@@ -930,6 +1013,9 @@ UKHSA 於 2 月 18 日更新狂犬病暴露前疫苗申請表單：
 
 | 查詢 | 找到筆數 | 最高相關分數 |
 |------|----------|--------------|
+| cereulide infant formula contamination Bacillus cereus | 5 | 0.74 |
+| measles epidemiology outbreak vaccination England 2025 2026 | 5 | 0.73 |
+| poliomyelitis polio vaccination migrant health | 5 | 0.76 |
 | antimicrobial resistance foodborne bacteria Salmonella | 5 | 0.65 |
 | cold weather mortality winter health England | 5 | 0.72 |
 | RSV respiratory syncytial virus vaccine | 8 | 0.72 |
@@ -993,5 +1079,5 @@ EpiAlert AI 編輯. (2026, February 18). 傳染病威脅週報 2026-W08. EpiAler
 
 ---
 
-*報告產出時間: 2026-02-19T14:00:00+08:00*
+*報告產出時間: 2026-02-22T10:00:00+08:00*
 *下次更新: 2026-02-25 (2026-W09 週報)*
