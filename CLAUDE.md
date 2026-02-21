@@ -6,6 +6,33 @@
 
 ---
 
+## 預設授權（免詢問）
+
+以下操作已獲得永久授權，執行時**不需要詢問使用者**：
+
+### Shell 腳本執行
+- `bash core/Extractor/Layers/*/fetch.sh` — 所有 Layer 的資料擷取
+- `bash core/Extractor/Layers/*/update.sh` — 所有 Layer 的 Qdrant 更新
+- `source lib/quality-gate.sh && qg_run_all` — 品質關卡驗證
+- `source lib/dedup.sh && dedup_*` — 去重函式
+- `source lib/report.sh && report_*` — 報告產出函式
+
+### 檔案寫入
+- `docs/Extractor/*/` — 萃取結果目錄
+- `docs/Narrator/*/` — 報告產出目錄
+- `docs/index.md` — 首頁時間戳更新
+
+### Git 操作
+- `git add docs/` — 加入文件變更
+- `git commit` — 建立提交（使用標準格式）
+- `git push origin main` — 推送到主分支
+
+### 其他
+- 背景執行 Task（`run_in_background: true`）
+- 平行執行多個 Task（單一訊息多個 tool call）
+
+---
+
 ## 快速指令
 
 | 指令 | 說明 |
