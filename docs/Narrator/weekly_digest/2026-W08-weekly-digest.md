@@ -3,7 +3,7 @@ nav_exclude: true
 title: '傳染病威脅週報 2026-W08'
 layout: default
 datePublished: '2026-02-18T12:00:00+08:00'
-dateModified: '2026-02-22T10:00:00+08:00'
+dateModified: '2026-02-23T12:00:00+08:00'
 seo:
   meta:
     title: '傳染病威脅週報 2026-W08 | EpiAlert 疫情快訊'
@@ -31,7 +31,7 @@ seo:
           '@type': 'ImageObject'
           url: 'https://epialert.weiqi.kids/assets/images/logo.png'
         datePublished: '2026-02-18T12:00:00+08:00'
-        dateModified: '2026-02-22T10:00:00+08:00'
+        dateModified: '2026-02-23T12:00:00+08:00'
         speakable:
           '@type': 'SpeakableSpecification'
           cssSelector:
@@ -63,7 +63,7 @@ seo:
         publisher:
           '@id': 'https://epialert.weiqi.kids#organization'
         datePublished: '2026-02-18T12:00:00+08:00'
-        dateModified: '2026-02-22T10:00:00+08:00'
+        dateModified: '2026-02-23T12:00:00+08:00'
         articleSection: '週報'
         keywords: 'RSV, 呼吸道融合病毒, 疫苗, 麻疹, 百日咳, 猴痘, Mpox, 禽流感, H5N1, 抗生素抗藥性, AMR, 寒冷死亡率, HCID, 傳染病監測, 疫情週報'
         wordCount: 7500
@@ -160,7 +160,7 @@ seo:
         about: '與上週疫情比較'
         description: '新增威脅、升級警示、持續關注、已解除項目的完整比較'
   ymyl:
-    lastReviewed: '2026-02-22T10:00:00+08:00'
+    lastReviewed: '2026-02-23T12:00:00+08:00'
     reviewedBy: 'EpiAlert AI 編輯'
     medicalDisclaimer: '本報告由自動化系統生成，僅供參考用途。報告內容基於公開資訊來源，不構成醫療建議、官方政策或專業診斷。使用者應自行驗證資訊並諮詢專業人士。'
 ---
@@ -1079,5 +1079,5 @@ EpiAlert AI 編輯. (2026, February 18). 傳染病威脅週報 2026-W08. EpiAler
 
 ---
 
-*報告產出時間: 2026-02-22T10:00:00+08:00*
-*下次更新: 2026-02-25 (2026-W09 週報)*
+*報告產出時間: 2026-02-23T12:00:00+08:00*
+*下次更新: 2026-03-02 (2026-W09 週報)*
