@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "National HIV Testing Day --- June 27, 2019"
+title: "National HIV Testing Day lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- June 27, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399472"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

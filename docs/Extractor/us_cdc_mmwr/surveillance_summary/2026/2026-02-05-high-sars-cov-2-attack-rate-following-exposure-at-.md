@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "High SARS-CoV-2 Attack Rate Following Exposure at a Choir Practice --- Skagit County, Washington, March 2020"
+title: "High SARS-CoV-2 Attack Rate Following Exposure at a Choir Practice lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- Skagit County, Washington, March 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406955"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

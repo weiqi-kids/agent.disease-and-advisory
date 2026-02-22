@@ -6,6 +6,10 @@ source_url: https://www.ecdc.europa.eu/en/news-events/public-health-agency-canad
 date: 2026-02-16
 source_layer: ecdc_cdtr
 category: situational_update
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 # Public Health Agency of Canada visits ECDC for enhanced collaboration and to strengthen global health security

@@ -79,6 +79,8 @@ seo:
           position: 4
           name: "Estimates of Bivalent mRNA Vaccine Durability in Preventing COVID-19-Associated Hospitalization and Critical Illness Among Adults with and Without Immunocompromising Conditions - VISION Network, September 2022-April 2023"
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     is_ymyl: true
     category: health
     disclaimer: "本內容僅供參考，不構成醫療建議。如需專業醫療諮詢，請聯繫合格的醫療保健提供者。"

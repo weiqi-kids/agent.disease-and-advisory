@@ -4,6 +4,10 @@ layout: single
 has_children: false
 parent: surveillance_summary
 grand_parent: US CDC MMWR
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 # surveillance_summary - 2026

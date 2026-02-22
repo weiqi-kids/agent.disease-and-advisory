@@ -71,6 +71,8 @@ seo:
           position: 4
           name: "SARS-CoV-2 Antibody Responses to the Ancestral SARS-CoV-2 Strain and Omicron BA.1 and BA.4/BA.5 Variants in Nursing Home Residents After Receipt of Bivalent COVID-19 Vaccine - Ohio and Rhode Island, September-November 2022"
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     disclaimer: "本文內容由 AI 自動萃取自 CDC MMWR 公開資料，僅供參考。任何醫療決策應諮詢合格醫療專業人員。"
     content_type: "health"
     last_reviewed: "2026-02-05"

@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "Notes from the Field: Targeted Biomonitoring for GenX and Other Per- and Polyfluoroalkyl Substances Following Detection of Drinking Water Contamination --- North Carolina, 2018 "
+title: "Notes from the Field: Targeted Biomonitoring for GenX and Other Per- and Polyfluoroalkyl Substances Following Detection of Drinking Water Contamination lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- North Carolina, 2018 "
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=400990"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

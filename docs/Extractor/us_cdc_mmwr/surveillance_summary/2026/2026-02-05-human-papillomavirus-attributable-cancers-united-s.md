@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "Human Papillomavirus-Attributable Cancers --- United States, 2012--2016"
+title: "Human Papillomavirus-Attributable Cancers lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- United States, 2012--2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401262"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

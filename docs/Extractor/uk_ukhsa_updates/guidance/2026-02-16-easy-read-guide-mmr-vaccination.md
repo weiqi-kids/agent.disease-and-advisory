@@ -7,6 +7,10 @@ date: 2026-02-16
 source_layer: uk_ukhsa_updates
 category: guidance
 diseases: ["MMR", "Measles", "Mumps", "Rubella"]
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 # Easy read guide to the MMR vaccination

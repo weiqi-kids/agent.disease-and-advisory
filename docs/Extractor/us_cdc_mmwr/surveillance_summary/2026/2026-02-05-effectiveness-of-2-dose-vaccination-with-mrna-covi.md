@@ -79,6 +79,8 @@ seo:
           position: 4
           name: "Effectiveness of 2-Dose Vaccination with mRNA COVID-19 Vaccines Against COVID-19-Associated Hospitalizations Among Immunocompromised Adults - Nine States, January-September 2021"
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     is_ymyl: true
     category: health
     disclaimer: "本內容僅供參考，不構成醫療建議。如需專業醫療諮詢，請聯繫合格的醫療保健提供者。"

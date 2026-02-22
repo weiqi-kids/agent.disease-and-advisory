@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "QuickStats: Percentage of Persons in Families Having Problems Paying Medical Bills in the Past 12 Months, by Age Group --- National Health Interview Survey, 2011--2017"
+title: "QuickStats: Percentage of Persons in Families Having Problems Paying Medical Bills in the Past 12 Months, by Age Group lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- National Health Interview Survey, 2011--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397318"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

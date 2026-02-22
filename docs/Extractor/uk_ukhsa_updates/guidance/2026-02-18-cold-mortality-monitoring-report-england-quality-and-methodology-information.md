@@ -11,6 +11,10 @@ diseases: []
 regions: ["England"]
 description: "Quality and methodology information for cold mortality monitoring reports in England, explaining data sources, modeling approach, and limitations."
 language: en
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

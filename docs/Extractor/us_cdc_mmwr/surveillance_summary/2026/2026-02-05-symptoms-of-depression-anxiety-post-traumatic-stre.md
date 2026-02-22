@@ -75,6 +75,8 @@ seo:
 confidence: 高
 mmwr_volume: ""
 mmwr_issue: ""
+lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

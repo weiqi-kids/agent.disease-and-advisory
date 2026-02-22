@@ -71,6 +71,8 @@ seo:
           position: 4
           name: "Safety Monitoring of mRNA COVID-19 Vaccine Third Doses Among Children Aged 6 Months-5 Years - United States, June 17, 2022-May 7, 2023"
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     disclaimer: "本文內容由 AI 自動萃取自 CDC MMWR 公開資料，僅供參考。任何醫療決策應諮詢合格醫療專業人員。"
     content_type: "health"
     last_reviewed: "2026-02-05"

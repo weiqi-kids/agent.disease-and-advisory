@@ -79,6 +79,8 @@ seo:
           position: 4
           name: "Evaluation of Syndromic Surveillance Data for Studying Harmful Algal Bloom-Associated Illnesses - United States, 2017-2019"
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     is_ymyl: true
     category: health
     disclaimer: "本內容僅供參考，不構成醫療建議。如需專業醫療諮詢，請聯繫合格的醫療保健提供者。"

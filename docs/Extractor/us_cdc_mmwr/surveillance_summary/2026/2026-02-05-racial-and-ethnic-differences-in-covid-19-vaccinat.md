@@ -71,6 +71,8 @@ seo:
           position: 4
           name: "Racial and Ethnic Differences in COVID-19 Vaccination Coverage Among Children and Adolescents Aged 5-17 Years and Parental Intent to Vaccinate Their Children - National Immunization Survey-Child COVID Module, United States, December 2020-September 2022"
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     disclaimer: "本文內容由 AI 自動萃取自 CDC MMWR 公開資料，僅供參考。任何醫療決策應諮詢合格醫療專業人員。"
     content_type: "health"
     last_reviewed: "2026-02-05"

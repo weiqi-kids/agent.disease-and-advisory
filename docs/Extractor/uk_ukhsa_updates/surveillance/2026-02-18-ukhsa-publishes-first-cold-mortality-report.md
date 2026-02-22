@@ -11,6 +11,10 @@ diseases: ["Influenza", "Pneumonia", "Cardiovascular disease"]
 regions: ["England"]
 description: "UKHSA's inaugural cold mortality report reveals 2,544 deaths linked to cold weather in England during winter 2024-2025, with older adults and those with chronic conditions most affected."
 language: zh
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

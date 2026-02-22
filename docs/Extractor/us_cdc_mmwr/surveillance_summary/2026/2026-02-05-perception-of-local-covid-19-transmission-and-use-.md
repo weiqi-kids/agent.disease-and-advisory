@@ -78,6 +78,8 @@ seo:
             position: 3
             name: 'Perception of Local COVID-19 Transmission and Use of Preventive Behaviors Among Adults with Recent SARS-CoV-2 Infection - Illinois and Michigan, June 1-July 31, 2022'
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     disclaimer: 本文內容僅供參考，不構成專業醫療建議。如有健康疑慮，請諮詢合格醫療人員。
     sources:
       - 'https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=732755'

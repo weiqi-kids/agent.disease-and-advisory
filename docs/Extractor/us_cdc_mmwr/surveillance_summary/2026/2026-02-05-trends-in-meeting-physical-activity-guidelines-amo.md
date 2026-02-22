@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "Trends in Meeting Physical Activity Guidelines Among Urban and Rural Dwelling Adults --- United States, 2008--2017"
+title: "Trends in Meeting Physical Activity Guidelines Among Urban and Rural Dwelling Adults lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- United States, 2008--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399044"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

@@ -4,6 +4,10 @@ layout: default
 parent: 資料來源
 has_children: false
 nav_order: 1
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 # US Travel Health Notices
@@ -33,7 +37,7 @@ nav_order: 1
 
 | 分類 | 說明 | 數量 |
 |------|------|------|
-| [level_1_watch](level_1_watch/) | Level 1 - 注意 (Watch)：一般預防措施 | 11 |
-| [level_2_practice](level_2_practice/) | Level 2 - 加強預防 (Practice Enhanced Precautions) | 9 |
-| [level_3_avoid](level_3_avoid/) | Level 3 - 避免非必要旅行 (Avoid Nonessential Travel) | 0 |
-| [archived](archived/) | 已結束警示 | 0 |
+| [level_1_watch](level_1_watch) | Level 1 - 注意 (Watch)：一般預防措施 | 11 |
+| [level_2_practice](level_2_practice) | Level 2 - 加強預防 (Practice Enhanced Precautions) | 9 |
+| [level_3_avoid](level_3_avoid) | Level 3 - 避免非必要旅行 (Avoid Nonessential Travel) | 0 |
+| [archived](archived) | 已結束警示 | 0 |

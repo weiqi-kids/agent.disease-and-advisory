@@ -91,6 +91,8 @@ seo:
       - .expert-quote
       - .actionable-steps li
       - .faq-answer-content
+lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

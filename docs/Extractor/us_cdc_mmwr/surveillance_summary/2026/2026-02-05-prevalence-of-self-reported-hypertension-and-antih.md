@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "Prevalence of Self-Reported Hypertension and Antihypertensive Medication Use Among Adults --- United States, 2017"
+title: "Prevalence of Self-Reported Hypertension and Antihypertensive Medication Use Among Adults lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- United States, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406046"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

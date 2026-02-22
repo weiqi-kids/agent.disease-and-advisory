@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "Trends in the Laboratory Detection of Rotavirus Before and After Implementation of Routine Rotavirus Vaccination --- United States, 2000--2018"
+title: "Trends in the Laboratory Detection of Rotavirus Before and After Implementation of Routine Rotavirus Vaccination lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- United States, 2000--2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399276"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

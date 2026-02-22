@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "QuickStats:  Percentage of Currently Employed Adults Who Have Paid Sick Leave, by Industry --- National Health Interview Survey, 2009 and 2018"
+title: "QuickStats:  Percentage of Currently Employed Adults Who Have Paid Sick Leave, by Industry lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- National Health Interview Survey, 2009 and 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401381"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

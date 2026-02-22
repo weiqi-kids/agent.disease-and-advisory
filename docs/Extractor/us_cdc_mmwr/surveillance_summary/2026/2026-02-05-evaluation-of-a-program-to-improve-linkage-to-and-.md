@@ -79,6 +79,8 @@ seo:
           position: 4
           name: "Evaluation of a Program to Improve Linkage to and Retention in Care Among Refugees with Hepatitis B Virus Infection - Three U.S. Cities, 2006-2018"
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     is_ymyl: true
     category: health
     disclaimer: "本內容僅供參考，不構成醫療建議。如需專業醫療諮詢，請聯繫合格的醫療保健提供者。"

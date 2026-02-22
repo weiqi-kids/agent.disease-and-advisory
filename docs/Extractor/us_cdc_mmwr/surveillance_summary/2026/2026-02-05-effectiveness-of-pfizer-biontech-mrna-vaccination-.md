@@ -79,6 +79,8 @@ seo:
           position: 4
           name: "Effectiveness of Pfizer-BioNTech mRNA Vaccination Against COVID-19 Hospitalization Among Persons Aged 12-18 Years - United States, June-September 2021"
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     is_ymyl: true
     category: health
     disclaimer: "本內容僅供參考，不構成醫療建議。如需專業醫療諮詢，請聯繫合格的醫療保健提供者。"

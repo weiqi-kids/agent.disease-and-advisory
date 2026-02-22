@@ -4,6 +4,10 @@ layout: default
 parent: 資料來源
 has_children: false
 nav_order: 1
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 # ECDC CDTR
@@ -33,8 +37,8 @@ nav_order: 1
 
 | Category | 說明 |
 |----------|------|
-| [guidance](guidance/) | 指引與公告 |
-| [risk_assessment](risk_assessment/) | 風險評估 |
-| [situational_update](situational_update/) | 情勢更新 |
-| [surveillance](surveillance/) | 監測報告 |
-| [outbreak_report](outbreak_report/) | 疫情報告 |
+| [guidance](guidance) | 指引與公告 |
+| [risk_assessment](risk_assessment) | 風險評估 |
+| [situational_update](situational_update) | 情勢更新 |
+| [surveillance](surveillance) | 監測報告 |
+| [outbreak_report](outbreak_report) | 疫情報告 |

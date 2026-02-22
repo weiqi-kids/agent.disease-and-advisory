@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: 'Notes from the Field: Identification of a Triatoma sanguisuga "Kissing Bug" --- Delaware, 2018'
+title: 'Notes from the Field: Identification of a Triatoma sanguisuga "Kissing Bug" lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- Delaware, 2018'
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397483"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

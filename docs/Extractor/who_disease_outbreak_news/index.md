@@ -4,6 +4,10 @@ layout: default
 parent: 資料來源
 has_children: false
 nav_order: 1
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 # WHO Disease Outbreak News
@@ -33,8 +37,8 @@ nav_order: 1
 
 | 分類 | 說明 | 數量 |
 |------|------|------|
-| [outbreak](outbreak/) | 疫情爆發通報 | 49 |
-| [update](update/) | 疫情更新報告 | 45 |
-| [emergence](emergence/) | 新興疾病出現 | 4 |
-| [investigation](investigation/) | 疾病調查報告 | 2 |
-| [emergency](emergency/) | 緊急公衛事件 | 0 |
+| [outbreak](outbreak) | 疫情爆發通報 | 49 |
+| [update](update) | 疫情更新報告 | 45 |
+| [emergence](emergence) | 新興疾病出現 | 4 |
+| [investigation](investigation) | 疾病調查報告 | 2 |
+| [emergency](emergency) | 緊急公衛事件 | 0 |

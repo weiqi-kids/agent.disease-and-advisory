@@ -79,6 +79,8 @@ seo:
           position: 4
           name: "Effectiveness of Monovalent mRNA Vaccines Against COVID-19-Associated Hospitalization Among Immunocompetent Adults During BA.1/BA.2 and BA.4/BA.5 Predominant Periods of SARS-CoV-2 Omicron Variant in the United States - IVY Network, 18 States, December 26, 2021-August 31, 2022"
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     is_ymyl: true
     category: health
     disclaimer: "本內容僅供參考，不構成醫療建議。如需專業醫療諮詢，請聯繫合格的醫療保健提供者。"

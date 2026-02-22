@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "Prevalence of Violence Victimization and Perpetration Among Persons Aged 13-24 Years --- Four Sub-Saharan African Countries, 2013--2015"
+title: "Prevalence of Violence Victimization and Perpetration Among Persons Aged 13-24 Years lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- Four Sub-Saharan African Countries, 2013--2015"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397478"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

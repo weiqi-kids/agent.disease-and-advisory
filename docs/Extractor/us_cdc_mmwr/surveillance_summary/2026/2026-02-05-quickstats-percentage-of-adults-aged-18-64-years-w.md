@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "QuickStats: Percentage of Adults Aged 18-64 Years Who Had Seen or Talked to a Health Care Professional in the Past 12 Months, by Race/Ethnicity --- National Health Interview Survey, 2012--2013 and 2017--2018"
+title: "QuickStats: Percentage of Adults Aged 18-64 Years Who Had Seen or Talked to a Health Care Professional in the Past 12 Months, by Race/Ethnicity lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- National Health Interview Survey, 2012--2013 and 2017--2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402751"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

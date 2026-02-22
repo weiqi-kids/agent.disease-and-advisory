@@ -79,6 +79,8 @@ seo:
           position: 4
           name: "Effectiveness of COVID-19 Pfizer-BioNTech BNT162b2 mRNA Vaccination in Preventing COVID-19-Associated Emergency Department and Urgent Care Encounters and Hospitalizations Among Nonimmunocompromised Children and Adolescents Aged 5-17 Years - VISION Network, 10 States, April 2021-January 2022"
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     is_ymyl: true
     category: health
     disclaimer: "本內容僅供參考，不構成醫療建議。如需專業醫療諮詢，請聯繫合格的醫療保健提供者。"

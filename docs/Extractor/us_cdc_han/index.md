@@ -4,6 +4,10 @@ layout: default
 parent: 資料來源
 has_children: false
 nav_order: 1
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 # US CDC Health Alert Network
@@ -22,7 +26,7 @@ nav_order: 1
 
 | 分類 | 說明 | 數量 |
 |------|------|------|
-| [advisory](advisory/) | 諮詢建議 | 0 |
-| [alert](alert/) | 緊急警報 | 0 |
-| [information](information/) | 一般資訊 | 0 |
-| [update](update/) | 更新通知 | 0 |
+| [advisory](advisory) | 諮詢建議 | 0 |
+| [alert](alert) | 緊急警報 | 0 |
+| [information](information) | 一般資訊 | 0 |
+| [update](update) | 更新通知 | 0 |

@@ -11,6 +11,10 @@ diseases: ["blood-borne infections", "HIV", "hepatitis B", "hepatitis C"]
 regions: ["United Kingdom"]
 description: "Comprehensive UKHSA report on infections and injecting-related harms among people who inject drugs across the UK"
 language: en
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

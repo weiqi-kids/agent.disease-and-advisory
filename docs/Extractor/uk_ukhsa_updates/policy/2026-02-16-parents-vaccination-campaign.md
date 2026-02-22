@@ -6,6 +6,10 @@ source_url: https://www.gov.uk/government/news/parents-urged-to-protect-children
 date: 2026-02-16
 source_layer: uk_ukhsa_updates
 category: policy
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 # Parents urged to protect children through vaccination campaign

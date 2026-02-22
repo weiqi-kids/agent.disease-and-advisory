@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "HIV Partner Service Delivery Among Transgender Women --- United States, 2013--2017"
+title: "HIV Partner Service Delivery Among Transgender Women lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- United States, 2013--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403144"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

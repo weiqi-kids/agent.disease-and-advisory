@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "State-Specific Prevalence and Characteristics of Frequent Mental Distress and History of Depression Diagnosis Among Adults with Arthritis --- United States, 2017"
+title: "State-Specific Prevalence and Characteristics of Frequent Mental Distress and History of Depression Diagnosis Among Adults with Arthritis lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- United States, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=402974"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

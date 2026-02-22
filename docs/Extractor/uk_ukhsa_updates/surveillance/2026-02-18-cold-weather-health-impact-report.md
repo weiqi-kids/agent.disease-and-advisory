@@ -11,6 +11,10 @@ diseases: ["Influenza", "Pneumonia", "Cardiovascular disease", "Dementia"]
 regions: ["England"]
 description: "UKHSA's cold mortality report reveals that cold weather causes hidden health impacts beyond hypothermia, with 2,544 deaths linked to cold during winter 2024-2025, primarily through heart attacks, strokes, and respiratory problems."
 language: zh
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

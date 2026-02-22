@@ -11,6 +11,10 @@ diseases: []
 regions: ["United Kingdom"]
 description: "UKHSA rapid scoping review identifying and summarizing existing UK guidance on healthcare provision at public events"
 language: en
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

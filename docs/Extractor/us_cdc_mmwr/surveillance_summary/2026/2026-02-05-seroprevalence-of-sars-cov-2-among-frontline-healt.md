@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "Seroprevalence of SARS-CoV-2 Among Frontline Health Care Personnel in a Multistate Hospital Network --- 13 Academic Medical Centers, April--June 2020"
+title: "Seroprevalence of SARS-CoV-2 Among Frontline Health Care Personnel in a Multistate Hospital Network lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- 13 Academic Medical Centers, April--June 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410765"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "National Black HIV/AIDS Awareness Day --- February 7, 2020"
+title: "National Black HIV/AIDS Awareness Day lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- February 7, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=403402"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "State-Specific Prevalence of Quit Attempts Among Adult Cigarette Smokers --- United States, 2011--2017"
+title: "State-Specific Prevalence of Quit Attempts Among Adult Cigarette Smokers lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- United States, 2011--2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399724"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

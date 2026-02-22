@@ -10,6 +10,10 @@ feed_source: "ukhsa_official"
 diseases: []
 regions: ["England"]
 description: "Lists of individuals and organizations receiving pre-release access to UKHSA cold mortality monitoring reports for transparency and governance purposes."
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

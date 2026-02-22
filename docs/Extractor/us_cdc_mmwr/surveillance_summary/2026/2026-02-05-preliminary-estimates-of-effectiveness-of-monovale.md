@@ -78,6 +78,8 @@ seo:
             position: 3
             name: 'Preliminary Estimates of Effectiveness of Monovalent mRNA Vaccines in Preventing Symptomatic SARS-CoV-2 Infection Among Children Aged 3-5 Years - Increasing Community Access to Testing Program, United States, July 2022-February 2023'
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     disclaimer: 本文內容僅供參考，不構成專業醫療建議。如有健康疑慮，請諮詢合格醫療人員。
     sources:
       - 'https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=733848'

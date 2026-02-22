@@ -10,6 +10,10 @@ feed_source: "news"
 diseases: ["Cereulide contamination", "Foodborne illness"]
 regions: ["European countries"]
 description: "ECDC and EFSA rapid outbreak assessment on infant formula recall due to cereulide detection, concluding low current exposure risk."
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

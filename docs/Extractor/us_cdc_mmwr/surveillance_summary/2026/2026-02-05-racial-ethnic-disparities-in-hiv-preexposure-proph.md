@@ -71,6 +71,8 @@ seo:
           position: 4
           name: "Racial/Ethnic Disparities in HIV Preexposure Prophylaxis Among Men Who Have Sex with Men - 23 Urban Areas, 2017"
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     disclaimer: "本文內容由 AI 自動萃取自 CDC MMWR 公開資料，僅供參考。任何醫療決策應諮詢合格醫療專業人員。"
     content_type: "health"
     last_reviewed: "2026-02-05"

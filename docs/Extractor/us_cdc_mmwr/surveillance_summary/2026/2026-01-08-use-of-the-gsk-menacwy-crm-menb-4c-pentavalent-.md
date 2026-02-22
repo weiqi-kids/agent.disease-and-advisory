@@ -7,6 +7,10 @@ source_layer: us_cdc_mmwr
 category: surveillance_summary
 date: 2026-01-08
 confidence: 高
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

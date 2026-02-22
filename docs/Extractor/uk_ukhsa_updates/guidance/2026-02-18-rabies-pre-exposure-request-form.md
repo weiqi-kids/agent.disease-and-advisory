@@ -11,6 +11,10 @@ diseases: ["Rabies"]
 regions: ["England", "Wales"]
 description: "Request form for non-travel pre-exposure rabies vaccine for occupational risk groups in England and Wales, including bat handlers."
 language: en
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

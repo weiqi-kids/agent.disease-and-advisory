@@ -10,6 +10,10 @@ feed_source: "news"
 diseases: ["Antimicrobial Resistance", "Salmonellosis", "Campylobacteriosis"]
 regions: ["EU/EEA"]
 description: "ECDC and EFSA report high ciprofloxacin resistance in Salmonella and Campylobacter, with carbapenemase-producing E. coli detections increasing across Europe."
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

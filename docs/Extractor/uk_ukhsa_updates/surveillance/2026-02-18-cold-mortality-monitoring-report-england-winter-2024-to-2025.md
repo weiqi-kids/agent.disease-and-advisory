@@ -11,6 +11,10 @@ diseases: []
 regions: ["England"]
 description: "Annual surveillance report on mortality during cold episodes in England for winter 2024 to 2025, published by UKHSA."
 language: en
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

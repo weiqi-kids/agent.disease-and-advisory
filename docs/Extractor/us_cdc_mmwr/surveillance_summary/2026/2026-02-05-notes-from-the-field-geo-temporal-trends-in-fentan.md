@@ -78,6 +78,8 @@ seo:
             position: 3
             name: 'Notes from the Field: Geo-Temporal Trends in Fentanyl Administration Routes Among Adults Reporting Use of Illegally Manufactured Fentanyl When Assessed for Substance-Use Treatment - 14 U.S. States, 2017-2023'
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     disclaimer: 本文內容僅供參考，不構成專業醫療建議。如有健康疑慮，請諮詢合格醫療人員。
     sources:
       - 'https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=755751'

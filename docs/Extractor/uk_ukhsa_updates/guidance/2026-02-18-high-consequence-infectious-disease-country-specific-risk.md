@@ -10,6 +10,10 @@ feed_source: "ukhsa_official"
 diseases: ["Ebola", "Marburg virus", "Crimean-Congo Haemorrhagic Fever", "Nipah virus", "Lassa fever", "Avian influenza", "MERS", "SARS", "Plague", "SFTS"]
 regions: ["Global"]
 description: "UKHSA guidance listing countries with known occurrences of high consequence infectious diseases (HCIDs), including risk categories and recent outbreak alerts."
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

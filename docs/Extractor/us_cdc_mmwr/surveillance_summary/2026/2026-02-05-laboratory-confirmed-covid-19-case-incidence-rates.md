@@ -86,6 +86,8 @@ seo:
           position: 5
           name: 'Laboratory-Confirmed COVID-19 Case Incidence Rates Among Residents in Nursing Homes by Up-to-Date Vaccination Status - United States, October 10, 2022-January 8, 2023'
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     medical_disclaimer: '本內容由 EpiAlert AI 系統自動萃取自 CDC MMWR 官方資料，僅供參考。如有醫療需求，請諮詢專業醫療人員。'
     source_attribution: '資料來源：CDC MMWR (Centers for Disease Control and Prevention Morbidity and Mortality Weekly Report)'
     last_verified: '2023-01-26T00:00:00+00:00'

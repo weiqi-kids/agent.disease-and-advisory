@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "Nonfatal Occupational Injuries to Younger Workers --- United States, 2012-2018"
+title: "Nonfatal Occupational Injuries to Younger Workers lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- United States, 2012-2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=410949"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

@@ -4,6 +4,10 @@ layout: default
 parent: 資料來源
 has_children: false
 nav_order: 1
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 # US CDC MMWR
@@ -33,8 +37,8 @@ nav_order: 1
 
 | 分類 | 說明 | 數量 |
 |------|------|------|
-| [case_series](case_series/) | 病例系列報告 | 282 |
-| [outbreak_report](outbreak_report/) | 疫情爆發報告 | 271 |
-| [scientific_report](scientific_report/) | 科學研究報告 | 41 |
-| [surveillance_summary](surveillance_summary/) | 監測數據摘要 | 1196 |
-| [vital_statistics](vital_statistics/) | 生命統計數據 | 214 |
+| [case_series](case_series) | 病例系列報告 | 282 |
+| [outbreak_report](outbreak_report) | 疫情爆發報告 | 271 |
+| [scientific_report](scientific_report) | 科學研究報告 | 41 |
+| [surveillance_summary](surveillance_summary) | 監測數據摘要 | 1196 |
+| [vital_statistics](vital_statistics) | 生命統計數據 | 214 |

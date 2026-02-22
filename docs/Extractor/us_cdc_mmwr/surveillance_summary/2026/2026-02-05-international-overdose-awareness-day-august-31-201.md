@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "International Overdose Awareness Day --- August 31, 2019"
+title: "International Overdose Awareness Day lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- August 31, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=401376"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

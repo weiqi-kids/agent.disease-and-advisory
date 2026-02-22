@@ -78,6 +78,8 @@ seo:
             position: 3
             name: 'Post-COVID-19 Symptoms and Conditions Among Children and Adolescents - United States, March 1, 2020-January 31, 2022'
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     disclaimer: 本文內容僅供參考，不構成專業醫療建議。如有健康疑慮，請諮詢合格醫療人員。
     sources:
       - 'https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=730815'

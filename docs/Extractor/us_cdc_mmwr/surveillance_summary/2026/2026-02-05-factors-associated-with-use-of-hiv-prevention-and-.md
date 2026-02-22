@@ -79,6 +79,8 @@ seo:
           position: 4
           name: "Factors Associated with Use of HIV Prevention and Health Care Among Transgender Women - Seven Urban Areas, 2019-2020"
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     is_ymyl: true
     category: health
     disclaimer: "本內容僅供參考，不構成醫療建議。如需專業醫療諮詢，請聯繫合格的醫療保健提供者。"

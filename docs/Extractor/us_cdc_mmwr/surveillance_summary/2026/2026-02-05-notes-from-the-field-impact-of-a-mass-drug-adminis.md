@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "Notes from the Field: Impact of a Mass Drug Administration Campaign Using a Novel Three-Drug Regimen on Lymphatic Filariasis Antigenemia --- American Samoa, 2019"
+title: "Notes from the Field: Impact of a Mass Drug Administration Campaign Using a Novel Three-Drug Regimen on Lymphatic Filariasis Antigenemia lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- American Samoa, 2019"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407448"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

@@ -78,6 +78,8 @@ seo:
             position: 3
             name: 'Public Attitudes, Behaviors, and Beliefs Related to COVID-19, Stay-at-Home Orders, Nonessential Business Closures, and Public Health Guidance - United States, New York City, and Los Angeles, May 5-12, 2020'
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     disclaimer: 本文內容僅供參考，不構成專業醫療建議。如有健康疑慮，請諮詢合格醫療人員。
     sources:
       - 'https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407957'

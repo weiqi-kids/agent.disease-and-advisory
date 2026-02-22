@@ -11,6 +11,10 @@ diseases: ["sexually transmitted infections"]
 regions: ["England"]
 description: "Information about GUMCAD surveillance system for monitoring sexually transmitted infections in England"
 language: en
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

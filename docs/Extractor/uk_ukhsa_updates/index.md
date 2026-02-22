@@ -4,6 +4,10 @@ layout: default
 parent: 資料來源
 has_children: false
 nav_order: 1
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 # UK UKHSA Updates
@@ -33,8 +37,8 @@ nav_order: 1
 
 | 分類 | 說明 | 數量 |
 |------|------|------|
-| [guidance](guidance/) | 臨床指引與技術文件 | 26 |
-| [surveillance](surveillance/) | 監測報告與統計數據 | 25 |
-| [research](research/) | 研究報告與數據分析 | 20 |
-| [policy](policy/) | 政策公告與優先事項 | 15 |
-| [outbreak](outbreak/) | 疫情爆發通報 | 6 |
+| [guidance](guidance) | 臨床指引與技術文件 | 26 |
+| [surveillance](surveillance) | 監測報告與統計數據 | 25 |
+| [research](research) | 研究報告與數據分析 | 20 |
+| [policy](policy) | 政策公告與優先事項 | 15 |
+| [outbreak](outbreak) | 疫情爆發通報 | 6 |

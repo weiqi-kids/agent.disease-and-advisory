@@ -78,6 +78,8 @@ seo:
             position: 3
             name: 'QuickStats: Age-Adjusted Percentages of Persons of All Ages Who Delayed Seeking Medical Care in the Past 12 Months Because of Worry About Cost, by U.S. Census Region of Residence - National Health Interview Survey, 2012 and 2017'
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     disclaimer: 本文內容僅供參考，不構成專業醫療建議。如有健康疑慮，請諮詢合格醫療人員。
     sources:
       - 'https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397713'

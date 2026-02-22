@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "SURVEILLANCE SUMMARIES: Assisted Reproductive Technology Surveillance --- United States, 2016"
+title: "SURVEILLANCE SUMMARIES: Assisted Reproductive Technology Surveillance lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- United States, 2016"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397587"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

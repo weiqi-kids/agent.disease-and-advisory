@@ -86,6 +86,8 @@ seo:
           position: 5
           name: 'Information for Persons Who Are Immunocompromised Regarding Prevention and Treatment of SARS-CoV-2 Infection in the Context of Currently Circulating Omicron Sublineages - United States, January 2023'
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     medical_disclaimer: '本內容由 EpiAlert AI 系統自動萃取自 CDC MMWR 官方資料,僅供參考。如有醫療需求,請諮詢專業醫療人員。'
     source_attribution: '資料來源:CDC MMWR (Centers for Disease Control and Prevention Morbidity and Mortality Weekly Report)'
     last_verified: '2023-02-02T00:00:00+00:00'

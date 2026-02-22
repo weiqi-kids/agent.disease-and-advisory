@@ -9,6 +9,10 @@ date: 2019-06-20
 confidence: 中
 mmwr_volume: ""
 mmwr_issue: ""
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

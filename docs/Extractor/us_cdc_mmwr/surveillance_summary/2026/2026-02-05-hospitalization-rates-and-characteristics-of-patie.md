@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "Hospitalization Rates and Characteristics of Patients Hospitalized with Laboratory-Confirmed Coronavirus Disease 2019 --- COVID-NET, 14 States, March 1--30, 2020"
+title: "Hospitalization Rates and Characteristics of Patients Hospitalized with Laboratory-Confirmed Coronavirus Disease 2019 lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- COVID-NET, 14 States, March 1--30, 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=406027"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

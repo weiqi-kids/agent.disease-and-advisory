@@ -78,6 +78,8 @@ seo:
             position: 3
             name: 'Notes from the Field: Fatal Anthrax Pneumonia in Welders and Other Metalworkers Caused by Bacillus cereus Group Bacteria Containing Anthrax Toxin Genes - U.S. Gulf Coast States, 1994-2020'
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     disclaimer: 本文內容僅供參考，不構成專業醫療建議。如有健康疑慮，請諮詢合格醫療人員。
     sources:
       - 'https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=427845'

@@ -71,6 +71,8 @@ seo:
           position: 4
           name: "QuickStats: Rates of Emergency Department Visits for Children and Adolescents with Acute Upper Respiratory Infection, by Age Group - United States, 2021-2022"
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     disclaimer: "本文內容由 AI 自動萃取自 CDC MMWR 公開資料，僅供參考。任何醫療決策應諮詢合格醫療專業人員。"
     content_type: "health"
     last_reviewed: "2026-02-05"

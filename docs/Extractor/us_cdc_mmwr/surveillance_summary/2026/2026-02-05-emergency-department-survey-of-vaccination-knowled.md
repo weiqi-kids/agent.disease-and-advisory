@@ -79,6 +79,8 @@ seo:
           position: 4
           name: "Emergency Department Survey of Vaccination Knowledge, Vaccination Coverage, and Willingness to Receive Vaccines in an Emergency Department Among Underserved Populations - Eight U.S. Cities, April-December, 2024"
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     is_ymyl: true
     category: health
     disclaimer: "本內容僅供參考，不構成醫療建議。如需專業醫療諮詢，請聯繫合格的醫療保健提供者。"

@@ -82,6 +82,8 @@ seo:
     sources:
       - 'https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=415325'
     review_status: AI 編輯萃取，建議由專業人員審核
+lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

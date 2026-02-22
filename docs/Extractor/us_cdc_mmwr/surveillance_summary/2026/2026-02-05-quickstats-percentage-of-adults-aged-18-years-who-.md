@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "QuickStats: Percentage of Adults Aged ≥18 Years Who Felt Worried, Nervous, or Anxious Daily or Weekly, by Age Group and Employment Status --- National Health Interview Survey, United States, 2017"
+title: "QuickStats: Percentage of Adults Aged ≥18 Years Who Felt Worried, Nervous, or Anxious Daily or Weekly, by Age Group and Employment Status lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- National Health Interview Survey, United States, 2017"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=397541"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

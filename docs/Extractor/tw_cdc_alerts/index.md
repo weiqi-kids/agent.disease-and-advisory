@@ -4,6 +4,10 @@ layout: default
 parent: 資料來源
 has_children: false
 nav_order: 1
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 # Taiwan CDC Alerts
@@ -33,8 +37,8 @@ nav_order: 1
 
 | 分類 | 說明 | 數量 |
 |------|------|------|
-| [disease_info](disease_info/) | 疾病資訊與衛教 | 99 |
-| [medical_advisory](medical_advisory/) | 醫療機構指引 | 11 |
-| [policy](policy/) | 防疫政策公告 | 20 |
-| [domestic_outbreak](domestic_outbreak/) | 國內疫情通報 | 5 |
-| [imported_case](imported_case/) | 境外移入病例 | 1 |
+| [disease_info](disease_info) | 疾病資訊與衛教 | 99 |
+| [medical_advisory](medical_advisory) | 醫療機構指引 | 11 |
+| [policy](policy) | 防疫政策公告 | 20 |
+| [domestic_outbreak](domestic_outbreak) | 國內疫情通報 | 5 |
+| [imported_case](imported_case) | 境外移入病例 | 1 |

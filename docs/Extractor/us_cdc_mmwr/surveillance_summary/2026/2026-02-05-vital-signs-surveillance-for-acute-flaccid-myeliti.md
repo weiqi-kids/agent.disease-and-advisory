@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "Vital Signs: Surveillance for Acute Flaccid Myelitis --- United States, 2018"
+title: "Vital Signs: Surveillance for Acute Flaccid Myelitis lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- United States, 2018"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=399557"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

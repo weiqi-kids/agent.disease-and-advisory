@@ -1,7 +1,9 @@
 ---
 nav_exclude: true
 layout: default
-title: "High COVID-19 Attack Rate Among Attendees at Events at a Church --- Arkansas, March 2020"
+title: "High COVID-19 Attack Rate Among Attendees at Events at a Church lastReviewed: '2026-02-22'
+reviewedBy: 'EpiAlert AI 編輯'
+--- Arkansas, March 2020"
 source_url: "https://tools.cdc.gov/api/embed/downloader/download.asp?m=342778&c=407189"
 source_layer: us_cdc_mmwr
 category: surveillance_summary

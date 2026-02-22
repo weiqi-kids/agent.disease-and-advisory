@@ -6,6 +6,10 @@ source_url: https://www.gov.uk/government/publications/carbon-monoxide-co-antena
 date: 2026-02-16
 source_layer: uk_ukhsa_updates
 category: guidance
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 # Carbon monoxide (CO): antenatal checks algorithm for midwives

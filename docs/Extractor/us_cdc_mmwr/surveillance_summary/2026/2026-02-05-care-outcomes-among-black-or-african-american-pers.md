@@ -9,6 +9,10 @@ date: 2021-02-18
 confidence: 低
 mmwr_volume: ""
 mmwr_issue: ""
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要

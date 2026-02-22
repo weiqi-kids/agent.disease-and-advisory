@@ -79,6 +79,8 @@ seo:
           position: 4
           name: "Field Testing and Validation of a New Question Set to Measure Housing Status - Fulton County, Georgia, August-September 2023"
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     is_ymyl: true
     category: health
     disclaimer: "本內容僅供參考，不構成醫療建議。如需專業醫療諮詢，請聯繫合格的醫療保健提供者。"

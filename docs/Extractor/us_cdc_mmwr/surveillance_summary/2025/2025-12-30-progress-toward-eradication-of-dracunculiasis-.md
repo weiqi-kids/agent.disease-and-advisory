@@ -98,6 +98,8 @@ seo:
           position: 5
           name: "Progress Toward Eradication of Dracunculiasis"
   ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
     disclaimer: "本頁面內容源自公共衛生機構,僅供參考。EpiAlert 使用 AI 技術彙整資訊,但不提供醫療建議。如有健康疑慮,請諮詢專業醫療人員。"
     last_reviewed: "2026-02-04"
     medical_disclaimer: true

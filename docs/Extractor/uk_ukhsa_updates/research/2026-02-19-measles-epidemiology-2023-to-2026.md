@@ -12,6 +12,10 @@ regions: ["England"]
 description: "Laboratory-confirmed measles cases data from England covering 2023-2026 period published by UKHSA"
 language: en
 notes: "Description field contains limited information (76 characters). WebFetch would be beneficial for fuller context but proceeding with available data."
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要
