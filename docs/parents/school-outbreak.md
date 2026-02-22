@@ -132,11 +132,11 @@ seo:
 
 - [教育部停課標準](https://www.edu.tw/)
 - [疾管署學校衛生](https://www.cdc.gov.tw/)
-- [EpiAlert 週報](../Narrator/weekly_digest/) - 掌握近期疫情
+- [EpiAlert 週報](../Narrator/weekly_digest) - 掌握近期疫情
 
 ---
 
-[← 返回家長專區](./){: .btn .btn-outline }
+[← 返回家長專區](.){: .btn .btn-outline }
 
 ---
 

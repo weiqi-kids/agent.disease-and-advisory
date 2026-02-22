@@ -116,7 +116,7 @@ seo:
 
 | 日期 | 地區 | 事件 | 來源 |
 |------|------|------|------|
-| 2026-02-12 | 全球 | UKHSA 更新 clade Ib 及 clade IIb 流行病學概況 | [UKHSA](../Extractor/uk_ukhsa_updates/) |
+| 2026-02-12 | 全球 | UKHSA 更新 clade Ib 及 clade IIb 流行病學概況 | [UKHSA](../Extractor/uk_ukhsa_updates) |
 
 ### 全球疫情概況
 

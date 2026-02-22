@@ -98,7 +98,7 @@ seo:
 | [台灣 CDC 疾管家](https://www.cdc.gov.tw/Disease/Index) | 官方傳染病資訊 |
 | [兒童健康手冊](https://www.hpa.gov.tw/Pages/List.aspx?nodeid=41) | 國健署兒童健康手冊 |
 | [預防接種專線](tel:1922) | 1922 傳染病諮詢 |
-| [EpiAlert 週報](../Narrator/weekly_digest/) | 每週疫情摘要 |
+| [EpiAlert 週報](../Narrator/weekly_digest) | 每週疫情摘要 |
 
 ---
 

@@ -179,7 +179,7 @@ seo:
 
 ---
 
-[← 返回家長專區](./){: .btn .btn-outline }
+[← 返回家長專區](.){: .btn .btn-outline }
 
 ---
 

@@ -198,8 +198,8 @@ curl -X POST "https://api.epialert.weiqi.kids/v1/search" \
 ## 相關功能
 
 - [全站搜尋](/search) - 使用關鍵字搜尋網站內容
-- [疾病專頁](../disease/) - 查看特定疾病的詳細資訊
-- [週報](../Narrator/weekly_digest/) - 瀏覽每週疫情摘要
+- [疾病專頁](../disease) - 查看特定疾病的詳細資訊
+- [週報](../Narrator/weekly_digest) - 瀏覽每週疫情摘要
 
 ---
 

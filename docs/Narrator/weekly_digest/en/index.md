@@ -40,7 +40,7 @@ The English version of EpiAlert Weekly Digest is AI-translated and reviewed for 
 
 ---
 
-[返回中文版 / Back to Chinese](../){: .btn .btn-outline }
+[返回中文版 / Back to Chinese](..){: .btn .btn-outline }
 [View Latest Report](2026-W08-weekly-digest){: .btn .btn-primary }
 
 ---

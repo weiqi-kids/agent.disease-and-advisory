@@ -191,13 +191,13 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 
 | 來源 | 說明 | 更新頻率 |
 |------|------|----------|
-| [WHO Disease Outbreak News](Extractor/who_disease_outbreak_news) | 世界衛生組織疾病爆發新聞 | 不定期 |
-| [US CDC HAN](Extractor/us_cdc_han) | 美國 CDC 健康警報網絡 | 不定期 |
-| [US CDC MMWR](Extractor/us_cdc_mmwr) | 美國 CDC 發病率與死亡率週報 | 每週 |
-| [US Travel Health Notices](Extractor/us_travel_health_notices) | 美國 CDC 旅遊健康通知 | 不定期 |
-| [ECDC CDTR](Extractor/ecdc_cdtr) | 歐洲疾病預防控制中心週報 | 每週 |
-| [UK UKHSA](Extractor/uk_ukhsa_updates) | 英國健康安全局更新 | 不定期 |
-| [Taiwan CDC](Extractor/tw_cdc_alerts) | 台灣疾管署警報 | 不定期 |
+| [WHO Disease Outbreak News](Extractor/who_disease_outbreak_news) | [世界衛生組織](https://www.who.int)疾病爆發新聞 | 不定期 |
+| [US CDC HAN](Extractor/us_cdc_han) | [美國 CDC](https://www.cdc.gov) 健康警報網絡 | 不定期 |
+| [US CDC MMWR](Extractor/us_cdc_mmwr) | [美國 CDC](https://www.cdc.gov) 發病率與死亡率週報 | 每週 |
+| [US Travel Health Notices](Extractor/us_travel_health_notices) | [美國 CDC](https://www.cdc.gov) 旅遊健康通知 | 不定期 |
+| [ECDC CDTR](Extractor/ecdc_cdtr) | [歐洲疾病預防控制中心](https://www.ecdc.europa.eu)週報 | 每週 |
+| [UK UKHSA](Extractor/uk_ukhsa_updates) | [英國健康安全局](https://www.gov.uk/government/organisations/uk-health-security-agency)更新 | 不定期 |
+| [Taiwan CDC](Extractor/tw_cdc_alerts) | [台灣疾管署](https://www.cdc.gov.tw)警報 | 不定期 |
 
 [查看所有資料來源](Extractor){: .btn }
 

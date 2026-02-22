@@ -257,15 +257,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 | 來源 | 涵蓋範圍 | 連結 |
 |------|----------|------|
-| WHO DON | 全球 | [疾病爆發新聞](../Extractor/who_disease_outbreak_news/) |
-| ECDC CDTR | 歐洲 | [傳染病威脅報告](../Extractor/ecdc_cdtr/) |
-| UKHSA | 英國 | [健康安全局更新](../Extractor/uk_ukhsa_updates/) |
-| US CDC | 美國 | [HAN](../Extractor/us_cdc_han/) / [MMWR](../Extractor/us_cdc_mmwr/) |
-| TW CDC | 台灣 | [疾管署警報](../Extractor/tw_cdc_alerts/) |
+| WHO DON | 全球 | [疾病爆發新聞](../Extractor/who_disease_outbreak_news) |
+| ECDC CDTR | 歐洲 | [傳染病威脅報告](../Extractor/ecdc_cdtr) |
+| UKHSA | 英國 | [健康安全局更新](../Extractor/uk_ukhsa_updates) |
+| US CDC | 美國 | [HAN](../Extractor/us_cdc_han) / [MMWR](../Extractor/us_cdc_mmwr) |
+| TW CDC | 台灣 | [疾管署警報](../Extractor/tw_cdc_alerts) |
 
 ---
 
-[← 返回地圖首頁](./){: .btn .btn-outline }
+[← 返回地圖首頁](.){: .btn .btn-outline }
 [查看台灣地圖](taiwan){: .btn }
 
 ---

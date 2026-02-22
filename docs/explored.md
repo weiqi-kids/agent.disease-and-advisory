@@ -2,6 +2,10 @@
 title: 疾病監測資料源探索紀錄
 layout: single
 nav_exclude: true
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 # 疾病監測資料源探索紀錄

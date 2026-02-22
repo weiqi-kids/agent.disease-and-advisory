@@ -3,13 +3,17 @@ title: 週報
 layout: default
 nav_order: 2
 has_children: true
+seo:
+  ymyl:
+    lastReviewed: '2026-02-22'
+    reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 # 週報
 
 每週傳染病威脅綜合分析。
 
-[English Version →](en/){: .btn .btn-outline .fs-3 }
+[English Version →](en){: .btn .btn-outline .fs-3 }
 
 ---
 

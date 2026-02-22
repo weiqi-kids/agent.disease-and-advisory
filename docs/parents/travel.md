@@ -95,7 +95,7 @@ seo:
 | 疾管署旅遊疫情 | 台灣官方建議 | [查詢](https://www.cdc.gov.tw/CountryEpidemic/Index/NnLrPpMjy4qjsKv_stCr9A) |
 | US CDC Travel Health | 美國 CDC 旅遊建議 | [查詢](https://wwwnc.cdc.gov/travel/destinations/list) |
 | WHO 疫情資訊 | 全球疫情 | [查詢](https://www.who.int/emergencies/disease-outbreak-news) |
-| EpiAlert 週報 | 每週疫情摘要 | [查詢](../Narrator/weekly_digest/) |
+| EpiAlert 週報 | 每週疫情摘要 | [查詢](../Narrator/weekly_digest) |
 
 ### 旅遊警示等級
 
@@ -190,7 +190,7 @@ seo:
 
 ---
 
-[← 返回家長專區](./){: .btn .btn-outline }
+[← 返回家長專區](.){: .btn .btn-outline }
 
 ---
 

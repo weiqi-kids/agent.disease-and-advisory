@@ -183,11 +183,11 @@ seo:
 
 - [疾管署登革熱專區](https://www.cdc.gov.tw/Disease/SubIndex/WYbKe3aE7LiY5gb5kewiOg)
 - [疾管署腸病毒專區](https://www.cdc.gov.tw/Disease/SubIndex/d3P53qMumEXN_fv3KpTF-A)
-- [EpiAlert 週報](../Narrator/weekly_digest/) - 追蹤最新疫情
+- [EpiAlert 週報](../Narrator/weekly_digest) - 追蹤最新疫情
 
 ---
 
-[← 返回家長專區](./){: .btn .btn-outline }
+[← 返回家長專區](.){: .btn .btn-outline }
 
 ---
 

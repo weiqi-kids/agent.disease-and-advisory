@@ -242,11 +242,11 @@ document.addEventListener('DOMContentLoaded', function() {
 ## 資料來源
 
 - [台灣 CDC 傳染病統計資料](https://nidss.cdc.gov.tw/)
-- [EpiAlert 週報](../Narrator/weekly_digest/)
+- [EpiAlert 週報](../Narrator/weekly_digest)
 
 ---
 
-[← 返回地圖首頁](./){: .btn .btn-outline }
+[← 返回地圖首頁](.){: .btn .btn-outline }
 [查看全球地圖 →](global){: .btn }
 
 ---
