@@ -3,13 +3,13 @@ nav_exclude: true
 title: '傳染病威脅週報 2026-W08'
 layout: default
 datePublished: '2026-02-18T12:00:00+08:00'
-dateModified: '2026-02-23T12:00:00+08:00'
+dateModified: '2026-02-24T12:00:00+08:00'
 seo:
   meta:
     title: '傳染病威脅週報 2026-W08 | EpiAlert 疫情快訊'
-    description: '本週重點：UKHSA 首份寒冷死亡率報告、ECDC 抗藥性警告、RSV 疫苗範本、HCID 風險清單更新。'
+    description: '本週重點：ECDC 建議新建 4 個歐盟參考實驗室、UKHSA 首份寒冷死亡率報告、ECDC 抗藥性警告、RSV 疫苗範本。'
     og:title: '傳染病威脅週報 2026-W08 | EpiAlert'
-    og:description: 'UKHSA 首份寒冷死亡率報告、ECDC 嬰兒配方奶粉召回風險降低、麻疹流行病學 2023-2026、HCID 風險清單更新、移民健康指引更新。'
+    og:description: 'ECDC 建議新建 4 個歐盟參考實驗室（艱難梭菌、抗藥性淋病、結核病、侵襲性細菌疾病）、UKHSA 首份寒冷死亡率報告、食源性細菌抗藥性警告。'
     og:type: 'article'
     og:url: 'https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W08-weekly-digest'
     og:image: 'https://epialert.weiqi.kids/assets/images/logo.png'
@@ -160,7 +160,7 @@ seo:
         about: '與上週疫情比較'
         description: '新增威脅、升級警示、持續關注、已解除項目的完整比較'
   ymyl:
-    lastReviewed: '2026-02-23T12:00:00+08:00'
+    lastReviewed: '2026-02-24T12:00:00+08:00'
     reviewedBy: 'EpiAlert AI 編輯'
     medicalDisclaimer: '本報告由自動化系統生成，僅供參考用途。報告內容基於公開資訊來源，不構成醫療建議、官方政策或專業診斷。使用者應自行驗證資訊並諮詢專業人士。'
 ---
@@ -183,6 +183,8 @@ seo:
 {: .speakable-content}
 
 <div class="key-takeaway" markdown="1">
+
+- **ECDC 建議新建 4 個歐盟參考實驗室**：ECDC 於 2/23 建議在艱難梭菌（Clostridioides difficile）、抗藥性淋病（Drug-resistant gonorrhoea）、結核病（Tuberculosis）及侵襲性細菌疾病（Invasive bacterial diseases）四個領域建立歐盟參考實驗室，預計 2028 年開始運作，加強歐洲傳染病準備能力。(ecdc_cdtr) **[2/24 更新]**
 
 - **UKHSA 發布首份寒冷死亡率報告**：2024-25 年冬季英格蘭 2,544 例死亡與寒冷天氣相關，主要透過心臟病發作、中風和呼吸道問題等間接途徑影響，65 歲以上長者及心血管疾病患者風險最高。(uk_ukhsa_updates) **[本週新增]**
 
@@ -247,6 +249,8 @@ seo:
 - **RSV 疫苗 PGD 範本（英國）**：UKHSA 於 2/17 發布 RSV 疫苗的患者群組指示範本，為醫療從業人員提供標準化疫苗接種指示，支援孕婦及 75 歲以上長者的國家疫苗接種計畫。此為 RSV 疫苗計畫的重要指引文件。
 
 - **ECDC 與 PHAC 國際合作**：2/16 加拿大公共衛生局局長訪問 ECDC，反映跨大西洋公共衛生合作的持續深化，有助於面對跨國公衛威脅時的協調應對能力提升。
+
+- **ECDC 建議新建歐盟參考實驗室**（2/23）：ECDC 建議在四個公共衛生領域建立新的歐盟參考實驗室（EURLs）——艱難梭菌、抗藥性淋病、結核病（特別是抗藥性結核病）及侵襲性細菌疾病（包括腦膜炎）。這些實驗室預計於 2028 年開始運作，將統一診斷方法、加強疫情檢測、支援臨床及公衛應對。**[2/24 更新]**
 
 - **嬰兒配方奶粉召回風險評估更新**（2/19）：ECDC/EFSA 發布快速疫情評估（ROA），指出由於持續回收措施，暴露於 cereulide（蠟狀芽孢桿菌毒素）污染的嬰兒配方奶粉風險已降低。**[2/19 更新]**
 
@@ -380,6 +384,42 @@ document.addEventListener('DOMContentLoaded', function() {
 ## 全球疫情概覽
 
 ### 新興威脅
+
+#### ECDC 建議新建歐盟參考實驗室 — 歐洲
+{: #eu-reference-laboratories}
+
+<p class="key-answer" data-question="ECDC 建議新建哪些歐盟參考實驗室">ECDC 建議在艱難梭菌、抗藥性淋病、結核病及侵襲性細菌疾病四個領域建立歐盟參考實驗室（EURLs），預計 2028 年開始運作，以統一診斷方法、加強疫情檢測及支援公衛應對。</p>
+
+ECDC 於 2 月 23 日建議建立四個新的歐盟參考實驗室（EURLs），專注於公共衛生領域：
+
+**四個提議的疾病領域**：
+
+| 疾病領域 | 需求背景 | 預期效益 |
+|---------|---------|---------|
+| **艱難梭菌（Clostridioides difficile）** | 常見醫療相關病原體 | 統一診斷和分子分型方法以追蹤疫情爆發 |
+| **抗藥性淋病（Drug-resistant gonorrhoea）** | 新興抗微生物抗藥性威脅 | 加強監測以保持治療效果 |
+| **結核病（Tuberculosis）** | 特別是抗藥性結核病 | 改善診斷和檢測抗藥性菌株 |
+| **侵襲性細菌疾病（Invasive bacterial diseases）** | 包括腦膜炎 | 快速病原體識別和疫情應對支援 |
+
+**預期效益**：
+- 增強成員國之間的疫情檢測能力
+- 支援臨床和公共衛生應對措施
+- 透過統一方法改善疾病監測
+- 提供專家科學支援和診斷能力
+- 確保歐盟/歐洲經濟區各國的高品質、可比較資料
+
+**實施時程**：新的歐盟參考實驗室預計將於 **2028 年**開始運作。此提案經與疾病網絡、國家公共衛生機構和利害關係人廣泛諮詢後提出，將為歐盟委員會在 EU4Health 工作計劃下的決策提供資訊。
+
+來源：ecdc_cdtr/guidance/2026-02-23-ecdc-proposes-new-eu-reference-laboratories.md **[2/24 更新]**
+
+##### 歷史參考 [語意搜尋]
+
+| 日期 | 標題 | 來源 | 相關分數 |
+|------|------|------|----------|
+| 2026-02-23 | ECDC proposes new EU Reference Laboratories | ECDC | 0.80 |
+| 2026-01-29 | ECDC and WHO/Europe renew joint commitment to strengthen European health security | ECDC | 0.61 |
+| 2024-03-28 | Ceftriaxone-Resistant Gonorrhea - China, 2022 | US CDC MMWR | 0.50 |
+| 2023-08-31 | Outbreak of Multidrug-Resistant Tuberculosis - Kansas | US CDC MMWR | 0.46 |
 
 #### UKHSA 首份寒冷死亡率報告 — 英國
 {: #cold-mortality}
@@ -961,6 +1001,7 @@ UKHSA 於 2/20 更新移民健康指南，針對探親訪友旅行提供專業�
 ### 本週引用資料
 
 **ECDC (ecdc_cdtr)**
+- `guidance/2026-02-23-ecdc-proposes-new-eu-reference-laboratories.md` **[2/24 更新]**
 - `risk_assessment/2026-02-19-lower-risk-exposure-cereulide-infant-formula.md` **[2/19 更新]**
 - `surveillance/2026-02-20-communicable-disease-threats-report-week-8.md` **[2/20 更新]**
 - `guidance/2026-02-18-antimicrobial-resistance-foodborne-bacteria.md` **[本週新增]**
@@ -1013,6 +1054,9 @@ UKHSA 於 2/20 更新移民健康指南，針對探親訪友旅行提供專業�
 
 | 查詢 | 找到筆數 | 最高相關分數 |
 |------|----------|--------------|
+| EU reference laboratories ECDC preparedness | 10 | 0.80 |
+| Clostridioides difficile drug-resistant gonorrhoea tuberculosis | 10 | 0.50 |
+| antimicrobial resistance AMR surveillance Europe 2026 | 10 | 0.61 |
 | cereulide infant formula contamination Bacillus cereus | 5 | 0.74 |
 | measles epidemiology outbreak vaccination England 2025 2026 | 5 | 0.73 |
 | poliomyelitis polio vaccination migrant health | 5 | 0.76 |
@@ -1060,7 +1104,7 @@ EpiAlert AI 編輯. (2026, February 18). 傳染病威脅週報 2026-W08. EpiAler
   day = {18},
   howpublished = {EpiAlert 疫情快訊},
   url = {https://epialert.weiqi.kids/Narrator/weekly_digest/2026-W08-weekly-digest},
-  note = {Accessed: 2026-02-20}
+  note = {Accessed: 2026-02-24}
 }
 </pre>
 
@@ -1079,5 +1123,5 @@ EpiAlert AI 編輯. (2026, February 18). 傳染病威脅週報 2026-W08. EpiAler
 
 ---
 
-*報告產出時間: 2026-02-23T12:00:00+08:00*
+*報告產出時間: 2026-02-24T12:00:00+08:00*
 *下次更新: 2026-03-02 (2026-W09 週報)*
