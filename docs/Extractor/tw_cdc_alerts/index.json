@@ -10,6 +10,16 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "policy-2026-02-24-flu-antiviral-policy-changes-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-02-24-flu-antiviral-policy-changes.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "policy-2026-02-13-spring-festival-epidemic-prevention-md",
     "title": "",
     "category": "policy",
@@ -220,6 +230,16 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "medical_advisory-2026-02-24-flu-antiviral-policy-medical-advisory-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2026-02-24-flu-antiviral-policy-medical-advisory.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "medical_advisory-2026-02-10-lunar-new-year-hiv-mpox-prevention-md",
     "title": "新春巧遇情人節，籲請民眾落實安全防護及主動篩檢、風險族群儘早完成2劑M痘疫苗接種",
     "category": "medical_advisory",
@@ -370,6 +390,16 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "domestic_outbreak-2026-02-24-norovirus-outbreak-lunar-new-year-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-02-24-norovirus-outbreak-lunar-new-year.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "domestic_outbreak-2026-02-12-pertussis-first-case-md",
     "title": "",
     "category": "domestic_outbreak",
@@ -496,6 +526,16 @@
     "date": "",
     "file": "disease_info/chikungunya-disease-info.md",
     "source": "- **來源**：發燒患者的血清",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2026-02-24-entrovirus-prevention-schools-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2026-02-24-entrovirus-prevention-schools.md",
+    "source": "",
     "severity": "",
     "source_layer": "tw_cdc_alerts"
   },

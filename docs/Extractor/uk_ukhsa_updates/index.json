@@ -10,6 +10,186 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "surveillance-2026-02-24-surveillance-of-bloodstream-infections-in-critical-care-england-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-surveillance-of-bloodstream-infections-in-critical-care-england.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-surgical-site-infections-ssi-surveillance-nhs-hospitals-in-england-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-surgical-site-infections-ssi-surveillance-nhs-hospitals-in-england.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-streptococcal-bacteraemia-annual-data-from-voluntary-surveillance-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-streptococcal-bacteraemia-annual-data-from-voluntary-surveillance.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-pseudomonas-aeruginosa-bacteraemia-annual-data-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-pseudomonas-aeruginosa-bacteraemia-annual-data.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-mssa-bacteraemia-annual-data-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-mssa-bacteraemia-annual-data.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-mrsa-mssa-gram-negative-bacteraemia-and-cdi-quarterly-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-mrsa-mssa-gram-negative-bacteraemia-and-cdi-quarterly.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-mrsa-mssa-gram-negative-bacteraemia-and-cdi-independent-sector-annual-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-mrsa-mssa-gram-negative-bacteraemia-and-cdi-independent-sector-annual.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-mrsa-mssa-gram-negative-bacteraemia-and-cdi-annual-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-mrsa-mssa-gram-negative-bacteraemia-and-cdi-annual.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-mrsa-mssa-gram-negative-bacteraemia-and-cdi-30-day-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-mrsa-mssa-gram-negative-bacteraemia-and-cdi-30-day.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-mrsa-bacteraemia-annual-data-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-mrsa-bacteraemia-annual-data.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-laboratory-surveillance-of-paediatric-bacteraemia-in-england-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-laboratory-surveillance-of-paediatric-bacteraemia-in-england.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-klebsiella-species-bacteraemia-annual-data-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-klebsiella-species-bacteraemia-annual-data.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-group-a-streptococcal-infections-seasonal-activity-in-england-2024-to-2025-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-group-a-streptococcal-infections-seasonal-activity-in-england-2024-to-2025.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-fungaemia-including-candidaemia-annual-data-from-voluntary-surveillance-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-fungaemia-including-candidaemia-annual-data-from-voluntary-surveillance.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-escherichia-coli-bacteraemia-annual-data-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-escherichia-coli-bacteraemia-annual-data.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-enterococcus-spp-bacteraemia-voluntary-surveillance-2023-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-enterococcus-spp-bacteraemia-voluntary-surveillance-2023.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-english-surveillance-programme-antimicrobial-utilisation-and-resistance-espaur-report-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-english-surveillance-programme-antimicrobial-utilisation-and-resistance-espaur-report.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-24-clostridioides-difficile-infection-annual-data-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-24-clostridioides-difficile-infection-annual-data.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "surveillance-2026-02-19-gumcad-sti-surveillance-system-md",
     "title": "",
     "category": "surveillance",
@@ -275,6 +455,16 @@
     "category": "research",
     "date": "",
     "file": "research/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-02-24-clostridioides-difficile-ribotyping-network-cdrn-report-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-02-24-clostridioides-difficile-ribotyping-network-cdrn-report.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"
