@@ -34,7 +34,7 @@ seo:
           '@type': 'ImageObject'
           url: 'https://epialert.weiqi.kids/assets/images/logo.png'
         datePublished: '2026-01-01T00:00:00Z'
-        dateModified: '2026-02-22T12:00:00+08:00'
+        dateModified: '2026-02-25T03:39:00+08:00'
         speakable:
           '@type': 'SpeakableSpecification'
           cssSelector:
@@ -62,7 +62,7 @@ seo:
           contactType: 'technical support'
           url: 'https://github.com/weiqi-kids/agent.disease-and-advisory/issues'
   ymyl:
-    lastReviewed: '2026-02-22'
+    lastReviewed: '2026-02-25'
     reviewedBy: 'EpiAlert AI 編輯'
     medicalDisclaimer: '本網站內容僅供參考，不構成醫療建議或診斷。如有健康疑慮，請諮詢專業醫療人員。'
 ---
@@ -72,10 +72,10 @@ seo:
 AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 等 7 大官方來源
 {: .fs-6 .fw-300 }
 
-**最後更新：2026-02-24 04:49 (UTC+8)**
+**最後更新：2026-02-25 03:39 (UTC+8)**
 {: .label .label-green }
 
-[查看 2026-W08 週報](Narrator/weekly_digest/2026-W08-weekly-digest){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[查看 2026-W09 週報](Narrator/weekly_digest/2026-W09){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [歷史週報](Narrator/weekly_digest){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
@@ -164,7 +164,7 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 **風險等級說明**：🔴 高風險（PHEIC/大規模爆發）｜🟡 中風險（區域爆發/新興威脅）｜🟢 低風險（散發案例/常規監測）
 {: .fs-3 .text-grey-dk-000 }
 
-[查看完整週報分析 →](Narrator/weekly_digest/2026-W08-weekly-digest){: .btn .btn-primary }
+[查看完整週報分析 →](Narrator/weekly_digest/2026-W09){: .btn .btn-primary }
 
 ---
 
