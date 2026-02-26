@@ -10,6 +10,16 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "policy-2026-02-26-vaccination-fee-adjustment-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-02-26-vaccination-fee-adjustment.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "policy-2026-02-24-flu-antiviral-policy-changes-md",
     "title": "",
     "category": "policy",
@@ -225,6 +235,16 @@
     "category": "medical_advisory",
     "date": "",
     "file": "medical_advisory/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "medical_advisory-2026-02-26-dengue-fever-importation-risk-alert-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2026-02-26-dengue-fever-importation-risk-alert.md",
     "source": "",
     "severity": "",
     "source_layer": "tw_cdc_alerts"
@@ -1255,6 +1275,16 @@
     "category": "disease_info",
     "date": "",
     "file": "disease_info/2026-01-27-flu-vaccine-k-variant-protection.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "disease_info-2025-12-01-world-aids-day-2025-md",
+    "title": "",
+    "category": "disease_info",
+    "date": "",
+    "file": "disease_info/2025-12-01-world-aids-day-2025.md",
     "source": "",
     "severity": "",
     "source_layer": "tw_cdc_alerts"

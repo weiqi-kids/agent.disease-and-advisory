@@ -10,6 +10,26 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "surveillance-2026-02-26-seasonal-influenza-vaccine-uptake-frontline-healthcare-workers-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-26-seasonal-influenza-vaccine-uptake-frontline-healthcare-workers.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-02-26-seasonal-influenza-vaccine-uptake-children-school-age-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-26-seasonal-influenza-vaccine-uptake-children-school-age.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "surveillance-2026-02-24-surveillance-of-bloodstream-infections-in-critical-care-england-md",
     "title": "",
     "category": "surveillance",
@@ -455,6 +475,16 @@
     "category": "research",
     "date": "",
     "file": "research/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-02-26-shingles-immunisation-programme-shingrix-evaluation-reports-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-02-26-shingles-immunisation-programme-shingrix-evaluation-reports.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"
@@ -945,6 +975,46 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-26-statistics-at-ukhsa-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-26-statistics-at-ukhsa.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-26-national-flu-immunisation-programme-plan-2026-to-2027-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-26-national-flu-immunisation-programme-plan-2026-to-2027.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-26-millions-eligible-free-shingles-vaccine-urged-come-forward-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-26-millions-eligible-free-shingles-vaccine-urged-come-forward.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-02-26-millions-eligible-free-shingles-vaccine-urged-come-forward-news-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-26-millions-eligible-free-shingles-vaccine-urged-come-forward-news.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"
