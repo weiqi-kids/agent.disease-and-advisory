@@ -10,6 +10,8 @@ language: zh
 feed_source: "medical_zh"
 diseases: ["登革熱"]
 regions: ["台灣北部", "印尼", "菲律賓", "越南", "泰國", "馬來西亞", "斯里蘭卡", "印度", "馬爾地夫"]
+lastReviewed: 2026-02-26
+reviewedBy: EpiAlert AI 編輯
 ---
 
 ## 摘要

@@ -11,6 +11,8 @@ feed_source: "medical_zh"
 diseases: []
 regions: ["台灣"]
 notes: "疫苗政策調整,涉及費用及行政流程變更"
+lastReviewed: 2026-02-26
+reviewedBy: EpiAlert AI 編輯
 ---
 
 ## 摘要
