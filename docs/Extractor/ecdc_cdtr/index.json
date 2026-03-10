@@ -10,6 +10,26 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "surveillance-2026-03-06-cdtr-week-10-2026-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-03-06-cdtr-week-10-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2026-02-27-cdtr-week-9-2026-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-02-27-cdtr-week-9-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "surveillance-2026-02-20-communicable-disease-threats-report-week-8-md",
     "title": "",
     "category": "surveillance",
@@ -415,6 +435,26 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-03-06-rsv-vaccination-expert-panel-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-06-rsv-vaccination-expert-panel.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-02-27-chikungunya-travellers-seychelles-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-02-27-chikungunya-travellers-seychelles.md",
     "source": "",
     "severity": "",
     "source_layer": "ecdc_cdtr"

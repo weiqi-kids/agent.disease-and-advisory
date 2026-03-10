@@ -10,6 +10,16 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "policy-2026-03-03-spring-respiratory-disease-vaccination-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-03-03-spring-respiratory-disease-vaccination.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "policy-2026-02-26-vaccination-fee-adjustment-md",
     "title": "",
     "category": "policy",
@@ -240,6 +250,26 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "medical_advisory-2026-03-03-enterovirus-severe-cases-medical-alert-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2026-03-03-enterovirus-severe-cases-medical-alert.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "medical_advisory-2026-02-27-measles-cluster-medical-alert-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2026-02-27-measles-cluster-medical-alert.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "medical_advisory-2026-02-26-dengue-fever-importation-risk-alert-md",
     "title": "",
     "category": "medical_advisory",
@@ -405,6 +435,36 @@
     "category": "domestic_outbreak",
     "date": "",
     "file": "domestic_outbreak/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-03-05-measles-cluster-imported-malaysia-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-03-05-measles-cluster-imported-malaysia.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-03-03-enterovirus-two-severe-cases-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-03-03-enterovirus-two-severe-cases.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-02-27-measles-cluster-imported-vietnam-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-02-27-measles-cluster-imported-vietnam.md",
     "source": "",
     "severity": "",
     "source_layer": "tw_cdc_alerts"

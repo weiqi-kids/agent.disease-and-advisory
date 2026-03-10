@@ -10,6 +10,26 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "surveillance-2026-03-05-rsv-maternal-vaccination-coverage-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-03-05-rsv-maternal-vaccination-coverage.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-03-05-htlv-national-register-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-03-05-htlv-national-register.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "surveillance-2026-02-26-seasonal-influenza-vaccine-uptake-frontline-healthcare-workers-md",
     "title": "",
     "category": "surveillance",
@@ -475,6 +495,36 @@
     "category": "research",
     "date": "",
     "file": "research/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-03-09-ukhsa-science-strategy-2023-2033-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-03-09-ukhsa-science-strategy-2023-2033.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-03-05-measles-symptoms-child-protection-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-03-05-measles-symptoms-child-protection.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-03-05-immunisation-health-equity-audit-2025-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-03-05-immunisation-health-equity-audit-2025.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"
@@ -975,6 +1025,26 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-03-05-htlv-national-register-patient-info-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-05-htlv-national-register-patient-info.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-03-05-farm-visits-avoiding-infection-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-05-farm-visits-avoiding-infection.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"
