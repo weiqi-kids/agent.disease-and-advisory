@@ -34,7 +34,7 @@ seo:
           '@type': 'ImageObject'
           url: 'https://epialert.weiqi.kids/assets/images/logo.png'
         datePublished: '2026-01-01T00:00:00Z'
-        dateModified: '2026-02-26T00:00:00+08:00'
+        dateModified: '2026-03-09T20:00:00+08:00'
         speakable:
           '@type': 'SpeakableSpecification'
           cssSelector:
@@ -62,7 +62,7 @@ seo:
           contactType: 'technical support'
           url: 'https://github.com/weiqi-kids/agent.disease-and-advisory/issues'
   ymyl:
-    lastReviewed: '2026-02-26'
+    lastReviewed: '2026-03-09'
     reviewedBy: 'EpiAlert AI 編輯'
     medicalDisclaimer: '本網站內容僅供參考，不構成醫療建議或診斷。如有健康疑慮，請諮詢專業醫療人員。'
 ---
@@ -72,10 +72,10 @@ seo:
 AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 等 7 大官方來源
 {: .fs-6 .fw-300 }
 
-**最後更新：2026-02-26 22:48 (UTC+8)**
+**最後更新：2026-03-09 20:00 (UTC+8)**
 {: .label .label-green }
 
-[查看 2026-W09 週報](Narrator/weekly_digest/2026-W09){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[查看 2026-W10 週報](Narrator/weekly_digest/2026-W10){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [歷史週報](Narrator/weekly_digest){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
@@ -111,52 +111,52 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
   <tbody>
     <tr>
       <td style="text-align:center">🟡</td>
-      <td>寒冷死亡率報告</td>
-      <td>英國</td>
-      <td>2024-25 冬季 2,544 例死亡與寒流相關，65 歲以上高風險</td>
-      <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
+      <td>麻疹群聚升級</td>
+      <td>台灣</td>
+      <td>新增2起境外移入群聚（越南、馬來西亞），累計4例，接觸者監測持續中</td>
+      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
     </tr>
     <tr>
       <td style="text-align:center">🟡</td>
-      <td>抗生素抗藥性</td>
-      <td>歐洲</td>
-      <td>沙門氏菌、彎曲桿菌環丙沙星抗藥性高企，碳青黴烯酶檢出上升</td>
+      <td>腸病毒D68型重症</td>
+      <td>台灣</td>
+      <td>今年首2例重症，含1例D68型致急性無力脊髓炎風險</td>
+      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">🟡</td>
+      <td>屈公病旅客感染</td>
+      <td>歐洲/塞席爾</td>
+      <td>10個歐洲國家報告70+例塞席爾旅客感染，歐洲本土傳播風險低</td>
       <td><a href="Extractor/ecdc_cdtr">ECDC</a></td>
     </tr>
     <tr>
       <td style="text-align:center">🟢</td>
-      <td>RSV 疫苗 PGD</td>
-      <td>英國</td>
-      <td>發布呼吸道融合病毒疫苗患者群組指示範本</td>
-      <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
+      <td>RSV疫苗進展</td>
+      <td>歐洲/英國</td>
+      <td>ECDC徵求成人RSV疫苗專家小組、英國發布孕婦RSV疫苗覆蓋率數據</td>
+      <td><a href="Extractor/ecdc_cdtr">ECDC</a></td>
     </tr>
     <tr>
       <td style="text-align:center">🟡</td>
-      <td>尼帕病毒疫情</td>
-      <td>印度</td>
-      <td>HCID 風險清單更新，西孟加拉邦 1/13 確認爆發</td>
+      <td>流感季持續</td>
+      <td>台灣</td>
+      <td>累計555例重症、111例死亡，疫苗僅餘7.3萬劑，COVID疫苗延長至4/30</td>
+      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">🟡</td>
+      <td>麻疹全球復發</td>
+      <td>英國/全球</td>
+      <td>英格蘭2024年確認2,911例麻疹，數十年來最高，UKHSA呼籲加強MMR接種</td>
       <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
     </tr>
     <tr>
       <td style="text-align:center">🟢</td>
-      <td>麻疹境外移入</td>
-      <td>台灣</td>
-      <td>今年首例，越南感染，400 名接觸者監測至 2/28</td>
-      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
-    </tr>
-    <tr>
-      <td style="text-align:center">🟢</td>
-      <td>百日咳確診</td>
-      <td>台灣</td>
-      <td>今年首例，家庭接觸者監測至 3/4</td>
-      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
-    </tr>
-    <tr>
-      <td style="text-align:center">🟢</td>
-      <td>猴痘 Mpox</td>
-      <td>全球</td>
-      <td>clade Ib/IIb 持續監測，英國維持警戒</td>
-      <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
+      <td>ECDC CDTR W10</td>
+      <td>歐洲</td>
+      <td>呼吸道病毒監測、SARS-CoV-2變異株分類、MERS、屈公病更新</td>
+      <td><a href="Extractor/ecdc_cdtr">ECDC</a></td>
     </tr>
   </tbody>
 </table>
@@ -164,7 +164,7 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 **風險等級說明**：🔴 高風險（PHEIC/大規模爆發）｜🟡 中風險（區域爆發/新興威脅）｜🟢 低風險（散發案例/常規監測）
 {: .fs-3 .text-grey-dk-000 }
 
-[查看完整週報分析 →](Narrator/weekly_digest/2026-W09){: .btn .btn-primary }
+[查看完整週報分析 →](Narrator/weekly_digest/2026-W10){: .btn .btn-primary }
 
 ---
 
