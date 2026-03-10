@@ -440,6 +440,16 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "guidance-2026-03-09-ecdc-africa-cdc-mou-global-health-security-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-09-ecdc-africa-cdc-mou-global-health-security.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "guidance-2026-03-06-rsv-vaccination-expert-panel-md",
     "title": "",
     "category": "guidance",
