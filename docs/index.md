@@ -72,10 +72,10 @@ seo:
 AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 等 7 大官方來源
 {: .fs-6 .fw-300 }
 
-**最後更新：2026-03-10 20:30 (UTC+8)**
+**最後更新：2026-03-11 08:50 (UTC+8)**
 {: .label .label-green }
 
-[查看 2026-W10 週報](Narrator/weekly_digest/2026-W10){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[查看 2026-W11 週報](Narrator/weekly_digest/2026-W11){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [歷史週報](Narrator/weekly_digest){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
@@ -164,7 +164,7 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 **風險等級說明**：🔴 高風險（PHEIC/大規模爆發）｜🟡 中風險（區域爆發/新興威脅）｜🟢 低風險（散發案例/常規監測）
 {: .fs-3 .text-grey-dk-000 }
 
-[查看完整週報分析 →](Narrator/weekly_digest/2026-W10){: .btn .btn-primary }
+[查看完整週報分析 →](Narrator/weekly_digest/2026-W11){: .btn .btn-primary }
 
 ---
 
