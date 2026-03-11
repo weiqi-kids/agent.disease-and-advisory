@@ -5,13 +5,24 @@ layout: default
 ---
 
 <style>
+  /* fill the viewport */
+  .main-content {
+    max-width: none !important;
+    padding: 0.5rem !important;
+  }
   #flowchart-container {
-    width: 100%;
-    overflow: auto;
+    width: 99%;
+    height: calc(99vh - 160px);   /* 扣除 header/legend/controls 高度 */
+    overflow: hidden;
     background: #fafbfc;
     border: 1px solid #e1e4e8;
     border-radius: 8px;
-    margin: 1rem 0;
+    margin: 0.5rem auto;
+  }
+  #flowchart-svg {
+    width: 100%;
+    height: 100%;
+    display: block;
   }
 
   /* Node styles */
@@ -39,13 +50,13 @@ layout: default
   #legend {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px 24px;
-    padding: 12px 16px;
+    gap: 6px 16px;
+    padding: 8px 12px;
     background: #fff;
     border: 1px solid #e1e4e8;
     border-radius: 6px;
-    margin-bottom: 1rem;
-    font-size: 13px;
+    margin-bottom: 6px;
+    font-size: 12px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   }
   .legend-item {
@@ -85,7 +96,7 @@ layout: default
   #zoom-controls {
     display: flex;
     gap: 4px;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
   }
   #zoom-controls button {
     padding: 4px 12px;
@@ -100,8 +111,8 @@ layout: default
   }
 </style>
 
-<h2>EpiAlert 系統運作流程圖</h2>
-<p style="color:#586069; font-size:13px; margin-top:-0.5rem;">滑鼠 hover 節點可查看實作細節，支援滾輪縮放與拖曳平移</p>
+<h2 style="margin-bottom:0.3rem">EpiAlert 系統運作流程圖</h2>
+<p style="color:#586069; font-size:12px; margin:0 0 0.4rem 0;">hover 節點查看細節 / 滾輪縮放 / 拖曳平移</p>
 
 <div id="legend">
   <div class="legend-item"><div class="legend-swatch" style="background:#4c72b0"></div>主控協調</div>
@@ -381,10 +392,8 @@ layout: default
 
   /* ========== svg ========== */
   var svg = d3.select("#flowchart-svg")
-    .attr("width", W)
-    .attr("height", H)
     .attr("viewBox", "0 0 " + W + " " + H)
-    .style("display", "block");
+    .attr("preserveAspectRatio", "xMidYMid meet");
 
   var g = svg.append("g");
   var tip = d3.select("#tooltip");
