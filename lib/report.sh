@@ -370,7 +370,7 @@ report_semantic_search() {
     return 1
   }
 
-  local collection="${QDRANT_COLLECTION:-disease_intel}"
+  local collection="${QDRANT_COLLECTION:-disease-and-advisory}"
 
   # 產生 query embedding
   local vector_json

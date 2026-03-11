@@ -782,7 +782,7 @@ sed -n '5,10p' file.jsonl    # 讀取第 5-10 行
 ```bash
 QDRANT_URL=https://your-instance.qdrant.io:6333
 QDRANT_API_KEY=
-QDRANT_COLLECTION=disease-intel
+QDRANT_COLLECTION=disease-and-advisory
 OPENAI_API_KEY=sk-...
 EMBEDDING_MODEL=text-embedding-3-small
 EMBEDDING_DIMENSION=1536

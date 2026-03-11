@@ -519,7 +519,7 @@ qdrant_get_existing_ids() {
 #   1  = 不存在
 qdrant_exists_by_url() {
   local source_url="$1"
-  local collection_name="${QDRANT_COLLECTION:-disease_intel}"
+  local collection_name="${QDRANT_COLLECTION:-disease-and-advisory}"
 
   require_cmd curl jq || return 1
 
@@ -597,7 +597,7 @@ qdrant_exists_by_url() {
 qdrant_upsert_from_md() {
   local md_file="$1"
   local layer_name="$2"
-  local collection_name="${QDRANT_COLLECTION:-disease_intel}"
+  local collection_name="${QDRANT_COLLECTION:-disease-and-advisory}"
 
   require_cmd curl jq || return 1
 

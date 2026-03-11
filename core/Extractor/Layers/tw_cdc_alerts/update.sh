@@ -42,7 +42,7 @@ if [[ ${#MD_FILES[@]} -gt 0 ]]; then
         NEW_FILES=()
         while IFS= read -r f; do
             [[ -n "$f" ]] && NEW_FILES+=("$f")
-        done < <(qdrant_filter_new_files "${QDRANT_COLLECTION:-disease_intel}" "${MD_FILES[@]}")
+        done < <(qdrant_filter_new_files "${QDRANT_COLLECTION:-disease-and-advisory}" "${MD_FILES[@]}")
 
         if [[ ${#NEW_FILES[@]} -eq 0 ]]; then
             echo "✅ [$LAYER_NAME] 無新檔案需要處理"
