@@ -440,6 +440,16 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "guidance-2026-03-11-eu-reference-laboratories-public-health-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-11-eu-reference-laboratories-public-health.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "guidance-2026-03-09-ecdc-africa-cdc-mou-global-health-security-md",
     "title": "",
     "category": "guidance",

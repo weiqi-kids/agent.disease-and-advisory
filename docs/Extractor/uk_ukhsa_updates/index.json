@@ -500,6 +500,36 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "research-2026-03-11-womens-attitudes-vaccinations-pregnancy-2025-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-03-11-womens-attitudes-vaccinations-pregnancy-2025.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-03-11-parents-antibiotics-ear-infections-survey-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-03-11-parents-antibiotics-ear-infections-survey.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-03-11-midwives-trusted-source-pregnancy-vaccination-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-03-11-midwives-trusted-source-pregnancy-vaccination.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "research-2026-03-09-ukhsa-science-strategy-2023-2033-md",
     "title": "",
     "category": "research",
@@ -1035,6 +1065,26 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-03-11-vaccine-update-issue-369-february-2026-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-11-vaccine-update-issue-369-february-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-03-11-rsv-programme-healthcare-professionals-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-11-rsv-programme-healthcare-professionals.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"
