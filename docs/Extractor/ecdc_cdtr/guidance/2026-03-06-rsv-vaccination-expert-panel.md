@@ -9,7 +9,8 @@ confidence: 高
 feed_source: "news"
 diseases: ["RSV"]
 regions: ["EU/EEA"]
-lastReviewed: 2026-03-09
+description: 'ECDC 徵求成人 RSV 疫苗科學專家小組（SEP）成員，以支持 EU/EEA 成員國制定成人 RSV 疫苗接種技術指引。'
+lastReviewed: 2026-03-12
 reviewedBy: 'EpiAlert AI 編輯'
 ---
 

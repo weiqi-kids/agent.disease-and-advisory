@@ -9,8 +9,9 @@ confidence: 中
 feed_source: "news"
 diseases: ["antimicrobial_resistance", "vaccine_preventable_diseases", "emerging_infectious_diseases"]
 regions: ["Europe", "Africa"]
-lastReviewed: "2026-03-10"
-reviewedBy: "EpiAlert AI 編輯"
+description: 'ECDC 與非洲 CDC 於 2026 年 3 月簽署首份合作備忘錄，正式強化疾病監測、AMR、疫苗可預防疾病及新興傳染病應對的跨洲合作。'
+lastReviewed: 2026-03-12
+reviewedBy: 'EpiAlert AI 編輯'
 ---
 
 ## 摘要
