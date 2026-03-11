@@ -7,14 +7,11 @@ layout: default
 <style>
   #flowchart-container {
     width: 100%;
-    overflow-x: auto;
+    overflow: auto;
     background: #fafbfc;
     border: 1px solid #e1e4e8;
     border-radius: 8px;
     margin: 1rem 0;
-  }
-  #flowchart-svg {
-    min-width: 1100px;
   }
 
   /* Node styles */
@@ -24,23 +21,11 @@ layout: default
     transition: filter 0.15s;
   }
   .node:hover rect, .node:hover ellipse, .node:hover polygon, .node:hover circle {
-    filter: brightness(0.93);
+    filter: brightness(0.90);
   }
   .node text {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     pointer-events: none;
-  }
-
-  /* Edge styles */
-  .edge path {
-    fill: none;
-    stroke-width: 2px;
-  }
-  .edge polygon {
-    stroke-width: 1.5px;
-  }
-  marker path {
-    fill: #586069;
   }
 
   /* Phase label */
@@ -48,10 +33,6 @@ layout: default
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-weight: 700;
     fill: #24292e;
-  }
-  .phase-bg {
-    rx: 6;
-    ry: 6;
   }
 
   /* Legend */
@@ -82,7 +63,7 @@ layout: default
 
   /* Tooltip */
   .d3-tooltip {
-    position: absolute;
+    position: fixed;
     padding: 10px 14px;
     background: rgba(36,41,46,0.95);
     color: #fff;
@@ -94,6 +75,7 @@ layout: default
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     box-shadow: 0 4px 12px rgba(0,0,0,0.25);
     z-index: 1000;
+    white-space: pre-line;
   }
   .d3-tooltip strong {
     color: #79b8ff;
@@ -119,6 +101,7 @@ layout: default
 </style>
 
 <h2>EpiAlert 系統運作流程圖</h2>
+<p style="color:#586069; font-size:13px; margin-top:-0.5rem;">滑鼠 hover 節點可查看實作細節，支援滾輪縮放與拖曳平移</p>
 
 <div id="legend">
   <div class="legend-item"><div class="legend-swatch" style="background:#4c72b0"></div>主控協調</div>
@@ -133,9 +116,9 @@ layout: default
 </div>
 
 <div id="zoom-controls">
-  <button onclick="zoomIn()">＋</button>
-  <button onclick="zoomOut()">－</button>
-  <button onclick="zoomReset()">重設</button>
+  <button id="btn-zin">＋</button>
+  <button id="btn-zout">－</button>
+  <button id="btn-zreset">重設</button>
 </div>
 
 <div id="flowchart-container">
@@ -147,448 +130,441 @@ layout: default
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
 (function() {
-  // ============================================================
-  // DATA: nodes & edges
-  // ============================================================
-  const COLORS = {
-    control: '#4c72b0',
-    fetch:   '#dd8452',
-    extract: '#55a868',
-    qdrant:  '#c44e52',
-    report:  '#8172b3',
-    seo:     '#937860',
-    review:  '#da8bc3',
-    deploy:  '#8c8c8c',
-    external:'#ccb974',
+  "use strict";
+
+  /* ========== helpers ========== */
+  function lighten(hex, opacity) {
+    var c = d3.rgb(hex);
+    return "rgba(" + c.r + "," + c.g + "," + c.b + "," + opacity + ")";
+  }
+  function darken(hex) {
+    var c = d3.rgb(hex);
+    return d3.rgb(c.r * 0.65, c.g * 0.65, c.b * 0.65).formatHex();
+  }
+
+  /* ========== palette ========== */
+  var C = {
+    ctrl: "#4c72b0", fetch: "#dd8452", ext: "#55a868", qdr: "#c44e52",
+    rpt: "#8172b3", seo: "#937860", rev: "#da8bc3", dep: "#8c8c8c", api: "#ccb974"
   };
 
-  // Phase definitions
-  const phases = [
-    { id:'p0', label:'階段 0 — 任務初始化',        y:0 },
-    { id:'p1', label:'階段 1 — 掃描 Layers',       y:1 },
-    { id:'p2', label:'階段 2 — 平行 Fetch',         y:2 },
-    { id:'p3', label:'階段 3 — 萃取（去重＋分批）', y:4 },
-    { id:'p4', label:'階段 4 — 平行 Update',        y:7 },
-    { id:'p5', label:'階段 5 — 產出報告',           y:9 },
-    { id:'p55',label:'階段 5.5 — SEO 優化',         y:12 },
-    { id:'p6', label:'階段 6 — 推送 GitHub',        y:15 },
-    { id:'p7', label:'階段 7 — GitHub Actions',     y:16 },
-    { id:'p8', label:'階段 8 — 品質關卡',           y:18 },
+  /* ========== phases ========== */
+  var phases = [
+    { label: "階段 0 — 任務初始化",        y: 0  },
+    { label: "階段 1 — 掃描 Layers",       y: 1  },
+    { label: "階段 2 — 平行 Fetch",         y: 2  },
+    { label: "階段 3 — 萃取（去重＋分批）", y: 4  },
+    { label: "階段 4 — 平行 Update",        y: 7  },
+    { label: "階段 5 — 產出報告",           y: 9  },
+    { label: "階段 5.5 — SEO 優化",         y: 12 },
+    { label: "階段 6 — 推送 GitHub",        y: 15 },
+    { label: "階段 7 — GitHub Actions",     y: 16 },
+    { label: "階段 8 — 品質關卡",           y: 18 }
   ];
 
-  // Node definitions
-  // shape: rect | diamond | ellipse | parallelogram | hexagon
-  const nodes = [
-    // Phase 0
-    { id:'start',         label:'開始',                   col:3, row:0,   color:COLORS.control, shape:'ellipse',
-      tip:'使用者觸發「執行完整流程」' },
-    { id:'checklist',     label:'建立任務檢查清單',       col:3, row:0.7, color:COLORS.control, shape:'rect',
-      tip:'輸出：任務目標、預計 Layers、適用 Schema、YMYL 宣告\n此步驟為強制，不可跳過' },
+  /* ========== nodes ========== */
+  var nodes = [
+    /* Phase 0 */
+    { id:"start",       label:"開始",                 c:3, r:0,    clr:C.ctrl, sh:"ell",
+      tip:"使用者觸發「執行完整流程」" },
+    { id:"checklist",   label:"建立任務檢查清單",     c:3, r:0.7,  clr:C.ctrl, sh:"rect",
+      tip:"輸出：任務目標、預計 Layers、適用 Schema、YMYL 宣告\n此步驟為強制，不可跳過" },
 
-    // Phase 1
-    { id:'scan_layers',   label:'掃描啟用的 Layers',      col:3, row:1.5, color:COLORS.control, shape:'rect',
-      tip:'for d in core/Extractor/Layers/*/; do\n  [[ -f "$d/.disabled" ]] || basename "$d"\ndone\n\n檢查 .disabled 旗標，列出 7 個 Layer' },
-    { id:'count_jsonl',   label:'統計現有 JSONL 行數',    col:3, row:2.1, color:COLORS.control, shape:'rect',
-      tip:'wc -l docs/Extractor/*/raw/*.jsonl\n作為後續去重的基準' },
+    /* Phase 1 */
+    { id:"scan",        label:"掃描啟用的 Layers",    c:3, r:1.5,  clr:C.ctrl, sh:"rect",
+      tip:"for d in core/Extractor/Layers/*/; do\n  [[ -f \"$d/.disabled\" ]] || basename \"$d\"\ndone\n\n檢查 .disabled 旗標，列出 7 個 Layer" },
+    { id:"count",       label:"統計現有 JSONL 行數",  c:3, r:2.1,  clr:C.ctrl, sh:"rect",
+      tip:"wc -l docs/Extractor/*/raw/*.jsonl\n作為後續去重的基準" },
 
-    // Phase 2 — Parallel Fetch
-    { id:'fetch_who',     label:'fetch WHO DON',          col:0, row:3.0, color:COLORS.fetch, shape:'rect',
-      tip:'bash core/Extractor/Layers/who_disease_outbreak_news/fetch.sh\n來源：WHO API\n產出：raw/api-*.jsonl' },
-    { id:'fetch_han',     label:'fetch CDC HAN',          col:1, row:3.0, color:COLORS.fetch, shape:'rect',
-      tip:'bash core/Extractor/Layers/us_cdc_han/fetch.sh\n來源：CDC RSS\n產出：raw/rss-*.jsonl\n⚠ 僅緊急事件時有內容' },
-    { id:'fetch_mmwr',    label:'fetch CDC MMWR',         col:2, row:3.0, color:COLORS.fetch, shape:'rect',
-      tip:'bash core/Extractor/Layers/us_cdc_mmwr/fetch.sh\n來源：CDC RSS（週報）\n產出：raw/rss-*.jsonl' },
-    { id:'fetch_travel',  label:'fetch Travel Health',    col:3, row:3.0, color:COLORS.fetch, shape:'rect',
-      tip:'bash core/Extractor/Layers/us_travel_health_notices/fetch.sh\n來源：CDC Travel RSS\n產出：raw/rss-*.jsonl' },
-    { id:'fetch_ecdc',    label:'fetch ECDC CDTR',        col:4, row:3.0, color:COLORS.fetch, shape:'rect',
-      tip:'bash core/Extractor/Layers/ecdc_cdtr/fetch.sh\n來源：ECDC RSS（週報）\n產出：raw/rss-*.jsonl' },
-    { id:'fetch_ukhsa',   label:'fetch UK UKHSA',         col:5, row:3.0, color:COLORS.fetch, shape:'rect',
-      tip:'bash core/Extractor/Layers/uk_ukhsa_updates/fetch.sh\n來源：UKHSA RSS\n產出：raw/rss-*.jsonl' },
-    { id:'fetch_tw',      label:'fetch 台灣 CDC',         col:6, row:3.0, color:COLORS.fetch, shape:'rect',
-      tip:'bash core/Extractor/Layers/tw_cdc_alerts/fetch.sh\n來源：台灣 CDC\n產出：raw/*.jsonl' },
+    /* Phase 2 — Parallel Fetch (7 layers) */
+    { id:"f_who",  label:"fetch WHO DON",       c:0, r:3.0, clr:C.fetch, sh:"rect",
+      tip:"bash core/Extractor/Layers/who_disease_outbreak_news/fetch.sh\n來源：WHO API\n產出：raw/api-*.jsonl" },
+    { id:"f_han",  label:"fetch CDC HAN",       c:1, r:3.0, clr:C.fetch, sh:"rect",
+      tip:"bash core/Extractor/Layers/us_cdc_han/fetch.sh\n來源：CDC RSS\n產出：raw/rss-*.jsonl\n僅緊急事件時有內容" },
+    { id:"f_mmwr", label:"fetch CDC MMWR",      c:2, r:3.0, clr:C.fetch, sh:"rect",
+      tip:"bash core/Extractor/Layers/us_cdc_mmwr/fetch.sh\n來源：CDC RSS（週報）\n產出：raw/rss-*.jsonl" },
+    { id:"f_trav", label:"fetch Travel Health",  c:3, r:3.0, clr:C.fetch, sh:"rect",
+      tip:"bash core/Extractor/Layers/us_travel_health_notices/fetch.sh\n來源：CDC Travel RSS\n產出：raw/rss-*.jsonl" },
+    { id:"f_ecdc", label:"fetch ECDC CDTR",     c:4, r:3.0, clr:C.fetch, sh:"rect",
+      tip:"bash core/Extractor/Layers/ecdc_cdtr/fetch.sh\n來源：ECDC RSS（週報）\n產出：raw/rss-*.jsonl" },
+    { id:"f_uk",   label:"fetch UK UKHSA",      c:5, r:3.0, clr:C.fetch, sh:"rect",
+      tip:"bash core/Extractor/Layers/uk_ukhsa_updates/fetch.sh\n來源：UKHSA RSS\n產出：raw/rss-*.jsonl" },
+    { id:"f_tw",   label:"fetch 台灣 CDC",      c:6, r:3.0, clr:C.fetch, sh:"rect",
+      tip:"bash core/Extractor/Layers/tw_cdc_alerts/fetch.sh\n來源：台灣 CDC\n產出：raw/*.jsonl" },
+    { id:"raw",    label:"docs/Extractor/*/raw/*.jsonl", c:3, r:3.8, clr:C.fetch, sh:"para",
+      tip:"原始 JSONL 資料檔\n每行一筆 JSON，包含 Title、PublicationDate、Summary、Content" },
 
-    { id:'raw_jsonl',     label:'docs/Extractor/*/raw/*.jsonl', col:3, row:3.8, color:COLORS.fetch, shape:'parallelogram',
-      tip:'原始 JSONL 資料檔\n每行一筆 JSON，包含 Title、PublicationDate、Summary、Content 等欄位' },
+    /* Phase 3 — Extraction */
+    { id:"dedup",      label:"去重 dedup.sh",              c:2, r:4.7, clr:C.ext, sh:"rect",
+      tip:"source lib/dedup.sh\ndedup_find_new_items\n\n使用 awk + comm，O(n log n)\n比對現有 source_url，找出新資料行號" },
+    { id:"dup_chk",    label:"有新資料？",                 c:2, r:5.4, clr:C.ext, sh:"dia",
+      tip:"dedup_count_new > 0 → 繼續萃取\n= 0 → 跳過此 Layer" },
+    { id:"skip",       label:"跳過",                       c:1, r:5.4, clr:C.ext, sh:"ell",
+      tip:"無新資料時直接跳過，不浪費 API 呼叫" },
+    { id:"batch",      label:"分批 (每 10 筆)",            c:3, r:5.4, clr:C.ext, sh:"rect",
+      tip:"dedup_batch_info 10\n將新資料分為每批 10 筆，平行處理" },
+    { id:"extract",    label:"Claude 萃取\n(sonnet x N 平行)", c:4, r:5.4, clr:C.ext, sh:"rect",
+      tip:"每批由獨立 Task(sonnet) 處理：\n1. sed -n 讀取 JSONL 行\n2. 載入 Layer CLAUDE.md 萃取規則\n3. 判定 category\n4. WebFetch 補充（依 Layer 策略）\n5. 檢查 [REVIEW_NEEDED] 觸發條件\n6. 輸出結構化 Markdown" },
+    { id:"ext_out",    label:"docs/Extractor/{layer}\n/{category}/*.md", c:4, r:6.3, clr:C.ext, sh:"para",
+      tip:"萃取結果 Markdown\n必填：nav_exclude, title, source_url,\ndate, source_layer, category,\nconfidence, summary\n可能含 [REVIEW_NEEDED]" },
 
-    // Phase 3 — Extraction
-    { id:'dedup',         label:'去重 dedup.sh',          col:2, row:4.7, color:COLORS.extract, shape:'rect',
-      tip:'source lib/dedup.sh\ndedup_find_new_items "$jsonl" "docs/Extractor/$layer"\n\n使用 awk + comm，O(n log n)\n比對現有 source_url，找出新資料行號' },
-    { id:'dedup_check',   label:'有新資料？',             col:2, row:5.4, color:COLORS.extract, shape:'diamond',
-      tip:'dedup_count_new > 0 → 繼續萃取\n= 0 → 跳過此 Layer' },
-    { id:'batch',         label:'分批 (每 10 筆)',        col:3, row:5.4, color:COLORS.extract, shape:'rect',
-      tip:'dedup_batch_info "$jsonl" "docs/Extractor/$layer" 10\n將新資料分為每批 10 筆，平行處理' },
-    { id:'extract_task',  label:'Claude 萃取\n(sonnet × N 平行)', col:4, row:5.4, color:COLORS.extract, shape:'rect',
-      tip:'每批由獨立 Task(sonnet) 處理：\n1. sed -n 讀取 JSONL 行\n2. 載入 Layer CLAUDE.md 萃取規則\n3. 判定 category（依 Layer enum）\n4. WebFetch 補充（依 Layer 策略）\n5. 檢查 [REVIEW_NEEDED] 觸發條件\n6. 輸出結構化 Markdown' },
-    { id:'extract_out',   label:'docs/Extractor/{layer}\n/{category}/*.md', col:4, row:6.3, color:COLORS.extract, shape:'parallelogram',
-      tip:'萃取結果 Markdown 檔案\n必填：nav_exclude, title, source_url,\ndate, source_layer, category,\nconfidence, summary\n可能含 [REVIEW_NEEDED] 標記' },
-    { id:'skip_layer',    label:'跳過此 Layer',           col:1, row:5.4, color:COLORS.extract, shape:'ellipse',
-      tip:'無新資料時直接跳過，不浪費 API 呼叫' },
+    /* Phase 4 — Qdrant Update (7 layers) */
+    { id:"u_who",  label:"update WHO",    c:0, r:7.8, clr:C.qdr, sh:"rect",
+      tip:"update.sh\n1. qdrant_filter_new_files 批次檢查\n2. qdrant_upsert_from_md 逐檔寫入\n3. 掃描 [REVIEW_NEEDED] 標記" },
+    { id:"u_han",  label:"update HAN",    c:1, r:7.8, clr:C.qdr, sh:"rect",
+      tip:"update.sh：讀取 .md → OpenAI embedding → Qdrant upsert" },
+    { id:"u_mmwr", label:"update MMWR",   c:2, r:7.8, clr:C.qdr, sh:"rect",
+      tip:"update.sh：讀取 .md → OpenAI embedding → Qdrant upsert" },
+    { id:"u_trav", label:"update Travel",  c:3, r:7.8, clr:C.qdr, sh:"rect",
+      tip:"update.sh：讀取 .md → OpenAI embedding → Qdrant upsert" },
+    { id:"u_ecdc", label:"update ECDC",   c:4, r:7.8, clr:C.qdr, sh:"rect",
+      tip:"update.sh：讀取 .md → OpenAI embedding → Qdrant upsert" },
+    { id:"u_uk",   label:"update UKHSA",  c:5, r:7.8, clr:C.qdr, sh:"rect",
+      tip:"update.sh：讀取 .md → OpenAI embedding → Qdrant upsert" },
+    { id:"u_tw",   label:"update TW",     c:6, r:7.8, clr:C.qdr, sh:"rect",
+      tip:"update.sh：讀取 .md → OpenAI embedding → Qdrant upsert" },
+    { id:"oai",    label:"OpenAI Embedding\ntext-embedding-3-small", c:5.5, r:8.6, clr:C.api, sh:"rect",
+      tip:"chatgpt_embed() — lib/chatgpt.sh\n輸入：title + summary\n輸出：1536 維向量\nModel: text-embedding-3-small" },
+    { id:"qdb",    label:"Qdrant Cloud\ndisease-and-advisory", c:3, r:8.6, clr:C.api, sh:"hex",
+      tip:"Qdrant 向量資料庫（GCP us-east4）\nCollection: disease-and-advisory\n儲存：embedding + metadata\n(title, source_url, date, category, source_layer)" },
 
-    // Phase 4 — Qdrant Update
-    { id:'update_who',    label:'update WHO',             col:0, row:7.8, color:COLORS.qdrant, shape:'rect',
-      tip:'bash core/Extractor/Layers/who_disease_outbreak_news/update.sh\n1. qdrant_filter_new_files 批次檢查\n2. qdrant_upsert_from_md 逐檔寫入\n3. 掃描 [REVIEW_NEEDED] 標記' },
-    { id:'update_han',    label:'update HAN',             col:1, row:7.8, color:COLORS.qdrant, shape:'rect',
-      tip:'update.sh：讀取 .md → OpenAI embedding → Qdrant upsert' },
-    { id:'update_mmwr',   label:'update MMWR',            col:2, row:7.8, color:COLORS.qdrant, shape:'rect',
-      tip:'update.sh：讀取 .md → OpenAI embedding → Qdrant upsert' },
-    { id:'update_travel', label:'update Travel',          col:3, row:7.8, color:COLORS.qdrant, shape:'rect',
-      tip:'update.sh：讀取 .md → OpenAI embedding → Qdrant upsert' },
-    { id:'update_ecdc',   label:'update ECDC',            col:4, row:7.8, color:COLORS.qdrant, shape:'rect',
-      tip:'update.sh：讀取 .md → OpenAI embedding → Qdrant upsert' },
-    { id:'update_ukhsa',  label:'update UKHSA',           col:5, row:7.8, color:COLORS.qdrant, shape:'rect',
-      tip:'update.sh：讀取 .md → OpenAI embedding → Qdrant upsert' },
-    { id:'update_tw',     label:'update TW',              col:6, row:7.8, color:COLORS.qdrant, shape:'rect',
-      tip:'update.sh：讀取 .md → OpenAI embedding → Qdrant upsert' },
+    /* Phase 5 — Report */
+    { id:"rd_ext",     label:"讀取本週萃取結果",             c:2, r:10.0, clr:C.rpt, sh:"rect",
+      tip:"讀取 docs/Extractor/*/\n各 Layer 本週新增的 .md 檔案" },
+    { id:"identify",   label:"識別主要疾病事件\n(5-10 個)",  c:3, r:10.0, clr:C.rpt, sh:"rect",
+      tip:"分析萃取結果，識別本週重點疾病/事件\n例如：H5N1, Mpox, Marburg, Measles..." },
+    { id:"semantic",   label:"語意搜尋 x N\nreport_semantic_search", c:4, r:10.0, clr:C.rpt, sh:"rect",
+      tip:"對每個主要疾病執行：\nreport_semantic_search 'disease' 10\n\n流程：查詢 → OpenAI embedding → Qdrant\n回傳：score, title, date, source_layer" },
+    { id:"prev_rpt",   label:"載入上一期報告",               c:2, r:10.8, clr:C.rpt, sh:"rect",
+      tip:"report_find_previous \"weekly_digest\"\n用於趨勢比較：新增 / 升級 / 已解除" },
+    { id:"synth",      label:"跨來源綜合分析\n(opus)",       c:3, r:10.8, clr:C.rpt, sh:"rect",
+      tip:"Task(opus) — 必須使用 opus：\n- 跨來源交叉驗證\n- 趨勢判斷\n- 歷史比較\n- 區域分析\n- 優先級排序" },
+    { id:"rpt_out",    label:"docs/Narrator/weekly_digest\n/YYYY-WNN-*.md + .html", c:3, r:11.6, clr:C.rpt, sh:"para",
+      tip:"週報產出（Markdown + HTML）\n包含：本週重點、與上週比較、全球概覽、\n區域動態、歷史參考[語意搜尋]" },
 
-    { id:'openai_embed',  label:'OpenAI Embedding\ntext-embedding-3-small', col:5.5, row:8.6, color:COLORS.external, shape:'rect',
-      tip:'chatgpt_embed() — lib/chatgpt.sh\n輸入：title + summary 文字\n輸出：1536 維向量 (JSON array)\nModel: text-embedding-3-small' },
-    { id:'qdrant_db',     label:'Qdrant Cloud\ndisease-and-advisory', col:3, row:8.6, color:COLORS.external, shape:'hexagon',
-      tip:'Qdrant 向量資料庫（GCP us-east4）\nCollection: disease-and-advisory\n儲存：embedding + metadata\n(title, source_url, date, category, source_layer)' },
+    /* Phase 5.5 — SEO */
+    { id:"seo_w",   label:"SEO Writer\n(sonnet)",   c:2, r:13.0, clr:C.seo, sh:"rect",
+      tip:"Task(sonnet) 讀取 seo/writer/CLAUDE.md\n1. 分析頁面內容\n2. 產出 JSON-LD Schema（7 必填 + 10 條件式）\n3. 產出 SGE 標記建議\n4. 產出 Meta 標籤\n5. YMYL 欄位\n6. E-E-A-T 信號" },
+    { id:"seo_r",   label:"SEO Reviewer\n(sonnet)", c:4, r:13.0, clr:C.seo, sh:"rect",
+      tip:"Task(sonnet) 讀取 seo/review/CLAUDE.md\n驗證 22 必填 + 20 條件式 + 25 細節項目：\n- 7 必填 Schema 齊全\n- JSON-LD 語法正確\n- YMYL 欄位存在\n- E-E-A-T 信號" },
+    { id:"seo_ok",  label:"SEO\nPASS?",            c:3, r:13.8, clr:C.seo, sh:"dia",
+      tip:"Reviewer pass → 繼續\nReviewer fail → Writer 修正後重新提交" },
 
-    // Phase 5 — Report
-    { id:'read_extracts', label:'讀取本週萃取結果',       col:2, row:10.0, color:COLORS.report, shape:'rect',
-      tip:'讀取 docs/Extractor/*/\n各 Layer 本週新增的 .md 檔案' },
-    { id:'identify',      label:'識別主要疾病事件\n(5-10 個)',   col:3, row:10.0, color:COLORS.report, shape:'rect',
-      tip:'分析萃取結果，識別本週重點疾病/事件\n例如：H5N1, Mpox, Marburg, Measles...' },
-    { id:'semantic',      label:'語意搜尋 × N\nreport_semantic_search', col:4, row:10.0, color:COLORS.report, shape:'rect',
-      tip:'對每個主要疾病執行：\nbash -c "source lib/report.sh && report_semantic_search \'disease\' 10"\n\n流程：查詢 → OpenAI embedding → Qdrant 搜尋\n回傳：score, title, date, source_layer' },
-    { id:'prev_report',   label:'載入上一期報告',         col:2, row:10.8, color:COLORS.report, shape:'rect',
-      tip:'report_find_previous "weekly_digest"\n用於趨勢比較：新增 / 升級 / 已解除' },
-    { id:'synthesize',    label:'跨來源綜合分析\n(opus)',  col:3, row:10.8, color:COLORS.report, shape:'rect',
-      tip:'Task(general-purpose, opus)\n必須使用 opus：\n- 跨來源交叉驗證\n- 趨勢判斷（新增/升級/持續/解除）\n- 歷史比較\n- 區域分析（歐洲/亞太/美洲）\n- 優先級排序' },
-    { id:'report_out',    label:'docs/Narrator/weekly_digest\n/{YYYY}-W{WW}-*.md + .html', col:3, row:11.6, color:COLORS.report, shape:'parallelogram',
-      tip:'週報產出（Markdown + HTML）\n包含：本週重點、與上週比較、全球概覽、\n區域動態、歷史參考[語意搜尋]、資料來源' },
+    /* Phase 6 — Deploy */
+    { id:"ts",      label:"更新首頁時間戳",  c:2, r:15.2, clr:C.dep, sh:"rect",
+      tip:"sed -i '' 's/最後更新：.*/最後更新：...' docs/index.md" },
+    { id:"commit",  label:"git add + commit", c:3, r:15.2, clr:C.dep, sh:"rect",
+      tip:"git add docs/ lib/ core/\ngit commit -m 'data: update ...'" },
+    { id:"push",    label:"git push origin main", c:4, r:15.2, clr:C.dep, sh:"rect",
+      tip:"推送到 GitHub\n觸發 Pages 部署 + Actions" },
 
-    // Phase 5.5 — SEO
-    { id:'seo_writer',    label:'SEO Writer\n(sonnet)',   col:2, row:13.0, color:COLORS.seo, shape:'rect',
-      tip:'Task(sonnet) 讀取 seo/writer/CLAUDE.md\n1. 分析頁面內容\n2. 產出 JSON-LD Schema（7 必填 + 10 條件式）\n3. 產出 SGE 標記建議\n4. 產出 Meta 標籤\n5. YMYL 欄位（lastReviewed, reviewedBy, 免責聲明）\n6. E-E-A-T 信號' },
-    { id:'seo_reviewer',  label:'SEO Reviewer\n(sonnet)', col:4, row:13.0, color:COLORS.seo, shape:'rect',
-      tip:'Task(sonnet) 讀取 seo/review/CLAUDE.md\n驗證 22 必填 + 20 條件式 + 25 細節項目：\n- 7 必填 Schema 齊全\n- JSON-LD 語法正確\n- SGE 標記完整\n- YMYL 欄位存在\n- E-E-A-T 信號' },
-    { id:'seo_pass',      label:'SEO\nPASS？',           col:3, row:13.8, color:COLORS.seo, shape:'diamond',
-      tip:'Reviewer 回報 pass → 繼續\nReviewer 回報 fail → Writer 修正後重新提交' },
+    /* Phase 7 — GitHub Actions */
+    { id:"pages",   label:"GitHub Pages\n部署",        c:2, r:16.7, clr:C.dep, sh:"rect",
+      tip:"GitHub Actions: pages-build-deployment\nJekyll 建置 → 部署到 GitHub Pages\nhttps://epialert.weiqi.kids" },
+    { id:"lychee",  label:"lychee 連結檢查",           c:3, r:16.7, clr:C.dep, sh:"rect",
+      tip:".github/workflows/check-links.yml\n使用 lychee 掃描所有內部/外部連結" },
+    { id:"fixable", label:"可修復？",                  c:4, r:16.7, clr:C.dep, sh:"dia",
+      tip:"尾部斜線、表格連結 → 自動修復\n外部 404、檔案不存在 → 開 Issue" },
+    { id:"autofix", label:"fix-broken-links.sh\n自動修復 + commit", c:5.5, r:16.3, clr:C.dep, sh:"rect",
+      tip:"自動修復：\n- 移除連結尾部斜線\n- 表格連結格式修正\n修復後 commit + push（觸發重新部署）" },
+    { id:"issue",   label:"建立 GitHub Issue",         c:5.5, r:17.1, clr:C.dep, sh:"rect",
+      tip:"無法自動修復：\n- 外部網站 404\n- 檔案確實不存在\n標記 needs-manual-fix" },
 
-    // Phase 6 — Deploy
-    { id:'update_ts',     label:'更新首頁時間戳',         col:2, row:15.2, color:COLORS.deploy, shape:'rect',
-      tip:'sed -i "" "s/最後更新：.*/最後更新：$(date)/" docs/index.md' },
-    { id:'git_commit',    label:'git add + commit',       col:3, row:15.2, color:COLORS.deploy, shape:'rect',
-      tip:'git add docs/ lib/ core/\ngit commit -m "data: update YYYY-MM-DD - N new items across M layers"' },
-    { id:'git_push',      label:'git push origin main',   col:4, row:15.2, color:COLORS.deploy, shape:'rect',
-      tip:'推送到 GitHub 遠端\n觸發 GitHub Pages 部署 + GitHub Actions' },
-
-    // Phase 7 — GitHub Actions
-    { id:'pages_deploy',  label:'GitHub Pages\n部署',     col:2, row:16.7, color:COLORS.deploy, shape:'rect',
-      tip:'GitHub Actions: pages-build-deployment\nJekyll 建置 → 部署到 GitHub Pages\n網址：https://epialert.weiqi.kids' },
-    { id:'link_check',    label:'lychee 連結檢查',        col:3, row:16.7, color:COLORS.deploy, shape:'rect',
-      tip:'.github/workflows/check-links.yml\n使用 lychee 掃描所有內部/外部連結' },
-    { id:'link_fix',      label:'可修復？',               col:4, row:16.7, color:COLORS.deploy, shape:'diamond',
-      tip:'尾部斜線、表格連結格式 → 自動修復\n外部網站失效、檔案不存在 → 開 Issue' },
-    { id:'auto_fix',      label:'scripts/fix-broken-links.sh\n自動修復 + commit', col:5, row:16.3, color:COLORS.deploy, shape:'rect',
-      tip:'自動修復可處理的問題：\n- 連結尾部斜線移除\n- 表格連結格式修正\n修復後自動 commit + push（觸發重新部署）' },
-    { id:'open_issue',    label:'建立 GitHub Issue',      col:5, row:17.1, color:COLORS.deploy, shape:'rect',
-      tip:'無法自動修復的問題：\n- 外部網站 404\n- 檔案確實不存在\n標記 needs-manual-fix' },
-
-    // Phase 8 — Quality Gate
-    { id:'qg_task',       label:'獨立 Reviewer Task\n(sonnet)',  col:3, row:18.5, color:COLORS.review, shape:'rect',
-      tip:'Task(general-purpose, sonnet)\n讀取 core/Reviewer/CLAUDE.md\n獨立 context — 不知道執行者說了什麼\n只看檔案系統狀態' },
-    { id:'qg_run',        label:'source lib/quality-gate.sh\n&& qg_run_all',    col:3, row:19.3, color:COLORS.review, shape:'rect',
-      tip:'執行 7 項品質關卡驗證：\n1. qg_check_ymyl — lastReviewed + reviewedBy\n2. qg_check_frontmatter — nav_exclude: true\n3. qg_check_link_format — 無尾部斜線\n4. qg_check_git_status — 已提交已推送\n5. qg_check_schema_index — 首頁 Schema\n6. qg_check_content_updated — 時間戳為今天\n7. qg_check_eeat_links — ≥2 個 .gov 連結' },
-    { id:'qg_pass',       label:'品質關卡\nPASS？',       col:3, row:20.1, color:COLORS.review, shape:'diamond',
-      tip:'✅ PASS → 可以回報完成\n❌ FAIL → 主執行緒修正後重新審核' },
-    { id:'qg_fix',        label:'主執行緒修正問題',       col:5, row:20.1, color:COLORS.review, shape:'rect',
-      tip:'Reviewer 只負責檢查，不負責修正\n修正由主執行緒或新的執行 Task 處理\n修正後必須重新審核' },
-    { id:'done',          label:'完成',                   col:3, row:21.0, color:COLORS.control, shape:'ellipse',
-      tip:'回報：\n1. 各 Layer 擷取筆數\n2. 新增萃取結果數量\n3. [REVIEW_NEEDED] 人工介入需求\n4. GitHub commit URL\n5. 品質關卡審核報告（PASS）' },
+    /* Phase 8 — Quality Gate */
+    { id:"qg_task", label:"獨立 Reviewer Task\n(sonnet)", c:3, r:18.5, clr:C.rev, sh:"rect",
+      tip:"Task(sonnet)\n讀取 core/Reviewer/CLAUDE.md\n獨立 context — 不知道執行者說了什麼\n只看檔案系統狀態" },
+    { id:"qg_run",  label:"lib/quality-gate.sh\nqg_run_all", c:3, r:19.3, clr:C.rev, sh:"rect",
+      tip:"執行 7 項品質關卡：\n1. qg_check_ymyl\n2. qg_check_frontmatter\n3. qg_check_link_format\n4. qg_check_git_status\n5. qg_check_schema_index\n6. qg_check_content_updated\n7. qg_check_eeat_links" },
+    { id:"qg_ok",   label:"品質關卡\nPASS?",          c:3, r:20.1, clr:C.rev, sh:"dia",
+      tip:"PASS → 可以回報完成\nFAIL → 主執行緒修正後重新審核" },
+    { id:"qg_fix",  label:"主執行緒修正問題",         c:5, r:20.1, clr:C.rev, sh:"rect",
+      tip:"Reviewer 只負責檢查，不負責修正\n修正由主執行緒或新 Task 處理\n修正後必須重新審核" },
+    { id:"done",    label:"完成",                     c:3, r:21.0, clr:C.ctrl, sh:"ell",
+      tip:"回報：\n1. 各 Layer 擷取筆數\n2. 新增萃取結果數量\n3. [REVIEW_NEEDED] 需求\n4. GitHub commit URL\n5. 品質關卡審核報告（PASS）" }
   ];
 
-  // Edge definitions
-  const edges = [
-    { from:'start',       to:'checklist',    label:'' },
-    { from:'checklist',   to:'scan_layers',  label:'' },
-    { from:'scan_layers', to:'count_jsonl',  label:'' },
+  /* ========== edges ========== */
+  var edges = [
+    { f:"start",    t:"checklist" },
+    { f:"checklist",t:"scan" },
+    { f:"scan",     t:"count" },
 
-    // Scan → parallel fetch
-    { from:'count_jsonl', to:'fetch_who',    label:'background', dash:true },
-    { from:'count_jsonl', to:'fetch_han',    label:'',           dash:true },
-    { from:'count_jsonl', to:'fetch_mmwr',   label:'',           dash:true },
-    { from:'count_jsonl', to:'fetch_travel', label:'',           dash:true },
-    { from:'count_jsonl', to:'fetch_ecdc',   label:'',           dash:true },
-    { from:'count_jsonl', to:'fetch_ukhsa',  label:'',           dash:true },
-    { from:'count_jsonl', to:'fetch_tw',     label:'',           dash:true },
+    /* → parallel fetch */
+    { f:"count", t:"f_who",  lbl:"background", dsh:1 },
+    { f:"count", t:"f_han",  dsh:1 },
+    { f:"count", t:"f_mmwr", dsh:1 },
+    { f:"count", t:"f_trav", dsh:1 },
+    { f:"count", t:"f_ecdc", dsh:1 },
+    { f:"count", t:"f_uk",   dsh:1 },
+    { f:"count", t:"f_tw",   dsh:1 },
 
-    // Fetch → raw JSONL
-    { from:'fetch_who',    to:'raw_jsonl', label:'' },
-    { from:'fetch_han',    to:'raw_jsonl', label:'' },
-    { from:'fetch_mmwr',   to:'raw_jsonl', label:'' },
-    { from:'fetch_travel', to:'raw_jsonl', label:'' },
-    { from:'fetch_ecdc',   to:'raw_jsonl', label:'' },
-    { from:'fetch_ukhsa',  to:'raw_jsonl', label:'' },
-    { from:'fetch_tw',     to:'raw_jsonl', label:'' },
+    /* fetch → raw */
+    { f:"f_who",t:"raw" }, { f:"f_han",t:"raw" }, { f:"f_mmwr",t:"raw" },
+    { f:"f_trav",t:"raw" }, { f:"f_ecdc",t:"raw" }, { f:"f_uk",t:"raw" }, { f:"f_tw",t:"raw" },
 
-    // Raw → dedup
-    { from:'raw_jsonl',    to:'dedup',        label:'' },
-    { from:'dedup',        to:'dedup_check',  label:'' },
-    { from:'dedup_check',  to:'skip_layer',   label:'否' },
-    { from:'dedup_check',  to:'batch',        label:'是' },
-    { from:'batch',        to:'extract_task', label:'' },
-    { from:'extract_task', to:'extract_out',  label:'' },
+    /* extract pipeline */
+    { f:"raw",     t:"dedup" },
+    { f:"dedup",   t:"dup_chk" },
+    { f:"dup_chk", t:"skip",    lbl:"否" },
+    { f:"dup_chk", t:"batch",   lbl:"是" },
+    { f:"batch",   t:"extract" },
+    { f:"extract", t:"ext_out" },
 
-    // Extract → parallel update
-    { from:'extract_out',  to:'update_who',    label:'background', dash:true },
-    { from:'extract_out',  to:'update_han',    label:'',           dash:true },
-    { from:'extract_out',  to:'update_mmwr',   label:'',           dash:true },
-    { from:'extract_out',  to:'update_travel', label:'',           dash:true },
-    { from:'extract_out',  to:'update_ecdc',   label:'',           dash:true },
-    { from:'extract_out',  to:'update_ukhsa',  label:'',           dash:true },
-    { from:'extract_out',  to:'update_tw',     label:'',           dash:true },
+    /* → parallel update */
+    { f:"ext_out", t:"u_who",  lbl:"background", dsh:1 },
+    { f:"ext_out", t:"u_han",  dsh:1 },
+    { f:"ext_out", t:"u_mmwr", dsh:1 },
+    { f:"ext_out", t:"u_trav", dsh:1 },
+    { f:"ext_out", t:"u_ecdc", dsh:1 },
+    { f:"ext_out", t:"u_uk",   dsh:1 },
+    { f:"ext_out", t:"u_tw",   dsh:1 },
 
-    // Update → Qdrant
-    { from:'update_who',    to:'qdrant_db', label:'' },
-    { from:'update_han',    to:'qdrant_db', label:'' },
-    { from:'update_mmwr',   to:'qdrant_db', label:'' },
-    { from:'update_travel', to:'qdrant_db', label:'' },
-    { from:'update_ecdc',   to:'qdrant_db', label:'' },
-    { from:'update_ukhsa',  to:'qdrant_db', label:'' },
-    { from:'update_tw',     to:'qdrant_db', label:'' },
+    /* update → qdrant */
+    { f:"u_who",t:"qdb" }, { f:"u_han",t:"qdb" }, { f:"u_mmwr",t:"qdb" },
+    { f:"u_trav",t:"qdb" }, { f:"u_ecdc",t:"qdb" }, { f:"u_uk",t:"qdb" }, { f:"u_tw",t:"qdb" },
 
-    // Update → OpenAI
-    { from:'update_who',    to:'openai_embed', label:'embed', dash:true },
-    { from:'openai_embed',  to:'qdrant_db',    label:'vector' },
+    /* update → openai embed */
+    { f:"u_who", t:"oai", lbl:"embed", dsh:1 },
+    { f:"oai",   t:"qdb", lbl:"vector" },
 
-    // Report
-    { from:'qdrant_db',     to:'read_extracts', label:'' },
-    { from:'read_extracts', to:'identify',      label:'' },
-    { from:'identify',      to:'semantic',      label:'' },
-    { from:'semantic',      to:'qdrant_db',     label:'查詢', dash:true, back:true },
-    { from:'identify',      to:'prev_report',   label:'' },
-    { from:'prev_report',   to:'synthesize',    label:'' },
-    { from:'semantic',      to:'synthesize',    label:'' },
-    { from:'synthesize',    to:'report_out',    label:'' },
+    /* report */
+    { f:"qdb",      t:"rd_ext" },
+    { f:"rd_ext",   t:"identify" },
+    { f:"identify", t:"semantic" },
+    { f:"semantic", t:"qdb",      lbl:"查詢", dsh:1, back:1 },
+    { f:"identify", t:"prev_rpt" },
+    { f:"prev_rpt", t:"synth" },
+    { f:"semantic", t:"synth" },
+    { f:"synth",    t:"rpt_out" },
 
-    // SEO
-    { from:'report_out',    to:'seo_writer',   label:'' },
-    { from:'seo_writer',    to:'seo_reviewer', label:'' },
-    { from:'seo_reviewer',  to:'seo_pass',     label:'' },
-    { from:'seo_pass',      to:'seo_writer',   label:'fail — 修正', back:true },
-    { from:'seo_pass',      to:'update_ts',    label:'pass' },
+    /* seo */
+    { f:"rpt_out", t:"seo_w" },
+    { f:"seo_w",   t:"seo_r" },
+    { f:"seo_r",   t:"seo_ok" },
+    { f:"seo_ok",  t:"seo_w",  lbl:"fail", back:1 },
+    { f:"seo_ok",  t:"ts",     lbl:"pass" },
 
-    // Deploy
-    { from:'update_ts',     to:'git_commit',   label:'' },
-    { from:'git_commit',    to:'git_push',     label:'' },
-    { from:'git_push',      to:'pages_deploy', label:'' },
-    { from:'git_push',      to:'link_check',   label:'' },
-    { from:'link_check',    to:'link_fix',     label:'' },
-    { from:'link_fix',      to:'auto_fix',     label:'是' },
-    { from:'link_fix',      to:'open_issue',   label:'否' },
+    /* deploy */
+    { f:"ts",     t:"commit" },
+    { f:"commit", t:"push" },
+    { f:"push",   t:"pages" },
+    { f:"push",   t:"lychee" },
+    { f:"lychee", t:"fixable" },
+    { f:"fixable",t:"autofix", lbl:"是" },
+    { f:"fixable",t:"issue",   lbl:"否" },
 
-    // Quality Gate
-    { from:'pages_deploy',  to:'qg_task',      label:'' },
-    { from:'qg_task',       to:'qg_run',       label:'' },
-    { from:'qg_run',        to:'qg_pass',      label:'' },
-    { from:'qg_pass',       to:'qg_fix',       label:'FAIL' },
-    { from:'qg_fix',        to:'qg_task',      label:'重新審核', back:true },
-    { from:'qg_pass',       to:'done',         label:'PASS' },
+    /* quality gate */
+    { f:"pages",  t:"qg_task" },
+    { f:"qg_task",t:"qg_run" },
+    { f:"qg_run", t:"qg_ok" },
+    { f:"qg_ok",  t:"qg_fix",  lbl:"FAIL" },
+    { f:"qg_fix", t:"qg_task", lbl:"重新審核", back:1 },
+    { f:"qg_ok",  t:"done",    lbl:"PASS" }
   ];
 
-  // ============================================================
-  // LAYOUT: compute positions
-  // ============================================================
-  const COL_W = 155, ROW_H = 58;
-  const MARGIN = { top: 50, left: 50, right: 50, bottom: 50 };
-  const NODE_W = 140, NODE_H = 44;
+  /* ========== layout constants ========== */
+  var COL_W = 155, ROW_H = 58;
+  var PAD = { t:50, l:50, r:50, b:50 };
+  var NW = 140, NH = 44;
 
-  function cx(col) { return MARGIN.left + col * COL_W + COL_W / 2; }
-  function cy(row) { return MARGIN.top + row * ROW_H + ROW_H / 2; }
+  function cx(col) { return PAD.l + col * COL_W + COL_W / 2; }
+  function cy(row) { return PAD.t + row * ROW_H + ROW_H / 2; }
 
-  const maxCol = Math.max(...nodes.map(n => n.col));
-  const maxRow = Math.max(...nodes.map(n => n.row));
-  const svgW = MARGIN.left + (maxCol + 1) * COL_W + MARGIN.right;
-  const svgH = MARGIN.top + (maxRow + 1) * ROW_H + MARGIN.bottom + 20;
+  var maxCol = 0, maxRow = 0;
+  nodes.forEach(function(n) {
+    if (n.c > maxCol) maxCol = n.c;
+    if (n.r > maxRow) maxRow = n.r;
+  });
 
-  const svg = d3.select('#flowchart-svg')
-    .attr('viewBox', `0 0 ${svgW} ${svgH}`)
-    .attr('width', svgW)
-    .attr('height', svgH);
+  var W = PAD.l + (maxCol + 1) * COL_W + PAD.r;
+  var H = PAD.t + (maxRow + 1) * ROW_H + PAD.b + 20;
 
-  const g = svg.append('g');
-  const tooltip = d3.select('#tooltip');
+  /* ========== svg ========== */
+  var svg = d3.select("#flowchart-svg")
+    .attr("width", W)
+    .attr("height", H)
+    .attr("viewBox", "0 0 " + W + " " + H)
+    .style("display", "block");
 
-  // Zoom
-  const zoom = d3.zoom()
-    .scaleExtent([0.3, 3])
-    .on('zoom', e => g.attr('transform', e.transform));
-  svg.call(zoom);
+  var g = svg.append("g");
+  var tip = d3.select("#tooltip");
 
-  window.zoomIn = () => svg.transition().call(zoom.scaleBy, 1.3);
-  window.zoomOut = () => svg.transition().call(zoom.scaleBy, 0.75);
-  window.zoomReset = () => svg.transition().call(zoom.transform, d3.zoomIdentity);
+  /* zoom */
+  var zm = d3.zoom().scaleExtent([0.3, 3])
+    .on("zoom", function(ev) { g.attr("transform", ev.transform); });
+  svg.call(zm);
 
-  // Arrowhead marker
-  svg.append('defs').append('marker')
-    .attr('id','arrow').attr('viewBox','0 0 10 10')
-    .attr('refX',9).attr('refY',5)
-    .attr('markerWidth',7).attr('markerHeight',7)
-    .attr('orient','auto-start-reverse')
-    .append('path').attr('d','M 0 0 L 10 5 L 0 10 z').attr('fill','#586069');
+  d3.select("#btn-zin").on("click", function() { svg.transition().call(zm.scaleBy, 1.3); });
+  d3.select("#btn-zout").on("click", function() { svg.transition().call(zm.scaleBy, 0.75); });
+  d3.select("#btn-zreset").on("click", function() { svg.transition().call(zm.transform, d3.zoomIdentity); });
 
-  // ============================================================
-  // DRAW: Phase backgrounds
-  // ============================================================
-  const phaseColors = ['#f0f4ff','#fff8f0','#fff8f0','#f0fff4','#f0fff4','#f0fff4',
-                       '#faf0ff','#faf0ff','#f7f0e8','#f7f0e8','#f0f0f0','#f0f0f0',
-                       '#f0f0f0','#f0f0f0','#fff0f6','#fff0f6','#fff0f6'];
+  /* arrowhead */
+  svg.append("defs").append("marker")
+    .attr("id", "arr").attr("viewBox", "0 0 10 10")
+    .attr("refX", 9).attr("refY", 5)
+    .attr("markerWidth", 7).attr("markerHeight", 7)
+    .attr("orient", "auto-start-reverse")
+    .append("path").attr("d", "M 0 0 L 10 5 L 0 10 z").attr("fill", "#586069");
 
-  phases.forEach((p, i) => {
-    const nextY = (i < phases.length - 1) ? phases[i + 1].y : maxRow + 1;
-    const y0 = MARGIN.top + p.y * ROW_H - 5;
-    const h = (nextY - p.y) * ROW_H + 10;
+  /* ========== phase backgrounds ========== */
+  var pClrs = [
+    "#eef2fa","#fdf5ed","#fdf5ed",
+    "#edf7ef","#edf7ef","#edf7ef",
+    "#f5eefa","#f5eefa",
+    "#f5efe4","#f5efe4",
+    "#efefef","#efefef","#efefef","#efefef",
+    "#faeef4","#faeef4","#faeef4"
+  ];
 
-    g.append('rect')
-      .attr('class','phase-bg')
-      .attr('x', 5).attr('y', y0)
-      .attr('width', svgW - 10).attr('height', h)
-      .attr('fill', phaseColors[i] || '#fafafa')
-      .attr('stroke', '#e1e4e8')
-      .attr('stroke-dasharray', '4,2')
-      .attr('opacity', 0.6);
+  phases.forEach(function(p, i) {
+    var ny = (i < phases.length - 1) ? phases[i + 1].y : maxRow + 1;
+    var y0 = PAD.t + p.y * ROW_H - 5;
+    var h  = (ny - p.y) * ROW_H + 10;
 
-    g.append('text')
-      .attr('class','phase-label')
-      .attr('x', 14).attr('y', y0 + 16)
-      .attr('font-size', 11)
+    g.append("rect")
+      .attr("x", 5).attr("y", y0)
+      .attr("width", W - 10).attr("height", h)
+      .attr("rx", 6).attr("ry", 6)
+      .attr("fill", pClrs[i] || "#fafafa")
+      .attr("stroke", "#d8dde3")
+      .attr("stroke-dasharray", "4,2")
+      .attr("opacity", 0.7);
+
+    g.append("text")
+      .attr("class", "phase-label")
+      .attr("x", 14).attr("y", y0 + 16)
+      .attr("font-size", 11)
       .text(p.label);
   });
 
-  // ============================================================
-  // DRAW: Edges
-  // ============================================================
-  const nodeMap = {};
-  nodes.forEach(n => {
-    n.x = cx(n.col);
-    n.y = cy(n.row);
-    nodeMap[n.id] = n;
+  /* ========== node map ========== */
+  var nMap = {};
+  nodes.forEach(function(n) {
+    n.x = cx(n.c);
+    n.y = cy(n.r);
+    nMap[n.id] = n;
   });
 
-  const line = d3.line().curve(d3.curveBasis);
+  /* ========== draw edges ========== */
+  var pathGen = d3.line().curve(d3.curveBasis);
 
-  edges.forEach(e => {
-    const src = nodeMap[e.from], tgt = nodeMap[e.to];
-    if (!src || !tgt) return;
+  edges.forEach(function(e) {
+    var s = nMap[e.f], t = nMap[e.t];
+    if (!s || !t) return;
 
-    let points;
+    var pts;
     if (e.back) {
-      // feedback loop — curve around
-      const mx = Math.max(src.x, tgt.x) + 80;
-      const my = (src.y + tgt.y) / 2;
-      points = [[src.x + NODE_W/2, src.y], [mx, src.y], [mx, tgt.y], [tgt.x + NODE_W/2, tgt.y]];
+      var mx = Math.max(s.x, t.x) + 90;
+      pts = [[s.x + NW/2, s.y], [mx, s.y], [mx, t.y], [t.x + NW/2, t.y]];
     } else {
-      const dx = tgt.x - src.x, dy = tgt.y - src.y;
-      let sx, sy, tx, ty;
+      var dx = t.x - s.x, dy = t.y - s.y;
+      var sx, sy, tx, ty;
       if (Math.abs(dy) > Math.abs(dx) * 0.4) {
-        // mostly vertical
-        sy = src.y + (dy > 0 ? NODE_H/2 : -NODE_H/2);
-        ty = tgt.y + (dy > 0 ? -NODE_H/2 : NODE_H/2);
-        sx = src.x; tx = tgt.x;
+        sy = s.y + (dy > 0 ? NH/2 : -NH/2);
+        ty = t.y + (dy > 0 ? -NH/2 : NH/2);
+        sx = s.x; tx = t.x;
       } else {
-        // mostly horizontal
-        sx = src.x + (dx > 0 ? NODE_W/2 : -NODE_W/2);
-        tx = tgt.x + (dx > 0 ? -NODE_W/2 : NODE_W/2);
-        sy = src.y; ty = tgt.y;
+        sx = s.x + (dx > 0 ? NW/2 : -NW/2);
+        tx = t.x + (dx > 0 ? -NW/2 : NW/2);
+        sy = s.y; ty = t.y;
       }
-      const my = (sy + ty) / 2;
-      points = [[sx, sy], [sx, my], [tx, my], [tx, ty]];
+      var my = (sy + ty) / 2;
+      pts = [[sx, sy], [sx, my], [tx, my], [tx, ty]];
     }
 
-    const path = g.append('path')
-      .attr('d', line(points))
-      .attr('stroke', '#586069')
-      .attr('stroke-width', 1.5)
-      .attr('fill', 'none')
-      .attr('marker-end', 'url(#arrow)');
+    var path = g.append("path")
+      .attr("d", pathGen(pts))
+      .attr("stroke", "#586069")
+      .attr("stroke-width", 1.5)
+      .attr("fill", "none")
+      .attr("marker-end", "url(#arr)");
 
-    if (e.dash) path.attr('stroke-dasharray', '5,3');
+    if (e.dsh) path.attr("stroke-dasharray", "5,3");
 
-    if (e.label) {
-      const mid = points[Math.floor(points.length / 2)];
-      g.append('text')
-        .attr('x', mid[0]).attr('y', mid[1] - 5)
-        .attr('text-anchor', 'middle')
-        .attr('font-size', 9.5)
-        .attr('fill', '#6a737d')
-        .attr('font-family', '-apple-system, sans-serif')
-        .text(e.label);
+    if (e.lbl) {
+      var mid = pts[Math.floor(pts.length / 2)];
+      g.append("text")
+        .attr("x", mid[0]).attr("y", mid[1] - 5)
+        .attr("text-anchor", "middle")
+        .attr("font-size", 9.5)
+        .attr("fill", "#6a737d")
+        .attr("font-family", "-apple-system, sans-serif")
+        .text(e.lbl);
     }
   });
 
-  // ============================================================
-  // DRAW: Nodes
-  // ============================================================
-  nodes.forEach(n => {
-    const ng = g.append('g')
-      .attr('class','node')
-      .attr('transform', `translate(${n.x}, ${n.y})`);
+  /* ========== draw nodes ========== */
+  nodes.forEach(function(n) {
+    var ng = g.append("g")
+      .attr("class", "node")
+      .attr("transform", "translate(" + n.x + "," + n.y + ")");
 
-    const w = NODE_W, h = NODE_H;
-    const lightFill = d3.color(n.color).copy({opacity:0.12}).formatRgb();
-    const textColor = d3.color(n.color).darker(0.5).formatHex();
+    var w = NW, h = NH;
+    var fill = lighten(n.clr, 0.15);
+    var stroke = n.clr;
+    var txtClr = darken(n.clr);
 
-    switch (n.shape) {
-      case 'ellipse':
-        ng.append('ellipse')
-          .attr('rx', w/2).attr('ry', h/2)
-          .attr('fill', lightFill).attr('stroke', n.color);
-        break;
-      case 'diamond':
-        ng.append('polygon')
-          .attr('points', `0,${-h/2} ${w/2},0 0,${h/2} ${-w/2},0`)
-          .attr('fill', lightFill).attr('stroke', n.color);
-        break;
-      case 'parallelogram':
-        const s = 12;
-        ng.append('polygon')
-          .attr('points', `${-w/2+s},${-h/2} ${w/2},${-h/2} ${w/2-s},${h/2} ${-w/2},${h/2}`)
-          .attr('fill', lightFill).attr('stroke', n.color);
-        break;
-      case 'hexagon':
-        const hx = 14;
-        ng.append('polygon')
-          .attr('points', `${-w/2+hx},${-h/2} ${w/2-hx},${-h/2} ${w/2},0 ${w/2-hx},${h/2} ${-w/2+hx},${h/2} ${-w/2},0`)
-          .attr('fill', lightFill).attr('stroke', n.color);
-        break;
-      default: // rect
-        ng.append('rect')
-          .attr('x', -w/2).attr('y', -h/2)
-          .attr('width', w).attr('height', h)
-          .attr('rx', 6).attr('ry', 6)
-          .attr('fill', lightFill).attr('stroke', n.color);
+    if (n.sh === "ell") {
+      ng.append("ellipse")
+        .attr("rx", w/2).attr("ry", h/2)
+        .attr("fill", fill).attr("stroke", stroke);
+    } else if (n.sh === "dia") {
+      ng.append("polygon")
+        .attr("points", "0," + (-h/2) + " " + (w/2) + ",0 0," + (h/2) + " " + (-w/2) + ",0")
+        .attr("fill", fill).attr("stroke", stroke);
+    } else if (n.sh === "para") {
+      var s = 12;
+      ng.append("polygon")
+        .attr("points",
+          (-w/2+s)+","+(-h/2)+" "+(w/2)+","+(-h/2)+" "+(w/2-s)+","+(h/2)+" "+(-w/2)+","+(h/2))
+        .attr("fill", fill).attr("stroke", stroke);
+    } else if (n.sh === "hex") {
+      var hx = 14;
+      ng.append("polygon")
+        .attr("points",
+          (-w/2+hx)+","+(-h/2)+" "+(w/2-hx)+","+(-h/2)+" "+(w/2)+",0 "+
+          (w/2-hx)+","+(h/2)+" "+(-w/2+hx)+","+(h/2)+" "+(-w/2)+",0")
+        .attr("fill", fill).attr("stroke", stroke);
+    } else {
+      ng.append("rect")
+        .attr("x", -w/2).attr("y", -h/2)
+        .attr("width", w).attr("height", h)
+        .attr("rx", 6).attr("ry", 6)
+        .attr("fill", fill).attr("stroke", stroke);
     }
 
-    // Text (handle multiline with \n)
-    const lines = n.label.split('\n');
-    const fontSize = lines.some(l => l.length > 16) ? 9.5 : 10.5;
-    lines.forEach((ln, i) => {
-      ng.append('text')
-        .attr('text-anchor','middle')
-        .attr('dominant-baseline','central')
-        .attr('y', (i - (lines.length-1)/2) * (fontSize + 3))
-        .attr('font-size', fontSize)
-        .attr('fill', textColor)
-        .attr('font-weight', 600)
+    /* text */
+    var lines = n.label.split("\n");
+    var fs = lines.some(function(l) { return l.length > 16; }) ? 9.5 : 10.5;
+    lines.forEach(function(ln, i) {
+      ng.append("text")
+        .attr("text-anchor", "middle")
+        .attr("dominant-baseline", "central")
+        .attr("y", (i - (lines.length-1)/2) * (fs + 3))
+        .attr("font-size", fs)
+        .attr("fill", txtClr)
+        .attr("font-weight", 600)
         .text(ln);
     });
 
-    // Tooltip interaction
-    ng.on('mouseover', (event) => {
-      if (!n.tip) return;
-      tooltip.style('opacity', 1)
-        .html(n.tip.replace(/\n/g,'<br>').replace(/([A-Z_]+:)/g,'<strong>$1</strong>'))
-        .style('left', (event.pageX + 14) + 'px')
-        .style('top', (event.pageY - 10) + 'px');
-    })
-    .on('mousemove', (event) => {
-      tooltip.style('left', (event.pageX + 14) + 'px')
-             .style('top', (event.pageY - 10) + 'px');
-    })
-    .on('mouseout', () => tooltip.style('opacity', 0));
+    /* tooltip */
+    if (n.tip) {
+      ng.on("mouseover", function(ev) {
+        var html = n.tip
+          .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+          .replace(/\n/g, "<br>");
+        tip.style("opacity", 1).html(html)
+          .style("left", (ev.clientX + 14) + "px")
+          .style("top",  (ev.clientY - 10) + "px");
+      })
+      .on("mousemove", function(ev) {
+        tip.style("left", (ev.clientX + 14) + "px")
+           .style("top",  (ev.clientY - 10) + "px");
+      })
+      .on("mouseout", function() {
+        tip.style("opacity", 0);
+      });
+    }
   });
 
 })();
