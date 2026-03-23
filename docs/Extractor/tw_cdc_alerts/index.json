@@ -10,6 +10,16 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "policy-2026-03-12-covid19-vaccination-elderly-immunocompromised-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-03-12-covid19-vaccination-elderly-immunocompromised.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "policy-2026-03-10-respiratory-disease-vaccination-update-md",
     "title": "國際呼吸道傳染病疫情持續 呼籲民眾儘速接種新冠及流感疫苗",
     "category": "policy",
@@ -445,6 +455,16 @@
     "category": "domestic_outbreak",
     "date": "",
     "file": "domestic_outbreak/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-03-17-sfts-case-tick-bite-prevention-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-03-17-sfts-case-tick-bite-prevention.md",
     "source": "",
     "severity": "",
     "source_layer": "tw_cdc_alerts"

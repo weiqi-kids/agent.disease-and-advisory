@@ -500,6 +500,46 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "research-2026-03-22-invasive-meningococcal-disease-statistics-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-03-22-invasive-meningococcal-disease-statistics.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-03-20-water-fluoridation-health-report-england-2026-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-03-20-water-fluoridation-health-report-england-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-03-13-fridge-free-vaccines-global-immunisation-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-03-13-fridge-free-vaccines-global-immunisation.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-03-13-fridge-free-tetanus-diphtheria-vaccine-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-03-13-fridge-free-tetanus-diphtheria-vaccine.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "research-2026-03-11-womens-attitudes-vaccinations-pregnancy-2025-md",
     "title": "",
     "category": "research",
@@ -990,6 +1030,46 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "outbreak-2026-03-22-meningitis-b-outbreak-what-you-need-to-know-md",
+    "title": "",
+    "category": "outbreak",
+    "date": "",
+    "file": "outbreak/2026-03-22-meningitis-b-outbreak-what-you-need-to-know.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "outbreak-2026-03-22-invasive-meningococcal-disease-kent-md",
+    "title": "",
+    "category": "outbreak",
+    "date": "",
+    "file": "outbreak/2026-03-22-invasive-meningococcal-disease-kent.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "outbreak-2026-03-19-menb-vaccination-kent-students-md",
+    "title": "",
+    "category": "outbreak",
+    "date": "",
+    "file": "outbreak/2026-03-19-menb-vaccination-kent-students.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "outbreak-2026-03-17-meningitis-outbreak-canterbury-east-kent-md",
+    "title": "",
+    "category": "outbreak",
+    "date": "",
+    "file": "outbreak/2026-03-17-meningitis-outbreak-canterbury-east-kent.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "outbreak-2026-02-05-ukhsa-reminds-travellers-to-cape-verde-to-protect-against-gastrointestinal-infections-md",
     "title": "",
     "category": "outbreak",
@@ -1065,6 +1145,76 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-03-21-meningococcal-outbreak-vaccination-programme-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-21-meningococcal-outbreak-vaccination-programme.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-03-21-menb-vaccine-eligibility-information-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-21-menb-vaccine-eligibility-information.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-03-21-health-protection-children-young-people-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-21-health-protection-children-young-people.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-03-20-ukhsa-knowledge-library-services-training-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-20-ukhsa-knowledge-library-services-training.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-03-20-covid19-vaccine-product-information-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-20-covid19-vaccine-product-information.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-03-19-post-exposure-prophylaxis-chickenpox-shingles-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-19-post-exposure-prophylaxis-chickenpox-shingles.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-03-19-covid19-vaccination-healthcare-practitioners-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-19-covid19-vaccination-healthcare-practitioners.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"
