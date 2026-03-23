@@ -34,7 +34,7 @@ seo:
           '@type': 'ImageObject'
           url: 'https://epialert.weiqi.kids/assets/images/logo.png'
         datePublished: '2026-01-01T00:00:00Z'
-        dateModified: '2026-03-12T08:30:00+08:00'
+        dateModified: '2026-03-23T09:30:00+08:00'
         speakable:
           '@type': 'SpeakableSpecification'
           cssSelector:
@@ -62,7 +62,7 @@ seo:
           contactType: 'technical support'
           url: 'https://github.com/weiqi-kids/agent.disease-and-advisory/issues'
   ymyl:
-    lastReviewed: '2026-03-12'
+    lastReviewed: '2026-03-23'
     reviewedBy: 'EpiAlert AI 編輯'
     medicalDisclaimer: '本網站內容僅供參考，不構成醫療建議或診斷。如有健康疑慮，請諮詢專業醫療人員。'
 ---
@@ -72,10 +72,10 @@ seo:
 AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 等 7 大官方來源
 {: .fs-6 .fw-300 }
 
-**最後更新：2026-03-12 07:48 (UTC+8)**
+**最後更新：2026-03-23 09:30 (UTC+8)**
 {: .label .label-green }
 
-[查看 2026-W11 週報](Narrator/weekly_digest/2026-W11){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[查看 2026-W12 週報](Narrator/weekly_digest/2026-W12){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [歷史週報](Narrator/weekly_digest){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
@@ -110,53 +110,53 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:center">🟡</td>
-      <td>麻疹群聚升級</td>
-      <td>台灣</td>
-      <td>新增2起境外移入群聚（越南、馬來西亞），累計4例，接觸者監測持續中</td>
-      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
-    </tr>
-    <tr>
-      <td style="text-align:center">🟡</td>
-      <td>腸病毒D68型重症</td>
-      <td>台灣</td>
-      <td>今年首2例重症，含1例D68型致急性無力脊髓炎風險</td>
-      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
-    </tr>
-    <tr>
-      <td style="text-align:center">🟡</td>
-      <td>屈公病旅客感染</td>
-      <td>歐洲/塞席爾</td>
-      <td>10個歐洲國家報告70+例塞席爾旅客感染，歐洲本土傳播風險低</td>
-      <td><a href="Extractor/ecdc_cdtr">ECDC</a></td>
-    </tr>
-    <tr>
-      <td style="text-align:center">🟢</td>
-      <td>RSV疫苗進展</td>
-      <td>歐洲/英國</td>
-      <td>ECDC徵求成人RSV疫苗專家小組、英國發布孕婦RSV疫苗覆蓋率數據</td>
-      <td><a href="Extractor/ecdc_cdtr">ECDC</a></td>
-    </tr>
-    <tr>
-      <td style="text-align:center">🟡</td>
-      <td>流感季持續</td>
-      <td>台灣</td>
-      <td>累計555例重症、111例死亡，疫苗僅餘7.3萬劑，COVID疫苗延長至4/30</td>
-      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
-    </tr>
-    <tr>
-      <td style="text-align:center">🟡</td>
-      <td>麻疹全球復發</td>
-      <td>英國/全球</td>
-      <td>英格蘭2024年確認2,911例麻疹，數十年來最高，UKHSA呼籲加強MMR接種</td>
+      <td style="text-align:center">🔴</td>
+      <td>腦膜炎球菌感染疫情</td>
+      <td>英國肯特郡</td>
+      <td>侵襲性腦膜炎球菌感染(MenB)疫情爆發，衛生大臣國會報告，擴大疫苗接種</td>
       <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
     </tr>
     <tr>
-      <td style="text-align:center">🟢</td>
-      <td>ECDC CDTR W10</td>
-      <td>歐洲</td>
-      <td>呼吸道病毒監測、SARS-CoV-2變異株分類、MERS、屈公病更新</td>
+      <td style="text-align:center">🔴</td>
+      <td>志賀菌病跨國疫情</td>
+      <td>佛得角/歐洲</td>
+      <td>佛得角返回旅客逾1,000例志賀菌病及胃腸道感染，涉及EU/EEA、英國、美國</td>
       <td><a href="Extractor/ecdc_cdtr">ECDC</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">🟡</td>
+      <td>SFTS本土病例</td>
+      <td>台灣</td>
+      <td>新增1例發熱伴血小板減少綜合症確診，為台灣史上第3例本土個案</td>
+      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">🟡</td>
+      <td>嬰兒配方奶粉汙染</td>
+      <td>歐盟/英國</td>
+      <td>六國通報嬰兒食用cereulide汙染配方奶粉後出現症狀，ECDC發布風險評估</td>
+      <td><a href="Extractor/ecdc_cdtr">ECDC</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">🟡</td>
+      <td>COVID-19疫苗政策</td>
+      <td>台灣</td>
+      <td>4/7起65歲以上長者及免疫不全者可再接種1劑新冠疫苗，公費延長至4/30</td>
+      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">🟢</td>
+      <td>ECDC CDTR W12/W11</td>
+      <td>歐洲</td>
+      <td>禽流感、登革熱、基孔肯雅疫苗不良事件、麻疹、猴痘持續監測</td>
+      <td><a href="Extractor/ecdc_cdtr">ECDC</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">🟢</td>
+      <td>免冷藏疫苗突破</td>
+      <td>英國/全球</td>
+      <td>UKHSA與Stablepharma合作開發免冷藏破傷風/白喉疫苗，對全球疫苗配送具重大意義</td>
+      <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
     </tr>
   </tbody>
 </table>
@@ -164,7 +164,7 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 **風險等級說明**：🔴 高風險（PHEIC/大規模爆發）｜🟡 中風險（區域爆發/新興威脅）｜🟢 低風險（散發案例/常規監測）
 {: .fs-3 .text-grey-dk-000 }
 
-[查看完整週報分析 →](Narrator/weekly_digest/2026-W11){: .btn .btn-primary }
+[查看完整週報分析 →](Narrator/weekly_digest/2026-W12){: .btn .btn-primary }
 
 ---
 
@@ -172,7 +172,7 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 
 | 📊 整合公告 | 🦠 追蹤疾病 | 🌍 涵蓋國家 | 📚 歷史資料 |
 |:-----------:|:-----------:|:-----------:|:-----------:|
-| **44** 個 | **13** 種 | **29** 個 | **2,460+** 篇 |
+| **66** 個 | **15** 種 | **31** 個 | **2,480+** 篇 |
 
 ---
 
