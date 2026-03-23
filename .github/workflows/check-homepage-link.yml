@@ -20,32 +20,34 @@ jobs:
       - name: Find latest weekly digest
         id: find-latest
         run: |
-          # 找出最新的週報檔案（依檔名排序）
-          LATEST=$(ls -1 docs/Narrator/weekly_digest/????-W??-weekly-digest.md 2>/dev/null | sort -r | head -1)
+          # 支援兩種檔名格式：YYYY-WNN.md 和 YYYY-WNN-weekly-digest.md
+          # 提取週數標識 (YYYY-WNN) 並找出最新的
+          LATEST_WEEK=$(ls -1 docs/Narrator/weekly_digest/*.md 2>/dev/null \
+            | grep -oP '\d{4}-W\d{2}' \
+            | sort -u -r \
+            | head -1)
 
-          if [ -z "$LATEST" ]; then
+          if [ -z "$LATEST_WEEK" ]; then
             echo "::error::No weekly digest found"
             exit 1
           fi
 
-          # 取得檔名（不含路徑和副檔名）
-          LATEST_NAME=$(basename "$LATEST" .md)
-          echo "latest=$LATEST_NAME" >> $GITHUB_OUTPUT
-          echo "Latest weekly digest: $LATEST_NAME"
+          echo "latest=$LATEST_WEEK" >> $GITHUB_OUTPUT
+          echo "Latest weekly digest: $LATEST_WEEK"
 
       - name: Check homepage link
         id: check-link
         run: |
           LATEST="${{ steps.find-latest.outputs.latest }}"
 
-          # 檢查首頁是否連結到最新週報
-          if grep -q "$LATEST" docs/index.md; then
+          # 檢查首頁是否連結到最新週報（匹配週數標識即可）
+          if grep -q "weekly_digest/$LATEST" docs/index.md; then
             echo "status=ok" >> $GITHUB_OUTPUT
             echo "✅ Homepage links to latest weekly digest: $LATEST"
           else
             echo "status=outdated" >> $GITHUB_OUTPUT
             # 找出首頁目前連結的週報
-            CURRENT=$(grep -oP '(?<=weekly_digest/)\d{4}-W\d{2}-weekly-digest' docs/index.md | head -1)
+            CURRENT=$(grep -oP '(?<=weekly_digest/)\d{4}-W\d{2}' docs/index.md | head -1)
             echo "::warning::Homepage links to $CURRENT but latest is $LATEST"
             echo "current=$CURRENT" >> $GITHUB_OUTPUT
           fi
