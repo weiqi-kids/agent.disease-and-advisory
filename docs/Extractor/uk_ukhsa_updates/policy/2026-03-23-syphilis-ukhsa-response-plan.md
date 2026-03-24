@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-03-24
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'Syphilis: UK Health Security Agency (UKHSA) Response Plan'
 source_url: "https://www.gov.uk/government/publications/syphilis-public-health-england-action-plan"
 source_layer: uk_ukhsa_updates

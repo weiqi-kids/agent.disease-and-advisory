@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-03-24
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'European Region misses 1 in 5 TB cases: WHO Europe and ECDC publish new joint surveillance report'
 source_url: "https://www.ecdc.europa.eu/en/news-events/european-region-misses-1-5-tb-cases-who-europe-and-ecdc-publish-new-joint-surveillance"
 source_layer: ecdc_cdtr

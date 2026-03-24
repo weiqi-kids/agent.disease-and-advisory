@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-03-24
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'Tuberculosis (TB): regional reports 2024'
 source_url: "https://www.gov.uk/government/publications/tuberculosis-tb-regional-reports-2024"
 source_layer: uk_ukhsa_updates

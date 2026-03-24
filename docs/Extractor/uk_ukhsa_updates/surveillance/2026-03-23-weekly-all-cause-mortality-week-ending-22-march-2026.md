@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-03-24
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'Weekly all-cause mortality surveillance: week ending 22 March 2026'
 source_url: "https://www.gov.uk/government/statistics/announcements/weekly-all-cause-mortality-surveillance-week-ending-29-march-2026"
 source_layer: uk_ukhsa_updates

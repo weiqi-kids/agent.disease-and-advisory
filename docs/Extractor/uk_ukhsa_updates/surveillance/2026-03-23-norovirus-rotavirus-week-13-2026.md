@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-03-24
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'National norovirus and rotavirus report, week 13: data to week 12 (up to 22 March 2026)'
 source_url: "https://www.gov.uk/government/statistics/announcements/national-norovirus-and-rotavirus-report-week-13-report-data-to-week-12-data-up-to-22-march-2026"
 source_layer: uk_ukhsa_updates

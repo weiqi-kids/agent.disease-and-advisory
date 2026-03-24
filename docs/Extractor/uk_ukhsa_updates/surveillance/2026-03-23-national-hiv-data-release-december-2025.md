@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-03-24
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'National HIV data release: data to end of December 2025'
 source_url: "https://www.gov.uk/government/statistics/announcements/national-hiv-data-release-data-to-end-of-december-2025"
 source_layer: uk_ukhsa_updates

@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-03-24
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'World Tuberculosis Day 2026'
 source_url: "https://www.ecdc.europa.eu/en/news-events/world-tuberculosis-day-2026"
 source_layer: ecdc_cdtr

@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-03-24
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'Respiratory syncytial virus (RSV): vaccination for older adults'
 source_url: "https://www.gov.uk/government/publications/respiratory-syncytial-virus-rsv-vaccination-for-older-adults"
 source_layer: uk_ukhsa_updates
