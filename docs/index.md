@@ -62,7 +62,7 @@ seo:
           contactType: 'technical support'
           url: 'https://github.com/weiqi-kids/agent.disease-and-advisory/issues'
   ymyl:
-    lastReviewed: '2026-03-23'
+    lastReviewed: '2026-03-24'
     reviewedBy: 'EpiAlert AI 編輯'
     medicalDisclaimer: '本網站內容僅供參考，不構成醫療建議或診斷。如有健康疑慮，請諮詢專業醫療人員。'
 ---
@@ -75,7 +75,7 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 **最後更新：2026-03-24 13:27 (UTC+8)**
 {: .label .label-green }
 
-[查看 2026-W12 週報](Narrator/weekly_digest/2026-W12){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[查看 2026-W13 週報](Narrator/weekly_digest/2026-W13){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [歷史週報](Narrator/weekly_digest){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
@@ -110,52 +110,38 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:center">🔴</td>
-      <td>腦膜炎球菌感染疫情</td>
-      <td>英國肯特郡</td>
-      <td>侵襲性腦膜炎球菌感染(MenB)疫情爆發，衛生大臣國會報告，擴大疫苗接種</td>
+      <td style="text-align:center">🟡</td>
+      <td>世界結核病日多來源聚焦</td>
+      <td>歐洲/台灣/英國</td>
+      <td>歐洲每5例TB仍有1例未診斷，MDR-TB比例達23%；台灣發生率20年降66%</td>
+      <td><a href="Extractor/ecdc_cdtr">ECDC</a> <a href="Extractor/tw_cdc_alerts">TW CDC</a> <a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">🟡</td>
+      <td>梅毒應對計劃</td>
+      <td>英國</td>
+      <td>UKHSA發布梅毒應對計劃，回應英格蘭梅毒病例持續上升趨勢</td>
       <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
     </tr>
     <tr>
-      <td style="text-align:center">🔴</td>
-      <td>志賀菌病跨國疫情</td>
-      <td>佛得角/歐洲</td>
-      <td>佛得角返回旅客逾1,000例志賀菌病及胃腸道感染，涉及EU/EEA、英國、美國</td>
-      <td><a href="Extractor/ecdc_cdtr">ECDC</a></td>
-    </tr>
-    <tr>
       <td style="text-align:center">🟡</td>
-      <td>SFTS本土病例</td>
-      <td>台灣</td>
-      <td>新增1例發熱伴血小板減少綜合症確診，為台灣史上第3例本土個案</td>
-      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
-    </tr>
-    <tr>
-      <td style="text-align:center">🟡</td>
-      <td>嬰兒配方奶粉汙染</td>
-      <td>歐盟/英國</td>
-      <td>六國通報嬰兒食用cereulide汙染配方奶粉後出現症狀，ECDC發布風險評估</td>
-      <td><a href="Extractor/ecdc_cdtr">ECDC</a></td>
-    </tr>
-    <tr>
-      <td style="text-align:center">🟡</td>
-      <td>COVID-19疫苗政策</td>
-      <td>台灣</td>
-      <td>4/7起65歲以上長者及免疫不全者可再接種1劑新冠疫苗，公費延長至4/30</td>
-      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
+      <td>HIV年度數據發布</td>
+      <td>英國</td>
+      <td>截至2025年12月底全國HIV統計，涵蓋檢測、PrEP、新診斷及照護可及性</td>
+      <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
     </tr>
     <tr>
       <td style="text-align:center">🟢</td>
-      <td>ECDC CDTR W12/W11</td>
-      <td>歐洲</td>
-      <td>禽流感、登革熱、基孔肯雅疫苗不良事件、麻疹、猴痘持續監測</td>
-      <td><a href="Extractor/ecdc_cdtr">ECDC</a></td>
+      <td>諾羅/輪狀病毒監測</td>
+      <td>英國</td>
+      <td>2025-2026球季第13週監測報告，持續追蹤英格蘭季節性腸胃炎病毒</td>
+      <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
     </tr>
     <tr>
       <td style="text-align:center">🟢</td>
-      <td>免冷藏疫苗突破</td>
-      <td>英國/全球</td>
-      <td>UKHSA與Stablepharma合作開發免冷藏破傷風/白喉疫苗，對全球疫苗配送具重大意義</td>
+      <td>RSV疫苗接種指引更新</td>
+      <td>英國</td>
+      <td>UKHSA更新年長成人RSV疫苗接種指引及推廣資源</td>
       <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
     </tr>
   </tbody>
@@ -164,7 +150,7 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 **風險等級說明**：🔴 高風險（PHEIC/大規模爆發）｜🟡 中風險（區域爆發/新興威脅）｜🟢 低風險（散發案例/常規監測）
 {: .fs-3 .text-grey-dk-000 }
 
-[查看完整週報分析 →](Narrator/weekly_digest/2026-W12){: .btn .btn-primary }
+[查看完整週報分析 →](Narrator/weekly_digest/2026-W13){: .btn .btn-primary }
 
 ---
 
@@ -172,7 +158,7 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 
 | 📊 整合公告 | 🦠 追蹤疾病 | 🌍 涵蓋國家 | 📚 歷史資料 |
 |:-----------:|:-----------:|:-----------:|:-----------:|
-| **66** 個 | **15** 種 | **31** 個 | **2,480+** 篇 |
+| **76** 個 | **15** 種 | **31** 個 | **2,490+** 篇 |
 
 ---
 
