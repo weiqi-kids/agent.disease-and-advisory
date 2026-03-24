@@ -10,6 +10,16 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "policy-2026-03-24-world-tb-day-2026-community-eliminate-tb-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-03-24-world-tb-day-2026-community-eliminate-tb.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "policy-2026-03-12-covid19-vaccination-elderly-immunocompromised-md",
     "title": "",
     "category": "policy",

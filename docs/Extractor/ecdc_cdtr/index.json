@@ -10,6 +10,16 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "surveillance-2026-03-23-european-region-misses-1-in-5-tb-cases-who-europe-ecdc-surveillance-report-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-03-23-european-region-misses-1-in-5-tb-cases-who-europe-ecdc-surveillance-report.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "surveillance-2026-03-20-cdtr-week-12-14-20-march-2026-md",
     "title": "",
     "category": "surveillance",
@@ -485,6 +495,16 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-03-23-world-tuberculosis-day-2026-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-23-world-tuberculosis-day-2026.md",
     "source": "",
     "severity": "",
     "source_layer": "ecdc_cdtr"

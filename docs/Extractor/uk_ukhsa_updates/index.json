@@ -10,6 +10,36 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "surveillance-2026-03-23-weekly-all-cause-mortality-week-ending-22-march-2026-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-03-23-weekly-all-cause-mortality-week-ending-22-march-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-03-23-norovirus-rotavirus-week-13-2026-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-03-23-norovirus-rotavirus-week-13-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-03-23-national-hiv-data-release-december-2025-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-03-23-national-hiv-data-release-december-2025.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "surveillance-2026-03-05-rsv-maternal-vaccination-coverage-md",
     "title": "",
     "category": "surveillance",
@@ -500,6 +530,26 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "research-2026-03-23-tb-regional-reports-2024-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-03-23-tb-regional-reports-2024.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-03-23-tb-regional-reports-2024-supplementary-data-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-03-23-tb-regional-reports-2024-supplementary-data.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "research-2026-03-22-invasive-meningococcal-disease-statistics-md",
     "title": "",
     "category": "research",
@@ -870,6 +920,16 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "policy-2026-03-23-syphilis-ukhsa-response-plan-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-03-23-syphilis-ukhsa-response-plan.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "policy-2026-02-16-parents-vaccination-campaign-md",
     "title": "Parents urged to protect children through vaccination campaign",
     "category": "policy",
@@ -1145,6 +1205,16 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-03-23-rsv-vaccination-older-adults-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-23-rsv-vaccination-older-adults.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"
