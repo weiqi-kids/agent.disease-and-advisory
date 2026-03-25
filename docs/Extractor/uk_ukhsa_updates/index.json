@@ -10,6 +10,46 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "surveillance-2026-03-24-weekly-all-cause-mortality-week-ending-26-april-2026-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-03-24-weekly-all-cause-mortality-week-ending-26-april-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-03-24-national-flu-covid19-surveillance-week13-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-03-24-national-flu-covid19-surveillance-week13.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-03-24-mrsa-mssa-gram-negative-cdiff-feb2025-feb2026-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-03-24-mrsa-mssa-gram-negative-cdiff-feb2025-feb2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-03-24-imported-malaria-uk-statistics-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-03-24-imported-malaria-uk-statistics.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "surveillance-2026-03-23-weekly-all-cause-mortality-week-ending-22-march-2026-md",
     "title": "",
     "category": "surveillance",
@@ -525,6 +565,16 @@
     "category": "research",
     "date": "",
     "file": "research/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-03-24-radiation-workers-health-national-study-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-03-24-radiation-workers-health-national-study.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"
@@ -1090,6 +1140,16 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "outbreak-2026-03-24-invasive-meningococcal-disease-outbreak-2026-technical-briefings-md",
+    "title": "",
+    "category": "outbreak",
+    "date": "",
+    "file": "outbreak/2026-03-24-invasive-meningococcal-disease-outbreak-2026-technical-briefings.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "outbreak-2026-03-22-meningitis-b-outbreak-what-you-need-to-know-md",
     "title": "",
     "category": "outbreak",
@@ -1205,6 +1265,16 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-03-24-meningococcal-disease-background-information-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-24-meningococcal-disease-background-information.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"

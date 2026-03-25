@@ -470,6 +470,26 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "domestic_outbreak-2026-03-24-scrub-typhus-venomous-snake-ching-ming-holiday-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-03-24-scrub-typhus-venomous-snake-ching-ming-holiday.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-03-24-enterovirus-severe-first-death-2026-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-03-24-enterovirus-severe-first-death-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "domestic_outbreak-2026-03-17-sfts-case-tick-bite-prevention-md",
     "title": "",
     "category": "domestic_outbreak",
