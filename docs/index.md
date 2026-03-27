@@ -62,7 +62,7 @@ seo:
           contactType: 'technical support'
           url: 'https://github.com/weiqi-kids/agent.disease-and-advisory/issues'
   ymyl:
-    lastReviewed: '2026-03-25'
+    lastReviewed: '2026-03-27'
     reviewedBy: 'EpiAlert AI 編輯'
     medicalDisclaimer: '本網站內容僅供參考，不構成醫療建議或診斷。如有健康疑慮，請諮詢專業醫療人員。'
 ---
@@ -72,7 +72,7 @@ seo:
 AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 等 7 大官方來源
 {: .fs-6 .fw-300 }
 
-**最後更新：2026-03-25 09:20 (UTC+8)**
+**最後更新：2026-03-27 08:21 (UTC+8)**
 {: .label .label-green }
 
 [查看 2026-W13 週報](Narrator/weekly_digest/2026-W13){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
