@@ -470,6 +470,16 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "outbreak_report-2026-03-25-first-human-case-influenza-ah9n2-imported-eu-md",
+    "title": "",
+    "category": "outbreak_report",
+    "date": "",
+    "file": "outbreak_report/2026-03-25-first-human-case-influenza-ah9n2-imported-eu.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "outbreak_report-2026-03-18-low-risk-eueea-meningococcal-disease-kent-md",
     "title": "",
     "category": "outbreak_report",
@@ -495,6 +505,36 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-03-26-ecdc-eu-eea-countries-public-health-emergency-preparedness-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-26-ecdc-eu-eea-countries-public-health-emergency-preparedness.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-03-25-laboratory-preparedness-eastern-partnership-respiratory-threats-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-25-laboratory-preparedness-eastern-partnership-respiratory-threats.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-03-25-ecdc-guide-lessons-learned-public-health-emergencies-preparedness-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-25-ecdc-guide-lessons-learned-public-health-emergencies-preparedness.md",
     "source": "",
     "severity": "",
     "source_layer": "ecdc_cdtr"

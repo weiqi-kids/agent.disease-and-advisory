@@ -10,6 +10,26 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "surveillance-2026-03-26-travellers-mosquito-bites-dengue-chikungunya-malaria-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-03-26-travellers-mosquito-bites-dengue-chikungunya-malaria.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-03-26-meningococcal-disease-laboratory-confirmed-cases-england-2025-2026-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-03-26-meningococcal-disease-laboratory-confirmed-cases-england-2025-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "surveillance-2026-03-24-weekly-all-cause-mortality-week-ending-26-april-2026-md",
     "title": "",
     "category": "surveillance",
@@ -570,6 +590,26 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "research-2026-03-26-what-is-shigella-how-catch-avoided-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-03-26-what-is-shigella-how-catch-avoided.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-03-26-hairs-risk-assessment-chikungunya-virus-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-03-26-hairs-risk-assessment-chikungunya-virus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "research-2026-03-24-radiation-workers-health-national-study-md",
     "title": "",
     "category": "research",
@@ -970,6 +1010,16 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "policy-2026-03-25-1-billion-invested-health-protection-pandemic-strategy-published-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-03-25-1-billion-invested-health-protection-pandemic-strategy-published.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "policy-2026-03-23-syphilis-ukhsa-response-plan-md",
     "title": "",
     "category": "policy",
@@ -1140,6 +1190,16 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "outbreak-2026-03-26-increase-drug-resistant-shigella-cases-gay-bisexual-men-md",
+    "title": "",
+    "category": "outbreak",
+    "date": "",
+    "file": "outbreak/2026-03-26-increase-drug-resistant-shigella-cases-gay-bisexual-men.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "outbreak-2026-03-24-invasive-meningococcal-disease-outbreak-2026-technical-briefings-md",
     "title": "",
     "category": "outbreak",
@@ -1265,6 +1325,26 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-03-26-pre-release-access-seasonal-influenza-vaccine-healthcare-workers-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-26-pre-release-access-seasonal-influenza-vaccine-healthcare-workers.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-03-26-pre-release-access-seasonal-influenza-vaccine-gp-patients-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-26-pre-release-access-seasonal-influenza-vaccine-gp-patients.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"

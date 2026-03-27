@@ -20,6 +20,16 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "policy-2026-03-24-flu-vaccine-appearance-abnormal-precautionary-suspension-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-03-24-flu-vaccine-appearance-abnormal-precautionary-suspension.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "policy-2026-03-12-covid19-vaccination-elderly-immunocompromised-md",
     "title": "",
     "category": "policy",
