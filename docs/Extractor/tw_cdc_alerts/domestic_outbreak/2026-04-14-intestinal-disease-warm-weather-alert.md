@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: '近期氣候溫暖潮濕腸道傳染病風險增加 籲請民眾落實手部與飲食衛生'
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/QM2oQpC7ThuSZu_ryxIwlg?typeId=9"
 source_layer: tw_cdc_alerts

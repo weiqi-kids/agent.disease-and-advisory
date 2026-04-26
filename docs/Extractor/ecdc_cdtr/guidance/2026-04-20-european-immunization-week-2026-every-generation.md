@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'European Immunization Week 2026: For every generation, vaccines work'
 source_url: "https://www.ecdc.europa.eu/en/news-events/european-immunization-week-2026-every-generation-vaccines-work"
 source_layer: ecdc_cdtr

@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'Weather-Health Alerting System'
 source_url: "https://www.gov.uk/guidance/weather-health-alerting-system"
 source_layer: uk_ukhsa_updates

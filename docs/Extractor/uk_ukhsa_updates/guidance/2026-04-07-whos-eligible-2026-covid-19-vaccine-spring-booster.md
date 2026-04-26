@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: "Who's eligible for the 2026 COVID-19 vaccine, or 'Spring Booster'?"
 source_url: "https://ukhsa.blog.gov.uk/2026/04/07/whos-eligible-for-the-2026-covid-19-vaccine-or-spring-booster/"
 source_layer: uk_ukhsa_updates

@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: '疾管署確認首例本土H7N7新型A型流感個案，請醫師提高警覺，如發現疑似個案，應立即通報採檢(疾病管制署致醫界通函第605號)'
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/iz_IoRvqF3zGITX4XBzBnA?typeId=48"
 source_layer: tw_cdc_alerts

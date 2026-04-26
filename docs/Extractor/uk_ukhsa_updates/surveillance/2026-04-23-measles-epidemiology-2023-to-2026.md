@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'Research: Measles epidemiology 2023 to 2026'
 source_url: "https://www.gov.uk/government/publications/measles-epidemiology-2023-to-2026"
 source_layer: uk_ukhsa_updates

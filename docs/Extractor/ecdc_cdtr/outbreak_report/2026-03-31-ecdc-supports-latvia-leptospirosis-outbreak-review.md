@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: "ECDC supports Latvia's review of the 2025 leptospirosis outbreak response"
 source_url: "https://www.ecdc.europa.eu/en/news-events/ecdc-supports-latvias-review-2025-leptospirosis-outbreak-response"
 source_layer: ecdc_cdtr

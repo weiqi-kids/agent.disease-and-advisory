@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: '國內新增1例印尼麻疹境外移入確定病例 請民眾前往流行地區加強防護'
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/jGO2bBHWtMqrF6xbUrT1ZA?typeId=9"
 source_layer: tw_cdc_alerts

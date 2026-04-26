@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'Hepatitis C infections in people who inject drugs continue to fall'
 source_url: "https://www.gov.uk/government/news/hepatitis-c-infections-in-people-who-inject-drugs-continue-to-fall"
 source_layer: uk_ukhsa_updates

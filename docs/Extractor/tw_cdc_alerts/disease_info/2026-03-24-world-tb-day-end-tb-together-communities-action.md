@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: '"End TB Together: Communities in Action" Joining Forces for World TB Day'
 source_url: "https://www.cdc.gov.tw/En/Bulletin/Detail/jISsl2aaLxSzKzTWfNiCfQ?typeId=158"
 source_layer: tw_cdc_alerts

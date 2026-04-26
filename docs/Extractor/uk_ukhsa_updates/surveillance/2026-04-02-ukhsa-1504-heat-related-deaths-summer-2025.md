@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'New UKHSA data shows 1,504 heat-related deaths during summer of 2025'
 source_url: "https://www.gov.uk/government/news/new-ukhsa-data-shows-1504-heat-related-deaths-during-summer-of-2025"
 source_layer: uk_ukhsa_updates

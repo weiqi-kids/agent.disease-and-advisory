@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'ESCAIDE call for abstracts open until 18 May'
 source_url: "https://www.ecdc.europa.eu/en/news-events/escaide-call-abstracts-open-until-18-may"
 source_layer: ecdc_cdtr

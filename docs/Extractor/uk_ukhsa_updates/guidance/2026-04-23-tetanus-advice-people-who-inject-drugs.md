@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'Guidance: Tetanus: advice for people who inject drugs'
 source_url: "https://www.gov.uk/government/publications/tetanus-advice-for-people-who-inject-drugs"
 source_layer: uk_ukhsa_updates

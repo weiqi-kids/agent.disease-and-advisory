@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: '國內新增1例流行性腦脊髓膜炎確定病例 籲請民眾注意呼吸道衛生'
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/KBTUZ1w3PtdfqIbojPWz5A?typeId=9"
 source_layer: tw_cdc_alerts

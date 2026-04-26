@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'Research: Sexually transmitted infections: West Midlands data'
 source_url: "https://www.gov.uk/government/publications/sexually-transmitted-infections-west-midlands-data"
 source_layer: uk_ukhsa_updates

@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'For every generation, vaccines work: three countries reach 90% HPV vaccination target'
 source_url: "https://www.ecdc.europa.eu/en/news-events/every-generation-vaccines-work-three-countries-reach-90-hpv-vaccination-target-europe"
 source_layer: ecdc_cdtr

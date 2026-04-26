@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'ECDC and Africa CDC pilot mobile application for event-based surveillance'
 source_url: "https://www.ecdc.europa.eu/en/news-events/ecdc-and-africa-cdc-pilot-mobile-application-event-based-surveillance"
 source_layer: ecdc_cdtr

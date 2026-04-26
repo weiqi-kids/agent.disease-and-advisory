@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: '國內新增1例麻疹境外移入確定病例 請民眾持續加強防範'
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/dBmx9j9eSYb30ULZcG8NpQ?typeId=9"
 source_layer: tw_cdc_alerts

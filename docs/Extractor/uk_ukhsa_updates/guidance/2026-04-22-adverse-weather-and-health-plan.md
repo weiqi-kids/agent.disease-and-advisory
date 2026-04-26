@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'Guidance: Adverse Weather and Health Plan'
 source_url: "https://www.gov.uk/government/publications/adverse-weather-and-health-plan"
 source_layer: uk_ukhsa_updates

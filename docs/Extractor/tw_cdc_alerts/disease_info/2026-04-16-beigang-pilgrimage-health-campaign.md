@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: '疾管署三度南下北港 呼籲民眾落實手部衛生及防範登革熱等衛生好習慣'
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/2lEXvXKsZdor9rgHBKlIzg?typeId=9"
 source_layer: tw_cdc_alerts

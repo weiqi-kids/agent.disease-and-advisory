@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'Meningitis cases in Dorset: what you need to know'
 source_url: "https://ukhsa.blog.gov.uk/2026/04/17/meningitis-cases-in-dorset-what-you-need-to-know/"
 source_layer: uk_ukhsa_updates

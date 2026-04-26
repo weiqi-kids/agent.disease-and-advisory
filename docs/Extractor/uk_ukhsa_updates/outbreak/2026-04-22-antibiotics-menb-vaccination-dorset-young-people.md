@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'Antibiotics and MenB vaccination to be offered to young people in Dorset'
 source_url: "https://www.gov.uk/government/news/antibiotics-and-menb-vaccination-to-be-offered-to-young-people-in-dorset"
 source_layer: uk_ukhsa_updates

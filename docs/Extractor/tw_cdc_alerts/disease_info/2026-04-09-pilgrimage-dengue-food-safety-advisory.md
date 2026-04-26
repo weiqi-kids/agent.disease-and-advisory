@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: '近日氣溫回升 請民眾參加進香活動時落實防蚊措施並留意飲食衛生'
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/wNg1tr7GSTgOALc6FH6lFw?typeId=9"
 source_layer: tw_cdc_alerts

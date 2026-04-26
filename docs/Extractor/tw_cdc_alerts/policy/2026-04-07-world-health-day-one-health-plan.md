@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: '響應世界衛生日 與科學同行推動「防疫一體」聯合行動'
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/oM2dReVJXV4KC_ZXY6fByg?typeId=9"
 source_layer: tw_cdc_alerts

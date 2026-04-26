@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: '疾管署針對中國養殖蝦傳播病毒至人之網路輿論及相關期刊研究說明'
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/JAKoFRedyjAVo_zmdBsCfQ?typeId=9"
 source_layer: tw_cdc_alerts

@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: 'ECDC supports Belgium to strengthen preparedness through VHF outbreak simulation'
 source_url: "https://www.ecdc.europa.eu/en/news-events/ecdc-supports-belgium-strengthen-national-preparedness-and-response-through-simulation"
 source_layer: ecdc_cdtr

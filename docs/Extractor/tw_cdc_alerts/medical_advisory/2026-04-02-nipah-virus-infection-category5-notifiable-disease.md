@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: '115年4月2日公告「立百病毒感染症」為我國第五類法定傳染病，同時訂定病例定義，敬請醫師配合通報及相關防治措施。(疾病管制署致醫界通函第604號)'
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/eTR7VZfSghNF0NVtlKvKHg?typeId=48"
 source_layer: tw_cdc_alerts

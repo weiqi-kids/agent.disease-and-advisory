@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: '國內已進入腸病毒好發季節 籲請家長及教托育機構留意嬰幼兒健康'
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/TwK1wW9dD65xtZ6pMEJ79Q?typeId=9"
 source_layer: tw_cdc_alerts

@@ -1,5 +1,7 @@
 ---
 nav_exclude: true
+lastReviewed: 2026-04-26
+reviewedBy: 'EpiAlert AI 編輯'
 title: '為落實FQ類藥品抗藥性監測，避免影響結核病治療，籲請臨床醫師於診治結核病人若需開立levofloxacin或moxifloxacin前，應事先向疾管署申請核准(疾病管制署致醫界通函第603號)'
 source_url: "https://www.cdc.gov.tw/Bulletin/Detail/GIdliaRfgGw-7TIJ4aQ0Pw?typeId=48"
 source_layer: tw_cdc_alerts
