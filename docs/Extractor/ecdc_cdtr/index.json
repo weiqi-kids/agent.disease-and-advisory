@@ -10,6 +10,56 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "surveillance-2026-04-24-cdtr-week-17-2026-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-04-24-cdtr-week-17-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2026-04-17-cdtr-week-16-2026-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-04-17-cdtr-week-16-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2026-04-10-cdtr-week-15-2026-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-04-10-cdtr-week-15-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2026-04-01-cdtr-week-14-2026-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-04-01-cdtr-week-14-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2026-03-27-cdtr-week-13-2026-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-03-27-cdtr-week-13-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "surveillance-2026-03-23-european-region-misses-1-in-5-tb-cases-who-europe-ecdc-surveillance-report-md",
     "title": "",
     "category": "surveillance",
@@ -470,6 +520,16 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "outbreak_report-2026-03-31-ecdc-supports-latvia-leptospirosis-outbreak-review-md",
+    "title": "",
+    "category": "outbreak_report",
+    "date": "",
+    "file": "outbreak_report/2026-03-31-ecdc-supports-latvia-leptospirosis-outbreak-review.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "outbreak_report-2026-03-25-first-human-case-influenza-ah9n2-imported-eu-md",
     "title": "",
     "category": "outbreak_report",
@@ -505,6 +565,56 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-04-20-three-countries-reach-90-hpv-vaccination-target-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-04-20-three-countries-reach-90-hpv-vaccination-target.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-04-20-european-immunization-week-2026-every-generation-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-04-20-european-immunization-week-2026-every-generation.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-04-14-escaide-call-abstracts-open-until-18-may-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-04-14-escaide-call-abstracts-open-until-18-may.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-04-09-ecdc-africa-cdc-mobile-app-event-based-surveillance-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-04-09-ecdc-africa-cdc-mobile-app-event-based-surveillance.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-03-31-belgium-vhf-simulation-exercise-preparedness-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-03-31-belgium-vhf-simulation-exercise-preparedness.md",
     "source": "",
     "severity": "",
     "source_layer": "ecdc_cdtr"
