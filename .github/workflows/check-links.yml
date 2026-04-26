@@ -3,7 +3,7 @@ name: Check and Fix Links
 on:
   # 在 Pages 部署完成後觸發
   workflow_run:
-    workflows: ["pages-build-deployment"]
+    workflows: ["Deploy to GitHub Pages"]
     types:
       - completed
   # 手動觸發

@@ -34,7 +34,7 @@ seo:
           '@type': 'ImageObject'
           url: 'https://epialert.weiqi.kids/assets/images/logo.png'
         datePublished: '2026-01-01T00:00:00Z'
-        dateModified: '2026-03-25T09:00:00+08:00'
+        dateModified: '2026-04-26T18:00:00+08:00'
         speakable:
           '@type': 'SpeakableSpecification'
           cssSelector:
@@ -62,7 +62,7 @@ seo:
           contactType: 'technical support'
           url: 'https://github.com/weiqi-kids/agent.disease-and-advisory/issues'
   ymyl:
-    lastReviewed: '2026-03-27'
+    lastReviewed: '2026-04-26'
     reviewedBy: 'EpiAlert AI 編輯'
     medicalDisclaimer: '本網站內容僅供參考，不構成醫療建議或診斷。如有健康疑慮，請諮詢專業醫療人員。'
 ---
@@ -72,10 +72,10 @@ seo:
 AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 等 7 大官方來源
 {: .fs-6 .fw-300 }
 
-**最後更新：2026-03-27 08:21 (UTC+8)**
+**最後更新：2026-04-26 18:00 (UTC+8)**
 {: .label .label-green }
 
-[查看 2026-W13 週報](Narrator/weekly_digest/2026-W13){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[查看 2026-W17 週報](Narrator/weekly_digest/2026-W17){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [歷史週報](Narrator/weekly_digest){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
@@ -111,45 +111,45 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
   <tbody>
     <tr data-region="asia">
       <td style="text-align:center">🔴</td>
-      <td>腸病毒重症首例死亡</td>
+      <td>台灣首例本土H7N7禽流感人類感染</td>
       <td>台灣</td>
-      <td>2026年首例腸病毒重症死亡（克沙奇A4型），累計4例重症；越南逾6,000例，中國2月逾2萬例</td>
+      <td>70多歲禽類養殖業男性感染LPAI H7N7，已康復解除隔離，為台灣首次本土禽流感人類感染</td>
       <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
     </tr>
     <tr data-region="europe">
-      <td style="text-align:center">🟡</td>
-      <td>肯特郡IMD疫情持續</td>
+      <td style="text-align:center">🔴</td>
+      <td>多塞特郡MenB疫情</td>
       <td>英國</td>
-      <td>UKHSA發布IMD技術簡報及腦膜炎球菌背景資料，疫情未解除</td>
+      <td>韋茅斯3例MenB確診，6,500名年輕人接受抗生素預防及疫苗接種，與肯特郡疫情無關</td>
       <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
-    </tr>
-    <tr data-region="global">
-      <td style="text-align:center">🟡</td>
-      <td>世界結核病日多來源聚焦</td>
-      <td>歐洲/台灣/英國</td>
-      <td>歐洲每5例TB仍有1例未診斷，MDR-TB比例達23%；台灣發生率20年降66%</td>
-      <td><a href="Extractor/ecdc_cdtr">ECDC</a> <a href="Extractor/tw_cdc_alerts">TW CDC</a> <a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
     </tr>
     <tr data-region="asia">
       <td style="text-align:center">🟡</td>
-      <td>恙蟲病季節警示</td>
+      <td>立百病毒列第五類法定傳染病</td>
       <td>台灣</td>
-      <td>清明連假前夕提醒防護，2026年累計25例確定病例，高於2025同期</td>
+      <td>衛福部公告新增立百病毒感染症為第五類法定傳染病，24小時內通報</td>
       <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
     </tr>
-    <tr data-region="europe">
-      <td style="text-align:center">🟢</td>
-      <td>HCAI強制監測數據</td>
-      <td>英國</td>
-      <td>MRSA、MSSA、大腸桿菌、克雷伯氏菌、困難梭菌月度監測（2025/2-2026/2）</td>
-      <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
+    <tr data-region="global">
+      <td style="text-align:center">🟡</td>
+      <td>全球麻疹疫情嚴峻</td>
+      <td>全球</td>
+      <td>台灣累計8例、印尼逾15,000例、墨西哥逾9,000例、美國逾1,700例、英國407例</td>
+      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a> <a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
     </tr>
     <tr data-region="europe">
       <td style="text-align:center">🟢</td>
-      <td>流感/COVID-19 W13監測</td>
+      <td>RSV母嬰疫苗住院率降85%</td>
       <td>英國</td>
-      <td>全國流感與COVID-19監測報告，追蹤季節性呼吸道疾病活動</td>
+      <td>UKHSA發布全球最大規模研究，追蹤近30萬名嬰兒，確認孕婦接種RSV疫苗大幅降低嬰兒住院率</td>
       <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
+    </tr>
+    <tr data-region="asia">
+      <td style="text-align:center">🟡</td>
+      <td>M痘疫情較去年增倍</td>
+      <td>台灣</td>
+      <td>2026年累計12例（去年同期6例），近8成未接種疫苗，全球46國持續傳播</td>
+      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
     </tr>
   </tbody>
 </table>
@@ -157,7 +157,7 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 **風險等級說明**：🔴 高風險（PHEIC/大規模爆發）｜🟡 中風險（區域爆發/新興威脅）｜🟢 低風險（散發案例/常規監測）
 {: .fs-3 .text-grey-dk-000 }
 
-[查看完整週報分析 →](Narrator/weekly_digest/2026-W13){: .btn .btn-primary }
+[查看完整週報分析 →](Narrator/weekly_digest/2026-W17){: .btn .btn-primary }
 
 ---
 
@@ -165,7 +165,7 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 
 | 📊 整合公告 | 🦠 追蹤疾病 | 🌍 涵蓋國家 | 📚 歷史資料 |
 |:-----------:|:-----------:|:-----------:|:-----------:|
-| **85** 個 | **18** 種 | **31** 個 | **2,499+** 篇 |
+| **121** 個 | **22** 種 | **35** 個 | **2,535+** 篇 |
 
 ---
 

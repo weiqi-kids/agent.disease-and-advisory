@@ -1,0 +1,135 @@
+title: EpiAlert 疫情快訊
+description: 全球傳染病情報自動收集與分析
+theme: just-the-docs
+
+# 插件
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# RSS Feed 設定
+feed:
+  path: feed.xml
+  posts_limit: 20
+  excerpt_only: true
+
+# 搜尋設定 - 使用按鈕模式延遲載入以優化 TBT
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+  button: true
+  # 延遲載入：點擊搜尋按鈕才載入 lunr.js 索引
+
+# 導航設定
+nav_enabled: true
+nav_sort: case_insensitive
+
+# 排除原始資料
+exclude:
+  - "**/raw/"
+  - "**/*.jsonl"
+  - "**/*.xml"
+  - "**/.DS_Store"
+
+# 中文支援
+lang: zh-TW
+
+# URL 設定
+baseurl: ""
+url: "https://epialert.weiqi.kids"
+
+# 頁尾
+footer_content: "EpiAlert 疫情快訊 &copy; 2024-2026. Powered by Claude Code."
+
+# 顏色主題
+color_scheme: light
+
+# 預設值 - 內容頁不出現在導覽（但會保留側邊欄）
+defaults:
+  # 週報內容頁
+  - scope:
+      path: "Narrator/weekly_digest/2026"
+    values:
+      nav_exclude: true
+  # 各 Layer 的內容資料夾
+  - scope:
+      path: "Extractor/ecdc_cdtr/guidance"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/ecdc_cdtr/outbreak_report"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/ecdc_cdtr/risk_assessment"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/ecdc_cdtr/situational_update"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/tw_cdc_alerts/alert"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/uk_ukhsa_updates/surveillance_report"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_han/alert"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_han/advisory"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_han/update"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_han/information"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_mmwr/case_series"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_mmwr/outbreak_report"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_mmwr/scientific_report"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_mmwr/surveillance_summary"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_cdc_mmwr/vital_statistics"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_travel_health_notices/level_1_watch"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_travel_health_notices/level_2_practice"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_travel_health_notices/level_3_avoid"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/us_travel_health_notices/archived"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "Extractor/who_disease_outbreak_news/outbreak"
+    values:
+      nav_exclude: true

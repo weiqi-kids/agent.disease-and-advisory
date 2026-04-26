@@ -39,8 +39,8 @@ _qdrant_id_to_uuid() {
     return 0
   fi
 
-  # 使用 Python uuid5 產生確定性 UUID
-  python3 -c "import uuid; print(uuid.uuid5(uuid.NAMESPACE_URL, '''$input'''))" 2>/dev/null && return 0
+  # 使用 Python uuid5 產生確定性 UUID（透過 stdin 傳入避免命令注入）
+  printf '%s' "$input" | python3 -c "import sys, uuid; print(uuid.uuid5(uuid.NAMESPACE_URL, sys.stdin.read()))" 2>/dev/null && return 0
 
   # Fallback：用 md5 手動格式化為 UUID
   local hash
@@ -53,6 +53,42 @@ _qdrant_id_to_uuid() {
     return 1
   fi
   echo "${hash:0:8}-${hash:8:4}-${hash:12:4}-${hash:16:4}-${hash:20:12}"
+}
+
+# _qdrant_ids_to_uuids_batch INPUT_FILE OUTPUT_FILE
+#
+# 功能：
+#   - 批次將字串轉為確定性 UUID v5（NAMESPACE_URL）
+#   - 單一 Python 呼叫處理所有行，避免 N 次 process spawn
+#
+# 參數：
+#   INPUT_FILE: 每行一個輸入字串
+#   OUTPUT_FILE: 每行一個 UUID（與輸入同序）
+_qdrant_ids_to_uuids_batch() {
+  local input_file="$1"
+  local output_file="$2"
+
+  python3 -c "
+import sys, uuid
+for line in open(sys.argv[1], 'r'):
+    s = line.rstrip('\n')
+    print(uuid.uuid5(uuid.NAMESPACE_URL, s))
+" "$input_file" > "$output_file" 2>/dev/null && return 0
+
+  # Fallback：逐行用 md5 產生偽 UUID
+  > "$output_file"
+  while IFS= read -r line; do
+    local hash
+    if command -v md5 >/dev/null 2>&1; then
+      hash="$(printf '%s' "$line" | md5)"
+    elif command -v md5sum >/dev/null 2>&1; then
+      hash="$(printf '%s' "$line" | md5sum | cut -d' ' -f1)"
+    else
+      echo "❌ [_qdrant_ids_to_uuids_batch] 無法產生 UUID" >&2
+      return 1
+    fi
+    echo "${hash:0:8}-${hash:8:4}-${hash:12:4}-${hash:16:4}-${hash:20:12}" >> "$output_file"
+  done < "$input_file"
 }
 
 ########################################
@@ -133,6 +169,9 @@ qdrant_create_collection() {
     -H "Content-Type: application/json"
     --data-raw "$payload"
     -w '%{http_code}' -o "$tmp_body"
+    --connect-timeout 15
+    --max-time 30
+    --tlsv1.2
   )
 
   if [[ -n "${QDRANT_API_KEY:-}" ]]; then
@@ -184,6 +223,9 @@ qdrant_collection_exists() {
   local curl_args=(
     -sS -X GET "${QDRANT_URL%/}/collections/${collection_name}"
     -w '%{http_code}' -o "$tmp_body"
+    --connect-timeout 15
+    --max-time 30
+    --tlsv1.2
   )
 
   if [[ -n "${QDRANT_API_KEY:-}" ]]; then
@@ -231,7 +273,7 @@ qdrant_upsert_point() {
   require_cmd curl jq || return 1
 
   local max_retries=3
-  local retry_delay=0.5
+  local retry_delay=1  # 初始延遲（指數退避：1s → 2s → 4s）
 
   local payload
   payload="$(
@@ -257,6 +299,9 @@ qdrant_upsert_point() {
       -H "Content-Type: application/json"
       --data-raw "$payload"
       -w '%{http_code}' -o "$tmp_body"
+      --connect-timeout 15
+      --max-time 60
+      --tlsv1.2
     )
 
     if [[ -n "${QDRANT_API_KEY:-}" ]]; then
@@ -276,7 +321,14 @@ qdrant_upsert_point() {
         return 0
       fi
 
-      # HTTP 錯誤（非網路錯誤），不重試
+      # HTTP 502/503/504 可重試
+      if [[ "$http_code" =~ ^50[234]$ ]] && [[ $attempt -lt $max_retries ]]; then
+        echo "⚠️  [qdrant_upsert_point] HTTP=${http_code}，重試 $attempt/$max_retries..." >&2
+        sleep $retry_delay
+        retry_delay=$((retry_delay * 2))
+        continue
+      fi
+
       echo "❌ [qdrant_upsert_point] HTTP=${http_code}" >&2
       if jq -e . >/dev/null 2>&1 <<<"$resp"; then
         echo "$resp" | jq -C '.' >&2
@@ -289,8 +341,9 @@ qdrant_upsert_point() {
     # curl 失敗，判斷是否需要重試
     rm -f "$tmp_body"
     if [[ $attempt -lt $max_retries ]]; then
-      echo "⚠️  [qdrant_upsert_point] curl 失敗 (exit=$curl_exit)，重試 $attempt/$max_retries..." >&2
+      echo "⚠️  [qdrant_upsert_point] curl 失敗 (exit=${curl_exit})，重試 ${attempt}/${max_retries}（${retry_delay}s 後）..." >&2
       sleep $retry_delay
+      retry_delay=$((retry_delay * 2))
     else
       echo "❌ [qdrant_upsert_point] curl 失敗 (exit=$curl_exit)，已重試 $max_retries 次" >&2
       return 1
@@ -335,6 +388,9 @@ qdrant_upsert_points_batch() {
     -H "Content-Type: application/json"
     -d "@${tmp_payload}"
     -w '%{http_code}' -o "$tmp_body"
+    --connect-timeout 15
+    --max-time 120
+    --tlsv1.2
   )
 
   if [[ -n "${QDRANT_API_KEY:-}" ]]; then
@@ -380,7 +436,7 @@ qdrant_point_exists() {
   require_cmd curl jq || return 1
 
   local max_retries=3
-  local retry_delay=0.5
+  local retry_delay=1
 
   for ((attempt=1; attempt<=max_retries; attempt++)); do
     local tmp_body http_code
@@ -389,6 +445,9 @@ qdrant_point_exists() {
     local curl_args=(
       -sS -X GET "${QDRANT_URL%/}/collections/${collection_name}/points/${point_id}"
       -w '%{http_code}' -o "$tmp_body"
+      --connect-timeout 15
+      --max-time 30
+      --tlsv1.2
     )
 
     if [[ -n "${QDRANT_API_KEY:-}" ]]; then
@@ -418,8 +477,9 @@ qdrant_point_exists() {
     # curl 失敗，判斷是否需要重試
     rm -f "$tmp_body"
     if [[ $attempt -lt $max_retries ]]; then
-      echo "⚠️  [qdrant_point_exists] curl 失敗 (exit=$curl_exit)，重試 $attempt/$max_retries..." >&2
+      echo "⚠️  [qdrant_point_exists] curl 失敗 (exit=${curl_exit})，重試 ${attempt}/${max_retries}（${retry_delay}s 後）..." >&2
       sleep $retry_delay
+      retry_delay=$((retry_delay * 2))
     else
       echo "❌ [qdrant_point_exists] curl 失敗 (exit=$curl_exit)，已重試 $max_retries 次" >&2
       return 1
@@ -471,6 +531,9 @@ qdrant_get_existing_ids() {
     -H "Content-Type: application/json"
     -d "@${tmp_payload}"
     -w '%{http_code}' -o "$tmp_body"
+    --connect-timeout 15
+    --max-time 60
+    --tlsv1.2
   )
 
   if [[ -n "${QDRANT_API_KEY:-}" ]]; then
@@ -503,25 +566,313 @@ qdrant_get_existing_ids() {
 }
 
 ########################################
+# Payload 更新（部分更新，不覆蓋整個 payload）
+########################################
+
+# qdrant_set_payload COLLECTION_NAME POINT_IDS_JSON PAYLOAD_JSON
+#
+# 功能：
+#   - 只更新指定 points 的部分 payload 欄位（不覆蓋其他欄位）
+#
+# 參數：
+#   COLLECTION_NAME: collection 名稱
+#   POINT_IDS_JSON: JSON array of point IDs，例如 ["id1", "id2"]
+#   PAYLOAD_JSON: 要更新的欄位 JSON，例如 {"expires_at":"2025-01-01","expired_reason":"patched"}
+#
+# 回傳值：
+#   0  = 成功
+#   >0 = 失敗
+qdrant_set_payload() {
+  local collection_name="$1"
+  local point_ids_json="$2"
+  local payload_json="$3"
+
+  require_cmd curl jq || return 1
+
+  local tmp_payload tmp_body http_code
+  tmp_payload="$(mktemp)"
+  tmp_body="$(mktemp)"
+
+  jq -nc \
+    --argjson ids "$point_ids_json" \
+    --argjson payload "$payload_json" \
+    '{
+      points: $ids,
+      payload: $payload
+    }' > "$tmp_payload"
+
+  local max_retries=3 retry_delay=1
+
+  for ((attempt=1; attempt<=max_retries; attempt++)); do
+    local curl_args=(
+      -sS -X POST "${QDRANT_URL%/}/collections/${collection_name}/points/payload"
+      -H "Content-Type: application/json"
+      -d "@${tmp_payload}"
+      -w '%{http_code}' -o "$tmp_body"
+      --connect-timeout 15
+      --max-time 60
+      --tlsv1.2
+    )
+
+    if [[ -n "${QDRANT_API_KEY:-}" ]]; then
+      curl_args+=( -H "api-key: ${QDRANT_API_KEY}" )
+    fi
+
+    http_code="$(curl "${curl_args[@]}" 2>/dev/null)"
+    local curl_exit=$?
+
+    if [[ $curl_exit -eq 0 ]]; then
+      if [[ "$http_code" == "200" ]]; then
+        rm -f "$tmp_payload" "$tmp_body"
+        return 0
+      fi
+
+      if [[ "$http_code" =~ ^50[234]$ ]] && [[ $attempt -lt $max_retries ]]; then
+        echo "⚠️  [qdrant_set_payload] HTTP=${http_code}，重試 $attempt/$max_retries..." >&2
+        sleep $retry_delay
+        retry_delay=$((retry_delay * 2))
+        continue
+      fi
+
+      local resp
+      resp="$(cat "$tmp_body")"
+      echo "❌ [qdrant_set_payload] HTTP=${http_code}" >&2
+      if jq -e . >/dev/null 2>&1 <<<"$resp"; then
+        echo "$resp" | jq -C '.' >&2
+      else
+        echo "$resp" >&2
+      fi
+      rm -f "$tmp_payload" "$tmp_body"
+      return 1
+    fi
+
+    rm -f "$tmp_body"
+    if [[ $attempt -lt $max_retries ]]; then
+      echo "⚠️  [qdrant_set_payload] curl 失敗 (exit=$curl_exit)，重試 $attempt/$max_retries..." >&2
+      sleep $retry_delay
+      retry_delay=$((retry_delay * 2))
+    else
+      echo "❌ [qdrant_set_payload] curl 失敗 (exit=$curl_exit)，已重試 $max_retries 次" >&2
+      rm -f "$tmp_payload"
+      return 1
+    fi
+  done
+
+  rm -f "$tmp_payload" "$tmp_body"
+  return 1
+}
+
+########################################
+# Scroll（帶 filter 的批次查詢）
+########################################
+
+# qdrant_scroll_without_field COLLECTION FIELD_NAME LAYER_NAME [LIMIT]
+#
+# 功能：
+#   - 搜尋指定 Layer 中「不含某欄位」的 points（使用 scroll API + filter）
+#   - 用於找出尚未標記 expires_at 的活躍資料
+#
+# 參數：
+#   COLLECTION: collection 名稱
+#   FIELD_NAME: 要排除的欄位名（例如 "expires_at"）
+#   LAYER_NAME: 來源 Layer 名稱（用於 source_layer filter）
+#   LIMIT: 每次回傳筆數（預設 100）
+#
+# stdout:
+#   JSON array of points（包含 id 和 payload）
+qdrant_scroll_without_field() {
+  local collection_name="$1"
+  local field_name="$2"
+  local layer_name="$3"
+  local limit="${4:-100}"
+
+  require_cmd curl jq || return 1
+
+  local tmp_payload tmp_body http_code
+  tmp_payload="$(mktemp)"
+  tmp_body="$(mktemp)"
+
+  # Qdrant scroll filter: 找出 source_layer=X 且指定欄位不存在的 points
+  # 使用 IsNull condition 表示「欄位為 null 或不存在」
+  jq -nc \
+    --arg layer "$layer_name" \
+    --arg field "$field_name" \
+    --argjson limit "$limit" \
+    '{
+      filter: {
+        must: [
+          { key: "source_layer", match: { value: $layer } },
+          { is_null: { key: $field } }
+        ]
+      },
+      limit: $limit,
+      with_payload: true
+    }' > "$tmp_payload"
+
+  local curl_args=(
+    -sS -X POST "${QDRANT_URL%/}/collections/${collection_name}/points/scroll"
+    -H "Content-Type: application/json"
+    -d "@${tmp_payload}"
+    -w '%{http_code}' -o "$tmp_body"
+    --connect-timeout 15
+    --max-time 60
+    --tlsv1.2
+  )
+
+  if [[ -n "${QDRANT_API_KEY:-}" ]]; then
+    curl_args+=( -H "api-key: ${QDRANT_API_KEY}" )
+  fi
+
+  http_code="$(curl "${curl_args[@]}" 2>/dev/null)" || {
+    local rc=$?
+    echo "❌ [qdrant_scroll_without_field] curl 失敗 exit=${rc}" >&2
+    rm -f "$tmp_payload" "$tmp_body"
+    return 1
+  }
+
+  local resp
+  resp="$(cat "$tmp_body")"
+  rm -f "$tmp_payload" "$tmp_body"
+
+  if [[ "$http_code" != "200" ]]; then
+    echo "❌ [qdrant_scroll_without_field] HTTP=${http_code}" >&2
+    if jq -e . >/dev/null 2>&1 <<<"$resp"; then
+      echo "$resp" | jq -C '.' >&2
+    else
+      echo "$resp" >&2
+    fi
+    return 1
+  fi
+
+  # 回傳 points array
+  printf '%s' "$resp" | jq -c '.result.points // []'
+}
+
+########################################
+# Scroll (Filter-based query, no vector needed)
+########################################
+
+# qdrant_scroll COLLECTION_NAME FILTER_JSON [LIMIT]
+#
+# 功能：
+#   - 按 filter 條件捲動查詢（不需要向量）
+#   - 用於跨平台資料查詢（如：查詢同一 product_id 的所有平台資料）
+#
+# 參數：
+#   COLLECTION_NAME: collection 名稱
+#   FILTER_JSON: Qdrant filter 條件 (JSON object)
+#     例如：'{"must":[{"key":"product_id","match":{"value":"B09V3KXJPB"}}]}'
+#   LIMIT: 回傳結果數量（預設 100）
+#
+# stdout:
+#   查詢結果 JSON（包含 points 陣列，每個 point 含 id 和 payload）
+#
+# 回傳值：
+#   0  = 成功
+#   >0 = 失敗
+qdrant_scroll() {
+  local collection_name="$1"
+  local filter_json="$2"
+  local limit="${3:-100}"
+
+  require_cmd curl jq || return 1
+
+  local max_retries=3
+  local retry_delay=1
+
+  # 使用臨時檔案避免命令行參數過長
+  local tmp_payload tmp_body http_code
+  tmp_payload="$(mktemp)"
+  tmp_body="$(mktemp)"
+
+  # 組合 scroll 請求 payload
+  printf '%s' "$filter_json" | jq -c \
+    --argjson limit "$limit" \
+    '{
+      filter: .,
+      limit: $limit,
+      with_payload: true,
+      with_vector: false
+    }' > "$tmp_payload"
+
+  for ((attempt=1; attempt<=max_retries; attempt++)); do
+    local curl_args=(
+      -sS -X POST "${QDRANT_URL%/}/collections/${collection_name}/points/scroll"
+      -H "Content-Type: application/json"
+      -d "@${tmp_payload}"
+      -w '%{http_code}' -o "$tmp_body"
+      --connect-timeout 15
+      --max-time 60
+      --tlsv1.2
+    )
+
+    if [[ -n "${QDRANT_API_KEY:-}" ]]; then
+      curl_args+=( -H "api-key: ${QDRANT_API_KEY}" )
+    fi
+
+    http_code="$(curl "${curl_args[@]}" 2>/dev/null)"
+    local curl_exit=$?
+
+    if [[ $curl_exit -eq 0 ]]; then
+      local resp
+      resp="$(cat "$tmp_body")"
+      rm -f "$tmp_payload" "$tmp_body"
+
+      if [[ "$http_code" == "200" ]]; then
+        printf '%s\n' "$resp"
+        return 0
+      fi
+
+      echo "❌ [qdrant_scroll] HTTP=${http_code}" >&2
+      if jq -e . >/dev/null 2>&1 <<<"$resp"; then
+        echo "$resp" | jq -C '.' >&2
+      else
+        echo "$resp" >&2
+      fi
+      return 1
+    fi
+
+    rm -f "$tmp_body"
+    if [[ $attempt -lt $max_retries ]]; then
+      echo "⚠️  [qdrant_scroll] curl 失敗 (exit=$curl_exit)，重試 $attempt/$max_retries..." >&2
+      sleep $retry_delay
+    else
+      rm -f "$tmp_payload"
+      echo "❌ [qdrant_scroll] curl 失敗 (exit=$curl_exit)，已重試 $max_retries 次" >&2
+      return 1
+    fi
+  done
+
+  rm -f "$tmp_payload" "$tmp_body"
+  return 1
+}
+
+########################################
 # Search by Payload (URL 查詢)
 ########################################
 
-# qdrant_exists_by_url SOURCE_URL
+# qdrant_exists_by_url SOURCE_URL [COLLECTION_NAME]
 #
 # 功能：
 #   - 檢查是否存在具有特定 source_url 的 point
 #
 # 參數：
 #   SOURCE_URL: 要查詢的 source_url
+#   COLLECTION_NAME: collection 名稱（預設使用 $QDRANT_COLLECTION）
 #
 # 回傳值：
 #   0  = 存在
 #   1  = 不存在
 qdrant_exists_by_url() {
   local source_url="$1"
-  local collection_name="${QDRANT_COLLECTION:-disease-and-advisory}"
+  local collection_name="${2:-${QDRANT_COLLECTION:-}}"
 
   require_cmd curl jq || return 1
+
+  if [[ -z "$collection_name" ]]; then
+    echo "❌ [qdrant_exists_by_url] 未指定 collection（設定 QDRANT_COLLECTION 或傳入第二參數）" >&2
+    return 1
+  fi
 
   local payload
   payload="$(
@@ -550,6 +901,9 @@ qdrant_exists_by_url() {
     -H "Content-Type: application/json"
     --data-raw "$payload"
     -w '%{http_code}' -o "$tmp_body"
+    --connect-timeout 15
+    --max-time 30
+    --tlsv1.2
   )
 
   if [[ -n "${QDRANT_API_KEY:-}" ]]; then
@@ -576,92 +930,6 @@ qdrant_exists_by_url() {
     return 0  # 存在
   fi
   return 1  # 不存在
-}
-
-########################################
-# Upsert from Markdown
-########################################
-
-# qdrant_upsert_from_md MD_FILE LAYER_NAME
-#
-# 功能：
-#   - 從 Markdown 檔案讀取 metadata，生成 embedding，寫入 Qdrant
-#
-# 參數：
-#   MD_FILE: Markdown 檔案路徑
-#   LAYER_NAME: Layer 名稱
-#
-# 回傳值：
-#   0  = 成功
-#   >0 = 失敗
-qdrant_upsert_from_md() {
-  local md_file="$1"
-  local layer_name="$2"
-  local collection_name="${QDRANT_COLLECTION:-disease-and-advisory}"
-
-  require_cmd curl jq || return 1
-
-  # 檢查 chatgpt_embed 是否可用
-  if ! declare -f chatgpt_embed >/dev/null 2>&1; then
-    echo "⚠️  [qdrant_upsert_from_md] chatgpt_embed 不可用，跳過" >&2
-    return 1
-  fi
-
-  # 從 MD 檔案提取 metadata
-  # 處理 YAML frontmatter 的各種引號格式：無引號、單引號、雙引號
-  local title source_url date category content
-  title=$(grep -m1 '^title:' "$md_file" 2>/dev/null | sed 's/^title: *//; s/^["'"'"']//; s/["'"'"']$//' || echo "")
-  source_url=$(grep -m1 '^source_url:' "$md_file" 2>/dev/null | sed 's/^source_url: *//; s/^["'"'"']//; s/["'"'"']$//' || echo "")
-  date=$(grep -m1 '^date:' "$md_file" 2>/dev/null | sed 's/^date: *//' || echo "")
-  category=$(grep -m1 '^category:' "$md_file" 2>/dev/null | sed 's/^category: *//' || echo "")
-
-  if [[ -z "$source_url" ]]; then
-    echo "⚠️  [qdrant_upsert_from_md] 無 source_url: $md_file" >&2
-    return 1
-  fi
-
-  # 提取摘要作為 embedding 文本
-  content=$(awk '/^## 摘要/,/^## |^---/' "$md_file" 2>/dev/null | grep -v '^##' | grep -v '^---' | head -10 || echo "$title")
-  if [[ -z "$content" ]]; then
-    content="$title"
-  fi
-
-  # 生成 embedding
-  local vector_json
-  vector_json=$(chatgpt_embed "$title $content" 2>/dev/null) || {
-    echo "⚠️  [qdrant_upsert_from_md] embedding 失敗: $md_file" >&2
-    return 1
-  }
-
-  # 生成 point ID (UUID from source_url)
-  local point_id
-  point_id=$(_qdrant_id_to_uuid "$source_url")
-
-  # 構建 payload
-  local payload_json
-  payload_json=$(jq -n \
-    --arg title "$title" \
-    --arg source_url "$source_url" \
-    --arg date "$date" \
-    --arg category "$category" \
-    --arg layer "$layer_name" \
-    --arg file "$md_file" \
-    '{
-      title: $title,
-      source_url: $source_url,
-      date: $date,
-      category: $category,
-      source_layer: $layer,
-      file_path: $file,
-      fetched_at: (now | strftime("%Y-%m-%dT%H:%M:%SZ"))
-    }')
-
-  # 寫入 Qdrant
-  if qdrant_upsert_point "$collection_name" "$point_id" "$vector_json" "$payload_json"; then
-    return 0
-  fi
-
-  return 1
 }
 
 ########################################
@@ -711,8 +979,9 @@ qdrant_search() {
       -H "Content-Type: application/json"
       --data-raw "$payload"
       -w '%{http_code}' -o "$tmp_body"
-      --connect-timeout 10
+      --connect-timeout 15
       --max-time 30
+      --tlsv1.2
     )
 
     if [[ -n "${QDRANT_API_KEY:-}" ]]; then
@@ -752,106 +1021,4 @@ qdrant_search() {
   done
 
   return 1
-}
-
-########################################
-# 差異更新：只處理新增的檔案
-########################################
-
-# qdrant_filter_new_files COLLECTION_NAME FILES...
-#
-# 功能：
-#   - 批次檢查哪些檔案尚未存在於 Qdrant
-#   - 輸出需要處理的檔案路徑（每行一個）
-#
-# 參數：
-#   COLLECTION_NAME: collection 名稱
-#   FILES: 一個或多個 .md 檔案路徑
-#
-# stdout:
-#   需要處理的檔案路徑（每行一個）
-#
-# 用法：
-#   new_files=$(qdrant_filter_new_files "disease_intel" file1.md file2.md)
-#   while IFS= read -r f; do
-#     qdrant_upsert_from_md "$f" "$layer"
-#   done <<< "$new_files"
-#
-qdrant_filter_new_files() {
-  local collection_name="$1"
-  shift
-  local -a all_files=("$@")
-
-  local total=${#all_files[@]}
-  if [[ $total -eq 0 ]]; then
-    return 0
-  fi
-
-  echo "🔍 [qdrant_filter] 檢查 $total 個檔案..." >&2
-
-  # 收集 source_url → UUID 映射
-  local -a urls=()
-  local -a uuids=()
-  local -a valid_files=()
-
-  for md_file in "${all_files[@]}"; do
-    local source_url
-    source_url=$(grep -m1 '^source_url:' "$md_file" 2>/dev/null | sed 's/^source_url: *//; s/^["'"'"']//; s/["'"'"']$//' || echo "")
-    if [[ -n "$source_url" ]]; then
-      local uuid
-      uuid=$(_qdrant_id_to_uuid "$source_url")
-      urls+=("$source_url")
-      uuids+=("$uuid")
-      valid_files+=("$md_file")
-    fi
-  done
-
-  local valid_count=${#valid_files[@]}
-  if [[ $valid_count -eq 0 ]]; then
-    echo "⚠️  [qdrant_filter] 無有效檔案" >&2
-    return 0
-  fi
-
-  # 批次查詢（每次最多 100 個）
-  local batch_size=100
-  local -a existing_uuids=()
-
-  for ((i=0; i<valid_count; i+=batch_size)); do
-    local end=$((i + batch_size))
-    [[ $end -gt $valid_count ]] && end=$valid_count
-
-    # 構建 JSON array
-    local ids_json="["
-    local first=1
-    for ((j=i; j<end; j++)); do
-      [[ $first -eq 1 ]] && first=0 || ids_json+=","
-      ids_json+="\"${uuids[j]}\""
-    done
-    ids_json+="]"
-
-    # 查詢
-    local result
-    result=$(qdrant_get_existing_ids "$collection_name" "$ids_json" 2>/dev/null) || continue
-
-    while IFS= read -r uuid; do
-      [[ -n "$uuid" ]] && existing_uuids+=("$uuid")
-    done < <(echo "$result" | jq -r '.[]' 2>/dev/null)
-  done
-
-  # 輸出不存在的檔案
-  local new_count=0
-  for ((i=0; i<valid_count; i++)); do
-    local uuid="${uuids[i]}"
-    local found=0
-    for existing in "${existing_uuids[@]}"; do
-      [[ "$uuid" == "$existing" ]] && { found=1; break; }
-    done
-    if [[ $found -eq 0 ]]; then
-      echo "${valid_files[i]}"
-      ((new_count++))
-    fi
-  done
-
-  local skipped=$((valid_count - new_count))
-  echo "✅ [qdrant_filter] 跳過 $skipped 已存在，需處理 $new_count 新檔案" >&2
 }

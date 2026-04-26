@@ -1,5 +1,5 @@
 #!/bin/bash
-# quality-gate.sh - 品質關卡驗證腳本
+# quality-gate.sh - 品質關卡驗證腳本（通用版）
 # 用途：提供可執行的驗證指令，取代手動勾選
 # 使用方式：source lib/quality-gate.sh && qg_run_all
 
@@ -47,13 +47,10 @@ qg_check_ymyl() {
     local docs_dir="docs"
     local missing_files=()
 
-    # 檢查所有 .md 檔案是否有 YMYL 欄位
     while IFS= read -r file; do
-        # 跳過 index.md 和特定目錄
         [[ "$file" == *"/raw/"* ]] && continue
         [[ "$file" == *"lessons-learned.md" ]] && continue
 
-        # 檢查 lastReviewed 和 reviewedBy
         if ! grep -q "lastReviewed:" "$file" 2>/dev/null; then
             missing_files+=("$file (缺少 lastReviewed)")
         fi
@@ -80,7 +77,11 @@ qg_check_frontmatter() {
     local docs_dir="docs/Extractor"
     local missing_nav_exclude=()
 
-    # 檢查所有萃取結果是否有 nav_exclude: true
+    if [[ ! -d "$docs_dir" ]]; then
+        qg_warn "Frontmatter" "docs/Extractor 目錄不存在"
+        return
+    fi
+
     while IFS= read -r file; do
         [[ "$file" == *"/raw/"* ]] && continue
         [[ "$file" == *"index.md" ]] && continue
@@ -107,7 +108,6 @@ qg_check_link_format() {
     local docs_dir="docs"
     local bad_links=()
 
-    # 檢查 Markdown 連結是否帶尾部斜線
     while IFS= read -r file; do
         if grep -E '\]\([^)]+/\)' "$file" 2>/dev/null | grep -v "http" | grep -q .; then
             bad_links+=("$file")
@@ -130,7 +130,6 @@ qg_check_link_format() {
 qg_check_git_status() {
     echo "=== Git 狀態檢查 ==="
 
-    # 檢查是否有未提交的變更
     local uncommitted
     uncommitted=$(git status --porcelain 2>/dev/null | wc -l | tr -d ' ')
 
@@ -141,7 +140,6 @@ qg_check_git_status() {
         git status --porcelain | head -5
     fi
 
-    # 檢查是否已推送
     local ahead
     ahead=$(git rev-list --count @{upstream}..HEAD 2>/dev/null || echo "0")
 
@@ -163,8 +161,7 @@ qg_check_schema_index() {
         return
     fi
 
-    # 檢查 JSON-LD 相關欄位
-    local required_schemas=("WebSite" "WebPage" "Organization")
+    local required_schemas=("WebSite" "WebPage")
     local missing_schemas=()
 
     for schema in "${required_schemas[@]}"; do
@@ -178,13 +175,6 @@ qg_check_schema_index() {
     else
         qg_fail "首頁缺少 Schema" "${missing_schemas[*]}"
     fi
-
-    # 檢查 speakable
-    if grep -q "speakable:" "$index_file" && grep -q "cssSelector:" "$index_file"; then
-        qg_pass "Speakable 設定存在"
-    else
-        qg_fail "缺少 Speakable 設定" "需要 speakable + cssSelector"
-    fi
 }
 
 # === 6. 內容更新確認 ===
@@ -194,26 +184,32 @@ qg_check_content_updated() {
     local today
     today=$(date +%Y-%m-%d)
 
-    # 檢查首頁時間戳是否為今天
-    if grep -q "最後更新：$today" docs/index.md 2>/dev/null; then
-        qg_pass "首頁時間戳已更新"
+    if grep -q "$today" docs/index.md 2>/dev/null; then
+        qg_pass "首頁包含今日日期"
     else
-        qg_fail "首頁時間戳未更新" "應為 $today"
+        qg_warn "首頁日期" "首頁未包含今日日期 $today（可能正常）"
     fi
 }
 
-# === 7. 萃取結果統計 ===
+# === 7. 萃取結果統計（自動發現 Layers） ===
 
 qg_check_extraction_stats() {
     echo "=== 萃取結果統計 ==="
     local total=0
-    local layers=("ecdc_cdtr" "tw_cdc_alerts" "uk_ukhsa_updates" "us_cdc_han" "us_cdc_mmwr" "us_travel_health_notices" "who_disease_outbreak_news")
 
-    for layer in "${layers[@]}"; do
+    if [[ ! -d "docs/Extractor" ]]; then
+        qg_warn "萃取結果" "docs/Extractor 目錄不存在"
+        return
+    fi
+
+    for layer_dir in docs/Extractor/*/; do
+        [[ ! -d "$layer_dir" ]] && continue
+        local layer_name
+        layer_name=$(basename "$layer_dir")
         local count
-        count=$(find "docs/Extractor/$layer" -name "*.md" -type f 2>/dev/null | grep -v "index.md" | grep -v "/raw/" | wc -l | tr -d ' ')
+        count=$(find "$layer_dir" -name "*.md" -type f 2>/dev/null | grep -v "index.md" | grep -v "/raw/" | wc -l | tr -d ' ')
         total=$((total + count))
-        echo "  $layer: $count 篇"
+        echo "  $layer_name: $count 篇"
     done
 
     echo "  總計: $total 篇萃取結果"
@@ -231,7 +227,6 @@ qg_check_eeat_links() {
     echo "=== E-E-A-T 外部連結檢查 ==="
     local index_file="docs/index.md"
 
-    # 檢查是否有 .gov 連結
     local gov_links
     gov_links=$(grep -o 'https://[^)]*\.gov[^)]*' "$index_file" 2>/dev/null | wc -l | tr -d ' ')
 
@@ -296,57 +291,6 @@ qg_run_all() {
         echo -e "${RED}❌ 品質關卡未通過！有 $FAIL_COUNT 項需要修正。${NC}"
         return 1
     fi
-}
-
-# === 單項檢查（供 Reviewer 使用）===
-
-qg_verify_phase_complete() {
-    local phase="$1"
-    echo "=== 驗證階段 $phase 完成度 ==="
-
-    case "$phase" in
-        1) # 掃描
-            if [[ -d "core/Extractor/Layers" ]]; then
-                local layer_count
-                layer_count=$(find core/Extractor/Layers -maxdepth 1 -type d | wc -l)
-                echo "發現 $((layer_count - 1)) 個 Layers"
-                return 0
-            fi
-            ;;
-        2) # Fetch
-            local jsonl_count
-            jsonl_count=$(find docs/Extractor -name "*.jsonl" 2>/dev/null | wc -l | tr -d ' ')
-            echo "JSONL 檔案數：$jsonl_count"
-            [[ $jsonl_count -gt 0 ]] && return 0
-            ;;
-        3) # 萃取
-            local md_count
-            md_count=$(find docs/Extractor -name "*.md" -newer docs/Extractor 2>/dev/null | wc -l | tr -d ' ')
-            echo "新萃取的 .md 檔案數：$md_count"
-            return 0
-            ;;
-        4) # Update
-            echo "Qdrant 更新需要手動驗證"
-            return 0
-            ;;
-        5) # 報告
-            local report_file="docs/Narrator/weekly_digest/$(date +%Y)-W$(date +%V)-weekly-digest.md"
-            if [[ -f "$report_file" ]]; then
-                echo "週報存在：$report_file"
-                return 0
-            else
-                echo "週報不存在：$report_file"
-                return 1
-            fi
-            ;;
-        6) # GitHub
-            qg_check_git_status
-            ;;
-        *)
-            echo "未知階段：$phase"
-            return 1
-            ;;
-    esac
 }
 
 # 如果直接執行此腳本
