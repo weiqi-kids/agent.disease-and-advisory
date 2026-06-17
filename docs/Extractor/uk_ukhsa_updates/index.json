@@ -10,6 +10,96 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "surveillance-2026-06-16-weekly-all-cause-mortality-surveillance-week-ending-19-july-2026-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-06-16-weekly-all-cause-mortality-surveillance-week-ending-19-july-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-06-16-weekly-all-cause-mortality-surveillance-week-ending-12-july-2026-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-06-16-weekly-all-cause-mortality-surveillance-week-ending-12-july-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-06-16-national-flu-and-covid-19-surveillance-week-29-data-to-week-28-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-06-16-national-flu-and-covid-19-surveillance-week-29-data-to-week-28.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-06-15-national-flu-and-covid-19-surveillance-week-25-data-to-week-24-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-06-15-national-flu-and-covid-19-surveillance-week-25-data-to-week-24.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-06-12-weekly-all-cause-mortality-surveillance-week-ending-14-june-2026-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-06-12-weekly-all-cause-mortality-surveillance-week-ending-14-june-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-06-02-stis-fall-syphilis-gay-bisexual-men-lowest-decade-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-06-02-stis-fall-syphilis-gay-bisexual-men-lowest-decade.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-05-28-salmonella-cases-england-decade-high-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-05-28-salmonella-cases-england-decade-high.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-05-21-first-one-health-annual-vector-borne-disease-surveillance-report-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-05-21-first-one-health-annual-vector-borne-disease-surveillance-report.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "surveillance-2026-05-14-hiv-report-progress-inequalities-testing-prep-diagnosis-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-05-14-hiv-report-progress-inequalities-testing-prep-diagnosis.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "surveillance-2026-04-23-measles-epidemiology-2023-to-2026-md",
     "title": "",
     "category": "surveillance",
@@ -640,6 +730,116 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "research-2026-06-16-hantavirus-vaccine-effectiveness-following-andes-virus-exposure-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-06-16-hantavirus-vaccine-effectiveness-following-andes-virus-exposure.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-06-12-hantavirus-human-to-human-infection-transmission-parameters-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-06-12-hantavirus-human-to-human-infection-transmission-parameters.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-06-11-ukhsa-publishes-first-health-security-risk-assessment-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-06-11-ukhsa-publishes-first-health-security-risk-assessment.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-06-08-how-do-you-catch-genital-herpes-and-is-there-a-cure-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-06-08-how-do-you-catch-genital-herpes-and-is-there-a-cure.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-06-05-behind-scenes-evacuation-st-helena-ascension-hantavirus-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-06-05-behind-scenes-evacuation-st-helena-ascension-hantavirus.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-06-02-what-is-syphilis-symptoms-and-treatment-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-06-02-what-is-syphilis-symptoms-and-treatment.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-06-02-detecting-invisible-brixham-cryptosporidium-outbreak-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-06-02-detecting-invisible-brixham-cryptosporidium-outbreak.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-06-01-what-is-west-nile-virus-found-in-uk-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-06-01-what-is-west-nile-virus-found-in-uk.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-05-21-what-is-tick-borne-encephalitis-virus-found-in-uk-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-05-21-what-is-tick-borne-encephalitis-virus-found-in-uk.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-05-18-what-is-ebola-and-how-does-it-spread-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-05-18-what-is-ebola-and-how-does-it-spread.md",
+    "source": "",
+    "severity": "**嚴重程度**",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "research-2026-05-15-lab-in-a-bag-diagnostics-hantavirus-saint-helena-md",
+    "title": "",
+    "category": "research",
+    "date": "",
+    "file": "research/2026-05-15-lab-in-a-bag-diagnostics-hantavirus-saint-helena.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "research-2026-04-17-rsv-maternal-vaccine-cuts-baby-hospital-admissions-85-md",
     "title": "",
     "category": "research",
@@ -1070,6 +1270,36 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "policy-2026-06-12-thousands-of-young-people-offered-2-dose-menb-vaccine-ukhsa-news-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-06-12-thousands-of-young-people-offered-2-dose-menb-vaccine-ukhsa-news.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "policy-2026-06-11-thousands-of-young-people-to-be-offered-2-dose-menb-vaccine-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-06-11-thousands-of-young-people-to-be-offered-2-dose-menb-vaccine.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "policy-2026-06-11-free-flu-jabs-for-people-experiencing-homelessness-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-06-11-free-flu-jabs-for-people-experiencing-homelessness.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "policy-2026-03-25-1-billion-invested-health-protection-pandemic-strategy-published-md",
     "title": "",
     "category": "policy",
@@ -1250,6 +1480,76 @@
     "source_layer": "uk_ukhsa_updates"
   },
   {
+    "id": "outbreak-2026-06-16-uk-public-health-rapid-support-team-deploys-ebola-outbreak-md",
+    "title": "",
+    "category": "outbreak",
+    "date": "",
+    "file": "outbreak/2026-06-16-uk-public-health-rapid-support-team-deploys-ebola-outbreak.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "outbreak-2026-06-16-uk-phrst-deploys-in-response-to-ebola-outbreak-in-drc-md",
+    "title": "",
+    "category": "outbreak",
+    "date": "",
+    "file": "outbreak/2026-06-16-uk-phrst-deploys-in-response-to-ebola-outbreak-in-drc.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "outbreak-2026-06-11-latest-measles-figures-two-deaths-confirmed-2026-md",
+    "title": "",
+    "category": "outbreak",
+    "date": "",
+    "file": "outbreak/2026-06-11-latest-measles-figures-two-deaths-confirmed-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "outbreak-2026-06-11-ebola-and-marburg-haemorrhagic-fevers-outbreaks-and-case-locations-md",
+    "title": "",
+    "category": "outbreak",
+    "date": "",
+    "file": "outbreak/2026-06-11-ebola-and-marburg-haemorrhagic-fevers-outbreaks-and-case-locations.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "outbreak-2026-06-10-ukhsa-update-hantavirus-cruise-ship-outbreak-md",
+    "title": "",
+    "category": "outbreak",
+    "date": "",
+    "file": "outbreak/2026-06-10-ukhsa-update-hantavirus-cruise-ship-outbreak.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "outbreak-2026-05-26-ukhsa-amber-yellow-heat-health-alerts-england-md",
+    "title": "",
+    "category": "outbreak",
+    "date": "",
+    "file": "outbreak/2026-05-26-ukhsa-amber-yellow-heat-health-alerts-england.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "outbreak-2026-05-13-hantavirus-outbreak-dutch-cruise-ship-mv-hondius-md",
+    "title": "",
+    "category": "outbreak",
+    "date": "",
+    "file": "outbreak/2026-05-13-hantavirus-outbreak-dutch-cruise-ship-mv-hondius.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
     "id": "outbreak-2026-04-23-meningitis-cases-dorset-what-you-need-to-know-md",
     "title": "",
     "category": "outbreak",
@@ -1405,6 +1705,66 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-06-16-who-is-eligible-for-menb-vaccine-programme-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-06-16-who-is-eligible-for-menb-vaccine-programme.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-06-16-meningococcal-b-menb-time-limited-vaccination-offer-letter-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-06-16-meningococcal-b-menb-time-limited-vaccination-offer-letter.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-06-16-antimicrobial-resistance-awareness-toolkit-for-healthcare-providers-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-06-16-antimicrobial-resistance-awareness-toolkit-for-healthcare-providers.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-06-15-national-registry-for-radiation-workers-nrrw-guidance-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-06-15-national-registry-for-radiation-workers-nrrw-guidance.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-06-13-hepatitis-c-national-register-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-06-13-hepatitis-c-national-register.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "uk_ukhsa_updates"
+  },
+  {
+    "id": "guidance-2026-06-12-andes-hantavirus-epidemiology-outbreaks-and-guidance-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-06-12-andes-hantavirus-epidemiology-outbreaks-and-guidance.md",
     "source": "",
     "severity": "",
     "source_layer": "uk_ukhsa_updates"

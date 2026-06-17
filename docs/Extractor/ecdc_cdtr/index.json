@@ -10,6 +10,86 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "surveillance-2026-06-12-cdtr-week-24-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-06-12-cdtr-week-24.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2026-06-05-cdtr-week-23-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-06-05-cdtr-week-23.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2026-05-29-cdtr-week-22-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-05-29-cdtr-week-22.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2026-05-27-ervi-net-annual-meeting-respiratory-viruses-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-05-27-ervi-net-annual-meeting-respiratory-viruses.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2026-05-22-cdtr-week-21-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-05-22-cdtr-week-21.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2026-05-13-cdtr-week-20-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-05-13-cdtr-week-20.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2026-05-08-cdtr-week-19-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-05-08-cdtr-week-19.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "surveillance-2026-04-30-cdtr-week-18-md",
+    "title": "",
+    "category": "surveillance",
+    "date": "",
+    "file": "surveillance/2026-04-30-cdtr-week-18.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "surveillance-2026-04-24-cdtr-week-17-2026-md",
     "title": "",
     "category": "surveillance",
@@ -250,6 +330,46 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "situational_update-2026-06-12-ebola-outbreak-drc-uganda-md",
+    "title": "",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/2026-06-12-ebola-outbreak-drc-uganda.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "situational_update-2026-05-27-ecdc-increases-activities-ebola-drc-uganda-md",
+    "title": "",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/2026-05-27-ecdc-increases-activities-ebola-drc-uganda.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "situational_update-2026-05-26-andes-hantavirus-outbreak-mv-hondius-md",
+    "title": "",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/2026-05-26-andes-hantavirus-outbreak-mv-hondius.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "situational_update-2026-05-20-mdr-xdr-shigella-europe-md",
+    "title": "",
+    "category": "situational_update",
+    "date": "",
+    "file": "situational_update/2026-05-20-mdr-xdr-shigella-europe.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "situational_update-2026-03-18-shigellosis-gastrointestinal-infections-travellers-cabo-verde-md",
     "title": "",
     "category": "situational_update",
@@ -390,6 +510,46 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "risk_assessment-2026-05-21-threat-assessment-ebola-bundibugyo-drc-uganda-md",
+    "title": "",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/2026-05-21-threat-assessment-ebola-bundibugyo-drc-uganda.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "risk_assessment-2026-05-21-ebola-risk-europe-very-low-drc-md",
+    "title": "",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/2026-05-21-ebola-risk-europe-very-low-drc.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "risk_assessment-2026-05-09-rapid-scientific-advice-andes-virus-mv-hondius-md",
+    "title": "",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/2026-05-09-rapid-scientific-advice-andes-virus-mv-hondius.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "risk_assessment-2026-05-06-threat-assessment-hantavirus-cruise-ship-md",
+    "title": "",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/2026-05-06-threat-assessment-hantavirus-cruise-ship.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "risk_assessment-2026-02-19-multi-country-foodborne-cereulide-infant-formula-md",
     "title": "",
     "category": "risk_assessment",
@@ -436,6 +596,16 @@
     "date": "",
     "file": "risk_assessment/2025-03-06-salmonella-sprouted-seeds.md",
     "source": "- **來源**: ECDC Risk Assessment",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "risk_assessment-2025-01-30-poliovirus-wastewater-eu-eea-risk-assessment-md",
+    "title": "",
+    "category": "risk_assessment",
+    "date": "",
+    "file": "risk_assessment/2025-01-30-poliovirus-wastewater-eu-eea-risk-assessment.md",
+    "source": "",
     "severity": "",
     "source_layer": "ecdc_cdtr"
   },
@@ -520,6 +690,26 @@
     "source_layer": "ecdc_cdtr"
   },
   {
+    "id": "outbreak_report-2026-06-12-ebola-drc-uganda-outbreak-md",
+    "title": "",
+    "category": "outbreak_report",
+    "date": "",
+    "file": "outbreak_report/2026-06-12-ebola-drc-uganda-outbreak.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "outbreak_report-2026-05-26-andes-hantavirus-cruise-ship-md",
+    "title": "",
+    "category": "outbreak_report",
+    "date": "",
+    "file": "outbreak_report/2026-05-26-andes-hantavirus-cruise-ship.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
     "id": "outbreak_report-2026-03-31-ecdc-supports-latvia-leptospirosis-outbreak-review-md",
     "title": "",
     "category": "outbreak_report",
@@ -565,6 +755,56 @@
     "category": "guidance",
     "date": "",
     "file": "guidance/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-06-16-ecdc-20th-anniversary-annual-activity-report-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-06-16-ecdc-20th-anniversary-annual-activity-report.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-06-03-ecdc-efsa-disease-vector-maps-europe-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-06-03-ecdc-efsa-disease-vector-maps-europe.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-05-28-public-health-intelligence-data-analytics-ai-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-05-28-public-health-intelligence-data-analytics-ai.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-05-25-goarn-outbreak-preparedness-training-stockholm-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-05-25-goarn-outbreak-preparedness-training-stockholm.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "ecdc_cdtr"
+  },
+  {
+    "id": "guidance-2026-05-15-andes-virus-ipc-healthcare-guidance-md",
+    "title": "",
+    "category": "guidance",
+    "date": "",
+    "file": "guidance/2026-05-15-andes-virus-ipc-healthcare-guidance.md",
     "source": "",
     "severity": "",
     "source_layer": "ecdc_cdtr"

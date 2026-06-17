@@ -10,6 +10,66 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "policy-2026-06-12-hiv-religious-assault-case-response-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-06-12-hiv-religious-assault-case-response.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2026-06-07-hantavirus-cruise-ship-nz-passenger-cleared-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-06-07-hantavirus-cruise-ship-nz-passenger-cleared.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2026-06-03-ebola-border-free-testing-airport-inspection-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-06-03-ebola-border-free-testing-airport-inspection.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2026-05-29-ebola-taiwan-suspends-entry-drc-uganda-90-days-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-05-29-ebola-taiwan-suspends-entry-drc-uganda-90-days.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2026-05-27-ebola-travel-notice-level3-warning-21day-monitoring-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-05-27-ebola-travel-notice-level3-warning-21day-monitoring.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "policy-2026-05-20-ebola-travel-notice-level2-alert-who-pheic-md",
+    "title": "",
+    "category": "policy",
+    "date": "",
+    "file": "policy/2026-05-20-ebola-travel-notice-level2-alert-who-pheic.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "policy-2026-04-07-world-health-day-one-health-plan-md",
     "title": "",
     "category": "policy",
@@ -300,6 +360,46 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "medical_advisory-2026-06-11-japanese-encephalitis-medical-alert-no609-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2026-06-11-japanese-encephalitis-medical-alert-no609.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "medical_advisory-2026-05-26-dengue-first-domestic-case-medical-advisory-608-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2026-05-26-dengue-first-domestic-case-medical-advisory-608.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "medical_advisory-2026-05-19-ebola-pheic-medical-advisory-607-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2026-05-19-ebola-pheic-medical-advisory-607.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "medical_advisory-2026-05-12-cmnv-cross-species-infection-medical-advisory-606-md",
+    "title": "",
+    "category": "medical_advisory",
+    "date": "",
+    "file": "medical_advisory/2026-05-12-cmnv-cross-species-infection-medical-advisory-606.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "medical_advisory-2026-04-08-h7n7-avian-influenza-first-domestic-case-alert-md",
     "title": "",
     "category": "medical_advisory",
@@ -500,6 +600,26 @@
     "source_layer": "tw_cdc_alerts"
   },
   {
+    "id": "imported_case-2026-06-07-hondius-nz-passenger-negative-monitoring-lifted-md",
+    "title": "",
+    "category": "imported_case",
+    "date": "",
+    "file": "imported_case/2026-06-07-hondius-nz-passenger-negative-monitoring-lifted.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "imported_case-2026-05-15-hondius-nz-passenger-negative-first-test-md",
+    "title": "",
+    "category": "imported_case",
+    "date": "",
+    "file": "imported_case/2026-05-15-hondius-nz-passenger-negative-first-test.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
     "id": "imported_case-2026-04-21-measles-imported-case-foreign-student-md",
     "title": "",
     "category": "imported_case",
@@ -535,6 +655,106 @@
     "category": "domestic_outbreak",
     "date": "",
     "file": "domestic_outbreak/index.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-06-16-japanese-encephalitis-infant-hualien-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-06-16-japanese-encephalitis-infant-hualien.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-06-16-enterovirus-d68-severe-case-afp-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-06-16-enterovirus-d68-severe-case-afp.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-06-16-dengue-post-rain-prevention-kaohsiung-cluster-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-06-16-dengue-post-rain-prevention-kaohsiung-cluster.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-06-14-dengue-mobile-team-kaohsiung-hospital-cluster-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-06-14-dengue-mobile-team-kaohsiung-hospital-cluster.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-06-12-dengue-hospital-cluster-kaohsiung-mobile-team-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-06-12-dengue-hospital-cluster-kaohsiung-mobile-team.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-06-09-paratyphoid-first-domestic-case-2026-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-06-09-paratyphoid-first-domestic-case-2026.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-06-09-japanese-encephalitis-first-case-2026-chiayi-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-06-09-japanese-encephalitis-first-case-2026-chiayi.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-06-09-covid-19-rising-trend-vaccination-urged-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-06-09-covid-19-rising-trend-vaccination-urged.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-05-08-hondius-no-taiwanese-nationals-task-force-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-05-08-hondius-no-taiwanese-nationals-task-force.md",
+    "source": "",
+    "severity": "",
+    "source_layer": "tw_cdc_alerts"
+  },
+  {
+    "id": "domestic_outbreak-2026-05-07-hondius-andes-hantavirus-cluster-task-force-md",
+    "title": "",
+    "category": "domestic_outbreak",
+    "date": "",
+    "file": "domestic_outbreak/2026-05-07-hondius-andes-hantavirus-cluster-task-force.md",
     "source": "",
     "severity": "",
     "source_layer": "tw_cdc_alerts"
