@@ -1022,3 +1022,103 @@ qdrant_search() {
 
   return 1
 }
+
+########################################
+# MD 檔差異更新（update.sh 依賴）
+########################################
+
+# _qdrant_fm_get FILE KEY
+#   從 Markdown frontmatter（首段 --- ... ---）取出頂層純量值，去除前後引號。
+_qdrant_fm_get() {
+  local file="$1" key="$2"
+  sed -n '/^---[[:space:]]*$/,/^---[[:space:]]*$/p' "$file" \
+    | grep -m1 "^${key}:" \
+    | sed "s/^${key}:[[:space:]]*//" \
+    | sed 's/^"//;s/"$//;s/^'\''//;s/'\''$//'
+}
+
+# qdrant_filter_new_files COLLECTION FILE...
+#   讀取每個 MD 的 source_url，查詢 Qdrant；尚未存在者輸出其路徑（每行一個）。
+#   無 source_url 的檔案視為新檔（輸出）。
+qdrant_filter_new_files() {
+  local collection="$1"; shift
+  local f url
+  for f in "$@"; do
+    [[ -f "$f" ]] || continue
+    url="$(_qdrant_fm_get "$f" source_url)"
+    if [[ -z "$url" ]]; then
+      printf '%s\n' "$f"
+      continue
+    fi
+    if qdrant_exists_by_url "$url" "$collection" 2>/dev/null; then
+      continue   # 已存在，跳過
+    fi
+    printf '%s\n' "$f"
+  done
+}
+
+# qdrant_upsert_from_md MD_FILE LAYER_NAME
+#   解析 frontmatter + 內文 → embedding → upsert 至 Qdrant。
+#   point id 由 source_url 經 UUID v5 決定（確定性、可去重）。
+qdrant_upsert_from_md() {
+  local md_file="$1"
+  local layer="$2"
+  local collection="${QDRANT_COLLECTION:-disease-and-advisory}"
+
+  [[ -f "$md_file" ]] || { echo "❌ [qdrant_upsert_from_md] 檔案不存在：$md_file" >&2; return 1; }
+
+  local title source_url date category
+  title="$(_qdrant_fm_get "$md_file" title)"
+  source_url="$(_qdrant_fm_get "$md_file" source_url)"
+  date="$(_qdrant_fm_get "$md_file" date)"
+  category="$(_qdrant_fm_get "$md_file" category)"
+
+  if [[ -z "$source_url" ]]; then
+    echo "❌ [qdrant_upsert_from_md] 缺 source_url：$md_file" >&2
+    return 1
+  fi
+
+  # 內文：跳過 frontmatter（前兩個 --- 之間），取其後內容作為 embedding 來源
+  local body
+  body="$(awk 'BEGIN{c=0} /^---[[:space:]]*$/{if(c<2){c++; next}} c>=2{print}' "$md_file")"
+
+  # embedding 文字 = 標題 + 內文，截斷至 ~6000 字元（text-embedding-3-small 上限 8191 tokens）
+  local embed_text
+  embed_text="$(printf '%s\n%s' "$title" "$body" | head -c 6000)"
+
+  local vector
+  vector="$(chatgpt_embed "$embed_text")" || {
+    echo "❌ [qdrant_upsert_from_md] embedding 失敗：$md_file" >&2
+    return 1
+  }
+  if [[ -z "$vector" || "$vector" == "null" ]]; then
+    echo "❌ [qdrant_upsert_from_md] embedding 為空：$md_file" >&2
+    return 1
+  fi
+
+  local point_id
+  point_id="$(_qdrant_id_to_uuid "$source_url")" || return 1
+
+  # 相對路徑（去除 PROJECT_ROOT 前綴，與既有 payload 一致）
+  local rel_path="$md_file"
+  rel_path="${rel_path#"${PROJECT_ROOT:-}"/}"
+
+  local fetched_at
+  fetched_at="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+
+  local payload
+  payload="$(
+    jq -nc \
+      --arg title "$title" \
+      --arg source_url "$source_url" \
+      --arg date "$date" \
+      --arg category "$category" \
+      --arg source_layer "$layer" \
+      --arg file_path "$rel_path" \
+      --arg fetched_at "$fetched_at" \
+      '{title:$title, source_url:$source_url, date:$date, category:$category,
+        source_layer:$source_layer, file_path:$file_path, fetched_at:$fetched_at}'
+  )"
+
+  qdrant_upsert_point "$collection" "$point_id" "$vector" "$payload"
+}

@@ -34,7 +34,7 @@ seo:
           '@type': 'ImageObject'
           url: 'https://epialert.weiqi.kids/assets/images/logo.png'
         datePublished: '2026-01-01T00:00:00Z'
-        dateModified: '2026-04-26T18:00:00+08:00'
+        dateModified: '2026-06-17T17:30:00+08:00'
         speakable:
           '@type': 'SpeakableSpecification'
           cssSelector:
@@ -62,7 +62,7 @@ seo:
           contactType: 'technical support'
           url: 'https://github.com/weiqi-kids/agent.disease-and-advisory/issues'
   ymyl:
-    lastReviewed: '2026-04-26'
+    lastReviewed: '2026-06-17'
     reviewedBy: 'EpiAlert AI 編輯'
     medicalDisclaimer: '本網站內容僅供參考，不構成醫療建議或診斷。如有健康疑慮，請諮詢專業醫療人員。'
 ---
@@ -72,10 +72,10 @@ seo:
 AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 等 7 大官方來源
 {: .fs-6 .fw-300 }
 
-**最後更新：2026-04-26 18:00 (UTC+8)**
+**最後更新：2026-06-17 17:30 (UTC+8)**
 {: .label .label-green }
 
-[查看 2026-W17 週報](Narrator/weekly_digest/2026-W17){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[查看 2026-W25 週報](Narrator/weekly_digest/2026-W25){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [歷史週報](Narrator/weekly_digest){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
@@ -109,47 +109,54 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
     </tr>
   </thead>
   <tbody>
-    <tr data-region="asia">
+    <tr data-region="africa">
       <td style="text-align:center">🔴</td>
-      <td>台灣首例本土H7N7禽流感人類感染</td>
-      <td>台灣</td>
-      <td>70多歲禽類養殖業男性感染LPAI H7N7，已康復解除隔離，為台灣首次本土禽流感人類感染</td>
-      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
+      <td>剛果/烏干達 Bundibugyo 型伊波拉 PHEIC</td>
+      <td>剛果、烏干達</td>
+      <td>WHO 5/17 宣布 DRC 伊圖里省與烏干達 Bundibugyo 型伊波拉疫情為 PHEIC，台灣升至第三級警告並暫停兩國居民入境 90 天，目前無核准疫苗或療法</td>
+      <td><a href="Extractor/ecdc_cdtr">ECDC</a> <a href="Extractor/uk_ukhsa_updates">UKHSA</a> <a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
+    </tr>
+    <tr data-region="global">
+      <td style="text-align:center">🔴</td>
+      <td>MV Hondius 郵輪 Andes 漢他病毒跨國群聚</td>
+      <td>全球（23 國旅客）</td>
+      <td>荷蘭籍郵輪爆發 Andes 漢他病毒（唯一具人傳人能力株）群聚，涉及 23 國旅客與船員，ECDC 陸續發布威脅評估與 IPC 指引</td>
+      <td><a href="Extractor/ecdc_cdtr">ECDC</a> <a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
     </tr>
     <tr data-region="europe">
-      <td style="text-align:center">🔴</td>
-      <td>多塞特郡MenB疫情</td>
+      <td style="text-align:center">🟡</td>
+      <td>英國麻疹 2 例兒童死亡，累計 736 例</td>
       <td>英國</td>
-      <td>韋茅斯3例MenB確診，6,500名年輕人接受抗生素預防及疫苗接種，與肯特郡疫情無關</td>
+      <td>UKHSA 6/11 確認英格蘭 2026 年累計 736 例麻疹並出現 2 名兒童死亡，最近兩週新增 106 例，速度遠超 2025 全年 959 例</td>
       <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
     </tr>
     <tr data-region="asia">
       <td style="text-align:center">🟡</td>
-      <td>立百病毒列第五類法定傳染病</td>
-      <td>台灣</td>
-      <td>衛福部公告新增立百病毒感染症為第五類法定傳染病，24小時內通報</td>
+      <td>高雄登革熱醫院群聚累計 6 例</td>
+      <td>台灣（高雄）</td>
+      <td>疾管署 6/16 公布高雄醫院群聚 6 例，病毒序列與越南境外移入相同，擴大採檢逾 1,400 人均陰性，梅雨後積水為防治重點</td>
       <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
     </tr>
-    <tr data-region="global">
+    <tr data-region="asia">
       <td style="text-align:center">🟡</td>
-      <td>全球麻疹疫情嚴峻</td>
-      <td>全球</td>
-      <td>台灣累計8例、印尼逾15,000例、墨西哥逾9,000例、美國逾1,700例、英國407例</td>
-      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a> <a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
+      <td>台灣日本腦炎首例/腸病毒 D68 重症</td>
+      <td>台灣</td>
+      <td>花蓮未滿 1 歲女嬰確診日本腦炎（2026 年第 2 例），另北部女童腸病毒 D68 型併發急性無力肢體麻痺，正值 6-7 月流行高峰</td>
+      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
+    </tr>
+    <tr data-region="europe">
+      <td style="text-align:center">🟡</td>
+      <td>歐洲 MDR/XDR 志賀桿菌持續擴散</td>
+      <td>歐洲（14 國）</td>
+      <td>ECDC 5/20 更新：14 個歐洲國家逾 2,300 例多重抗藥性志賀桿菌，7 個群聚，對氟喹諾酮及三代頭孢菌素具抗藥性</td>
+      <td><a href="Extractor/ecdc_cdtr">ECDC</a></td>
     </tr>
     <tr data-region="europe">
       <td style="text-align:center">🟢</td>
-      <td>RSV母嬰疫苗住院率降85%</td>
+      <td>英國擴大 MenB 疫苗計畫</td>
       <td>英國</td>
-      <td>UKHSA發布全球最大規模研究，追蹤近30萬名嬰兒，確認孕婦接種RSV疫苗大幅降低嬰兒住院率</td>
+      <td>UKHSA 6/11 宣布 2026 秋季一次性 MenB 疫苗計畫，為 13 年級學生及大學新生提供 2 劑，應對 2024-25 年 313 例 MenB（佔 IMD 約 83%）</td>
       <td><a href="Extractor/uk_ukhsa_updates">UKHSA</a></td>
-    </tr>
-    <tr data-region="asia">
-      <td style="text-align:center">🟡</td>
-      <td>M痘疫情較去年增倍</td>
-      <td>台灣</td>
-      <td>2026年累計12例（去年同期6例），近8成未接種疫苗，全球46國持續傳播</td>
-      <td><a href="Extractor/tw_cdc_alerts">TW CDC</a></td>
     </tr>
   </tbody>
 </table>
@@ -157,7 +164,7 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 **風險等級說明**：🔴 高風險（PHEIC/大規模爆發）｜🟡 中風險（區域爆發/新興威脅）｜🟢 低風險（散發案例/常規監測）
 {: .fs-3 .text-grey-dk-000 }
 
-[查看完整週報分析 →](Narrator/weekly_digest/2026-W17){: .btn .btn-primary }
+[查看完整週報分析 →](Narrator/weekly_digest/2026-W25){: .btn .btn-primary }
 
 ---
 
@@ -165,7 +172,7 @@ AI 驅動的全球疫情週報 — 整合 WHO、CDC、ECDC、UKHSA、台灣 CDC 
 
 | 📊 整合公告 | 🦠 追蹤疾病 | 🌍 涵蓋國家 | 📚 歷史資料 |
 |:-----------:|:-----------:|:-----------:|:-----------:|
-| **121** 個 | **22** 種 | **35** 個 | **2,535+** 篇 |
+| **2,643** 個 | **22** 種 | **38** 個 | **2,737** 篇 |
 
 ---
 
