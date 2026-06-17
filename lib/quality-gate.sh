@@ -207,7 +207,7 @@ qg_check_extraction_stats() {
         local layer_name
         layer_name=$(basename "$layer_dir")
         local count
-        count=$(find "$layer_dir" -name "*.md" -type f 2>/dev/null | grep -v "index.md" | grep -v "/raw/" | wc -l | tr -d ' ')
+        count=$( { find "$layer_dir" -name "*.md" -type f 2>/dev/null | grep -v "index.md" | grep -v "/raw/" || true; } | wc -l | tr -d ' ')
         total=$((total + count))
         echo "  $layer_name: $count 篇"
     done
