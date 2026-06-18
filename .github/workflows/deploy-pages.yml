@@ -1,4 +1,13 @@
-name: Deploy to GitHub Pages
+name: Build Check (Jekyll)
+
+# 注意：線上網站由 GitHub Pages 的 legacy build（Pages 設定為 branch main /docs）
+# 實際供稿。本 workflow 僅用 Jekyll 4.3 驗證網站能成功 build，不做部署——
+# 先前的 deploy job 會與 legacy build 搶 "pages" 部署而出現 "Deployment cancelled"
+# 間歇性失敗，故移除。
+#
+# 若日後要改用 GitHub Actions 部署（Jekyll 4.3 + just-the-docs、clean URL），
+# 需將 repo Pages 設定的 build_type 由 legacy 改為 workflow，並還原 deploy job；
+# 但這會把既有 .html URL 改為 clean URL，影響既有索引，需一併處理 redirect。
 
 on:
   push:
@@ -11,12 +20,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
 
 jobs:
   build:
@@ -29,23 +32,7 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
-      - name: Build Jekyll
+      - name: Build Jekyll (validation only)
         run: bundle exec jekyll build --source docs --destination _site --config _config.yml
         env:
           JEKYLL_ENV: production
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
