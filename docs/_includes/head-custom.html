@@ -1,0 +1,7 @@
+{%- comment -%}
+GitHub Pages 的 legacy build（jekyll 3.10 / github-pages gem）在 <head> 中
+include 的檔名是 head-custom.html（連字號），而非 just-the-docs 慣用的
+head_custom.html（底線）。為讓豐富 JSON-LD / meta 在現行 legacy build 也能
+渲染，這裡 wrapper 直接 include 既有的 head_custom.html，維持單一內容來源。
+{%- endcomment -%}
+{% include head_custom.html %}
